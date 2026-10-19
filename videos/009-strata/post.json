@@ -11,13 +11,13 @@
   "follow_gate": true,
   "slot": 2,
   "price_source": "https://openai.com/chatgpt/pricing/",
-  "idempotencyKey": "0914bce8-3eea-4595-abe7-bf813ecc4b23",
+  "idempotencyKey": "9a28cd6f-5086-472c-a7df-134156119eb3",
   "zernio": {
-    "postId": "6ad6838c91f57e1f758a314e",
+    "postId": "6ad687c5adc5ad8965bc0667",
     "status": "scheduled",
-    "scheduledFor": "2026-10-20T15:53:00.000Z",
+    "scheduledFor": "2026-10-19T22:40:00.000Z",
     "url": null,
-    "automationId": "6ad6838e22a488af28e70f91",
+    "automationId": "6ad687c8d697960797fd8e3e",
     "slot": 2
   }
 }

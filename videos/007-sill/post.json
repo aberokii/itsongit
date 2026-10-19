@@ -11,13 +11,13 @@
   "follow_gate": true,
   "slot": 0,
   "price_source": "https://apps.apple.com/us/app/duet-display/id935754064",
-  "idempotencyKey": "50f6a22b-57cb-42ef-b588-ee5cf2d3e4cd",
+  "idempotencyKey": "b1e08272-2989-43e8-96e0-16f50425edad",
   "zernio": {
-    "postId": "6ad682f3e3b0cb158ae7072c",
+    "postId": "6ad687b2adc5ad8965bc0626",
     "status": "scheduled",
-    "scheduledFor": "2026-10-20T10:57:00.000Z",
+    "scheduledFor": "2026-10-19T22:10:00.000Z",
     "url": null,
-    "automationId": "6ad682f791435d536cd98d59",
+    "automationId": "6ad687b58358f632172a6d5f",
     "slot": 0
   }
 }

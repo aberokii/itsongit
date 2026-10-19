@@ -6,11 +6,11 @@ The scout (`pipeline/scout.py`) skips these automatically via `data/posted.json`
 | # | Repo | Video | Keyword | Status | When (UTC) | Instagram |
 |---|---|---|---|---|---|---|
 | 1 | [momenbasel/PureMac](https://github.com/momenbasel/PureMac) | 001-puremac | MAC | published | 2026-10-19T19:46 | https://www.instagram.com/reel/DesCn--G41b/ |
-| 2 | [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio) | 002-voicestudio | VOICE | scheduled | 2026-10-20T05:59 |  |
-| 3 | [KnifeLemon/Filee](https://github.com/KnifeLemon/Filee) | 003-filee | FILE | scheduled | 2026-10-20T09:25 |  |
-| 4 | [jub0t/Concat](https://github.com/jub0t/Concat) | 004-concat | EDIT | scheduled | 2026-10-20T13:23 |  |
-| 5 | [didriksg/Crisp](https://github.com/didriksg/Crisp) | 005-crisp | SCREEN | scheduled | 2026-10-20T18:26 |  |
-| 6 | [anomalyco/opencode](https://github.com/anomalyco/opencode) | 006-opencode | CODE | scheduled | 2026-10-20T20:17 |  |
-| 7 | [Saffsanity/sill](https://github.com/Saffsanity/sill) | 007-sill | MIRROR | scheduled | 2026-10-20T10:57 |  |
-| 8 | [robbietilton/Compositor](https://github.com/robbietilton/Compositor) | 008-compositor | PHOTO | scheduled | 2026-10-20T07:29 |  |
-| 9 | [Niko1221/Strata](https://github.com/Niko1221/Strata) | 009-strata | CHAT | scheduled | 2026-10-20T15:53 |  |
+| 2 | [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio) | 002-voicestudio | VOICE | scheduled | 2026-10-19T21:25 |  |
+| 3 | [KnifeLemon/Filee](https://github.com/KnifeLemon/Filee) | 003-filee | FILE | scheduled | 2026-10-19T21:55 |  |
+| 4 | [jub0t/Concat](https://github.com/jub0t/Concat) | 004-concat | EDIT | scheduled | 2026-10-19T22:25 |  |
+| 5 | [didriksg/Crisp](https://github.com/didriksg/Crisp) | 005-crisp | SCREEN | scheduled | 2026-10-19T22:55 |  |
+| 6 | [anomalyco/opencode](https://github.com/anomalyco/opencode) | 006-opencode | CODE | scheduled | 2026-10-19T23:10 |  |
+| 7 | [Saffsanity/sill](https://github.com/Saffsanity/sill) | 007-sill | MIRROR | scheduled | 2026-10-19T22:10 |  |
+| 8 | [robbietilton/Compositor](https://github.com/robbietilton/Compositor) | 008-compositor | PHOTO | scheduled | 2026-10-19T21:40 |  |
+| 9 | [Niko1221/Strata](https://github.com/Niko1221/Strata) | 009-strata | CHAT | scheduled | 2026-10-19T22:40 |  |

@@ -11,13 +11,13 @@
   "follow_gate": true,
   "slot": 0,
   "price_source": "https://elevenlabs.io/pricing",
-  "idempotencyKey": "aaa806dc-3d64-4863-ba33-95dd87fe34eb",
+  "idempotencyKey": "42cac560-0c1a-4de1-80cf-c801b29b9696",
   "zernio": {
-    "postId": "6ad682b91d9cf76073e3882a",
+    "postId": "6ad687950afbf0d8e7287ee5",
     "status": "scheduled",
-    "scheduledFor": "2026-10-20T05:59:00.000Z",
+    "scheduledFor": "2026-10-19T21:25:00.000Z",
     "url": null,
-    "automationId": "6ad682bc61aca89cd511d7a0",
+    "automationId": "6ad6879893c02306f1afe7c1",
     "slot": 0
   }
 }

@@ -11,13 +11,13 @@
   "follow_gate": true,
   "slot": 3,
   "price_source": "https://betterdisplay.pro/",
-  "idempotencyKey": "490e91a4-a438-445f-8402-7eb95b410e7d",
+  "idempotencyKey": "7f85c49c-fce8-41a2-941a-d2b19987fffb",
   "zernio": {
-    "postId": "6ad682d51d9cf76073e38f56",
+    "postId": "6ad687cfadc5ad8965bc068c",
     "status": "scheduled",
-    "scheduledFor": "2026-10-20T18:26:00.000Z",
+    "scheduledFor": "2026-10-19T22:55:00.000Z",
     "url": null,
-    "automationId": "6ad682d7f74f174f478422d4",
+    "automationId": "6ad687d178194b4bbd1426b1",
     "slot": 3
   }
 }

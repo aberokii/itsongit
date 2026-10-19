@@ -11,13 +11,13 @@
   "follow_gate": true,
   "slot": 4,
   "price_source": "https://cursor.com/pricing",
-  "idempotencyKey": "7aa625dd-0cca-409a-ba23-a0d6f0dce25c",
+  "idempotencyKey": "b23022b1-66fb-4234-afc6-1e6e78a6eed0",
   "zernio": {
-    "postId": "6ad682ddd2c7d95728ec52b9",
+    "postId": "6ad687d7adc5ad8965bc06bb",
     "status": "scheduled",
-    "scheduledFor": "2026-10-20T20:17:00.000Z",
+    "scheduledFor": "2026-10-19T23:10:00.000Z",
     "url": null,
-    "automationId": "6ad682e09187e7420ed890ad",
+    "automationId": "6ad687da8358f632172a6d78",
     "slot": 4
   }
 }
