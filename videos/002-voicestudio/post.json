@@ -1,0 +1,23 @@
+{
+  "title": "VoiceStudio: free ElevenLabs alternative",
+  "video": "FINAL.mp4",
+  "thumbnail": "FINAL_thumbnail.png",
+  "repo_url": "https://github.com/debpalash/VoiceStudio",
+  "keyword": "VOICE",
+  "caption": "ElevenLabs charges $6/month. VoiceStudio does the same job for free \ud83c\udf99\ufe0f\n\n\u2705 Clone a voice from a clean recording\n\u2705 Design a new voice just by describing it\n\u2705 Dub videos, 646 languages\n\u2705 Runs on your own computer, no subscription, 100% free\n\nComment \"VOICE\" and I'll DM you the link \ud83d\udd17\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #ai #voiceai #texttospeech #voicecloning #elevenlabs #freeapps",
+  "dm_pitch": "VoiceStudio, the free open-source ElevenLabs alternative \ud83c\udf99\ufe0f",
+  "install": "curl -fsSL https://voicestudio.sh/install | sh",
+  "dm_on_any_comment": true,
+  "follow_gate": true,
+  "slot": 0,
+  "price_source": "https://elevenlabs.io/pricing",
+  "idempotencyKey": "aaa806dc-3d64-4863-ba33-95dd87fe34eb",
+  "zernio": {
+    "postId": "6ad682b91d9cf76073e3882a",
+    "status": "scheduled",
+    "scheduledFor": "2026-10-20T05:59:00.000Z",
+    "url": null,
+    "automationId": "6ad682bc61aca89cd511d7a0",
+    "slot": 0
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "title": "Sill: free Duet alternative",
+  "video": "FINAL.mp4",
+  "thumbnail": "FINAL_thumbnail.png",
+  "repo_url": "https://github.com/Saffsanity/sill",
+  "keyword": "MIRROR",
+  "caption": "Duet charges $3.99/month to put your Mac on your iPad. Sill does it for free \ud83d\udcf2\n\n\u2705 Any Mac window, live on your iPhone or iPad\n\u2705 Touch, Apple Pencil, trackpad and keyboard\n\u2705 Laptop mode + launch any Mac app from your iPad\n\u2705 No account, no servers, no subscription, 100% free\n\n\ud83d\udcbb Mac \u00b7 iPhone \u00b7 iPad\n\u2139\ufe0f Two free apps: Sill for Mac (download or Homebrew) plus Sill on the App Store for iPhone/iPad. Needs an Apple silicon Mac on macOS 14+.\n\nComment \"MIRROR\" and I'll DM you the link \ud83d\udd17\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #macos #ipad #iphone #productivity #freeapps #techtips",
+  "dm_pitch": "Sill, the free open-source Duet alternative for your Mac and iPad \ud83d\udcf2",
+  "install": "brew install --cask saffsanity/sill/sill",
+  "dm_on_any_comment": true,
+  "follow_gate": true,
+  "slot": 0,
+  "price_source": "https://apps.apple.com/us/app/duet-display/id935754064",
+  "idempotencyKey": "50f6a22b-57cb-42ef-b588-ee5cf2d3e4cd",
+  "zernio": {
+    "postId": "6ad682f3e3b0cb158ae7072c",
+    "status": "scheduled",
+    "scheduledFor": "2026-10-20T10:57:00.000Z",
+    "url": null,
+    "automationId": "6ad682f791435d536cd98d59",
+    "slot": 0
+  }
+}

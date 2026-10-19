@@ -1,0 +1,23 @@
+{
+  "title": "Filee: free CloudConvert alternative",
+  "video": "FINAL.mp4",
+  "thumbnail": "FINAL_thumbnail.png",
+  "repo_url": "https://github.com/KnifeLemon/Filee",
+  "keyword": "FILE",
+  "caption": "CloudConvert charges $8/month. Filee does the same job for free \ud83d\udd04\n\n\u2705 Hold a key, drag files, drop them on a format at your cursor\n\u2705 246 formats: images, PDF, Word, Excel, video, audio, e-books\n\u2705 Nothing uploaded, works offline on your computer\n\u2705 No subscription, no tracking, 100% free\n\nComment \"FILE\" and I'll DM you the link \ud83d\udd17\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #fileconverter #pdf #windows #productivity #freeapps #techtips",
+  "dm_pitch": "Filee, the free open-source CloudConvert alternative \ud83d\udd04",
+  "install": "Download from GitHub Releases",
+  "dm_on_any_comment": true,
+  "follow_gate": true,
+  "slot": 1,
+  "price_source": "https://cloudconvert.com/pricing",
+  "idempotencyKey": "b7a42df4-4a3e-42cb-adb7-526a865ad6db",
+  "zernio": {
+    "postId": "6ad682c31d9cf76073e388f3",
+    "status": "scheduled",
+    "scheduledFor": "2026-10-20T09:25:00.000Z",
+    "url": null,
+    "automationId": "6ad682c59187e7420ed89036",
+    "slot": 1
+  }
+}

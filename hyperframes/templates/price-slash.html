@@ -1,0 +1,111 @@
+<!doctype html>
+<!-- price-slash hook template: pipeline/make.py fills {{PAID}} {{PRICE}} {{PER}} {{NAME}}, the T timing line and data-duration -->
+<html lang="en" data-resolution="portrait">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1080, height=1920" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600;800;900&family=JetBrains+Mono:wght@700&display=block" rel="stylesheet" />
+    <link rel="stylesheet" href="brand.css" />
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+    <style>
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+      html, body { width: 1080px; height: 1920px; overflow: hidden; background: var(--bg); }
+      #root { position: relative; width: 100%; height: 100%; font-family: var(--font); color: var(--text); background: var(--bg); overflow: hidden; }
+      .layer { position: absolute; inset: 0; }
+      #grid { background: radial-gradient(rgba(240, 246, 252, 0.07) 2px, transparent 2px) 0 0 / 44px 44px; }
+      #glow-bad { background: radial-gradient(circle at 50% 36%, rgba(248, 81, 73, 0.3), transparent 58%); }
+      #glow-good { background: radial-gradient(circle at 50% 42%, color-mix(in srgb, var(--accent) 34%, transparent), transparent 60%); opacity: 0; }
+      .center { position: absolute; left: 0; width: 100%; display: flex; justify-content: center; }
+      #top { position: absolute; inset: 0; transform-origin: 50% 300px; }
+      #brand { top: 420px; }
+      #brand span {
+        font-weight: 800; font-size: 66px; letter-spacing: -0.02em; color: var(--text);
+        padding: 14px 38px; border: 4px solid var(--negative); border-radius: 999px; background: rgba(248, 81, 73, 0.14);
+      }
+      #price { top: 560px; align-items: baseline; }
+      #price .num { font-weight: 900; font-size: calc(290px * var(--k, 1)); letter-spacing: -0.07em; line-height: 1; }
+      #price .per { font-weight: 900; font-size: calc(84px * var(--k, 1)); color: var(--negative); margin-left: 12px; }
+      #strike {
+        position: absolute; left: 190px; top: 705px; width: 700px; height: 30px;
+        background: var(--negative); border-radius: 15px; transform-origin: left center; rotate: -9deg;
+        box-shadow: 0 0 40px rgba(248, 81, 73, 0.6);
+      }
+      #rays { position: absolute; left: 540px; top: 760px; width: 0; height: 0; }
+      #rays i {
+        position: absolute; left: -7px; top: -380px; width: 14px; height: 110px; border-radius: 7px;
+        background: var(--accent); transform-origin: 7px 380px;
+      }
+      #icon { top: 570px; }
+      #icon img { width: 380px; height: 380px; filter: drop-shadow(0 30px 70px rgba(0, 0, 0, 0.6)); }
+      #name { top: 955px; }
+      #name span { display: inline-block; font-weight: 900; font-size: 84px; letter-spacing: -0.04em; }
+      #free { top: 1075px; align-items: center; gap: 30px; }
+      #free .num { font-weight: 900; font-size: 270px; letter-spacing: -0.07em; line-height: 1; color: var(--accent); }
+      #free .pill {
+        font-weight: 900; font-size: 84px; letter-spacing: -0.03em; color: var(--accent-ink);
+        background: var(--accent); padding: 8px 34px 14px; border-radius: 28px;
+      }
+      #job { top: 1385px; }
+      #job span {
+        font-weight: 800; font-size: var(--js, 56px); letter-spacing: -0.02em; color: var(--text); white-space: nowrap;
+        padding: 14px 36px 18px; border-radius: 999px; background: rgba(240, 246, 252, 0.08); border: 3px solid rgba(240, 246, 252, 0.22);
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root" data-composition-id="main" data-start="0" data-duration="4.9" data-width="1080" data-height="1920">
+      <div id="grid" class="layer clip" data-start="0" data-duration="4.9" data-track-index="0"></div>
+      <div id="glow-bad" class="layer clip" data-start="0" data-duration="4.9" data-track-index="1"></div>
+      <div id="glow-good" class="layer clip" data-start="0" data-duration="4.9" data-track-index="2"></div>
+      <div id="top" class="clip" data-start="0" data-duration="4.9" data-track-index="3" data-layout-allow-occlusion>
+        <div id="brand" class="center"><span>{{PAID}}</span></div>
+        <div id="price" class="center" data-layout-allow-occlusion style="--k: {{PK}}"><span class="num">{{PRICE}}</span><span class="per">{{PER}}</span></div>
+        <div id="strike" data-layout-allow-occlusion></div>
+      </div>
+      <div id="rays" class="clip" data-start="0" data-duration="4.9" data-track-index="4">
+        <i style="rotate: 0deg"></i><i style="rotate: 30deg"></i><i style="rotate: 60deg"></i><i style="rotate: 90deg"></i>
+        <i style="rotate: 120deg"></i><i style="rotate: 150deg"></i><i style="rotate: 180deg"></i><i style="rotate: 210deg"></i>
+        <i style="rotate: 240deg"></i><i style="rotate: 270deg"></i><i style="rotate: 300deg"></i><i style="rotate: 330deg"></i>
+      </div>
+      <div id="icon" class="center clip" data-start="0" data-duration="4.9" data-track-index="5"><img src="icon.png" alt="" /></div>
+      <div id="name" class="center clip" data-start="0" data-duration="4.9" data-track-index="6"><span>{{NAME}}</span></div>
+      <div id="job" class="center clip" data-start="0" data-duration="4.9" data-track-index="8" style="--js: {{JS}}"><span>{{JOB}}</span></div>
+      <div id="free" class="center clip" data-start="0" data-duration="4.9" data-track-index="7"><span class="num">$0</span><span class="pill">FREE</span></div>
+    </div>
+    <script>
+      window.__timelines = window.__timelines || {};
+      // HOOK_TIMING: word start times from the voiceover; scripts/build_hook.py rewrites this line per voice
+      const T = { t40: 1.38, tThis: 2.52, tFree: 4.46, tName: 5.7, dur: 6.5 };
+      const tl = gsap.timeline({ paused: true });
+      // Frame 0 is already a full frame: the price is on screen and mid-zoom, never a fade from black.
+      // Beats are synced to the voiceover word timings (v2/audio/transcripts/vo.json).
+      tl.set(["#icon", "#name", "#free", "#rays"], { opacity: 0 }, 0);
+      tl.set("#strike", { scaleX: 0 }, 0);
+      tl.fromTo("#top", { scale: 1.1, rotation: -3 }, { scale: 1, rotation: 0, duration: 0.9, ease: "expo.out" }, 0);
+      tl.fromTo("#glow-bad", { opacity: 1.0 }, { opacity: 0.7, duration: 1.2, ease: "sine.inOut", yoyo: true, repeat: 1 }, 0);
+      // "40" → punch
+      tl.fromTo("#price", { scale: 1.12 }, { scale: 1, duration: 0.35, ease: "back.out(3)" }, T.t40 - 0.02);
+      // "This app" → strike, the price shrinks away, the glow turns to the accent
+      tl.to("#strike", { scaleX: 1, duration: 0.22, ease: "power2.in" }, T.tThis - 0.07);
+      tl.to("#top", { scale: 0.5, y: -120, opacity: 0.45, duration: 0.55, ease: "power3.inOut" }, T.tThis + 0.18);
+      tl.to("#glow-bad", { opacity: 0, duration: 0.5 }, T.tThis + 0.18);
+      tl.to("#glow-good", { opacity: 1, duration: 0.5 }, T.tThis + 0.18);
+      tl.fromTo("#icon", { opacity: 0, scale: 0.2, rotation: -25 }, { opacity: 1, scale: 1, rotation: 0, duration: 0.6, ease: "back.out(1.7)" }, T.tThis + 0.33);
+      tl.fromTo("#name", { opacity: 0, y: 30 }, { opacity: 1, y: 0, duration: 0.4, ease: "power3.out" }, T.tThis + 0.68);
+      tl.fromTo("#icon", { y: 0 }, { y: -18, duration: T.dur - T.tThis - 0.93, ease: "sine.inOut" }, T.tThis + 0.93);
+      // "PureMac" → the name punches in the accent
+      tl.fromTo("#name span", { scale: 1, color: "#f0f6fc" }, { scale: 1.18, color: "var(--accent)", duration: 0.25, ease: "power2.out" }, T.tName - 0.04);
+      tl.to("#name span", { scale: 1, duration: 0.3, ease: "back.out(2)" }, T.tName + 0.21);
+      tl.fromTo("#root", { scale: 1 }, { scale: 1.04, duration: T.dur, ease: "none" }, 0);
+      // "free" → $0 slam + burst
+      tl.fromTo("#free", { opacity: 0, scale: 1.6 }, { opacity: 1, scale: 1, duration: 0.4, ease: "back.out(2)" }, T.tFree - 0.06);
+      tl.fromTo("#rays", { opacity: 1, scale: 0.7 }, { opacity: 0, scale: 1.35, duration: 0.5, ease: "power2.out" }, T.tFree - 0.04);
+      tl.fromTo("#icon img", { scale: 1.12 }, { scale: 1, duration: 0.35, ease: "back.out(3)" }, T.tFree - 0.04);
+      // what the app does: on screen from frame 0 under the price, then it settles under "$0 FREE" on "This app"
+      tl.fromTo("#job", { y: -440, scale: 1.08 }, { y: 0, scale: 1, duration: 0.55, ease: "power3.inOut" }, T.tThis + 0.18);
+      window.__timelines["main"] = tl;
+      tl.seek(0);
+    </script>
+  </body>
+</html>

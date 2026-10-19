@@ -1,0 +1,29 @@
+{
+ "repo": "Niko1221/Strata",
+ "name": "Strata",
+ "title": "Strata: free ChatGPT Plus alternative",
+ "slot": 2,
+ "keyword": "CHAT",
+ "paid": {"name": "ChatGPT Plus", "price": "$20", "per": "/month", "anchor": "twenty", "source": "https://openai.com/chatgpt/pricing/"},
+ "icon": "https://raw.githubusercontent.com/Niko1221/Strata/main/apps/desktop/src-tauri/icons/Square310x310Logo.png",
+ "hook": "ChatGPT Plus charges you twenty bucks a month to chat with an AI. This app does it for free.",
+ "job": "Runs a private AI on your PC",
+ "platforms": ["Windows", "Mac", "Linux"],
+ "features": [
+  {"intro": "It's a chat that lives on your PC.",
+   "say": "Ask questions, write code, even show it pictures.",
+   "images": ["https://raw.githubusercontent.com/Niko1221/Strata/main/docs/media/app-chat.png"],
+   "chips": [{"label": "💬 Questions", "anchor": "questions"}, {"label": "Code", "anchor": "code"}, {"label": "🖼 Pictures", "anchor": "pictures"}]},
+  {"say": "It runs on your own graphics card, so your chats stay private.",
+   "images": ["https://raw.githubusercontent.com/Niko1221/Strata/main/docs/media/runpagoda.png"],
+   "chips": [{"label": "🔒 Private", "anchor": "private"}, {"label": "Your GPU", "anchor": "graphics"}]},
+  {"say": "Watch its speed and your graphics card live.",
+   "images": ["https://raw.githubusercontent.com/Niko1221/Strata/main/docs/media/terminal-monitor.png"],
+   "chips": []}
+ ],
+ "nolist": [{"say": "No account.", "label": "Account"}, {"say": "No cloud.", "label": "Cloud"}, {"say": "No subscription.", "label": "Subscription"}],
+ "install": "Download from GitHub Releases",
+ "caption": "ChatGPT Plus charges $20/month. Strata gives you a private AI chat on your own PC for free 🤖\n\n✅ Chat, write code and show it pictures\n✅ Runs on your own graphics card, chats stay on your PC\n✅ Live monitor of speed and GPU\n✅ No account, no cloud, no subscription, 100% free\n\n💻 Windows · Mac · Linux\nℹ️ It's a beta and needs a decent PC: at least 32 GB of RAM + graphics memory together, about 80 GB free disk, and a 40-70 GB model download on first start. Not for old laptops.\n\nComment \"CHAT\" and I'll DM you the link 🔗\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #ai #chatgpt #localai #privacy #freeapps #techtips",
+ "dm_pitch": "Strata, the free open-source private AI chat for your own PC 🤖",
+ "thumb": {"big": "FREE", "line1": "ChatGPT Plus", "line2": "alternative"}
+}

@@ -1,0 +1,54 @@
+{
+ "repo": "robbietilton/Compositor",
+ "name": "Compositor",
+ "title": "Compositor: free Photoshop alternative",
+ "slot": 1,
+ "keyword": "PHOTO",
+ "paid": {
+  "name": "Photoshop",
+  "price": "$19.99",
+  "per": "/month",
+  "anchor": "twenty",
+  "source": "https://www.adobe.com/creativecloud/plans.html"
+ },
+ "icon": "https://raw.githubusercontent.com/robbietilton/Compositor/main/Compositor/Assets.xcassets/AppIcon.appiconset/app-icon-1024.png",
+ "hook": "Photoshop charges you twenty bucks a month to edit your photos. This app does it for free.",
+ "job": "Edits photos like Photoshop",
+ "platforms": ["Mac"],
+ "features": [
+  {
+   "intro": "It has the Photoshop tools you know.",
+   "say": "Layers, masks, blend modes and Camera Raw.",
+   "images": ["assets/window.png"],
+   "chips": [
+    {"label": "🗂 Layers", "anchor": "layers"},
+    {"label": "🎭 Masks", "anchor": "masks"},
+    {"label": "Camera Raw", "anchor": "raw"}
+   ]
+  },
+  {
+   "say": "Curves, levels, hue and saturation, with live previews.",
+   "images": ["assets/huesat.png", "assets/levels.png"],
+   "swap_anchor": "levels",
+   "chips": [
+    {"label": "📈 Curves", "anchor": "curves"},
+    {"label": "Levels", "anchor": "levels"}
+   ]
+  },
+  {
+   "say": "It even opens your PSD files.",
+   "images": ["assets/window.png"],
+   "chips": []
+  }
+ ],
+ "nolist": [
+  {"say": "No subscription.", "label": "Subscription"},
+  {"say": "No paywall.", "label": "Paywall"},
+  {"say": "No upsells.", "label": "Upsells"}
+ ],
+ "install": "brew install --cask robbietilton-compositor",
+ "install_url": "https://robbietilton.com/compositor",
+ "caption": "Photoshop charges $19.99/month. Compositor edits your photos for free 🖼️\n\n✅ Layers, masks, blend modes and Camera Raw\n✅ Curves, levels, hue/saturation with live previews\n✅ Opens your PSD files\n✅ No subscription, no paywall, 100% free\n\n💻 Mac\nℹ️ Needs a Mac with Apple silicon on macOS 26 or later. PSD import is 8-bit RGB only (no CMYK), and some Photoshop vectors become pixels. Price shown is Adobe's Photography plan (Photoshop + Lightroom), the cheapest plan with Photoshop.\n\nComment \"PHOTO\" and I'll DM you the link 🔗\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #macos #photoshop #photoediting #photography #freeapps #techtips",
+ "dm_pitch": "Compositor, the free open-source Photoshop alternative for Mac 🖼️",
+ "thumb": {"big": "FREE", "line1": "Photoshop", "line2": "alternative"}
+}

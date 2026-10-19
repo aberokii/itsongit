@@ -1,0 +1,23 @@
+{
+  "title": "Concat: free CapCut alternative",
+  "video": "FINAL.mp4",
+  "thumbnail": "FINAL_thumbnail.png",
+  "repo_url": "https://github.com/jub0t/Concat",
+  "keyword": "EDIT",
+  "caption": "CapCut Pro charges $20/month. Concat does the same job for free \ud83c\udfac\n\n\u2705 Auto captions, text to speech, background removal\n\u2705 Keyframes, titles, 100 effects, up to 4K export\n\u2705 Runs 100% on your computer, works offline\n\u2705 No watermark, no account, no subscription\n\nComment \"EDIT\" and I'll DM you the link \ud83d\udd17\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #videoediting #capcut #contentcreator #reels #freeapps #techtips",
+  "dm_pitch": "Concat, the free open-source CapCut alternative \ud83c\udfac",
+  "install": "Download from GitHub Releases",
+  "dm_on_any_comment": true,
+  "follow_gate": true,
+  "slot": 2,
+  "price_source": "https://www.capcut.com/resource/capcut-standard-vs-pro",
+  "idempotencyKey": "a1fa95c4-6c00-466d-9c71-d64253a5d7cb",
+  "zernio": {
+    "postId": "6ad682cb1d9cf76073e38ab8",
+    "status": "scheduled",
+    "scheduledFor": "2026-10-20T13:23:00.000Z",
+    "url": null,
+    "automationId": "6ad682cf9187e7420ed89040",
+    "slot": 2
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "title": "Crisp: free BetterDisplay alternative",
+  "video": "FINAL.mp4",
+  "thumbnail": "FINAL_thumbnail.png",
+  "repo_url": "https://github.com/didriksg/Crisp",
+  "keyword": "SCREEN",
+  "caption": "BetterDisplay Pro charges $22. Crisp does the same job for free \ud83d\udda5\ufe0f\n\n\u2705 Sharp Retina-quality scaling on any monitor, no more blurry text\n\u2705 Real brightness + volume control for external displays\n\u2705 Presets, virtual displays and one-click display setups\n\u2705 No Pro tier, no license key, 100% free\n\nComment \"SCREEN\" and I'll DM you the link \ud83d\udd17\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #macos #macbook #monitor #productivity #freeapps #techtips",
+  "dm_pitch": "Crisp, the free open-source BetterDisplay alternative \ud83d\udda5\ufe0f",
+  "install": "brew install --cask crisp",
+  "dm_on_any_comment": true,
+  "follow_gate": true,
+  "slot": 3,
+  "price_source": "https://betterdisplay.pro/",
+  "idempotencyKey": "490e91a4-a438-445f-8402-7eb95b410e7d",
+  "zernio": {
+    "postId": "6ad682d51d9cf76073e38f56",
+    "status": "scheduled",
+    "scheduledFor": "2026-10-20T18:26:00.000Z",
+    "url": null,
+    "automationId": "6ad682d7f74f174f478422d4",
+    "slot": 3
+  }
+}

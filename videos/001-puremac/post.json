@@ -1,0 +1,24 @@
+{
+  "title": "PureMac: free CleanMyMac alternative",
+  "video": "FINAL_puremac.mp4",
+  "thumbnail": "FINAL_puremac_thumbnail.png",
+  "repo_url": "https://github.com/momenbasel/PureMac",
+  "keyword": "MAC",
+  "caption": "CleanMyMac charges $40/year. PureMac does the same job for free 🧹\n\n✅ Clears system caches, logs, Xcode + Docker junk\n✅ Finds every file an app leaves behind\n✅ Duplicate files + similar photos finder\n✅ No subscription, no tracking, 100% free\n\nComment \"MAC\" and I'll DM you the link 🔗\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #macos #macbook #productivity #freeapps #techtips",
+  "dm_button": "Open on GitHub",
+  "price_source": "PureMac README comparison table (CleanMyMac $40+/yr), verify on macpaw.com before posting",
+  "dm_on_any_comment": true,
+  "idempotencyKey": "1a546ab6-b3cc-41d5-a2b7-a332fb871231",
+  "zernio": {
+    "postId": "6ad6737168536d9661a18f54",
+    "status": "published",
+    "scheduledFor": "2026-10-19T19:45:53.327Z",
+    "url": "https://www.instagram.com/reel/DesCn--G41b/",
+    "automationId": "6ad673766f627ba2442fd3b4",
+    "slot": 0,
+    "platformPostId": "18195556228402709",
+    "publishedAt": "2026-10-19T19:46:55Z"
+  },
+  "dm_pitch": "PureMac, the free open-source CleanMyMac alternative 🧹",
+  "install": "brew install --cask puremac"
+}

@@ -1,0 +1,7 @@
+{
+  "name": "web-capture",
+  "private": true,
+  "type": "module",
+  "description": "Automated website / live-demo capture for reel b-roll (screenshots, full-page, scroll + interaction recordings)",
+  "dependencies": { "playwright-core": "^1.56.0" }
+}

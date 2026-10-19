@@ -1,0 +1,92 @@
+{
+ "repo": "Saffsanity/sill",
+ "name": "Sill",
+ "title": "Sill: free Duet alternative",
+ "slot": 0,
+ "keyword": "MIRROR",
+ "paid": {
+  "name": "Duet Starter",
+  "price": "$3.99",
+  "per": "/month",
+  "anchor": "four",
+  "source": "https://apps.apple.com/us/app/duet-display/id935754064"
+ },
+ "icon": "https://raw.githubusercontent.com/Saffsanity/sill/main/iOSClient/Assets.xcassets/AppIcon.appiconset/AppIcon.png",
+ "hook": "Duet charges you four bucks a month to put your Mac on your iPad. This app does it for free.",
+ "job": "Puts your Mac on your iPad",
+ "platforms": [
+  "Mac",
+  "iPhone",
+  "iPad"
+ ],
+ "features": [
+  {
+   "intro": "It puts any Mac window on your iPad.",
+   "say": "Live, with touch, Apple Pencil, a trackpad and keys.",
+   "images": [
+    "assets/window.png"
+   ],
+   "chips": [
+    {
+     "label": "👆 Touch",
+     "anchor": "touch"
+    },
+    {
+     "label": "✏️ Apple Pencil",
+     "anchor": "pencil"
+    },
+    {
+     "label": "Trackpad",
+     "anchor": "trackpad"
+    }
+   ]
+  },
+  {
+   "say": "Hold it upright for laptop mode, with a trackpad and keys below.",
+   "images": [
+    "assets/laptop.png"
+   ],
+   "chips": [
+    {
+     "label": "💻 Laptop mode",
+     "anchor": "laptop"
+    },
+    {
+     "label": "⌨️ Keys",
+     "anchor": "keys"
+    }
+   ]
+  },
+  {
+   "say": "Launch any Mac app from your iPad.",
+   "images": [
+    "assets/apps.png"
+   ],
+   "chips": []
+  }
+ ],
+ "nolist": [
+  {
+   "say": "No account.",
+   "label": "Account"
+  },
+  {
+   "say": "No servers.",
+   "label": "Servers"
+  },
+  {
+   "say": "No subscription.",
+   "label": "Subscription"
+  }
+ ],
+ "install": "brew install --cask saffsanity/sill/sill",
+ "install_url": "https://getsill.app",
+ "caption": "Duet charges $3.99/month to put your Mac on your iPad. Sill does it for free 📲\n\n✅ Any Mac window, live on your iPhone or iPad\n✅ Touch, Apple Pencil, trackpad and keyboard\n✅ Laptop mode + launch any Mac app from your iPad\n✅ No account, no servers, no subscription, 100% free\n\n💻 Mac · iPhone · iPad\nℹ️ Two free apps: Sill for Mac (download or Homebrew) plus Sill on the App Store for iPhone/iPad. Needs an Apple silicon Mac on macOS 14+.\n\nComment \"MIRROR\" and I'll DM you the link 🔗\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #macos #ipad #iphone #productivity #freeapps #techtips",
+ "dm_pitch": "Sill, the free open-source Duet alternative for your Mac and iPad 📲",
+ "thumb": {
+  "big": "FREE",
+  "line1": "Duet",
+  "line2": "alternative"
+ },
+ "install_line": "Get the Mac app with one command, and the free iPhone and iPad app on the App Store."
+}

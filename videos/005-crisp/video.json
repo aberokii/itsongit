@@ -1,0 +1,80 @@
+{
+ "repo": "didriksg/Crisp",
+ "name": "Crisp",
+ "title": "Crisp: free BetterDisplay alternative",
+ "slot": 3,
+ "keyword": "SCREEN",
+ "paid": {
+  "name": "BetterDisplay",
+  "price": "$22",
+  "per": "",
+  "anchor": "twenty",
+  "source": "https://betterdisplay.pro/"
+ },
+ "icon": "https://raw.githubusercontent.com/didriksg/Crisp/main/Crisp/Assets.xcassets/AppIcon.appiconset/icon_512.png",
+ "hook": "BetterDisplay charges you twenty two bucks. This app does the same job, for free.",
+ "features": [
+  {
+   "intro": "It fixes blurry text on your external monitor.",
+   "say": "Sharp, Retina quality scaling on any display, at the full refresh rate.",
+   "images": [
+    "assets/display-mode.png"
+   ],
+   "chips": [
+    {
+     "label": "✨ Retina sharp",
+     "anchor": "retina"
+    },
+    {
+     "label": "⚡ Full refresh rate",
+     "anchor": "refresh"
+    }
+   ]
+  },
+  {
+   "say": "Real brightness and volume control for your monitor, plus presets you apply with one click.",
+   "images": [
+    "assets/brightness.png",
+    "https://raw.githubusercontent.com/didriksg/Crisp/main/docs/screenshot.png"
+   ],
+   "chips": [
+    {
+     "label": "☀️ Brightness",
+     "anchor": "brightness"
+    },
+    {
+     "label": "🔊 Volume",
+     "anchor": "volume"
+    },
+    {
+     "label": "⭐ Presets",
+     "anchor": "presets"
+    }
+   ],
+   "swap_anchor": "presets"
+  }
+ ],
+ "nolist": [
+  {
+   "say": "No Pro tier.",
+   "label": "Pro tier"
+  },
+  {
+   "say": "No license key.",
+   "label": "License key"
+  },
+  {
+   "say": "No subscription.",
+   "label": "Subscription"
+  }
+ ],
+ "install": "brew install --cask crisp",
+ "install_url": "https://crispmac.app/",
+ "caption": "BetterDisplay Pro charges $22. Crisp does the same job for free 🖥️\n\n✅ Sharp Retina-quality scaling on any monitor, no more blurry text\n✅ Real brightness + volume control for external displays\n✅ Presets, virtual displays and one-click display setups\n✅ No Pro tier, no license key, 100% free\n\nComment \"SCREEN\" and I'll DM you the link 🔗\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #macos #macbook #monitor #productivity #freeapps #techtips",
+ "dm_pitch": "Crisp, the free open-source BetterDisplay alternative 🖥️",
+ "thumb": {
+  "big": "FREE",
+  "line1": "BetterDisplay",
+  "line2": "alternative"
+ }
+}

@@ -1,0 +1,102 @@
+{
+ "repo": "jub0t/Concat",
+ "name": "Concat",
+ "title": "Concat: free CapCut alternative",
+ "slot": 2,
+ "keyword": "EDIT",
+ "paid": {
+  "name": "CapCut Pro",
+  "price": "$20",
+  "per": "/month",
+  "anchor": "twenty",
+  "source": "https://www.capcut.com/resource/capcut-standard-vs-pro"
+ },
+ "icon": "https://raw.githubusercontent.com/jub0t/Concat/main/assets/icons/concat_logo_512.png",
+ "hook": "CapCut Pro charges you twenty bucks a month. This app does the same job, for free.",
+ "features": [
+  {
+   "intro": "It does everything you actually open CapCut for.",
+   "say": "Auto captions, text to speech, even background removal.",
+   "images": [
+    "https://raw.githubusercontent.com/jub0t/Concat/main/assets/editor.png",
+    "https://concatenate.pages.dev/_astro/feature-voices.CCtxVlSz_S7DKG.webp"
+   ],
+   "swap_anchor": "speech",
+   "chips": [
+    {
+     "label": "💬 Auto captions",
+     "anchor": "captions"
+    },
+    {
+     "label": "🗣 Text to speech",
+     "anchor": "speech"
+    },
+    {
+     "label": "🧍 Background removal",
+     "anchor": "background"
+    }
+   ]
+  },
+  {
+   "say": "Keyframes, titles, a hundred effects, and up to four K export.",
+   "images": [
+    "https://concatenate.pages.dev/_astro/feature-captions.D-aoqBFg_Zd6DLF.webp",
+    "https://concatenate.pages.dev/_astro/feature-titles.DYcrG1cX_W3Bbz.webp"
+   ],
+   "swap_anchor": "titles",
+   "chips": [
+    {
+     "label": "🎞 Keyframes",
+     "anchor": "keyframes"
+    },
+    {
+     "label": "✨ 100 effects",
+     "anchor": "effects"
+    },
+    {
+     "label": "📤 4K export",
+     "anchor": "export"
+    }
+   ]
+  },
+  {
+   "say": "And it all runs on your own computer, even offline. Your footage never leaves your disk.",
+   "images": [
+    "https://raw.githubusercontent.com/jub0t/Concat/main/assets/editor-light.png"
+   ],
+   "chips": [
+    {
+     "label": "🔒 100% local",
+     "anchor": "computer"
+    },
+    {
+     "label": "📴 Works offline",
+     "anchor": "offline"
+    }
+   ]
+  }
+ ],
+ "nolist": [
+  {
+   "say": "No watermark.",
+   "label": "Watermark"
+  },
+  {
+   "say": "No account.",
+   "label": "Account"
+  },
+  {
+   "say": "No subscription.",
+   "label": "Subscription"
+  }
+ ],
+ "install": "Download from GitHub Releases",
+ "install_url": "https://concat.standalones.org",
+ "caption": "CapCut Pro charges $20/month. Concat does the same job for free 🎬\n\n✅ Auto captions, text to speech, background removal\n✅ Keyframes, titles, 100 effects, up to 4K export\n✅ Runs 100% on your computer, works offline\n✅ No watermark, no account, no subscription\n\nComment \"EDIT\" and I'll DM you the link 🔗\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #videoediting #capcut #contentcreator #reels #freeapps #techtips",
+ "dm_pitch": "Concat, the free open-source CapCut alternative 🎬",
+ "thumb": {
+  "big": "FREE",
+  "line1": "CapCut",
+  "line2": "alternative"
+ }
+}

@@ -1,0 +1,23 @@
+{
+  "title": "Strata: free ChatGPT Plus alternative",
+  "video": "FINAL.mp4",
+  "thumbnail": "FINAL_thumbnail.png",
+  "repo_url": "https://github.com/Niko1221/Strata",
+  "keyword": "CHAT",
+  "caption": "ChatGPT Plus charges $20/month. Strata gives you a private AI chat on your own PC for free \ud83e\udd16\n\n\u2705 Chat, write code and show it pictures\n\u2705 Runs on your own graphics card, chats stay on your PC\n\u2705 Live monitor of speed and GPU\n\u2705 No account, no cloud, no subscription, 100% free\n\n\ud83d\udcbb Windows \u00b7 Mac \u00b7 Linux\n\u2139\ufe0f It's a beta and needs a decent PC: at least 32 GB of RAM + graphics memory together, about 80 GB free disk, and a 40-70 GB model download on first start. Not for old laptops.\n\nComment \"CHAT\" and I'll DM you the link \ud83d\udd17\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #ai #chatgpt #localai #privacy #freeapps #techtips",
+  "dm_pitch": "Strata, the free open-source private AI chat for your own PC \ud83e\udd16",
+  "install": "Download from GitHub Releases",
+  "dm_on_any_comment": true,
+  "follow_gate": true,
+  "slot": 2,
+  "price_source": "https://openai.com/chatgpt/pricing/",
+  "idempotencyKey": "0914bce8-3eea-4595-abe7-bf813ecc4b23",
+  "zernio": {
+    "postId": "6ad6838c91f57e1f758a314e",
+    "status": "scheduled",
+    "scheduledFor": "2026-10-20T15:53:00.000Z",
+    "url": null,
+    "automationId": "6ad6838e22a488af28e70f91",
+    "slot": 2
+  }
+}

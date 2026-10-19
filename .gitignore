@@ -1,0 +1,43 @@
+# secrets
+.env
+.env.*
+!.env.example
+
+# deps / caches
+node_modules/
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+hyperframes/.hyperframes/
+studio/out/
+studio/.remotion/
+
+# generated media (rebuilt by make.py; never commit)
+studio/public/reels/
+studio/public/v001/
+smoke/
+*.mp4
+*.mov
+*.wav
+*.mp3
+*.webm
+
+# per-video folders: keep only the spec, post record, script and small hand-made stills
+videos/**
+!videos/*/
+!videos/*/video.json
+!videos/*/post.json
+!videos/*/script.txt
+!videos/*/assets/
+!videos/*/assets/*.png
+!videos/*/assets/*.jpg
+
+# local tool caches
+.remotion/
+.cache/
+data/logs/
+
+# reel sound effects are source assets, not generated media
+!studio/public/sfx/
+!studio/public/sfx/**

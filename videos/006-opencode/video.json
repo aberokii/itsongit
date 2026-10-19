@@ -1,0 +1,88 @@
+{
+ "repo": "anomalyco/opencode",
+ "name": "OpenCode",
+ "title": "OpenCode: free Cursor alternative",
+ "slot": 4,
+ "keyword": "CODE",
+ "paid": {
+  "name": "Cursor Premium",
+  "price": "$30",
+  "per": "/month",
+  "anchor": "thirty",
+  "source": "https://cursor.com/pricing"
+ },
+ "icon": "https://raw.githubusercontent.com/anomalyco/opencode/dev/packages/desktop/icons/prod/icon.png",
+ "hook": "Cursor Premium charges you thirty bucks a month. This app does the same job, for free.",
+ "features": [
+  {
+   "intro": "It's an AI agent that helps you write code.",
+   "say": "Use it in your terminal, inside your code editor, or as a desktop app.",
+   "images": [
+    "https://raw.githubusercontent.com/anomalyco/opencode/dev/packages/console/app/src/asset/lander/screenshot.png",
+    "https://raw.githubusercontent.com/anomalyco/opencode/dev/packages/console/app/src/asset/lander/screenshot-vscode.png"
+   ],
+   "swap_anchor": "editor",
+   "chips": [
+    {
+     "label": "💻 Terminal",
+     "anchor": "terminal"
+    },
+    {
+     "label": "🧩 Code editor",
+     "anchor": "editor"
+    },
+    {
+     "label": "🖥 Desktop app",
+     "anchor": "desktop"
+    }
+   ]
+  },
+  {
+   "say": "Free models are included, or plug in Claude, GPT, Gemini, even local models.",
+   "images": [
+    "https://raw.githubusercontent.com/anomalyco/opencode/dev/packages/web/src/assets/lander/screenshot.png"
+   ],
+   "chips": [
+    {
+     "label": "✓ Free models",
+     "anchor": "free"
+    },
+    {
+     "label": "Claude",
+     "anchor": "claude"
+    },
+    {
+     "label": "GPT",
+     "anchor": "gpt"
+    },
+    {
+     "label": "Gemini",
+     "anchor": "gemini"
+    }
+   ]
+  }
+ ],
+ "nolist": [
+  {
+   "say": "No subscription.",
+   "label": "Subscription"
+  },
+  {
+   "say": "No model lock-in.",
+   "label": "Lock-in"
+  },
+  {
+   "say": "No code stored.",
+   "label": "Code stored"
+  }
+ ],
+ "install": "curl -fsSL https://opencode.ai/v2/install | bash",
+ "install_url": "https://opencode.ai",
+ "caption": "Cursor Premium charges $30/month. OpenCode does the same job for free 🤖\n\n✅ AI coding agent for your terminal, code editor or desktop\n✅ Free models included, or bring Claude, GPT, Gemini or local models\n✅ Log in with your ChatGPT Plus/Pro or GitHub Copilot account\n✅ Doesn't store your code, 100% free and open source\n\nComment \"CODE\" and I'll DM you the link 🔗\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #coding #ai #aitools #programming #developer #freeapps",
+ "dm_pitch": "OpenCode, the free open-source Cursor alternative 🤖",
+ "thumb": {
+  "big": "FREE",
+  "line1": "Cursor",
+  "line2": "alternative"
+ }
+}

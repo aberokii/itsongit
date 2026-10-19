@@ -1,0 +1,21 @@
+[project]
+name = "itsongit-pipeline"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "faster-whisper>=1.2.1",
+    "kokoro-onnx>=0.6.1",
+    "pillow>=13.0.0",
+    "python-dotenv>=1.2.4",
+    "requests>=2.34.2",
+    "soundfile>=0.14.0",
+]
+
+[project.scripts]
+itsongit-pipeline = "itsongit_pipeline:main"
+
+[build-system]
+requires = ["uv_build>=0.12.18,<0.13.0"]
+build-backend = "uv_build"

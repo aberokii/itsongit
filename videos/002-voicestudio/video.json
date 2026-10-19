@@ -1,0 +1,31 @@
+{
+  "repo": "debpalash/VoiceStudio",
+  "name": "VoiceStudio",
+  "title": "VoiceStudio: free ElevenLabs alternative",
+  "slot": 0,
+  "keyword": "VOICE",
+  "paid": {"name": "ElevenLabs", "price": "$6", "per": "/month", "anchor": "six",
+           "source": "https://elevenlabs.io/pricing"},
+  "icon": "https://raw.githubusercontent.com/debpalash/VoiceStudio/main/docs/logo.png",
+  "hook": "ElevenLabs charges you six dollars a month. This app does the same job, for free.",
+  "features": [
+    {"intro": "It clones voices, right on your own computer.",
+     "say": "Add a clean recording, type your text, and hit generate.",
+     "images": ["https://raw.githubusercontent.com/debpalash/VoiceStudio/main/docs/media/electron/voice-cloning.png"],
+     "chips": [{"label": "🎙 Clean recording", "anchor": "recording"}, {"label": "⌨️ Your text", "anchor": "text"},
+               {"label": "▶ Generate", "anchor": "generate"}]},
+    {"say": "Or describe a voice, like a warm British storyteller, and it designs one.",
+     "images": ["https://raw.githubusercontent.com/debpalash/VoiceStudio/main/docs/media/electron/voice-design.png"],
+     "chips": [{"label": "✍️ Describe it", "anchor": "describe"}]},
+    {"say": "It even dubs your videos into another language, and it covers six hundred forty six languages.",
+     "images": ["https://raw.githubusercontent.com/debpalash/VoiceStudio/main/docs/media/electron/dubbing.png"],
+     "chips": [{"label": "🎬 Video dubbing", "anchor": "dubs"}, {"label": "🌍 646 languages", "anchor": "covers"}]}
+  ],
+  "nolist": [{"say": "No subscription.", "label": "Subscription"}, {"say": "No cloud.", "label": "Cloud"},
+             {"say": "No credits.", "label": "Credits"}],
+  "install": "curl -fsSL https://voicestudio.sh/install | sh",
+  "install_url": "https://voicestudio.sh",
+  "caption": "ElevenLabs charges $6/month. VoiceStudio does the same job for free 🎙️\n\n✅ Clone a voice from a clean recording\n✅ Design a new voice just by describing it\n✅ Dub videos, 646 languages\n✅ Runs on your own computer, no subscription, 100% free\n\nComment \"VOICE\" and I'll DM you the link 🔗\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #ai #voiceai #texttospeech #voicecloning #elevenlabs #freeapps",
+  "dm_pitch": "VoiceStudio, the free open-source ElevenLabs alternative 🎙️",
+  "thumb": {"big": "FREE", "line1": "ElevenLabs", "line2": "alternative"}
+}

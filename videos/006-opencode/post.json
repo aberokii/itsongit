@@ -1,0 +1,23 @@
+{
+  "title": "OpenCode: free Cursor alternative",
+  "video": "FINAL.mp4",
+  "thumbnail": "FINAL_thumbnail.png",
+  "repo_url": "https://github.com/anomalyco/opencode",
+  "keyword": "CODE",
+  "caption": "Cursor Premium charges $30/month. OpenCode does the same job for free \ud83e\udd16\n\n\u2705 AI coding agent for your terminal, code editor or desktop\n\u2705 Free models included, or bring Claude, GPT, Gemini or local models\n\u2705 Log in with your ChatGPT Plus/Pro or GitHub Copilot account\n\u2705 Doesn't store your code, 100% free and open source\n\nComment \"CODE\" and I'll DM you the link \ud83d\udd17\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #coding #ai #aitools #programming #developer #freeapps",
+  "dm_pitch": "OpenCode, the free open-source Cursor alternative \ud83e\udd16",
+  "install": "curl -fsSL https://opencode.ai/v2/install | bash",
+  "dm_on_any_comment": true,
+  "follow_gate": true,
+  "slot": 4,
+  "price_source": "https://cursor.com/pricing",
+  "idempotencyKey": "7aa625dd-0cca-409a-ba23-a0d6f0dce25c",
+  "zernio": {
+    "postId": "6ad682ddd2c7d95728ec52b9",
+    "status": "scheduled",
+    "scheduledFor": "2026-10-20T20:17:00.000Z",
+    "url": null,
+    "automationId": "6ad682e09187e7420ed890ad",
+    "slot": 4
+  }
+}

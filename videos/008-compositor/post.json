@@ -1,0 +1,23 @@
+{
+  "title": "Compositor: free Photoshop alternative",
+  "video": "FINAL.mp4",
+  "thumbnail": "FINAL_thumbnail.png",
+  "repo_url": "https://github.com/robbietilton/Compositor",
+  "keyword": "PHOTO",
+  "caption": "Photoshop charges $19.99/month. Compositor edits your photos for free \ud83d\uddbc\ufe0f\n\n\u2705 Layers, masks, blend modes and Camera Raw\n\u2705 Curves, levels, hue/saturation with live previews\n\u2705 Opens your PSD files\n\u2705 No subscription, no paywall, 100% free\n\n\ud83d\udcbb Mac\n\u2139\ufe0f Needs a Mac with Apple silicon on macOS 26 or later. PSD import is 8-bit RGB only (no CMYK), and some Photoshop vectors become pixels. Price shown is Adobe's Photography plan (Photoshop + Lightroom), the cheapest plan with Photoshop.\n\nComment \"PHOTO\" and I'll DM you the link \ud83d\udd17\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #macos #photoshop #photoediting #photography #freeapps #techtips",
+  "dm_pitch": "Compositor, the free open-source Photoshop alternative for Mac \ud83d\uddbc\ufe0f",
+  "install": "brew install --cask robbietilton-compositor",
+  "dm_on_any_comment": true,
+  "follow_gate": true,
+  "slot": 1,
+  "price_source": "https://www.adobe.com/creativecloud/plans.html",
+  "idempotencyKey": "644a1e39-4e25-4196-b092-2391fbd2d824",
+  "zernio": {
+    "postId": "6ad684020cdb8a25793f2d0d",
+    "status": "scheduled",
+    "scheduledFor": "2026-10-20T07:29:00.000Z",
+    "url": null,
+    "automationId": "6ad684056ef6f108470cd0c1",
+    "slot": 1
+  }
+}
