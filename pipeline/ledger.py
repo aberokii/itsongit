@@ -27,8 +27,13 @@ try:
         page = zz.api("GET", "/posts", query={"platform": "instagram", "limit": 100})
         for post in page.get("posts", []):
             repo = (post.get("metadata") or {}).get("repo", "").split("github.com/")[-1].strip("/")
-            if repo and repo.lower() not in rows:
-                pl = (post.get("platforms") or [{}])[0]
+            pl = (post.get("platforms") or [{}])[0]
+            if repo and repo.lower() in rows:  # Zernio is the live source for status, publish time and IG link
+                r = rows[repo.lower()]
+                r["status"] = post.get("status") or r["status"]
+                r["when"] = (pl.get("publishedAt") or post.get("scheduledFor") or r["when"])[:16]
+                r["url"] = pl.get("platformPostUrl") or r["url"]
+            elif repo:
                 rows[repo.lower()] = {"repo": repo, "video": (post.get("metadata") or {}).get("reel", ""), "title": "", "keyword": (post.get("metadata") or {}).get("keyword", ""),
                                       "status": post.get("status", ""), "when": (pl.get("publishedAt") or post.get("scheduledFor") or "")[:16], "url": pl.get("platformPostUrl") or ""}
 except SystemExit:

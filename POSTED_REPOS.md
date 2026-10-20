@@ -6,13 +6,13 @@ The scout (`pipeline/scout.py`) skips these automatically via `data/posted.json`
 | # | Repo | Video | Keyword | Status | When (UTC) | Instagram |
 |---|---|---|---|---|---|---|
 | 1 | [momenbasel/PureMac](https://github.com/momenbasel/PureMac) | 001-puremac | MAC | published | 2026-10-19T19:46 | https://www.instagram.com/reel/DesCn--G41b/ |
-| 2 | [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio) | 002-voicestudio | VOICE | scheduled | 2026-10-19T21:25 |  |
-| 3 | [KnifeLemon/Filee](https://github.com/KnifeLemon/Filee) | 003-filee | FILE | scheduled | 2026-10-19T21:55 |  |
-| 4 | [jub0t/Concat](https://github.com/jub0t/Concat) | 004-concat | EDIT | scheduled | 2026-10-19T22:25 |  |
-| 5 | [didriksg/Crisp](https://github.com/didriksg/Crisp) | 005-crisp | SCREEN | scheduled | 2026-10-19T22:55 |  |
-| 6 | [anomalyco/opencode](https://github.com/anomalyco/opencode) | 006-opencode | CODE | scheduled | 2026-10-19T23:10 |  |
-| 7 | [Saffsanity/sill](https://github.com/Saffsanity/sill) | 007-sill | MIRROR | scheduled | 2026-10-19T22:10 |  |
-| 8 | [robbietilton/Compositor](https://github.com/robbietilton/Compositor) | 008-compositor | PHOTO | scheduled | 2026-10-19T21:40 |  |
-| 9 | [Niko1221/Strata](https://github.com/Niko1221/Strata) | 009-strata | CHAT | scheduled | 2026-10-19T22:40 |  |
+| 2 | [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio) | 002-voicestudio | VOICE | published | 2026-10-19T21:26 | https://www.instagram.com/reel/DesOFGvFI5w/ |
+| 3 | [KnifeLemon/Filee](https://github.com/KnifeLemon/Filee) | 003-filee | FILE | published | 2026-10-19T21:57 | https://www.instagram.com/reel/DesRnIniDOA/ |
+| 4 | [jub0t/Concat](https://github.com/jub0t/Concat) | 004-concat | EDIT | published | 2026-10-19T22:26 | https://www.instagram.com/reel/DesU8p5jRKZ/ |
+| 5 | [didriksg/Crisp](https://github.com/didriksg/Crisp) | 005-crisp | SCREEN | published | 2026-10-19T22:57 | https://www.instagram.com/reel/DesYbQGjBzt/ |
+| 6 | [anomalyco/opencode](https://github.com/anomalyco/opencode) | 006-opencode | CODE | published | 2026-10-19T23:12 | https://www.instagram.com/reel/DesaPNMla48/ |
+| 7 | [Saffsanity/sill](https://github.com/Saffsanity/sill) | 007-sill | MIRROR | published | 2026-10-19T22:11 | https://www.instagram.com/reel/DesTPbPAk4b/ |
+| 8 | [robbietilton/Compositor](https://github.com/robbietilton/Compositor) | 008-compositor | PHOTO | published | 2026-10-19T21:41 | https://www.instagram.com/reel/DesPzHSDTbL/ |
+| 9 | [Niko1221/Strata](https://github.com/Niko1221/Strata) | 009-strata | CHAT | published | 2026-10-19T22:41 | https://www.instagram.com/reel/DesWqfHiZAG/ |
 | 10 | [Flow-Tube/Flow](https://github.com/Flow-Tube/Flow) | 010-flow | FLOW | scheduled | 2026-10-20T13:02 |  |
 | 11 | [DuarteSantos8/openGym](https://github.com/DuarteSantos8/openGym) | 011-opengym | GYM | scheduled | 2026-10-20T17:24 |  |
