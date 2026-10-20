@@ -1,0 +1,106 @@
+{
+ "repo": "storytold/pdfcraft",
+ "name": "PdfCraft",
+ "title": "PdfCraft: free Adobe Acrobat alternative",
+ "slot": 3,
+ "keyword": "PAGES",
+ "paid": {
+  "name": "Adobe Acrobat",
+  "price": "$14.99",
+  "per": "/month",
+  "anchor": "fifteen",
+  "source": "https://www.adobe.com/acrobat/pricing.html"
+ },
+ "icon": "https://raw.githubusercontent.com/storytold/pdfcraft/main/assets/app-icon/hicolor/512x512/apps/ai.storyteller.pdfcraft.png",
+ "hook": "Adobe Acrobat charges you fifteen dollars a month to merge and organize your PDFs. This app does it for free.",
+ "job": "Merges and sorts your PDFs",
+ "platforms": [
+  "Mac",
+  "Windows",
+  "Linux"
+ ],
+ "features": [
+  {
+   "intro": "Every page, laid out like cards.",
+   "say": "Rotate, delete, move or insert pages, then merge files or split them up.",
+   "images": [
+    "https://raw.githubusercontent.com/storytold/pdfcraft/main/docs/images/pdfcraft-organize.png",
+    "https://raw.githubusercontent.com/storytold/pdfcraft/main/docs/images/pdfcraft-split.png"
+   ],
+   "swap_anchor": "split",
+   "chips": [
+    {
+     "label": "🔄 Rotate",
+     "anchor": "rotate"
+    },
+    {
+     "label": "🧩 Merge",
+     "anchor": "merge"
+    },
+    {
+     "label": "✂️ Split",
+     "anchor": "split"
+    }
+   ]
+  },
+  {
+   "say": "Mark it up with highlights, notes and stamps.",
+   "images": [
+    "https://raw.githubusercontent.com/storytold/pdfcraft/main/docs/images/pdfcraft-layers.png"
+   ],
+   "chips": [
+    {
+     "label": "🖍 Highlights",
+     "anchor": "highlights"
+    },
+    {
+     "label": "✅ Stamps",
+     "anchor": "stamps"
+    }
+   ]
+  },
+  {
+   "say": "Fill in forms, add a signature, or lock it with a password.",
+   "images": [
+    "https://raw.githubusercontent.com/storytold/pdfcraft/main/docs/images/pdfcraft-forms.png"
+   ],
+   "chips": [
+    {
+     "label": "📝 Fill forms",
+     "anchor": "forms"
+    },
+    {
+     "label": "✍️ Signature",
+     "anchor": "signature"
+    },
+    {
+     "label": "🔒 Password",
+     "anchor": "password"
+    }
+   ]
+  }
+ ],
+ "nolist": [
+  {
+   "say": "No account.",
+   "label": "Account"
+  },
+  {
+   "say": "No telemetry.",
+   "label": "Telemetry"
+  },
+  {
+   "say": "No cloud.",
+   "label": "Cloud"
+  }
+ ],
+ "install": "Download from GitHub Releases",
+ "install_url": "https://getartcraft.com/apps/pdfcraft",
+ "caption": "Adobe Acrobat charges $14.99/month. PdfCraft merges, organizes and marks up your PDFs for free 📄\n\n✅ Rotate, delete, move and insert pages\n✅ Merge files into one, or split them apart\n✅ Highlights, notes and stamps\n✅ Fill forms, sign and password-protect\n✅ No account, no telemetry, no cloud, 100% free\n\n💻 Mac · Windows · Linux\nℹ️ It's still alpha: organizing, markup and forms work well today, but editing existing text isn't reliable yet.\n\nComment \"PAGES\" and I'll DM you the link 🔗\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #pdf #productivity #freeapps #windows #macos #techtips",
+ "dm_pitch": "PdfCraft, the free open-source Adobe Acrobat alternative for your PDFs 📄",
+ "thumb": {
+  "big": "FREE",
+  "line1": "Adobe Acrobat",
+  "line2": "alternative"
+ }
+}

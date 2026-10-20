@@ -1,0 +1,23 @@
+{
+  "title": "PdfCraft: free Adobe Acrobat alternative",
+  "video": "FINAL.mp4",
+  "thumbnail": "FINAL_thumbnail.png",
+  "repo_url": "https://github.com/storytold/pdfcraft",
+  "keyword": "PAGES",
+  "caption": "Adobe Acrobat charges $14.99/month. PdfCraft merges, organizes and marks up your PDFs for free \ud83d\udcc4\n\n\u2705 Rotate, delete, move and insert pages\n\u2705 Merge files into one, or split them apart\n\u2705 Highlights, notes and stamps\n\u2705 Fill forms, sign and password-protect\n\u2705 No account, no telemetry, no cloud, 100% free\n\n\ud83d\udcbb Mac \u00b7 Windows \u00b7 Linux\n\u2139\ufe0f It's still alpha: organizing, markup and forms work well today, but editing existing text isn't reliable yet.\n\nComment \"PAGES\" and I'll DM you the link \ud83d\udd17\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #pdf #productivity #freeapps #windows #macos #techtips",
+  "dm_pitch": "PdfCraft, the free open-source Adobe Acrobat alternative for your PDFs \ud83d\udcc4",
+  "install": "Download from GitHub Releases",
+  "dm_on_any_comment": true,
+  "follow_gate": true,
+  "slot": 3,
+  "price_source": "https://www.adobe.com/acrobat/pricing.html",
+  "idempotencyKey": "16b11126-bb73-4d54-bfb4-a76b78568097",
+  "zernio": {
+    "postId": "6ad7927f6bc8d150259891f8",
+    "status": "scheduled",
+    "scheduledFor": "2026-10-20T16:33:00.000Z",
+    "url": null,
+    "automationId": "6ad7928446fc1ae4d3bc1b79",
+    "slot": 3
+  }
+}

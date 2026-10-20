@@ -1,0 +1,85 @@
+{
+  "repo": "Comfy-Org/ComfyUI",
+  "name": "ComfyUI",
+  "title": "ComfyUI: free Midjourney alternative",
+  "slot": 4,
+  "keyword": "COMFY",
+  "paid": {
+    "name": "Midjourney",
+    "price": "$10",
+    "per": "/month",
+    "anchor": "ten",
+    "source": "https://docs.midjourney.com/hc/en-us/articles/27870484040333-Comparing-Midjourney-Plans"
+  },
+  "icon": "https://comfy.org/web-app-manifest-512x512.png",
+  "hook": "Midjourney charges you ten bucks a month to make AI images. This app does it for free.",
+  "job": "Makes AI images on your PC",
+  "platforms": [
+    "Windows",
+    "Mac"
+  ],
+  "features": [
+    {
+      "intro": "It's an AI studio on your own computer.",
+      "say": "Type what you want, and it makes images, videos and even music.",
+      "images": [
+        "https://github.com/user-attachments/assets/36e065e0-bfae-4456-8c7f-8369d5ea48a2",
+        "assets/result.png"
+      ],
+      "swap_anchor": "videos",
+      "chips": [
+        {
+          "label": "🖼 Images",
+          "anchor": "images"
+        },
+        {
+          "label": "🎬 Videos",
+          "anchor": "videos"
+        },
+        {
+          "label": "🎵 Music",
+          "anchor": "music"
+        }
+      ]
+    },
+    {
+      "say": "Ready-made templates get you started, and it all runs on your PC, even offline.",
+      "images": [
+        "assets/templates.png"
+      ],
+      "chips": [
+        {
+          "label": "📋 Templates",
+          "anchor": "templates"
+        },
+        {
+          "label": "✈️ Offline",
+          "anchor": "offline"
+        }
+      ]
+    }
+  ],
+  "nolist": [
+    {
+      "say": "No subscription.",
+      "label": "Subscription"
+    },
+    {
+      "say": "No cloud.",
+      "label": "Cloud"
+    },
+    {
+      "say": "No uploads.",
+      "label": "Uploads"
+    }
+  ],
+  "install": "Download the free desktop app",
+  "install_url": "https://www.comfy.org/download",
+  "caption": "Midjourney charges $10/month. ComfyUI makes AI images on your own PC for free 🎨\n\n✅ Makes images, videos, 3D and audio from a text prompt\n✅ Ready-made workflow templates to start from\n✅ Runs on your own computer, even offline\n✅ Desktop app for Windows and Mac\n✅ No subscription, 100% free\n\n💻 Windows · Mac (Linux via manual install)\nℹ️ It runs on your own hardware, so a dedicated graphics card (GPU) is strongly recommended. The optional cloud/partner models and Comfy Cloud are paid.\n\nComment \"COMFY\" and I'll DM you the link 🔗\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #aiart #comfyui #midjourney #aivideo #freeapps #techtips",
+  "dm_pitch": "ComfyUI, the free open-source Midjourney alternative 🎨",
+  "thumb": {
+    "big": "FREE",
+    "line1": "Midjourney",
+    "line2": "alternative"
+  }
+}

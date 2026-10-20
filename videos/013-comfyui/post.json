@@ -1,0 +1,23 @@
+{
+  "title": "ComfyUI: free Midjourney alternative",
+  "video": "FINAL.mp4",
+  "thumbnail": "FINAL_thumbnail.png",
+  "repo_url": "https://github.com/Comfy-Org/ComfyUI",
+  "keyword": "COMFY",
+  "caption": "Midjourney charges $10/month. ComfyUI makes AI images on your own PC for free \ud83c\udfa8\n\n\u2705 Makes images, videos, 3D and audio from a text prompt\n\u2705 Ready-made workflow templates to start from\n\u2705 Runs on your own computer, even offline\n\u2705 Desktop app for Windows and Mac\n\u2705 No subscription, 100% free\n\n\ud83d\udcbb Windows \u00b7 Mac (Linux via manual install)\n\u2139\ufe0f It runs on your own hardware, so a dedicated graphics card (GPU) is strongly recommended. The optional cloud/partner models and Comfy Cloud are paid.\n\nComment \"COMFY\" and I'll DM you the link \ud83d\udd17\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #aiart #comfyui #midjourney #aivideo #freeapps #techtips",
+  "dm_pitch": "ComfyUI, the free open-source Midjourney alternative \ud83c\udfa8",
+  "install": "Download the free desktop app",
+  "dm_on_any_comment": true,
+  "follow_gate": true,
+  "slot": 4,
+  "price_source": "https://docs.midjourney.com/hc/en-us/articles/27870484040333-Comparing-Midjourney-Plans",
+  "idempotencyKey": "0b90e6f1-cee6-4dc3-89fb-ac63b4876d20",
+  "zernio": {
+    "postId": "6ad79288e81f91949e49bdd6",
+    "status": "scheduled",
+    "scheduledFor": "2026-10-20T19:41:00.000Z",
+    "url": null,
+    "automationId": "6ad7928c99a50063c585df0b",
+    "slot": 4
+  }
+}

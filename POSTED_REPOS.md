@@ -14,5 +14,7 @@ The scout (`pipeline/scout.py`) skips these automatically via `data/posted.json`
 | 7 | [Saffsanity/sill](https://github.com/Saffsanity/sill) | 007-sill | MIRROR | published | 2026-10-19T22:11 | https://www.instagram.com/reel/DesTPbPAk4b/ |
 | 8 | [robbietilton/Compositor](https://github.com/robbietilton/Compositor) | 008-compositor | PHOTO | published | 2026-10-19T21:41 | https://www.instagram.com/reel/DesPzHSDTbL/ |
 | 9 | [Niko1221/Strata](https://github.com/Niko1221/Strata) | 009-strata | CHAT | published | 2026-10-19T22:41 | https://www.instagram.com/reel/DesWqfHiZAG/ |
-| 10 | [Flow-Tube/Flow](https://github.com/Flow-Tube/Flow) | 010-flow | FLOW | scheduled | 2026-10-20T13:02 |  |
+| 10 | [Flow-Tube/Flow](https://github.com/Flow-Tube/Flow) | 010-flow | FLOW | published | 2026-10-20T13:05 | https://www.instagram.com/reel/Det5deFjjVv/ |
 | 11 | [DuarteSantos8/openGym](https://github.com/DuarteSantos8/openGym) | 011-opengym | GYM | scheduled | 2026-10-20T17:24 |  |
+| 12 | [storytold/pdfcraft](https://github.com/storytold/pdfcraft) | 012-pdfcraft | PAGES | scheduled | 2026-10-20T16:33 |  |
+| 13 | [Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI) | 013-comfyui | COMFY | scheduled | 2026-10-20T19:41 |  |
