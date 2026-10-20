@@ -14,3 +14,5 @@ The scout (`pipeline/scout.py`) skips these automatically via `data/posted.json`
 | 7 | [Saffsanity/sill](https://github.com/Saffsanity/sill) | 007-sill | MIRROR | scheduled | 2026-10-19T22:10 |  |
 | 8 | [robbietilton/Compositor](https://github.com/robbietilton/Compositor) | 008-compositor | PHOTO | scheduled | 2026-10-19T21:40 |  |
 | 9 | [Niko1221/Strata](https://github.com/Niko1221/Strata) | 009-strata | CHAT | scheduled | 2026-10-19T22:40 |  |
+| 10 | [Flow-Tube/Flow](https://github.com/Flow-Tube/Flow) | 010-flow | FLOW | scheduled | 2026-10-20T13:02 |  |
+| 11 | [DuarteSantos8/openGym](https://github.com/DuarteSantos8/openGym) | 011-opengym | GYM | scheduled | 2026-10-20T17:24 |  |

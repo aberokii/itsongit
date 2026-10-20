@@ -1,0 +1,23 @@
+{
+  "title": "Flow: free YouTube Premium alternative",
+  "video": "FINAL.mp4",
+  "thumbnail": "FINAL_thumbnail.png",
+  "repo_url": "https://github.com/Flow-Tube/Flow",
+  "keyword": "FLOW",
+  "caption": "YouTube Premium charges $15.99/month. Flow plays YouTube without ads for free \ud83d\udcfa\n\n\u2705 No ads, and it skips sponsor segments\n\u2705 Background play, picture-in-picture and downloads\n\u2705 Recommendations learned on your phone, no Google account\n\u2705 No tracking, no sign-in, no subscription, 100% free\n\n\ud83d\udcbb Android\n\u2139\ufe0f Android only. It's an unofficial YouTube client you install from GitHub as an APK, so it's not on the Play Store.\n\nComment \"FLOW\" and I'll DM you the link \ud83d\udd17\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #android #youtube #privacy #adfree #freeapps #techtips",
+  "dm_pitch": "Flow, the free open-source ad-free YouTube app for Android \ud83d\udcfa",
+  "install": "Download from GitHub Releases",
+  "dm_on_any_comment": true,
+  "follow_gate": true,
+  "slot": 3,
+  "price_source": "https://www.youtube.com/premium",
+  "idempotencyKey": "85be8c57-c1c1-43e4-8173-94c2cadfb52b",
+  "zernio": {
+    "postId": "6ad72e10498d2a496975940f",
+    "status": "scheduled",
+    "scheduledFor": "2026-10-20T13:02:00.000Z",
+    "url": null,
+    "automationId": "6ad72e1454f0a67558fc74a9",
+    "slot": 3
+  }
+}

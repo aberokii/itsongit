@@ -1,0 +1,102 @@
+{
+ "repo": "Flow-Tube/Flow",
+ "name": "Flow",
+ "title": "Flow: free YouTube Premium alternative",
+ "slot": 3,
+ "keyword": "FLOW",
+ "paid": {
+  "name": "YouTube Premium",
+  "price": "$15.99",
+  "per": "/month",
+  "anchor": "sixteen",
+  "source": "https://www.youtube.com/premium"
+ },
+ "icon": "https://raw.githubusercontent.com/Flow-Tube/Flow/main/Assets/logo.png",
+ "hook": "YouTube Premium charges you sixteen bucks a month to watch YouTube without ads. This app does it for free.",
+ "job": "Plays YouTube with zero ads",
+ "platforms": [
+  "Android"
+ ],
+ "features": [
+  {
+   "intro": "It's YouTube with the ads gone.",
+   "say": "Not a single ad, and it even skips sponsor segments for you.",
+   "images": [
+    "https://raw.githubusercontent.com/Flow-Tube/Flow/main/Assets/Home.jpeg",
+    "https://raw.githubusercontent.com/Flow-Tube/Flow/main/Assets/VideoPlayer.jpeg"
+   ],
+   "swap_anchor": "skips",
+   "chips": [
+    {
+     "label": "🚫 No ads",
+     "anchor": "ad"
+    },
+    {
+     "label": "⏭ Skips sponsors",
+     "anchor": "sponsor"
+    }
+   ]
+  },
+  {
+   "say": "Listen with the screen off, watch in a floating window, or download videos.",
+   "images": [
+    "https://raw.githubusercontent.com/Flow-Tube/Flow/main/Assets/MusicPlayer.jpeg",
+    "https://raw.githubusercontent.com/Flow-Tube/Flow/main/Assets/VideoPlayer.jpeg"
+   ],
+   "swap_anchor": "download",
+   "chips": [
+    {
+     "label": "🎧 Background play",
+     "anchor": "screen"
+    },
+    {
+     "label": "Floating window",
+     "anchor": "floating"
+    },
+    {
+     "label": "⬇ Downloads",
+     "anchor": "download"
+    }
+   ]
+  },
+  {
+   "say": "It learns what you like right on your phone, with no Google account.",
+   "images": [
+    "https://raw.githubusercontent.com/Flow-Tube/Flow/main/Assets/YourTaste.jpeg"
+   ],
+   "chips": [
+    {
+     "label": "🧠 Learns on-device",
+     "anchor": "learns"
+    },
+    {
+     "label": "No Google account",
+     "anchor": "google"
+    }
+   ]
+  }
+ ],
+ "nolist": [
+  {
+   "say": "No tracking.",
+   "label": "Tracking"
+  },
+  {
+   "say": "No sign-in.",
+   "label": "Sign-in"
+  },
+  {
+   "say": "No subscription.",
+   "label": "Subscription"
+  }
+ ],
+ "install": "Download from GitHub Releases",
+ "install_url": "https://flow-tube.org",
+ "caption": "YouTube Premium charges $15.99/month. Flow plays YouTube without ads for free 📺\n\n✅ No ads, and it skips sponsor segments\n✅ Background play, picture-in-picture and downloads\n✅ Recommendations learned on your phone, no Google account\n✅ No tracking, no sign-in, no subscription, 100% free\n\n💻 Android\nℹ️ Android only. It's an unofficial YouTube client you install from GitHub as an APK, so it's not on the Play Store.\n\nComment \"FLOW\" and I'll DM you the link 🔗\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #android #youtube #privacy #adfree #freeapps #techtips",
+ "dm_pitch": "Flow, the free open-source ad-free YouTube app for Android 📺",
+ "thumb": {
+  "big": "FREE",
+  "line1": "YouTube Premium",
+  "line2": "alternative"
+ }
+}

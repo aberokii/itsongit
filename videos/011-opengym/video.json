@@ -1,0 +1,100 @@
+{
+ "repo": "DuarteSantos8/openGym",
+ "name": "openGym",
+ "title": "openGym: free Hevy Pro alternative",
+ "slot": 4,
+ "keyword": "GYM",
+ "paid": {
+  "name": "Hevy Pro",
+  "price": "$24",
+  "per": "/year",
+  "anchor": "twenty",
+  "source": "https://hevy.com/pricing"
+ },
+ "icon": "https://raw.githubusercontent.com/DuarteSantos8/openGym/main/website/icon-512.png",
+ "hook": "Hevy Pro charges you twenty four bucks a year to track your workouts. This app does it for free.",
+ "job": "Tracks every set you lift",
+ "platforms": [
+  "Android"
+ ],
+ "features": [
+  {
+   "intro": "It's a gym tracker that lives on your phone.",
+   "say": "Thousands of exercises, each with an animated demo.",
+   "images": [
+    "https://raw.githubusercontent.com/DuarteSantos8/openGym/main/assets/screenshots/workout.png",
+    "https://raw.githubusercontent.com/DuarteSantos8/openGym/main/assets/screenshots/library.png"
+   ],
+   "swap_anchor": "animated",
+   "chips": [
+    {
+     "label": "💪 Huge library",
+     "anchor": "thousands"
+    },
+    {
+     "label": "🎬 Animated demos",
+     "anchor": "animated"
+    }
+   ]
+  },
+  {
+   "say": "Log every set, then see your heatmap, charts and records.",
+   "images": [
+    "https://raw.githubusercontent.com/DuarteSantos8/openGym/main/assets/screenshots/stats.png"
+   ],
+   "chips": [
+    {
+     "label": "🔥 Heatmap",
+     "anchor": "heatmap"
+    },
+    {
+     "label": "📈 Charts",
+     "anchor": "charts"
+    },
+    {
+     "label": "🏆 Records",
+     "anchor": "records"
+    }
+   ]
+  },
+  {
+   "say": "Start with a ready-made plan, or import your history from Strong, Hevy or FitNotes.",
+   "images": [
+    "https://raw.githubusercontent.com/DuarteSantos8/openGym/main/assets/screenshots/plan.png"
+   ],
+   "chips": [
+    {
+     "label": "📋 Starter plans",
+     "anchor": "plan"
+    },
+    {
+     "label": "Import",
+     "anchor": "import"
+    }
+   ]
+  }
+ ],
+ "nolist": [
+  {
+   "say": "No account.",
+   "label": "Account"
+  },
+  {
+   "say": "No server.",
+   "label": "Server"
+  },
+  {
+   "say": "No subscription.",
+   "label": "Subscription"
+  }
+ ],
+ "install": "Download from GitHub Releases",
+ "install_url": "https://opengym.ch",
+ "caption": "Hevy Pro charges $24/year. openGym tracks your workouts for free 🏋️\n\n✅ Thousands of exercises with animated demos\n✅ Log sets, supersets and warm-ups\n✅ Heatmap, charts and personal records\n✅ Import from Strong, Hevy and FitNotes\n✅ No account, no server, no subscription, 100% free\n\n💻 Android\nℹ️ The phone app is Android-only and installed from the APK on GitHub (it's not on the Play Store). iPhone needs self-hosting and adding the web app to your home screen.\n\nComment \"GYM\" and I'll DM you the link 🔗\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #gym #workout #fitness #android #freeapps #techtips",
+ "dm_pitch": "openGym, the free open-source Hevy Pro alternative for your workouts 🏋️",
+ "thumb": {
+  "big": "FREE",
+  "line1": "Hevy Pro",
+  "line2": "alternative"
+ }
+}

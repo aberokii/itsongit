@@ -1,0 +1,23 @@
+{
+  "title": "openGym: free Hevy Pro alternative",
+  "video": "FINAL.mp4",
+  "thumbnail": "FINAL_thumbnail.png",
+  "repo_url": "https://github.com/DuarteSantos8/openGym",
+  "keyword": "GYM",
+  "caption": "Hevy Pro charges $24/year. openGym tracks your workouts for free \ud83c\udfcb\ufe0f\n\n\u2705 Thousands of exercises with animated demos\n\u2705 Log sets, supersets and warm-ups\n\u2705 Heatmap, charts and personal records\n\u2705 Import from Strong, Hevy and FitNotes\n\u2705 No account, no server, no subscription, 100% free\n\n\ud83d\udcbb Android\n\u2139\ufe0f The phone app is Android-only and installed from the APK on GitHub (it's not on the Play Store). iPhone needs self-hosting and adding the web app to your home screen.\n\nComment \"GYM\" and I'll DM you the link \ud83d\udd17\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #gym #workout #fitness #android #freeapps #techtips",
+  "dm_pitch": "openGym, the free open-source Hevy Pro alternative for your workouts \ud83c\udfcb\ufe0f",
+  "install": "Download from GitHub Releases",
+  "dm_on_any_comment": true,
+  "follow_gate": true,
+  "slot": 4,
+  "price_source": "https://hevy.com/pricing",
+  "idempotencyKey": "b70ca7a1-12b7-4197-8425-5fe6c56680e6",
+  "zernio": {
+    "postId": "6ad72e18b37643c7bb6e36bd",
+    "status": "scheduled",
+    "scheduledFor": "2026-10-20T17:24:00.000Z",
+    "url": null,
+    "automationId": "6ad72e1b9f142e796c789a2f",
+    "slot": 4
+  }
+}
