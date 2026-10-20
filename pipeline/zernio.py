@@ -367,8 +367,10 @@ def cmd_analytics(a, cfg):
     _, post = load_post(Path(a.video_dir))
     pid = post.get("zernio", {}).get("postId", "<postId>")
     r = api("GET", "/analytics", query={"postId": pid, "platform": "instagram"})
+    if not DRY and r.get("syncStatus") == "pending":
+        print(f"  (Zernio is still syncing this post from Instagram: {r.get('message') or 'try again in a few minutes'})")
     for p in r.get("platformAnalytics", []) if not DRY else []:
-        m = p.get("analytics", {})
+        m = p.get("analytics") or r.get("analytics") or {}  # per-platform block is null until the first sync
         print(f"views {m.get('views')} | reach {m.get('reach')} | likes {m.get('likes')} | comments {m.get('comments')} | shares {m.get('shares')} "
               f"| saves {m.get('saves')} | avg watch {round((m.get('igReelsAvgWatchTime') or 0) / 1000, 1)}s | skip {m.get('reelsSkipRate')}% "
               f"| ER {m.get('engagementRate')}%")

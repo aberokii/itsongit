@@ -10,6 +10,7 @@ import datetime as dt
 import json
 import math
 import re
+import os
 import subprocess
 import time
 import urllib.parse
@@ -20,7 +21,9 @@ ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
 TODAY = dt.date.today()
 UA = {"User-Agent": "itsongit-scout/0.1"}
-TOKEN = subprocess.run(["gh", "auth", "token"], capture_output=True, text=True).stdout.strip()
+# CI (GitHub Actions) passes GH_TOKEN/GITHUB_TOKEN; locally fall back to the gh login
+TOKEN = (os.environ.get("GH_TOKEN") or os.environ.get("GITHUB_TOKEN")
+         or subprocess.run(["gh", "auth", "token"], capture_output=True, text=True).stdout.strip())
 
 OSI_OK = {"MIT", "Apache-2.0", "GPL-2.0", "GPL-3.0", "AGPL-3.0", "LGPL-2.1", "LGPL-3.0", "BSD-2-Clause", "BSD-3-Clause",
           "MPL-2.0", "ISC", "Unlicense", "0BSD", "EPL-2.0", "Zlib", "Artistic-2.0", "CC0-1.0", "BSL-1.0", "EUPL-1.2"}

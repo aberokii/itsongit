@@ -1,0 +1,105 @@
+# Daily @itsongit reels, made and scheduled on GitHub's servers (works with the laptop shut).
+# 06:30 Berlin = morning run (3 reels, posted 08:00–14:45); 13:30 Berlin = midday run (2 reels, posted 15:00–23:00).
+# Cron is UTC: 04:30/11:30 is 06:30/13:30 in summer time and 05:30/12:30 in winter time.
+# Run one by hand: Actions → reels → Run workflow → pick morning or midday.
+name: reels
+
+on:
+  schedule:
+    - cron: "30 4 * * *"
+    - cron: "30 11 * * *"
+  workflow_dispatch:
+    inputs:
+      run:
+        description: "which run"
+        type: choice
+        options: [morning, midday]
+        default: morning
+
+permissions:
+  contents: write
+
+concurrency:
+  group: reels
+  cancel-in-progress: false
+
+jobs:
+  reels:
+    runs-on: ubuntu-latest
+    timeout-minutes: 150
+    env:
+      ZERNIO_API_KEY: ${{ secrets.ZERNIO_API_KEY }}
+      ZERNIO_INSTAGRAM_ACCOUNT_ID: ${{ secrets.ZERNIO_INSTAGRAM_ACCOUNT_ID }}
+      CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+      GH_TOKEN: ${{ github.token }}
+      GITHUB_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Pick the run
+        id: run
+        run: |
+          RUN="${{ inputs.run }}"
+          if [ -z "$RUN" ]; then
+            [ "${{ github.event.schedule }}" = "30 11 * * *" ] && RUN=midday || RUN=morning
+          fi
+          if [ "$RUN" = midday ]; then N=2; SLOTS="3 and 4"; WINDOW="15:00 and 23:00"
+          else N=3; SLOTS="0, 1 and 2"; WINDOW="08:00 and 14:45"; fi
+          echo "RUN=$RUN" >> "$GITHUB_ENV"; echo "N=$N" >> "$GITHUB_ENV"
+          echo "SLOTS=$SLOTS" >> "$GITHUB_ENV"; echo "WINDOW=$WINDOW" >> "$GITHUB_ENV"
+          echo "TODAY=$(TZ=Europe/Berlin date +%F)" >> "$GITHUB_ENV"
+
+      - name: Check secrets
+        run: |
+          for v in ZERNIO_API_KEY ZERNIO_INSTAGRAM_ACCOUNT_ID CLAUDE_CODE_OAUTH_TOKEN; do
+            [ -n "${!v}" ] || { echo "::error::secret $v is not set (repo Settings → Secrets and variables → Actions)"; exit 1; }
+          done
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Cache toolchain
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/.cache
+            ~/.local/share/fonts
+            pipeline/.venv
+            studio/node_modules
+            capture/node_modules
+            .remotion
+          key: tools-${{ runner.os }}-${{ hashFiles('pipeline/uv.lock', 'studio/package-lock.json', 'capture/package-lock.json', 'scripts/bootstrap.sh') }}
+
+      - name: Bootstrap
+        run: bash scripts/bootstrap.sh
+
+      - name: Install Claude Code
+        run: npm install -g @anthropic-ai/claude-code
+
+      - name: Make and schedule reels
+        run: |
+          export PATH="$HOME/.local/bin:$PATH"
+          git config user.name "itsongit-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          PROMPT=$(envsubst '${RUN} ${N} ${SLOTS} ${WINDOW} ${TODAY}' < .github/prompts/reels.md)
+          claude -p "$PROMPT" --model claude-opus-5-5 --dangerously-skip-permissions \
+            --output-format stream-json --verbose > claude.jsonl || echo "::warning::claude exited non-zero"
+          jq -r 'select(.type=="result") | .result' claude.jsonl | tee report.md
+          { echo "## itsongit $RUN run · $TODAY"; echo; cat report.md; } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Upload reels and QA sheets
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: reels-${{ env.TODAY }}-${{ env.RUN }}
+          retention-days: 14
+          if-no-files-found: ignore
+          path: |
+            videos/*/FINAL*.mp4
+            videos/*/FINAL_thumbnail.png
+            videos/*/verify/row*.png
+            videos/*/verify/thumb.png
+            claude.jsonl
