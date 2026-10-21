@@ -1,0 +1,88 @@
+{
+ "repo": "tangency-labs/solidcraft",
+ "name": "SolidCraft",
+ "title": "SolidCraft: free Autodesk Fusion alternative",
+ "slot": 2,
+ "keyword": "MODEL",
+ "paid": {
+  "name": "Autodesk Fusion",
+  "price": "$680",
+  "per": "/year",
+  "anchor": "six",
+  "source": "https://www.autodesk.com/solutions/autodesk-fusion-subscription-faq"
+ },
+ "icon": "https://raw.githubusercontent.com/tangency-labs/solidcraft/main/assets/icons/app/linux/exports/hicolor/512x512/apps/ai.storyteller.solidcraft.png",
+ "hook": "Autodesk Fusion charges you six hundred eighty dollars a year to design 3D parts. This app does it for free.",
+ "job": "Designs 3D parts you can print",
+ "platforms": [
+  "Mac",
+  "Windows",
+  "Linux",
+  "any browser"
+ ],
+ "features": [
+  {
+   "intro": "Sketch it. Then make it solid.",
+   "say": "Draw a shape, lock it in with dimensions and constraints, then extrude it.",
+   "images": [
+    "assets/sketch.png",
+    "assets/shell.png"
+   ],
+   "swap_anchor": "extrude",
+   "chips": [
+    {
+     "label": "✏️ Sketch",
+     "anchor": "shape"
+    },
+    {
+     "label": "📐 Constraints",
+     "anchor": "constraints"
+    },
+    {
+     "label": "Extrude",
+     "anchor": "extrude"
+    }
+   ]
+  },
+  {
+   "say": "Every step lands on a timeline. Change a dimension and the whole model rebuilds.",
+   "images": [
+    "assets/final.png"
+   ],
+   "chips": [
+    {
+     "label": "🕒 Timeline",
+     "anchor": "timeline"
+    },
+    {
+     "label": "🔁 Rebuilds",
+     "anchor": "rebuilds"
+    }
+   ]
+  }
+ ],
+ "nolist": [
+  {
+   "say": "No subscription.",
+   "label": "Subscription"
+  },
+  {
+   "say": "No account.",
+   "label": "Account"
+  },
+  {
+   "say": "No cloud needed.",
+   "label": "Cloud"
+  }
+ ],
+ "install": "Download from GitHub Releases",
+ "install_line": "It runs on Mac, Windows and Linux, or right in your browser. Just grab the free download.",
+ "install_url": "https://solidcraft.io",
+ "caption": "Autodesk Fusion charges $680/year. SolidCraft designs your 3D parts for free 🛠️\n\n✅ Sketch with dimensions and constraints\n✅ Extrude, revolve, fillet, shell and more on an editable timeline\n✅ Change a dimension and the model rebuilds\n✅ Opens and saves STEP, STL and 3MF files\n\n💻 Mac · Windows · Linux · or try it in your browser\nℹ️ It's early (version 0.x): great for simple parts, but not a full Fusion replacement yet. Fusion also has a free limited personal-use plan, and the downloads aren't signed yet so your first launch needs \"Open anyway\".\n\nComment \"MODEL\" and I'll DM you the link 🔗\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #3dprinting #cad #3dmodeling #freeapps #makers #techtips",
+ "dm_pitch": "SolidCraft, the free open-source 3D CAD app and Autodesk Fusion alternative 🛠️",
+ "thumb": {
+  "big": "FREE",
+  "line1": "Autodesk Fusion",
+  "line2": "alternative"
+ }
+}

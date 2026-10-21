@@ -1,0 +1,23 @@
+{
+  "title": "OpenScreen: free Screen Studio alternative",
+  "video": "FINAL.mp4",
+  "thumbnail": "FINAL_thumbnail.png",
+  "repo_url": "https://github.com/getopenscreen/openscreen",
+  "keyword": "DEMO",
+  "caption": "Screen Studio charges $108/year ($29 if you pay monthly). OpenScreen turns your screen recordings into slick demos for free \ud83c\udfac\n\n\u2705 Record a window or your whole screen, with mic and system audio\n\u2705 Auto zooms that follow your cursor, plus backgrounds and a webcam overlay\n\u2705 Captions made on your device, no upload\n\u2705 Export MP4 or GIF, no subscription, no watermarks, 100% free\n\n\ud83d\udcbb Mac \u00b7 Windows \u00b7 Linux\n\u2139\ufe0f It's under active development, so expect some rough edges. The optional AI editing assistant needs your own API key.\n\nComment \"DEMO\" and I'll DM you the link \ud83d\udd17\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #screenrecorder #screenstudio #videoediting #contentcreator #freeapps #techtips",
+  "dm_pitch": "OpenScreen, the free open-source Screen Studio alternative for slick screen demos \ud83c\udfac",
+  "install": "Download from GitHub Releases",
+  "dm_on_any_comment": true,
+  "follow_gate": true,
+  "slot": 1,
+  "price_source": "https://screen.studio/",
+  "idempotencyKey": "718085d6-5d55-49cd-b629-7cb164e0fb90",
+  "zernio": {
+    "postId": "6ad88b2c981d2e635a45d691",
+    "status": "scheduled",
+    "scheduledFor": "2026-10-21T11:47:00.000Z",
+    "url": null,
+    "automationId": "6ad88b309bb76c09f52dec62",
+    "slot": 1
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "title": "SolidCraft: free Autodesk Fusion alternative",
+  "video": "FINAL.mp4",
+  "thumbnail": "FINAL_thumbnail.png",
+  "repo_url": "https://github.com/tangency-labs/solidcraft",
+  "keyword": "MODEL",
+  "caption": "Autodesk Fusion charges $680/year. SolidCraft designs your 3D parts for free \ud83d\udee0\ufe0f\n\n\u2705 Sketch with dimensions and constraints\n\u2705 Extrude, revolve, fillet, shell and more on an editable timeline\n\u2705 Change a dimension and the model rebuilds\n\u2705 Opens and saves STEP, STL and 3MF files\n\n\ud83d\udcbb Mac \u00b7 Windows \u00b7 Linux \u00b7 or try it in your browser\n\u2139\ufe0f It's early (version 0.x): great for simple parts, but not a full Fusion replacement yet. Fusion also has a free limited personal-use plan, and the downloads aren't signed yet so your first launch needs \"Open anyway\".\n\nComment \"MODEL\" and I'll DM you the link \ud83d\udd17\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #3dprinting #cad #3dmodeling #freeapps #makers #techtips",
+  "dm_pitch": "SolidCraft, the free open-source 3D CAD app and Autodesk Fusion alternative \ud83d\udee0\ufe0f",
+  "install": "Download from GitHub Releases",
+  "dm_on_any_comment": true,
+  "follow_gate": true,
+  "slot": 2,
+  "price_source": "https://www.autodesk.com/solutions/autodesk-fusion-subscription-faq",
+  "idempotencyKey": "a38ad6c5-727d-4dca-992b-a90a5732e8dd",
+  "zernio": {
+    "postId": "6ad88b33a1c706c69b781b27",
+    "status": "scheduled",
+    "scheduledFor": "2026-10-21T13:08:00.000Z",
+    "url": null,
+    "automationId": "6ad88b36faaed60950746584",
+    "slot": 2
+  }
+}

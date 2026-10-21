@@ -1,0 +1,105 @@
+{
+ "repo": "shaongitbd/doory",
+ "name": "Doory",
+ "title": "Doory: free Canva alternative",
+ "slot": 0,
+ "keyword": "DESIGN",
+ "paid": {
+  "name": "Canva Pro",
+  "price": "$18",
+  "per": "/month",
+  "anchor": "eighteen",
+  "source": "https://www.canva.com/pricing/"
+ },
+ "icon": "https://raw.githubusercontent.com/shaongitbd/doory/main/frontend/public/icons/icon-512.png",
+ "hook": "Canva charges you eighteen bucks a month to design posts and posters. This app does it for free.",
+ "job": "Designs posts and posters",
+ "platforms": [
+  "any browser"
+ ],
+ "features": [
+  {
+   "intro": "Pick a template and go.",
+   "say": "Start from a template, then edit text, shapes, photos and layers.",
+   "images": [
+    "https://raw.githubusercontent.com/shaongitbd/doory/main/.github/readme/editor.webp",
+    "https://raw.githubusercontent.com/shaongitbd/doory/main/.github/readme/templates.webp"
+   ],
+   "swap_anchor": "photos",
+   "chips": [
+    {
+     "label": "🎨 Templates",
+     "anchor": "template"
+    },
+    {
+     "label": "🖼 Photos",
+     "anchor": "photos"
+    },
+    {
+     "label": "🗂 Layers",
+     "anchor": "layers"
+    }
+   ]
+  },
+  {
+   "say": "Add animations and music, then export it as a video or a GIF.",
+   "images": [
+    "https://raw.githubusercontent.com/shaongitbd/doory/main/.github/readme/feature-animate.webp"
+   ],
+   "chips": [
+    {
+     "label": "✨ Animations",
+     "anchor": "animations"
+    },
+    {
+     "label": "🎵 Music",
+     "anchor": "music"
+    }
+   ]
+  },
+  {
+   "say": "Download PNG, PDF or SVG, or share a link.",
+   "images": [
+    "https://raw.githubusercontent.com/shaongitbd/doory/main/.github/readme/feature-export.webp"
+   ],
+   "chips": [
+    {
+     "label": "PNG",
+     "anchor": "png"
+    },
+    {
+     "label": "PDF",
+     "anchor": "pdf"
+    },
+    {
+     "label": "🔗 Share link",
+     "anchor": "link"
+    }
+   ]
+  }
+ ],
+ "nolist": [
+  {
+   "say": "No paid plan.",
+   "label": "Paid plan"
+  },
+  {
+   "say": "No ads.",
+   "label": "Ads"
+  },
+  {
+   "say": "No account needed.",
+   "label": "Account"
+  }
+ ],
+ "install": "Open doory.art in your browser",
+ "install_url": "https://doory.art",
+ "install_line": "It runs in any browser. Nothing to install.",
+ "caption": "Canva Pro charges $18/month. Doory designs your posts and posters for free 🎨\n\n✅ Start from a template or a blank page\n✅ Edit text, shapes, photos and layers\n✅ Animate it and export PNG, PDF, SVG, MP4 or GIF\n✅ No paid plan, no ads, no account needed, 100% free\n\n💻 Any browser (or self-host it)\nℹ️ It's a young project: the editor is complete, but there are only ten starter templates so far.\n\nComment \"DESIGN\" and I'll DM you the link 🔗\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #canva #graphicdesign #design #freeapps #socialmedia #techtips",
+ "dm_pitch": "Doory, the free open-source Canva alternative for posts and posters 🎨",
+ "thumb": {
+  "big": "FREE",
+  "line1": "Canva",
+  "line2": "alternative"
+ }
+}

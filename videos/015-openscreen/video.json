@@ -1,0 +1,107 @@
+{
+ "repo": "getopenscreen/openscreen",
+ "name": "OpenScreen",
+ "title": "OpenScreen: free Screen Studio alternative",
+ "slot": 1,
+ "keyword": "DEMO",
+ "paid": {
+  "name": "Screen Studio",
+  "price": "$108",
+  "per": "/year",
+  "anchor": "hundred",
+  "source": "https://screen.studio/"
+ },
+ "icon": "https://raw.githubusercontent.com/getopenscreen/openscreen/main/public/openscreen.png",
+ "hook": "Screen Studio charges you a hundred and eight bucks a year to make screen demos. This app does it for free.",
+ "job": "Makes slick screen demos",
+ "platforms": [
+  "Mac",
+  "Windows",
+  "Linux"
+ ],
+ "features": [
+  {
+   "say": "Record your screen or one window, with your mic and system audio.",
+   "images": [
+    "assets/recorder.png"
+   ],
+   "chips": [
+    {
+     "label": "🖥 Screen or window",
+     "anchor": "window"
+    },
+    {
+     "label": "🎙 Mic",
+     "anchor": "mic"
+    },
+    {
+     "label": "🔊 System audio",
+     "anchor": "system"
+    }
+   ]
+  },
+  {
+   "say": "It zooms in by itself, following your cursor. Pick a background, then export an MP4 or GIF.",
+   "images": [
+    "https://raw.githubusercontent.com/getopenscreen/openscreen/main/docs/assets/preview4.png"
+   ],
+   "chips": [
+    {
+     "label": "🔍 Auto zoom",
+     "anchor": "zooms"
+    },
+    {
+     "label": "🎨 Backgrounds",
+     "anchor": "background"
+    },
+    {
+     "label": "MP4",
+     "anchor": "mp4"
+    },
+    {
+     "label": "GIF",
+     "anchor": "gif"
+    }
+   ]
+  },
+  {
+   "say": "Captions are written on your device, no upload.",
+   "images": [
+    "assets/transcript.png"
+   ],
+   "chips": [
+    {
+     "label": "💬 Captions",
+     "anchor": "captions"
+    },
+    {
+     "label": "📴 On-device",
+     "anchor": "device"
+    }
+   ]
+  }
+ ],
+ "nolist": [
+  {
+   "say": "No subscription.",
+   "label": "Subscription"
+  },
+  {
+   "say": "No watermarks.",
+   "label": "Watermarks"
+  },
+  {
+   "say": "No paywall.",
+   "label": "Paywall"
+  }
+ ],
+ "install": "Download from GitHub Releases",
+ "install_url": "https://getopenscreen.com/",
+ "caption": "Screen Studio charges $108/year ($29 if you pay monthly). OpenScreen turns your screen recordings into slick demos for free 🎬\n\n✅ Record a window or your whole screen, with mic and system audio\n✅ Auto zooms that follow your cursor, plus backgrounds and a webcam overlay\n✅ Captions made on your device, no upload\n✅ Export MP4 or GIF, no subscription, no watermarks, 100% free\n\n💻 Mac · Windows · Linux\nℹ️ It's under active development, so expect some rough edges. The optional AI editing assistant needs your own API key.\n\nComment \"DEMO\" and I'll DM you the link 🔗\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #screenrecorder #screenstudio #videoediting #contentcreator #freeapps #techtips",
+ "dm_pitch": "OpenScreen, the free open-source Screen Studio alternative for slick screen demos 🎬",
+ "thumb": {
+  "big": "FREE",
+  "line1": "Screen Studio",
+  "line2": "alternative"
+ }
+}

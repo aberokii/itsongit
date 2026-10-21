@@ -1,0 +1,23 @@
+{
+  "title": "Doory: free Canva alternative",
+  "video": "FINAL.mp4",
+  "thumbnail": "FINAL_thumbnail.png",
+  "repo_url": "https://github.com/shaongitbd/doory",
+  "keyword": "DESIGN",
+  "caption": "Canva Pro charges $18/month. Doory designs your posts and posters for free \ud83c\udfa8\n\n\u2705 Start from a template or a blank page\n\u2705 Edit text, shapes, photos and layers\n\u2705 Animate it and export PNG, PDF, SVG, MP4 or GIF\n\u2705 No paid plan, no ads, no account needed, 100% free\n\n\ud83d\udcbb Any browser (or self-host it)\n\u2139\ufe0f It's a young project: the editor is complete, but there are only ten starter templates so far.\n\nComment \"DESIGN\" and I'll DM you the link \ud83d\udd17\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #canva #graphicdesign #design #freeapps #socialmedia #techtips",
+  "dm_pitch": "Doory, the free open-source Canva alternative for posts and posters \ud83c\udfa8",
+  "install": "Open doory.art in your browser",
+  "dm_on_any_comment": true,
+  "follow_gate": true,
+  "slot": 0,
+  "price_source": "https://www.canva.com/pricing/",
+  "idempotencyKey": "aa22de96-b05e-448d-81d1-9cef076c20d6",
+  "zernio": {
+    "postId": "6ad88b27981d2e635a45d670",
+    "status": "scheduled",
+    "scheduledFor": "2026-10-21T10:23:00.000Z",
+    "url": null,
+    "automationId": "6ad88b29bf8eed4820f2186c",
+    "slot": 0
+  }
+}
