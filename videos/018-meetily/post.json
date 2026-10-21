@@ -1,0 +1,23 @@
+{
+  "title": "Meetily: free Granola alternative",
+  "video": "FINAL.mp4",
+  "thumbnail": "FINAL_thumbnail.png",
+  "repo_url": "https://github.com/Zackriya-Solutions/meetily",
+  "keyword": "NOTES",
+  "caption": "Granola charges $14/month. Meetily takes notes in your meetings for free \ud83d\udcdd\n\n\u2705 Live transcript, right on your own computer\n\u2705 One-click meeting summaries\n\u2705 Works offline and records your mic plus the call audio\n\u2705 No subscription, nothing sent to the cloud\n\n\ud83d\udcbb Mac (Apple Silicon) \u00b7 Windows \u00b7 Linux (build from source)\n\u2139\ufe0f Summaries use a free local model (Ollama) or your own AI key, and there's a separate paid Meetily PRO with extras.\n\nComment \"NOTES\" and I'll DM you the link \ud83d\udd17\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #productivity #meetings #ai #privacy #freeapps #techtips",
+  "dm_pitch": "Meetily, the free open-source AI meeting note-taker and Granola alternative \ud83d\udcdd",
+  "install": "Download from GitHub Releases",
+  "dm_on_any_comment": true,
+  "follow_gate": true,
+  "slot": 4,
+  "price_source": "https://www.granola.ai/pricing",
+  "idempotencyKey": "1828e873-7a5e-4fbd-8a33-7bbad4e9aafd",
+  "zernio": {
+    "postId": "6ad8e6b8146d52968d54705f",
+    "status": "scheduled",
+    "scheduledFor": "2026-10-21T18:51:00.000Z",
+    "url": null,
+    "automationId": "6ad8e6bcd1993214cda8ecba",
+    "slot": 4
+  }
+}

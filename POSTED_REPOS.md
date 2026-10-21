@@ -18,6 +18,8 @@ The scout (`pipeline/scout.py`) skips these automatically via `data/posted.json`
 | 11 | [DuarteSantos8/openGym](https://github.com/DuarteSantos8/openGym) | 011-opengym | GYM | published | 2026-10-20T17:25 | https://www.instagram.com/reel/DeuXQywCMjc/ |
 | 12 | [storytold/pdfcraft](https://github.com/storytold/pdfcraft) | 012-pdfcraft | PAGES | published | 2026-10-20T16:34 | https://www.instagram.com/reel/DeuRbvXio1e/ |
 | 13 | [Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI) | 013-comfyui | COMFY | published | 2026-10-20T19:42 | https://www.instagram.com/reel/Deum7xxkx5n/ |
-| 14 | [shaongitbd/doory](https://github.com/shaongitbd/doory) | 014-doory | DESIGN | scheduled | 2026-10-21T10:23 |  |
-| 15 | [getopenscreen/openscreen](https://github.com/getopenscreen/openscreen) | 015-openscreen | DEMO | scheduled | 2026-10-21T11:47 |  |
-| 16 | [tangency-labs/solidcraft](https://github.com/tangency-labs/solidcraft) | 016-solidcraft | MODEL | scheduled | 2026-10-21T13:08 |  |
+| 14 | [shaongitbd/doory](https://github.com/shaongitbd/doory) | 014-doory | DESIGN | published | 2026-10-21T10:24 | https://www.instagram.com/reel/DewL3R0Dm4g/ |
+| 15 | [getopenscreen/openscreen](https://github.com/getopenscreen/openscreen) | 015-openscreen | DEMO | published | 2026-10-21T11:48 | https://www.instagram.com/reel/DewVebWjulQ/ |
+| 16 | [tangency-labs/solidcraft](https://github.com/tangency-labs/solidcraft) | 016-solidcraft | MODEL | published | 2026-10-21T13:09 | https://www.instagram.com/reel/DewewtnCkHE/ |
+| 17 | [actualbudget/actual](https://github.com/actualbudget/actual) | 017-actual | BUDGET | scheduled | 2026-10-21T17:03 |  |
+| 18 | [Zackriya-Solutions/meetily](https://github.com/Zackriya-Solutions/meetily) | 018-meetily | NOTES | scheduled | 2026-10-21T18:51 |  |

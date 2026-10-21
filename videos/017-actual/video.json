@@ -1,0 +1,94 @@
+{
+ "repo": "actualbudget/actual",
+ "name": "Actual Budget",
+ "title": "Actual Budget: free YNAB alternative",
+ "slot": 3,
+ "keyword": "BUDGET",
+ "paid": {
+  "name": "YNAB",
+  "price": "$109",
+  "per": "/year",
+  "anchor": "one",
+  "source": "https://www.ynab.com/pricing"
+ },
+ "icon": "https://raw.githubusercontent.com/actualbudget/actual/master/packages/desktop-electron/icons/icon.png",
+ "hook": "YNAB charges you one hundred and nine dollars a year to budget your money. This app does it for free.",
+ "job": "Budgets every dollar you earn",
+ "platforms": [
+  "Mac",
+  "Windows",
+  "Linux"
+ ],
+ "features": [
+  {
+   "intro": "Give every dollar a job.",
+   "say": "It's envelope budgeting. Split your income into categories, and only budget cash you have.",
+   "images": [
+    "https://raw.githubusercontent.com/actualbudget/actual/master/packages/desktop-electron/screenshots/budget-gnome-light.png"
+   ],
+   "chips": [
+    {
+     "label": "✉️ Envelopes",
+     "anchor": "envelope"
+    },
+    {
+     "label": "🗂 Categories",
+     "anchor": "categories"
+    }
+   ]
+  },
+  {
+   "say": "Import transactions, sort them, and track recurring bills with schedules.",
+   "images": [
+    "https://raw.githubusercontent.com/actualbudget/actual/master/packages/desktop-electron/screenshots/transactions-gnome-light.png",
+    "https://raw.githubusercontent.com/actualbudget/actual/master/packages/desktop-electron/screenshots/schedules-gnome-light.png"
+   ],
+   "swap_anchor": "schedules",
+   "chips": [
+    {
+     "label": "📥 Import",
+     "anchor": "import"
+    },
+    {
+     "label": "🔁 Schedules",
+     "anchor": "schedules"
+    }
+   ]
+  },
+  {
+   "say": "Reports show your net worth and cash flow.",
+   "images": [
+    "https://raw.githubusercontent.com/actualbudget/actual/master/packages/desktop-electron/screenshots/reports-gnome-light.png"
+   ],
+   "chips": [
+    {
+     "label": "📈 Net worth",
+     "anchor": "net"
+    }
+   ]
+  }
+ ],
+ "nolist": [
+  {
+   "say": "No subscription.",
+   "label": "Subscription"
+  },
+  {
+   "say": "No cloud needed.",
+   "label": "Cloud"
+  },
+  {
+   "say": "No lock-in.",
+   "label": "Lock-in"
+  }
+ ],
+ "install": "Download from GitHub Releases",
+ "install_url": "https://actualbudget.org/download",
+ "caption": "YNAB charges $109/year. Actual Budget budgets your money for free 💸\n\n✅ Envelope budgeting: give every dollar a job\n✅ Import transactions and track recurring bills with schedules\n✅ Net worth and cash flow reports\n✅ Works offline, you own your data\n\n💻 Mac · Windows · Linux\nℹ️ The desktop app works on its own. Syncing across devices needs a server you host yourself, and automatic bank sync only works in some regions (EU/UK, US/Canada).\n\nComment \"BUDGET\" and I'll DM you the link 🔗\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #personalfinance #budgeting #ynab #moneytips #freeapps #techtips",
+ "dm_pitch": "Actual Budget, the free open-source YNAB alternative 💸",
+ "thumb": {
+  "big": "FREE",
+  "line1": "YNAB",
+  "line2": "alternative"
+ }
+}

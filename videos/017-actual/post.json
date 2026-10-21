@@ -1,0 +1,23 @@
+{
+  "title": "Actual Budget: free YNAB alternative",
+  "video": "FINAL.mp4",
+  "thumbnail": "FINAL_thumbnail.png",
+  "repo_url": "https://github.com/actualbudget/actual",
+  "keyword": "BUDGET",
+  "caption": "YNAB charges $109/year. Actual Budget budgets your money for free \ud83d\udcb8\n\n\u2705 Envelope budgeting: give every dollar a job\n\u2705 Import transactions and track recurring bills with schedules\n\u2705 Net worth and cash flow reports\n\u2705 Works offline, you own your data\n\n\ud83d\udcbb Mac \u00b7 Windows \u00b7 Linux\n\u2139\ufe0f The desktop app works on its own. Syncing across devices needs a server you host yourself, and automatic bank sync only works in some regions (EU/UK, US/Canada).\n\nComment \"BUDGET\" and I'll DM you the link \ud83d\udd17\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #personalfinance #budgeting #ynab #moneytips #freeapps #techtips",
+  "dm_pitch": "Actual Budget, the free open-source YNAB alternative \ud83d\udcb8",
+  "install": "Download from GitHub Releases",
+  "dm_on_any_comment": true,
+  "follow_gate": true,
+  "slot": 3,
+  "price_source": "https://www.ynab.com/pricing",
+  "idempotencyKey": "97350abb-b24e-427b-8842-fe0caf53f2e2",
+  "zernio": {
+    "postId": "6ad8e6af146d52968d547029",
+    "status": "scheduled",
+    "scheduledFor": "2026-10-21T17:03:00.000Z",
+    "url": null,
+    "automationId": "6ad8e6b437e28dcd07545331",
+    "slot": 3
+  }
+}

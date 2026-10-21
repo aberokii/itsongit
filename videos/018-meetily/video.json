@@ -1,0 +1,90 @@
+{
+ "repo": "Zackriya-Solutions/meetily",
+ "name": "Meetily",
+ "title": "Meetily: free Granola alternative",
+ "slot": 4,
+ "keyword": "NOTES",
+ "paid": {
+  "name": "Granola",
+  "price": "$14",
+  "per": "/month",
+  "anchor": "fourteen",
+  "source": "https://www.granola.ai/pricing"
+ },
+ "icon": "https://raw.githubusercontent.com/Zackriya-Solutions/meetily/main/frontend/src-tauri/icons/icon_256x256@2x.png",
+ "hook": "Granola charges you fourteen dollars a month to take notes in your meetings. This app does it for free.",
+ "job": "Takes notes in your meetings",
+ "platforms": [
+  "Mac",
+  "Windows"
+ ],
+ "features": [
+  {
+   "say": "It transcribes your meeting live, right on your own computer.",
+   "images": [
+    "https://raw.githubusercontent.com/Zackriya-Solutions/meetily/main/docs/home.png"
+   ],
+   "chips": [
+    {
+     "label": "🎙 Live transcript",
+     "anchor": "live"
+    },
+    {
+     "label": "💻 On your computer",
+     "anchor": "computer"
+    }
+   ]
+  },
+  {
+   "intro": "Then it writes the notes for you.",
+   "say": "One click turns the whole transcript into a clean summary.",
+   "images": [
+    "https://raw.githubusercontent.com/Zackriya-Solutions/meetily/main/docs/summary.png"
+   ],
+   "chips": [
+    {
+     "label": "✨ One-click summary",
+     "anchor": "summary"
+    }
+   ]
+  },
+  {
+   "say": "And it works offline, recording both your mic and the call audio.",
+   "images": [
+    "https://raw.githubusercontent.com/Zackriya-Solutions/meetily/main/docs/audio.png"
+   ],
+   "chips": [
+    {
+     "label": "✈️ Works offline",
+     "anchor": "offline"
+    },
+    {
+     "label": "🔊 Call audio",
+     "anchor": "call"
+    }
+   ]
+  }
+ ],
+ "nolist": [
+  {
+   "say": "No subscription.",
+   "label": "Subscription"
+  },
+  {
+   "say": "No cloud needed.",
+   "label": "Cloud"
+  },
+  {
+   "say": "No data leaving your laptop.",
+   "label": "Data leaks"
+  }
+ ],
+ "install": "Download from GitHub Releases",
+ "caption": "Granola charges $14/month. Meetily takes notes in your meetings for free 📝\n\n✅ Live transcript, right on your own computer\n✅ One-click meeting summaries\n✅ Works offline and records your mic plus the call audio\n✅ No subscription, nothing sent to the cloud\n\n💻 Mac (Apple Silicon) · Windows · Linux (build from source)\nℹ️ Summaries use a free local model (Ollama) or your own AI key, and there's a separate paid Meetily PRO with extras.\n\nComment \"NOTES\" and I'll DM you the link 🔗\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #productivity #meetings #ai #privacy #freeapps #techtips",
+ "dm_pitch": "Meetily, the free open-source AI meeting note-taker and Granola alternative 📝",
+ "thumb": {
+  "big": "FREE",
+  "line1": "Granola",
+  "line2": "alternative"
+ }
+}
