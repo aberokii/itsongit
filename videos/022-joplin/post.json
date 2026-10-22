@@ -1,0 +1,23 @@
+{
+  "title": "Joplin: free Evernote alternative",
+  "video": "FINAL.mp4",
+  "thumbnail": "FINAL_thumbnail.png",
+  "repo_url": "https://github.com/laurent22/joplin",
+  "keyword": "NOTEBOOK",
+  "caption": "Evernote charges $99/year to sync your notes across devices. Joplin does it for free \ud83d\udcd3\n\n\u2705 Markdown notes, organised into notebooks, with to-do lists\n\u2705 Web clipper to save pages from your browser\n\u2705 Sync with Dropbox, OneDrive, Nextcloud or WebDAV\n\u2705 End-to-end encryption, no ads\n\n\ud83d\udcbb Mac \u00b7 Windows \u00b7 Linux \u00b7 iPhone \u00b7 Android\n\u2139\ufe0f The app and syncing through your own Dropbox, OneDrive or Nextcloud are free. Joplin's own sync service, Joplin Cloud, is an optional paid extra.\n\nComment \"NOTEBOOK\" and I'll DM you the link \ud83d\udd17\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #notetaking #evernotealternative #productivity #freeapps #markdown #techtips",
+  "dm_pitch": "Joplin, the free open-source Evernote alternative \ud83d\udcd3",
+  "install": "Download from GitHub Releases",
+  "dm_on_any_comment": true,
+  "follow_gate": true,
+  "slot": 3,
+  "price_source": "https://evernote.com/compare-plans",
+  "idempotencyKey": "cb82f947-beb4-4e28-b214-a97ff94c0269",
+  "zernio": {
+    "postId": "6ada3655199a5915ddc2c001",
+    "status": "scheduled",
+    "scheduledFor": "2026-10-22T19:10:00.000Z",
+    "url": null,
+    "automationId": "6ada365831173b2e59c49355",
+    "slot": 3
+  }
+}

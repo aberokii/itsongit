@@ -1,0 +1,23 @@
+{
+  "title": "KeePassXC: free 1Password alternative",
+  "video": "FINAL.mp4",
+  "thumbnail": "FINAL_thumbnail.png",
+  "repo_url": "https://github.com/keepassxreboot/keepassxc",
+  "keyword": "PASSWORD",
+  "caption": "1Password charges $3.99/month to keep your passwords safe. KeePassXC does it for free \ud83d\udd11\n\n\u2705 Password generator for strong, random passwords\n\u2705 Auto-Type and browser integration fill in your logins\n\u2705 Stores two-factor (TOTP) codes, imports from 1Password and Bitwarden\n\u2705 Encrypted offline database, no subscription, no tracking\n\n\ud83d\udcbb Mac \u00b7 Windows \u00b7 Linux\n\u2139\ufe0f There's no built-in cloud sync and no official phone app. Your database is a single file, so keep it in any cloud folder and open it on your phone with compatible apps like KeePassDX (Android).\n\nComment \"PASSWORD\" and I'll DM you the link \ud83d\udd17\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #passwordmanager #1password #privacy #cybersecurity #freeapps #techtips",
+  "dm_pitch": "KeePassXC, the free open-source 1Password alternative \ud83d\udd11",
+  "install": "Download from GitHub Releases",
+  "dm_on_any_comment": true,
+  "follow_gate": true,
+  "slot": 4,
+  "price_source": "https://1password.com/pricing/password-manager",
+  "idempotencyKey": "fbb51da1-06d3-4b8a-b7b9-bf838a84bdd6",
+  "zernio": {
+    "postId": "6ada365e199a5915ddc2c02c",
+    "status": "scheduled",
+    "scheduledFor": "2026-10-22T20:34:00.000Z",
+    "url": null,
+    "automationId": "6ada366094b6d32e6018a96f",
+    "slot": 4
+  }
+}

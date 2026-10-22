@@ -1,0 +1,56 @@
+{
+ "repo": "keepassxreboot/keepassxc",
+ "name": "KeePassXC",
+ "name_line": "It's called Key Pass X C.",
+ "title": "KeePassXC: free 1Password alternative",
+ "slot": 4,
+ "keyword": "PASSWORD",
+ "paid": {
+  "name": "1Password Individual",
+  "price": "$3.99",
+  "per": "/month",
+  "anchor": "four",
+  "source": "https://1password.com/pricing/password-manager"
+ },
+ "icon": "https://raw.githubusercontent.com/keepassxreboot/keepassxc/develop/share/icons/application/256x256/apps/keepassxc.png",
+ "hook": "1Password charges you four dollars a month to keep your passwords safe. This app does it for free.",
+ "job": "Locks up all your passwords",
+ "platforms": ["Mac", "Windows", "Linux"],
+ "features": [
+  {
+   "intro": "Every login, locked in one vault.",
+   "say": "Generate strong, random passwords in one click.",
+   "images": ["https://keepassxc.org/assets/img/screenshots/password_generator_advanced.png"],
+   "chips": [
+    {"label": "🎲 Generator", "anchor": "generate"},
+    {"label": "🔑 Strong", "anchor": "strong"}
+   ]
+  },
+  {
+   "say": "It types your logins into apps and browsers for you.",
+   "images": ["https://keepassxc.org/assets/img/screenshots/autotype_entrylevel.png"],
+   "chips": [
+    {"label": "⌨️ Auto-Type", "anchor": "types"},
+    {"label": "🌐 Browsers", "anchor": "browsers"}
+   ]
+  },
+  {
+   "say": "It also generates two factor codes, and imports from 1Password or Bitwarden.",
+   "images": ["https://keepassxc.org/assets/img/screenshots/database_view.png"],
+   "chips": [
+    {"label": "🔐 2FA codes", "anchor": "codes"},
+    {"label": "📥 Import", "anchor": "imports"}
+   ]
+  }
+ ],
+ "nolist": [
+  {"say": "No subscription.", "label": "Subscription"},
+  {"say": "No cloud account.", "label": "Cloud account"},
+  {"say": "No tracking.", "label": "Tracking"}
+ ],
+ "install": "Download from GitHub Releases",
+ "install_url": "https://keepassxc.org/download/",
+ "caption": "1Password charges $3.99/month to keep your passwords safe. KeePassXC does it for free 🔑\n\n✅ Password generator for strong, random passwords\n✅ Auto-Type and browser integration fill in your logins\n✅ Stores two-factor (TOTP) codes, imports from 1Password and Bitwarden\n✅ Encrypted offline database, no subscription, no tracking\n\n💻 Mac · Windows · Linux\nℹ️ There's no built-in cloud sync and no official phone app. Your database is a single file, so keep it in any cloud folder and open it on your phone with compatible apps like KeePassDX (Android).\n\nComment \"PASSWORD\" and I'll DM you the link 🔗\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #passwordmanager #1password #privacy #cybersecurity #freeapps #techtips",
+ "dm_pitch": "KeePassXC, the free open-source 1Password alternative 🔑",
+ "thumb": {"big": "FREE", "line1": "1Password", "line2": "alternative"}
+}

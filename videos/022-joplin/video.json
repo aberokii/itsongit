@@ -1,0 +1,54 @@
+{
+ "repo": "laurent22/joplin",
+ "name": "Joplin",
+ "title": "Joplin: free Evernote alternative",
+ "slot": 3,
+ "keyword": "NOTEBOOK",
+ "paid": {
+  "name": "Evernote Starter",
+  "price": "$99",
+  "per": "/year",
+  "anchor": "ninety",
+  "source": "https://evernote.com/compare-plans"
+ },
+ "icon": "https://raw.githubusercontent.com/laurent22/joplin/dev/Assets/SquareIcon512.png",
+ "hook": "Evernote charges you ninety nine dollars a year to sync your notes across devices. This app does it for free.",
+ "job": "Syncs your notes everywhere",
+ "platforms": ["Mac", "Windows", "Linux", "iPhone", "Android"],
+ "features": [
+  {
+   "intro": "Your notes, on every device.",
+   "say": "Write in Markdown, sort everything into notebooks, and tick off to-dos.",
+   "images": ["https://joplinapp.org/images/multimedia-notes-img.png"],
+   "chips": [
+    {"label": "✍️ Markdown", "anchor": "markdown"},
+    {"label": "📓 Notebooks", "anchor": "notebooks"}
+   ]
+  },
+  {
+   "say": "Clip any web page straight into a notebook.",
+   "images": ["https://joplinapp.org/images/save-web-img.png"],
+   "chips": [
+    {"label": "🌐 Web clipper", "anchor": "clip"}
+   ]
+  },
+  {
+   "say": "Sync with Dropbox, OneDrive or Nextcloud, with end-to-end encryption.",
+   "images": ["https://joplinapp.org/images/home-top-img-2x.png"],
+   "chips": [
+    {"label": "🔄 Free sync", "anchor": "sync"},
+    {"label": "🔒 Encrypted", "anchor": "encryption"}
+   ]
+  }
+ ],
+ "nolist": [
+  {"say": "No subscription.", "label": "Subscription"},
+  {"say": "No ads.", "label": "Ads"},
+  {"say": "No lock-in.", "label": "Lock-in"}
+ ],
+ "install": "Download from GitHub Releases",
+ "install_url": "https://joplinapp.org/download/",
+ "caption": "Evernote charges $99/year to sync your notes across devices. Joplin does it for free 📓\n\n✅ Markdown notes, organised into notebooks, with to-do lists\n✅ Web clipper to save pages from your browser\n✅ Sync with Dropbox, OneDrive, Nextcloud or WebDAV\n✅ End-to-end encryption, no ads\n\n💻 Mac · Windows · Linux · iPhone · Android\nℹ️ The app and syncing through your own Dropbox, OneDrive or Nextcloud are free. Joplin's own sync service, Joplin Cloud, is an optional paid extra.\n\nComment \"NOTEBOOK\" and I'll DM you the link 🔗\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #notetaking #evernotealternative #productivity #freeapps #markdown #techtips",
+ "dm_pitch": "Joplin, the free open-source Evernote alternative 📓",
+ "thumb": {"big": "FREE", "line1": "Evernote", "line2": "alternative"}
+}
