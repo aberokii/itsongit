@@ -1,0 +1,23 @@
+{
+  "title": "Vorssaint: free SoundSource alternative",
+  "video": "FINAL.mp4",
+  "thumbnail": "FINAL_thumbnail.png",
+  "repo_url": "https://github.com/vorssaint/vorssaint-utils",
+  "keyword": "MENU",
+  "caption": "SoundSource charges $49. Vorssaint does per-app volume for free \ud83c\udf9a\n\n\u2705 Volume mixer: set each app's volume, boost past 100%\n\u2705 System monitor: CPU, GPU, memory and temperatures\n\u2705 Window snapping, app switcher and clipboard history\n\u2705 No account, no tracking, no subscription\n\n\ud83d\udcbb Mac\n\u2139\ufe0f Apple Silicon only, macOS 14+\n\nComment \"MENU\" and I'll DM you the link \ud83d\udd17\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #macos #macbook #menubar #productivity #freeapps #techtips",
+  "dm_pitch": "Vorssaint, the free open-source Mac menu bar toolkit \ud83c\udf9a",
+  "install": "brew install --cask vorssaint",
+  "dm_on_any_comment": true,
+  "follow_gate": true,
+  "slot": 1,
+  "price_source": "https://rogueamoeba.com/soundsource/buy.php",
+  "idempotencyKey": "5b396874-0ad7-4320-a319-9df020bd4235",
+  "zernio": {
+    "postId": "6ad9df324957b6f985387604",
+    "status": "scheduled",
+    "scheduledFor": "2026-10-22T11:32:00.000Z",
+    "url": null,
+    "automationId": "6ad9df3468570116b60bf810",
+    "slot": 1
+  }
+}

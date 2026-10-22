@@ -1,0 +1,23 @@
+{
+  "title": "FluidVoice: free Wispr Flow alternative",
+  "video": "FINAL.mp4",
+  "thumbnail": "FINAL_thumbnail.png",
+  "repo_url": "https://github.com/altic-dev/FluidVoice",
+  "keyword": "TYPE",
+  "caption": "Wispr Flow charges $15/month to type with your voice. FluidVoice does it for free \ud83c\udf99\n\n\u2705 Types your words into any app on your Mac\n\u2705 Speech models run on-device, no cloud needed\n\u2705 Voice commands to open apps and run shortcuts\n\u2705 Select text and say how to rewrite it\n\n\ud83d\udcbb Mac (macOS 15+, Apple Silicon; Intel via Whisper models)\n\u2139\ufe0f Plain dictation works out of the box. The AI rewrite features use either the optional closed-source \"Fluid Intelligence\" add-on or your own AI provider key.\n\nComment \"TYPE\" and I'll DM you the link \ud83d\udd17\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #macos #dictation #voicetyping #productivity #freeapps #techtips",
+  "dm_pitch": "FluidVoice, the free open-source Wispr Flow alternative \ud83c\udf99",
+  "install": "brew install --cask fluidvoice",
+  "dm_on_any_comment": true,
+  "follow_gate": true,
+  "slot": 2,
+  "price_source": "https://wisprflow.ai/pricing",
+  "idempotencyKey": "3b28543b-190e-4134-89a5-870f411797a1",
+  "zernio": {
+    "postId": "6ad9e0725540d207cbbc3e03",
+    "status": "scheduled",
+    "scheduledFor": "2026-10-22T12:43:00.000Z",
+    "url": null,
+    "automationId": "6ad9e07401ee95be27c97fd6",
+    "slot": 2
+  }
+}

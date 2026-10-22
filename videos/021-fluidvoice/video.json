@@ -1,0 +1,86 @@
+{
+ "repo": "altic-dev/FluidVoice",
+ "name": "FluidVoice",
+ "title": "FluidVoice: free Wispr Flow alternative",
+ "slot": 2,
+ "keyword": "TYPE",
+ "paid": {
+  "name": "Wispr Flow",
+  "price": "$15",
+  "per": "/month",
+  "anchor": "fifteen",
+  "source": "https://wisprflow.ai/pricing"
+ },
+ "icon": "https://raw.githubusercontent.com/altic-dev/FluidVoice/main/Sources/Fluid/Assets.xcassets/AppIcon.appiconset/icon-512@2x.png",
+ "hook": "Wispr Flow charges you fifteen dollars a month to type with your voice. This app does it for free.",
+ "job": "Types anything you say, offline",
+ "platforms": [
+  "Mac"
+ ],
+ "features": [
+  {
+   "intro": "Press a key and just talk.",
+   "say": "It types your words into any app, using speech models that run on your Mac.",
+   "images": [
+    "assets/app.png"
+   ],
+   "chips": [
+    {
+     "label": "⌨️ Any app",
+     "anchor": "any"
+    },
+    {
+     "label": "🔒 On-device",
+     "anchor": "models"
+    }
+   ]
+  },
+  {
+   "say": "Say a command, and it opens apps for you.",
+   "images": [
+    "assets/command.png"
+   ],
+   "chips": [
+    {
+     "label": "🎙️ Voice commands",
+     "anchor": "command"
+    }
+   ]
+  },
+  {
+   "say": "Select any text, and say how to rewrite it.",
+   "images": [
+    "assets/write.png"
+   ],
+   "chips": [
+    {
+     "label": "✍️ Rewrite",
+     "anchor": "rewrite"
+    }
+   ]
+  }
+ ],
+ "nolist": [
+  {
+   "say": "No subscription.",
+   "label": "Subscription"
+  },
+  {
+   "say": "No cloud.",
+   "label": "Cloud"
+  },
+  {
+   "say": "No typing.",
+   "label": "Typing"
+  }
+ ],
+ "install": "brew install --cask fluidvoice",
+ "install_url": "https://altic.dev/fluid",
+ "caption": "Wispr Flow charges $15/month to type with your voice. FluidVoice does it for free 🎙\n\n✅ Types your words into any app on your Mac\n✅ Speech models run on-device, no cloud needed\n✅ Voice commands to open apps and run shortcuts\n✅ Select text and say how to rewrite it\n\n💻 Mac (macOS 15+, Apple Silicon; Intel via Whisper models)\nℹ️ Plain dictation works out of the box. The AI rewrite features use either the optional closed-source \"Fluid Intelligence\" add-on or your own AI provider key.\n\nComment \"TYPE\" and I'll DM you the link 🔗\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #macos #dictation #voicetyping #productivity #freeapps #techtips",
+ "dm_pitch": "FluidVoice, the free open-source Wispr Flow alternative 🎙",
+ "thumb": {
+  "big": "FREE",
+  "line1": "Wispr Flow",
+  "line2": "alternative"
+ }
+}

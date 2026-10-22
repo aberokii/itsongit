@@ -21,5 +21,8 @@ The scout (`pipeline/scout.py`) skips these automatically via `data/posted.json`
 | 14 | [shaongitbd/doory](https://github.com/shaongitbd/doory) | 014-doory | DESIGN | published | 2026-10-21T10:24 | https://www.instagram.com/reel/DewL3R0Dm4g/ |
 | 15 | [getopenscreen/openscreen](https://github.com/getopenscreen/openscreen) | 015-openscreen | DEMO | published | 2026-10-21T11:48 | https://www.instagram.com/reel/DewVebWjulQ/ |
 | 16 | [tangency-labs/solidcraft](https://github.com/tangency-labs/solidcraft) | 016-solidcraft | MODEL | published | 2026-10-21T13:09 | https://www.instagram.com/reel/DewewtnCkHE/ |
-| 17 | [actualbudget/actual](https://github.com/actualbudget/actual) | 017-actual | BUDGET | scheduled | 2026-10-21T17:03 |  |
-| 18 | [Zackriya-Solutions/meetily](https://github.com/Zackriya-Solutions/meetily) | 018-meetily | NOTES | scheduled | 2026-10-21T18:51 |  |
+| 17 | [actualbudget/actual](https://github.com/actualbudget/actual) | 017-actual | BUDGET | published | 2026-10-21T17:04 | https://www.instagram.com/reel/Dew5qQAjb5v/ |
+| 18 | [Zackriya-Solutions/meetily](https://github.com/Zackriya-Solutions/meetily) | 018-meetily | NOTES | published | 2026-10-21T18:52 | https://www.instagram.com/reel/DexGFVgkdPg/ |
+| 19 | [utmapp/UTM](https://github.com/utmapp/UTM) | 019-utm | WINDOWS | scheduled | 2026-10-22T10:19 |  |
+| 20 | [vorssaint/vorssaint-utils](https://github.com/vorssaint/vorssaint-utils) | 020-vorssaint | MENU | scheduled | 2026-10-22T11:32 |  |
+| 21 | [altic-dev/FluidVoice](https://github.com/altic-dev/FluidVoice) | 021-fluidvoice | TYPE | scheduled | 2026-10-22T12:43 |  |

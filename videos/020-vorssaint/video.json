@@ -1,0 +1,93 @@
+{
+ "repo": "vorssaint/vorssaint-utils",
+ "name": "Vorssaint",
+ "title": "Vorssaint: free SoundSource alternative",
+ "slot": 1,
+ "keyword": "MENU",
+ "paid": {
+  "name": "SoundSource",
+  "price": "$49",
+  "per": "",
+  "anchor": "forty",
+  "source": "https://rogueamoeba.com/soundsource/buy.php"
+ },
+ "icon": "https://raw.githubusercontent.com/vorssaint/vorssaint-utils/main/Resources/Brand/AppIcon-Default.png",
+ "hook": "SoundSource charges you forty nine bucks to control the volume of every app. This app does it for free.",
+ "job": "Sets the volume for each app",
+ "platforms": [
+  "Mac"
+ ],
+ "features": [
+  {
+   "say": "Set the volume for each app, and boost quiet audio past a hundred percent.",
+   "images": [
+    "https://raw.githubusercontent.com/vorssaint/vorssaint-utils/main/docs/assets/readme/volume-mixer.png"
+   ],
+   "chips": [
+    {
+     "label": "🎚️ Per-app volume",
+     "anchor": "volume"
+    },
+    {
+     "label": "🔊 Boost audio",
+     "anchor": "boost"
+    }
+   ]
+  },
+  {
+   "say": "A real system monitor shows temperatures, CPU, GPU and memory.",
+   "images": [
+    "https://raw.githubusercontent.com/vorssaint/vorssaint-utils/main/docs/assets/readme/system-monitor-graph.png"
+   ],
+   "chips": [
+    {
+     "label": "🌡️ Temperatures",
+     "anchor": "temperatures"
+    },
+    {
+     "label": "Memory",
+     "anchor": "memory"
+    }
+   ]
+  },
+  {
+   "say": "Plus window snapping, a better app switcher, and clipboard history.",
+   "images": [
+    "https://raw.githubusercontent.com/vorssaint/vorssaint-utils/main/docs/assets/readme/features-hub.png"
+   ],
+   "chips": [
+    {
+     "label": "Window snapping",
+     "anchor": "snapping"
+    },
+    {
+     "label": "📋 Clipboard",
+     "anchor": "clipboard"
+    }
+   ]
+  }
+ ],
+ "nolist": [
+  {
+   "say": "No account.",
+   "label": "Account"
+  },
+  {
+   "say": "No tracking.",
+   "label": "Tracking"
+  },
+  {
+   "say": "No subscription.",
+   "label": "Subscription"
+  }
+ ],
+ "install": "brew install --cask vorssaint",
+ "install_url": "https://vorssaint.com",
+ "caption": "SoundSource charges $49. Vorssaint does per-app volume for free 🎚\n\n✅ Volume mixer: set each app's volume, boost past 100%\n✅ System monitor: CPU, GPU, memory and temperatures\n✅ Window snapping, app switcher and clipboard history\n✅ No account, no tracking, no subscription\n\n💻 Mac\nℹ️ Apple Silicon only, macOS 14+\n\nComment \"MENU\" and I'll DM you the link 🔗\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #macos #macbook #menubar #productivity #freeapps #techtips",
+ "dm_pitch": "Vorssaint, the free open-source Mac menu bar toolkit 🎚",
+ "thumb": {
+  "big": "FREE",
+  "line1": "SoundSource",
+  "line2": "alternative"
+ }
+}

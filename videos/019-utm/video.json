@@ -1,0 +1,96 @@
+{
+ "repo": "utmapp/UTM",
+ "name": "UTM",
+ "title": "UTM: free Parallels alternative",
+ "slot": 0,
+ "keyword": "WINDOWS",
+ "paid": {
+  "name": "Parallels",
+  "price": "$99.99",
+  "per": "/year",
+  "anchor": "hundred",
+  "source": "https://www.parallels.com/products/desktop/pricing/"
+ },
+ "icon": "https://raw.githubusercontent.com/utmapp/UTM/main/Platform/Assets.xcassets/AppIcon.appiconset/icon_512pt@2x.png",
+ "hook": "Parallels charges you a hundred bucks a year to run Windows on your Mac. This app does it for free.",
+ "job": "Runs Windows and Linux on Mac",
+ "platforms": [
+  "Mac"
+ ],
+ "features": [
+  {
+   "intro": "It turns your Mac into a Windows PC.",
+   "say": "Windows eleven, Ubuntu and Linux, even classic old systems.",
+   "images": [
+    "https://getutm.app/assets/img/windows11.webp",
+    "https://getutm.app/assets/img/ubuntu.webp"
+   ],
+   "swap_anchor": "ubuntu",
+   "chips": [
+    {
+     "label": "Windows",
+     "anchor": "windows"
+    },
+    {
+     "label": "Ubuntu",
+     "anchor": "ubuntu"
+    },
+    {
+     "label": "Linux",
+     "anchor": "linux"
+    },
+    {
+     "label": "Classic",
+     "anchor": "classic"
+    }
+   ]
+  },
+  {
+   "say": "Every virtual machine sits in one simple list. Press play, and it boots.",
+   "images": [
+    "https://getutm.app/assets/img/library.webp"
+   ],
+   "chips": [
+    {
+     "label": "▶ One-click start",
+     "anchor": "play"
+    }
+   ]
+  },
+  {
+   "say": "It runs at near native speed on Apple Silicon.",
+   "images": [
+    "https://getutm.app/assets/img/macos.webp"
+   ],
+   "chips": [
+    {
+     "label": "⚡ Near native",
+     "anchor": "native"
+    }
+   ]
+  }
+ ],
+ "nolist": [
+  {
+   "say": "No subscription.",
+   "label": "Subscription"
+  },
+  {
+   "say": "No trial timer.",
+   "label": "Trial timer"
+  },
+  {
+   "say": "No paywall.",
+   "label": "Paywall"
+  }
+ ],
+ "install": "brew install --cask utm",
+ "install_url": "https://getutm.app/",
+ "caption": "Parallels charges $99.99/year to run Windows on your Mac. UTM does it for free 💻\n\n✅ Runs Windows 11, Ubuntu, Linux and even classic old systems\n✅ Every virtual machine in one simple list, one click to start\n✅ Near native speed on Apple Silicon\n✅ No subscription, no trial timer, 100% free\n\n💻 Mac\nℹ️ Windows itself isn't included: you bring your own Windows license (the paid App Store version of UTM is the same app as the free download)\n\nComment \"WINDOWS\" and I'll DM you the link 🔗\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #macos #macbook #windows #virtualmachine #freeapps #techtips",
+ "dm_pitch": "UTM, the free open-source Parallels alternative for running Windows on your Mac 💻",
+ "thumb": {
+  "big": "FREE",
+  "line1": "Parallels",
+  "line2": "alternative"
+ }
+}

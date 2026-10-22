@@ -1,0 +1,23 @@
+{
+  "title": "UTM: free Parallels alternative",
+  "video": "FINAL.mp4",
+  "thumbnail": "FINAL_thumbnail.png",
+  "repo_url": "https://github.com/utmapp/UTM",
+  "keyword": "WINDOWS",
+  "caption": "Parallels charges $99.99/year to run Windows on your Mac. UTM does it for free \ud83d\udcbb\n\n\u2705 Runs Windows 11, Ubuntu, Linux and even classic old systems\n\u2705 Every virtual machine in one simple list, one click to start\n\u2705 Near native speed on Apple Silicon\n\u2705 No subscription, no trial timer, 100% free\n\n\ud83d\udcbb Mac\n\u2139\ufe0f Windows itself isn't included: you bring your own Windows license (the paid App Store version of UTM is the same app as the free download)\n\nComment \"WINDOWS\" and I'll DM you the link \ud83d\udd17\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #macos #macbook #windows #virtualmachine #freeapps #techtips",
+  "dm_pitch": "UTM, the free open-source Parallels alternative for running Windows on your Mac \ud83d\udcbb",
+  "install": "brew install --cask utm",
+  "dm_on_any_comment": true,
+  "follow_gate": true,
+  "slot": 0,
+  "price_source": "https://www.parallels.com/products/desktop/pricing/",
+  "idempotencyKey": "fc512282-7d14-4df7-a98f-e36fdc93a0b1",
+  "zernio": {
+    "postId": "6ad9dcc39db0b2e2aba10f37",
+    "status": "scheduled",
+    "scheduledFor": "2026-10-22T10:19:00.000Z",
+    "url": null,
+    "automationId": "6ad9dcc6c82448efb414b642",
+    "slot": 0
+  }
+}
