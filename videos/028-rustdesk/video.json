@@ -1,0 +1,82 @@
+{
+  "repo": "rustdesk/rustdesk",
+  "name": "RustDesk",
+  "title": "RustDesk: free TeamViewer alternative",
+  "slot": 4,
+  "keyword": "REMOTE",
+  "paid": {
+    "name": "TeamViewer",
+    "price": "$24.90",
+    "per": "/month",
+    "anchor": "twenty",
+    "source": "https://www.teamviewer.com/en-us/pricing/overview/"
+  },
+  "icon": "https://raw.githubusercontent.com/rustdesk/rustdesk/master/res/icon.png",
+  "hook": "TeamViewer charges you twenty five bucks a month to control another computer from anywhere. This app does it for free.",
+  "job": "Controls any computer remotely",
+  "platforms": [
+    "Windows",
+    "Mac",
+    "Linux",
+    "Android"
+  ],
+  "features": [
+    {
+      "say": "Type in the other computer's ID, and you see its screen live, with your own mouse and keyboard.",
+      "images": [
+        "https://github.com/rustdesk/rustdesk/assets/28412477/db82d4e7-c4bc-4823-8e6f-6af7eadf7651",
+        "https://user-images.githubusercontent.com/71636191/171661982-430285f0-2e12-4b1d-9957-4a58e375304d.png"
+      ],
+      "swap_anchor": "screen",
+      "chips": [
+        {
+          "label": "🔢 Just an ID",
+          "anchor": "id"
+        },
+        {
+          "label": "🖥 Live screen",
+          "anchor": "live"
+        },
+        {
+          "label": "🖱 Your mouse",
+          "anchor": "mouse"
+        }
+      ]
+    },
+    {
+      "say": "Send files between the two computers in one window.",
+      "images": [
+        "https://github.com/rustdesk/rustdesk/assets/28412477/39511ad3-aa9a-4f8c-8947-1cce286a46ad"
+      ],
+      "chips": [
+        {
+          "label": "📁 File transfer",
+          "anchor": "files"
+        }
+      ]
+    }
+  ],
+  "nolist": [
+    {
+      "say": "No subscription.",
+      "label": "Subscription"
+    },
+    {
+      "say": "No account.",
+      "label": "Account"
+    },
+    {
+      "say": "No setup.",
+      "label": "Setup"
+    }
+  ],
+  "install": "brew install --cask rustdesk",
+  "install_url": "https://rustdesk.com",
+  "caption": "TeamViewer charges $24.90/month (billed yearly). RustDesk controls any computer remotely for free 💻\n\n✅ See the other screen live and control it with your own mouse and keyboard\n✅ Built-in file transfer between the two computers\n✅ Works out of the box, or host your own server\n✅ No subscription, no account, 100% free\n\n💻 Windows · Mac · Linux · Android\nℹ️ Out of the box it connects through RustDesk's free public servers. You can host your own server too, and a paid Pro server exists for businesses.\n\nComment \"REMOTE\" and I'll DM you the link 🔗\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #remotedesktop #teamviewer #windows #macos #freeapps #techtips",
+  "dm_pitch": "RustDesk, the free open-source TeamViewer alternative 💻",
+  "thumb": {
+    "big": "FREE",
+    "line1": "TeamViewer",
+    "line2": "alternative"
+  }
+}

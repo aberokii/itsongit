@@ -28,6 +28,8 @@ The scout (`pipeline/scout.py`) skips these automatically via `data/posted.json`
 | 21 | [altic-dev/FluidVoice](https://github.com/altic-dev/FluidVoice) | 021-fluidvoice | TYPE | published | 2026-10-22T12:45 | https://www.instagram.com/reel/DezAvBLjUn-/ |
 | 22 | [laurent22/joplin](https://github.com/laurent22/joplin) | 022-joplin | NOTEBOOK | published | 2026-10-22T19:11 | https://www.instagram.com/reel/DeztAifAjQV/ |
 | 23 | [keepassxreboot/keepassxc](https://github.com/keepassxreboot/keepassxc) | 023-keepassxc | PASSWORD | published | 2026-10-22T20:36 | https://www.instagram.com/reel/Dez2s_vFAY6/ |
-| 24 | [rohit267/net-merge](https://github.com/rohit267/net-merge) | 024-netmerge | SPEED | scheduled | 2026-10-23T10:19 |  |
-| 25 | [nyblnet/bento](https://github.com/nyblnet/bento) | 025-bento | SLIDES | scheduled | 2026-10-23T11:32 |  |
-| 26 | [hoppscotch/hoppscotch](https://github.com/hoppscotch/hoppscotch) | 026-hoppscotch | TEST | scheduled | 2026-10-23T12:44 |  |
+| 24 | [rohit267/net-merge](https://github.com/rohit267/net-merge) | 024-netmerge | SPEED | published | 2026-10-23T10:20 | https://www.instagram.com/reel/De1U9_vlY_e/ |
+| 25 | [nyblnet/bento](https://github.com/nyblnet/bento) | 025-bento | SLIDES | published | 2026-10-23T11:33 | https://www.instagram.com/reel/De1dXHoky0U/ |
+| 26 | [hoppscotch/hoppscotch](https://github.com/hoppscotch/hoppscotch) | 026-hoppscotch | TEST | published | 2026-10-23T12:45 | https://www.instagram.com/reel/De1lmCPlKyg/ |
+| 27 | [ARahim3/DigUp](https://github.com/ARahim3/DigUp) | 027-digup | SEARCH | scheduled | 2026-10-23T20:54 |  |
+| 28 | [rustdesk/rustdesk](https://github.com/rustdesk/rustdesk) | 028-rustdesk | REMOTE | scheduled | 2026-10-23T17:39 |  |

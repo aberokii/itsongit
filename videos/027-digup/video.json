@@ -1,0 +1,47 @@
+{
+ "repo": "ARahim3/DigUp",
+ "name": "DigUp",
+ "title": "DigUp: free Fenn alternative",
+ "slot": 3,
+ "keyword": "SEARCH",
+ "paid": {
+  "name": "Fenn",
+  "price": "$9",
+  "per": "/month",
+  "anchor": "nine",
+  "source": "https://usefenn.com/#pricing"
+ },
+ "icon": "https://raw.githubusercontent.com/ARahim3/DigUp/main/docs/logo.png",
+ "hook": "Fenn charges you nine bucks a month to find your files by describing them. This app does it for free.",
+ "job": "Finds files by describing them",
+ "platforms": ["Mac", "Windows", "Linux"],
+ "features": [
+  {
+   "say": "Search a zebra in a video, or where they talk about sleep, and it opens that exact moment.",
+   "images": ["assets/zebra.png", "assets/podcast.png"],
+   "swap_anchor": "sleep",
+   "chips": [
+    {"label": "🎬 Video", "anchor": "video"},
+    {"label": "🎙 Podcasts", "anchor": "sleep"}
+   ]
+  },
+  {
+   "say": "It reads photos and PDFs too: a dog on the beach, or a clause in a lease.",
+   "images": ["assets/dog.png", "assets/lease.png"],
+   "swap_anchor": "lease",
+   "chips": [
+    {"label": "🖼 Photos", "anchor": "photos"},
+    {"label": "📄 PDFs", "anchor": "PDFs"}
+   ]
+  }
+ ],
+ "nolist": [
+  {"say": "No account.", "label": "Account"},
+  {"say": "No telemetry.", "label": "Telemetry"},
+  {"say": "No uploads.", "label": "Uploads"}
+ ],
+ "install": "brew install --cask arahim3/tap/digup",
+ "caption": "Fenn charges $9/month. DigUp finds your files by what's in them, for free 🔎\n\n✅ Describe it and it opens the video or podcast at that exact moment\n✅ Finds photos, PDFs, documents and recordings by what they show or say\n✅ Everything runs on your computer, no account, no telemetry\n✅ 100% free\n\n💻 Mac · Windows · Linux\nℹ️ Windows and Linux are still in beta, and the Windows installer isn't signed yet. The Mac app needs Apple Silicon and macOS 14.\n\nComment \"SEARCH\" and I'll DM you the link 🔗\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #macos #windows #linux #productivity #freeapps #techtips",
+ "dm_pitch": "DigUp, the free open-source way to search your files by describing them 🔎",
+ "thumb": {"big": "FREE", "line1": "Fenn", "line2": "alternative"}
+}

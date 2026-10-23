@@ -1,0 +1,23 @@
+{
+  "title": "RustDesk: free TeamViewer alternative",
+  "video": "FINAL.mp4",
+  "thumbnail": "FINAL_thumbnail.png",
+  "repo_url": "https://github.com/rustdesk/rustdesk",
+  "keyword": "REMOTE",
+  "caption": "TeamViewer charges $24.90/month (billed yearly). RustDesk controls any computer remotely for free \ud83d\udcbb\n\n\u2705 See the other screen live and control it with your own mouse and keyboard\n\u2705 Built-in file transfer between the two computers\n\u2705 Works out of the box, or host your own server\n\u2705 No subscription, no account, 100% free\n\n\ud83d\udcbb Windows \u00b7 Mac \u00b7 Linux \u00b7 Android\n\u2139\ufe0f Out of the box it connects through RustDesk's free public servers. You can host your own server too, and a paid Pro server exists for businesses.\n\nComment \"REMOTE\" and I'll DM you the link \ud83d\udd17\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #remotedesktop #teamviewer #windows #macos #freeapps #techtips",
+  "dm_pitch": "RustDesk, the free open-source TeamViewer alternative \ud83d\udcbb",
+  "install": "brew install --cask rustdesk",
+  "dm_on_any_comment": true,
+  "follow_gate": true,
+  "slot": 4,
+  "price_source": "https://www.teamviewer.com/en-us/pricing/overview/",
+  "idempotencyKey": "cd080f9e-dc82-4dc0-9207-59c567fd3990",
+  "zernio": {
+    "postId": "6adb87740fc61072f7a4497c",
+    "status": "scheduled",
+    "scheduledFor": "2026-10-23T17:39:00.000Z",
+    "url": null,
+    "automationId": "6adb8777bf8411818c973f05",
+    "slot": 4
+  }
+}

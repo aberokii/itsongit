@@ -1,0 +1,23 @@
+{
+  "title": "DigUp: free Fenn alternative",
+  "video": "FINAL.mp4",
+  "thumbnail": "FINAL_thumbnail.png",
+  "repo_url": "https://github.com/ARahim3/DigUp",
+  "keyword": "SEARCH",
+  "caption": "Fenn charges $9/month. DigUp finds your files by what's in them, for free \ud83d\udd0e\n\n\u2705 Describe it and it opens the video or podcast at that exact moment\n\u2705 Finds photos, PDFs, documents and recordings by what they show or say\n\u2705 Everything runs on your computer, no account, no telemetry\n\u2705 100% free\n\n\ud83d\udcbb Mac \u00b7 Windows \u00b7 Linux\n\u2139\ufe0f Windows and Linux are still in beta, and the Windows installer isn't signed yet. The Mac app needs Apple Silicon and macOS 14.\n\nComment \"SEARCH\" and I'll DM you the link \ud83d\udd17\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #macos #windows #linux #productivity #freeapps #techtips",
+  "dm_pitch": "DigUp, the free open-source way to search your files by describing them \ud83d\udd0e",
+  "install": "brew install --cask arahim3/tap/digup",
+  "dm_on_any_comment": true,
+  "follow_gate": true,
+  "slot": 3,
+  "price_source": "https://usefenn.com/#pricing",
+  "idempotencyKey": "e84e91d8-77e4-45d7-8a1f-573eb23725d8",
+  "zernio": {
+    "postId": "6adb87808a7e83685ee91a87",
+    "status": "scheduled",
+    "scheduledFor": "2026-10-23T20:54:00.000Z",
+    "url": null,
+    "automationId": "6adb878204f8690eefb08902",
+    "slot": 3
+  }
+}
