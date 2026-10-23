@@ -21,5 +21,8 @@
  "vorssaint/vorssaint-utils",
  "altic-dev/FluidVoice",
  "laurent22/joplin",
- "keepassxreboot/keepassxc"
+ "keepassxreboot/keepassxc",
+ "rohit267/net-merge",
+ "nyblnet/bento",
+ "hoppscotch/hoppscotch"
 ]

@@ -1,0 +1,86 @@
+{
+ "repo": "hoppscotch/hoppscotch",
+ "name": "Hoppscotch",
+ "title": "Hoppscotch: free Postman alternative",
+ "slot": 2,
+ "keyword": "TEST",
+ "paid": {
+  "name": "Postman Team",
+  "price": "$19",
+  "per": "/user/month",
+  "anchor": "nineteen",
+  "source": "https://www.postman.com/pricing/"
+ },
+ "icon": "https://raw.githubusercontent.com/hoppscotch/hoppscotch/main/packages/hoppscotch-common/public/icon.png",
+ "hook": "Postman Team charges you nineteen bucks a month to test APIs with your team. This app does it for free.",
+ "job": "Tests your APIs with your team",
+ "platforms": [
+  "any browser",
+  "Mac",
+  "Windows",
+  "Linux"
+ ],
+ "features": [
+  {
+   "intro": "It's where you build and test APIs.",
+   "say": "Send requests, see the response instantly, and keep them all organized in collections.",
+   "images": [
+    "https://raw.githubusercontent.com/hoppscotch/hoppscotch/main/packages/hoppscotch-common/public/images/banner-dark.png"
+   ],
+   "chips": [
+    {
+     "label": "⚡ Instant response",
+     "anchor": "instantly"
+    },
+    {
+     "label": "📁 Collections",
+     "anchor": "collections"
+    }
+   ]
+  },
+  {
+   "say": "It does GraphQL and WebSockets too, and your team can share workspaces.",
+   "images": [
+    "https://raw.githubusercontent.com/hoppscotch/hoppscotch/main/packages/hoppscotch-desktop/desktop-app.png"
+   ],
+   "chips": [
+    {
+     "label": "GraphQL",
+     "anchor": "graphql"
+    },
+    {
+     "label": "🔌 WebSockets",
+     "anchor": "websockets"
+    },
+    {
+     "label": "👥 Team workspaces",
+     "anchor": "workspaces"
+    }
+   ]
+  }
+ ],
+ "nolist": [
+  {
+   "say": "No subscription.",
+   "label": "Subscription"
+  },
+  {
+   "say": "No cloud needed.",
+   "label": "Cloud"
+  },
+  {
+   "say": "No team limits.",
+   "label": "Team limits"
+  }
+ ],
+ "install": "brew install --cask hoppscotch",
+ "install_url": "https://hoppscotch.io",
+ "caption": "Postman Team charges $19/user/month (billed annually). Hoppscotch tests your APIs with your team for free 🧪\n\n✅ Send requests and see the response instantly\n✅ REST, GraphQL, WebSocket and more in one app\n✅ Collections, workspaces and team sharing\n✅ Works offline, free and open source\n\n💻 Any browser · Mac · Windows · Linux\nℹ️ Some enterprise and self-host admin features are part of a paid Enterprise edition.\n\nComment \"TEST\" and I'll DM you the link 🔗\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #api #postman #developer #webdev #programming #freeapps",
+ "dm_pitch": "Hoppscotch, the free open-source Postman alternative 🧪",
+ "thumb": {
+  "big": "FREE",
+  "line1": "Postman",
+  "line2": "alternative"
+ },
+ "install_line": "It runs in your browser, or on Mac, Windows and Linux. Install it with one command, or just grab the download."
+}

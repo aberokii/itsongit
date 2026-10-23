@@ -1,0 +1,23 @@
+{
+  "title": "Hoppscotch: free Postman alternative",
+  "video": "FINAL.mp4",
+  "thumbnail": "FINAL_thumbnail.png",
+  "repo_url": "https://github.com/hoppscotch/hoppscotch",
+  "keyword": "TEST",
+  "caption": "Postman Team charges $19/user/month (billed annually). Hoppscotch tests your APIs with your team for free \ud83e\uddea\n\n\u2705 Send requests and see the response instantly\n\u2705 REST, GraphQL, WebSocket and more in one app\n\u2705 Collections, workspaces and team sharing\n\u2705 Works offline, free and open source\n\n\ud83d\udcbb Any browser \u00b7 Mac \u00b7 Windows \u00b7 Linux\n\u2139\ufe0f Some enterprise and self-host admin features are part of a paid Enterprise edition.\n\nComment \"TEST\" and I'll DM you the link \ud83d\udd17\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #api #postman #developer #webdev #programming #freeapps",
+  "dm_pitch": "Hoppscotch, the free open-source Postman alternative \ud83e\uddea",
+  "install": "brew install --cask hoppscotch",
+  "dm_on_any_comment": true,
+  "follow_gate": true,
+  "slot": 2,
+  "price_source": "https://www.postman.com/pricing/",
+  "idempotencyKey": "625c6941-2ddd-4aee-85e0-515deb389ec6",
+  "zernio": {
+    "postId": "6adb2e5eae641600209a01a2",
+    "status": "scheduled",
+    "scheduledFor": "2026-10-23T12:44:00.000Z",
+    "url": null,
+    "automationId": "6adb2e6054a3a400f953d9e4",
+    "slot": 2
+  }
+}

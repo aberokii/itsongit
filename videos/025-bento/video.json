@@ -1,0 +1,95 @@
+{
+ "repo": "nyblnet/bento",
+ "name": "Bento",
+ "title": "Bento: free PowerPoint alternative",
+ "slot": 1,
+ "keyword": "SLIDES",
+ "paid": {
+  "name": "Microsoft 365",
+  "price": "$9.99",
+  "per": "/month",
+  "anchor": "ten",
+  "source": "https://www.microsoft.com/en-us/microsoft-365/buy/compare-all-microsoft-365-products"
+ },
+ "icon": "assets/icon.png",
+ "hook": "Microsoft 365 charges you ten dollars a month to make slide decks. This app does it for free.",
+ "job": "Makes slide decks in a browser",
+ "platforms": [
+  "any browser"
+ ],
+ "features": [
+  {
+   "intro": "Your whole deck is one single file.",
+   "say": "Open it in any browser, and it edits, presents and saves itself.",
+   "images": [
+    "assets/editor.png"
+   ],
+   "chips": [
+    {
+     "label": "🌐 Any browser",
+     "anchor": "browser"
+    },
+    {
+     "label": "💾 Saves itself",
+     "anchor": "saves"
+    }
+   ]
+  },
+  {
+   "say": "Morph animations move your elements between slides on their own.",
+   "images": [
+    "assets/morph.png"
+   ],
+   "chips": [
+    {
+     "label": "✨ Morph",
+     "anchor": "morph"
+    }
+   ]
+  },
+  {
+   "say": "It has built in charts, encrypted live collaboration, and PDF export.",
+   "images": [
+    "assets/charts.png"
+   ],
+   "chips": [
+    {
+     "label": "📊 Charts",
+     "anchor": "charts"
+    },
+    {
+     "label": "🔒 Encrypted collab",
+     "anchor": "encrypted"
+    },
+    {
+     "label": "📑 PDF",
+     "anchor": "PDF"
+    }
+   ]
+  }
+ ],
+ "nolist": [
+  {
+   "say": "No subscription.",
+   "label": "Subscription"
+  },
+  {
+   "say": "No account.",
+   "label": "Account"
+  },
+  {
+   "say": "No installer.",
+   "label": "Installer"
+  }
+ ],
+ "install": "Download from GitHub Releases",
+ "install_url": "https://bento.page",
+ "caption": "Microsoft 365 charges $9.99/month to make slide decks. Bento does it for free 📊\n\n✅ The whole deck is one single file: open it in any browser to edit and present\n✅ Morph animations between slides, built-in charts, PDF export\n✅ Encrypted live collaboration, and it works offline\n✅ No subscription, no account, no installer\n\n💻 Any browser\nℹ️ Bento works best on a desktop browser: phones are good for viewing and presenting, but editing is desktop-first. Live collaboration uses an optional relay that only sees encrypted data, and Offline mode turns it off.\n\nComment \"SLIDES\" and I'll DM you the link 🔗\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #powerpoint #presentations #productivity #freeapps #microsoft365 #techtips",
+ "dm_pitch": "Bento, the free open-source PowerPoint alternative 📊",
+ "thumb": {
+  "big": "FREE",
+  "line1": "PowerPoint",
+  "line2": "alternative"
+ },
+ "install_line": "It runs in any browser. Just grab the free file and open it."
+}

@@ -1,0 +1,23 @@
+{
+  "title": "Bento: free PowerPoint alternative",
+  "video": "FINAL.mp4",
+  "thumbnail": "FINAL_thumbnail.png",
+  "repo_url": "https://github.com/nyblnet/bento",
+  "keyword": "SLIDES",
+  "caption": "Microsoft 365 charges $9.99/month to make slide decks. Bento does it for free \ud83d\udcca\n\n\u2705 The whole deck is one single file: open it in any browser to edit and present\n\u2705 Morph animations between slides, built-in charts, PDF export\n\u2705 Encrypted live collaboration, and it works offline\n\u2705 No subscription, no account, no installer\n\n\ud83d\udcbb Any browser\n\u2139\ufe0f Bento works best on a desktop browser: phones are good for viewing and presenting, but editing is desktop-first. Live collaboration uses an optional relay that only sees encrypted data, and Offline mode turns it off.\n\nComment \"SLIDES\" and I'll DM you the link \ud83d\udd17\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #powerpoint #presentations #productivity #freeapps #microsoft365 #techtips",
+  "dm_pitch": "Bento, the free open-source PowerPoint alternative \ud83d\udcca",
+  "install": "Download from GitHub Releases",
+  "dm_on_any_comment": true,
+  "follow_gate": true,
+  "slot": 1,
+  "price_source": "https://www.microsoft.com/en-us/microsoft-365/buy/compare-all-microsoft-365-products",
+  "idempotencyKey": "cb3da9e9-a9b3-4a0f-ac52-a779ccd252d4",
+  "zernio": {
+    "postId": "6adb2e58eca0e3883db4f74b",
+    "status": "scheduled",
+    "scheduledFor": "2026-10-23T11:32:00.000Z",
+    "url": null,
+    "automationId": "6adb2e5ba4b24347b6927eef",
+    "slot": 1
+  }
+}

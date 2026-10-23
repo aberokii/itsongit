@@ -1,0 +1,23 @@
+{
+  "title": "net-merge: free Speedify alternative",
+  "video": "FINAL.mp4",
+  "thumbnail": "FINAL_thumbnail.png",
+  "repo_url": "https://github.com/rohit267/net-merge",
+  "keyword": "SPEED",
+  "caption": "Speedify charges $89.99/year to merge your connections. net-merge does it for free \u26a1\n\n\u2705 Combines Wi-Fi, Ethernet and phone hotspots into one faster connection\n\u2705 Works for every app, no proxy setup\n\u2705 Shows the speed of each connection live in your menu bar or tray\n\u2705 No account, no server, no VPN, 100% free\n\n\ud83d\udcbb Mac \u00b7 Windows \u00b7 Linux\n\u2139\ufe0f It needs two real connections that reach the internet separately (like Wi-Fi plus a phone), and one single download still uses one link. It needs admin rights, and the apps aren't code-signed yet, so Windows or macOS may warn on first launch. The same developer also sells RoutEngine, a commercial per-app version (free for personal use, Pro for work); net-merge itself is free.\n\nComment \"SPEED\" and I'll DM you the link \ud83d\udd17\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #wifi #internet #speedify #networking #freeapps #techtips",
+  "dm_pitch": "net-merge, the free open-source Speedify alternative \u26a1",
+  "install": "Download from GitHub Releases",
+  "dm_on_any_comment": true,
+  "follow_gate": true,
+  "slot": 0,
+  "price_source": "https://speedify.com/pricing/",
+  "idempotencyKey": "570b1e51-b23b-4dd5-9449-f8a9fd34edc6",
+  "zernio": {
+    "postId": "6adb2e4eae641600209a0184",
+    "status": "scheduled",
+    "scheduledFor": "2026-10-23T10:19:00.000Z",
+    "url": null,
+    "automationId": "6adb2e50e0438b9b938b99ce",
+    "slot": 0
+  }
+}
