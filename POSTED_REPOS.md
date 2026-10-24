@@ -33,6 +33,8 @@ The scout (`pipeline/scout.py`) skips these automatically via `data/posted.json`
 | 26 | [hoppscotch/hoppscotch](https://github.com/hoppscotch/hoppscotch) | 026-hoppscotch | TEST | published | 2026-10-23T12:45 | https://www.instagram.com/reel/De1lmCPlKyg/ |
 | 27 | [ARahim3/DigUp](https://github.com/ARahim3/DigUp) | 027-digup | SEARCH | published | 2026-10-23T20:55 | https://www.instagram.com/reel/De2dpg1AR_v/ |
 | 28 | [rustdesk/rustdesk](https://github.com/rustdesk/rustdesk) | 028-rustdesk | REMOTE | published | 2026-10-23T17:40 | https://www.instagram.com/reel/De2HYjeiGZc/ |
-| 29 | [flectar/mail](https://github.com/flectar/mail) | 029-flectar | MAIL | scheduled | 2026-10-24T09:52 |  |
-| 30 | [ace-step/ACE-Step-1.5](https://github.com/ace-step/ACE-Step-1.5) | 030-acestep | SONG | scheduled | 2026-10-24T11:17 |  |
-| 31 | [duongductrong/Snapzy](https://github.com/duongductrong/Snapzy) | 031-snapzy | SHOT | scheduled | 2026-10-24T12:41 |  |
+| 29 | [flectar/mail](https://github.com/flectar/mail) | 029-flectar | MAIL | published | 2026-10-24T09:53 | https://www.instagram.com/reel/De32uMskyf2/ |
+| 30 | [ace-step/ACE-Step-1.5](https://github.com/ace-step/ACE-Step-1.5) | 030-acestep | SONG | published | 2026-10-24T11:19 | https://www.instagram.com/reel/De4AjD2kRwP/ |
+| 31 | [duongductrong/Snapzy](https://github.com/duongductrong/Snapzy) | 031-snapzy | SHOT | published | 2026-10-24T12:42 | https://www.instagram.com/reel/De4KDCdkbwu/ |
+| 32 | [plainhub/plain-app](https://github.com/plainhub/plain-app) | 032-plainapp | PHONE | scheduled | 2026-10-24T16:22 |  |
+| 33 | [excalidraw/excalidraw](https://github.com/excalidraw/excalidraw) | 033-excalidraw | DRAW | scheduled | 2026-10-24T18:38 |  |

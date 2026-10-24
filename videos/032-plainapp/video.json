@@ -1,0 +1,100 @@
+{
+  "repo": "plainhub/plain-app",
+  "name": "PlainApp",
+  "title": "PlainApp: free AirDroid alternative",
+  "slot": 3,
+  "keyword": "PHONE",
+  "paid": {
+    "name": "AirDroid",
+    "price": "$29.99",
+    "per": "/year",
+    "anchor": "thirty",
+    "source": "https://www.airdroid.com/pricing/airdroid-personal/"
+  },
+  "icon": "https://raw.githubusercontent.com/plainhub/plain-app/main/fastlane/metadata/android/en-US/images/icon.png",
+  "hook": "AirDroid charges you thirty bucks a year to manage your phone from a computer. This app does it for free.",
+  "job": "Manages your phone from a PC",
+  "platforms": [
+    "Android"
+  ],
+  "features": [
+    {
+      "intro": "Your whole phone, in a browser tab.",
+      "say": "Open it on any computer on the same Wi-Fi, and browse your files, photos and videos.",
+      "images": [
+        "https://raw.githubusercontent.com/plainhub/plain-app/main/screenshots/web-files.png",
+        "https://raw.githubusercontent.com/plainhub/plain-app/main/screenshots/web-images.png"
+      ],
+      "swap_anchor": "photos",
+      "chips": [
+        {
+          "label": "📁 Files",
+          "anchor": "files"
+        },
+        {
+          "label": "🖼 Photos",
+          "anchor": "photos"
+        },
+        {
+          "label": "🎬 Videos",
+          "anchor": "videos"
+        }
+      ]
+    },
+    {
+      "say": "Read and send texts from your desktop, and mirror your notifications.",
+      "images": [
+        "https://raw.githubusercontent.com/plainhub/plain-app/main/screenshots/web-messages.png"
+      ],
+      "chips": [
+        {
+          "label": "💬 Texts",
+          "anchor": "texts"
+        },
+        {
+          "label": "🔔 Notifications",
+          "anchor": "notifications"
+        }
+      ]
+    },
+    {
+      "say": "It can even mirror your screen, with remote control.",
+      "images": [
+        "https://raw.githubusercontent.com/plainhub/plain-app/main/screenshots/web-screen-mirror.png"
+      ],
+      "chips": [
+        {
+          "label": "📱 Screen mirror",
+          "anchor": "mirror"
+        },
+        {
+          "label": "🖱 Remote control",
+          "anchor": "remote"
+        }
+      ]
+    }
+  ],
+  "nolist": [
+    {
+      "say": "No account.",
+      "label": "Account"
+    },
+    {
+      "say": "No cloud.",
+      "label": "Cloud"
+    },
+    {
+      "say": "No subscription.",
+      "label": "Subscription"
+    }
+  ],
+  "install": "Download from Google Play",
+  "install_url": "https://plainapp.app",
+  "caption": "AirDroid Premium charges $29.99/year. PlainApp manages your phone from any computer for free 📱\n\n✅ Browse files, photos and videos in your browser\n✅ Read and send SMS from your desktop\n✅ Mirror notifications and your screen, with remote control\n✅ No account, no cloud, no subscription, 100% free\n\n💻 Android phone + any computer browser\nℹ️ Phone and computer need to be on the same Wi-Fi network\n\nComment \"PHONE\" and I'll DM you the link 🔗\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #android #androidapps #productivity #freeapps #techtips #airdroid",
+  "dm_pitch": "PlainApp, the free open-source AirDroid alternative 📱",
+  "thumb": {
+    "big": "FREE",
+    "line1": "AirDroid",
+    "line2": "alternative"
+  }
+}

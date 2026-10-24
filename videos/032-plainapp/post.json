@@ -1,0 +1,23 @@
+{
+  "title": "PlainApp: free AirDroid alternative",
+  "video": "FINAL.mp4",
+  "thumbnail": "FINAL_thumbnail.png",
+  "repo_url": "https://github.com/plainhub/plain-app",
+  "keyword": "PHONE",
+  "caption": "AirDroid Premium charges $29.99/year. PlainApp manages your phone from any computer for free \ud83d\udcf1\n\n\u2705 Browse files, photos and videos in your browser\n\u2705 Read and send SMS from your desktop\n\u2705 Mirror notifications and your screen, with remote control\n\u2705 No account, no cloud, no subscription, 100% free\n\n\ud83d\udcbb Android phone + any computer browser\n\u2139\ufe0f Phone and computer need to be on the same Wi-Fi network\n\nComment \"PHONE\" and I'll DM you the link \ud83d\udd17\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #android #androidapps #productivity #freeapps #techtips #airdroid",
+  "dm_pitch": "PlainApp, the free open-source AirDroid alternative \ud83d\udcf1",
+  "install": "Download from Google Play",
+  "dm_on_any_comment": true,
+  "follow_gate": true,
+  "slot": 3,
+  "price_source": "https://www.airdroid.com/pricing/airdroid-personal/",
+  "idempotencyKey": "14472fd6-3bca-435c-8791-51ac1a49a481",
+  "zernio": {
+    "postId": "6adcc923a8bfab94c5a7c2a1",
+    "status": "scheduled",
+    "scheduledFor": "2026-10-24T16:22:00.000Z",
+    "url": null,
+    "automationId": "6adcc927c11d598f741967d9",
+    "slot": 3
+  }
+}

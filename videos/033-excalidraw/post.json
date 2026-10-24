@@ -1,0 +1,23 @@
+{
+  "title": "Excalidraw: free Miro alternative",
+  "video": "FINAL.mp4",
+  "thumbnail": "FINAL_thumbnail.png",
+  "repo_url": "https://github.com/excalidraw/excalidraw",
+  "keyword": "DRAW",
+  "caption": "Miro Starter charges $10/month. Excalidraw lets you sketch on a whiteboard with your team for free \u270f\ufe0f\n\n\u2705 Endless whiteboard with shapes, arrows and text\n\u2705 Live collaboration with a shared link, end-to-end encrypted\n\u2705 Export to PNG or SVG, and it works offline\n\u2705 No sign-up, no install, no subscription, 100% free\n\n\ud83d\udcbb Any browser\n\u2139\ufe0f There's also a separate paid Excalidraw+ with extra cloud features. The free app is fully usable without it.\n\nComment \"DRAW\" and I'll DM you the link \ud83d\udd17\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #whiteboard #diagrams #productivity #freeapps #techtips",
+  "dm_pitch": "Excalidraw, the free open-source Miro alternative for whiteboards \u270f\ufe0f",
+  "install": "Open excalidraw.com in your browser",
+  "dm_on_any_comment": true,
+  "follow_gate": true,
+  "slot": 4,
+  "price_source": "https://miro.com/pricing/",
+  "idempotencyKey": "667df165-9a83-4a0b-86a2-72d20e2b6b32",
+  "zernio": {
+    "postId": "6adcca2144a497fbe84d6db6",
+    "status": "scheduled",
+    "scheduledFor": "2026-10-24T18:38:00.000Z",
+    "url": null,
+    "automationId": "6adcca237efc2d316e7bfd74",
+    "slot": 4
+  }
+}

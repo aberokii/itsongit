@@ -1,0 +1,103 @@
+{
+  "repo": "excalidraw/excalidraw",
+  "name": "Excalidraw",
+  "title": "Excalidraw: free Miro alternative",
+  "slot": 4,
+  "keyword": "DRAW",
+  "paid": {
+    "name": "Miro Starter",
+    "price": "$10",
+    "per": "/month",
+    "anchor": "ten",
+    "source": "https://miro.com/pricing/"
+  },
+  "icon": "https://raw.githubusercontent.com/excalidraw/excalidraw/master/public/android-chrome-512x512.png",
+  "hook": "Miro charges you ten bucks a month to sketch on whiteboards with your team. This app does it for free.",
+  "job": "Draws diagrams with your team",
+  "platforms": [
+    "any browser"
+  ],
+  "features": [
+    {
+      "intro": "Sketch anything, hand-drawn style.",
+      "say": "It's an endless whiteboard with shapes, arrows and text.",
+      "images": [
+        "assets/showcase.png"
+      ],
+      "chips": [
+        {
+          "label": "▢ Shapes",
+          "anchor": "shapes"
+        },
+        {
+          "label": "➡ Arrows",
+          "anchor": "arrows"
+        },
+        {
+          "label": "Aa Text",
+          "anchor": "text"
+        }
+      ]
+    },
+    {
+      "say": "Share a link and draw together, live. It's end-to-end encrypted.",
+      "images": [
+        "assets/share.png"
+      ],
+      "chips": [
+        {
+          "label": "👥 Live",
+          "anchor": "live"
+        },
+        {
+          "label": "🔒 Encrypted",
+          "anchor": "encrypted"
+        }
+      ]
+    },
+    {
+      "say": "Export your drawing as a PNG or SVG. It even works offline.",
+      "images": [
+        "assets/export.png"
+      ],
+      "chips": [
+        {
+          "label": "PNG",
+          "anchor": "png"
+        },
+        {
+          "label": "SVG",
+          "anchor": "svg"
+        },
+        {
+          "label": "📡 Offline",
+          "anchor": "offline"
+        }
+      ]
+    }
+  ],
+  "nolist": [
+    {
+      "say": "No sign-up.",
+      "label": "Sign-up"
+    },
+    {
+      "say": "No install.",
+      "label": "Install"
+    },
+    {
+      "say": "No subscription.",
+      "label": "Subscription"
+    }
+  ],
+  "install": "Open excalidraw.com in your browser",
+  "install_url": "https://excalidraw.com",
+  "install_line": "It runs in any browser. Nothing to install.",
+  "caption": "Miro Starter charges $10/month. Excalidraw lets you sketch on a whiteboard with your team for free ✏️\n\n✅ Endless whiteboard with shapes, arrows and text\n✅ Live collaboration with a shared link, end-to-end encrypted\n✅ Export to PNG or SVG, and it works offline\n✅ No sign-up, no install, no subscription, 100% free\n\n💻 Any browser\nℹ️ There's also a separate paid Excalidraw+ with extra cloud features. The free app is fully usable without it.\n\nComment \"DRAW\" and I'll DM you the link 🔗\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #whiteboard #diagrams #productivity #freeapps #techtips",
+  "dm_pitch": "Excalidraw, the free open-source Miro alternative for whiteboards ✏️",
+  "thumb": {
+    "big": "FREE",
+    "line1": "Miro",
+    "line2": "alternative"
+  }
+}
