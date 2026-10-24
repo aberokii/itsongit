@@ -1,0 +1,23 @@
+{
+  "title": "Flectar Mail: free Superhuman alternative",
+  "video": "FINAL.mp4",
+  "thumbnail": "FINAL_thumbnail.png",
+  "repo_url": "https://github.com/flectar/mail",
+  "keyword": "MAIL",
+  "caption": "Superhuman charges $30/month. Flectar Mail reads your email super fast for free \u26a1\n\n\u2705 Opens instantly, as little as 80 MB of RAM\n\u2705 Tabs, calendar and contacts in one native app\n\u2705 Remote images blocked by default, so no tracking pixels\n\u2705 No subscription, no tracking, 100% free\n\n\ud83d\udcbb Mac \u00b7 Windows \u00b7 Linux (Android test build too)\n\u2139\ufe0f It's an early alpha, not stable yet. Gmail and Outlook sign-in needs your own sign-in keys for now, IMAP, POP3 and JMAP work out of the box. Windows and Mac builds are unsigned, so expect a security prompt on first launch.\n\nComment \"MAIL\" and I'll DM you the link \ud83d\udd17\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #email #superhuman #productivity #windows #macos #freeapps #techtips",
+  "dm_pitch": "Flectar Mail, the free open-source Superhuman alternative \u26a1",
+  "install": "Download from GitHub Releases",
+  "dm_on_any_comment": true,
+  "follow_gate": true,
+  "slot": 0,
+  "price_source": "https://help.superhuman.com/hc/en-us/articles/38456109456147-Pricing-Plans",
+  "idempotencyKey": "8b18df9f-40b0-4dc8-9978-4fe3d79ae3f9",
+  "zernio": {
+    "postId": "6adc76c3eb1ba3e16c0b7622",
+    "status": "scheduled",
+    "scheduledFor": "2026-10-24T09:52:00.000Z",
+    "url": null,
+    "automationId": "6adc76c5e36f2a038fde6595",
+    "slot": 0
+  }
+}

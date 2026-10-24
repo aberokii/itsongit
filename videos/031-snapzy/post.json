@@ -1,0 +1,23 @@
+{
+  "title": "Snapzy: free CleanShot X alternative",
+  "video": "FINAL.mp4",
+  "thumbnail": "FINAL_thumbnail.png",
+  "repo_url": "https://github.com/duongductrong/Snapzy",
+  "keyword": "SHOT",
+  "caption": "CleanShot X charges $35. Snapzy takes and marks up your screenshots for free \ud83d\udcf8\n\n\u2705 Area, window, scrolling and fullscreen screenshots\n\u2705 Copy text straight out of any image\n\u2705 Arrows, text and blur to mark it up\n\u2705 Records video or GIFs too, 100% free\n\n\ud83d\udcbb Mac\n\u2139\ufe0f Needs macOS 13 or later\n\nComment \"SHOT\" and I'll DM you the link \ud83d\udd17\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #macos #macbook #screenshot #productivity #freeapps #techtips",
+  "dm_pitch": "Snapzy, the free open-source CleanShot X alternative \ud83d\udcf8",
+  "install": "brew install --cask snapzy",
+  "dm_on_any_comment": true,
+  "follow_gate": true,
+  "slot": 2,
+  "price_source": "https://cleanshot.com/pricing",
+  "idempotencyKey": "6dea0a50-e37a-4ce7-ac37-774a48b3d7a4",
+  "zernio": {
+    "postId": "6adc77b26076bd6052770f99",
+    "status": "scheduled",
+    "scheduledFor": "2026-10-24T12:41:00.000Z",
+    "url": null,
+    "automationId": "6adc77b542870372ba92a735",
+    "slot": 2
+  }
+}

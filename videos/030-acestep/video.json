@@ -1,0 +1,100 @@
+{
+  "repo": "ace-step/ACE-Step-1.5",
+  "name": "ACE-Step",
+  "title": "ACE-Step: free Suno alternative",
+  "slot": 1,
+  "keyword": "SONG",
+  "paid": {
+    "name": "Suno Pro",
+    "price": "$10",
+    "per": "/month",
+    "anchor": "ten",
+    "source": "https://suno.com/pricing"
+  },
+  "icon": "https://raw.githubusercontent.com/ace-step/ACE-Step-1.5/main/assets/acestep_logo.png",
+  "hook": "Suno charges you ten bucks a month to make songs with AI. This app does it for free.",
+  "job": "Makes full songs from a prompt",
+  "platforms": [
+    "Windows",
+    "Mac",
+    "Linux"
+  ],
+  "features": [
+    {
+      "say": "Add your own lyrics in over fifty languages, and get songs up to ten minutes long.",
+      "images": [
+        "assets/playground-custom.png"
+      ],
+      "chips": [
+        {
+          "label": "🎤 Your lyrics",
+          "anchor": "lyrics"
+        },
+        {
+          "label": "50+ languages",
+          "anchor": "fifty"
+        },
+        {
+          "label": "⏱ 10 min songs",
+          "anchor": "minutes"
+        }
+      ]
+    },
+    {
+      "say": "Make covers, repaint one part, or split out stems.",
+      "images": [
+        "assets/playground-cover.png"
+      ],
+      "chips": [
+        {
+          "label": "🎶 Covers",
+          "anchor": "covers"
+        },
+        {
+          "label": "Repaint",
+          "anchor": "repaint"
+        },
+        {
+          "label": "Stems",
+          "anchor": "stems"
+        }
+      ]
+    },
+    {
+      "say": "On a good graphics card, a whole song takes about ten seconds.",
+      "images": [
+        "assets/playground.png"
+      ],
+      "chips": [
+        {
+          "label": "⚡ ~10 seconds",
+          "anchor": "seconds"
+        }
+      ]
+    }
+  ],
+  "nolist": [
+    {
+      "say": "No subscription.",
+      "label": "Subscription"
+    },
+    {
+      "say": "No credits.",
+      "label": "Credits"
+    },
+    {
+      "say": "No cloud.",
+      "label": "Cloud"
+    }
+  ],
+  "install": "Download from GitHub",
+  "install_line": "Just grab the free download for Windows and Mac.",
+  "install_url": "https://github.com/ace-step/ACE-Step-1.5",
+  "caption": "Suno charges $10/month to make songs with AI. ACE-Step does it for free 🎵\n\n✅ Full songs from a simple description, up to 10 minutes\n✅ Your own lyrics in 50+ languages\n✅ Covers, repaint and stem splitting\n✅ Runs on your own computer, no subscription\n\n💻 Windows · Mac · Linux\nℹ️ Heads up: it runs on your own hardware, so you need a graphics card (an NVIDIA GPU, or an Apple Silicon Mac), and the first launch downloads the AI models.\n\nComment \"SONG\" and I'll DM you the link 🔗\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #ai #aimusic #musicproduction #suno #freeapps #techtips",
+  "dm_pitch": "ACE-Step, the free open-source Suno alternative 🎵",
+  "thumb": {
+    "big": "FREE",
+    "line1": "Suno",
+    "line2": "alternative"
+  }
+}

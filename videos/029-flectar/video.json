@@ -1,0 +1,97 @@
+{
+  "repo": "flectar/mail",
+  "name": "Flectar Mail",
+  "title": "Flectar Mail: free Superhuman alternative",
+  "slot": 0,
+  "keyword": "MAIL",
+  "paid": {
+    "name": "Superhuman",
+    "price": "$30",
+    "per": "/month",
+    "anchor": "thirty",
+    "source": "https://help.superhuman.com/hc/en-us/articles/38456109456147-Pricing-Plans"
+  },
+  "icon": "https://raw.githubusercontent.com/flectar/mail/main/resources/app-icon/flectar-mail-masked-512.png",
+  "hook": "Superhuman charges you thirty bucks a month to get through your email faster. This app does it for free.",
+  "job": "Reads your email, super fast",
+  "platforms": [
+    "Mac",
+    "Windows",
+    "Linux"
+  ],
+  "features": [
+    {
+      "say": "It opens instantly, and runs on as little as eighty megabytes of memory.",
+      "images": [
+        "https://raw.githubusercontent.com/flectar/mail/main/resources/screenshots/desktop-light.png"
+      ],
+      "chips": [
+        {
+          "label": "⚡ Instant start",
+          "anchor": "instantly"
+        },
+        {
+          "label": "🪶 80 MB RAM",
+          "anchor": "memory"
+        }
+      ]
+    },
+    {
+      "say": "Browser-style tabs keep every conversation, your calendar and contacts open at once.",
+      "images": [
+        "https://raw.githubusercontent.com/flectar/mail/main/resources/screenshots/desktop-tabs-light.png",
+        "https://raw.githubusercontent.com/flectar/mail/main/resources/screenshots/desktop-profiles-light.png"
+      ],
+      "swap_anchor": "calendar",
+      "chips": [
+        {
+          "label": "🗂 Tabs",
+          "anchor": "tabs"
+        },
+        {
+          "label": "📅 Calendar",
+          "anchor": "calendar"
+        },
+        {
+          "label": "👥 Contacts",
+          "anchor": "contacts"
+        }
+      ]
+    },
+    {
+      "say": "Add your email accounts, and it even works offline.",
+      "images": [
+        "https://raw.githubusercontent.com/flectar/mail/main/resources/screenshots/desktop-dark.png"
+      ],
+      "chips": [
+        {
+          "label": "📴 Works offline",
+          "anchor": "offline"
+        }
+      ]
+    }
+  ],
+  "nolist": [
+    {
+      "say": "No subscription.",
+      "label": "Subscription"
+    },
+    {
+      "say": "No tracking pixels.",
+      "label": "Tracking"
+    },
+    {
+      "say": "No bloat.",
+      "label": "Bloat"
+    }
+  ],
+  "install": "Download from GitHub Releases",
+  "install_url": "https://flectar.com/mail/",
+  "caption": "Superhuman charges $30/month. Flectar Mail reads your email super fast for free ⚡\n\n✅ Opens instantly, as little as 80 MB of RAM\n✅ Tabs, calendar and contacts in one native app\n✅ Remote images blocked by default, so no tracking pixels\n✅ No subscription, no tracking, 100% free\n\n💻 Mac · Windows · Linux (Android test build too)\nℹ️ It's an early alpha, not stable yet. Gmail and Outlook sign-in needs your own sign-in keys for now, IMAP, POP3 and JMAP work out of the box. Windows and Mac builds are unsigned, so expect a security prompt on first launch.\n\nComment \"MAIL\" and I'll DM you the link 🔗\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #email #superhuman #productivity #windows #macos #freeapps #techtips",
+  "dm_pitch": "Flectar Mail, the free open-source Superhuman alternative ⚡",
+  "thumb": {
+    "big": "FREE",
+    "line1": "Superhuman",
+    "line2": "alternative"
+  }
+}

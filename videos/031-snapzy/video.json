@@ -1,0 +1,32 @@
+{
+  "repo": "duongductrong/Snapzy",
+  "name": "Snapzy",
+  "title": "Snapzy: free CleanShot X alternative",
+  "slot": 2,
+  "keyword": "SHOT",
+  "paid": {"name": "CleanShot X", "price": "$35", "per": "", "anchor": "thirty",
+           "source": "https://cleanshot.com/pricing"},
+  "icon": "https://raw.githubusercontent.com/duongductrong/Snapzy/master/Snapzy/Resources/Assets.xcassets/AppIcon.appiconset/SnapzyIcon-macOS-512x512@2x.png",
+  "hook": "CleanShot X charges you thirty five bucks to take and mark up screenshots. This app does it for free.",
+  "job": "Takes and marks up screenshots",
+  "platforms": ["Mac"],
+  "features": [
+    {"intro": "It lives in your menu bar.",
+     "say": "Grab an area, a window, a scrolling page, even text you can copy.",
+     "images": ["https://snapzy.app/flows/quick-access-flow-poster.webp"],
+     "chips": [{"label": "📜 Scrolling", "anchor": "scrolling"}, {"label": "🔤 Copy text", "anchor": "text"}]},
+    {"say": "Then mark it up with arrows and text, and blur anything private.",
+     "images": ["https://snapzy.app/flows/annotation-flow-poster.webp"],
+     "chips": [{"label": "➜ Arrows", "anchor": "arrows"}, {"label": "🔒 Blur", "anchor": "blur"}]},
+    {"say": "It records video or GIFs too.",
+     "images": ["https://snapzy.app/flows/video-flow-poster.webp"],
+     "chips": [{"label": "GIF", "anchor": "gifs"}]}
+  ],
+  "nolist": [{"say": "No subscription.", "label": "Subscription"}, {"say": "No paywall.", "label": "Paywall"},
+             {"say": "No account.", "label": "Account"}],
+  "install": "brew install --cask snapzy",
+  "install_url": "https://snapzy.app",
+  "caption": "CleanShot X charges $35. Snapzy takes and marks up your screenshots for free 📸\n\n✅ Area, window, scrolling and fullscreen screenshots\n✅ Copy text straight out of any image\n✅ Arrows, text and blur to mark it up\n✅ Records video or GIFs too, 100% free\n\n💻 Mac\nℹ️ Needs macOS 13 or later\n\nComment \"SHOT\" and I'll DM you the link 🔗\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #macos #macbook #screenshot #productivity #freeapps #techtips",
+  "dm_pitch": "Snapzy, the free open-source CleanShot X alternative 📸",
+  "thumb": {"big": "FREE", "line1": "CleanShot X", "line2": "alternative"}
+}

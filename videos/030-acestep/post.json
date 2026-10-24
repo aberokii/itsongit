@@ -1,0 +1,23 @@
+{
+  "title": "ACE-Step: free Suno alternative",
+  "video": "FINAL.mp4",
+  "thumbnail": "FINAL_thumbnail.png",
+  "repo_url": "https://github.com/ace-step/ACE-Step-1.5",
+  "keyword": "SONG",
+  "caption": "Suno charges $10/month to make songs with AI. ACE-Step does it for free \ud83c\udfb5\n\n\u2705 Full songs from a simple description, up to 10 minutes\n\u2705 Your own lyrics in 50+ languages\n\u2705 Covers, repaint and stem splitting\n\u2705 Runs on your own computer, no subscription\n\n\ud83d\udcbb Windows \u00b7 Mac \u00b7 Linux\n\u2139\ufe0f Heads up: it runs on your own hardware, so you need a graphics card (an NVIDIA GPU, or an Apple Silicon Mac), and the first launch downloads the AI models.\n\nComment \"SONG\" and I'll DM you the link \ud83d\udd17\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #ai #aimusic #musicproduction #suno #freeapps #techtips",
+  "dm_pitch": "ACE-Step, the free open-source Suno alternative \ud83c\udfb5",
+  "install": "Download from GitHub",
+  "dm_on_any_comment": true,
+  "follow_gate": true,
+  "slot": 1,
+  "price_source": "https://suno.com/pricing",
+  "idempotencyKey": "b3cd6917-3968-45d6-8e8b-13bd96fffa9b",
+  "zernio": {
+    "postId": "6adc794662d7ced6dac76156",
+    "status": "scheduled",
+    "scheduledFor": "2026-10-24T11:17:00.000Z",
+    "url": null,
+    "automationId": "6adc79488f7a774a24417119",
+    "slot": 1
+  }
+}
