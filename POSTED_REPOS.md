@@ -38,6 +38,8 @@ The scout (`pipeline/scout.py`) skips these automatically via `data/posted.json`
 | 31 | [duongductrong/Snapzy](https://github.com/duongductrong/Snapzy) | 031-snapzy | SHOT | published | 2026-10-24T12:42 | https://www.instagram.com/reel/De4KDCdkbwu/ |
 | 32 | [plainhub/plain-app](https://github.com/plainhub/plain-app) | 032-plainapp | PHONE | published | 2026-10-24T16:24 | https://www.instagram.com/reel/De4jaB7gfu0/ |
 | 33 | [excalidraw/excalidraw](https://github.com/excalidraw/excalidraw) | 033-excalidraw | DRAW | published | 2026-10-24T18:39 | https://www.instagram.com/reel/De4y6dhjusR/ |
-| 34 | [ONLYOFFICE/DesktopEditors](https://github.com/ONLYOFFICE/DesktopEditors) | 034-onlyoffice | OFFICE | scheduled | 2026-10-25T10:19 |  |
-| 35 | [upscayl/upscayl](https://github.com/upscayl/upscayl) | 035-upscayl | UPSCALE | scheduled | 2026-10-25T11:52 |  |
-| 36 | [audacity/audacity](https://github.com/audacity/audacity) | 036-audacity | AUDIO | scheduled | 2026-10-25T13:17 |  |
+| 34 | [ONLYOFFICE/DesktopEditors](https://github.com/ONLYOFFICE/DesktopEditors) | 034-onlyoffice | OFFICE | published | 2026-10-25T10:20 | https://www.instagram.com/reel/De6elyzFF74/ |
+| 35 | [upscayl/upscayl](https://github.com/upscayl/upscayl) | 035-upscayl | UPSCALE | published | 2026-10-25T11:53 | https://www.instagram.com/reel/De6pPX0kZ-t/ |
+| 36 | [audacity/audacity](https://github.com/audacity/audacity) | 036-audacity | AUDIO | published | 2026-10-25T13:18 | https://www.instagram.com/reel/De6y96wkQje/ |
+| 37 | [Automattic/harper](https://github.com/Automattic/harper) | 037-harper | GRAMMAR | scheduled | 2026-10-25T17:27 |  |
+| 38 | [p0deje/Maccy](https://github.com/p0deje/Maccy) | 038-maccy | COPY | scheduled | 2026-10-25T21:05 |  |

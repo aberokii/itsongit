@@ -1,0 +1,58 @@
+{
+  "repo": "Automattic/harper",
+  "name": "Harper",
+  "title": "Harper: free Grammarly alternative",
+  "slot": 3,
+  "keyword": "GRAMMAR",
+  "paid": {
+    "name": "Grammarly Pro",
+    "price": "$12",
+    "per": "/month",
+    "anchor": "twelve",
+    "source": "https://www.grammarly.com/plans"
+  },
+  "icon": "https://raw.githubusercontent.com/Automattic/harper/master/harper-desktop/src-tauri/icons/icon.png",
+  "hook": "Grammarly charges you twelve bucks a month to fix your writing. This app does it for free.",
+  "job": "Fixes your grammar, offline",
+  "platforms": ["Chrome", "Edge", "Firefox"],
+  "features": [
+    {
+      "intro": "It fixes your mistakes as you type.",
+      "say": "It underlines spelling and grammar errors, and one click fixes them.",
+      "images": ["assets/spelling.png", "assets/typo.png"],
+      "swap_anchor": "click",
+      "chips": [
+        {"label": "✏️ Spelling", "anchor": "spelling"},
+        {"label": "📝 Grammar", "anchor": "grammar"},
+        {"label": "👆 One click", "anchor": "click"}
+      ]
+    },
+    {
+      "say": "It works right in Gmail, Reddit and GitHub, and your writing never leaves your device.",
+      "images": ["https://raw.githubusercontent.com/Automattic/harper/master/packages/web/static/images/chrome_extension_github.png"],
+      "chips": [
+        {"label": "Gmail", "anchor": "gmail"},
+        {"label": "Reddit", "anchor": "reddit"},
+        {"label": "GitHub", "anchor": "github"},
+        {"label": "🔒 On your device", "anchor": "device"}
+      ]
+    },
+    {
+      "say": "You choose which of its rules to switch on or off.",
+      "images": ["https://raw.githubusercontent.com/Automattic/harper/master/packages/web/static/marketing/screenshots/settings-rules.png"],
+      "chips": [
+        {"label": "⚙️ Your rules", "anchor": "rules"}
+      ]
+    }
+  ],
+  "nolist": [
+    {"say": "No subscription.", "label": "Subscription"},
+    {"say": "No cloud.", "label": "Cloud"},
+    {"say": "No tracking.", "label": "Tracking"}
+  ],
+  "install": "Download the free browser extension",
+  "install_url": "https://writewithharper.com",
+  "caption": "Grammarly Pro charges $12/month (billed yearly). Harper fixes your grammar and spelling for free ✍️\n\n✅ Underlines spelling and grammar mistakes, one click to fix\n✅ Works in Gmail, Reddit, GitHub and more\n✅ Checks run on your device, so your writing stays private\n✅ No subscription, no cloud, 100% free\n\n💻 Chrome · Edge · Firefox\nℹ️ English only, and it's a classic grammar checker: no AI rewrites or tone suggestions like Grammarly.\n\nComment \"GRAMMAR\" and I'll DM you the link 🔗\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #grammarly #writing #grammarchecker #privacy #freeapps #techtips",
+  "dm_pitch": "Harper, the free open-source Grammarly alternative ✍️",
+  "thumb": {"big": "FREE", "line1": "Grammarly", "line2": "alternative"}
+}

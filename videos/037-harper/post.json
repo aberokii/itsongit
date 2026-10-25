@@ -1,0 +1,23 @@
+{
+  "title": "Harper: free Grammarly alternative",
+  "video": "FINAL.mp4",
+  "thumbnail": "FINAL_thumbnail.png",
+  "repo_url": "https://github.com/Automattic/harper",
+  "keyword": "GRAMMAR",
+  "caption": "Grammarly Pro charges $12/month (billed yearly). Harper fixes your grammar and spelling for free \u270d\ufe0f\n\n\u2705 Underlines spelling and grammar mistakes, one click to fix\n\u2705 Works in Gmail, Reddit, GitHub and more\n\u2705 Checks run on your device, so your writing stays private\n\u2705 No subscription, no cloud, 100% free\n\n\ud83d\udcbb Chrome \u00b7 Edge \u00b7 Firefox\n\u2139\ufe0f English only, and it's a classic grammar checker: no AI rewrites or tone suggestions like Grammarly.\n\nComment \"GRAMMAR\" and I'll DM you the link \ud83d\udd17\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #grammarly #writing #grammarchecker #privacy #freeapps #techtips",
+  "dm_pitch": "Harper, the free open-source Grammarly alternative \u270d\ufe0f",
+  "install": "Download the free browser extension",
+  "dm_on_any_comment": true,
+  "follow_gate": true,
+  "slot": 3,
+  "price_source": "https://www.grammarly.com/plans",
+  "idempotencyKey": "ea9fab24-9eb6-4da6-a864-8f7a6c398261",
+  "zernio": {
+    "postId": "6ade1df4591d1e4a7cd58cf6",
+    "status": "scheduled",
+    "scheduledFor": "2026-10-25T17:27:00.000Z",
+    "url": null,
+    "automationId": "6ade1df761eb4f0450a9c8f8",
+    "slot": 3
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "repo": "p0deje/Maccy",
+  "name": "Maccy",
+  "title": "Maccy: free Paste alternative",
+  "slot": 4,
+  "keyword": "COPY",
+  "paid": {"name": "Paste", "price": "$30", "per": "/year", "anchor": "thirty",
+           "source": "https://pasteapp.io/pricing"},
+  "icon": "https://raw.githubusercontent.com/p0deje/Maccy/master/Maccy/Assets.xcassets/AppIcon.appiconset/AppIcon%20(Big%20Sur)-512w.png",
+  "hook": "Paste charges you thirty bucks a year to remember everything you copy. This app does it for free.",
+  "job": "Remembers all you copy",
+  "platforms": ["Mac"],
+  "features": [
+    {"intro": "Your clipboard finally has a memory.",
+     "say": "Press shift command C, type a few letters, and find anything you copied.",
+     "images": ["assets/search.png"],
+     "chips": [{"label": "⌨ Shortcut", "anchor": "shift"}, {"label": "🔍 Search", "anchor": "type"}]},
+    {"say": "Pin favorites to the top, and it skips passwords from your password manager.",
+     "images": ["assets/instructions.png"],
+     "chips": [{"label": "📌 Pin", "anchor": "pin"}, {"label": "🔒 Passwords", "anchor": "passwords"}]}
+  ],
+  "nolist": [{"say": "No subscription.", "label": "Subscription"}, {"say": "No account.", "label": "Account"},
+             {"say": "No cloud.", "label": "Cloud"}],
+  "install": "brew install --cask maccy",
+  "install_url": "https://maccy.app",
+  "caption": "Paste charges $29.99/year. Maccy remembers everything you copy for free 📋\n\n✅ Keeps your copy history, search it as you type\n✅ Keyboard-first: open it with Shift + Cmd + C\n✅ Pin items you need to keep on top\n✅ Skips passwords from your password manager, 100% free\n\n💻 Mac\nℹ️ Needs macOS 14 or later. There's a paid App Store version that supports the dev; the GitHub/Homebrew build is the same app, free\n\nComment \"COPY\" and I'll DM you the link 🔗\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #macos #macbook #clipboard #productivity #freeapps #techtips",
+  "dm_pitch": "Maccy, the free open-source Paste alternative 📋",
+  "thumb": {"big": "FREE", "line1": "Paste", "line2": "alternative"}
+}

@@ -1,0 +1,23 @@
+{
+  "title": "Maccy: free Paste alternative",
+  "video": "FINAL.mp4",
+  "thumbnail": "FINAL_thumbnail.png",
+  "repo_url": "https://github.com/p0deje/Maccy",
+  "keyword": "COPY",
+  "caption": "Paste charges $29.99/year. Maccy remembers everything you copy for free \ud83d\udccb\n\n\u2705 Keeps your copy history, search it as you type\n\u2705 Keyboard-first: open it with Shift + Cmd + C\n\u2705 Pin items you need to keep on top\n\u2705 Skips passwords from your password manager, 100% free\n\n\ud83d\udcbb Mac\n\u2139\ufe0f Needs macOS 14 or later. There's a paid App Store version that supports the dev; the GitHub/Homebrew build is the same app, free\n\nComment \"COPY\" and I'll DM you the link \ud83d\udd17\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #macos #macbook #clipboard #productivity #freeapps #techtips",
+  "dm_pitch": "Maccy, the free open-source Paste alternative \ud83d\udccb",
+  "install": "brew install --cask maccy",
+  "dm_on_any_comment": true,
+  "follow_gate": true,
+  "slot": 4,
+  "price_source": "https://pasteapp.io/pricing",
+  "idempotencyKey": "64dae4a6-ac44-4205-9fba-3142544beb9d",
+  "zernio": {
+    "postId": "6ade1dfb75aed101fa8a2a01",
+    "status": "scheduled",
+    "scheduledFor": "2026-10-25T21:05:00.000Z",
+    "url": null,
+    "automationId": "6ade1dffacfeb0c3e3137de5",
+    "slot": 4
+  }
+}
