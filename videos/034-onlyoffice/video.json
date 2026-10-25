@@ -1,0 +1,101 @@
+{
+  "repo": "ONLYOFFICE/DesktopEditors",
+  "name": "ONLYOFFICE",
+  "title": "ONLYOFFICE: free Microsoft Office alternative",
+  "slot": 0,
+  "keyword": "OFFICE",
+  "paid": {
+    "name": "Microsoft 365 Personal",
+    "price": "$99.99",
+    "per": "/year",
+    "anchor": "hundred",
+    "source": "https://www.microsoft.com/en-us/microsoft-365/p/microsoft-365-personal/cfq7ttc0k5bf"
+  },
+  "icon": "https://github.com/ONLYOFFICE.png?size=512",
+  "hook": "Microsoft charges you a hundred bucks a year to edit documents, spreadsheets and slides. This app does it for free.",
+  "job": "Edits Word and Excel files",
+  "platforms": [
+    "Mac",
+    "Windows",
+    "Linux"
+  ],
+  "features": [
+    {
+      "intro": "It opens the files you already have.",
+      "say": "Edit Word, Excel and PowerPoint files, even offline.",
+      "images": [
+        "https://static-site.onlyoffice.com/public/images/templates/desktop/features/en/feature3.png",
+        "https://static-site.onlyoffice.com/public/images/templates/desktop/features/en/feature6.png"
+      ],
+      "swap_anchor": "powerpoint",
+      "chips": [
+        {
+          "label": "📝 Word",
+          "anchor": "word"
+        },
+        {
+          "label": "📊 Excel",
+          "anchor": "excel"
+        },
+        {
+          "label": "📴 Offline",
+          "anchor": "offline"
+        }
+      ]
+    },
+    {
+      "say": "It also edits PDFs and fills out PDF forms.",
+      "images": [
+        "https://static-site.onlyoffice.com/public/images/templates/desktop/features/en/feature2.png"
+      ],
+      "chips": [
+        {
+          "label": "📄 PDF editor",
+          "anchor": "pdfs"
+        },
+        {
+          "label": "✍️ Forms",
+          "anchor": "forms"
+        }
+      ]
+    },
+    {
+      "say": "Connect Dropbox or Nextcloud to work on files together in real time.",
+      "images": [
+        "https://static-site.onlyoffice.com/public/images/templates/desktop/features/en/feature4.png"
+      ],
+      "chips": [
+        {
+          "label": "Dropbox",
+          "anchor": "dropbox"
+        },
+        {
+          "label": "👥 Together",
+          "anchor": "together"
+        }
+      ]
+    }
+  ],
+  "nolist": [
+    {
+      "say": "No subscription.",
+      "label": "Subscription"
+    },
+    {
+      "say": "No trial.",
+      "label": "Trial"
+    },
+    {
+      "say": "No watermarks.",
+      "label": "Watermarks"
+    }
+  ],
+  "install": "brew install --cask onlyoffice",
+  "caption": "Microsoft 365 Personal charges $99.99/year. ONLYOFFICE lets you edit Word, Excel and PowerPoint files for free 📄\n\n✅ Edit Word, Excel and PowerPoint files, even offline\n✅ PDF editor with fillable PDF forms\n✅ Connect Dropbox, Nextcloud and more to work together in real time\n✅ No subscription, no watermarks, 100% free\n\n💻 Mac · Windows · Linux\nℹ️ The desktop app is free. ONLYOFFICE also sells paid cloud and server editions for businesses.\n\nComment \"OFFICE\" and I'll DM you the link 🔗\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #office #msoffice #word #excel #productivity #freeapps #techtips",
+  "dm_pitch": "ONLYOFFICE, the free open-source Microsoft Office alternative 📄",
+  "thumb": {
+    "big": "FREE",
+    "line1": "Microsoft Office",
+    "line2": "alternative"
+  }
+}

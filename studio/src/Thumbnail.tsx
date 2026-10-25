@@ -19,10 +19,13 @@ export type ThumbProps = {
 
 const Body: React.FC<ThumbProps> = ({icon, paid, price, big, line1, line2, repo, job}) => {
   const accent = useAccent();
+  // long paid names ("Microsoft 365 Personal") would run off the edge: estimate the strip width and shrink to fit 960px
+  const stripW = paid.length * 30 + price.length * 40 + 230;
+  const stripScale = Math.min(1, 960 / stripW);
   return (
     <AbsoluteFill style={{fontFamily: INTER, color: C.TEXT, alignItems: "center"}}>
       <Background />
-      <div style={{position: "absolute", top: 330, display: "flex", alignItems: "center", gap: 22}}>
+      <div style={{position: "absolute", top: 330, display: "flex", alignItems: "center", gap: 22, whiteSpace: "nowrap", transform: `scale(${stripScale})`}}>
         <span style={{fontWeight: 800, fontSize: 50, color: C.MUTED}}>{paid}</span>
         <span style={{position: "relative", fontWeight: 900, fontSize: 64, color: C.NEG}}>
           {price}

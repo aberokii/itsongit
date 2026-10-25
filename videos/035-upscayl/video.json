@@ -1,0 +1,100 @@
+{
+  "repo": "upscayl/upscayl",
+  "name": "Upscayl",
+  "title": "Upscayl: free Topaz Gigapixel alternative",
+  "slot": 1,
+  "keyword": "UPSCALE",
+  "paid": {
+    "name": "Topaz Gigapixel",
+    "price": "$149",
+    "per": "/year",
+    "anchor": "hundred",
+    "source": "https://www.topazlabs.com/gigapixel"
+  },
+  "icon": "https://raw.githubusercontent.com/upscayl/upscayl/main/build/icon.png",
+  "hook": "Topaz Gigapixel charges you a hundred forty nine bucks a year to make blurry photos sharp. This app does it for free.",
+  "job": "Makes blurry photos sharp",
+  "platforms": [
+    "Mac",
+    "Windows",
+    "Linux"
+  ],
+  "features": [
+    {
+      "intro": "It makes small, fuzzy images big and crisp.",
+      "say": "Pick a photo, hit one button, and AI enlarges it.",
+      "images": [
+        "https://user-images.githubusercontent.com/25067102/187059440-83f32705-4509-4899-a109-ed2d8248fd2b.png",
+        "https://user-images.githubusercontent.com/25067102/187059369-9bc63f1c-e6c0-4d6a-9089-706db43f171f.png"
+      ],
+      "swap_anchor": "enlarges",
+      "chips": [
+        {
+          "label": "📷 Any photo",
+          "anchor": "photo"
+        },
+        {
+          "label": "🔘 One button",
+          "anchor": "button"
+        }
+      ]
+    },
+    {
+      "say": "Pick a different AI model for photos or digital art.",
+      "images": [
+        "assets/models.png",
+        "assets/app.png"
+      ],
+      "swap_anchor": "art",
+      "chips": [
+        {
+          "label": "🧠 AI models",
+          "anchor": "model"
+        },
+        {
+          "label": "🎨 Digital art",
+          "anchor": "digital"
+        }
+      ]
+    },
+    {
+      "say": "Slide to compare before and after, or batch upscale many images at once.",
+      "images": [
+        "assets/compare.png"
+      ],
+      "chips": [
+        {
+          "label": "↔ Before / after",
+          "anchor": "compare"
+        },
+        {
+          "label": "📚 Batch",
+          "anchor": "batch"
+        }
+      ]
+    }
+  ],
+  "nolist": [
+    {
+      "say": "No subscription.",
+      "label": "Subscription"
+    },
+    {
+      "say": "No account.",
+      "label": "Account"
+    },
+    {
+      "say": "No uploads.",
+      "label": "Uploads"
+    }
+  ],
+  "install": "brew install --cask upscayl",
+  "install_url": "https://upscayl.org",
+  "caption": "Topaz Gigapixel charges $149/year. Upscayl makes blurry photos sharp for free 🔍\n\n✅ Enlarges small, low-res images with AI in one click\n✅ Different AI models for photos and digital art\n✅ Before/after slider and batch mode for many images\n✅ No subscription, no account, 100% free\n\n💻 Mac · Windows · Linux\nℹ️ It needs a graphics card that supports Vulkan, and many built-in (integrated) laptop GPUs won't work.\n\nComment \"UPSCALE\" and I'll DM you the link 🔗\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #ai #imageupscaler #photography #photoediting #freeapps #techtips",
+  "dm_pitch": "Upscayl, the free open-source Topaz Gigapixel alternative 🔍",
+  "thumb": {
+    "big": "FREE",
+    "line1": "Topaz Gigapixel",
+    "line2": "alternative"
+  }
+}

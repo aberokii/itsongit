@@ -1,0 +1,23 @@
+{
+  "title": "Audacity: free Adobe Audition alternative",
+  "video": "FINAL.mp4",
+  "thumbnail": "FINAL_thumbnail.png",
+  "repo_url": "https://github.com/audacity/audacity",
+  "keyword": "AUDIO",
+  "caption": "Adobe Audition charges $22.99/month (billed yearly). Audacity records and edits your audio for free \ud83c\udf99\n\n\u2705 Record your voice or music and edit it across multiple tracks\n\u2705 Built-in effects like compressor, reverb and EQ\n\u2705 Supports VST3 plugins\n\u2705 No subscription, no trial, 100% free\n\n\ud83d\udcbb Mac \u00b7 Windows \u00b7 Linux\n\u2139\ufe0f The download page offers the optional Muse Hub installer or a direct download, and audio.com cloud saving is optional too.\n\nComment \"AUDIO\" and I'll DM you the link \ud83d\udd17\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #audacity #podcast #audioediting #musicproduction #freeapps #techtips",
+  "dm_pitch": "Audacity, the free open-source Adobe Audition alternative \ud83c\udf99",
+  "install": "brew install --cask audacity",
+  "dm_on_any_comment": true,
+  "follow_gate": true,
+  "slot": 2,
+  "price_source": "https://www.adobe.com/products/audition.html",
+  "idempotencyKey": "ca6b9c76-c0a0-4cb6-a415-252cb5242601",
+  "zernio": {
+    "postId": "6addcfee8963c8d1da63e62c",
+    "status": "scheduled",
+    "scheduledFor": "2026-10-25T13:17:00.000Z",
+    "url": null,
+    "automationId": "6addcff0af92ac280a3c5acf",
+    "slot": 2
+  }
+}

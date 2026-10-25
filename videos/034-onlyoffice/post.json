@@ -1,0 +1,23 @@
+{
+  "title": "ONLYOFFICE: free Microsoft Office alternative",
+  "video": "FINAL.mp4",
+  "thumbnail": "FINAL_thumbnail.png",
+  "repo_url": "https://github.com/ONLYOFFICE/DesktopEditors",
+  "keyword": "OFFICE",
+  "caption": "Microsoft 365 Personal charges $99.99/year. ONLYOFFICE lets you edit Word, Excel and PowerPoint files for free \ud83d\udcc4\n\n\u2705 Edit Word, Excel and PowerPoint files, even offline\n\u2705 PDF editor with fillable PDF forms\n\u2705 Connect Dropbox, Nextcloud and more to work together in real time\n\u2705 No subscription, no watermarks, 100% free\n\n\ud83d\udcbb Mac \u00b7 Windows \u00b7 Linux\n\u2139\ufe0f The desktop app is free. ONLYOFFICE also sells paid cloud and server editions for businesses.\n\nComment \"OFFICE\" and I'll DM you the link \ud83d\udd17\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #office #msoffice #word #excel #productivity #freeapps #techtips",
+  "dm_pitch": "ONLYOFFICE, the free open-source Microsoft Office alternative \ud83d\udcc4",
+  "install": "brew install --cask onlyoffice",
+  "dm_on_any_comment": true,
+  "follow_gate": true,
+  "slot": 0,
+  "price_source": "https://www.microsoft.com/en-us/microsoft-365/p/microsoft-365-personal/cfq7ttc0k5bf",
+  "idempotencyKey": "71ff304a-1513-4efb-bcb1-5462076a3b0b",
+  "zernio": {
+    "postId": "6addce31c54b1f2d8060ae3e",
+    "status": "scheduled",
+    "scheduledFor": "2026-10-25T10:19:00.000Z",
+    "url": null,
+    "automationId": "6addce342b66596f19ad4493",
+    "slot": 0
+  }
+}

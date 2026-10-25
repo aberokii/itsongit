@@ -1,0 +1,94 @@
+{
+  "repo": "audacity/audacity",
+  "name": "Audacity",
+  "title": "Audacity: free Adobe Audition alternative",
+  "slot": 2,
+  "keyword": "AUDIO",
+  "paid": {
+    "name": "Adobe Audition",
+    "price": "$22.99",
+    "per": "/month",
+    "anchor": "twenty",
+    "source": "https://www.adobe.com/products/audition.html"
+  },
+  "icon": "https://raw.githubusercontent.com/audacity/audacity/master/share/icons/AppIcon/AU4_AppIcon_512x512.png",
+  "hook": "Adobe Audition charges you twenty three bucks a month to edit your audio. This app does it for free.",
+  "job": "Records and edits any audio",
+  "platforms": [
+    "Mac",
+    "Windows",
+    "Linux"
+  ],
+  "features": [
+    {
+      "intro": "Record, edit, and mix, all in one app.",
+      "say": "Record your voice or music, then edit it across multiple tracks.",
+      "images": [
+        "assets/multitrack.png"
+      ],
+      "chips": [
+        {
+          "label": "🎤 Record",
+          "anchor": "record"
+        },
+        {
+          "label": "✂️ Edit",
+          "anchor": "edit"
+        },
+        {
+          "label": "🎶 Multi-track",
+          "anchor": "tracks"
+        }
+      ]
+    },
+    {
+      "say": "Polish it with effects like compressor, reverb and EQ. It even supports VST3 plugins.",
+      "images": [
+        "assets/compressor.png",
+        "assets/reverb.png"
+      ],
+      "swap_anchor": "reverb",
+      "chips": [
+        {
+          "label": "Compressor",
+          "anchor": "compressor"
+        },
+        {
+          "label": "Reverb",
+          "anchor": "reverb"
+        },
+        {
+          "label": "EQ",
+          "anchor": "eq"
+        },
+        {
+          "label": "🔌 Plugins",
+          "anchor": "plugins"
+        }
+      ]
+    }
+  ],
+  "nolist": [
+    {
+      "say": "No subscription.",
+      "label": "Subscription"
+    },
+    {
+      "say": "No trial.",
+      "label": "Trial"
+    },
+    {
+      "say": "No paywall.",
+      "label": "Paywall"
+    }
+  ],
+  "install": "brew install --cask audacity",
+  "install_url": "https://www.audacityteam.org",
+  "caption": "Adobe Audition charges $22.99/month (billed yearly). Audacity records and edits your audio for free 🎙\n\n✅ Record your voice or music and edit it across multiple tracks\n✅ Built-in effects like compressor, reverb and EQ\n✅ Supports VST3 plugins\n✅ No subscription, no trial, 100% free\n\n💻 Mac · Windows · Linux\nℹ️ The download page offers the optional Muse Hub installer or a direct download, and audio.com cloud saving is optional too.\n\nComment \"AUDIO\" and I'll DM you the link 🔗\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #audacity #podcast #audioediting #musicproduction #freeapps #techtips",
+  "dm_pitch": "Audacity, the free open-source Adobe Audition alternative 🎙",
+  "thumb": {
+    "big": "FREE",
+    "line1": "Adobe Audition",
+    "line2": "alternative"
+  }
+}

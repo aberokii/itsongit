@@ -1,0 +1,23 @@
+{
+  "title": "Upscayl: free Topaz Gigapixel alternative",
+  "video": "FINAL.mp4",
+  "thumbnail": "FINAL_thumbnail.png",
+  "repo_url": "https://github.com/upscayl/upscayl",
+  "keyword": "UPSCALE",
+  "caption": "Topaz Gigapixel charges $149/year. Upscayl makes blurry photos sharp for free \ud83d\udd0d\n\n\u2705 Enlarges small, low-res images with AI in one click\n\u2705 Different AI models for photos and digital art\n\u2705 Before/after slider and batch mode for many images\n\u2705 No subscription, no account, 100% free\n\n\ud83d\udcbb Mac \u00b7 Windows \u00b7 Linux\n\u2139\ufe0f It needs a graphics card that supports Vulkan, and many built-in (integrated) laptop GPUs won't work.\n\nComment \"UPSCALE\" and I'll DM you the link \ud83d\udd17\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #ai #imageupscaler #photography #photoediting #freeapps #techtips",
+  "dm_pitch": "Upscayl, the free open-source Topaz Gigapixel alternative \ud83d\udd0d",
+  "install": "brew install --cask upscayl",
+  "dm_on_any_comment": true,
+  "follow_gate": true,
+  "slot": 1,
+  "price_source": "https://www.topazlabs.com/gigapixel",
+  "idempotencyKey": "92b70a2f-f26d-49c2-b6fc-a8f3a25b7c5c",
+  "zernio": {
+    "postId": "6addce3b064f346c3239a10a",
+    "status": "scheduled",
+    "scheduledFor": "2026-10-25T11:52:00.000Z",
+    "url": null,
+    "automationId": "6addce3eb6c6770b406356be",
+    "slot": 1
+  }
+}
