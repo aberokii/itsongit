@@ -1,0 +1,90 @@
+{
+  "repo": "JerryZLiu/Dayflow",
+  "name": "Dayflow",
+  "title": "Dayflow: free Rize alternative",
+  "slot": 2,
+  "keyword": "TIME",
+  "paid": {
+    "name": "Rize",
+    "price": "$12.99",
+    "per": "/month",
+    "anchor": "thirteen",
+    "source": "https://rize.io/pricing"
+  },
+  "icon": "https://raw.githubusercontent.com/JerryZLiu/Dayflow/main/Dayflow/Dayflow/Assets.xcassets/AppIcon.appiconset/Export%20me%20(512px)%20(7).png",
+  "hook": "Rize charges you thirteen bucks a month to track where your day goes. This app does it for free.",
+  "job": "Tracks where your day goes",
+  "platforms": [
+    "Mac"
+  ],
+  "features": [
+    {
+      "intro": "Your day, written for you.",
+      "say": "It turns your screen into a timeline of your day, automatically.",
+      "images": [
+        "assets/timeline.png"
+      ],
+      "chips": [
+        {
+          "label": "🗓 Timeline",
+          "anchor": "timeline"
+        },
+        {
+          "label": "⚡ Automatic",
+          "anchor": "automatically"
+        }
+      ]
+    },
+    {
+      "say": "Your daily standup writes itself, with yesterday's highlights and today's tasks.",
+      "images": [
+        "https://raw.githubusercontent.com/JerryZLiu/Dayflow/main/docs/images/daily.png"
+      ],
+      "chips": [
+        {
+          "label": "📝 Standup",
+          "anchor": "standup"
+        }
+      ]
+    },
+    {
+      "say": "A weekly review shows when you focused, and which apps took over.",
+      "images": [
+        "https://raw.githubusercontent.com/JerryZLiu/Dayflow/main/docs/images/weekly.png"
+      ],
+      "chips": [
+        {
+          "label": "🎯 Focus",
+          "anchor": "focused"
+        },
+        {
+          "label": "📊 Apps",
+          "anchor": "apps"
+        }
+      ]
+    }
+  ],
+  "nolist": [
+    {
+      "say": "No timers.",
+      "label": "Timers"
+    },
+    {
+      "say": "No manual notes.",
+      "label": "Manual notes"
+    },
+    {
+      "say": "No subscription.",
+      "label": "Subscription"
+    }
+  ],
+  "install": "brew install --cask dayflow",
+  "install_url": "https://www.dayflow.so/",
+  "caption": "Rize charges $12.99/month. Dayflow tracks where your day goes for free ⏱\n\n✅ Turns your screen activity into a timeline of your day\n✅ No timers, no manual notes\n✅ Daily standup: yesterday's highlights, today's tasks\n✅ Weekly review of focus and app usage, 100% free\n\n💻 Mac\nℹ️ Needs macOS 14+ and an AI to write the timeline: free local models, or your own Gemini/ChatGPT/Claude. An optional paid Pro plan does the AI setup for you\n\nComment \"TIME\" and I'll DM you the link 🔗\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #macos #macbook #productivity #timetracking #freeapps #techtips",
+  "dm_pitch": "Dayflow, the free open-source Rize alternative ⏱",
+  "thumb": {
+    "big": "FREE",
+    "line1": "Rize",
+    "line2": "alternative"
+  }
+}

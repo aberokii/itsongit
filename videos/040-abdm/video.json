@@ -1,0 +1,89 @@
+{
+  "repo": "amir1376/ab-download-manager",
+  "name": "AB Download Manager",
+  "title": "AB Download Manager: free IDM alternative",
+  "slot": 1,
+  "keyword": "FILES",
+  "paid": {
+    "name": "IDM",
+    "price": "$11.95",
+    "per": "/year",
+    "anchor": "twelve",
+    "source": "https://secure.internetdownloadmanager.com/buy_idm.html"
+  },
+  "icon": "https://raw.githubusercontent.com/amir1376/ab-download-manager/master/desktop/app/icons/icon.png",
+  "hook": "IDM charges you twelve bucks a year to speed up your downloads. This app does it for free.",
+  "job": "Speeds up your downloads",
+  "platforms": [
+    "Windows",
+    "Mac",
+    "Linux",
+    "Android"
+  ],
+  "features": [
+    {
+      "intro": "Big files, finally downloading fast.",
+      "say": "It downloads each file in several parts at once, and you can pause and resume anytime.",
+      "images": [
+        "https://raw.githubusercontent.com/amir1376/ab-download-manager/master/assets/screenshots/app-download_dark.png"
+      ],
+      "chips": [
+        {
+          "label": "🧩 Several parts",
+          "anchor": "parts"
+        },
+        {
+          "label": "⏸ Pause",
+          "anchor": "pause"
+        },
+        {
+          "label": "▶ Resume",
+          "anchor": "resume"
+        }
+      ]
+    },
+    {
+      "say": "Queue your downloads, schedule them, and a browser extension catches links for you.",
+      "images": [
+        "https://raw.githubusercontent.com/amir1376/ab-download-manager/master/assets/screenshots/app-home_dark.png"
+      ],
+      "chips": [
+        {
+          "label": "📋 Queue",
+          "anchor": "queue"
+        },
+        {
+          "label": "⏰ Scheduler",
+          "anchor": "schedule"
+        },
+        {
+          "label": "🌐 Browser",
+          "anchor": "browser"
+        }
+      ]
+    }
+  ],
+  "nolist": [
+    {
+      "say": "No subscription.",
+      "label": "Subscription"
+    },
+    {
+      "say": "No account.",
+      "label": "Account"
+    },
+    {
+      "say": "No trial timer.",
+      "label": "Trial timer"
+    }
+  ],
+  "install": "winget install amir1376.ABDownloadManager",
+  "install_url": "https://abdownloadmanager.com",
+  "caption": "IDM charges $11.95/year. AB Download Manager speeds up your downloads for free ⚡\n\n✅ Downloads each file in several parts at once\n✅ Pause and resume any download\n✅ Queues and a scheduler for big batches\n✅ Browser extension grabs download links for you, 100% free\n\n💻 Windows · Mac · Linux · Android\nℹ️ The browser extension is a separate install from the Chrome or Firefox store. On Windows you can install with winget; other platforms grab the download from GitHub Releases\n\nComment \"FILES\" and I'll DM you the link 🔗\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #windows #downloadmanager #productivity #freeapps #techtips",
+  "dm_pitch": "AB Download Manager, the free open-source IDM alternative ⚡",
+  "thumb": {
+    "big": "FREE",
+    "line1": "IDM",
+    "line2": "alternative"
+  }
+}

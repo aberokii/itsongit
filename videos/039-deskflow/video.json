@@ -1,0 +1,85 @@
+{
+  "repo": "deskflow/deskflow",
+  "name": "Deskflow",
+  "title": "Deskflow: free Synergy alternative",
+  "slot": 0,
+  "keyword": "MOUSE",
+  "paid": {
+    "name": "Synergy",
+    "price": "$15",
+    "per": "",
+    "anchor": "fifteen",
+    "source": "https://symless.com/synergy/pricing"
+  },
+  "icon": "https://raw.githubusercontent.com/deskflow/deskflow/master/deploy/linux/org.deskflow.deskflow.png",
+  "hook": "Synergy charges you fifteen bucks to share one keyboard and mouse across computers. This app does it for free.",
+  "job": "Shares one mouse and keyboard",
+  "platforms": [
+    "Mac",
+    "Windows",
+    "Linux"
+  ],
+  "features": [
+    {
+      "intro": "One mouse, every single computer.",
+      "say": "Make one computer the server, and its keyboard and mouse control every other computer.",
+      "images": [
+        "assets/server.png",
+        "assets/client.png"
+      ],
+      "swap_anchor": "other",
+      "chips": [
+        {
+          "label": "🖥 Server",
+          "anchor": "server"
+        },
+        {
+          "label": "⌨ Keyboard",
+          "anchor": "keyboard"
+        },
+        {
+          "label": "🖱 Mouse",
+          "anchor": "mouse"
+        }
+      ]
+    },
+    {
+      "say": "Copy on one computer and paste on another, and every connection is encrypted.",
+      "images": [
+        "assets/connected.png"
+      ],
+      "chips": [
+        {
+          "label": "📋 Shared clipboard",
+          "anchor": "paste"
+        },
+        {
+          "label": "🔒 Encrypted",
+          "anchor": "encrypted"
+        }
+      ]
+    }
+  ],
+  "nolist": [
+    {
+      "say": "No subscription.",
+      "label": "Subscription"
+    },
+    {
+      "say": "No account.",
+      "label": "Account"
+    },
+    {
+      "say": "No paywall.",
+      "label": "Paywall"
+    }
+  ],
+  "install": "brew install --cask deskflow/tap/deskflow",
+  "caption": "Synergy charges $15 one-time. Deskflow shares one keyboard and mouse across your computers for free 🖱️\n\n✅ Control several computers with one keyboard and mouse\n✅ Copy on one computer, paste on another\n✅ Every connection is encrypted by default\n✅ No subscription, no account, 100% free\n\n💻 Mac · Windows · Linux\nℹ️ The Mac build is unsigned, so the first launch needs one quick Terminal command from the README, plus Accessibility access\n\nComment \"MOUSE\" and I'll DM you the link 🔗\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #macos #windows #linux #productivity #freeapps #techtips",
+  "dm_pitch": "Deskflow, the free open-source Synergy alternative 🖱️",
+  "thumb": {
+    "big": "FREE",
+    "line1": "Synergy",
+    "line2": "alternative"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "title": "Deskflow: free Synergy alternative",
+  "video": "FINAL.mp4",
+  "thumbnail": "FINAL_thumbnail.png",
+  "repo_url": "https://github.com/deskflow/deskflow",
+  "keyword": "MOUSE",
+  "caption": "Synergy charges $15 one-time. Deskflow shares one keyboard and mouse across your computers for free \ud83d\uddb1\ufe0f\n\n\u2705 Control several computers with one keyboard and mouse\n\u2705 Copy on one computer, paste on another\n\u2705 Every connection is encrypted by default\n\u2705 No subscription, no account, 100% free\n\n\ud83d\udcbb Mac \u00b7 Windows \u00b7 Linux\n\u2139\ufe0f The Mac build is unsigned, so the first launch needs one quick Terminal command from the README, plus Accessibility access\n\nComment \"MOUSE\" and I'll DM you the link \ud83d\udd17\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #macos #windows #linux #productivity #freeapps #techtips",
+  "dm_pitch": "Deskflow, the free open-source Synergy alternative \ud83d\uddb1\ufe0f",
+  "install": "brew install --cask deskflow/tap/deskflow",
+  "dm_on_any_comment": true,
+  "follow_gate": true,
+  "slot": 0,
+  "price_source": "https://symless.com/synergy/pricing",
+  "idempotencyKey": "4a234c75-ca27-401d-bbc4-b1d7ca2d0108",
+  "zernio": {
+    "postId": "6adf32107416f210f4c7d87b",
+    "status": "scheduled",
+    "scheduledFor": "2026-10-26T11:24:00.000Z",
+    "url": null,
+    "automationId": "6adf3214d0ccd0a84527b67a",
+    "slot": 0
+  }
+}

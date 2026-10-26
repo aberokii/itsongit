@@ -1,0 +1,23 @@
+{
+  "title": "Dayflow: free Rize alternative",
+  "video": "FINAL.mp4",
+  "thumbnail": "FINAL_thumbnail.png",
+  "repo_url": "https://github.com/JerryZLiu/Dayflow",
+  "keyword": "TIME",
+  "caption": "Rize charges $12.99/month. Dayflow tracks where your day goes for free \u23f1\n\n\u2705 Turns your screen activity into a timeline of your day\n\u2705 No timers, no manual notes\n\u2705 Daily standup: yesterday's highlights, today's tasks\n\u2705 Weekly review of focus and app usage, 100% free\n\n\ud83d\udcbb Mac\n\u2139\ufe0f Needs macOS 14+ and an AI to write the timeline: free local models, or your own Gemini/ChatGPT/Claude. An optional paid Pro plan does the AI setup for you\n\nComment \"TIME\" and I'll DM you the link \ud83d\udd17\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #macos #macbook #productivity #timetracking #freeapps #techtips",
+  "dm_pitch": "Dayflow, the free open-source Rize alternative \u23f1",
+  "install": "brew install --cask dayflow",
+  "dm_on_any_comment": true,
+  "follow_gate": true,
+  "slot": 2,
+  "price_source": "https://rize.io/pricing",
+  "idempotencyKey": "fe4652db-542d-406d-98e8-bdc76a15b9df",
+  "zernio": {
+    "postId": "6adf33ee40ee8f406cd34525",
+    "status": "scheduled",
+    "scheduledFor": "2026-10-26T13:43:00.000Z",
+    "url": null,
+    "automationId": "6adf33f1661687c31523ff9a",
+    "slot": 2
+  }
+}

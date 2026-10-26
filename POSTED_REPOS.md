@@ -41,5 +41,8 @@ The scout (`pipeline/scout.py`) skips these automatically via `data/posted.json`
 | 34 | [ONLYOFFICE/DesktopEditors](https://github.com/ONLYOFFICE/DesktopEditors) | 034-onlyoffice | OFFICE | published | 2026-10-25T10:20 | https://www.instagram.com/reel/De6elyzFF74/ |
 | 35 | [upscayl/upscayl](https://github.com/upscayl/upscayl) | 035-upscayl | UPSCALE | published | 2026-10-25T11:53 | https://www.instagram.com/reel/De6pPX0kZ-t/ |
 | 36 | [audacity/audacity](https://github.com/audacity/audacity) | 036-audacity | AUDIO | published | 2026-10-25T13:18 | https://www.instagram.com/reel/De6y96wkQje/ |
-| 37 | [Automattic/harper](https://github.com/Automattic/harper) | 037-harper | GRAMMAR | scheduled | 2026-10-25T17:27 |  |
-| 38 | [p0deje/Maccy](https://github.com/p0deje/Maccy) | 038-maccy | COPY | scheduled | 2026-10-25T21:05 |  |
+| 37 | [Automattic/harper](https://github.com/Automattic/harper) | 037-harper | GRAMMAR | published | 2026-10-25T17:28 | https://www.instagram.com/reel/De7PpXUjqNn/ |
+| 38 | [p0deje/Maccy](https://github.com/p0deje/Maccy) | 038-maccy | COPY | published | 2026-10-25T21:06 | https://www.instagram.com/reel/De7oiN0AkOS/ |
+| 39 | [deskflow/deskflow](https://github.com/deskflow/deskflow) | 039-deskflow | MOUSE | scheduled | 2026-10-26T11:24 |  |
+| 40 | [amir1376/ab-download-manager](https://github.com/amir1376/ab-download-manager) | 040-abdm | FILES | scheduled | 2026-10-26T12:34 |  |
+| 41 | [JerryZLiu/Dayflow](https://github.com/JerryZLiu/Dayflow) | 041-dayflow | TIME | scheduled | 2026-10-26T13:43 |  |
