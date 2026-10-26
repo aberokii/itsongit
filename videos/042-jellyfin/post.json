@@ -1,0 +1,23 @@
+{
+  "title": "Jellyfin: free Plex Pass alternative",
+  "video": "FINAL.mp4",
+  "thumbnail": "FINAL_thumbnail.png",
+  "repo_url": "https://github.com/jellyfin/jellyfin",
+  "keyword": "MOVIES",
+  "caption": "Plex Remote Watch Pass charges $29.99/year to stream your own movies outside your home. Jellyfin does it for free \ud83c\udfac\n\n\u2705 Turns your movies and shows into your own streaming library\n\u2705 Watch on your phone, TV or browser\n\u2705 Posters, cast and ratings, and it remembers where you stopped\n\u2705 No premium tier, no subscription, 100% free\n\n\ud83d\udcbb Windows \u00b7 Mac \u00b7 Linux\n\u2139\ufe0f You run the server on your own computer, and it has to stay on for you to stream\n\nComment \"MOVIES\" and I'll DM you the link \ud83d\udd17\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #selfhosted #movies #plex #homeserver #freeapps #techtips",
+  "dm_pitch": "Jellyfin, the free open-source Plex alternative \ud83c\udfac",
+  "install": "Download from GitHub Releases",
+  "dm_on_any_comment": true,
+  "follow_gate": true,
+  "slot": 3,
+  "price_source": "https://www.plex.tv/plex-pass/",
+  "idempotencyKey": "b6093c51-78b9-47b3-9372-be014aa42f51",
+  "zernio": {
+    "postId": "6adf9443074cfbefe57b9b6a",
+    "status": "scheduled",
+    "scheduledFor": "2026-10-26T18:51:00.000Z",
+    "url": null,
+    "automationId": "6adf944695adb34a0894c743",
+    "slot": 3
+  }
+}

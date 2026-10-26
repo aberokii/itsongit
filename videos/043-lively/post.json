@@ -1,0 +1,23 @@
+{
+  "title": "Lively: free Wallpaper Engine alternative",
+  "video": "FINAL.mp4",
+  "thumbnail": "FINAL_thumbnail.png",
+  "repo_url": "https://github.com/lively-community/lively",
+  "keyword": "LIVELY",
+  "caption": "Wallpaper Engine charges $4.99. Lively puts live wallpapers on your PC for free \ud83d\uddbc\n\n\u2705 Drag in a video, GIF or web page and it becomes your wallpaper\n\u2705 Works as a screensaver too\n\u2705 Pauses automatically when a game goes fullscreen\n\u2705 No subscription, no paywall, 100% free\n\n\ud83d\udcbb Windows\n\nComment \"LIVELY\" and I'll DM you the link \ud83d\udd17\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #windows #windows11 #wallpaper #customization #freeapps #techtips",
+  "dm_pitch": "Lively, the free open-source Wallpaper Engine alternative \ud83d\uddbc",
+  "install": "winget install rocksdanister.LivelyWallpaper",
+  "dm_on_any_comment": true,
+  "follow_gate": true,
+  "slot": 4,
+  "price_source": "https://store.steampowered.com/app/431960/",
+  "idempotencyKey": "0b3113bd-188e-413f-8569-6ce9b561e773",
+  "zernio": {
+    "postId": "6adf944b074cfbefe57b9ba2",
+    "status": "scheduled",
+    "scheduledFor": "2026-10-26T20:14:00.000Z",
+    "url": null,
+    "automationId": "6adf944ffdb01bd1d14f0681",
+    "slot": 4
+  }
+}

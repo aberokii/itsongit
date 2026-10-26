@@ -43,6 +43,8 @@ The scout (`pipeline/scout.py`) skips these automatically via `data/posted.json`
 | 36 | [audacity/audacity](https://github.com/audacity/audacity) | 036-audacity | AUDIO | published | 2026-10-25T13:18 | https://www.instagram.com/reel/De6y96wkQje/ |
 | 37 | [Automattic/harper](https://github.com/Automattic/harper) | 037-harper | GRAMMAR | published | 2026-10-25T17:28 | https://www.instagram.com/reel/De7PpXUjqNn/ |
 | 38 | [p0deje/Maccy](https://github.com/p0deje/Maccy) | 038-maccy | COPY | published | 2026-10-25T21:06 | https://www.instagram.com/reel/De7oiN0AkOS/ |
-| 39 | [deskflow/deskflow](https://github.com/deskflow/deskflow) | 039-deskflow | MOUSE | scheduled | 2026-10-26T11:24 |  |
-| 40 | [amir1376/ab-download-manager](https://github.com/amir1376/ab-download-manager) | 040-abdm | FILES | scheduled | 2026-10-26T12:34 |  |
-| 41 | [JerryZLiu/Dayflow](https://github.com/JerryZLiu/Dayflow) | 041-dayflow | TIME | scheduled | 2026-10-26T13:43 |  |
+| 39 | [deskflow/deskflow](https://github.com/deskflow/deskflow) | 039-deskflow | MOUSE | published | 2026-10-26T11:25 | https://www.instagram.com/reel/De9K091H62r/ |
+| 40 | [amir1376/ab-download-manager](https://github.com/amir1376/ab-download-manager) | 040-abdm | FILES | published | 2026-10-26T12:35 | https://www.instagram.com/reel/De9S1lsjgFN/ |
+| 41 | [JerryZLiu/Dayflow](https://github.com/JerryZLiu/Dayflow) | 041-dayflow | TIME | published | 2026-10-26T13:44 | https://www.instagram.com/reel/De9aukSiVay/ |
+| 42 | [jellyfin/jellyfin](https://github.com/jellyfin/jellyfin) | 042-jellyfin | MOVIES | scheduled | 2026-10-26T18:51 |  |
+| 43 | [lively-community/lively](https://github.com/lively-community/lively) | 043-lively | LIVELY | scheduled | 2026-10-26T20:14 |  |

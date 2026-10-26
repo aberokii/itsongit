@@ -1,0 +1,51 @@
+{
+  "repo": "jellyfin/jellyfin",
+  "name": "Jellyfin",
+  "title": "Jellyfin: free Plex Pass alternative",
+  "slot": 3,
+  "keyword": "MOVIES",
+  "paid": {
+    "name": "Plex Remote Watch Pass",
+    "price": "$29.99",
+    "per": "/year",
+    "anchor": "thirty",
+    "source": "https://www.plex.tv/plex-pass/"
+  },
+  "icon": "https://raw.githubusercontent.com/jellyfin/jellyfin-ux/master/branding/web/icon-transparent.png",
+  "hook": "Plex Remote Watch Pass charges you thirty bucks a year to stream your own movies anywhere. This app does it for free.",
+  "job": "Streams your movies anywhere",
+  "platforms": ["Windows", "Mac", "Linux"],
+  "features": [
+    {
+      "intro": "Your own personal Netflix.",
+      "say": "It turns your movies and shows into a library you can stream to any device.",
+      "images": [
+        "https://jellyfin.org/assets/images/10.8-home-4a73a92bf90d1eeffa5081201ca9c7bb.png"
+      ],
+      "chips": [
+        {"label": "🎬 Your library", "anchor": "library"},
+        {"label": "📺 Any device", "anchor": "device"}
+      ]
+    },
+    {
+      "say": "Posters, cast and ratings for every movie, and it remembers where you stopped.",
+      "images": [
+        "https://jellyfin.org/assets/images/10.8-details-df4f7caaee389ffbaeeaa95b668fa037.png"
+      ],
+      "chips": [
+        {"label": "⭐ Ratings", "anchor": "ratings"},
+        {"label": "▶ Resume", "anchor": "stopped"}
+      ]
+    }
+  ],
+  "nolist": [
+    {"say": "No subscription.", "label": "Subscription"},
+    {"say": "No premium tier.", "label": "Premium tier"},
+    {"say": "No tracking.", "label": "Tracking"}
+  ],
+  "install": "Download from GitHub Releases",
+  "install_url": "https://jellyfin.org/downloads",
+  "caption": "Plex Remote Watch Pass charges $29.99/year to stream your own movies outside your home. Jellyfin does it for free 🎬\n\n✅ Turns your movies and shows into your own streaming library\n✅ Watch on your phone, TV or browser\n✅ Posters, cast and ratings, and it remembers where you stopped\n✅ No premium tier, no subscription, 100% free\n\n💻 Windows · Mac · Linux\nℹ️ You run the server on your own computer, and it has to stay on for you to stream\n\nComment \"MOVIES\" and I'll DM you the link 🔗\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #selfhosted #movies #plex #homeserver #freeapps #techtips",
+  "dm_pitch": "Jellyfin, the free open-source Plex alternative 🎬",
+  "thumb": {"big": "FREE", "line1": "Plex", "line2": "alternative"}
+}

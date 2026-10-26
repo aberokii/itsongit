@@ -1,0 +1,88 @@
+{
+  "repo": "lively-community/lively",
+  "name": "Lively",
+  "title": "Lively: free Wallpaper Engine alternative",
+  "slot": 4,
+  "keyword": "LIVELY",
+  "paid": {
+    "name": "Wallpaper Engine",
+    "price": "$4.99",
+    "per": "",
+    "anchor": "five",
+    "source": "https://store.steampowered.com/app/431960/"
+  },
+  "icon": "https://raw.githubusercontent.com/lively-community/lively/HEAD/assets/icons/appicon_538.png",
+  "hook": "Wallpaper Engine charges you five bucks to put live wallpapers on your PC. This app does it for free.",
+  "job": "Animates your Windows desktop",
+  "platforms": [
+    "Windows"
+  ],
+  "features": [
+    {
+      "intro": "Your desktop, alive.",
+      "say": "Drag in a video, a GIF or a web page, and it becomes your wallpaper.",
+      "images": [
+        "assets/main_preview.png",
+        "assets/wallpaper_html.png"
+      ],
+      "swap_anchor": "web",
+      "chips": [
+        {
+          "label": "🎬 Video",
+          "anchor": "video"
+        },
+        {
+          "label": "🌐 Web page",
+          "anchor": "web"
+        }
+      ]
+    },
+    {
+      "say": "It even works as your screensaver.",
+      "images": [
+        "assets/screen_saver.png"
+      ],
+      "chips": [
+        {
+          "label": "💤 Screensaver",
+          "anchor": "screensaver"
+        }
+      ]
+    },
+    {
+      "say": "It pauses when a game goes fullscreen, so nothing slows down.",
+      "images": [
+        "assets/settings.png"
+      ],
+      "chips": [
+        {
+          "label": "🎮 Pauses in games",
+          "anchor": "fullscreen"
+        }
+      ]
+    }
+  ],
+  "nolist": [
+    {
+      "say": "No subscription.",
+      "label": "Subscription"
+    },
+    {
+      "say": "No paywall.",
+      "label": "Paywall"
+    },
+    {
+      "say": "No tracking.",
+      "label": "Tracking"
+    }
+  ],
+  "install": "winget install rocksdanister.LivelyWallpaper",
+  "install_url": "https://www.rocksdanister.com/lively/",
+  "caption": "Wallpaper Engine charges $4.99. Lively puts live wallpapers on your PC for free 🖼\n\n✅ Drag in a video, GIF or web page and it becomes your wallpaper\n✅ Works as a screensaver too\n✅ Pauses automatically when a game goes fullscreen\n✅ No subscription, no paywall, 100% free\n\n💻 Windows\n\nComment \"LIVELY\" and I'll DM you the link 🔗\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #windows #windows11 #wallpaper #customization #freeapps #techtips",
+  "dm_pitch": "Lively, the free open-source Wallpaper Engine alternative 🖼",
+  "thumb": {
+    "big": "FREE",
+    "line1": "Wallpaper Engine",
+    "line2": "alternative"
+  }
+}
