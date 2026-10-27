@@ -1,0 +1,23 @@
+{
+  "title": "Anki: free Quizlet alternative",
+  "video": "FINAL.mp4",
+  "thumbnail": "FINAL_thumbnail.png",
+  "repo_url": "https://github.com/ankitects/anki",
+  "keyword": "STUDY",
+  "caption": "Quizlet Plus charges $35.99/year. Anki helps you remember anything for free \ud83e\udde0\n\n\u2705 Spaced repetition shows each card right before you'd forget it\n\u2705 Cards with images and audio\n\u2705 Free sync across your devices\n\u2705 No subscription, no paywall, 100% free\n\n\ud83d\udcbb Mac \u00b7 Windows \u00b7 Linux (Android via the free AnkiDroid app)\n\u2139\ufe0f The official iPhone app, AnkiMobile, is the one paid exception.\n\nComment \"STUDY\" and I'll DM you the link \ud83d\udd17\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #studytok #studytips #flashcards #students #freeapps #techtips",
+  "dm_pitch": "Anki, the free open-source Quizlet alternative \ud83e\udde0",
+  "install": "brew install --cask anki",
+  "dm_on_any_comment": true,
+  "follow_gate": true,
+  "slot": 0,
+  "price_source": "https://quizlet.com/upgrade",
+  "idempotencyKey": "ceba3853-3040-4531-ab46-7ebe84a6f1fa",
+  "zernio": {
+    "postId": "6ae078176da5d96170a43963",
+    "status": "scheduled",
+    "scheduledFor": "2026-10-27T10:38:00.000Z",
+    "url": null,
+    "automationId": "6ae0781b8c85f0f461753bcc",
+    "slot": 0
+  }
+}

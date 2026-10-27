@@ -1,0 +1,23 @@
+{
+  "title": "Krita: free Clip Studio alternative",
+  "video": "FINAL.mp4",
+  "thumbnail": "FINAL_thumbnail.png",
+  "repo_url": "https://github.com/KDE/krita",
+  "keyword": "PAINT",
+  "caption": "Clip Studio Paint charges $27/year. Krita lets you paint and draw on your computer for free \ud83c\udfa8\n\n\u2705 Over 100 brushes ready to use\n\u2705 Brush stabilizer for smooth, steady lines\n\u2705 Frame-by-frame animation with onion skinning\n\u2705 No subscription, no paywall, 100% free\n\n\ud83d\udcbb Mac \u00b7 Windows \u00b7 Linux \u00b7 Android\n\u2139\ufe0f No iPhone or iPad version\n\nComment \"PAINT\" and I'll DM you the link \ud83d\udd17\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #digitalart #drawing #illustration #krita #freeapps #techtips",
+  "dm_pitch": "Krita, the free open-source Clip Studio Paint alternative \ud83c\udfa8",
+  "install": "brew install --cask krita",
+  "dm_on_any_comment": true,
+  "follow_gate": true,
+  "slot": 1,
+  "price_source": "https://www.clipstudio.net/en/news/202603/11_01/",
+  "idempotencyKey": "51427712-5dfb-499f-ad2a-e201595f03d0",
+  "zernio": {
+    "postId": "6ae07a5a800052fdb7901429",
+    "status": "scheduled",
+    "scheduledFor": "2026-10-27T12:04:00.000Z",
+    "url": null,
+    "automationId": "6ae07a5c02a47c77714ef6f4",
+    "slot": 1
+  }
+}

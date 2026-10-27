@@ -1,0 +1,23 @@
+{
+  "title": "Stats: free iStat Menus alternative",
+  "video": "FINAL.mp4",
+  "thumbnail": "FINAL_thumbnail.png",
+  "repo_url": "https://github.com/exelban/stats",
+  "keyword": "STATS",
+  "caption": "iStat Menus costs $11.99. Stats shows what your Mac is doing, free, right in your menu bar \ud83d\udcca\n\n\u2705 Live CPU, GPU, memory, disk and network usage\n\u2705 Battery, temperature sensors and Bluetooth devices\n\u2705 Click any menu bar icon for a detailed popup\n\u2705 No telemetry, 100% free\n\n\ud83d\udcbb Mac\n\u2139\ufe0f Needs macOS 12 or later. Fan control is a legacy feature and is no longer maintained\n\nComment \"STATS\" and I'll DM you the link \ud83d\udd17\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #macos #macbook #menubar #productivity #freeapps #techtips",
+  "dm_pitch": "Stats, the free open-source iStat Menus alternative \ud83d\udcca",
+  "install": "brew install --cask stats",
+  "dm_on_any_comment": true,
+  "follow_gate": true,
+  "slot": 2,
+  "price_source": "https://bjango.com/mac/istatmenus/",
+  "idempotencyKey": "acac34d8-fe31-4104-92ee-dc921bbd4441",
+  "zernio": {
+    "postId": "6ae07c4805a0572fc6ccdf8e",
+    "status": "scheduled",
+    "scheduledFor": "2026-10-27T13:31:00.000Z",
+    "url": null,
+    "automationId": "6ae07c4bd05bc3387dd22f1f",
+    "slot": 2
+  }
+}

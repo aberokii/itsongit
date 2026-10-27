@@ -1,0 +1,82 @@
+{
+  "repo": "ankitects/anki",
+  "name": "Anki",
+  "title": "Anki: free Quizlet alternative",
+  "slot": 0,
+  "keyword": "STUDY",
+  "paid": {
+    "name": "Quizlet Plus",
+    "price": "$35.99",
+    "per": "/year",
+    "anchor": "thirty",
+    "source": "https://quizlet.com/upgrade"
+  },
+  "icon": "https://github.com/ankitects.png?size=512",
+  "hook": "Quizlet charges you thirty six bucks a year to study with flashcards. This app does it for free.",
+  "job": "Helps you remember anything",
+  "platforms": [
+    "Mac",
+    "Windows",
+    "Linux"
+  ],
+  "features": [
+    {
+      "intro": "Study smarter.",
+      "say": "Rate each card, and it schedules the next review for when you're about to forget it.",
+      "images": [
+        "https://raw.githubusercontent.com/ankitects/anki/main/docs-site/media/decks_screen.png",
+        "https://raw.githubusercontent.com/ankitects/anki/main/docs-site/media/Statistics.png"
+      ],
+      "swap_anchor": "forget",
+      "chips": [
+        {
+          "label": "🧠 Smart reviews",
+          "anchor": "review"
+        }
+      ]
+    },
+    {
+      "say": "Make your own cards with images and audio, and sync them for free.",
+      "images": [
+        "https://raw.githubusercontent.com/ankitects/anki/main/docs-site/media/add_screen.png"
+      ],
+      "chips": [
+        {
+          "label": "🖼 Images",
+          "anchor": "images"
+        },
+        {
+          "label": "🔊 Audio",
+          "anchor": "audio"
+        },
+        {
+          "label": "🔄 Free sync",
+          "anchor": "sync"
+        }
+      ]
+    }
+  ],
+  "nolist": [
+    {
+      "say": "No subscription.",
+      "label": "Subscription"
+    },
+    {
+      "say": "No paywall.",
+      "label": "Paywall"
+    },
+    {
+      "say": "No ads.",
+      "label": "Ads"
+    }
+  ],
+  "install": "brew install --cask anki",
+  "install_url": "https://apps.ankiweb.net",
+  "caption": "Quizlet Plus charges $35.99/year. Anki helps you remember anything for free 🧠\n\n✅ Spaced repetition shows each card right before you'd forget it\n✅ Cards with images and audio\n✅ Free sync across your devices\n✅ No subscription, no paywall, 100% free\n\n💻 Mac · Windows · Linux (Android via the free AnkiDroid app)\nℹ️ The official iPhone app, AnkiMobile, is the one paid exception.\n\nComment \"STUDY\" and I'll DM you the link 🔗\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #studytok #studytips #flashcards #students #freeapps #techtips",
+  "dm_pitch": "Anki, the free open-source Quizlet alternative 🧠",
+  "thumb": {
+    "big": "FREE",
+    "line1": "Quizlet",
+    "line2": "alternative"
+  }
+}

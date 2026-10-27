@@ -1,0 +1,94 @@
+{
+  "repo": "exelban/stats",
+  "name": "Stats",
+  "title": "Stats: free iStat Menus alternative",
+  "slot": 2,
+  "keyword": "STATS",
+  "paid": {
+    "name": "iStat Menus",
+    "price": "$12",
+    "per": "",
+    "anchor": "twelve",
+    "source": "https://bjango.com/mac/istatmenus/"
+  },
+  "icon": "https://cdn.mac-stats.com/assets/icon.png",
+  "hook": "iStat Menus charges you twelve bucks to monitor what your Mac is doing. This app does it for free.",
+  "job": "Shows what your Mac is doing",
+  "platforms": [
+    "Mac"
+  ],
+  "features": [
+    {
+      "intro": "Your whole Mac, right in the menu bar.",
+      "say": "Live CPU, memory, disk, and network usage, always one glance away.",
+      "images": [
+        "assets/popups-cpu.png",
+        "assets/popups-sensors.png"
+      ],
+      "chips": [
+        {
+          "label": "⚡ CPU",
+          "anchor": "CPU"
+        },
+        {
+          "label": "🧠 Memory",
+          "anchor": "memory"
+        },
+        {
+          "label": "💾 Disk",
+          "anchor": "disk"
+        },
+        {
+          "label": "🌐 Network",
+          "anchor": "network"
+        }
+      ],
+      "swap_anchor": "network"
+    },
+    {
+      "say": "Click any icon for details like GPU, battery, temperature sensors, and Bluetooth devices.",
+      "images": [
+        "assets/popups-sensors.png",
+        "assets/popups-cpu.png"
+      ],
+      "chips": [
+        {
+          "label": "🔋 Battery",
+          "anchor": "battery"
+        },
+        {
+          "label": "🌡 Sensors",
+          "anchor": "sensors"
+        },
+        {
+          "label": "Bluetooth",
+          "anchor": "Bluetooth"
+        }
+      ],
+      "swap_anchor": "Bluetooth"
+    }
+  ],
+  "nolist": [
+    {
+      "say": "No subscription.",
+      "label": "Subscription"
+    },
+    {
+      "say": "No tracking.",
+      "label": "Tracking"
+    },
+    {
+      "say": "No ads.",
+      "label": "Ads"
+    }
+  ],
+  "install": "brew install --cask stats",
+  "install_url": "https://mac-stats.com",
+  "caption": "iStat Menus costs $11.99. Stats shows what your Mac is doing, free, right in your menu bar 📊\n\n✅ Live CPU, GPU, memory, disk and network usage\n✅ Battery, temperature sensors and Bluetooth devices\n✅ Click any menu bar icon for a detailed popup\n✅ No telemetry, 100% free\n\n💻 Mac\nℹ️ Needs macOS 12 or later. Fan control is a legacy feature and is no longer maintained\n\nComment \"STATS\" and I'll DM you the link 🔗\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #macos #macbook #menubar #productivity #freeapps #techtips",
+  "dm_pitch": "Stats, the free open-source iStat Menus alternative 📊",
+  "thumb": {
+    "big": "FREE",
+    "line1": "iStat Menus",
+    "line2": "alternative"
+  }
+}

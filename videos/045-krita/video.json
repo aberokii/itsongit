@@ -1,0 +1,75 @@
+{
+  "repo": "KDE/krita",
+  "name": "Krita",
+  "title": "Krita: free Clip Studio alternative",
+  "slot": 1,
+  "keyword": "PAINT",
+  "paid": {
+    "name": "Clip Studio Paint",
+    "price": "$27",
+    "per": "/year",
+    "anchor": "twenty",
+    "source": "https://www.clipstudio.net/en/news/202603/11_01/"
+  },
+  "icon": "https://raw.githubusercontent.com/KDE/krita/HEAD/krita/pics/branding/default/512-apps-krita.png",
+  "hook": "Clip Studio Paint charges you twenty seven bucks a year to paint on your computer. This app does it for free.",
+  "job": "Paints and draws digital art",
+  "platforms": [
+    "Mac",
+    "Windows",
+    "Linux",
+    "Android"
+  ],
+  "features": [
+    {
+      "intro": "Pro art tools, zero cost.",
+      "say": "Over a hundred brushes come ready to paint with.",
+      "images": [
+        "https://krita.org/images/pages/application-screenshot.webp",
+        "https://krita.org/images/pages/brush-presets.png"
+      ],
+      "swap_anchor": "brushes",
+      "chips": [
+        {
+          "label": "🎨 100+ brushes",
+          "anchor": "hundred"
+        }
+      ]
+    },
+    {
+      "say": "A stabilizer smooths out your shaky lines.",
+      "images": [
+        "https://krita.org/images/pages/brush-stabilizer.png"
+      ],
+      "chips": [
+        {
+          "label": "✏️ Stabilizer",
+          "anchor": "stabilizer"
+        }
+      ]
+    }
+  ],
+  "nolist": [
+    {
+      "say": "No subscription.",
+      "label": "Subscription"
+    },
+    {
+      "say": "No paywall.",
+      "label": "Paywall"
+    },
+    {
+      "say": "No tracking.",
+      "label": "Tracking"
+    }
+  ],
+  "install": "brew install --cask krita",
+  "install_url": "https://krita.org/en/download/",
+  "caption": "Clip Studio Paint charges $27/year. Krita lets you paint and draw on your computer for free 🎨\n\n✅ Over 100 brushes ready to use\n✅ Brush stabilizer for smooth, steady lines\n✅ Frame-by-frame animation with onion skinning\n✅ No subscription, no paywall, 100% free\n\n💻 Mac · Windows · Linux · Android\nℹ️ No iPhone or iPad version\n\nComment \"PAINT\" and I'll DM you the link 🔗\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #digitalart #drawing #illustration #krita #freeapps #techtips",
+  "dm_pitch": "Krita, the free open-source Clip Studio Paint alternative 🎨",
+  "thumb": {
+    "big": "FREE",
+    "line1": "Clip Studio",
+    "line2": "alternative"
+  }
+}
