@@ -1,0 +1,23 @@
+{
+  "title": "MuseScore: free Sibelius alternative",
+  "video": "FINAL.mp4",
+  "thumbnail": "FINAL_thumbnail.png",
+  "repo_url": "https://github.com/musescore/MuseScore",
+  "keyword": "MUSIC",
+  "caption": "Sibelius Artist charges $99/year. MuseScore lets you write and play back sheet music on your computer for free \ud83c\udfbc\n\n\u2705 Click notes in, or use a MIDI keyboard\n\u2705 Plays your score back with a built-in mixer\n\u2705 Imports and exports MusicXML and MIDI, saves PDFs\n\u2705 No subscription, no limits, 100% free\n\n\ud83d\udcbb Mac \u00b7 Windows \u00b7 Linux\n\u2139\ufe0f The app and its free MuseSounds Core instruments cost nothing. Extra premium sound libraries are optional and paid\n\nComment \"MUSIC\" and I'll DM you the link \ud83d\udd17\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #musicnotation #sheetmusic #musician #composer #freeapps #techtips",
+  "dm_pitch": "MuseScore, the free open-source Sibelius alternative \ud83c\udfbc",
+  "install": "brew install --cask musescore",
+  "dm_on_any_comment": true,
+  "follow_gate": true,
+  "slot": 4,
+  "price_source": "https://www.avid.com/sibelius",
+  "idempotencyKey": "8b69372d-8f7d-45f3-a1f3-21d3754b0b72",
+  "zernio": {
+    "postId": "6ae0dcb5c0b4bbf1853c9d2e",
+    "status": "scheduled",
+    "scheduledFor": "2026-10-27T21:47:00.000Z",
+    "url": null,
+    "automationId": "6ae0dcb8b3666d91348ce372",
+    "slot": 4
+  }
+}

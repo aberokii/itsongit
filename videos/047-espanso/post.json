@@ -1,0 +1,23 @@
+{
+  "title": "Espanso: free TextExpander alternative",
+  "video": "FINAL.mp4",
+  "thumbnail": "FINAL_thumbnail.png",
+  "repo_url": "https://github.com/espanso/espanso",
+  "keyword": "SNIPPET",
+  "caption": "TextExpander Pro costs $60/year. Espanso types your snippets for you, free \u2328\ufe0f\n\n\u2705 Type a short keyword, get your full text in almost any app\n\u2705 Fills in dates, emojis and pop-up forms\n\u2705 Runs 100% on your computer, no tracking\n\u2705 No subscription, 100% free\n\n\ud83d\udcbb Mac \u00b7 Windows \u00b7 Linux\n\u2139\ufe0f Snippets are set up in simple text (YAML) files rather than a visual editor. Wayland support on Linux is experimental\n\nComment \"SNIPPET\" and I'll DM you the link \ud83d\udd17\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #productivity #textexpander #automation #freeapps #techtips #mac",
+  "dm_pitch": "Espanso, the free open-source TextExpander alternative \u2328\ufe0f",
+  "install": "brew install --cask espanso",
+  "dm_on_any_comment": true,
+  "follow_gate": true,
+  "slot": 3,
+  "price_source": "https://textexpander.com/pricing",
+  "idempotencyKey": "297755ba-6e3e-4a45-9f7f-d988c0efbd06",
+  "zernio": {
+    "postId": "6ae0dcaec0b4bbf1853c9d0e",
+    "status": "scheduled",
+    "scheduledFor": "2026-10-27T20:27:00.000Z",
+    "url": null,
+    "automationId": "6ae0dcb14f62620c2d7bf0f9",
+    "slot": 3
+  }
+}

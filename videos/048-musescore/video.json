@@ -1,0 +1,80 @@
+{
+  "repo": "musescore/MuseScore",
+  "name": "MuseScore",
+  "title": "MuseScore: free Sibelius alternative",
+  "slot": 4,
+  "keyword": "MUSIC",
+  "paid": {
+    "name": "Sibelius Artist",
+    "price": "$99",
+    "per": "/year",
+    "anchor": "ninety",
+    "source": "https://www.avid.com/sibelius"
+  },
+  "icon": "https://raw.githubusercontent.com/musescore/MuseScore/HEAD/share/icons/AppIcon/MS4_AppIcon_512x512.png",
+  "hook": "Sibelius charges you ninety nine bucks a year to write sheet music on your computer. This app does it for free.",
+  "job": "Writes and plays sheet music",
+  "platforms": [
+    "Mac",
+    "Windows",
+    "Linux"
+  ],
+  "features": [
+    {
+      "intro": "Real sheet music, zero cost.",
+      "say": "Click notes onto the page, or play them in with a MIDI keyboard.",
+      "images": [
+        "assets/score.png"
+      ],
+      "chips": [
+        {
+          "label": "🎵 Click notes",
+          "anchor": "notes"
+        },
+        {
+          "label": "🎹 MIDI keyboard",
+          "anchor": "keyboard"
+        }
+      ]
+    },
+    {
+      "say": "Hit play and it plays your whole score back. Then save it as a PDF.",
+      "images": [
+        "assets/mixer.png"
+      ],
+      "chips": [
+        {
+          "label": "▶️ Playback",
+          "anchor": "play"
+        },
+        {
+          "label": "📄 PDF",
+          "anchor": "pdf"
+        }
+      ]
+    }
+  ],
+  "nolist": [
+    {
+      "say": "No subscription.",
+      "label": "Subscription"
+    },
+    {
+      "say": "No limits.",
+      "label": "Limits"
+    },
+    {
+      "say": "No license key.",
+      "label": "License key"
+    }
+  ],
+  "install": "brew install --cask musescore",
+  "install_url": "https://musescore.org/",
+  "caption": "Sibelius Artist charges $99/year. MuseScore lets you write and play back sheet music on your computer for free 🎼\n\n✅ Click notes in, or use a MIDI keyboard\n✅ Plays your score back with a built-in mixer\n✅ Imports and exports MusicXML and MIDI, saves PDFs\n✅ No subscription, no limits, 100% free\n\n💻 Mac · Windows · Linux\nℹ️ The app and its free MuseSounds Core instruments cost nothing. Extra premium sound libraries are optional and paid\n\nComment \"MUSIC\" and I'll DM you the link 🔗\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #musicnotation #sheetmusic #musician #composer #freeapps #techtips",
+  "dm_pitch": "MuseScore, the free open-source Sibelius alternative 🎼",
+  "thumb": {
+    "big": "FREE",
+    "line1": "Sibelius",
+    "line2": "alternative"
+  }
+}

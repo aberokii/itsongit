@@ -1,0 +1,86 @@
+{
+  "repo": "espanso/espanso",
+  "name": "Espanso",
+  "title": "Espanso: free TextExpander alternative",
+  "slot": 3,
+  "keyword": "SNIPPET",
+  "paid": {
+    "name": "TextExpander",
+    "price": "$60",
+    "per": "/year",
+    "anchor": "sixty",
+    "source": "https://textexpander.com/pricing"
+  },
+  "icon": "https://github.com/espanso.png?size=512",
+  "hook": "TextExpander charges you sixty bucks a year to type your repeated text for you. This app does it for free.",
+  "job": "Types your snippets for you",
+  "platforms": [
+    "Mac",
+    "Windows",
+    "Linux"
+  ],
+  "features": [
+    {
+      "intro": "Stop typing the same stuff over and over.",
+      "say": "Type a short keyword and it swaps in your full text, in almost any app.",
+      "images": [
+        "assets/expand-demo.png"
+      ],
+      "chips": [
+        {
+          "label": "⌨ Short keyword",
+          "anchor": "keyword"
+        },
+        {
+          "label": "Any app",
+          "anchor": "app"
+        }
+      ]
+    },
+    {
+      "say": "It fills in dates, emojis, and pop-up forms.",
+      "images": [
+        "assets/expand-demo.png",
+        "assets/form.png"
+      ],
+      "swap_anchor": "forms",
+      "chips": [
+        {
+          "label": "📅 Date",
+          "anchor": "dates"
+        },
+        {
+          "label": "😄 Emojis",
+          "anchor": "emojis"
+        },
+        {
+          "label": "📝 Forms",
+          "anchor": "forms"
+        }
+      ]
+    }
+  ],
+  "nolist": [
+    {
+      "say": "No subscription.",
+      "label": "Subscription"
+    },
+    {
+      "say": "No tracking.",
+      "label": "Tracking"
+    },
+    {
+      "say": "No cloud.",
+      "label": "Cloud"
+    }
+  ],
+  "install": "brew install --cask espanso",
+  "install_url": "https://espanso.org/",
+  "caption": "TextExpander Pro costs $60/year. Espanso types your snippets for you, free ⌨️\n\n✅ Type a short keyword, get your full text in almost any app\n✅ Fills in dates, emojis and pop-up forms\n✅ Runs 100% on your computer, no tracking\n✅ No subscription, 100% free\n\n💻 Mac · Windows · Linux\nℹ️ Snippets are set up in simple text (YAML) files rather than a visual editor. Wayland support on Linux is experimental\n\nComment \"SNIPPET\" and I'll DM you the link 🔗\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #productivity #textexpander #automation #freeapps #techtips #mac",
+  "dm_pitch": "Espanso, the free open-source TextExpander alternative ⌨️",
+  "thumb": {
+    "big": "FREE",
+    "line1": "TextExpander",
+    "line2": "alternative"
+  }
+}

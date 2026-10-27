@@ -48,6 +48,8 @@ The scout (`pipeline/scout.py`) skips these automatically via `data/posted.json`
 | 41 | [JerryZLiu/Dayflow](https://github.com/JerryZLiu/Dayflow) | 041-dayflow | TIME | published | 2026-10-26T13:44 | https://www.instagram.com/reel/De9aukSiVay/ |
 | 42 | [jellyfin/jellyfin](https://github.com/jellyfin/jellyfin) | 042-jellyfin | MOVIES | published | 2026-10-26T18:52 | https://www.instagram.com/reel/De99-nUjJQ3/ |
 | 43 | [lively-community/lively](https://github.com/lively-community/lively) | 043-lively | LIVELY | published | 2026-10-26T20:15 | https://www.instagram.com/reel/De-HhH_jeE8/ |
-| 44 | [ankitects/anki](https://github.com/ankitects/anki) | 044-anki | STUDY | scheduled | 2026-10-27T10:38 |  |
-| 45 | [KDE/krita](https://github.com/KDE/krita) | 045-krita | PAINT | scheduled | 2026-10-27T12:04 |  |
-| 46 | [exelban/stats](https://github.com/exelban/stats) | 046-stats | STATS | scheduled | 2026-10-27T13:31 |  |
+| 44 | [ankitects/anki](https://github.com/ankitects/anki) | 044-anki | STUDY | published | 2026-10-27T10:40 | https://www.instagram.com/reel/De_qe2eFUBt/ |
+| 45 | [KDE/krita](https://github.com/KDE/krita) | 045-krita | PAINT | published | 2026-10-27T12:06 | https://www.instagram.com/reel/De_0URkESnj/ |
+| 46 | [exelban/stats](https://github.com/exelban/stats) | 046-stats | STATS | published | 2026-10-27T13:32 | https://www.instagram.com/reel/De_-JtkgGNE/ |
+| 47 | [espanso/espanso](https://github.com/espanso/espanso) | 047-espanso | SNIPPET | scheduled | 2026-10-27T20:27 |  |
+| 48 | [musescore/MuseScore](https://github.com/musescore/MuseScore) | 048-musescore | MUSIC | scheduled | 2026-10-27T21:47 |  |
