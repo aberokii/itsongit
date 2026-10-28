@@ -48,5 +48,7 @@
  "espanso/espanso",
  "musescore/MuseScore",
  "xevrion/hatchzip",
- "ooolabdev/ooosplat"
+ "ooolabdev/ooosplat",
+ "reactive-resume/reactive-resume",
+ "f/textream"
 ]

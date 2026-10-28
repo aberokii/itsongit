@@ -1,0 +1,99 @@
+{
+  "repo": "reactive-resume/reactive-resume",
+  "name": "Reactive Resume",
+  "title": "Reactive Resume: free Kickresume alternative",
+  "slot": 3,
+  "keyword": "RESUME",
+  "paid": {
+    "name": "Kickresume",
+    "price": "$96",
+    "per": "/year",
+    "anchor": "ninety",
+    "source": "https://www.kickresume.com/pricing/"
+  },
+  "icon": "https://raw.githubusercontent.com/reactive-resume/reactive-resume/HEAD/apps/web/public/maskable-icon-512x512.png",
+  "hook": "Kickresume charges you ninety six dollars a year to build your resume. This app does it for free.",
+  "job": "Builds your resume as a PDF",
+  "platforms": [
+    "any browser"
+  ],
+  "features": [
+    {
+      "intro": "Build your resume right on the page.",
+      "say": "Type on the left and watch it update live.",
+      "images": [
+        "assets/editor.png"
+      ],
+      "chips": [
+        {
+          "label": "✍ Type",
+          "anchor": "type"
+        },
+        {
+          "label": "👀 Live",
+          "anchor": "live"
+        }
+      ]
+    },
+    {
+      "say": "Switch templates in one click, even ones built to pass hiring software.",
+      "images": [
+        "assets/templates.png"
+      ],
+      "chips": [
+        {
+          "label": "🎨 Templates",
+          "anchor": "templates"
+        },
+        {
+          "label": "✓ Hiring software",
+          "anchor": "hiring"
+        }
+      ]
+    },
+    {
+      "say": "Download a PDF or Word file, or share a public link.",
+      "images": [
+        "assets/export.png"
+      ],
+      "chips": [
+        {
+          "label": "PDF",
+          "anchor": "PDF"
+        },
+        {
+          "label": "Word",
+          "anchor": "Word"
+        },
+        {
+          "label": "🔗 Link",
+          "anchor": "link"
+        }
+      ]
+    }
+  ],
+  "nolist": [
+    {
+      "say": "No subscription.",
+      "label": "Subscription"
+    },
+    {
+      "say": "No tracking.",
+      "label": "Tracking"
+    },
+    {
+      "say": "No ads.",
+      "label": "Ads"
+    }
+  ],
+  "install": "Open rxresu.me in your browser",
+  "install_url": "https://rxresu.me",
+  "install_line": "It runs in any browser. Just make a free account.",
+  "caption": "Kickresume charges $96/year. Reactive Resume builds your resume as a PDF for free 📄\n\n✅ Type on the left, watch your resume update live\n✅ Switch templates in one click, including ATS-friendly ones\n✅ Download a PDF or Word file, or share a public link\n✅ No subscription, no tracking, no ads, 100% free\n\n💻 Any browser\nℹ️ You need a free account to save your resume. The optional AI features use your own AI provider, which may have its own costs.\n\nComment \"RESUME\" and I'll DM you the link 🔗\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #resume #jobsearch #career #freeapps #techtips",
+  "dm_pitch": "Reactive Resume, the free open-source resume builder 📄",
+  "thumb": {
+    "big": "FREE",
+    "line1": "Kickresume",
+    "line2": "alternative"
+  }
+}

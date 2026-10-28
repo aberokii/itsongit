@@ -1,0 +1,23 @@
+{
+  "title": "Textream: free PromptSmart alternative",
+  "video": "FINAL.mp4",
+  "thumbnail": "FINAL_thumbnail.png",
+  "repo_url": "https://github.com/f/textream",
+  "keyword": "PROMPT",
+  "caption": "PromptSmart charges $9.99/month. Textream is a teleprompter that follows your voice, for free \ud83c\udfac\n\n\u2705 Word tracking: highlights each word as you say it\n\u2705 Pinned under the MacBook notch, or a floating window\n\u2705 Classic auto-scroll or voice-activated scrolling\n\u2705 No subscription, no account, no ads, 100% free\n\n\ud83d\udcbb Mac \u00b7 iPhone \u00b7 iPad\n\u2139\ufe0f The Mac app needs macOS 15 or later. iPhone and iPad come as a companion app in the same App Store listing. Word tracking uses Apple speech recognition, which may send audio to Apple\n\nComment \"PROMPT\" and I'll DM you the link \ud83d\udd17\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #teleprompter #macos #contentcreator #streamer #freeapps #techtips",
+  "dm_pitch": "Textream, the free open-source teleprompter that follows your voice \ud83c\udfac",
+  "install": "brew install --cask textream",
+  "dm_on_any_comment": true,
+  "follow_gate": true,
+  "slot": 4,
+  "price_source": "https://promptsmart.com/pricing.html",
+  "idempotencyKey": "de19925b-b302-4f37-8283-d39eba5bec2c",
+  "zernio": {
+    "postId": "6ae231f935e61755d04215ff",
+    "status": "scheduled",
+    "scheduledFor": "2026-10-28T21:13:00.000Z",
+    "url": null,
+    "automationId": "6ae231fbbd164ba9bfd25948",
+    "slot": 4
+  }
+}

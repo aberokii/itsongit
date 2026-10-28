@@ -53,5 +53,7 @@ The scout (`pipeline/scout.py`) skips these automatically via `data/posted.json`
 | 46 | [exelban/stats](https://github.com/exelban/stats) | 046-stats | STATS | published | 2026-10-27T13:32 | https://www.instagram.com/reel/De_-JtkgGNE/ |
 | 47 | [espanso/espanso](https://github.com/espanso/espanso) | 047-espanso | SNIPPET | published | 2026-10-27T20:29 | https://www.instagram.com/reel/DfAt1_nCZBf/ |
 | 48 | [musescore/MuseScore](https://github.com/musescore/MuseScore) | 048-musescore | MUSIC | published | 2026-10-27T21:48 | https://www.instagram.com/reel/DfA26jgGmoI/ |
-| 49 | [xevrion/hatchzip](https://github.com/xevrion/hatchzip) | 049-hatchzip | UNZIP | scheduled | 2026-10-28T11:22 |  |
-| 50 | [ooolabdev/ooosplat](https://github.com/ooolabdev/ooosplat) | 050-ooosplat | SCAN | scheduled | 2026-10-28T12:52 |  |
+| 49 | [xevrion/hatchzip](https://github.com/xevrion/hatchzip) | 049-hatchzip | UNZIP | published | 2026-10-28T11:23 | https://www.instagram.com/reel/DfCUK8tgiEF/ |
+| 50 | [ooolabdev/ooosplat](https://github.com/ooolabdev/ooosplat) | 050-ooosplat | SCAN | published | 2026-10-28T12:53 | https://www.instagram.com/reel/DfCeeidD1df/ |
+| 51 | [reactive-resume/reactive-resume](https://github.com/reactive-resume/reactive-resume) | 051-reactiveresume | RESUME | scheduled | 2026-10-28T18:29 |  |
+| 52 | [f/textream](https://github.com/f/textream) | 052-textream | PROMPT | scheduled | 2026-10-28T21:13 |  |

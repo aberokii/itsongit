@@ -1,0 +1,23 @@
+{
+  "title": "Reactive Resume: free Kickresume alternative",
+  "video": "FINAL.mp4",
+  "thumbnail": "FINAL_thumbnail.png",
+  "repo_url": "https://github.com/reactive-resume/reactive-resume",
+  "keyword": "RESUME",
+  "caption": "Kickresume charges $96/year. Reactive Resume builds your resume as a PDF for free \ud83d\udcc4\n\n\u2705 Type on the left, watch your resume update live\n\u2705 Switch templates in one click, including ATS-friendly ones\n\u2705 Download a PDF or Word file, or share a public link\n\u2705 No subscription, no tracking, no ads, 100% free\n\n\ud83d\udcbb Any browser\n\u2139\ufe0f You need a free account to save your resume. The optional AI features use your own AI provider, which may have its own costs.\n\nComment \"RESUME\" and I'll DM you the link \ud83d\udd17\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #resume #jobsearch #career #freeapps #techtips",
+  "dm_pitch": "Reactive Resume, the free open-source resume builder \ud83d\udcc4",
+  "install": "Open rxresu.me in your browser",
+  "dm_on_any_comment": true,
+  "follow_gate": true,
+  "slot": 3,
+  "price_source": "https://www.kickresume.com/pricing/",
+  "idempotencyKey": "cc162701-a403-4c09-97ab-896f7c813d43",
+  "zernio": {
+    "postId": "6ae231f1ceab1c043d1ed609",
+    "status": "scheduled",
+    "scheduledFor": "2026-10-28T18:29:00.000Z",
+    "url": null,
+    "automationId": "6ae231f429968552c672528e",
+    "slot": 3
+  }
+}

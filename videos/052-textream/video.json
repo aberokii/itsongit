@@ -1,0 +1,83 @@
+{
+  "repo": "f/textream",
+  "name": "Textream",
+  "title": "Textream: free PromptSmart alternative",
+  "slot": 4,
+  "keyword": "PROMPT",
+  "paid": {
+    "name": "PromptSmart",
+    "price": "$9.99",
+    "per": "/month",
+    "anchor": "ten",
+    "source": "https://promptsmart.com/pricing.html"
+  },
+  "icon": "https://raw.githubusercontent.com/f/textream/HEAD/Textream/Textream/Assets.xcassets/AppIcon.appiconset/icon_512x512.png",
+  "hook": "PromptSmart charges you ten bucks a month to scroll your script as you talk. This app does it for free.",
+  "job": "Follows your voice as you read",
+  "platforms": [
+    "Mac",
+    "iPhone",
+    "iPad"
+  ],
+  "features": [
+    {
+      "intro": "Your script sits right in the notch.",
+      "say": "It lights up every word as you say it, right under the notch.",
+      "images": [
+        "assets/word-a.png",
+        "assets/notch-wide.png"
+      ],
+      "swap_anchor": "notch",
+      "chips": [
+        {
+          "label": "🎙 Word tracking",
+          "anchor": "word"
+        },
+        {
+          "label": "Notch overlay",
+          "anchor": "notch"
+        }
+      ]
+    },
+    {
+      "say": "Or use classic scrolling, or let it scroll only while you talk.",
+      "images": [
+        "assets/word-c.png"
+      ],
+      "chips": [
+        {
+          "label": "Classic scroll",
+          "anchor": "classic"
+        },
+        {
+          "label": "🗣 Voice-activated",
+          "anchor": "talk"
+        }
+      ]
+    }
+  ],
+  "nolist": [
+    {
+      "say": "No subscription.",
+      "label": "Subscription"
+    },
+    {
+      "say": "No account.",
+      "label": "Account"
+    },
+    {
+      "say": "No ads.",
+      "label": "Ads"
+    }
+  ],
+  "install": "brew install --cask textream",
+  "install_url": "https://textream.net/",
+  "caption": "PromptSmart charges $9.99/month. Textream is a teleprompter that follows your voice, for free 🎬\n\n✅ Word tracking: highlights each word as you say it\n✅ Pinned under the MacBook notch, or a floating window\n✅ Classic auto-scroll or voice-activated scrolling\n✅ No subscription, no account, no ads, 100% free\n\n💻 Mac · iPhone · iPad\nℹ️ The Mac app needs macOS 15 or later. iPhone and iPad come as a companion app in the same App Store listing. Word tracking uses Apple speech recognition, which may send audio to Apple\n\nComment \"PROMPT\" and I'll DM you the link 🔗\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #teleprompter #macos #contentcreator #streamer #freeapps #techtips",
+  "dm_pitch": "Textream, the free open-source teleprompter that follows your voice 🎬",
+  "thumb": {
+    "big": "FREE",
+    "line1": "PromptSmart",
+    "line2": "alternative"
+  },
+  "install_line": "It runs on Mac, iPhone and iPad. Grab it free on the App Store, or with one command on Mac."
+}
