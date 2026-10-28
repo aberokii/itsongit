@@ -1,0 +1,50 @@
+{
+  "repo": "xevrion/hatchzip",
+  "name": "HatchZip",
+  "title": "HatchZip: free WinRAR alternative",
+  "slot": 0,
+  "keyword": "UNZIP",
+  "paid": {
+    "name": "WinRAR",
+    "price": "$29",
+    "per": "",
+    "anchor": "twenty",
+    "source": "https://rarlab.com/buysharewarecd.php"
+  },
+  "icon": "https://raw.githubusercontent.com/xevrion/hatchzip/HEAD/assets/icon/png/hatchzip-512.png",
+  "hook": "WinRAR charges you twenty nine bucks to unzip your files. This app does it for free.",
+  "job": "Unzips huge files in place",
+  "platforms": ["Windows", "Mac", "Linux"],
+  "features": [
+    {
+      "intro": "Your disk is almost full.",
+      "say": "It unzips in place, cutting the archive down as files come out, so you only need space for the files.",
+      "images": ["assets/shrink-start.png", "assets/shrink-mid.png"],
+      "swap_anchor": "out",
+      "chips": [
+        {"label": "📦 In place", "anchor": "place"},
+        {"label": "✂️ Archive shrinks", "anchor": "archive"},
+        {"label": "💾 Less space", "anchor": "space"}
+      ]
+    },
+    {
+      "say": "Right-click any archive and hit Extract here. It checks everything fits first, and picks up after a crash.",
+      "images": ["https://raw.githubusercontent.com/xevrion/hatchzip/HEAD/site/img/app-dark.png"],
+      "chips": [
+        {"label": "🖱 Extract here", "anchor": "Extract"},
+        {"label": "✅ Fits first", "anchor": "fits"},
+        {"label": "🔁 Resumes", "anchor": "crash"}
+      ]
+    }
+  ],
+  "nolist": [
+    {"say": "No subscription.", "label": "Subscription"},
+    {"say": "No tracking.", "label": "Tracking"},
+    {"say": "No license key.", "label": "License key"}
+  ],
+  "install": "Download from GitHub Releases",
+  "install_url": "https://hatchzip.dev",
+  "caption": "WinRAR costs $29. HatchZip unzips your files for free, even when your disk is almost full 📦\n\n✅ Extracts in place: the archive shrinks as files come out, so you only need space for the files\n✅ Right-click any archive, then \"Extract here\"\n✅ Checks it fits before starting, and resumes after a crash\n✅ ZIP, 7z, RAR, tar and split archives, 100% free\n\n💻 Windows · Mac · Linux\nℹ️ By default the archive is removed as it extracts (there's a keep-archive option), and the builds aren't code-signed yet, so Windows may need More info, then Run anyway\n\nComment \"UNZIP\" and I'll DM you the link 🔗\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #unzip #winrar #windows #macos #freeapps #techtips",
+  "dm_pitch": "HatchZip, the free open-source WinRAR alternative 📦",
+  "thumb": {"big": "FREE", "line1": "WinRAR", "line2": "alternative"}
+}

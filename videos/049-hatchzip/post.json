@@ -1,0 +1,23 @@
+{
+  "title": "HatchZip: free WinRAR alternative",
+  "video": "FINAL.mp4",
+  "thumbnail": "FINAL_thumbnail.png",
+  "repo_url": "https://github.com/xevrion/hatchzip",
+  "keyword": "UNZIP",
+  "caption": "WinRAR costs $29. HatchZip unzips your files for free, even when your disk is almost full \ud83d\udce6\n\n\u2705 Extracts in place: the archive shrinks as files come out, so you only need space for the files\n\u2705 Right-click any archive, then \"Extract here\"\n\u2705 Checks it fits before starting, and resumes after a crash\n\u2705 ZIP, 7z, RAR, tar and split archives, 100% free\n\n\ud83d\udcbb Windows \u00b7 Mac \u00b7 Linux\n\u2139\ufe0f By default the archive is removed as it extracts (there's a keep-archive option), and the builds aren't code-signed yet, so Windows may need More info, then Run anyway\n\nComment \"UNZIP\" and I'll DM you the link \ud83d\udd17\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #unzip #winrar #windows #macos #freeapps #techtips",
+  "dm_pitch": "HatchZip, the free open-source WinRAR alternative \ud83d\udce6",
+  "install": "Download from GitHub Releases",
+  "dm_on_any_comment": true,
+  "follow_gate": true,
+  "slot": 0,
+  "price_source": "https://rarlab.com/buysharewarecd.php",
+  "idempotencyKey": "d960defe-2e14-4cfc-8ce4-d2de23c669ae",
+  "zernio": {
+    "postId": "6ae1d4489f5d2691d964bd71",
+    "status": "scheduled",
+    "scheduledFor": "2026-10-28T11:22:00.000Z",
+    "url": null,
+    "automationId": "6ae1d44bb03a835549ed9fed",
+    "slot": 0
+  }
+}

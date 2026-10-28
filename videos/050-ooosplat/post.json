@@ -1,0 +1,23 @@
+{
+  "title": "OOOSplat: free Polycam alternative",
+  "video": "FINAL.mp4",
+  "thumbnail": "FINAL_thumbnail.png",
+  "repo_url": "https://github.com/ooolabdev/ooosplat",
+  "keyword": "SCAN",
+  "caption": "Polycam charges $150/year. OOOSplat turns your videos into 3D scenes on your own computer for free \ud83e\uddca\n\n\u2705 One click from a video or photos to a 3D scene\n\u2705 Supports 360\u00b0 video\n\u2705 Runs fully on your machine, nothing is uploaded\n\u2705 No subscription, no cloud, 100% free\n\n\ud83d\udcbb Windows \u00b7 Mac \u00b7 Linux\n\u2139\ufe0f Windows is the main build. The Mac (Apple Silicon only) and Linux (Ubuntu 24.04) versions are Alpha, and it runs best with a dedicated graphics card\n\nComment \"SCAN\" and I'll DM you the link \ud83d\udd17\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #3dscanning #photogrammetry #gaussiansplatting #3d #freeapps #techtips",
+  "dm_pitch": "OOOSplat, the free open-source Polycam alternative \ud83e\uddca",
+  "install": "Download from GitHub Releases",
+  "dm_on_any_comment": true,
+  "follow_gate": true,
+  "slot": 1,
+  "price_source": "https://poly.cam/pricing",
+  "idempotencyKey": "75898619-1a80-4a59-a7c5-aba4bc3579cb",
+  "zernio": {
+    "postId": "6ae1d5ce2d01558449cd15e3",
+    "status": "scheduled",
+    "scheduledFor": "2026-10-28T12:52:00.000Z",
+    "url": null,
+    "automationId": "6ae1d5d3a996380dd6998281",
+    "slot": 1
+  }
+}

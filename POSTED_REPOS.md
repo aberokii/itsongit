@@ -51,5 +51,7 @@ The scout (`pipeline/scout.py`) skips these automatically via `data/posted.json`
 | 44 | [ankitects/anki](https://github.com/ankitects/anki) | 044-anki | STUDY | published | 2026-10-27T10:40 | https://www.instagram.com/reel/De_qe2eFUBt/ |
 | 45 | [KDE/krita](https://github.com/KDE/krita) | 045-krita | PAINT | published | 2026-10-27T12:06 | https://www.instagram.com/reel/De_0URkESnj/ |
 | 46 | [exelban/stats](https://github.com/exelban/stats) | 046-stats | STATS | published | 2026-10-27T13:32 | https://www.instagram.com/reel/De_-JtkgGNE/ |
-| 47 | [espanso/espanso](https://github.com/espanso/espanso) | 047-espanso | SNIPPET | scheduled | 2026-10-27T20:27 |  |
-| 48 | [musescore/MuseScore](https://github.com/musescore/MuseScore) | 048-musescore | MUSIC | scheduled | 2026-10-27T21:47 |  |
+| 47 | [espanso/espanso](https://github.com/espanso/espanso) | 047-espanso | SNIPPET | published | 2026-10-27T20:29 | https://www.instagram.com/reel/DfAt1_nCZBf/ |
+| 48 | [musescore/MuseScore](https://github.com/musescore/MuseScore) | 048-musescore | MUSIC | published | 2026-10-27T21:48 | https://www.instagram.com/reel/DfA26jgGmoI/ |
+| 49 | [xevrion/hatchzip](https://github.com/xevrion/hatchzip) | 049-hatchzip | UNZIP | scheduled | 2026-10-28T11:22 |  |
+| 50 | [ooolabdev/ooosplat](https://github.com/ooolabdev/ooosplat) | 050-ooosplat | SCAN | scheduled | 2026-10-28T12:52 |  |

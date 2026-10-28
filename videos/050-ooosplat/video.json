@@ -1,0 +1,86 @@
+{
+  "repo": "ooolabdev/ooosplat",
+  "name": "OOOSplat",
+  "title": "OOOSplat: free Polycam alternative",
+  "slot": 1,
+  "keyword": "SCAN",
+  "paid": {
+    "name": "Polycam Basic",
+    "price": "$150",
+    "per": "/year",
+    "anchor": "hundred",
+    "source": "https://poly.cam/pricing"
+  },
+  "icon": "https://raw.githubusercontent.com/ooolabdev/ooosplat/HEAD/src-tauri/icons/icon.png",
+  "hook": "Polycam charges you a hundred and fifty bucks a year to turn your videos into 3D. This app does it for free.",
+  "job": "Turns any video into 3D",
+  "platforms": [
+    "Windows",
+    "Mac",
+    "Linux"
+  ],
+  "features": [
+    {
+      "intro": "Film it, then walk through it in 3D.",
+      "say": "Pick a video or photos, click once, and get a 3D scene. It even takes three sixty degree video.",
+      "images": [
+        "https://raw.githubusercontent.com/ooolabdev/ooosplat/HEAD/assets/screenshots/gaussian-preview.png",
+        "assets/scene-a.png"
+      ],
+      "swap_anchor": "scene",
+      "chips": [
+        {
+          "label": "🎞 Video",
+          "anchor": "video"
+        },
+        {
+          "label": "📷 Photos",
+          "anchor": "photos"
+        },
+        {
+          "label": "360° video",
+          "anchor": "sixty"
+        }
+      ]
+    },
+    {
+      "say": "It all runs on your own computer, so nothing gets uploaded.",
+      "images": [
+        "assets/scene-b.png"
+      ],
+      "chips": [
+        {
+          "label": "🔒 Stays local",
+          "anchor": "computer"
+        },
+        {
+          "label": "No upload",
+          "anchor": "uploaded"
+        }
+      ]
+    }
+  ],
+  "nolist": [
+    {
+      "say": "No subscription.",
+      "label": "Subscription"
+    },
+    {
+      "say": "No uploads.",
+      "label": "Uploads"
+    },
+    {
+      "say": "No cloud.",
+      "label": "Cloud"
+    }
+  ],
+  "install": "Download from GitHub Releases",
+  "caption": "Polycam charges $150/year. OOOSplat turns your videos into 3D scenes on your own computer for free 🧊\n\n✅ One click from a video or photos to a 3D scene\n✅ Supports 360° video\n✅ Runs fully on your machine, nothing is uploaded\n✅ No subscription, no cloud, 100% free\n\n💻 Windows · Mac · Linux\nℹ️ Windows is the main build. The Mac (Apple Silicon only) and Linux (Ubuntu 24.04) versions are Alpha, and it runs best with a dedicated graphics card\n\nComment \"SCAN\" and I'll DM you the link 🔗\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #3dscanning #photogrammetry #gaussiansplatting #3d #freeapps #techtips",
+  "dm_pitch": "OOOSplat, the free open-source Polycam alternative 🧊",
+  "thumb": {
+    "big": "FREE",
+    "line1": "Polycam",
+    "line2": "alternative"
+  },
+  "name_line": "It's called Triple O Splat."
+}
