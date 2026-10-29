@@ -1,0 +1,96 @@
+{
+  "repo": "super-productivity/super-productivity",
+  "name": "Super Productivity",
+  "title": "Super Productivity: free Sunsama alternative",
+  "slot": 4,
+  "keyword": "TASKS",
+  "paid": {
+    "name": "Sunsama",
+    "price": "$17",
+    "per": "/month",
+    "anchor": "seventeen",
+    "source": "https://www.sunsama.com/pricing"
+  },
+  "icon": "https://raw.githubusercontent.com/super-productivity/super-productivity/master/build/icon.iconset/icon_512x512@2x.png",
+  "hook": "Sunsama charges you seventeen dollars a month to plan your day and your to-dos. This app does it for free.",
+  "job": "Plans your day and to-dos",
+  "platforms": [
+    "Mac",
+    "Windows",
+    "Linux",
+    "iPhone",
+    "Android",
+    "any browser"
+  ],
+  "features": [
+    {
+      "say": "Sort tasks into projects and tags, then see your day on a schedule next to your calendar.",
+      "images": [
+        "assets/tasks.png",
+        "assets/schedule.png"
+      ],
+      "swap_anchor": "schedule",
+      "chips": [
+        {
+          "label": "📁 Projects",
+          "anchor": "projects"
+        },
+        {
+          "label": "🏷 Tags",
+          "anchor": "tags"
+        },
+        {
+          "label": "🗓 Schedule",
+          "anchor": "schedule"
+        },
+        {
+          "label": "Calendar",
+          "anchor": "calendar"
+        }
+      ]
+    },
+    {
+      "say": "Time any task with a timer, Pomodoro focus mode and break reminders.",
+      "images": [
+        "assets/focus.png"
+      ],
+      "chips": [
+        {
+          "label": "⏱ Timer",
+          "anchor": "timer"
+        },
+        {
+          "label": "🍅 Pomodoro",
+          "anchor": "Pomodoro"
+        },
+        {
+          "label": "☕ Break reminders",
+          "anchor": "break"
+        }
+      ]
+    }
+  ],
+  "nolist": [
+    {
+      "say": "No subscription.",
+      "label": "Subscription"
+    },
+    {
+      "say": "No account.",
+      "label": "Account"
+    },
+    {
+      "say": "No tracking.",
+      "label": "Tracking"
+    }
+  ],
+  "install": "brew install --cask super-productivity",
+  "install_url": "https://super-productivity.com",
+  "caption": "Sunsama charges $17/month to plan your day and your to-dos. Super Productivity does it for free ✅\n\n✅ Projects, tags and sub-tasks for your to-do list\n✅ A day schedule next to your calendar events\n✅ Task timer, Pomodoro focus mode and break reminders\n✅ No subscription, no account, 100% free\n\n💻 Mac · Windows · Linux · iPhone · Android · any browser\nℹ️ Syncing between devices uses SuperSync, Dropbox or WebDAV, and the browser version has a few limits vs the desktop app. Sunsama's $17/month is its annual price ($22 billed monthly)\n\nComment \"TASKS\" and I'll DM you the link 🔗\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #productivity #todolist #timeblocking #sunsama #freeapps #techtips",
+  "dm_pitch": "Super Productivity, the free open-source Sunsama alternative ✅",
+  "thumb": {
+    "big": "FREE",
+    "line1": "Sunsama",
+    "line2": "alternative"
+  }
+}

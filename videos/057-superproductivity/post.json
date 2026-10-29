@@ -1,0 +1,23 @@
+{
+  "title": "Super Productivity: free Sunsama alternative",
+  "video": "FINAL.mp4",
+  "thumbnail": "FINAL_thumbnail.png",
+  "repo_url": "https://github.com/super-productivity/super-productivity",
+  "keyword": "TASKS",
+  "caption": "Sunsama charges $17/month to plan your day and your to-dos. Super Productivity does it for free \u2705\n\n\u2705 Projects, tags and sub-tasks for your to-do list\n\u2705 A day schedule next to your calendar events\n\u2705 Task timer, Pomodoro focus mode and break reminders\n\u2705 No subscription, no account, 100% free\n\n\ud83d\udcbb Mac \u00b7 Windows \u00b7 Linux \u00b7 iPhone \u00b7 Android \u00b7 any browser\n\u2139\ufe0f Syncing between devices uses SuperSync, Dropbox or WebDAV, and the browser version has a few limits vs the desktop app. Sunsama's $17/month is its annual price ($22 billed monthly)\n\nComment \"TASKS\" and I'll DM you the link \ud83d\udd17\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #productivity #todolist #timeblocking #sunsama #freeapps #techtips",
+  "dm_pitch": "Super Productivity, the free open-source Sunsama alternative \u2705",
+  "install": "brew install --cask super-productivity",
+  "dm_on_any_comment": true,
+  "follow_gate": true,
+  "slot": 4,
+  "price_source": "https://www.sunsama.com/pricing",
+  "idempotencyKey": "a3c0f2f2-95f4-45e0-a10b-93d68f3ae574",
+  "zernio": {
+    "postId": "6ae38999dd979d7485791b75",
+    "status": "scheduled",
+    "scheduledFor": "2026-10-29T21:39:00.000Z",
+    "url": null,
+    "automationId": "6ae3899b1b9e714b8d6a449c",
+    "slot": 4
+  }
+}

@@ -57,6 +57,8 @@ The scout (`pipeline/scout.py`) skips these automatically via `data/posted.json`
 | 50 | [ooolabdev/ooosplat](https://github.com/ooolabdev/ooosplat) | 050-ooosplat | SCAN | published | 2026-10-28T12:53 | https://www.instagram.com/reel/DfCeeidD1df/ |
 | 51 | [reactive-resume/reactive-resume](https://github.com/reactive-resume/reactive-resume) | 051-reactiveresume | RESUME | published | 2026-10-28T18:30 | https://www.instagram.com/reel/DfDFDUTgZxI/ |
 | 52 | [f/textream](https://github.com/f/textream) | 052-textream | PROMPT | published | 2026-10-28T21:14 | https://www.instagram.com/reel/DfDX43RDe7Y/ |
-| 53 | [penpot/penpot](https://github.com/penpot/penpot) | 053-penpot | MOCKUP | scheduled | 2026-10-29T11:43 |  |
-| 54 | [jitsi/jitsi-meet](https://github.com/jitsi/jitsi-meet) | 054-jitsi | CALL | scheduled | 2026-10-29T13:19 |  |
+| 53 | [penpot/penpot](https://github.com/penpot/penpot) | 053-penpot | MOCKUP | published | 2026-10-29T11:44 | https://www.instagram.com/reel/DfE7YY9jUnK/ |
+| 54 | [jitsi/jitsi-meet](https://github.com/jitsi/jitsi-meet) | 054-jitsi | CALL | published | 2026-10-29T13:20 | https://www.instagram.com/reel/DfFGXbbkjHt/ |
 | 55 | [thaw-app/Thaw](https://github.com/thaw-app/Thaw) | 055-thaw | ICONS | built, not scheduled |  |  |
+| 56 | [MrKai77/Loop](https://github.com/MrKai77/Loop) | 056-loop | SNAP | scheduled | 2026-10-29T18:24 |  |
+| 57 | [super-productivity/super-productivity](https://github.com/super-productivity/super-productivity) | 057-superproductivity | TASKS | scheduled | 2026-10-29T21:39 |  |

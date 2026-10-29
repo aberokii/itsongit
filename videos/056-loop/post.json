@@ -1,0 +1,23 @@
+{
+  "title": "Loop: free Magnet alternative",
+  "video": "FINAL.mp4",
+  "thumbnail": "FINAL_thumbnail.png",
+  "repo_url": "https://github.com/MrKai77/Loop",
+  "keyword": "SNAP",
+  "caption": "Magnet costs $4.99 one-time. Loop snaps your Mac windows into place for free \ud83e\ude9f\n\n\u2705 Radial menu: hold a key, move your cursor, window snaps\n\u2705 Halves, quarters, thirds and more, with a live preview\n\u2705 Your own keyboard shortcuts, plus a menu and preview you can restyle\n\u2705 No subscription, no account, 100% free\n\n\ud83d\udcbb Mac\n\u2139\ufe0f Needs macOS 13 or later, and you have to give it Accessibility permission to move windows\n\nComment \"SNAP\" and I'll DM you the link \ud83d\udd17\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #macos #macbook #windowmanager #productivity #freeapps #techtips",
+  "dm_pitch": "Loop, the free open-source Magnet alternative \ud83e\ude9f",
+  "install": "brew install --cask loop",
+  "dm_on_any_comment": true,
+  "follow_gate": true,
+  "slot": 3,
+  "price_source": "https://apps.apple.com/us/app/magnet/id441258766?mt=12",
+  "idempotencyKey": "6d1c804a-5d03-4820-8a71-6b67ad7066c8",
+  "zernio": {
+    "postId": "6ae3898edd979d7485791b1e",
+    "status": "scheduled",
+    "scheduledFor": "2026-10-29T18:24:00.000Z",
+    "url": null,
+    "automationId": "6ae38991d4a09385db1fb4b5",
+    "slot": 3
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "repo": "MrKai77/Loop",
+  "name": "Loop",
+  "title": "Loop: free Magnet alternative",
+  "slot": 3,
+  "keyword": "SNAP",
+  "paid": {
+    "name": "Magnet",
+    "price": "$4.99",
+    "per": "",
+    "anchor": "five",
+    "source": "https://apps.apple.com/us/app/magnet/id441258766?mt=12"
+  },
+  "icon": "https://raw.githubusercontent.com/MrKai77/Loop/develop/assets/graphics/Classic.png",
+  "hook": "Magnet charges you five bucks to snap your Mac windows into place. This app does it for free.",
+  "job": "Snaps Mac windows in place",
+  "platforms": [
+    "Mac"
+  ],
+  "features": [
+    {
+      "intro": "Hold a key, flick your mouse, done.",
+      "say": "A radial menu snaps your window into halves, quarters or thirds, with a live preview first.",
+      "images": [
+        "assets/radial.png",
+        "assets/preview.png"
+      ],
+      "swap_anchor": "preview",
+      "chips": [
+        {
+          "label": "🖱 Radial menu",
+          "anchor": "radial"
+        },
+        {
+          "label": "Halves",
+          "anchor": "halves"
+        },
+        {
+          "label": "Quarters",
+          "anchor": "quarters"
+        },
+        {
+          "label": "Thirds",
+          "anchor": "thirds"
+        }
+      ]
+    },
+    {
+      "say": "Prefer the keyboard? Assign any key to any action. You can even tweak the menu and preview to your style.",
+      "images": [
+        "assets/menu-settings.png",
+        "assets/preview-settings.png"
+      ],
+      "swap_anchor": "preview",
+      "chips": [
+        {
+          "label": "⌨️ Keyboard",
+          "anchor": "keyboard"
+        },
+        {
+          "label": "🎨 Your style",
+          "anchor": "style"
+        }
+      ]
+    }
+  ],
+  "nolist": [
+    {
+      "say": "No subscription.",
+      "label": "Subscription"
+    },
+    {
+      "say": "No account.",
+      "label": "Account"
+    },
+    {
+      "say": "No paid upgrades.",
+      "label": "Paid upgrades"
+    }
+  ],
+  "install": "brew install --cask loop",
+  "caption": "Magnet costs $4.99 one-time. Loop snaps your Mac windows into place for free 🪟\n\n✅ Radial menu: hold a key, move your cursor, window snaps\n✅ Halves, quarters, thirds and more, with a live preview\n✅ Your own keyboard shortcuts, plus a menu and preview you can restyle\n✅ No subscription, no account, 100% free\n\n💻 Mac\nℹ️ Needs macOS 13 or later, and you have to give it Accessibility permission to move windows\n\nComment \"SNAP\" and I'll DM you the link 🔗\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #macos #macbook #windowmanager #productivity #freeapps #techtips",
+  "dm_pitch": "Loop, the free open-source Magnet alternative 🪟",
+  "thumb": {
+    "big": "FREE",
+    "line1": "Magnet",
+    "line2": "alternative"
+  }
+}
