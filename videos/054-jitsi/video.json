@@ -1,0 +1,51 @@
+{
+  "repo": "jitsi/jitsi-meet",
+  "name": "Jitsi Meet",
+  "title": "Jitsi Meet: free Zoom alternative",
+  "slot": 1,
+  "keyword": "CALL",
+  "paid": {
+    "name": "Zoom",
+    "price": "$14",
+    "per": "/month",
+    "anchor": "fourteen",
+    "source": "https://zoom.us/pricing"
+  },
+  "icon": "https://raw.githubusercontent.com/jitsi/jitsi-meet/HEAD/ios/app/src/Images.xcassets/AppIconRelease.appiconset/AppIcon-1024@1x.png",
+  "hook": "Zoom charges you fourteen bucks a month to host calls longer than forty minutes. This app does it for free.",
+  "job": "Hosts long video calls",
+  "platforms": ["any browser", "iPhone", "Android"],
+  "features": [
+    {
+      "intro": "Video calls with your whole team.",
+      "say": "HD video, screen sharing, chat and polls, all in your browser.",
+      "images": ["assets/grid.png"],
+      "chips": [
+        {"label": "HD video", "anchor": "video"},
+        {"label": "🖥 Screen sharing", "anchor": "sharing"},
+        {"label": "💬 Chat", "anchor": "chat"},
+        {"label": "Polls", "anchor": "polls"}
+      ]
+    },
+    {
+      "say": "Anyone you invite just clicks the link and joins, no account. There are iPhone and Android apps too.",
+      "images": ["assets/phone.png"],
+      "chips": [
+        {"label": "🔗 Join by link", "anchor": "link"},
+        {"label": "iPhone", "anchor": "iPhone"},
+        {"label": "Android", "anchor": "Android"}
+      ]
+    }
+  ],
+  "nolist": [
+    {"say": "No subscription.", "label": "Subscription"},
+    {"say": "No time limit.", "label": "Time limit"},
+    {"say": "No download.", "label": "Download"}
+  ],
+  "install": "Open meet.jit.si in your browser",
+  "install_url": "https://meet.jit.si",
+  "install_line": "It runs in any browser, iPhone and Android. Nothing to install.",
+  "caption": "Zoom charges $14.16/month to host calls longer than 40 minutes. Jitsi Meet does it for free 📹\n\n✅ HD video, screen sharing, chat and polls\n✅ Guests join with a link, no account needed\n✅ Free apps for iPhone and Android\n✅ No subscription, no time limit, 100% free\n\n💻 Any browser · iPhone · Android\nℹ️ On meet.jit.si the person who starts the meeting signs in with a Google, Facebook or GitHub account. Guests don't need one. Zoom's $14.16/month is Workplace Pro billed annually\n\nComment \"CALL\" and I'll DM you the link 🔗\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #videocall #zoom #remotework #freeapps #privacy #techtips",
+  "dm_pitch": "Jitsi Meet, the free open-source Zoom alternative 📹",
+  "thumb": {"big": "FREE", "line1": "Zoom", "line2": "alternative"}
+}

@@ -55,5 +55,8 @@ The scout (`pipeline/scout.py`) skips these automatically via `data/posted.json`
 | 48 | [musescore/MuseScore](https://github.com/musescore/MuseScore) | 048-musescore | MUSIC | published | 2026-10-27T21:48 | https://www.instagram.com/reel/DfA26jgGmoI/ |
 | 49 | [xevrion/hatchzip](https://github.com/xevrion/hatchzip) | 049-hatchzip | UNZIP | published | 2026-10-28T11:23 | https://www.instagram.com/reel/DfCUK8tgiEF/ |
 | 50 | [ooolabdev/ooosplat](https://github.com/ooolabdev/ooosplat) | 050-ooosplat | SCAN | published | 2026-10-28T12:53 | https://www.instagram.com/reel/DfCeeidD1df/ |
-| 51 | [reactive-resume/reactive-resume](https://github.com/reactive-resume/reactive-resume) | 051-reactiveresume | RESUME | scheduled | 2026-10-28T18:29 |  |
-| 52 | [f/textream](https://github.com/f/textream) | 052-textream | PROMPT | scheduled | 2026-10-28T21:13 |  |
+| 51 | [reactive-resume/reactive-resume](https://github.com/reactive-resume/reactive-resume) | 051-reactiveresume | RESUME | published | 2026-10-28T18:30 | https://www.instagram.com/reel/DfDFDUTgZxI/ |
+| 52 | [f/textream](https://github.com/f/textream) | 052-textream | PROMPT | published | 2026-10-28T21:14 | https://www.instagram.com/reel/DfDX43RDe7Y/ |
+| 53 | [penpot/penpot](https://github.com/penpot/penpot) | 053-penpot | MOCKUP | scheduled | 2026-10-29T11:43 |  |
+| 54 | [jitsi/jitsi-meet](https://github.com/jitsi/jitsi-meet) | 054-jitsi | CALL | scheduled | 2026-10-29T13:19 |  |
+| 55 | [thaw-app/Thaw](https://github.com/thaw-app/Thaw) | 055-thaw | ICONS | built, not scheduled |  |  |

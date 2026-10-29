@@ -1,0 +1,14 @@
+{
+  "title": "Thaw: free Bartender alternative",
+  "video": "FINAL.mp4",
+  "thumbnail": "FINAL_thumbnail.png",
+  "repo_url": "https://github.com/thaw-app/Thaw",
+  "keyword": "ICONS",
+  "caption": "Bartender charges $25 one-time. Thaw tidies up your Mac's menu bar for free 🧊\n\n✅ Hide the icons you don't need, reveal them on hover, click or scroll\n✅ Drag and drop to arrange your menu bar items\n✅ Search any menu bar item with a hotkey\n✅ No subscription, no account, no tracking, 100% free\n\n💻 Mac\nℹ️ The stable Thaw 2 is for macOS 26. macOS 27 gets a beta, and macOS 14–15 use the older Thaw 1 download\n\nComment \"ICONS\" and I'll DM you the link 🔗\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #macos #macbook #menubar #productivity #freeapps #techtips",
+  "dm_pitch": "Thaw, the free open-source Bartender alternative 🧊",
+  "install": "brew install --cask thaw",
+  "dm_on_any_comment": true,
+  "follow_gate": true,
+  "slot": 2,
+  "price_source": "https://www.macbartender.com/"
+}

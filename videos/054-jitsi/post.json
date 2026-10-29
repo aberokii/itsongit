@@ -1,0 +1,23 @@
+{
+  "title": "Jitsi Meet: free Zoom alternative",
+  "video": "FINAL.mp4",
+  "thumbnail": "FINAL_thumbnail.png",
+  "repo_url": "https://github.com/jitsi/jitsi-meet",
+  "keyword": "CALL",
+  "caption": "Zoom charges $14.16/month to host calls longer than 40 minutes. Jitsi Meet does it for free \ud83d\udcf9\n\n\u2705 HD video, screen sharing, chat and polls\n\u2705 Guests join with a link, no account needed\n\u2705 Free apps for iPhone and Android\n\u2705 No subscription, no time limit, 100% free\n\n\ud83d\udcbb Any browser \u00b7 iPhone \u00b7 Android\n\u2139\ufe0f On meet.jit.si the person who starts the meeting signs in with a Google, Facebook or GitHub account. Guests don't need one. Zoom's $14.16/month is Workplace Pro billed annually\n\nComment \"CALL\" and I'll DM you the link \ud83d\udd17\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #videocall #zoom #remotework #freeapps #privacy #techtips",
+  "dm_pitch": "Jitsi Meet, the free open-source Zoom alternative \ud83d\udcf9",
+  "install": "Open meet.jit.si in your browser",
+  "dm_on_any_comment": true,
+  "follow_gate": true,
+  "slot": 1,
+  "price_source": "https://zoom.us/pricing",
+  "idempotencyKey": "fd4a5780-efcb-4264-9f50-248edd1a8411",
+  "zernio": {
+    "postId": "6ae32abd787f85d134ded580",
+    "status": "scheduled",
+    "scheduledFor": "2026-10-29T13:19:00.000Z",
+    "url": null,
+    "automationId": "6ae32ac05f02a9d79f1d4c60",
+    "slot": 1
+  }
+}

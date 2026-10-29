@@ -1,0 +1,23 @@
+{
+  "title": "Penpot: free Figma alternative",
+  "video": "FINAL.mp4",
+  "thumbnail": "FINAL_thumbnail.png",
+  "repo_url": "https://github.com/penpot/penpot",
+  "keyword": "MOCKUP",
+  "caption": "Figma charges $16/month for a full seat. Penpot lets you design app and website mockups for free \ud83c\udfa8\n\n\u2705 Design screens right in your browser\n\u2705 Link them into clickable prototypes\n\u2705 Edit live with your team\n\u2705 Developers can copy CSS and HTML straight from the design\n\u2705 No subscription, no file limits, no lock-in\n\n\ud83d\udcbb Any browser\n\u2139\ufe0f The free cloud plan is fully featured but capped at 8 team members and 10GB of storage. Paid plans add more, or you can host it yourself\n\nComment \"MOCKUP\" and I'll DM you the link \ud83d\udd17\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #uidesign #figma #design #prototype #freeapps #techtips",
+  "dm_pitch": "Penpot, the free open-source Figma alternative \ud83c\udfa8",
+  "install": "Open design.penpot.app in your browser",
+  "dm_on_any_comment": true,
+  "follow_gate": true,
+  "slot": 0,
+  "price_source": "https://www.figma.com/pricing/",
+  "idempotencyKey": "1b583181-465a-451e-868b-5aa04a7b7257",
+  "zernio": {
+    "postId": "6ae329d987d2f736cef756c8",
+    "status": "scheduled",
+    "scheduledFor": "2026-10-29T11:43:00.000Z",
+    "url": null,
+    "automationId": "6ae329dcf67e0bc4ef51cb20",
+    "slot": 0
+  }
+}

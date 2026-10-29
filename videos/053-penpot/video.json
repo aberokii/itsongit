@@ -1,0 +1,81 @@
+{
+  "repo": "penpot/penpot",
+  "name": "Penpot",
+  "title": "Penpot: free Figma alternative",
+  "slot": 0,
+  "keyword": "MOCKUP",
+  "paid": {
+    "name": "Figma",
+    "price": "$16",
+    "per": "/month",
+    "anchor": "sixteen",
+    "source": "https://www.figma.com/pricing/"
+  },
+  "icon": "https://github.com/penpot.png?size=512",
+  "hook": "Figma charges you sixteen dollars a month to design app screens. This app does it for free.",
+  "job": "Designs apps and websites",
+  "platforms": [
+    "any browser"
+  ],
+  "features": [
+    {
+      "intro": "Mock up a whole app in your browser.",
+      "say": "Draw your screens, then link them into a clickable prototype you can share.",
+      "images": [
+        "assets/prototype.png",
+        "assets/tools.png"
+      ],
+      "swap_anchor": "share",
+      "chips": [
+        {
+          "label": "Clickable prototype",
+          "anchor": "prototype"
+        },
+        {
+          "label": "Draw screens",
+          "anchor": "screens"
+        }
+      ]
+    },
+    {
+      "say": "Edit live with your team, and developers can copy the CSS and HTML straight out.",
+      "images": [
+        "https://github.com/user-attachments/assets/cce75ad6-f783-473f-8803-da9eb8255fef"
+      ],
+      "chips": [
+        {
+          "label": "👥 Live teamwork",
+          "anchor": "live"
+        },
+        {
+          "label": "CSS + HTML",
+          "anchor": "CSS"
+        }
+      ]
+    }
+  ],
+  "nolist": [
+    {
+      "say": "No subscription.",
+      "label": "Subscription"
+    },
+    {
+      "say": "No file limits.",
+      "label": "File limits"
+    },
+    {
+      "say": "No lock-in.",
+      "label": "Lock-in"
+    }
+  ],
+  "install": "Open design.penpot.app in your browser",
+  "install_url": "https://penpot.app",
+  "install_line": "It runs in any browser. Nothing to install.",
+  "caption": "Figma charges $16/month for a full seat. Penpot lets you design app and website mockups for free 🎨\n\n✅ Design screens right in your browser\n✅ Link them into clickable prototypes\n✅ Edit live with your team\n✅ Developers can copy CSS and HTML straight from the design\n✅ No subscription, no file limits, no lock-in\n\n💻 Any browser\nℹ️ The free cloud plan is fully featured but capped at 8 team members and 10GB of storage. Paid plans add more, or you can host it yourself\n\nComment \"MOCKUP\" and I'll DM you the link 🔗\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #uidesign #figma #design #prototype #freeapps #techtips",
+  "dm_pitch": "Penpot, the free open-source Figma alternative 🎨",
+  "thumb": {
+    "big": "FREE",
+    "line1": "Figma",
+    "line2": "alternative"
+  }
+}
