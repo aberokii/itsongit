@@ -1,0 +1,14 @@
+{
+  "title": "Rallly: free Doodle alternative",
+  "video": "FINAL.mp4",
+  "thumbnail": "FINAL_thumbnail.png",
+  "repo_url": "https://github.com/lukevella/rallly",
+  "keyword": "MEET",
+  "caption": "Doodle Pro charges $11/month to find a time that works for everyone. Rallly does it for free 📅\n\n✅ Create a poll with dates and times, share the link\n✅ Everyone votes yes, no or if need be, no account needed\n✅ See the best time at a glance and finalize it\n✅ No spreadsheets, no credit card, free to start\n\n💻 Any browser\nℹ️ The free hosted plan allows up to 3 open polls at a time and keeps each poll for 30 days. Unlimited polls, email invites and custom branding are on the paid Pro plan ($6/seat/month billed yearly). You can also self-host it. Doodle's $11/month is Pro billed annually ($15 if paid monthly)\n\nComment \"MEET\" and I'll DM you the link 🔗\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #scheduling #doodle #productivity #freeapps #techtips",
+  "dm_pitch": "Rallly, the free open-source Doodle alternative 📅",
+  "install": "Open rallly.co in your browser",
+  "dm_on_any_comment": true,
+  "follow_gate": true,
+  "slot": 2,
+  "price_source": "https://help.doodle.com/en/articles/9457366-how-much-does-doodle-cost"
+}

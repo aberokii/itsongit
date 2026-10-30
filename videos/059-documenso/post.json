@@ -1,0 +1,23 @@
+{
+  "title": "Documenso: free DocuSign alternative",
+  "video": "FINAL.mp4",
+  "thumbnail": "FINAL_thumbnail.png",
+  "repo_url": "https://github.com/documenso/documenso",
+  "keyword": "SIGN",
+  "caption": "DocuSign charges $11/month to get documents signed online. Documenso does it for free \u270d\ufe0f\n\n\u2705 Upload a PDF, add signers and signature fields\n\u2705 Signers get an email with a button to sign\n\u2705 Track who has signed from one dashboard\n\u2705 No subscription, no credit card, free to start\n\n\ud83d\udcbb Any browser\n\u2139\ufe0f The free hosted plan includes 5 documents per month, the same as DocuSign Personal's 5 envelopes per month. You can also self-host it. DocuSign's $11/month is Personal billed annually\n\nComment \"SIGN\" and I'll DM you the link \ud83d\udd17\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #esignature #docusign #productivity #freeapps #techtips",
+  "dm_pitch": "Documenso, the free open-source DocuSign alternative \u270d\ufe0f",
+  "install": "Open documenso.com in your browser",
+  "dm_on_any_comment": true,
+  "follow_gate": true,
+  "slot": 1,
+  "price_source": "https://ecom.docusign.com/plans-and-pricing/esignature",
+  "idempotencyKey": "657ed8ae-4455-4eba-bc2d-6a17e4af9d48",
+  "zernio": {
+    "postId": "6ae47e215ee788b7fc7420cf",
+    "status": "scheduled",
+    "scheduledFor": "2026-10-30T13:44:00.000Z",
+    "url": null,
+    "automationId": "6ae47e236cb7f6342214caf7",
+    "slot": 1
+  }
+}

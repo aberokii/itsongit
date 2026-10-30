@@ -1,0 +1,54 @@
+{
+  "repo": "documenso/documenso",
+  "name": "Documenso",
+  "title": "Documenso: free DocuSign alternative",
+  "slot": 1,
+  "keyword": "SIGN",
+  "paid": {
+    "name": "DocuSign Personal",
+    "price": "$11",
+    "per": "/month",
+    "anchor": "eleven",
+    "source": "https://ecom.docusign.com/plans-and-pricing/esignature"
+  },
+  "icon": "https://github.com/documenso.png?size=512",
+  "hook": "DocuSign charges you eleven bucks a month to get documents signed online. This app does it for free.",
+  "job": "Gets your documents signed",
+  "platforms": ["any browser"],
+  "features": [
+    {
+      "intro": "Send contracts for signing in minutes.",
+      "say": "Upload a PDF, add your signers, and place their signature fields.",
+      "images": ["assets/editor.png"],
+      "chips": [
+        {"label": "📄 Upload a PDF", "anchor": "PDF"},
+        {"label": "✍️ Add signers", "anchor": "signers"},
+        {"label": "Signature fields", "anchor": "fields"}
+      ]
+    },
+    {
+      "say": "Each signer gets an email with a button to sign the document.",
+      "images": ["assets/sign-email.png"],
+      "chips": [
+        {"label": "📧 Email", "anchor": "email"},
+        {"label": "One click", "anchor": "button"}
+      ]
+    },
+    {
+      "say": "Then track who has signed from one dashboard.",
+      "images": ["assets/dashboard.png"],
+      "chips": [{"label": "📊 Dashboard", "anchor": "dashboard"}]
+    }
+  ],
+  "nolist": [
+    {"say": "No subscription.", "label": "Subscription"},
+    {"say": "No credit card.", "label": "Credit card"},
+    {"say": "No download.", "label": "Download"}
+  ],
+  "install": "Open documenso.com in your browser",
+  "install_url": "https://documenso.com",
+  "install_line": "It runs in any browser. Nothing to install.",
+  "caption": "DocuSign charges $11/month to get documents signed online. Documenso does it for free ✍️\n\n✅ Upload a PDF, add signers and signature fields\n✅ Signers get an email with a button to sign\n✅ Track who has signed from one dashboard\n✅ No subscription, no credit card, free to start\n\n💻 Any browser\nℹ️ The free hosted plan includes 5 documents per month, the same as DocuSign Personal's 5 envelopes per month. You can also self-host it. DocuSign's $11/month is Personal billed annually\n\nComment \"SIGN\" and I'll DM you the link 🔗\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #esignature #docusign #productivity #freeapps #techtips",
+  "dm_pitch": "Documenso, the free open-source DocuSign alternative ✍️",
+  "thumb": {"big": "FREE", "line1": "DocuSign", "line2": "alternative"}
+}

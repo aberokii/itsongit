@@ -1,0 +1,23 @@
+{
+  "title": "LocalSend: free Pushbullet Pro alternative",
+  "video": "FINAL.mp4",
+  "thumbnail": "FINAL_thumbnail.png",
+  "repo_url": "https://github.com/localsend/localsend",
+  "keyword": "SEND",
+  "caption": "Pushbullet Pro charges $39.99/year to send big files between your phone and computer. LocalSend does it for free \ud83d\udcf2\n\n\u2705 Send files and messages to nearby devices, no internet needed\n\u2705 Encrypted, with no middleman servers\n\u2705 Works between Windows, Mac, Linux, iPhone and Android\n\u2705 No subscription, 100% free\n\n\ud83d\udcbb Windows \u00b7 Mac \u00b7 Linux \u00b7 iPhone \u00b7 Android\n\u2139\ufe0f Both devices need to be on the same local network (Wi-Fi). If a transfer doesn't connect, check your firewall and that your router's AP isolation is off. Pushbullet's $39.99/year is the Pro yearly plan (free Pushbullet caps files at 25 MB)\n\nComment \"SEND\" and I'll DM you the link \ud83d\udd17\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #airdrop #filetransfer #android #iphone #freeapps #techtips",
+  "dm_pitch": "LocalSend, the free open-source AirDrop alternative for every device \ud83d\udcf2",
+  "install": "Download from GitHub Releases",
+  "dm_on_any_comment": true,
+  "follow_gate": true,
+  "slot": 0,
+  "price_source": "https://www.pushbullet.com/pro",
+  "idempotencyKey": "e58fb81e-c9bd-4863-bcb1-ff7a300f0bf0",
+  "zernio": {
+    "postId": "6ae47e195ee788b7fc7420ae",
+    "status": "scheduled",
+    "scheduledFor": "2026-10-30T12:04:00.000Z",
+    "url": null,
+    "automationId": "6ae47e1c822b1debfae93cc5",
+    "slot": 0
+  }
+}

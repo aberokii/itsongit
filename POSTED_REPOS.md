@@ -60,5 +60,8 @@ The scout (`pipeline/scout.py`) skips these automatically via `data/posted.json`
 | 53 | [penpot/penpot](https://github.com/penpot/penpot) | 053-penpot | MOCKUP | published | 2026-10-29T11:44 | https://www.instagram.com/reel/DfE7YY9jUnK/ |
 | 54 | [jitsi/jitsi-meet](https://github.com/jitsi/jitsi-meet) | 054-jitsi | CALL | published | 2026-10-29T13:20 | https://www.instagram.com/reel/DfFGXbbkjHt/ |
 | 55 | [thaw-app/Thaw](https://github.com/thaw-app/Thaw) | 055-thaw | ICONS | built, not scheduled |  |  |
-| 56 | [MrKai77/Loop](https://github.com/MrKai77/Loop) | 056-loop | SNAP | scheduled | 2026-10-29T18:24 |  |
-| 57 | [super-productivity/super-productivity](https://github.com/super-productivity/super-productivity) | 057-superproductivity | TASKS | scheduled | 2026-10-29T21:39 |  |
+| 56 | [MrKai77/Loop](https://github.com/MrKai77/Loop) | 056-loop | SNAP | published | 2026-10-29T18:25 | https://www.instagram.com/reel/DfFpRXXkvhT/ |
+| 57 | [super-productivity/super-productivity](https://github.com/super-productivity/super-productivity) | 057-superproductivity | TASKS | published | 2026-10-29T21:40 | https://www.instagram.com/reel/DfF_oKRiS2F/ |
+| 58 | [localsend/localsend](https://github.com/localsend/localsend) | 058-localsend | SEND | scheduled | 2026-10-30T12:04 |  |
+| 59 | [documenso/documenso](https://github.com/documenso/documenso) | 059-documenso | SIGN | scheduled | 2026-10-30T13:44 |  |
+| 60 | [lukevella/rallly](https://github.com/lukevella/rallly) | 060-rallly | MEET | built, not scheduled |  |  |

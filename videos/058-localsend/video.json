@@ -1,0 +1,90 @@
+{
+  "repo": "localsend/localsend",
+  "name": "LocalSend",
+  "title": "LocalSend: free Pushbullet Pro alternative",
+  "slot": 0,
+  "keyword": "SEND",
+  "paid": {
+    "name": "Pushbullet Pro",
+    "price": "$39.99",
+    "per": "/year",
+    "anchor": "forty",
+    "source": "https://www.pushbullet.com/pro"
+  },
+  "icon": "https://raw.githubusercontent.com/localsend/localsend/HEAD/app/assets/img/logo-512.png",
+  "hook": "Pushbullet charges you forty bucks a year to send big files between your phone and computer. This app does it for free.",
+  "job": "Sends files to any device",
+  "platforms": [
+    "Windows",
+    "Mac",
+    "Linux",
+    "iPhone",
+    "Android"
+  ],
+  "features": [
+    {
+      "intro": "No cables. No cloud.",
+      "say": "Send files and messages to nearby devices over your local network, no internet needed.",
+      "images": [
+        "assets/pc.png"
+      ],
+      "chips": [
+        {
+          "label": "📁 Files",
+          "anchor": "files"
+        },
+        {
+          "label": "💬 Messages",
+          "anchor": "messages"
+        },
+        {
+          "label": "📶 Local network",
+          "anchor": "local"
+        }
+      ]
+    },
+    {
+      "say": "Everything is encrypted, and it works between Windows, Mac, Linux, iPhone and Android.",
+      "images": [
+        "assets/phone.png"
+      ],
+      "chips": [
+        {
+          "label": "🔒 Encrypted",
+          "anchor": "encrypted"
+        },
+        {
+          "label": "iPhone",
+          "anchor": "iPhone"
+        },
+        {
+          "label": "Android",
+          "anchor": "Android"
+        }
+      ]
+    }
+  ],
+  "nolist": [
+    {
+      "say": "No internet.",
+      "label": "Internet"
+    },
+    {
+      "say": "No middleman servers.",
+      "label": "Servers"
+    },
+    {
+      "say": "No subscription.",
+      "label": "Subscription"
+    }
+  ],
+  "install": "Download from GitHub Releases",
+  "install_url": "https://localsend.org",
+  "caption": "Pushbullet Pro charges $39.99/year to send big files between your phone and computer. LocalSend does it for free 📲\n\n✅ Send files and messages to nearby devices, no internet needed\n✅ Encrypted, with no middleman servers\n✅ Works between Windows, Mac, Linux, iPhone and Android\n✅ No subscription, 100% free\n\n💻 Windows · Mac · Linux · iPhone · Android\nℹ️ Both devices need to be on the same local network (Wi-Fi). If a transfer doesn't connect, check your firewall and that your router's AP isolation is off. Pushbullet's $39.99/year is the Pro yearly plan (free Pushbullet caps files at 25 MB)\n\nComment \"SEND\" and I'll DM you the link 🔗\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #airdrop #filetransfer #android #iphone #freeapps #techtips",
+  "dm_pitch": "LocalSend, the free open-source AirDrop alternative for every device 📲",
+  "thumb": {
+    "big": "FREE",
+    "line1": "Pushbullet",
+    "line2": "alternative"
+  }
+}
