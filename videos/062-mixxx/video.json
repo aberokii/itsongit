@@ -1,0 +1,98 @@
+{
+  "repo": "mixxxdj/mixxx",
+  "name": "Mixxx",
+  "title": "Mixxx: free Serato alternative",
+  "slot": 4,
+  "keyword": "MIX",
+  "paid": {
+    "name": "Serato DJ Pro",
+    "price": "$11.99",
+    "per": "/month",
+    "anchor": "twelve",
+    "source": "https://serato.com/dj/pro/pricing"
+  },
+  "icon": "https://raw.githubusercontent.com/mixxxdj/mixxx/main/packaging/ios/Assets.xcassets/AppIcon.appiconset/1024x1024.png",
+  "hook": "Serato charges you twelve dollars a month to mix music like a DJ. This app does it for free.",
+  "job": "Turns laptops into DJ decks",
+  "platforms": [
+    "Mac",
+    "Windows",
+    "Linux"
+  ],
+  "features": [
+    {
+      "intro": "It finds the BPM and key of every track.",
+      "say": "Sync then matches the tempo and beats for seamless mixing.",
+      "images": [
+        "assets/full.png",
+        "assets/deck.png"
+      ],
+      "swap_anchor": "Sync",
+      "chips": [
+        {
+          "label": "🎚 BPM + key",
+          "anchor": "tempo"
+        },
+        {
+          "label": "Sync",
+          "anchor": "Sync"
+        }
+      ]
+    },
+    {
+      "say": "Add reverb, flanger and more, even chained together.",
+      "images": [
+        "assets/fx.png"
+      ],
+      "chips": [
+        {
+          "label": "🎛 Reverb",
+          "anchor": "reverb"
+        },
+        {
+          "label": "Flanger",
+          "anchor": "flanger"
+        }
+      ]
+    },
+    {
+      "say": "Mix four decks at once, with built-in DJ controller support.",
+      "images": [
+        "assets/fourdecks.png"
+      ],
+      "chips": [
+        {
+          "label": "4 decks",
+          "anchor": "four"
+        },
+        {
+          "label": "🎧 Controllers",
+          "anchor": "controller"
+        }
+      ]
+    }
+  ],
+  "nolist": [
+    {
+      "say": "No subscription.",
+      "label": "Subscription"
+    },
+    {
+      "say": "No account.",
+      "label": "Account"
+    },
+    {
+      "say": "No paywall.",
+      "label": "Paywall"
+    }
+  ],
+  "install": "brew install --cask mixxx",
+  "install_url": "https://mixxx.org/download/",
+  "caption": "Serato DJ Pro charges $11.99/month to mix music like a DJ. Mixxx does it for free 🎧\n\n✅ Finds the BPM and key of every track\n✅ Sync matches tempo and beats for seamless mixing\n✅ Effects like reverb and flanger, chained together\n✅ Up to four decks, with built-in DJ controller support\n\n💻 Mac · Windows · Linux\nℹ️ Mixxx works with just a laptop, but a DJ controller makes it feel like real decks. Serato's $11.99/month is DJ Pro on a monthly plan; it also sells DJ Pro for a one-time $299\n\nComment \"MIX\" and I'll DM you the link 🔗\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #dj #djing #music #freeapps #techtips",
+  "dm_pitch": "Mixxx, the free open-source Serato alternative 🎧",
+  "thumb": {
+    "big": "FREE",
+    "line1": "Serato",
+    "line2": "alternative"
+  }
+}

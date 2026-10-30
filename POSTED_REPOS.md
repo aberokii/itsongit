@@ -62,6 +62,8 @@ The scout (`pipeline/scout.py`) skips these automatically via `data/posted.json`
 | 55 | [thaw-app/Thaw](https://github.com/thaw-app/Thaw) | 055-thaw | ICONS | built, not scheduled |  |  |
 | 56 | [MrKai77/Loop](https://github.com/MrKai77/Loop) | 056-loop | SNAP | published | 2026-10-29T18:25 | https://www.instagram.com/reel/DfFpRXXkvhT/ |
 | 57 | [super-productivity/super-productivity](https://github.com/super-productivity/super-productivity) | 057-superproductivity | TASKS | published | 2026-10-29T21:40 | https://www.instagram.com/reel/DfF_oKRiS2F/ |
-| 58 | [localsend/localsend](https://github.com/localsend/localsend) | 058-localsend | SEND | scheduled | 2026-10-30T12:04 |  |
-| 59 | [documenso/documenso](https://github.com/documenso/documenso) | 059-documenso | SIGN | scheduled | 2026-10-30T13:44 |  |
+| 58 | [localsend/localsend](https://github.com/localsend/localsend) | 058-localsend | SEND | published | 2026-10-30T12:06 | https://www.instagram.com/reel/DfHiqYmEXnQ/ |
+| 59 | [documenso/documenso](https://github.com/documenso/documenso) | 059-documenso | SIGN | published | 2026-10-30T13:45 | https://www.instagram.com/reel/DfHuB4qm_8j/ |
 | 60 | [lukevella/rallly](https://github.com/lukevella/rallly) | 060-rallly | MEET | built, not scheduled |  |  |
+| 61 | [zotero/zotero](https://github.com/zotero/zotero) | 061-zotero | CITE | scheduled | 2026-10-30T19:37 |  |
+| 62 | [mixxxdj/mixxx](https://github.com/mixxxdj/mixxx) | 062-mixxx | MIX | scheduled | 2026-10-30T21:48 |  |

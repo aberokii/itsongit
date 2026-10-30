@@ -1,0 +1,23 @@
+{
+  "title": "Zotero: free EndNote alternative",
+  "video": "FINAL.mp4",
+  "thumbnail": "FINAL_thumbnail.png",
+  "repo_url": "https://github.com/zotero/zotero",
+  "keyword": "CITE",
+  "caption": "EndNote charges $275 to manage your research and citations. Zotero does it for free \ud83d\udcda\n\n\u2705 Browser button saves any paper or web page in one click\n\u2705 Citations and bibliographies in Word and Google Docs, thousands of styles\n\u2705 Read and highlight PDFs inside the app\n\u2705 No subscription, no ads, no sign-up needed\n\n\ud83d\udcbb Mac \u00b7 Windows \u00b7 Linux \u00b7 iPhone \u00b7 Android\n\u2139\ufe0f Syncing is free up to 300 MB of storage. More sync storage is a paid add-on (from $20/year). Using Zotero without syncing is fully free. EndNote's $275 is the one-time full license for new buyers\n\nComment \"CITE\" and I'll DM you the link \ud83d\udd17\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #zotero #endnote #students #research #productivity #freeapps",
+  "dm_pitch": "Zotero, the free open-source EndNote alternative \ud83d\udcda",
+  "install": "brew install --cask zotero",
+  "dm_on_any_comment": true,
+  "follow_gate": true,
+  "slot": 3,
+  "price_source": "https://endnote.com/buy/",
+  "idempotencyKey": "fb0a5642-c7bc-43cc-8d91-d855288cb664",
+  "zernio": {
+    "postId": "6ae4d3cd3e3d737ec223ad37",
+    "status": "scheduled",
+    "scheduledFor": "2026-10-30T19:37:00.000Z",
+    "url": null,
+    "automationId": "6ae4d3d1742d1e000f3bc28a",
+    "slot": 3
+  }
+}

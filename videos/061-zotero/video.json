@@ -1,0 +1,97 @@
+{
+  "repo": "zotero/zotero",
+  "name": "Zotero",
+  "title": "Zotero: free EndNote alternative",
+  "slot": 3,
+  "keyword": "CITE",
+  "paid": {
+    "name": "EndNote",
+    "price": "$275",
+    "per": "",
+    "anchor": "two",
+    "source": "https://endnote.com/buy/"
+  },
+  "icon": "https://github.com/zotero.png?size=512",
+  "hook": "EndNote charges you two hundred seventy five bucks to manage your research and citations. This app does it for free.",
+  "job": "Cites all your sources for you",
+  "platforms": [
+    "Mac",
+    "Windows",
+    "Linux",
+    "iPhone",
+    "Android"
+  ],
+  "features": [
+    {
+      "say": "One click in your browser saves any paper or web page.",
+      "images": [
+        "https://www.zotero.org/static/images/home/screenshot-7.0@2x.png"
+      ],
+      "chips": [
+        {
+          "label": "🌐 One click",
+          "anchor": "click"
+        },
+        {
+          "label": "📄 Any paper",
+          "anchor": "paper"
+        }
+      ]
+    },
+    {
+      "say": "Then it writes your citations in Word or Google Docs, in thousands of styles.",
+      "images": [
+        "https://www.zotero.org/support/_media/word_integration/citation-dialog-select-5.png"
+      ],
+      "chips": [
+        {
+          "label": "✍️ Word",
+          "anchor": "Word"
+        },
+        {
+          "label": "Google Docs",
+          "anchor": "Docs"
+        },
+        {
+          "label": "Thousands of styles",
+          "anchor": "styles"
+        }
+      ]
+    },
+    {
+      "say": "You can read and highlight PDFs inside the app.",
+      "images": [
+        "https://www.zotero.org/static/images/blog/6.0/pdf-reader.jpg"
+      ],
+      "chips": [
+        {
+          "label": "🖍 Highlight PDFs",
+          "anchor": "highlight"
+        }
+      ]
+    }
+  ],
+  "nolist": [
+    {
+      "say": "No subscription.",
+      "label": "Subscription"
+    },
+    {
+      "say": "No ads.",
+      "label": "Ads"
+    },
+    {
+      "say": "No sign-up.",
+      "label": "Sign-up"
+    }
+  ],
+  "install": "brew install --cask zotero",
+  "install_url": "https://www.zotero.org/download/",
+  "caption": "EndNote charges $275 to manage your research and citations. Zotero does it for free 📚\n\n✅ Browser button saves any paper or web page in one click\n✅ Citations and bibliographies in Word and Google Docs, thousands of styles\n✅ Read and highlight PDFs inside the app\n✅ No subscription, no ads, no sign-up needed\n\n💻 Mac · Windows · Linux · iPhone · Android\nℹ️ Syncing is free up to 300 MB of storage. More sync storage is a paid add-on (from $20/year). Using Zotero without syncing is fully free. EndNote's $275 is the one-time full license for new buyers\n\nComment \"CITE\" and I'll DM you the link 🔗\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #zotero #endnote #students #research #productivity #freeapps",
+  "dm_pitch": "Zotero, the free open-source EndNote alternative 📚",
+  "thumb": {
+    "big": "FREE",
+    "line1": "EndNote",
+    "line2": "alternative"
+  }
+}

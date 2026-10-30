@@ -1,0 +1,23 @@
+{
+  "title": "Mixxx: free Serato alternative",
+  "video": "FINAL.mp4",
+  "thumbnail": "FINAL_thumbnail.png",
+  "repo_url": "https://github.com/mixxxdj/mixxx",
+  "keyword": "MIX",
+  "caption": "Serato DJ Pro charges $11.99/month to mix music like a DJ. Mixxx does it for free \ud83c\udfa7\n\n\u2705 Finds the BPM and key of every track\n\u2705 Sync matches tempo and beats for seamless mixing\n\u2705 Effects like reverb and flanger, chained together\n\u2705 Up to four decks, with built-in DJ controller support\n\n\ud83d\udcbb Mac \u00b7 Windows \u00b7 Linux\n\u2139\ufe0f Mixxx works with just a laptop, but a DJ controller makes it feel like real decks. Serato's $11.99/month is DJ Pro on a monthly plan; it also sells DJ Pro for a one-time $299\n\nComment \"MIX\" and I'll DM you the link \ud83d\udd17\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #dj #djing #music #freeapps #techtips",
+  "dm_pitch": "Mixxx, the free open-source Serato alternative \ud83c\udfa7",
+  "install": "brew install --cask mixxx",
+  "dm_on_any_comment": true,
+  "follow_gate": true,
+  "slot": 4,
+  "price_source": "https://serato.com/dj/pro/pricing",
+  "idempotencyKey": "c784f85f-a2d4-4103-bb14-4d5b9070e939",
+  "zernio": {
+    "postId": "6ae4d3d7b79883fd33b3e492",
+    "status": "scheduled",
+    "scheduledFor": "2026-10-30T21:48:00.000Z",
+    "url": null,
+    "automationId": "6ae4d3dafb72954ffcd446a4",
+    "slot": 4
+  }
+}
