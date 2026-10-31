@@ -4,7 +4,7 @@ Commands:
   connect-url                 print the OAuth link that connects @itsongit (Business/Creator account) to Zernio
   setup                       find the profile + @itsongit account, save ids to data/zernio.json, check health
   health                      account health + Instagram publishing quota
-  publish <video_dir> --slot N [--date YYYY-MM-DD | --now] [--time HH:MM]
+  publish <video_dir> [--slot N --date YYYY-MM-DD --time HH:MM | --now]   (defaults: video.json "publish"/"slot" from plan.py)
   unschedule <video_dir>       delete a scheduled (unpublished) post + its automation, to fix and re-publish
                               upload reel + cover, schedule the Reel, attach the comment-to-DM automation
   status <video_dir>          post status (+ Instagram URL once live)
@@ -37,8 +37,9 @@ USERNAME = "itsongit"
 DEFAULT_CFG = {
     "username": USERNAME,
     "timezone": "Europe/Berlin",
-    # daily slot → local time; slot N also picks accent N in brand.json
-    "slots": ["08:00", "12:00", "15:30", "18:30", "21:30"],
+    # daily slot → default local time; slot N also picks accent N in brand.json. 3 a day since 2026-11-01
+    # (13:00-15:00 Berlin was the dead zone). plan.py picks the real random time inside each window.
+    "slots": ["12:10", "18:50", "21:55"],
     "profileId": None,
     "accountId": None,
 }
@@ -223,6 +224,15 @@ def cmd_publish(a, cfg):
     if post.get("zernio", {}).get("postId") and not a.force:
         sys.exit(f"already scheduled as {post['zernio']['postId']} (use --force to post again)")
     profile, acc = need_ids(cfg)
+    vj = json.loads((vdir / "video.json").read_text()) if (vdir / "video.json").exists() else {}
+    pub_plan = vj.get("publish") or {}
+    a.slot = a.slot if a.slot is not None else vj.get("slot", post.get("slot"))
+    a.date = a.date or pub_plan.get("date")
+    a.time = a.time or pub_plan.get("time")
+    if a.slot is None:
+        sys.exit("no --slot and no slot in video.json (run pipeline/plan.py first)")
+    if vj.get("slot") is not None and vj["slot"] != a.slot:
+        sys.exit(f"--slot {a.slot} but the reel was built with slot {vj['slot']} (accent colour): rebuild or match it")
 
     video, cover = vdir / post["video"], vdir / post["thumbnail"]
     for f in (video, cover):
@@ -241,13 +251,14 @@ def cmd_publish(a, cfg):
             "platform": "instagram", "accountId": acc,
             "platformSpecificData": {"shareToFeed": True, "instagramThumbnail": cover_url, "commentsEnabled": True},
         }],
-        "metadata": {"reel": vdir.name, "repo": post["repo_url"], "keyword": post["keyword"], "slot": a.slot},
+        "metadata": {"reel": vdir.name, "repo": post["repo_url"], "keyword": post["keyword"], "slot": a.slot,
+                     **{f"exp_{k}": v for k, v in (post.get("experiment") or {}).items() if v}},
     }
     if a.now:
         body["publishNow"] = True
     else:
         day = a.date or (dt.date.today() + dt.timedelta(days=1)).isoformat()
-        body["scheduledFor"] = f"{day}T{a.time or cfg['slots'][a.slot]}:00"
+        body["scheduledFor"] = f"{day}T{a.time or cfg['slots'][min(a.slot, len(cfg['slots']) - 1)]}:00"
         body["timezone"] = cfg["timezone"]
     idem = post.get("idempotencyKey") or str(uuid.uuid4())
     r = api("POST", "/posts", body, idem=idem)
@@ -423,7 +434,7 @@ def main():
         sub.add_parser(name)
     p = sub.add_parser("publish")
     p.add_argument("video_dir")
-    p.add_argument("--slot", type=int, required=True, choices=range(5))
+    p.add_argument("--slot", type=int, choices=range(5), help="accent slot (default: video.json slot from plan.py)")
     p.add_argument("--date", help="YYYY-MM-DD (default: tomorrow)")
     p.add_argument("--now", action="store_true", help="publish immediately instead of scheduling")
     p.add_argument("--time", help="HH:MM Berlin time, overrides the slot's default time (the slot still picks the accent)")

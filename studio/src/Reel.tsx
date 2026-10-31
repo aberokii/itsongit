@@ -7,6 +7,7 @@ import {
 } from "./kit";
 import {accentFor} from "./brand";
 import {GitMark} from "./Logo";
+import {DemoHook, type DemoMedia, type HookText} from "./DemoHook";
 
 // Generic itsongit reel. Same scenes and layout as the approved 001 (V001.tsx), driven entirely by props that
 // pipeline/make.py builds from videos/<slug>/video.json + the voiceover's word timings.
@@ -27,12 +28,16 @@ export type ReelProps = {
   stars: number; // e.g. 7.2 (thousands)
   about: {left: number; top: number; width: number; height: number}; // highlight box in phone-local px
   b: {ghStart: number; t100: number; tFree2: number; tOpen: number; tSo: number; tBlowing: number;
-      t40: number; tThis: number; tFree1: number; promise: number; install: number; tOne: number;
+      t40: number; tThis: number; tFree1: number; tName: number; promise: number; install: number; tOne: number;
       cta: number; tComment: number; tKey: number; end: number};
   features: Feature[];
   nolist: {text: string; at: number}[];
   install: {cmd: string; url: string};
   keyword: string;
+  // A/B: "price" = HyperFrames price-slash hook.mp4 (A), "demo" = app-in-action cold open (B, needs demo + hookText)
+  hookStyle?: "price" | "demo";
+  demo?: DemoMedia;
+  hookText?: HookText;
 };
 
 const PHONE_TOP = 310;
@@ -238,7 +243,11 @@ export const Reel: React.FC<ReelProps> = (p) => {
     <AccentCtx.Provider value={accentFor(p.accent)}>
       <AbsoluteFill style={{background: C.BG}}>
         <Background />
-        <Seq from={0} to={b.ghStart} name="hook"><Hook src={`${p.dir}/hook.mp4`} dur={b.ghStart} /></Seq>
+        <Seq from={0} to={b.ghStart} name="hook">
+          {p.hookStyle === "demo" && p.demo && p.hookText
+            ? <DemoHook dur={b.ghStart} dir={p.dir} demo={p.demo} text={p.hookText} b={b} />
+            : <Hook src={`${p.dir}/hook.mp4`} dur={b.ghStart} />}
+        </Seq>
         <Seq from={b.ghStart} to={firstFeature} name="repo-pill"><RepoPill dur={firstFeature - b.ghStart} dir={p.dir} owner={p.owner} name={p.name} /></Seq>
         {features.map((fe, i) => (
           <Seq key={`pill${i}`} from={fe.cardsAt} to={fe.end} name={`pill-${i}`}><RepoPill dur={fe.end - fe.cardsAt} dir={p.dir} owner={p.owner} name={p.name} /></Seq>

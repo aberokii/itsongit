@@ -32,6 +32,37 @@ CONSUMER = re.compile(r"\b(alternative|app|desktop|self-?host|mac(os)?|windows|i
                       r"manager|tracker|budget|game|ai (image|video|voice)|voice|transcri|translat)\b", re.I)
 DEV_ONLY = re.compile(r"\b(sdk|library|framework|bindings|compiler|kernel|runtime|orm|linter|boilerplate|"
                       r"template|dotfiles|awesome|interview|leetcode|course|tutorial|roadmap|cheatsheet|paper|list of|collection of|curated)\b", re.I)
+# Paid apps a normal person recognises, by topic arm (data/experiments.json). A repo that names one gets a big boost:
+# the baseline showed famous-paid-app consumer picks travel and developer/pro/academic picks don't.
+MASS_PAID = {
+    "subscription": ["photoshop", "lightroom", "premiere", "after effects", "illustrator", "acrobat", "adobe", "canva", "grammarly",
+                     "microsoft office", "office 365", "microsoft word", "excel", "powerpoint", "dropbox", "google drive", "icloud", "1password",
+                     "lastpass", "dashlane", "nordvpn", "expressvpn", "duolingo", "notion", "evernote", "todoist", "spotify",
+                     "youtube premium", "netflix", "plex", "audible", "chatgpt", "midjourney", "elevenlabs", "otter", "capcut",
+                     "squarespace", "wix", "docusign", "zoom", "calm", "headspace", "ynab", "quizlet", "chegg", "strava", "myfitnesspal"],
+    "utility": ["cleanmymac", "magnet", "paste", "bartender", "alfred", "raycast", "cleanshot", "snagit", "teamviewer", "anydesk",
+                "airdroid", "winrar", "winzip", "idm", "internet download manager", "ccleaner", "little snitch", "istat",
+                "betterdisplay", "parallels", "daisydisk", "keyboard maestro", "textexpander", "carbon copy", "macrorecorder",
+                "duet", "pushbullet", "speedify", "malwarebytes", "wallpaper engine", "f.lux", "screenflow", "loom"],
+    "hobby": ["serato", "traktor", "rekordbox", "ableton", "fl studio", "logic pro", "guitar pro", "sibelius", "procreate",
+              "clip studio", "affinity", "final cut", "davinci", "topaz", "luminar", "capture one", "zbrush", "cinema 4d",
+              "bambu", "cricut", "skyrim", "steam", "obs", "streamlabs", "kindle", "goodreads", "stellarium", "polycam"],
+}
+DEV_PRO = re.compile(r"\b(api|cli|terminal|devops|kubernetes|k8s|docker|llm|agent|agents|mcp|rag|server|database|developer|"
+                     r"coding|ide|git|latex|academic|research|scientific|enterprise|crm|erp|saas|self-hosted|selfhosted|homelab)\b", re.I)
+HOBBY = re.compile(r"\b(dj|music|guitar|piano|drum|photo|photography|drawing|paint|3d|game|gaming|emulat|astronom|knit|"
+                   r"camera|film|anime|comic|manga|podcast|stream)\w*", re.I)
+
+
+def arm_guess(text, alt_name):
+    t = (text + " " + (alt_name or "")).lower()
+    for arm, names in MASS_PAID.items():
+        hit = next((n for n in names if re.search(r"\b" + re.escape(n) + r"\b", t)), None)
+        if hit:
+            return arm, hit
+    return ("hobby" if HOBBY.search(t) else "utility" if re.search(r"\b(mac|windows|menu ?bar|clipboard|window|screenshot|desktop)\b", t) else None), None
+
+
 ALT = re.compile(r"(?:alternative to|replacement for|instead of)\s+([A-Z][\w.+&' -]{1,40}?)(?=[,.;:)!]|\s+(?:and|with|that|for|but)\b|$)"
                  r"|([A-Z][\w.+&'-]{1,30}(?:\s[A-Z][\w.+&'-]{1,20})?)\s+alternative", re.M)
 
@@ -133,7 +164,9 @@ def vet(name, hint):
         alt_name = None
     consumer = len(set(m.group(0).lower() for m in CONSUMER.finditer(text)))
     dev = len(DEV_ONLY.findall(text))
-    score = (math.log10(stars + 10) * 2
+    devpro = len(set(m.group(0).lower() for m in DEV_PRO.finditer(text)))
+    arm, famous = arm_guess(text, alt_name)
+    score = ((5 if famous else 0) - min(devpro, 3) * 2 +math.log10(stars + 10) * 2
              + math.log10(hint.get("starsToday", 0) + hint.get("trendingGain", 0) + hint.get("hnPoints", 0) + 1) * 1.5
              + min(consumer, 4) * 1.2 - dev * 1.5
              + (3 if alt_name else 0) + (1.5 if downloads > 1000 else 0) + (1 if r.get("homepage") else 0)
@@ -142,7 +175,7 @@ def vet(name, hint):
         "repo": name, "url": r["html_url"], "description": r.get("description"), "homepage": r.get("homepage"),
         "stars": stars, "forks": forks, "contributors": contributors, "releaseDownloads": downloads,
         "license": spdx, "created": str(created), "pushed": str(pushed), "topics": r.get("topics"),
-        "alternativeTo": alt_name,
+        "alternativeTo": alt_name, "arm": arm, "famousPaid": famous, "devPro": devpro,
         "sources": hint["sources"], "flags": flags, "score": round(score, 2),
     }
 
@@ -182,9 +215,9 @@ def main():
     out = DATA / "candidates"
     out.mkdir(parents=True, exist_ok=True)
     (out / f"{TODAY}.json").write_text(json.dumps({"date": str(TODAY), "candidates": clean, "rejected": [x for x in rows if x["flags"]]}, indent=1))
-    lines = [f"# Candidates {TODAY}", "", "| # | Repo | ★ | Alt to | Contribs | DLs | Score | Sources |", "|---|---|---|---|---|---|---|---|"]
+    lines = [f"# Candidates {TODAY}", "", "| # | Repo | ★ | Alt to | Arm (famous paid app) | Contribs | DLs | Score | Sources |", "|---|---|---|---|---|---|---|---|---|"]
     for i, x in enumerate(clean, 1):
-        lines.append(f"| {i} | [{x['repo']}]({x['url']}) — {(x['description'] or '')[:70]} | {x['stars']:,} | {x['alternativeTo'] or ''} | "
+        lines.append(f"| {i} | [{x['repo']}]({x['url']}) — {(x['description'] or '')[:70]} | {x['stars']:,} | {x['alternativeTo'] or ''} | {x.get('arm') or '?'}{' (' + x['famousPaid'] + ')' if x.get('famousPaid') else ''} | "
                      f"{x['contributors']}{'+' if x['contributors'] >= 30 else ''} | {x['releaseDownloads']:,} | {x['score']} | {', '.join(x['sources'])} |")
     (out / f"{TODAY}.md").write_text("\n".join(lines) + "\n")
     print(f"{len(pool)} found → {len(clean)} clean candidates, {len(rows) - len([x for x in rows if not x['flags']])} rejected → data/candidates/{TODAY}.md")

@@ -3,8 +3,8 @@
 How to make every itsongit video. Reel **001 (PureMac)** is the approved reference: `videos/001-puremac/FINAL_puremac.mp4`.
 The house style is locked in `BRAND.md` and `brand.json`. Read both before making a video.
 
-**Target:** 5 reels a day. Each post's daily slot (0–4) picks its accent colour, so the 5 posts of a day never share
-a colour.
+**Target:** 3 reels a day (since 2026-11-01; was 5), one per window: midday, evening, night. Each window's slot (0–2)
+picks its accent colour. Every reel is part of the running A/B tests: see §15.
 
 ---
 
@@ -298,8 +298,8 @@ python3 pipeline/zernio.py insights | best-time | health
   - It only runs while the Mac is awake. If the Mac is asleep, the last random delay stays in place.
 - **Any comment triggers the DM** when `"dm_on_any_comment": true` is set (no keywords). Otherwise only the keyword does.
 
-**Daily slots** (`data/zernio.json`, Berlin time): 08:00, 11:30, 14:30, 18:00, 21:00, mapped to accent slots 0–4.
-After 2–3 weeks, check `best-time` and adjust.
+**Daily windows** (`data/experiments.json`, Berlin time): midday 11:05–12:50, evening 18:00–19:50, night 21:00–22:50,
+accent slots 0–2. `pipeline/plan.py` picks a random time inside each and writes it into `video.json`; `publish` reads it.
 
 **Rules and limits to remember**
 - A published Reel **can't be edited or deleted through the API**. Fix mistakes in the Instagram app, so QA before scheduling.
@@ -332,3 +332,27 @@ After 2–3 weeks, check `best-time` and adjust.
 - There's no background music yet; it needs a licensed library.
 - Reddit isn't a source yet (needs an OAuth app).
 - The scout's fake-star check is a heuristic. Top hits still need an eye-check (e.g. `morluto/rea`: 335k stars in 6 months).
+
+## 15. Experiments (since 2026-11-01)
+
+Config: `data/experiments.json`. Plan: `pipeline/plan.py`. Score: `pipeline/experiments.py` (→ `data/experiments/report.md`).
+
+**Why.** After the first 63 reels (Oct 19–31): median 50 views, median **3-second skip rate 76%** (guides call 30–40%
+healthy; Instagram's own skip-rate metric is the first 3 s), average watch 4.5 s of ~42 s. Utility picks (Magnet,
+Paste, AirDroid, BetterDisplay alternatives) had median 85 views; famous subscriptions 34; hobby 41. By real Berlin
+posting time, 11–13h (median ~100) and 18–20h (mean ~120) worked; 13–15h was dead (median ~35).
+
+**Hook test (A/B).** A = HyperFrames price-slash text card (every reel so far). B = `studio/src/DemoHook.tsx`: the app
+already running full-size on frame 0 (demo clip, GIF or screenshots with a push-in and a cut on "This"), the job line as
+a 2-line headline above it, the struck "<Paid> $X" strip on its lower edge, FREE stamping on "free", icon + name on the
+name. Same voiceover and word anchors, so the visual is the only difference. Primary metric: skip rate.
+Decide at 15 reels per arm: B wins with ≥5 points lower median skip and no loss in median views.
+
+**Topic test.** One subscription, one utility and one hobby pick every day. Primary metric: views; secondary:
+shares+saves per 100 views. Decide at 10 per arm: the winner gets 2 of 3 daily reels, 1 keeps rotating.
+
+**Balance.** plan.py alternates the hook arm by window and flips it daily, and rotates topics through the windows,
+so over any 6 days every window × hook, window × topic and hook × topic cell is equal. Time of day can't fake a result.
+
+**After a verdict:** apply it, log it under `"decisions"` in `data/experiments.json`, and test the next idea against
+the new default (another hook visual, a 25-second cut, an early-morning window).

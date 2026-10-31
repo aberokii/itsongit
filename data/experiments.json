@@ -1,0 +1,133 @@
+{
+ "_doc": "A/B test plan for @itsongit. pipeline/plan.py assigns arms per day, pipeline/experiments.py reports. Reels before 'started' are the baseline (all hook=price).",
+ "started": "2026-11-01",
+ "reels_per_day": 3,
+ "windows": [
+  {
+   "id": "midday",
+   "from": "11:05",
+   "to": "12:50",
+   "slot": 0,
+   "why": "11-12h Berlin: 10 reels, median 100+ views (best median of any hour band)"
+  },
+  {
+   "id": "evening",
+   "from": "18:00",
+   "to": "19:50",
+   "slot": 1,
+   "why": "18-19h: 9 reels, mean 119 (best mean); studies agree early evening is strong for Reels"
+  },
+  {
+   "id": "night",
+   "from": "21:00",
+   "to": "22:50",
+   "slot": 2,
+   "why": "20-23h median only ~25, but the Mixxx breakout (22:48) landed here and studies favour 8 PM-midnight: kept as the measured third window"
+  }
+ ],
+ "dropped_windows": {
+  "13:00-14:59": "16 reels, median 33-44 views: the dead zone (moved later, to the evening)",
+  "07:00-09:00": "never tested; candidate for the next window test if night stays weak"
+ },
+ "min_gap_minutes": 80,
+ "experiments": {
+  "hook": {
+   "question": "Does showing the app in action on frame 0 cut the 3-second skip rate?",
+   "arms": {
+    "price": "A: HyperFrames price-slash text card (control, every reel so far)",
+    "demo": "B: app-in-action cold open, job line on top, struck price strip below (same voiceover)"
+   },
+   "primary": "skip_rate",
+   "secondary": [
+    "avg_watch_s",
+    "views"
+   ],
+   "min_per_arm": 15,
+   "decide": "B wins if its median skip rate is at least 5 points lower than A's AND its median views are not lower. A wins if B is not better after 15 per arm. Then make the winner the default and test the next hook idea against it."
+  },
+  "topic": {
+   "question": "Which kind of 'everyone pays for this' pick travels furthest?",
+   "arms": {
+    "subscription": "replaces a famous monthly/yearly subscription (Adobe, Canva, Grammarly, Office\u2026)",
+    "utility": "desktop/phone utility that fixes a daily annoyance (Magnet, Paste, CleanMyMac\u2026)",
+    "hobby": "creative/hobby tool where the paid app is famous in that hobby (Serato, Photoshop\u2026)"
+   },
+   "primary": "views",
+   "secondary": [
+    "shares_saves_per_100",
+    "follows"
+   ],
+   "min_per_arm": 10,
+   "decide": "After 10 per arm, give the best arm 2 of the 3 daily reels; keep 1 rotating so the others keep being measured.",
+   "banned": "developer, academic and pro-only tools (the 'niche' baseline group: median views far below the rest)"
+  }
+ },
+ "baseline_topic": {
+  "002": "subscription",
+  "004": "subscription",
+  "009": "subscription",
+  "010": "subscription",
+  "011": "subscription",
+  "012": "subscription",
+  "013": "subscription",
+  "014": "subscription",
+  "017": "subscription",
+  "021": "subscription",
+  "022": "subscription",
+  "023": "subscription",
+  "025": "subscription",
+  "029": "subscription",
+  "030": "subscription",
+  "033": "subscription",
+  "034": "subscription",
+  "037": "subscription",
+  "042": "subscription",
+  "044": "subscription",
+  "051": "subscription",
+  "054": "subscription",
+  "057": "subscription",
+  "059": "subscription",
+  "060": "subscription",
+  "001": "utility",
+  "003": "utility",
+  "005": "utility",
+  "015": "utility",
+  "020": "utility",
+  "024": "utility",
+  "027": "utility",
+  "028": "utility",
+  "031": "utility",
+  "032": "utility",
+  "038": "utility",
+  "039": "utility",
+  "040": "utility",
+  "043": "utility",
+  "046": "utility",
+  "047": "utility",
+  "049": "utility",
+  "055": "utility",
+  "056": "utility",
+  "058": "utility",
+  "066": "utility",
+  "008": "hobby",
+  "016": "hobby",
+  "035": "hobby",
+  "036": "hobby",
+  "045": "hobby",
+  "048": "hobby",
+  "050": "hobby",
+  "062": "hobby",
+  "006": "niche",
+  "007": "niche",
+  "018": "niche",
+  "019": "niche",
+  "026": "niche",
+  "041": "niche",
+  "052": "niche",
+  "053": "niche",
+  "061": "niche",
+  "063": "niche",
+  "064": "niche"
+ },
+ "windows_note": "Analysed by real Berlin posting time. The old slot numbers only picked the accent colour (times were already randomised)."
+}

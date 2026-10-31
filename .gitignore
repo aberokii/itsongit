@@ -41,3 +41,4 @@ data/logs/
 # reel sound effects are source assets, not generated media
 !studio/public/sfx/
 !studio/public/sfx/**
+data/experiments/analytics_cache.json

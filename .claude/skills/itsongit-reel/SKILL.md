@@ -9,8 +9,12 @@ One run = **find repos → write a `video.json` per repo → `make.py` builds ev
 the DM automation → update the ledger.** The project lives at the repo root (`itsongit/`). Read `BRAND.md` (locked
 style) once. `PLAYBOOK.md` has the background. This skill is the operating manual.
 
-Arguments: the number of reels (default **5**, one per daily slot) and the start date (default **tomorrow**). Example:
-`/itsongit-reel 10 2026-10-20` means 5 reels for the 20th and 5 for the 21st.
+Arguments: the number of reels (default **3**, one per daily window) and the start date (default **tomorrow**). Example:
+`/itsongit-reel 6 2026-11-02` means 3 reels for the 2nd and 3 for the 3rd.
+
+**Since 2026-11-01 every reel is part of an A/B test** (`data/experiments.json`): 3 stronger reels a day instead of
+5 average ones, one per topic arm, each with an assigned hook style and posting window. `pipeline/plan.py` decides the
+arms; you pick the best repo for each arm. Never override an assignment by taste: that breaks the test.
 
 ## 0. Preflight (fail fast)
 
@@ -23,7 +27,14 @@ python3 pipeline/ledger.py                 # syncs data/posted.json + POSTED_REP
 - Tooling: node ≥ 22, ffmpeg, `pipeline/.venv` (uv), `studio/` and `capture/` node_modules, and the Playwright
   chromium-headless-shell. If anything is missing, run `scripts/bootstrap.sh`.
 
-## 1. Find candidates
+## 1. Get the day's plan, then find candidates
+
+```bash
+python3 pipeline/plan.py YYYY-MM-DD        # 3 rows: window · time · slot · hook arm (price|demo) · topic arm
+```
+Each day needs exactly one **subscription**, one **utility** and one **hobby** pick (definitions in
+`data/experiments.json`). Start from `data/backlog.json` (pre-vetted, ranked by mass appeal; re-check stars/push date
+before using one, and remove it from the backlog once posted), then top up from the scout:
 
 ```bash
 pipeline/.venv/bin/python pipeline/scout.py --limit 40     # → data/candidates/<date>.md/.json (≈1 min)
@@ -33,7 +44,12 @@ pipeline/.venv/bin/python pipeline/scout.py --limit 40     # → data/candidates
 - The scout rejects non-OSI licenses, archived or stale repos, non-English descriptions and fake-star patterns, and
   skips anything already in `data/posted.json`.
 
-## 2. Pick N repos (judgement; this matters most)
+## 2. Pick one repo per topic arm (judgement; this matters most)
+
+**The mass-appeal test comes first:** would a random 25-year-old scrolling Instagram recognise the paid app and
+care? Baseline numbers (60 reels): utility picks median 85 views, subscription 34, hobby 41. Developer, academic and
+pro-only tools are **banned** (Postman, Cursor, Parallels, Overleaf, EndNote, Figma, Fusion, Polycam-type picks):
+they never broke out. The scout's "Arm (famous paid app)" column flags repos that name an app people know.
 
 At 5 a day we can't always get a perfect repo, but every pick must give the viewer real value. **The value test:**
 finish the sentence *"After watching, the viewer can ___"* with something concrete. If you can't, skip the repo.
@@ -64,7 +80,7 @@ For each pick, check the repo page and README:
 4. **It has visuals:** at least 2 README screenshots or GIFs (or a site with product shots) usable as feature cards.
 5. **Variety:** no two picks in the same category on one day (AI voice, video editing, Mac utility, productivity,
    AI coding, design, privacy…). Never pick something too close to an already-posted repo (see `POSTED_REPOS.md`).
-6. **Order the day:** strongest hook first (slot 0), most broadly useful in slots 0–2.
+6. **Order the day:** the plan assigns windows by topic arm (balanced for the test); don't reorder.
 
 ## 3. Write `videos/NNN-<slug>/video.json` for each pick
 
@@ -78,6 +94,17 @@ about half the cost. Keep the QA (§5) and final judgement on the main model. Gi
 - "write ONLY that video.json; don't run make.py, publish or edit other files; report the word count, the price and
   source, and anything doubtful."
 Read each report's doubts before building, and fix the spec yourself where needed.
+
+**Experiment fields (required):** add `"topic_arm": "subscription" | "utility" | "hobby"` to every `video.json`. After all
+three are written, stamp them with the plan (sets `hook_style`, `window`, `slot` and the `publish` date/time):
+```bash
+python3 pipeline/plan.py YYYY-MM-DD videos/NNN-a videos/NNN-b videos/NNN-c
+```
+**Hook B (`hook_style: "demo"`) needs a demo:** the first second must show the app *doing* something. Add
+`"demo": {"url": "<mp4|webm|gif from the README/site>", "start": <s>}` when the repo has a demo clip or GIF (best), or
+`"demo": {"images": [url, url]}` with two screenshots of the app mid-task (not a logo, not a settings page). With no
+`demo`, make.py uses the first screenshot of features 1 and 2. The job line is the headline on frame 0, so it must
+read on its own. Give the research agents this field for every pick: we can't know in advance which arm it lands on.
 
 Number `NNN` continues from the highest existing `videos/` number. The slug is the short product name in lower
 case. Write this exact schema:
@@ -193,6 +220,8 @@ image URL) and re-run. Add `--skip-capture` / `--skip-tts` to reuse earlier step
 
 View `videos/NNN-slug/verify/row0.png`, `row1.png` and `thumb.png` with the Read tool. Fix and rebuild if any of these fail:
 - [ ] **Frame 0** is a full, bold hook (the paid name + price + the job line), nothing clipped.
+      Hook B: frame 0 shows the app in use, big and legible (not a blank window, a login screen or a logo); the
+      headline fits in 2 lines; the price strip is struck on "This" and FREE lands on "free".
 - [ ] Someone who only watches the first 5 s could say what the app does (hook voice + job line agree).
 - [ ] The phone shows the right repo, and the highlight box sits on the About text.
 - [ ] Feature cards show real product screenshots (not a logo or a broken image). Chips are readable.
@@ -202,28 +231,16 @@ View `videos/NNN-slug/verify/row0.png`, `row1.png` and `thumb.png` with the Read
 
 ## 6. Schedule on Instagram (Zernio)
 
-Slots (Berlin time): **0 = 08:00 morning, 1 = 12:00 noon, 2 = 15:30 afternoon, 3 = 18:30 evening, 4 = 21:30 night.**
-The slot also sets the accent colour, so build with the same slot you schedule with.
-
-**STANDING RULE: post at random, human-looking times**, not on fixed slots. For N reels in a day, pick N times
-between 07:00 and 23:00 Berlin, at least 80 min apart and never on :00/:15/:30/:45, and pass them with `--time`:
+The plan already set each reel's window, time, slot (accent) and date in `video.json`, so publish needs no flags:
 ```bash
-python3 -c "import random as r
-while 1:
-  t=sorted(r.randint(425,1370) for _ in range(N))
-  if all(b-a>=80 for a,b in zip(t,t[1:])) and all(x%15 for x in t): break
-print(*[f'{x//60:02d}:{x%60:02d}' for x in t])"
-python3 pipeline/zernio.py publish videos/NNN-slug --slot S --date YYYY-MM-DD --time HH:MM
+python3 pipeline/zernio.py publish videos/NNN-slug
 ```
-`--slot` still picks the accent (build with the same slot), so rotate slots 0–4 across the day. Put the strongest
-"saves money" reels in the morning and lunch times, and spread new and older-style picks across the day.
-```bash
-python3 pipeline/zernio.py publish videos/NNN-slug --slot S --date YYYY-MM-DD
-```
+Windows (Berlin, `data/experiments.json`): **midday 11:05–12:50, evening 18:00–19:50, night 21:00–22:50.** 13:00–15:00
+was the dead zone (median ~35 views) and is not used. Times are random inside the window, never on :00/:15/:30/:45.
 `publish` does all of this:
 - uploads the reel and the cover, and schedules the Reel with the thumbnail;
 - creates the comment-to-DM automation: any comment triggers it, the follow gate is on (the link only goes to
-  followers, with a "follow then tap" DM first), 6 rotating public replies, 5 DM versions, and 15–20 s delays;
+  followers, with a "follow then tap" DM first), 6 rotating public replies (posted for every commenter, gated or not), 5 DM versions, and 15–20 s delays;
 - registers the automation for the delay shuffler;
 - writes the ids into `post.json`.
 
@@ -234,15 +251,21 @@ Never use `--now` unless the user asked for an immediate post.
 
 ## 7. Ledger + report
 
+**Weekly (and whenever asked how the tests are going):** `python3 pipeline/experiments.py` scores the hook and topic
+tests from live numbers and writes `data/experiments/report.md`. When a verdict says a test is decided, apply it
+(make the winning hook the default in `make.py`, reweight the topic arms in `plan.py` as the rule says), log it in
+`data/experiments.json` under `"decisions"`, and start the next test (ideas: a different hook visual, a 25-second
+cut, an early-morning window) against the new default.
+
 ```bash
 python3 pipeline/ledger.py      # refreshes POSTED_REPOS.md and data/posted.json
 ```
-Finish with a table: slot/time · repo · paid alternative · keyword · length · Zernio status. Note any repo you
+Finish with a table: window/time · hook arm · topic arm · repo · paid alternative · keyword · length · Zernio status. Note any repo you
 skipped and why. If running in a git checkout with push rights, commit `videos/*/video.json`, `videos/*/post.json`,
 `POSTED_REPOS.md` and `data/posted.json`, but **never commit media or `.env`**.
 
 ## Settings reference
-- **Voice:** Kokoro `af_heart` at 1.08 (`brand.json` → `voice`). **Accents:** green, blue, purple, orange, yellow = slots 0–4.
+- **Voice:** Kokoro `af_heart` at 1.08 (`brand.json` → `voice`). **Accents:** green, blue, purple = slots 0–2 (midday, evening, night).
 - **Canvas:** 1080×1920 at 30 fps. Safe zone y 192–1728. Fonts: Inter 600/800/900 + JetBrains Mono 700.
 - **Zernio:** `data/zernio.json` (profileId, accountId, timezone Europe/Berlin, slots). API notes: `data/zernio-docs/SPEC.md`.
 - **Instagram limits:** Reels 3–90 s, ≤ 300 MB; 25 posts/hour, about 100/day; one private DM per comment, within 7 days.

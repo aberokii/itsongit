@@ -77,6 +77,43 @@ def gh_api(path):
     return json.loads(urllib.request.urlopen(req, timeout=30).read())
 
 
+def price_short(V):
+    return V["paid"]["price"] + V["paid"]["per"].replace("/year", "/yr").replace("/month", "/mo")
+
+
+def probe_wh(path):
+    out = subprocess.run(["ffprobe", "-v", "error", "-select_streams", "v:0", "-show_entries", "stream=width,height", "-of", "csv=p=0", str(path)],
+                         capture_output=True, text=True, check=True).stdout.strip().split(",")
+    return int(out[0]), int(out[1])
+
+
+def build_demo(V, pub, pub_rel, features, dur):
+    """Media for hook B. video.json "demo": {"url": <mp4|mov|webm|gif|png|jpg>, "start": s} or {"images": [url, url]}.
+    A clip/GIF becomes a muted, looped 30 fps H.264 of the hook's length. With no "demo", the first screenshot of
+    the first two features is used (still moving: the hook pushes in and cuts on "This")."""
+    d = V.get("demo") or {}
+    url = d.get("url")
+    if url and re.search(r"\.(mp4|mov|webm|gif)(\?|$)", url, re.I):
+        src = VDIR / "work" / ("demo_src" + re.search(r"\.(mp4|mov|webm|gif)", url, re.I).group(0).lower())
+        if "://" in url:
+            req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 itsongit"})
+            src.write_bytes(urllib.request.urlopen(req, timeout=120).read())
+        else:
+            src.write_bytes((VDIR / url).read_bytes())
+        run(["ffmpeg", "-v", "error", "-y", "-stream_loop", "-1", "-ss", str(d.get("start", 0)), "-i", src, "-t", f"{dur:.2f}", "-an",
+             "-vf", "scale=1080:-2:flags=lanczos,fps=30,format=yuv420p", "-c:v", "libx264", "-crf", "18", "-preset", "medium", pub / "demo.mp4"])
+        w, h = probe_wh(pub / "demo.mp4")
+        return {"video": f"{pub_rel}/demo.mp4", "w": w, "h": h}
+    urls = d.get("images") or ([url] if url else [])
+    imgs = []
+    for j, u in enumerate(urls[:2]):
+        w, h = fetch(u, pub / f"demo_{j}.png")
+        imgs.append({"src": f"{pub_rel}/demo_{j}.png", "w": w, "h": h})
+    if not imgs:  # fallback: first card of each of the first two features
+        imgs = [{k: fe["cards"][0][k] for k in ("src", "w", "h")} for fe in features[:2] if fe["cards"]]
+    return {"images": imgs, "w": imgs[0]["w"], "h": imgs[0]["h"]}
+
+
 def norm(t):
     return re.sub(r"[^a-z0-9]", "", t.lower())
 
@@ -242,25 +279,33 @@ def main():
               "width": round(box["w"] * k + 20), "height": round(box["h"] * k + 20)} if box else
              {"left": 30, "top": 528, "width": 520, "height": 180})
 
-    # ── 7. HyperFrames hook (price-slash), in this slot's accent ──────────────────────────────
-    hook = work / "hook"
-    hook.mkdir(exist_ok=True)
-    html = (ROOT / "hyperframes/templates/price-slash.html").read_text()
-    # the price is zoomed ~1.23x on frame 0; anything longer than "$40/year" (8 chars) is set smaller so it never clips
-    pk = round(min(1.0, 7.6 / len(V["paid"]["price"] + V["paid"]["per"])), 3)
-    for key, val in {"PAID": V["paid"]["name"], "PRICE": V["paid"]["price"], "PER": V["paid"]["per"], "NAME": V["name"], "PK": str(pk),
-                     "JOB": V.get("job", ""), "JS": f"{round(min(56, 56 * 26 / max(1, len(V.get('job', '')))))}px"}.items():
-        html = html.replace("{{" + key + "}}", val)
-    html = re.sub(r"const T = \{[^}]*\};", f"const T = {{ t40: {b['t40']}, tThis: {b['tThis']}, tFree: {b['tFree1']}, tName: {b['tName']}, dur: {b['ghStart']} }};", html)
-    html = re.sub(r'data-duration="[\d.]+"', f'data-duration="{b["ghStart"]}"', html)
-    if not V.get("job"):  # specs from before the job line (≤ 006) render without it
-        html = html.replace('<div id="job" class="center clip"', '<div id="job" class="center clip" hidden')
-    (hook / "index.html").write_text(html)
-    shutil.copy(pub / "icon.png", hook / "icon.png")
-    for n_ in ("hyperframes.json", "meta.json"):
-        shutil.copy(ROOT / "hyperframes" / n_, hook / n_)
-    run(["node", ROOT / "scripts/brand-css.mjs", slot, hook])
-    run(["npx", "-y", HF, "render", "-o", pub / "hook.mp4", "-f", "30", "-q", "delivery", "--quiet"], cwd=hook)
+    # ── 7. hook. A/B experiment (data/experiments.json): "price" = HyperFrames price-slash (A),
+    #       "demo" = the app already running on frame 0, rendered inside Remotion (B). Same voiceover either way.
+    hook_style = V.get("hook_style", "price")
+    demo = None
+    if hook_style == "demo":
+        demo = build_demo(V, pub, pub_rel, features, b["ghStart"] + 0.6)
+        print(f"[{slug}] hook B (demo): {demo}")
+    # ── 7a. HyperFrames hook (price-slash), in this slot's accent ──────────────────────────────
+    if hook_style != "demo":
+        hook = work / "hook"
+        hook.mkdir(exist_ok=True)
+        html = (ROOT / "hyperframes/templates/price-slash.html").read_text()
+        # the price is zoomed ~1.23x on frame 0; anything longer than "$40/year" (8 chars) is set smaller so it never clips
+        pk = round(min(1.0, 7.6 / len(V["paid"]["price"] + V["paid"]["per"])), 3)
+        for key, val in {"PAID": V["paid"]["name"], "PRICE": V["paid"]["price"], "PER": V["paid"]["per"], "NAME": V["name"], "PK": str(pk),
+                         "JOB": V.get("job", ""), "JS": f"{round(min(56, 56 * 26 / max(1, len(V.get('job', '')))))}px"}.items():
+            html = html.replace("{{" + key + "}}", val)
+        html = re.sub(r"const T = \{[^}]*\};", f"const T = {{ t40: {b['t40']}, tThis: {b['tThis']}, tFree: {b['tFree1']}, tName: {b['tName']}, dur: {b['ghStart']} }};", html)
+        html = re.sub(r'data-duration="[\d.]+"', f'data-duration="{b["ghStart"]}"', html)
+        if not V.get("job"):  # specs from before the job line (≤ 006) render without it
+            html = html.replace('<div id="job" class="center clip"', '<div id="job" class="center clip" hidden')
+        (hook / "index.html").write_text(html)
+        shutil.copy(pub / "icon.png", hook / "icon.png")
+        for n_ in ("hyperframes.json", "meta.json"):
+            shutil.copy(ROOT / "hyperframes" / n_, hook / n_)
+        run(["node", ROOT / "scripts/brand-css.mjs", slot, hook])
+        run(["npx", "-y", HF, "render", "-o", pub / "hook.mp4", "-f", "30", "-q", "delivery", "--quiet"], cwd=hook)
 
     # ── 8. Remotion reel + loudnorm ───────────────────────────────────────────────────────────
     meta = gh_api(f"repos/{V['repo']}")
@@ -268,7 +313,8 @@ def main():
     props = {"accent": slot, "dir": pub_rel, "words": words, "owner": owner, "name": name, "stars": stars, "about": about,
              "b": b, "features": features, "nolist": nolist,
              "install": {"cmd": V["install"], "url": V.get("install_url_label") or (V.get("install_url") or f"github.com/{V['repo']}/releases").replace("https://", "").replace("www.", "")[:34]},
-             "keyword": V["keyword"]}
+             "keyword": V["keyword"], "hookStyle": hook_style, "demo": demo,
+             "hookText": {"paid": V["paid"]["name"], "price": price_short(V), "job": V.get("job") or V["title"], "name": V["name"]}}
     (work / "props.json").write_text(json.dumps(props))
     raw = work / "reel_raw.mp4"
     run(["npx", "remotion", "render", "src/index.ts", "reel", raw, f"--props={work / 'props.json'}", "--codec=h264", "--crf=18",
@@ -279,7 +325,7 @@ def main():
 
     # ── 9. thumbnail ──────────────────────────────────────────────────────────────────────────
     th = V["thumb"]
-    tprops = {"accent": slot, "icon": f"{pub_rel}/icon.png", "paid": V["paid"]["name"], "price": V["paid"]["price"] + V["paid"]["per"].replace("/year", "/yr").replace("/month", "/mo"),
+    tprops = {"accent": slot, "icon": f"{pub_rel}/icon.png", "paid": V["paid"]["name"], "price": price_short(V),
               "big": th.get("big", "FREE"), "line1": th["line1"], "line2": th["line2"], "repo": V["repo"], "job": V.get("job", "")}
     (work / "thumb.json").write_text(json.dumps(tprops))
     run(["npx", "remotion", "still", "src/index.ts", "thumb", vdir / "FINAL_thumbnail.png", f"--props={work / 'thumb.json'}"], cwd=ROOT / "studio")
@@ -290,7 +336,9 @@ def main():
     post.update({"title": V["title"], "video": "FINAL.mp4", "thumbnail": "FINAL_thumbnail.png",
                  "repo_url": f"https://github.com/{V['repo']}", "keyword": V["keyword"].upper(), "caption": V["caption"],
                  "dm_pitch": V["dm_pitch"], "install": V["install"], "dm_on_any_comment": True, "follow_gate": True, "slot": slot,
-                 "price_source": V["paid"].get("source")})
+                 "price_source": V["paid"].get("source"),
+                 # experiment arms, read back by pipeline/experiments.py
+                 "experiment": {"hook": hook_style, "topic": V.get("topic_arm"), "window": V.get("window")}})
     post_path.write_text(json.dumps(post, indent=2, ensure_ascii=False))
 
     # ── 11. QA sheet + loudness ───────────────────────────────────────────────────────────────
