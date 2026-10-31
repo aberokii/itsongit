@@ -1,0 +1,95 @@
+{
+  "repo": "al1abb/invoify",
+  "name": "Invoify",
+  "title": "Invoify: free Billdu alternative",
+  "slot": 1,
+  "keyword": "INVOICE",
+  "paid": {
+    "name": "Billdu",
+    "price": "$7.99",
+    "per": "/month",
+    "anchor": "eight",
+    "source": "https://www.billdu.com/pricing/"
+  },
+  "icon": "https://raw.githubusercontent.com/al1abb/invoify/HEAD/public/assets/favicon/android-chrome-512x512.png",
+  "hook": "Billdu charges you eight bucks a month to make invoices for your clients. This app does it for free.",
+  "job": "Makes invoices as real PDFs",
+  "platforms": [
+    "any browser"
+  ],
+  "features": [
+    {
+      "intro": "Fill in a form, get an invoice.",
+      "say": "Watch it update live as you type.",
+      "images": [
+        "assets/editor.png"
+      ],
+      "chips": [
+        {
+          "label": "✍ Type",
+          "anchor": "type"
+        },
+        {
+          "label": "👀 Live",
+          "anchor": "live"
+        }
+      ]
+    },
+    {
+      "say": "Pick from thirteen templates, then download a real PDF.",
+      "images": [
+        "assets/templates.png"
+      ],
+      "chips": [
+        {
+          "label": "🎨 13 templates",
+          "anchor": "templates"
+        },
+        {
+          "label": "PDF",
+          "anchor": "PDF"
+        }
+      ]
+    },
+    {
+      "say": "Save your clients once, and everything stays in your browser.",
+      "images": [
+        "assets/editor.png"
+      ],
+      "chips": [
+        {
+          "label": "📇 Clients",
+          "anchor": "clients"
+        },
+        {
+          "label": "🔒 In your browser",
+          "anchor": "browser"
+        }
+      ]
+    }
+  ],
+  "nolist": [
+    {
+      "say": "No account.",
+      "label": "Account"
+    },
+    {
+      "say": "No subscription.",
+      "label": "Subscription"
+    },
+    {
+      "say": "No tracking.",
+      "label": "Tracking"
+    }
+  ],
+  "install": "Open invoify.vercel.app in your browser",
+  "install_url": "https://invoify.vercel.app",
+  "install_line": "It runs in any browser. Nothing to install.",
+  "caption": "Billdu charges $7.99/month. Invoify makes your invoices as real PDFs for free 🧾\n\n✅ Fill in a form and watch the invoice update live\n✅ 13 templates, then download a real PDF\n✅ Save your clients once; your data stays in your browser\n✅ No account, no subscription, 100% free\n\n💻 Any browser\nℹ️ Heads up: it's a web app, and invoices are saved in your browser, so clearing site data wipes them (export them as JSON first)\n\nComment \"INVOICE\" and I'll DM you the link 🔗\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #invoice #freelance #smallbusiness #freeapps #techtips",
+  "dm_pitch": "Invoify, the free open-source invoice maker 🧾",
+  "thumb": {
+    "big": "FREE",
+    "line1": "Billdu",
+    "line2": "alternative"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "title": "LuLu: free Little Snitch alternative",
+  "video": "FINAL.mp4",
+  "thumbnail": "FINAL_thumbnail.png",
+  "repo_url": "https://github.com/objective-see/LuLu",
+  "keyword": "FIREWALL",
+  "caption": "Little Snitch charges $59 to show you which apps phone home. LuLu does it for free \ud83d\udd25\n\n\u2705 Alerts you when an app tries to connect, then you Block or Allow\n\u2705 Every choice becomes a rule you can edit\n\u2705 Block lists and a silent passive mode\n\u2705 No subscription, no license key, 100% free\n\n\ud83d\udcbb Mac\n\u2139\ufe0f Heads up: on first launch macOS makes you approve LuLu's system extension and network filter by hand in System Settings, and it works best on a recent macOS\n\nComment \"FIREWALL\" and I'll DM you the link \ud83d\udd17\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #macos #privacy #cybersecurity #firewall #freeapps",
+  "dm_pitch": "LuLu, the free open-source Little Snitch alternative \ud83d\udd25",
+  "install": "brew install --cask lulu",
+  "dm_on_any_comment": true,
+  "follow_gate": true,
+  "slot": 2,
+  "price_source": "https://obdev.at/shop/",
+  "idempotencyKey": "2d494fdc-7279-4fd1-b0bd-3dc51beec82d",
+  "zernio": {
+    "postId": "6ae5c92f4d0545d8cde2ccc3",
+    "status": "scheduled",
+    "scheduledFor": "2026-10-31T13:41:00.000Z",
+    "url": null,
+    "automationId": "6ae5c932fc764982dae9de3e",
+    "slot": 2
+  }
+}

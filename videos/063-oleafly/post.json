@@ -1,0 +1,23 @@
+{
+  "title": "Oleafly: free Overleaf alternative",
+  "video": "FINAL.mp4",
+  "thumbnail": "FINAL_thumbnail.png",
+  "repo_url": "https://github.com/Oleafly/Oleafly",
+  "keyword": "PAPER",
+  "caption": "Overleaf Standard charges $25/month for full history and Zotero citations. Oleafly does it for free \ud83d\udcc4\n\n\u2705 Compiles LaTeX, Typst and Markdown on your own computer\n\u2705 Cite from your Zotero library as you type\n\u2705 1,700+ templates, full version history and GitHub sync\n\u2705 No subscription, no account, no tracking, 100% free\n\n\ud83d\udcbb Mac (Apple Silicon) \u00b7 Windows \u00b7 Linux\n\u2139\ufe0f Heads up: Oleafly is still in beta, and live co-writing needs a shared Oleafly Server your lab sets up\n\nComment \"PAPER\" and I'll DM you the link \ud83d\udd17\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #latex #research #phd #academia #freeapps",
+  "dm_pitch": "Oleafly, the free open-source Overleaf alternative \ud83d\udcc4",
+  "install": "Download from GitHub Releases",
+  "dm_on_any_comment": true,
+  "follow_gate": true,
+  "slot": 0,
+  "price_source": "https://www.overleaf.com/user/subscription/plans",
+  "idempotencyKey": "67912200-0803-4632-83c2-e5b6cbd7079d",
+  "zernio": {
+    "postId": "6ae5c81ba47ce9c5a1c7ea15",
+    "status": "scheduled",
+    "scheduledFor": "2026-10-31T11:16:00.000Z",
+    "url": null,
+    "automationId": "6ae5c81ea79292eb9e319918",
+    "slot": 0
+  }
+}

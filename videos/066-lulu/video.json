@@ -1,0 +1,53 @@
+{
+  "repo": "objective-see/LuLu",
+  "name": "LuLu",
+  "title": "LuLu: free Little Snitch alternative",
+  "slot": 2,
+  "keyword": "FIREWALL",
+  "paid": {
+    "name": "Little Snitch",
+    "price": "$59",
+    "per": "",
+    "anchor": "fifty",
+    "source": "https://obdev.at/shop/"
+  },
+  "icon": "https://raw.githubusercontent.com/objective-see/LuLu/master/LuLu/App/Assets.xcassets/AppIcon.appiconset/icon_512x512@2x.png",
+  "hook": "Little Snitch charges you fifty nine bucks to see which apps phone home. This app does it for free.",
+  "job": "Blocks apps from phoning home",
+  "platforms": ["Mac"],
+  "features": [
+    {
+      "intro": "It pops up when an app tries to go online.",
+      "say": "See where it's connecting, then hit Block or Allow.",
+      "images": ["https://objective-see.org/images/LL/alert.png"],
+      "chips": [
+        {"label": "Block", "anchor": "Block"},
+        {"label": "Allow", "anchor": "Allow"}
+      ]
+    },
+    {
+      "say": "Every choice becomes a rule you can edit.",
+      "images": ["https://objective-see.org/images/LL/rulesWindow.png"],
+      "chips": [
+        {"label": "📋 Rules", "anchor": "rule"}
+      ]
+    },
+    {
+      "say": "Add a block list, or go passive to run silently.",
+      "images": ["https://objective-see.org/images/LL/settingsLists.png"],
+      "chips": [
+        {"label": "🚫 Block list", "anchor": "list"},
+        {"label": "Passive", "anchor": "passive"}
+      ]
+    }
+  ],
+  "nolist": [
+    {"say": "No subscription.", "label": "Subscription"},
+    {"say": "No license key.", "label": "License key"},
+    {"say": "No trial.", "label": "Trial"}
+  ],
+  "install": "brew install --cask lulu",
+  "caption": "Little Snitch charges $59 to show you which apps phone home. LuLu does it for free 🔥\n\n✅ Alerts you when an app tries to connect, then you Block or Allow\n✅ Every choice becomes a rule you can edit\n✅ Block lists and a silent passive mode\n✅ No subscription, no license key, 100% free\n\n💻 Mac\nℹ️ Heads up: on first launch macOS makes you approve LuLu's system extension and network filter by hand in System Settings, and it works best on a recent macOS\n\nComment \"FIREWALL\" and I'll DM you the link 🔗\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #macos #privacy #cybersecurity #firewall #freeapps",
+  "dm_pitch": "LuLu, the free open-source Little Snitch alternative 🔥",
+  "thumb": {"big": "FREE", "line1": "Little Snitch", "line2": "alternative"}
+}

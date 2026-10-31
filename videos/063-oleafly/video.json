@@ -1,0 +1,100 @@
+{
+  "repo": "Oleafly/Oleafly",
+  "name": "Oleafly",
+  "title": "Oleafly: free Overleaf alternative",
+  "slot": 0,
+  "keyword": "PAPER",
+  "paid": {
+    "name": "Overleaf Standard",
+    "price": "$25",
+    "per": "/month",
+    "anchor": "twenty",
+    "source": "https://www.overleaf.com/user/subscription/plans"
+  },
+  "icon": "https://cdn.oleafly.com/brand/logo/png/oleafly-app-icon-pastel-256.png",
+  "hook": "Overleaf charges you twenty five dollars a month for full history and Zotero citations. This app does it for free.",
+  "job": "Writes your papers in LaTeX",
+  "platforms": [
+    "Mac",
+    "Windows",
+    "Linux"
+  ],
+  "features": [
+    {
+      "intro": "It compiles your paper right on your computer.",
+      "say": "LaTeX, Typst and Markdown, with the PDF right beside your text.",
+      "images": [
+        "https://raw.githubusercontent.com/Oleafly/Oleafly/main/docs/assets/readme/editor-and-pdf.png"
+      ],
+      "chips": [
+        {
+          "label": "LaTeX",
+          "anchor": "LaTeX"
+        },
+        {
+          "label": "Typst",
+          "anchor": "Typst"
+        },
+        {
+          "label": "📄 PDF",
+          "anchor": "PDF"
+        }
+      ]
+    },
+    {
+      "say": "Cite from your Zotero library as you type.",
+      "images": [
+        "https://raw.githubusercontent.com/Oleafly/Oleafly/main/docs/assets/readme/citations.png"
+      ],
+      "chips": [
+        {
+          "label": "📚 Zotero",
+          "anchor": "Zotero"
+        }
+      ]
+    },
+    {
+      "say": "Start from over seventeen hundred templates, with full history and GitHub sync.",
+      "images": [
+        "https://raw.githubusercontent.com/Oleafly/Oleafly/main/docs/assets/readme/templates.png"
+      ],
+      "chips": [
+        {
+          "label": "📑 Templates",
+          "anchor": "templates"
+        },
+        {
+          "label": "🕘 Full history",
+          "anchor": "history"
+        },
+        {
+          "label": "GitHub",
+          "anchor": "GitHub"
+        }
+      ]
+    }
+  ],
+  "nolist": [
+    {
+      "say": "No subscription.",
+      "label": "Subscription"
+    },
+    {
+      "say": "No account.",
+      "label": "Account"
+    },
+    {
+      "say": "No tracking.",
+      "label": "Tracking"
+    }
+  ],
+  "install": "Download from GitHub Releases",
+  "install_url": "https://oleafly.com",
+  "caption": "Overleaf Standard charges $25/month for full history and Zotero citations. Oleafly does it for free 📄\n\n✅ Compiles LaTeX, Typst and Markdown on your own computer\n✅ Cite from your Zotero library as you type\n✅ 1,700+ templates, full version history and GitHub sync\n✅ No subscription, no account, no tracking, 100% free\n\n💻 Mac (Apple Silicon) · Windows · Linux\nℹ️ Heads up: Oleafly is still in beta, and live co-writing needs a shared Oleafly Server your lab sets up\n\nComment \"PAPER\" and I'll DM you the link 🔗\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #latex #research #phd #academia #freeapps",
+  "dm_pitch": "Oleafly, the free open-source Overleaf alternative 📄",
+  "thumb": {
+    "big": "FREE",
+    "line1": "Overleaf",
+    "line2": "alternative"
+  }
+}

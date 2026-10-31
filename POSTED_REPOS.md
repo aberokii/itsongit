@@ -65,5 +65,8 @@ The scout (`pipeline/scout.py`) skips these automatically via `data/posted.json`
 | 58 | [localsend/localsend](https://github.com/localsend/localsend) | 058-localsend | SEND | published | 2026-10-30T12:06 | https://www.instagram.com/reel/DfHiqYmEXnQ/ |
 | 59 | [documenso/documenso](https://github.com/documenso/documenso) | 059-documenso | SIGN | published | 2026-10-30T13:45 | https://www.instagram.com/reel/DfHuB4qm_8j/ |
 | 60 | [lukevella/rallly](https://github.com/lukevella/rallly) | 060-rallly | MEET | built, not scheduled |  |  |
-| 61 | [zotero/zotero](https://github.com/zotero/zotero) | 061-zotero | CITE | scheduled | 2026-10-30T19:37 |  |
-| 62 | [mixxxdj/mixxx](https://github.com/mixxxdj/mixxx) | 062-mixxx | MIX | scheduled | 2026-10-30T21:48 |  |
+| 61 | [zotero/zotero](https://github.com/zotero/zotero) | 061-zotero | CITE | published | 2026-10-30T19:38 | https://www.instagram.com/reel/DfIWZ85kef0/ |
+| 62 | [mixxxdj/mixxx](https://github.com/mixxxdj/mixxx) | 062-mixxx | MIX | published | 2026-10-30T21:49 | https://www.instagram.com/reel/DfIladCkfvD/ |
+| 63 | [Oleafly/Oleafly](https://github.com/Oleafly/Oleafly) | 063-oleafly | PAPER | scheduled | 2026-10-31T11:16 |  |
+| 64 | [al1abb/invoify](https://github.com/al1abb/invoify) | 064-invoify | INVOICE | scheduled | 2026-10-31T12:28 |  |
+| 65 | [objective-see/LuLu](https://github.com/objective-see/LuLu) | 066-lulu | FIREWALL | scheduled | 2026-10-31T13:41 |  |

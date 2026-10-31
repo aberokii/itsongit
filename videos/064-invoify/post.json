@@ -1,0 +1,23 @@
+{
+  "title": "Invoify: free Billdu alternative",
+  "video": "FINAL.mp4",
+  "thumbnail": "FINAL_thumbnail.png",
+  "repo_url": "https://github.com/al1abb/invoify",
+  "keyword": "INVOICE",
+  "caption": "Billdu charges $7.99/month. Invoify makes your invoices as real PDFs for free \ud83e\uddfe\n\n\u2705 Fill in a form and watch the invoice update live\n\u2705 13 templates, then download a real PDF\n\u2705 Save your clients once; your data stays in your browser\n\u2705 No account, no subscription, 100% free\n\n\ud83d\udcbb Any browser\n\u2139\ufe0f Heads up: it's a web app, and invoices are saved in your browser, so clearing site data wipes them (export them as JSON first)\n\nComment \"INVOICE\" and I'll DM you the link \ud83d\udd17\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #invoice #freelance #smallbusiness #freeapps #techtips",
+  "dm_pitch": "Invoify, the free open-source invoice maker \ud83e\uddfe",
+  "install": "Open invoify.vercel.app in your browser",
+  "dm_on_any_comment": true,
+  "follow_gate": true,
+  "slot": 1,
+  "price_source": "https://www.billdu.com/pricing/",
+  "idempotencyKey": "3115ca03-0967-4370-913b-d7eaaabf4ecc",
+  "zernio": {
+    "postId": "6ae5c822a47ce9c5a1c7ea54",
+    "status": "scheduled",
+    "scheduledFor": "2026-10-31T12:28:00.000Z",
+    "url": null,
+    "automationId": "6ae5c824cfd91d626f9d9ebe",
+    "slot": 1
+  }
+}
