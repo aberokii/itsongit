@@ -1,20 +1,14 @@
 # Daily @itsongit reels, made and scheduled on GitHub's servers (works with the laptop shut).
-# 06:30 Berlin = morning run (3 reels, posted 08:00–14:45); 13:30 Berlin = midday run (2 reels, posted 15:00–23:00).
-# Cron is UTC: 04:30/11:30 is 06:30/13:30 in summer time and 05:30/12:30 in winter time.
-# Run one by hand: Actions → reels → Run workflow → pick morning or midday.
+# One run a day makes 3 reels for the A/B tests (data/experiments.json): pipeline/plan.py assigns each reel a
+# posting window (midday 11:05–12:50, evening 18:00–19:50, night 21:00–22:50 Berlin), a hook arm and a topic arm.
+# Cron is UTC: 04:30 is 06:30 Berlin in summer time and 05:30 in winter time, well before the first window.
+# Run it by hand: Actions → reels → Run workflow (rows whose window has already passed are skipped).
 name: reels
 
 on:
   schedule:
     - cron: "30 4 * * *"
-    - cron: "30 11 * * *"
   workflow_dispatch:
-    inputs:
-      run:
-        description: "which run"
-        type: choice
-        options: [morning, midday]
-        default: morning
 
 permissions:
   contents: write
@@ -38,17 +32,9 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Pick the run
-        id: run
+      - name: Day
         run: |
-          RUN="${{ inputs.run }}"
-          if [ -z "$RUN" ]; then
-            [ "${{ github.event.schedule }}" = "30 11 * * *" ] && RUN=midday || RUN=morning
-          fi
-          if [ "$RUN" = midday ]; then N=2; SLOTS="3 and 4"; WINDOW="15:00 and 23:00"
-          else N=3; SLOTS="0, 1 and 2"; WINDOW="08:00 and 14:45"; fi
-          echo "RUN=$RUN" >> "$GITHUB_ENV"; echo "N=$N" >> "$GITHUB_ENV"
-          echo "SLOTS=$SLOTS" >> "$GITHUB_ENV"; echo "WINDOW=$WINDOW" >> "$GITHUB_ENV"
+          echo "RUN=daily" >> "$GITHUB_ENV"
           echo "TODAY=$(TZ=Europe/Berlin date +%F)" >> "$GITHUB_ENV"
 
       - name: Check secrets
@@ -84,11 +70,19 @@ jobs:
           export PATH="$HOME/.local/bin:$PATH"
           git config user.name "itsongit-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          PROMPT=$(envsubst '${RUN} ${N} ${SLOTS} ${WINDOW} ${TODAY}' < .github/prompts/reels.md)
+          PROMPT=$(envsubst '${TODAY}' < .github/prompts/reels.md)
           claude -p "$PROMPT" --model claude-opus-5-5 --dangerously-skip-permissions \
             --output-format stream-json --verbose > claude.jsonl || echo "::warning::claude exited non-zero"
           jq -r 'select(.type=="result") | .result' claude.jsonl | tee report.md
           { echo "## itsongit $RUN run · $TODAY"; echo; cat report.md; } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Experiment report
+        if: always()
+        run: |
+          python3 pipeline/experiments.py > /dev/null 2>&1 || { echo "::warning::experiments report failed"; exit 0; }
+          { echo; cat data/experiments/report.md; } >> "$GITHUB_STEP_SUMMARY"
+          git add data/experiments/report.md
+          git diff --cached --quiet || { git commit -m "experiments: report $TODAY" && git pull --rebase && git push; }
 
       - name: Upload reels and QA sheets
         if: always()
