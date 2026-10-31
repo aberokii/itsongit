@@ -46,11 +46,11 @@ DEFAULT_CFG = {
 
 # Public replies rotate per comment (Zernio picks at random); each post gets its own random 5 + 1 from this pool,
 # so neighbouring posts don't share the same set either.
-REPLY_POOL = [
-    "Sent you a DM {{first_name}} 📩", "Check your DMs 👀", "Just sent it over 🚀", "Link's in your inbox ✌️",
-    "DM'd you {{first_name}} 🙌", "On its way to your DMs 📬", "Check your message requests 👀", "Sent! Enjoy 🔥",
-    "Dropped it in your DMs {{first_name}} ⚡", "Done ✅ check your inbox", "Sliding into your DMs with the link 😄",
-    "You've got mail {{first_name}} 📨",
+REPLY_POOL = [  # posted whether or not the follow gate holds the link back, so no "link sent" claims
+    "Sent you a DM {{first_name}} 📩", "Check your DMs 👀", "Check your message requests 👀", "DM'd you {{first_name}} 🙌",
+    "Just sent you a message 🚀", "Slid into your DMs {{first_name}} 😄", "Check your inbox ✌️", "You've got mail {{first_name}} 📨",
+    "Sent you a DM, follow @itsongit to unlock the link 🔓", "Check your DMs 👀 the link is for followers",
+    "Look in your message requests {{first_name}} 📬", "Message sent ⚡ check your DMs",
 ]
 DM_OPENERS = ["Hey {{first_name}}! 👋", "Here you go {{first_name}} 🙌", "Yo {{first_name}}!", "Hey hey 👋", "As promised {{first_name}} ⚡"]
 DM_CLOSERS = ["Follow @itsongit for a new free tool every day ⭐", "More free finds daily on @itsongit 🔥",
