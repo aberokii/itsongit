@@ -1,0 +1,56 @@
+{
+  "repo": "organicmaps/organicmaps",
+  "name": "Organic Maps",
+  "title": "Organic Maps: free AllTrails Plus alternative",
+  "slot": 3,
+  "keyword": "MAPS",
+  "paid": {
+    "name": "AllTrails Plus",
+    "price": "$35.99",
+    "per": "/year",
+    "anchor": "thirty",
+    "source": "https://www.alltrails.com/plus/info"
+  },
+  "icon": "https://raw.githubusercontent.com/organicmaps/organicmaps/master/iphone/Maps/Resources/Images.xcassets/AppIcon.appiconset/1024.png",
+  "hook": "AllTrails charges you thirty six bucks a year to download trail maps for offline use. This app does it for free.",
+  "job": "Shows maps with no signal",
+  "platforms": ["iPhone", "Android"],
+  "features": [
+    {
+      "intro": "It keeps working when you have no signal.",
+      "say": "Download your country's map, then search it offline.",
+      "images": ["https://organicmaps.app/images/screenshots/search.jpg"],
+      "chips": [
+        {"label": "📴 Offline", "anchor": "offline"},
+        {"label": "🔍 Search", "anchor": "search"}
+      ]
+    },
+    {
+      "say": "Hiking trails, cycling routes and walking paths, with elevation profiles.",
+      "images": ["https://organicmaps.app/images/screenshots/hiking.jpg"],
+      "chips": [
+        {"label": "🥾 Hiking", "anchor": "hiking"},
+        {"label": "🚴 Cycling", "anchor": "cycling"},
+        {"label": "⛰ Elevation", "anchor": "elevation"}
+      ]
+    },
+    {
+      "say": "Turn-by-turn voice navigation, plus a dark mode.",
+      "images": ["https://organicmaps.app/images/screenshots/dark.jpg"],
+      "chips": [
+        {"label": "🔊 Voice", "anchor": "voice"},
+        {"label": "🌙 Dark mode", "anchor": "dark"}
+      ]
+    }
+  ],
+  "nolist": [
+    {"say": "No ads.", "label": "Ads"},
+    {"say": "No tracking.", "label": "Tracking"},
+    {"say": "No data collection.", "label": "Data collection"}
+  ],
+  "install": "Download from the App Store or Google Play",
+  "install_url": "https://organicmaps.app",
+  "caption": "AllTrails charges $35.99/year to download trail maps for offline use. Organic Maps does it for free 🗺️\n\n✅ Offline maps and search, no signal needed\n✅ Hiking trails, cycling routes and walking paths with elevation profiles\n✅ Turn-by-turn voice navigation + dark mode\n✅ No ads, no tracking, no data collection, 100% free\n\n📱 iPhone · Android\nℹ️ Heads up: it's a general offline map built on OpenStreetMap data, not AllTrails' curated trail reviews and photos, and you download each region before you go\n\nComment \"MAPS\" and I'll DM you the link 🔗\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #hiking #offlinemaps #travel #privacy #freeapps #iphone",
+  "dm_pitch": "Organic Maps, the free open-source AllTrails Plus alternative 🗺️",
+  "thumb": {"big": "FREE", "line1": "AllTrails", "line2": "alternative"}
+}

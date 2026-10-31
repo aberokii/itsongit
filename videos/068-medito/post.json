@@ -1,0 +1,23 @@
+{
+  "title": "Medito: free Headspace alternative",
+  "video": "FINAL.mp4",
+  "thumbnail": "FINAL_thumbnail.png",
+  "repo_url": "https://github.com/meditohq/medito-app",
+  "keyword": "RELAX",
+  "caption": "Headspace charges $12.99/month to help you meditate. Medito does it for free \ud83e\uddd8\n\n\u2705 Beginner courses and a fresh daily meditation\n\u2705 Sleep stories and nature sounds\n\u2705 Breathing exercises and a meditation timer\n\u2705 No ads, no account, no paywall, 100% free\n\n\ud83d\udcf1 iPhone \u00b7 Android\n\u2139\ufe0f Heads up: Medito is run by a non-profit and funded by voluntary donations. Headspace's $12.99 is its monthly plan\n\nComment \"RELAX\" and I'll DM you the link \ud83d\udd17\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #meditation #mindfulness #sleep #wellness #freeapps #selfcare",
+  "dm_pitch": "Medito, the free open-source Headspace alternative \ud83e\uddd8",
+  "install": "Download from the App Store or Google Play",
+  "dm_on_any_comment": true,
+  "follow_gate": true,
+  "slot": 4,
+  "price_source": "https://www.headspace.com/subscriptions",
+  "idempotencyKey": "9c5441ee-ff7e-425c-909d-3515e8d0bf76",
+  "zernio": {
+    "postId": "6ae6183fc3efc03682ac2f76",
+    "status": "scheduled",
+    "scheduledFor": "2026-10-31T21:47:00.000Z",
+    "url": null,
+    "automationId": "6ae6184326ac8731d7753cd0",
+    "slot": 4
+  }
+}

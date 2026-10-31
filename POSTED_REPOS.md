@@ -67,6 +67,8 @@ The scout (`pipeline/scout.py`) skips these automatically via `data/posted.json`
 | 60 | [lukevella/rallly](https://github.com/lukevella/rallly) | 060-rallly | MEET | built, not scheduled |  |  |
 | 61 | [zotero/zotero](https://github.com/zotero/zotero) | 061-zotero | CITE | published | 2026-10-30T19:38 | https://www.instagram.com/reel/DfIWZ85kef0/ |
 | 62 | [mixxxdj/mixxx](https://github.com/mixxxdj/mixxx) | 062-mixxx | MIX | published | 2026-10-30T21:49 | https://www.instagram.com/reel/DfIladCkfvD/ |
-| 63 | [Oleafly/Oleafly](https://github.com/Oleafly/Oleafly) | 063-oleafly | PAPER | scheduled | 2026-10-31T11:16 |  |
-| 64 | [al1abb/invoify](https://github.com/al1abb/invoify) | 064-invoify | INVOICE | scheduled | 2026-10-31T12:28 |  |
-| 65 | [objective-see/LuLu](https://github.com/objective-see/LuLu) | 066-lulu | FIREWALL | scheduled | 2026-10-31T13:41 |  |
+| 63 | [Oleafly/Oleafly](https://github.com/Oleafly/Oleafly) | 063-oleafly | PAPER | published | 2026-10-31T11:17 | https://www.instagram.com/reel/DfKB8ealbU9/ |
+| 64 | [al1abb/invoify](https://github.com/al1abb/invoify) | 064-invoify | INVOICE | published | 2026-10-31T12:29 | https://www.instagram.com/reel/DfKKIpmAi0c/ |
+| 65 | [objective-see/LuLu](https://github.com/objective-see/LuLu) | 066-lulu | FIREWALL | published | 2026-10-31T13:42 | https://www.instagram.com/reel/DfKSe4DD9nB/ |
+| 66 | [organicmaps/organicmaps](https://github.com/organicmaps/organicmaps) | 067-organicmaps | MAPS | scheduled | 2026-10-31T17:50 |  |
+| 67 | [meditohq/medito-app](https://github.com/meditohq/medito-app) | 068-medito | RELAX | scheduled | 2026-10-31T21:47 |  |

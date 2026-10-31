@@ -1,0 +1,82 @@
+{
+  "repo": "meditohq/medito-app",
+  "name": "Medito",
+  "title": "Medito: free Headspace alternative",
+  "slot": 4,
+  "keyword": "RELAX",
+  "paid": {
+    "name": "Headspace",
+    "price": "$12.99",
+    "per": "/month",
+    "anchor": "twelve",
+    "source": "https://www.headspace.com/subscriptions"
+  },
+  "icon": "https://raw.githubusercontent.com/meditohq/medito-app/HEAD/assets/blush_medito_ios_logo-iOS-Default-1024x1024@1x.png",
+  "hook": "Headspace charges you twelve ninety nine a month to help you meditate. This app does it for free.",
+  "job": "Guides you through meditation",
+  "platforms": [
+    "iPhone",
+    "Android"
+  ],
+  "features": [
+    {
+      "intro": "It teaches you to meditate.",
+      "say": "Follow a beginner course, or a daily session.",
+      "images": [
+        "assets/course.png",
+        "assets/courses.png"
+      ],
+      "swap_anchor": "daily",
+      "chips": [
+        {
+          "label": "📚 Courses",
+          "anchor": "course"
+        },
+        {
+          "label": "Daily",
+          "anchor": "daily"
+        }
+      ]
+    },
+    {
+      "say": "There are sleep stories and nature sounds to help you drift off.",
+      "images": [
+        "assets/sleep.png"
+      ],
+      "chips": [
+        {
+          "label": "😴 Sleep stories",
+          "anchor": "stories"
+        },
+        {
+          "label": "🌿 Nature sounds",
+          "anchor": "nature"
+        }
+      ]
+    }
+  ],
+  "nolist": [
+    {
+      "say": "No ads.",
+      "label": "Ads"
+    },
+    {
+      "say": "No account.",
+      "label": "Account"
+    },
+    {
+      "say": "No paywall.",
+      "label": "Paywall"
+    }
+  ],
+  "install": "Download from the App Store or Google Play",
+  "install_url": "https://meditofoundation.org/medito-app",
+  "install_line": "It runs on iPhone and Android. Just grab it free on the App Store or Google Play.",
+  "caption": "Headspace charges $12.99/month to help you meditate. Medito does it for free 🧘\n\n✅ Beginner courses and a fresh daily meditation\n✅ Sleep stories and nature sounds\n✅ Breathing exercises and a meditation timer\n✅ No ads, no account, no paywall, 100% free\n\n📱 iPhone · Android\nℹ️ Heads up: Medito is run by a non-profit and funded by voluntary donations. Headspace's $12.99 is its monthly plan\n\nComment \"RELAX\" and I'll DM you the link 🔗\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #meditation #mindfulness #sleep #wellness #freeapps #selfcare",
+  "dm_pitch": "Medito, the free open-source Headspace alternative 🧘",
+  "thumb": {
+    "big": "FREE",
+    "line1": "Headspace",
+    "line2": "alternative"
+  }
+}

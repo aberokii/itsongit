@@ -1,0 +1,23 @@
+{
+  "title": "Organic Maps: free AllTrails Plus alternative",
+  "video": "FINAL.mp4",
+  "thumbnail": "FINAL_thumbnail.png",
+  "repo_url": "https://github.com/organicmaps/organicmaps",
+  "keyword": "MAPS",
+  "caption": "AllTrails charges $35.99/year to download trail maps for offline use. Organic Maps does it for free \ud83d\uddfa\ufe0f\n\n\u2705 Offline maps and search, no signal needed\n\u2705 Hiking trails, cycling routes and walking paths with elevation profiles\n\u2705 Turn-by-turn voice navigation + dark mode\n\u2705 No ads, no tracking, no data collection, 100% free\n\n\ud83d\udcf1 iPhone \u00b7 Android\n\u2139\ufe0f Heads up: it's a general offline map built on OpenStreetMap data, not AllTrails' curated trail reviews and photos, and you download each region before you go\n\nComment \"MAPS\" and I'll DM you the link \ud83d\udd17\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #hiking #offlinemaps #travel #privacy #freeapps #iphone",
+  "dm_pitch": "Organic Maps, the free open-source AllTrails Plus alternative \ud83d\uddfa\ufe0f",
+  "install": "Download from the App Store or Google Play",
+  "dm_on_any_comment": true,
+  "follow_gate": true,
+  "slot": 3,
+  "price_source": "https://www.alltrails.com/plus/info",
+  "idempotencyKey": "254d09b4-9725-48b6-9b8f-f7c134debc92",
+  "zernio": {
+    "postId": "6ae61838c3efc03682ac2f34",
+    "status": "scheduled",
+    "scheduledFor": "2026-10-31T17:50:00.000Z",
+    "url": null,
+    "automationId": "6ae6183b07271ad8d7445ab3",
+    "slot": 3
+  }
+}
