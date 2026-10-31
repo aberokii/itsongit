@@ -266,6 +266,7 @@ Checklist:
 python3 pipeline/zernio.py publish videos/NNN-slug --slot 0 --date 2026-10-20   # or --now
 python3 pipeline/zernio.py status    videos/NNN-slug
 python3 pipeline/zernio.py logs      videos/NNN-slug   # DMs sent, failures, link clicks, comments that missed the keyword
+python3 pipeline/zernio.py missed                     # commenters on the last 7 days of reels who never got the link (gated/failed): DM followers by hand (HUMAN_AGENT tag, within 7 days of their last message), public-reply the rest
 python3 pipeline/zernio.py analytics videos/NNN-slug   # views, reach, avg watch time, skip rate, saves, shares
 python3 pipeline/zernio.py insights | best-time | health
 ```

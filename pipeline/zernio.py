@@ -9,6 +9,7 @@ Commands:
                               upload reel + cover, schedule the Reel, attach the comment-to-DM automation
   status <video_dir>          post status (+ Instagram URL once live)
   logs <video_dir>            comment-to-DM automation stats, recent DMs and keyword misses
+  missed [--days 7]           commenters on recent reels who never got the link (gated, failed, skipped), to follow up by hand
   analytics <video_dir>       reel metrics (views, reach, avg watch time, skip rate, saves, shares…)
   insights                    account insights (30 days) + follower history
   jitter [--days 7]           re-randomise DM/reply delays (15–20 s) on recent automations; launchd runs it every 2 min
@@ -272,7 +273,8 @@ def cmd_publish(a, cfg):
         "dmDelaySeconds": dm_delay, "commentReplyDelaySeconds": reply_delay,
         "buttons": [{"type": "url", "title": post.get("dm_button", "Open on GitHub")[:20], "url": post["repo_url"]}] if post.get("dm_buttons", True) else [],
         "commentReply": replies[0], "commentReplyVariations": replies[1:],
-        "publicReplyPolicy": "after_dm", "repeatPolicy": {"mode": "once"}, "isActive": True,
+        # always: gated commenters get the public "check your DMs" nudge too (after_dm left them with no reply at all)
+        "publicReplyPolicy": "always", "repeatPolicy": {"mode": "once"}, "isActive": True,
         # follow gate (default on): the link only goes to followers; unknown commenters get the gate DM first
         **(follow_gate(rng) if post.get("follow_gate", True) else {}),
     }
@@ -363,6 +365,24 @@ def cmd_logs(a, cfg):
         print(f"  {m['total']} comments matched no keyword, e.g. {[x.get('commentText') for x in m.get('samples', [])[:5]]}")
 
 
+def cmd_missed(a, cfg):
+    """Every commenter on recent reels whose link never went out. A follower can still be DM'd by hand within 7 days of
+    their last message (HUMAN_AGENT tag); a non-follower who never wrote back can only get a public reply."""
+    import time
+    since = (dt.date.today() - dt.timedelta(days=a.days)).isoformat()
+    for pj in sorted((ROOT / "videos").glob("*/post.json")):
+        z = json.loads(pj.read_text()).get("zernio") or {}
+        if not z.get("automationId") or (z.get("scheduledFor") or "")[:10] < since:
+            continue
+        logs = api("GET", f"/comment-automations/{z['automationId']}/logs", query={"limit": 100}).get("logs", [])
+        time.sleep(1.1)  # 60 req/min
+        got = {l.get("commenterUsername") for l in logs if l.get("status") == "sent"}
+        for l in logs:
+            if l.get("status") != "sent" and l.get("commenterUsername") not in got:
+                print(f"{pj.parent.name}  @{l.get('commenterUsername')}: {l.get('commentText')!r} → {l.get('status')} "
+                      f"(follower {l.get('commenterIsFollower')}, comment {l.get('commentId')}) {l.get('error') or ''}")
+
+
 def cmd_analytics(a, cfg):
     _, post = load_post(Path(a.video_dir))
     pid = post.get("zernio", {}).get("postId", "<postId>")
@@ -410,6 +430,8 @@ def main():
     p.add_argument("--force", action="store_true")
     j = sub.add_parser("jitter")
     j.add_argument("--days", type=int, default=7, help="only automations of reels from the last N days")
+    m = sub.add_parser("missed")
+    m.add_argument("--days", type=int, default=7)
     for name in ("status", "logs", "analytics", "unschedule"):
         sub.add_parser(name).add_argument("video_dir")
     a = ap.parse_args()
@@ -417,7 +439,7 @@ def main():
         print("ZERNIO_API_KEY not set: dry run, nothing is sent.\n")
     cfg = load_cfg()
     {"connect-url": cmd_connect_url, "setup": cmd_setup, "health": cmd_health, "publish": cmd_publish, "status": cmd_status,
-     "logs": cmd_logs, "unschedule": cmd_unschedule, "jitter": cmd_jitter, "analytics": cmd_analytics, "insights": cmd_insights, "best-time": cmd_best_time}[a.cmd](a, cfg)
+     "logs": cmd_logs, "unschedule": cmd_unschedule, "jitter": cmd_jitter, "analytics": cmd_analytics, "missed": cmd_missed, "insights": cmd_insights, "best-time": cmd_best_time}[a.cmd](a, cfg)
 
 
 if __name__ == "__main__":
