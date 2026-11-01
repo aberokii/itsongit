@@ -72,5 +72,6 @@ The scout (`pipeline/scout.py`) skips these automatically via `data/posted.json`
 | 65 | [objective-see/LuLu](https://github.com/objective-see/LuLu) | 066-lulu | FIREWALL | published | 2026-10-31T13:42 | https://www.instagram.com/reel/DfKSe4DD9nB/ |
 | 66 | [organicmaps/organicmaps](https://github.com/organicmaps/organicmaps) | 067-organicmaps | MAPS | published | 2026-10-31T17:52 | https://www.instagram.com/reel/DfKvFe8EZKH/ |
 | 67 | [meditohq/medito-app](https://github.com/meditohq/medito-app) | 068-medito | RELAX | published | 2026-10-31T21:48 | https://www.instagram.com/reel/DfLKFrklNK7/ |
-| 68 | [gorhill/uBlock](https://github.com/gorhill/uBlock) | 069-ublock | BLOCK | scheduled | 2026-11-01T17:02 |  |
-| 69 | [lichess-org/lila](https://github.com/lichess-org/lila) | 070-lichess | CHESS | scheduled | 2026-11-01T20:53 |  |
+| 68 | [gorhill/uBlock](https://github.com/gorhill/uBlock) | 069-ublock | BLOCK | published | 2026-11-01T17:04 | https://www.instagram.com/reel/DfNOX-AjELX/ |
+| 69 | [lichess-org/lila](https://github.com/lichess-org/lila) | 070-lichess | CHESS | published | 2026-11-01T20:54 | https://www.instagram.com/reel/DfNovRWj8nh/ |
+| 70 | [simonoppowa/OpenNutriTracker](https://github.com/simonoppowa/OpenNutriTracker) | 071-opennutritracker | FOOD | published | 2026-11-01T22:09 | https://www.instagram.com/reel/DfNxTDnldeb/ |

@@ -1,28 +1,5 @@
 [
  {
-  "repo": "simonoppowa/OpenNutriTracker",
-  "name": "OpenNutriTracker",
-  "arm": "subscription",
-  "paid": {
-   "name": "MyFitnessPal Premium",
-   "price": "$19.99",
-   "per": "/month",
-   "source": "https://www.myfitnesspal.com/premium"
-  },
-  "job": "Counts your calories for free",
-  "platforms": [
-   "Android",
-   "iOS"
-  ],
-  "mass_appeal": 8,
-  "demo_media": "https://www.youtube.com/watch?v=DPLtsx-f6Ro",
-  "stars": 2781,
-  "contributors": 31,
-  "why": "Calorie counting is a mass habit and MyFitnessPal's paywall (barcode scanning went Premium) is a famous complaint.",
-  "catch": "Food database is smaller than MyFitnessPal's (uses Open Food Facts).",
-  "price_verified": true
- },
- {
   "repo": "ossappscollective/OSS-DocumentScanner",
   "name": "OSS Document Scanner",
   "arm": "subscription",

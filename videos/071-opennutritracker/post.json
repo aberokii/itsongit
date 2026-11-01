@@ -1,0 +1,29 @@
+{
+  "title": "OpenNutriTracker: free MyFitnessPal alternative",
+  "video": "FINAL.mp4",
+  "thumbnail": "FINAL_thumbnail.png",
+  "repo_url": "https://github.com/simonoppowa/OpenNutriTracker",
+  "keyword": "FOOD",
+  "caption": "MyFitnessPal Premium charges $19.99/month to count your calories. OpenNutriTracker does it for free \ud83c\udf4e\n\n\u2705 Scan a barcode, search, or quick-add any food\n\u2705 Calories, carbs, fat and protein against your goal\n\u2705 Vitamins and minerals, plus trends, water and weight\n\u2705 No ads, no account, your diary stays on your phone\n\n\ud83d\udcf1 iPhone \u00b7 Android\n\u2139\ufe0f Its food database comes from Open Food Facts, USDA and the German BLS, so it's smaller than MyFitnessPal's. MyFitnessPal Premium is $19.99/month, or $79.99/year on the annual plan\n\nComment \"FOOD\" and I'll DM you the link \ud83d\udd17\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #caloriecounter #fitness #nutrition #freeapps #healthyeating #techtips",
+  "dm_pitch": "OpenNutriTracker, the free open-source MyFitnessPal alternative \ud83c\udf4e",
+  "install": "Free on the App Store and Google Play",
+  "dm_on_any_comment": true,
+  "follow_gate": true,
+  "slot": 0,
+  "price_source": "https://www.myfitnesspal.com/premium",
+  "experiment": {
+    "format": "story",
+    "hook": "story",
+    "topic": "subscription",
+    "window": "now"
+  },
+  "idempotencyKey": "369db852-4cc8-4842-8ec6-2c42fa3019b9",
+  "zernio": {
+    "postId": "6ae7b831f85359dd853a9ad6",
+    "status": "publishing",
+    "scheduledFor": "2026-11-01T22:07:45.266Z",
+    "url": null,
+    "automationId": "6ae7b83672e3ea9285679c7e",
+    "slot": 0
+  }
+}

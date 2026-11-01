@@ -1,0 +1,111 @@
+{
+ "repo": "simonoppowa/OpenNutriTracker",
+ "name": "OpenNutriTracker",
+ "title": "OpenNutriTracker: free MyFitnessPal alternative",
+ "keyword": "FOOD",
+ "paid": {
+  "name": "MyFitnessPal Premium",
+  "price": "$19.99",
+  "per": "/month",
+  "anchor": "twenty",
+  "source": "https://www.myfitnesspal.com/premium"
+ },
+ "icon": "https://raw.githubusercontent.com/simonoppowa/OpenNutriTracker/main/assets/icon/ont_logo_square_color_back_1024x1024.png",
+ "job": "Counts your calories for free",
+ "platforms": [
+  "iPhone",
+  "Android"
+ ],
+ "install": "Free on the App Store and Google Play",
+ "caption": "MyFitnessPal Premium charges $19.99/month to count your calories. OpenNutriTracker does it for free 🍎\n\n✅ Scan a barcode, search, or quick-add any food\n✅ Calories, carbs, fat and protein against your goal\n✅ Vitamins and minerals, plus trends, water and weight\n✅ No ads, no account, your diary stays on your phone\n\n📱 iPhone · Android\nℹ️ Its food database comes from Open Food Facts, USDA and the German BLS, so it's smaller than MyFitnessPal's. MyFitnessPal Premium is $19.99/month, or $79.99/year on the annual plan\n\nComment \"FOOD\" and I'll DM you the link 🔗\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #caloriecounter #fitness #nutrition #freeapps #healthyeating #techtips",
+ "dm_pitch": "OpenNutriTracker, the free open-source MyFitnessPal alternative 🍎",
+ "thumb": {
+  "big": "FREE",
+  "line1": "MyFitnessPal",
+  "line2": "alternative"
+ },
+ "format": "story",
+ "slot": 0,
+ "window": "now",
+ "hook_style": "story",
+ "topic_arm": "subscription",
+ "beats": [
+  {
+   "say": "People pay two hundred and forty dollars a year just to count calories.",
+   "scene": "slam",
+   "text": "$240 a year",
+   "sub": "to count calories",
+   "accent": "calories",
+   "tone": "neg",
+   "mood": "shock"
+  },
+  {
+   "say": "Even the barcode scanner sits behind the paywall.",
+   "scene": "character",
+   "text": "Scanning food is paid?! 😤",
+   "mood": "worried",
+   "select": "paywall"
+  },
+  {
+   "say": "MyFitnessPal Premium is twenty bucks a month. This app costs nothing.",
+   "scene": "versus",
+   "mood": "point",
+   "accent": "twenty",
+   "select": "nothing"
+  },
+  {
+   "say": "Scan a barcode or search any food, and it's logged in one tap.",
+   "scene": "app",
+   "image": "assets/addfood.png",
+   "text": "Scan · search · log",
+   "mood": "excited",
+   "select": "barcode"
+  },
+  {
+   "say": "And it gets better.",
+   "scene": "character",
+   "text": "Wait, there's more 👀",
+   "mood": "smug"
+  },
+  {
+   "say": "It tracks calories, carbs, fat, protein, even your vitamins.",
+   "scene": "app",
+   "image": "assets/home.png",
+   "text": "Calories · macros",
+   "mood": "excited",
+   "accent": "vitamins"
+  },
+  {
+   "say": "No ads, no account, and your diary stays on your phone.",
+   "scene": "list",
+   "text": "Actually private",
+   "select": "phone",
+   "items": [
+    {
+     "label": "No ads",
+     "anchor": "ads"
+    },
+    {
+     "label": "No account",
+     "anchor": "account"
+    },
+    {
+     "label": "Stays on phone",
+     "anchor": "phone"
+    }
+   ]
+  },
+  {
+   "say": "It's MyFitnessPal Premium, minus the subscription.",
+   "scene": "slam",
+   "text": "Stop paying",
+   "accent": "paying",
+   "mood": "smug"
+  },
+  {
+   "say": "Comment Food, and I'll send you the link.",
+   "scene": "cta",
+   "mood": "point"
+  }
+ ]
+}
