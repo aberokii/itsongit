@@ -61,6 +61,7 @@ def fetch_all(refresh):
         rows.append({
             "reel": pj.parent.name, "local": local, "age_h": (dt.datetime.now(dt.timezone.utc) - local).total_seconds() / 3600,
             "test": local.date().isoformat() >= CFG["started"],
+            "format": exp.get("format") or V.get("format") or "classic",
             "hook": exp.get("hook") or V.get("hook_style") or "price",
             "topic": exp.get("topic") or V.get("topic_arm") or CFG["baseline_topic"].get(num, "?"),
             "window": exp.get("window") or V.get("window") or window_of(local),
@@ -117,10 +118,23 @@ def main():
     rows = [r for r in fetch_all(a.refresh) if r["age_h"] >= 48]
     test = [r for r in rows if r["test"]]
     base = [r for r in rows if not r["test"]]
-    H, T = CFG["experiments"]["hook"], CFG["experiments"]["topic"]
+    H, T, F = CFG["experiments"]["hook"], CFG["experiments"]["topic"], CFG["experiments"].get("format")
     L = [f"# @itsongit experiments ({dt.date.today()})", "",
          f"Reels ≥48 h old: {len(rows)} ({len(base)} baseline before {CFG['started']}, {len(test)} in the test).", ""]
 
+    if F:
+        ft = [r for r in test if r["local"].date().isoformat() >= F["started"]]
+        L += ["## Format test: " + F["question"], ""] + table(ft, "format", list(F["arms"])) + [""]
+        nC, nS = sum(r["format"] == "classic" for r in ft), sum(r["format"] == "story" for r in ft)
+        if min(nC, nS) < F["min_per_arm"]:
+            L.append(f"**Verdict: keep testing** ({nC} classic / {nS} story; decide at {F['min_per_arm']} each). Rule: {F['decide']}")
+        else:
+            vC = med([r["views"] for r in ft if r["format"] == "classic"]); vS = med([r["views"] for r in ft if r["format"] == "story"])
+            sC = med([r["skip"] for r in ft if r["format"] == "classic"]); sS = med([r["skip"] for r in ft if r["format"] == "story"])
+            win = "story" if vS >= 1.3 * vC and sS <= sC else "classic"
+            L.append(f"**Verdict: {win} wins** (median views classic {vC} vs story {vS}, skip {sC} vs {sS}). {F['decide']}")
+        L.append("")
+    full, test = test, [r for r in test if r["format"] == "classic"]  # the hook test runs inside the classic format
     L += ["## Hook test: " + H["question"], ""] + table(test, "hook", list(H["arms"])) + [""]
     days = {}
     for r in test:
@@ -144,6 +158,7 @@ def main():
         L.append(f"**Verdict: {win} wins** (skip A {mA} vs B {mB}, views A {vA} vs B {vB}). Make it the default in make.py and plan.py.")
     L.append("")
 
+    test = full
     L += ["## Topic test: " + T["question"], ""] + table(test, "topic", list(T["arms"])) + [""]
     counts = {k: sum(r["topic"] == k for r in test) for k in T["arms"]}
     if min(counts.values() or [0]) < T["min_per_arm"]:

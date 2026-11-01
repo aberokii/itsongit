@@ -12,7 +12,8 @@ style) once. `PLAYBOOK.md` has the background. This skill is the operating manua
 Arguments: the number of reels (default **3**, one per daily window) and the start date (default **tomorrow**). Example:
 `/itsongit-reel 6 2026-11-02` means 3 reels for the 2nd and 3 for the 3rd.
 
-**Since 2026-11-01 every reel is part of an A/B test** (`data/experiments.json`): 3 stronger reels a day instead of
+**Since 2026-11-02 the daily plan also assigns a FORMAT: "classic" (the price-card / demo template below) or "story"
+(the animated explainer with Kit, §3b).** **Since 2026-11-01 every reel is part of an A/B test** (`data/experiments.json`): 3 stronger reels a day instead of
 5 average ones, one per topic arm, each with an assigned hook style and posting window. `pipeline/plan.py` decides the
 arms; you pick the best repo for each arm. Never override an assignment by taste: that breaks the test.
 
@@ -147,6 +148,56 @@ case. Write this exact schema:
   "thumb": {"big": "FREE", "line1": "CleanMyMac", "line2": "alternative"}
 }
 ```
+
+### 3b. Story format (`"format": "story"`): the animated explainer with Kit the cat
+
+When the plan says `format: story`, write `"beats"` instead of `hook`/`features`/`nolist`/`install_line` (keep every
+other field: repo, name, title, keyword, paid, icon, job, platforms, install, caption, dm_pitch, thumb, topic_arm).
+This is the format that faceless AI/tech accounts grow with (stories, curiosity, constant motion, a character), not an
+ad template. make.py turns each beat into one spoken line + one animated scene, cut on the beat's first word, with Kit
+(the cat from our logo) reacting in the corner and lip-syncing to the voice.
+
+Full example: `.claude/skills/itsongit-reel/story-example.json` (Mixxx).
+
+**Shape: 6–9 beats, 65–95 words, 22–35 s.**
+1. **Beat 1 = the hook** (`slam`, mood `shock` or `smug`). Its `text` is on screen at frame 0, so it carries the stakes
+   in 1–4 huge words, ideally a number ("$144 a year", "Stop paying", "It's free?!"). Use one pattern below.
+2. **Beat 2 = Kit reacts** (`character`, a speech bubble ≤ 6 words): the emotional beat and the first re-hook.
+3. **One `versus` beat in the first ~10 s** (paid name + price vs the app at $0; make.py fills these in).
+4. **1–2 `app` beats** with a real screenshot of the app mid-task (`image`, URL or `assets/x.png`; chip `text` ≤ 4 words).
+5. **Re-hook every 2–3 beats**: "But here's the crazy part.", "And it gets better.", "Wait, it's free?" (a `character`
+   or `slam` beat). One metaphor line that makes it click ("It's Serato, minus the subscription, forever.").
+6. **Last beat = `cta`**, saying exactly "Comment <Keyword>, and I'll send you the link."
+
+**Hook patterns** (rotate them; never the same pattern twice in a day):
+| Pattern | Example |
+|---|---|
+| Money leak | "You're paying a hundred and forty four dollars a year for something that's free." |
+| Callout | "If you still pay for Serato, stop scrolling." |
+| Hidden gem | "There's a free app that makes Grammarly pointless, and nobody talks about it." |
+| Contrast | "Serato: twelve bucks a month. This: zero." |
+| Disbelief | "I genuinely can't believe this is free." |
+| Mistake | "Stop paying for Paste. Seriously." |
+| Strangers built it | "Six thousand strangers on the internet rebuilt Serato. For free." |
+| Question | "Why is anyone still paying for CleanMyMac?" |
+| Price hike | "Adobe raised prices again. Here's the way out." |
+| Challenge | "Name one thing Lightroom does that this can't." |
+
+**Banned openers:** "Hey guys", "In this video", "Did you know", "Today I'll show you", "Have you ever", "So,",
+"Introducing", "Meet". **Banned words:** seamless, revolutionary, game-changer, leverage, robust, powerful, unlock,
+elevate, cutting-edge. Sound like a friend texting you a find, not a press release. Facts still only from the README.
+
+**Scene fields** (all beats: `say`, `scene`, optional `mood` = neutral | shock | smug | excited | worried | point):
+- `slam`: `text` (1–5 words), `accent` (one word of `text` to colour), `tone` "neg" (red, for prices/pain), `sub` (small line)
+- `character`: `text` = Kit's speech bubble (≤ 6 words, emoji ok); Kit fills the frame
+- `versus`: nothing required (paid, price, name come from the spec); override with `paid`/`price`/`name`
+- `app`: `image`, `text` (chip)
+- `list`: `text` (title), `items`: up to 3 `{"label", "anchor"}`, each anchor a word in that beat's `say`
+- `counter`: `from`, `to`, `prefix` ("$"), `suffix` (" ★", "/yr"), `label`, `tone`, `sub`
+- `cta`: nothing else
+
+QA for story reels: frame 0 shows the hook text big (not an empty frame); every beat's scene matches its line; Kit is
+never covering text; the price strip/numbers are correct; 22–35 s.
 
 ### Script rules (the voiceover is assembled from these fields)
 The final script is: `hook` + "It's called {name}." + the fixed GitHub line + the features (intro + say) + the no-list

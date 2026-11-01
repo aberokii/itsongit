@@ -1,5 +1,5 @@
 {
- "_doc": "A/B test plan for @itsongit. pipeline/plan.py assigns arms per day, pipeline/experiments.py reports. Reels before 'started' are the baseline (all hook=price).",
+ "_doc": "A/B test plan for @itsongit. pipeline/plan.py assigns arms per day, pipeline/experiments.py reports. Reels before 'started' are the baseline (all hook=price). Format test (classic vs story) since 2026-11-02.",
  "started": "2026-11-01",
  "reels_per_day": 3,
  "windows": [
@@ -31,6 +31,23 @@
  },
  "min_gap_minutes": 80,
  "experiments": {
+  "format": {
+   "started": "2026-11-02",
+   "question": "Does the animated story format (Kit the cat, beats, whip pans) beat the classic ad template?",
+   "arms": {
+    "classic": "the price-card / demo-hook template (then split A/B by the hook test)",
+    "story": "animated explainer: hook slam on frame 0, Kit reacting with lip sync, versus/app/list/counter scenes, whip pans, re-hooks, 22-35 s"
+   },
+   "primary": "views",
+   "secondary": [
+    "skip_rate",
+    "avg_watch_s",
+    "shares_saves_per_100",
+    "follows"
+   ],
+   "min_per_arm": 12,
+   "decide": "story wins if its median views beat classic by 30%+ with no worse skip rate: then it becomes 2 of 3 daily reels (and 3 of 3 if it wins again over the next 12). Classic wins if story isn't ahead after 12 each."
+  },
   "hook": {
    "question": "Does showing the app in action on frame 0 cut the 3-second skip rate?",
    "arms": {
@@ -43,14 +60,15 @@
     "views"
    ],
    "min_per_arm": 15,
-   "decide": "B wins if its median skip rate is at least 5 points lower than A's AND its median views are not lower. A wins if B is not better after 15 per arm. Then make the winner the default and test the next hook idea against it."
+   "decide": "B wins if its median skip rate is at least 5 points lower than A's AND its median views are not lower. A wins if B is not better after 15 per arm. Then make the winner the default and test the next hook idea against it.",
+   "note": "From 2026-11-02 only classic-format reels run the hook test (half the classic rows each)."
   },
   "topic": {
    "question": "Which kind of 'everyone pays for this' pick travels furthest?",
    "arms": {
-    "subscription": "replaces a famous monthly/yearly subscription (Adobe, Canva, Grammarly, Office\u2026)",
-    "utility": "desktop/phone utility that fixes a daily annoyance (Magnet, Paste, CleanMyMac\u2026)",
-    "hobby": "creative/hobby tool where the paid app is famous in that hobby (Serato, Photoshop\u2026)"
+    "subscription": "replaces a famous monthly/yearly subscription (Adobe, Canva, Grammarly, Office…)",
+    "utility": "desktop/phone utility that fixes a daily annoyance (Magnet, Paste, CleanMyMac…)",
+    "hobby": "creative/hobby tool where the paid app is famous in that hobby (Serato, Photoshop…)"
    },
    "primary": "views",
    "secondary": [

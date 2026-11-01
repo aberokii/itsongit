@@ -356,3 +356,22 @@ so over any 6 days every window × hook, window × topic and hook × topic cell 
 
 **After a verdict:** apply it, log it under `"decisions"` in `data/experiments.json`, and test the next idea against
 the new default (another hook visual, a 25-second cut, an early-morning window).
+
+## 16. Story format (since 2026-11-02)
+
+**Why.** Faceless AI/tech accounts built with Claude + Remotion (e.g. @adilet.fndr: 50K followers from 33 posts; his
+own dashboard shows 5.9M views and +42K followers in 40 days, top reels 1.29M / 780K views) don't run an ad template.
+What his public playbook (adiletfndr.com) and grid show: story-driven scripts with curiosity loops and many hook
+patterns, banned openers and corporate words, animated scenes with physics (overshoot, impact shake, whip pans, zoom
+kicks), no flat moments, word-timed kinetic captions, a cartoon presenter with lip sync and moods, big numbers on
+the covers, and about one carefully made reel a day.
+
+**What we built.** `studio/src/Story.tsx` (scene engine: slam, counter, app, versus, list, character, cta; whip pans
+with motion blur, impact shake, the first beat owns frame 0) and `studio/src/Mascot.tsx` (Kit, the cat from our
+logo: lip sync from word timings, blinks, moods neutral/shock/smug/excited/worried/point, springs between the corner
+and centre stage). `make.py` builds it from `"format": "story"` + `"beats"`. Script rules and the hook library are in
+SKILL.md §3b. It is A/B tested against the classic template (data/experiments.json → format).
+
+**Next ideas if story wins:** an ElevenLabs voice (needs an `ELEVENLABS_API_KEY` secret; Kokoro is the weakest part
+of the stack), dropping to 1–2 reels a day with more polish each, and story topics beyond single repos
+("5 free apps that replace your subscriptions", "why open source is eating Adobe").

@@ -7,6 +7,10 @@ import {Thumbnail, type ThumbProps} from "./Thumbnail";
 import {LogoIG, LogoRound} from "./Logo";
 import {Reel, type ReelProps} from "./Reel";
 import reelDefaults from "./reel-default-props.json";
+import {Story, type StoryProps} from "./Story";
+
+const storyDefaults: StoryProps = {accent: 0, dir: "reels/demo", words: [], keyword: "MIX", end: 3,
+  beats: [{start: 0, end: 3, scene: "slam", text: "Hello", mood: "excited"}]};
 
 const thumb001: ThumbProps = {
   accent: 0, icon: "v001/icon.png", paid: "CleanMyMac", price: "$40/yr",
@@ -20,6 +24,15 @@ export const RemotionRoot: React.FC = () => (
     component={Reel}
     defaultProps={reelDefaults as unknown as ReelProps}
     calculateMetadata={({props}) => ({durationInFrames: Math.round(props.b.end * FPS)})}
+    fps={FPS}
+    width={1080}
+    height={1920}
+  />
+  <Composition
+    id="story"
+    component={Story}
+    defaultProps={storyDefaults}
+    calculateMetadata={({props}) => ({durationInFrames: Math.round(props.end * FPS)})}
     fps={FPS}
     width={1080}
     height={1920}

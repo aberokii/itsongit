@@ -17,7 +17,8 @@ print secrets, never write them to files, never commit .env.
    the cover headline and hook B's frame-0 headline; `platforms`; honest install line; the one catch in the caption).
    Read BRAND.md once.
 
-3. The plan: `python3 pipeline/plan.py ${TODAY}`. It gives 3 rows (window · time · slot · hook arm · topic arm).
+3. The plan: `python3 pipeline/plan.py ${TODAY}`. It gives 3 rows (window · time · slot · format · hook arm · topic arm).
+   Format "story" = the animated explainer with Kit the cat (SKILL.md §3b); "classic" = the template (§3).
    If this is a manual run and a row's time is less than 30 minutes from now, drop that row (make fewer reels) and
    say so in the report.
 
@@ -31,6 +32,10 @@ print secrets, never write them to files, never commit .env.
 5. Research: one sub-agent per pick, launched in parallel in one message, with model "sonnet", exactly as the skill
    describes, plus: set `"topic_arm"` to the pick's arm and find a `"demo"` (a README/site clip or GIF of the app in
    use, or two mid-task screenshots), because any pick may land on hook B. Read each report's doubts and fix the spec.
+   For a STORY row, the agent researches the same facts, screenshots and price, but you write the `"format": "story"`
+   spec with `"beats"` yourself (SKILL.md §3b: hook pattern on beat 1, Kit reacting on beat 2, a versus beat, 1–2 app
+   beats with real screenshots, re-hooks, the keyword CTA; 65–95 words; no banned openers or words). Use a different
+   hook pattern for each story reel.
    Number new folders from the highest existing videos/NNN.
 
 6. Stamp the plan: `python3 pipeline/plan.py ${TODAY} videos/NNN-a videos/NNN-b videos/NNN-c` (sets hook_style,
@@ -41,7 +46,9 @@ print secrets, never write them to files, never commit .env.
    plus frame 0. For hook B check frame 0 shows the app in use, big and legible, and the headline fits 2 lines.
    Check fonts render as Inter (not a fallback) and chip emoji render. Fix and rebuild anything that fails (max 2
    rebuilds; a weak demo can be swapped for better screenshots). If a reel still fails, replace it with another
-   repo of the SAME topic arm and keep its hook arm.
+   repo of the SAME topic arm and keep its format and hook arm.
+   Story reels: check frame 0 shows the hook text big, every beat's scene matches its line, Kit never covers text,
+   and the length is 22–35 s. Watch the first 3 seconds of the MP4 frames closely: that's what the skip rate measures.
 
 8. Schedule: `python3 pipeline/zernio.py publish videos/NNN-slug` (date, time and slot come from video.json). Never use
    --now. Confirm each with `python3 pipeline/zernio.py status videos/NNN-slug` (must say scheduled).
@@ -50,6 +57,6 @@ print secrets, never write them to files, never commit .env.
    `git add videos/*/video.json videos/*/post.json videos/*/script.txt videos/*/assets POSTED_REPOS.md data/posted.json data/candidates data/backlog.json`
    (never media, never .env), commit as "reels: ${TODAY}", `git pull --rebase`, and `git push`.
 
-10. Final message: a markdown table with time (Berlin) · window · hook arm · topic arm · repo · paid alternative +
+10. Final message: a markdown table with time (Berlin) · window · format · hook arm · topic arm · repo · paid alternative +
     price · keyword · length · LUFS · Zernio status, then any repo you skipped and why, and anything that went wrong.
     If `data/backlog.json` has fewer than 3 picks left for any arm, say so.

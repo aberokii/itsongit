@@ -118,6 +118,123 @@ def norm(t):
     return re.sub(r"[^a-z0-9]", "", t.lower())
 
 
+def voice_and_align(V, vdir, pub, work, sections, skip_tts):
+    """Kokoro voice + whisper word times, then align the script tokens to the speech. Returns (toks, times, words)."""
+    script = " ".join(t for _, t in sections)
+    (vdir / "script.txt").write_text(script + "\n")
+    toks = [(sec, w, norm(w)) for sec, text in sections for w in text.split()]
+    vo = pub / "vo.wav"
+    if not (skip_tts and vo.exists()):
+        env = {**os.environ, "HYPERFRAMES_PYTHON": PY}
+        voice = BRAND["voice"]
+        run(["npx", "-y", HF, "tts", vdir / "script.txt", "-v", voice["id"], "-s", V.get("voice_speed", voice["speed"]), "-o", vo], env=env)
+        run([PY, ROOT / "pipeline/transcribe.py", vo, work / "transcript.json", "--prompt", f"{V['name']}, {V['paid']['name']}, GitHub"])
+    tw = json.loads((work / "transcript.json").read_text())["words"]
+    sm = difflib.SequenceMatcher(a=[t[2] for t in toks], b=[norm(w["text"]) for w in tw], autojunk=False)
+    times = [None] * len(toks)
+    for blk in sm.get_matching_blocks():
+        for k in range(blk.size):
+            w = tw[blk.b + k]
+            times[blk.a + k] = (w["start"], w["end"])
+    i = 0
+    while i < len(toks):
+        if times[i] is None:
+            j = i
+            while j < len(toks) and times[j] is None:
+                j += 1
+            t0 = times[i - 1][1] if i > 0 else 0.0
+            t1 = times[j][0] if j < len(toks) else tw[-1]["end"]
+            step = (t1 - t0) / (j - i)
+            for k in range(i, j):
+                times[k] = (round(t0 + step * (k - i), 3), round(t0 + step * (k - i + 1), 3))
+            i = j
+        else:
+            i += 1
+    kw = norm(V["keyword"])
+    words = [{"text": (V["keyword"].upper() + re.sub(r"^\w+", "", d)) if n == kw else d, "start": s_, "end": e_}
+             for (_, d, n), (s_, e_) in zip(toks, times)]
+    return toks, times, words
+
+
+STORY_SCENES = {"slam", "counter", "app", "versus", "list", "character", "cta"}
+
+
+def make_story(V, vdir, slot, pub, pub_rel, work, a):
+    """Format C. video.json "beats": [{"say", "scene", ...scene fields}], see SKILL.md §3b. One beat = one spoken
+    line = one animated scene, cut on its first word. Kit the cat lip-syncs to the voice and reacts per beat "mood"."""
+    slug = vdir.name
+    beats_in = V["beats"]
+    for i, bt in enumerate(beats_in):
+        if bt.get("scene") not in STORY_SCENES:
+            sys.exit(f"beat {i}: scene must be one of {sorted(STORY_SCENES)}")
+    if beats_in[-1]["scene"] != "cta" or norm(V["keyword"]) not in [norm(w) for w in beats_in[-1]["say"].split()]:
+        sys.exit("the last beat must be scene 'cta' and say the keyword (\"Comment Mix, and I'll send you the link.\")")
+    sections = [(f"b{i}", bt["say"]) for i, bt in enumerate(beats_in)]
+    toks, times, words = voice_and_align(V, vdir, pub, work, sections, a.skip_tts)
+    print(f"[{slug}] story: {len(toks)} words, {len(beats_in)} beats")
+
+    def start_of(i):
+        return next(times[k][0] for k, t in enumerate(toks) if t[0] == f"b{i}")
+
+    def anchor(i, word):
+        hits = [times[k][0] for k, t in enumerate(toks) if t[0] == f"b{i}" and t[2] == norm(word)]
+        if not hits:
+            sys.exit(f"beat {i}: anchor '{word}' is not a word in its say: {beats_in[i]['say']!r}")
+        return hits[0]
+
+    end = round(words[-1]["end"] + 1.8, 3)
+    if end > 60:
+        sys.exit(f"story is {end:.1f}s: keep it 22-40 s (cut beats)")
+    fetch(V["icon"], pub / "icon.png", 1024)
+    round_icon(pub / "icon.png")
+    beats = []
+    for i, bt in enumerate(beats_in):
+        b = {k: v for k, v in bt.items() if k not in ("say", "items", "image")}
+        b["start"] = round(start_of(i) - 0.1, 3) if i else 0.0
+        b["end"] = round(start_of(i + 1) - 0.1, 3) if i + 1 < len(beats_in) else end
+        if bt.get("image"):
+            w, h = fetch(bt["image"], pub / f"b{i}.png")
+            b["image"] = {"src": f"{pub_rel}/b{i}.png", "w": w, "h": h}
+        if bt.get("items"):
+            b["items"] = [{"label": it["label"], "at": anchor(i, it["anchor"])} for it in bt["items"][:3]]
+        if bt["scene"] == "versus":
+            b.setdefault("paid", V["paid"]["name"]); b.setdefault("price", price_short(V)); b.setdefault("name", V["name"])
+        beats.append(b)
+    props = {"accent": slot, "dir": pub_rel, "words": words, "beats": beats, "keyword": V["keyword"], "end": end, "icon": "icon.png"}
+    (work / "props.json").write_text(json.dumps(props))
+    raw = work / "reel_raw.mp4"
+    run(["npx", "remotion", "render", "src/index.ts", "story", raw, f"--props={work / 'props.json'}", "--codec=h264", "--crf=18",
+         "--audio-bitrate=320k"], cwd=ROOT / "studio")
+    final = vdir / "FINAL.mp4"
+    run(["ffmpeg", "-v", "error", "-y", "-i", raw, "-c:v", "copy", "-af", "loudnorm=I=-14:TP=-1.5:LRA=11", "-c:a", "aac",
+         "-b:a", "320k", "-ar", "48000", "-movflags", "+faststart", final])
+    th = V["thumb"]
+    tprops = {"accent": slot, "icon": f"{pub_rel}/icon.png", "paid": V["paid"]["name"], "price": price_short(V),
+              "big": th.get("big", "FREE"), "line1": th["line1"], "line2": th["line2"], "repo": V["repo"], "job": V.get("job", "")}
+    (work / "thumb.json").write_text(json.dumps(tprops))
+    run(["npx", "remotion", "still", "src/index.ts", "thumb", vdir / "FINAL_thumbnail.png", f"--props={work / 'thumb.json'}"], cwd=ROOT / "studio")
+    post_path = vdir / "post.json"
+    post = json.loads(post_path.read_text()) if post_path.exists() else {}
+    post.update({"title": V["title"], "video": "FINAL.mp4", "thumbnail": "FINAL_thumbnail.png",
+                 "repo_url": f"https://github.com/{V['repo']}", "keyword": V["keyword"].upper(), "caption": V["caption"],
+                 "dm_pitch": V["dm_pitch"], "install": V["install"], "dm_on_any_comment": True, "follow_gate": True, "slot": slot,
+                 "price_source": V["paid"].get("source"),
+                 "experiment": {"format": "story", "hook": "story", "topic": V.get("topic_arm"), "window": V.get("window")}})
+    post_path.write_text(json.dumps(post, indent=2, ensure_ascii=False))
+    ver = vdir / "verify"
+    ts = [0.0] + [min(b["end"] - 0.05, b["start"] + 0.9) for b in beats[1:]] + [end - 0.3]
+    for n_, t in enumerate(ts):
+        run(["ffmpeg", "-v", "error", "-y", "-ss", f"{t:.2f}", "-i", final, "-frames:v", "1", "-vf", "scale=216:-1", ver / f"s{n_:02d}.png"])
+    files = sorted(ver.glob("s*.png"))
+    for r_, row in enumerate([files[i:i + 7] for i in range(0, len(files), 7)]):
+        args = sum((["-i", q] for q in row), [])
+        run(["ffmpeg", "-v", "error", "-y", *args, "-filter_complex", f"hstack={len(row)}" if len(row) > 1 else "null", ver / f"row{r_}.png"])
+    run(["ffmpeg", "-v", "error", "-y", "-i", vdir / "FINAL_thumbnail.png", "-vf", "scale=300:-1", ver / "thumb.png"])
+    lufs = subprocess.run(["ffmpeg", "-hide_banner", "-i", final, "-af", "ebur128", "-f", "null", "-"], capture_output=True, text=True).stderr
+    m = re.findall(r"I:\s+(-?[\d.]+) LUFS", lufs)
+    print(f"[{slug}] DONE story {final} | {end:.1f}s | {m[-1] if m else '?'} LUFS | QA: {ver}/row*.png + thumb.png")
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("video_dir")
@@ -138,6 +255,8 @@ def main():
     for d in (pub, vdir / "work", vdir / "verify"):
         d.mkdir(parents=True, exist_ok=True)
     work = vdir / "work"
+    if V.get("format") == "story":  # format C: animated explainer with Kit the cat (studio/src/Story.tsx)
+        return make_story(V, vdir, slot, pub, pub_rel, work, a)
 
     # ── 1. script: ordered sections → tokens ──────────────────────────────────────────────────
     sections = [("hook", V["hook"]), ("name", V.get("name_line", f"It's called {V['name']}.")), ("github", V.get("github_line", GITHUB_LINE))]
@@ -338,7 +457,7 @@ def main():
                  "dm_pitch": V["dm_pitch"], "install": V["install"], "dm_on_any_comment": True, "follow_gate": True, "slot": slot,
                  "price_source": V["paid"].get("source"),
                  # experiment arms, read back by pipeline/experiments.py
-                 "experiment": {"hook": hook_style, "topic": V.get("topic_arm"), "window": V.get("window")}})
+                 "experiment": {"format": "classic", "hook": hook_style, "topic": V.get("topic_arm"), "window": V.get("window")}})
     post_path.write_text(json.dumps(post, indent=2, ensure_ascii=False))
 
     # ── 11. QA sheet + loudness ───────────────────────────────────────────────────────────────
