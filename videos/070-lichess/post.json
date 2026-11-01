@@ -1,0 +1,28 @@
+{
+  "title": "Lichess: free Chess.com alternative",
+  "video": "FINAL.mp4",
+  "thumbnail": "FINAL_thumbnail.png",
+  "repo_url": "https://github.com/lichess-org/lila",
+  "keyword": "CHESS",
+  "caption": "Chess.com charges $10.99/month to review your chess games. Lichess does it for free \u265f\ufe0f\n\n\u2705 Play live games against anyone, or the computer\n\u2705 Unlimited puzzles\n\u2705 Free computer analysis to learn from your mistakes\n\u2705 No ads, no tracking, no paywall, 100% free\n\n\ud83d\udcbb Any browser \u00b7 iPhone \u00b7 Android\n\u2139\ufe0f Heads up: Chess.com's free plan gives you a taste, but full game analysis starts at Platinum ($10.99/month). Lichess is a non-profit run on donations\n\nComment \"CHESS\" and I'll DM you the link \ud83d\udd17\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #chess #chesspuzzles #chesscom #lichess #freeapps #hobby",
+  "dm_pitch": "Lichess, the free open-source Chess.com alternative \u265f\ufe0f",
+  "install": "Download from the App Store or Google Play",
+  "dm_on_any_comment": true,
+  "follow_gate": true,
+  "slot": 2,
+  "price_source": "https://www.chess.com/membership",
+  "experiment": {
+    "hook": "price",
+    "topic": "hobby",
+    "window": "night"
+  },
+  "idempotencyKey": "b00f55c8-1e10-4fe5-af68-cace88786d34",
+  "zernio": {
+    "postId": "6ae724ccc3ae5de2ec311fba",
+    "status": "scheduled",
+    "scheduledFor": "2026-11-01T20:53:00.000Z",
+    "url": null,
+    "automationId": "6ae724cfba258dc06829451b",
+    "slot": 2
+  }
+}

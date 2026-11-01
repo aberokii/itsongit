@@ -1,0 +1,28 @@
+{
+  "title": "uBlock Origin: free AdGuard alternative",
+  "video": "FINAL.mp4",
+  "thumbnail": "FINAL_thumbnail.png",
+  "repo_url": "https://github.com/gorhill/uBlock",
+  "keyword": "BLOCK",
+  "caption": "AdGuard charges $29.88/year to block ads. uBlock Origin does it for free \ud83d\udee1\ufe0f\n\n\u2705 Blocks ads, trackers, popups and malware sites\n\u2705 Popup shows what it blocked on every page\n\u2705 Switch on extra filter lists to block even more\n\u2705 No subscription, no account, 100% free\n\n\ud83d\udcbb Firefox (computer + Android) \u00b7 Opera\n\u2139\ufe0f Heads up: Chrome and Edge are dropping the full uBlock Origin, so there you only get the lighter uBlock Origin Lite. AdGuard's $29.88 is its regular yearly Personal price\n\nComment \"BLOCK\" and I'll DM you the link \ud83d\udd17\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #adblock #ublockorigin #privacy #firefox #freeapps #techtips",
+  "dm_pitch": "uBlock Origin, the free open-source AdGuard alternative \ud83d\udee1\ufe0f",
+  "install": "Download from your browser's add-on store",
+  "dm_on_any_comment": true,
+  "follow_gate": true,
+  "slot": 1,
+  "price_source": "https://adguard.com/en/license.html",
+  "experiment": {
+    "hook": "demo",
+    "topic": "utility",
+    "window": "evening"
+  },
+  "idempotencyKey": "537ca772-1542-40e1-8d75-cdccf2d21add",
+  "zernio": {
+    "postId": "6ae724c6887b410fd1bacbda",
+    "status": "scheduled",
+    "scheduledFor": "2026-11-01T17:02:00.000Z",
+    "url": null,
+    "automationId": "6ae724c8b95710fefe6e06df",
+    "slot": 1
+  }
+}

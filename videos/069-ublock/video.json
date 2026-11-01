@@ -1,0 +1,112 @@
+{
+  "repo": "gorhill/uBlock",
+  "name": "uBlock Origin",
+  "title": "uBlock Origin: free AdGuard alternative",
+  "slot": 1,
+  "keyword": "BLOCK",
+  "topic_arm": "utility",
+  "paid": {
+    "name": "AdGuard",
+    "price": "$29.88",
+    "per": "/year",
+    "anchor": "thirty",
+    "source": "https://adguard.com/en/license.html"
+  },
+  "icon": "assets/icon.png",
+  "hook": "AdGuard charges you thirty bucks a year to block ads. This app does it for free.",
+  "job": "Blocks ads on every website",
+  "platforms": [
+    "Firefox",
+    "Android Firefox",
+    "Opera"
+  ],
+  "demo": {
+    "images": [
+      "assets/popup-amo.png",
+      "assets/logger.png"
+    ]
+  },
+  "features": [
+    {
+      "intro": "It wipes the ads off every site.",
+      "say": "Ads, trackers, popups, even malware sites.",
+      "images": [
+        "assets/popup-amo.png",
+        "assets/logger.png"
+      ],
+      "swap_anchor": "malware",
+      "chips": [
+        {
+          "label": "🚫 Ads",
+          "anchor": "ads"
+        },
+        {
+          "label": "👁 Trackers",
+          "anchor": "trackers"
+        },
+        {
+          "label": "Popups",
+          "anchor": "popups"
+        },
+        {
+          "label": "☠️ Malware",
+          "anchor": "malware"
+        }
+      ]
+    },
+    {
+      "say": "The popup shows you how much it blocked on every page.",
+      "images": [
+        "assets/popup-basic.png"
+      ],
+      "chips": [
+        {
+          "label": "📊 Blocked count",
+          "anchor": "blocked"
+        }
+      ]
+    },
+    {
+      "say": "You can switch on extra filter lists to block even more.",
+      "images": [
+        "assets/lists.png"
+      ],
+      "chips": [
+        {
+          "label": "📋 Filter lists",
+          "anchor": "lists"
+        }
+      ]
+    }
+  ],
+  "nolist": [
+    {
+      "say": "No subscription.",
+      "label": "Subscription"
+    },
+    {
+      "say": "No account.",
+      "label": "Account"
+    },
+    {
+      "say": "No paywall.",
+      "label": "Paywall"
+    }
+  ],
+  "install": "Download from your browser's add-on store",
+  "install_url": "https://addons.mozilla.org/addon/ublock-origin/",
+  "install_line": "It runs in Firefox, even on Android, and in Opera. Just add it free from the add-on store.",
+  "caption": "AdGuard charges $29.88/year to block ads. uBlock Origin does it for free 🛡️\n\n✅ Blocks ads, trackers, popups and malware sites\n✅ Popup shows what it blocked on every page\n✅ Switch on extra filter lists to block even more\n✅ No subscription, no account, 100% free\n\n💻 Firefox (computer + Android) · Opera\nℹ️ Heads up: Chrome and Edge are dropping the full uBlock Origin, so there you only get the lighter uBlock Origin Lite. AdGuard's $29.88 is its regular yearly Personal price\n\nComment \"BLOCK\" and I'll DM you the link 🔗\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #adblock #ublockorigin #privacy #firefox #freeapps #techtips",
+  "dm_pitch": "uBlock Origin, the free open-source AdGuard alternative 🛡️",
+  "thumb": {
+    "big": "FREE",
+    "line1": "AdGuard",
+    "line2": "alternative"
+  },
+  "hook_style": "demo",
+  "window": "evening",
+  "publish": {
+    "date": "2026-11-01",
+    "time": "18:02"
+  }
+}

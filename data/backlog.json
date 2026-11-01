@@ -47,31 +47,6 @@
   "close_to": "012 PdfCraft (PDF)"
  },
  {
-  "repo": "gorhill/uBlock",
-  "name": "uBlock Origin",
-  "arm": "utility",
-  "paid": {
-   "name": "AdGuard Personal",
-   "price": "$29.88",
-   "per": "/year",
-   "source": "https://adguard.com/en/license.html"
-  },
-  "job": "Blocks every ad on the web",
-  "platforms": [
-   "Firefox",
-   "Chrome",
-   "Edge",
-   "Safari (Lite)"
-  ],
-  "mass_appeal": 8,
-  "demo_media": null,
-  "stars": 68974,
-  "contributors": 14,
-  "why": "Ads everywhere is the most universal annoyance and uBlock Origin is the famous free blocker people swear by.",
-  "catch": "Full version no longer runs on Chrome (only 'uBO Lite' due to Manifest V3); AdGuard's page hides prices behind JS, $29.88/yr is third-party; one maintainer does most commits.",
-  "price_verified": false
- },
- {
   "repo": "JunkFood02/Seal",
   "name": "Seal",
   "arm": "utility",
@@ -93,30 +68,6 @@
   "catch": "Android only; downloading may break platform ToS; close-ish to posted Flow (YouTube client), avoid YouTube-only framing.",
   "price_verified": true,
   "close_to": "010 Flow (YouTube)"
- },
- {
-  "repo": "lichess-org/lila",
-  "name": "Lichess",
-  "arm": "hobby",
-  "paid": {
-   "name": "Chess.com Gold",
-   "price": "$5.99",
-   "per": "/month",
-   "source": "https://www.chess.com/membership"
-  },
-  "job": "Plays chess with no paywalls",
-  "platforms": [
-   "Web",
-   "iOS",
-   "Android"
-  ],
-  "mass_appeal": 8,
-  "demo_media": null,
-  "stars": 18933,
-  "contributors": 44,
-  "why": "Chess is huge with 20-somethings and Lichess gives unlimited puzzles and game analysis that Chess.com paywalls.",
-  "catch": "Chess.com prices are not shown without logging in; $5.99/mo Gold is a third-party figure; only two README images (site has plenty).",
-  "price_verified": false
  },
  {
   "repo": "darktable-org/darktable",

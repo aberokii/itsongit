@@ -1,0 +1,94 @@
+{
+  "repo": "lichess-org/lila",
+  "name": "Lichess",
+  "title": "Lichess: free Chess.com alternative",
+  "slot": 2,
+  "keyword": "CHESS",
+  "topic_arm": "hobby",
+  "paid": {
+    "name": "Chess.com Platinum",
+    "price": "$10.99",
+    "per": "/month",
+    "anchor": "ten",
+    "source": "https://www.chess.com/membership"
+  },
+  "icon": "assets/icon.png",
+  "hook": "Chess dot com charges you ten ninety nine a month to review your chess games. This app does it for free.",
+  "job": "Reviews your chess games free",
+  "platforms": [
+    "any browser",
+    "iPhone",
+    "Android"
+  ],
+  "demo": {
+    "images": [
+      "assets/puzzle.png",
+      "assets/mobile.png"
+    ]
+  },
+  "features": [
+    {
+      "intro": "It's a full chess site.",
+      "say": "Play live games against anyone, or the computer.",
+      "images": [
+        "assets/home-bicolor.png"
+      ],
+      "chips": [
+        {
+          "label": "♟ Live games",
+          "anchor": "live"
+        },
+        {
+          "label": "🤖 Computer",
+          "anchor": "computer"
+        }
+      ]
+    },
+    {
+      "say": "Unlimited puzzles, plus free computer analysis to learn from your mistakes.",
+      "images": [
+        "assets/puzzle.png"
+      ],
+      "chips": [
+        {
+          "label": "🧩 Puzzles",
+          "anchor": "puzzles"
+        },
+        {
+          "label": "📈 Analysis",
+          "anchor": "analysis"
+        }
+      ]
+    }
+  ],
+  "nolist": [
+    {
+      "say": "No ads.",
+      "label": "Ads"
+    },
+    {
+      "say": "No tracking.",
+      "label": "Tracking"
+    },
+    {
+      "say": "No paywall.",
+      "label": "Paywall"
+    }
+  ],
+  "install": "Download from the App Store or Google Play",
+  "install_url": "https://lichess.org",
+  "install_line": "It runs in any browser, on iPhone and Android. Just open the site or grab the free app.",
+  "caption": "Chess.com charges $10.99/month to review your chess games. Lichess does it for free ♟️\n\n✅ Play live games against anyone, or the computer\n✅ Unlimited puzzles\n✅ Free computer analysis to learn from your mistakes\n✅ No ads, no tracking, no paywall, 100% free\n\n💻 Any browser · iPhone · Android\nℹ️ Heads up: Chess.com's free plan gives you a taste, but full game analysis starts at Platinum ($10.99/month). Lichess is a non-profit run on donations\n\nComment \"CHESS\" and I'll DM you the link 🔗\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #chess #chesspuzzles #chesscom #lichess #freeapps #hobby",
+  "dm_pitch": "Lichess, the free open-source Chess.com alternative ♟️",
+  "thumb": {
+    "big": "FREE",
+    "line1": "Chess.com",
+    "line2": "alternative"
+  },
+  "hook_style": "price",
+  "window": "night",
+  "publish": {
+    "date": "2026-11-01",
+    "time": "21:53"
+  }
+}

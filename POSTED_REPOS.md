@@ -70,5 +70,7 @@ The scout (`pipeline/scout.py`) skips these automatically via `data/posted.json`
 | 63 | [Oleafly/Oleafly](https://github.com/Oleafly/Oleafly) | 063-oleafly | PAPER | published | 2026-10-31T11:17 | https://www.instagram.com/reel/DfKB8ealbU9/ |
 | 64 | [al1abb/invoify](https://github.com/al1abb/invoify) | 064-invoify | INVOICE | published | 2026-10-31T12:29 | https://www.instagram.com/reel/DfKKIpmAi0c/ |
 | 65 | [objective-see/LuLu](https://github.com/objective-see/LuLu) | 066-lulu | FIREWALL | published | 2026-10-31T13:42 | https://www.instagram.com/reel/DfKSe4DD9nB/ |
-| 66 | [organicmaps/organicmaps](https://github.com/organicmaps/organicmaps) | 067-organicmaps | MAPS | scheduled | 2026-10-31T17:50 |  |
-| 67 | [meditohq/medito-app](https://github.com/meditohq/medito-app) | 068-medito | RELAX | scheduled | 2026-10-31T21:47 |  |
+| 66 | [organicmaps/organicmaps](https://github.com/organicmaps/organicmaps) | 067-organicmaps | MAPS | published | 2026-10-31T17:52 | https://www.instagram.com/reel/DfKvFe8EZKH/ |
+| 67 | [meditohq/medito-app](https://github.com/meditohq/medito-app) | 068-medito | RELAX | published | 2026-10-31T21:48 | https://www.instagram.com/reel/DfLKFrklNK7/ |
+| 68 | [gorhill/uBlock](https://github.com/gorhill/uBlock) | 069-ublock | BLOCK | scheduled | 2026-11-01T17:02 |  |
+| 69 | [lichess-org/lila](https://github.com/lichess-org/lila) | 070-lichess | CHESS | scheduled | 2026-11-01T20:53 |  |
