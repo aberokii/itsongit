@@ -40,7 +40,7 @@ const Body: React.FC<ThumbProps> = ({icon, paid, price, big, line1, line2, repo,
       </div>
       {job ? (
         <>
-          <div style={{position: "absolute", top: 1140, left: 60, right: 60, textAlign: "center", fontWeight: 900, fontSize: job.length > 22 ? 104 : 120, letterSpacing: "-0.05em", lineHeight: 1.02, textWrap: "balance", textShadow: "0 8px 40px rgba(0,0,0,0.7)"}}>
+          <div style={{position: "absolute", top: 1140, left: 60, right: 60, textAlign: "center", fontWeight: 900, fontSize: job.length > 22 ? 104 : 120, letterSpacing: "-0.05em", lineHeight: 1.02, textWrap: "balance", textShadow: "0 0 30px rgba(255,255,255,0.9)"}}>
             {job}
           </div>
           <div style={{position: "absolute", top: 1385, fontWeight: 800, fontSize: 46, color: C.MUTED}}>
@@ -48,7 +48,7 @@ const Body: React.FC<ThumbProps> = ({icon, paid, price, big, line1, line2, repo,
           </div>
         </>
       ) : (
-        <div style={{position: "absolute", top: 1150, textAlign: "center", fontWeight: 900, fontSize: 128, letterSpacing: "-0.05em", lineHeight: 1.02, textShadow: "0 8px 40px rgba(0,0,0,0.7)"}}>
+        <div style={{position: "absolute", top: 1150, textAlign: "center", fontWeight: 900, fontSize: 128, letterSpacing: "-0.05em", lineHeight: 1.02, textShadow: "0 0 30px rgba(255,255,255,0.9)"}}>
           {line1}
           <br />
           {line2}

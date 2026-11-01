@@ -3,11 +3,13 @@ import {AbsoluteFill, Img, interpolate, Sequence, spring, staticFile, useCurrent
 import {Audio, Video} from "@remotion/media";
 import {loadFont as loadInter} from "@remotion/google-fonts/Inter";
 import {loadFont as loadMono} from "@remotion/google-fonts/JetBrainsMono";
+import {loadFont as loadSerif} from "@remotion/google-fonts/InstrumentSerif";
 import {accentFor, C, rgba, SAFE, type Accent} from "./brand";
 
 export {C, SAFE, rgba};
 export const {fontFamily: INTER} = loadInter("normal", {weights: ["600", "800", "900"], subsets: ["latin"]});
 export const {fontFamily: MONO} = loadMono("normal", {weights: ["700"], subsets: ["latin"]});
+export const {fontFamily: SERIF} = loadSerif("italic", {weights: ["400"], subsets: ["latin"]});
 
 export const AccentCtx = createContext<Accent>(accentFor(0));
 export const useAccent = () => useContext(AccentCtx);
@@ -41,8 +43,10 @@ export const Background: React.FC = () => {
   return (
     <AbsoluteFill
       style={{
-        background: `radial-gradient(circle at ${gx}% ${gy}%, ${rgba(accent.hex, 0.17)}, transparent 58%),
-          radial-gradient(rgba(240,246,252,0.07) 2px, transparent 2px) 0 0 / 44px 44px, ${C.BG}`,
+        // paper: a warm off-white with a soft lighter centre, a faint accent bloom and a barely-there dot grid
+        background: `radial-gradient(circle at ${gx}% ${gy}%, ${rgba(accent.hex, 0.07)}, transparent 55%),
+          radial-gradient(ellipse at 50% 40%, rgba(255,255,255,0.75), transparent 70%),
+          radial-gradient(rgba(23,23,26,0.05) 2px, transparent 2px) 0 0 / 44px 44px, ${C.BG}`,
       }}
     />
   );
@@ -70,7 +74,7 @@ export const Chip: React.FC<{
         borderRadius: size * 0.5,
         background: solid ? accent.hex : C.CARD,
         border: `3px solid ${tone === "plain" ? C.LINE : accent.hex}`,
-        boxShadow: solid ? `0 18px 50px ${rgba(accent.hex, 0.45)}` : "0 18px 40px rgba(0,0,0,0.45)",
+        boxShadow: solid ? `0 18px 50px ${rgba(accent.hex, 0.35)}` : `0 14px 36px ${C.SHADOW}`,
         color: solid ? accent.ink : tone === "accent" ? accent.hex : C.TEXT,
         fontFamily: mono ? MONO : INTER,
         fontWeight: 900,
@@ -103,7 +107,7 @@ export const Phone: React.FC<{src: string; url: string; trimBefore?: number; chi
         borderRadius: 86,
         padding: bezel,
         background: "linear-gradient(145deg, #2b3038, #12151a)",
-        boxShadow: "0 50px 120px rgba(0,0,0,0.65), inset 0 0 0 2px #3a414b",
+        boxShadow: `0 50px 120px ${C.SHADOW}, inset 0 0 0 2px #3a414b`,
       }}
     >
       <div style={{position: "relative", width, height: screenH, borderRadius: 70, overflow: "hidden", background: "#000"}}>
@@ -127,7 +131,7 @@ export const Phone: React.FC<{src: string; url: string; trimBefore?: number; chi
 };
 
 export const AppCard: React.FC<{src: string; width?: number; style?: React.CSSProperties}> = ({src, width = 960, style}) => (
-  <div style={{width, borderRadius: 26, overflow: "hidden", border: `3px solid ${C.LINE}`, boxShadow: "0 40px 100px rgba(0,0,0,0.6)", background: C.CARD, ...style}}>
+  <div style={{width, borderRadius: 26, overflow: "hidden", border: `3px solid ${C.LINE}`, boxShadow: `0 40px 100px ${C.SHADOW}`, background: C.CARD, ...style}}>
     <Img src={staticFile(src)} style={{width: "100%", display: "block"}} />
   </div>
 );
@@ -189,7 +193,7 @@ export const Captions: React.FC<{words: Word[]; center?: Zone[]; hide?: Zone[]}>
               lineHeight: 1.1,
               letterSpacing: "-0.03em",
               color: active ? accent.hex : C.TEXT,
-              textShadow: "0 6px 30px rgba(0,0,0,0.85), 0 2px 4px rgba(0,0,0,0.9)",
+              textShadow: "0 0 18px rgba(255,255,255,0.95), 0 2px 0 rgba(255,255,255,0.9)",
               opacity: t >= w.start ? 1 : 0,
               transform: `translateY(${(1 - p) * (big ? 40 : 26)}px) scale(${(active ? 1.06 : 1) * (big ? 0.85 + 0.15 * p : 1)})`,
               display: "inline-block",

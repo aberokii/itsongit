@@ -34,7 +34,7 @@
    "say": "DJs are paying a hundred and forty four dollars a year for something that's free.",
    "scene": "slam",
    "text": "$144 a year",
-   "accent": "$144",
+   "accent": "free",
    "tone": "neg",
    "mood": "shock"
   },
@@ -47,14 +47,17 @@
   {
    "say": "Serato charges twelve bucks a month. Mixxx costs nothing.",
    "scene": "versus",
-   "mood": "point"
+   "mood": "point",
+   "select": "nothing"
   },
   {
    "say": "Four decks, real waveforms, and it syncs the beats for you.",
    "scene": "app",
    "image": "https://raw.githubusercontent.com/aberokii/itsongit/main/videos/062-mixxx/assets/full.png",
    "text": "4 decks · auto sync",
-   "mood": "excited"
+   "mood": "excited",
+   "accent": "real",
+   "select": "syncs"
   },
   {
    "say": "It works with your controller, vinyl, even a mic.",
@@ -82,7 +85,8 @@
    "to": 6200,
    "suffix": " ★",
    "label": "GitHub stars",
-   "mood": "excited"
+   "mood": "excited",
+   "select": "free"
   },
   {
    "say": "Nobody should gatekeep this.",

@@ -13,15 +13,15 @@
       html, body { width: 1080px; height: 1920px; overflow: hidden; background: var(--bg); }
       #root { position: relative; width: 100%; height: 100%; font-family: var(--font); color: var(--text); background: var(--bg); overflow: hidden; }
       .layer { position: absolute; inset: 0; }
-      #grid { background: radial-gradient(rgba(240, 246, 252, 0.07) 2px, transparent 2px) 0 0 / 44px 44px; }
-      #glow-bad { background: radial-gradient(circle at 50% 36%, rgba(248, 81, 73, 0.3), transparent 58%); }
+      #grid { background: radial-gradient(ellipse at 50% 40%, rgba(255,255,255,0.75), transparent 70%), radial-gradient(rgba(23, 23, 26, 0.05) 2px, transparent 2px) 0 0 / 44px 44px; }
+      #glow-bad { background: radial-gradient(circle at 50% 36%, rgba(229, 70, 44, 0.18), transparent 58%); }
       #glow-good { background: radial-gradient(circle at 50% 42%, color-mix(in srgb, var(--accent) 34%, transparent), transparent 60%); opacity: 0; }
       .center { position: absolute; left: 0; width: 100%; display: flex; justify-content: center; }
       #top { position: absolute; inset: 0; transform-origin: 50% 300px; }
       #brand { top: 420px; }
       #brand span {
         font-weight: 800; font-size: 66px; letter-spacing: -0.02em; color: var(--text);
-        padding: 14px 38px; border: 4px solid var(--negative); border-radius: 999px; background: rgba(248, 81, 73, 0.14);
+        padding: 14px 38px; border: 4px solid var(--negative); border-radius: 999px; background: rgba(229, 70, 44, 0.10);
       }
       #price { top: 560px; align-items: baseline; }
       #price .num { font-weight: 900; font-size: calc(290px * var(--k, 1)); letter-spacing: -0.07em; line-height: 1; }
@@ -29,7 +29,7 @@
       #strike {
         position: absolute; left: 190px; top: 705px; width: 700px; height: 30px;
         background: var(--negative); border-radius: 15px; transform-origin: left center; rotate: -9deg;
-        box-shadow: 0 0 40px rgba(248, 81, 73, 0.6);
+        box-shadow: 0 0 40px rgba(229, 70, 44, 0.45);
       }
       #rays { position: absolute; left: 540px; top: 760px; width: 0; height: 0; }
       #rays i {
@@ -37,7 +37,7 @@
         background: var(--accent); transform-origin: 7px 380px;
       }
       #icon { top: 570px; }
-      #icon img { width: 380px; height: 380px; filter: drop-shadow(0 30px 70px rgba(0, 0, 0, 0.6)); }
+      #icon img { width: 380px; height: 380px; filter: drop-shadow(0 30px 60px rgba(60, 45, 30, 0.25)); }
       #name { top: 955px; }
       #name span { display: inline-block; font-weight: 900; font-size: 84px; letter-spacing: -0.04em; }
       #free { top: 1075px; align-items: center; gap: 30px; }
@@ -49,7 +49,7 @@
       #job { top: 1385px; }
       #job span {
         font-weight: 800; font-size: var(--js, 56px); letter-spacing: -0.02em; color: var(--text); white-space: nowrap;
-        padding: 14px 36px 18px; border-radius: 999px; background: rgba(240, 246, 252, 0.08); border: 3px solid rgba(240, 246, 252, 0.22);
+        padding: 14px 36px 18px; border-radius: 999px; background: #FFFFFF; border: 3px solid var(--line); box-shadow: 0 10px 30px rgba(60, 45, 30, 0.12);
       }
     </style>
   </head>
@@ -95,7 +95,7 @@
       tl.fromTo("#name", { opacity: 0, y: 30 }, { opacity: 1, y: 0, duration: 0.4, ease: "power3.out" }, T.tThis + 0.68);
       tl.fromTo("#icon", { y: 0 }, { y: -18, duration: T.dur - T.tThis - 0.93, ease: "sine.inOut" }, T.tThis + 0.93);
       // "PureMac" → the name punches in the accent
-      tl.fromTo("#name span", { scale: 1, color: "#f0f6fc" }, { scale: 1.18, color: "var(--accent)", duration: 0.25, ease: "power2.out" }, T.tName - 0.04);
+      tl.fromTo("#name span", { scale: 1, color: "#17171A" }, { scale: 1.18, color: "var(--accent)", duration: 0.25, ease: "power2.out" }, T.tName - 0.04);
       tl.to("#name span", { scale: 1, duration: 0.3, ease: "back.out(2)" }, T.tName + 0.21);
       tl.fromTo("#root", { scale: 1 }, { scale: 1.04, duration: T.dur, ease: "none" }, 0);
       // "free" → $0 slam + burst

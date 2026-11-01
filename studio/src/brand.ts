@@ -11,6 +11,8 @@ export const C = {
   TEXT: brand.base.text,
   MUTED: brand.base.muted,
   NEG: brand.base.negative,
+  SHADOW: brand.base.shadow, // soft warm shadow for cards on paper
+  SELECT: brand.base.select, // Figma-style selection box
 } as const;
 
 export type Accent = {name: string; hex: string; ink: string};

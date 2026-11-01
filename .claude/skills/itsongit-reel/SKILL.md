@@ -188,7 +188,11 @@ Full example: `.claude/skills/itsongit-reel/story-example.json` (Mixxx).
 elevate, cutting-edge. Sound like a friend texting you a find, not a press release. Facts still only from the README.
 
 **Scene fields** (all beats: `say`, `scene`, optional `mood` = neutral | shock | smug | excited | worried | point):
-- `slam`: `text` (1–5 words), `accent` (one word of `text` to colour), `tone` "neg" (red, for prices/pain), `sub` (small line)
+- every beat: `accent` = one word of its `say` shown in tomato italic serif in the spoken line (use it on 1 word per
+  beat at most: the money word, the surprise word); `select` = one word of its `say` boxed in a blue selection box
+  (use on ~every other beat, never the same word as `accent`). The spoken line itself sits at the top-left, word-timed.
+- `slam`: `text` (1–5 words; prices like "$144" render in tomato italic serif automatically), `accent` (a word of
+  `text` to colour), `sub` (small line)
 - `character`: `text` = Kit's speech bubble (≤ 6 words, emoji ok); Kit fills the frame
 - `versus`: nothing required (paid, price, name come from the spec); override with `paid`/`price`/`name`
 - `app`: `image`, `text` (chip)
@@ -196,7 +200,8 @@ elevate, cutting-edge. Sound like a friend texting you a find, not a press relea
 - `counter`: `from`, `to`, `prefix` ("$"), `suffix` (" ★", "/yr"), `label`, `tone`, `sub`
 - `cta`: nothing else
 
-QA for story reels: frame 0 shows the hook text big (not an empty frame); every beat's scene matches its line; Kit is
+Look (paper theme, BRAND.md): warm off-white, charcoal type, tomato for money, Kit big in the bottom-right.
+QA for story reels: frame 0 shows the hook line and the hook text big (not an empty frame); every beat's scene matches its line; Kit is
 never covering text; the price strip/numbers are correct; 22–35 s.
 
 ### Script rules (the voiceover is assembled from these fields)

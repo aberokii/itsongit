@@ -51,7 +51,7 @@ const Seq: React.FC<{from: number; to: number; name: string; children: React.Rea
 const Watermark: React.FC = () => {
   const accent = useAccent();
   return (
-    <div style={{position: "absolute", top: SAFE.top + 22, right: SAFE.side, display: "flex", alignItems: "center", gap: 10, padding: "8px 18px 8px 10px", borderRadius: 999, background: "rgba(11,15,20,0.55)", opacity: 0.92}}>
+    <div style={{position: "absolute", top: SAFE.top + 22, right: SAFE.side, display: "flex", alignItems: "center", gap: 10, padding: "8px 18px 8px 10px", borderRadius: 999, background: rgba(C.CARD, 0.85), boxShadow: `0 8px 24px ${C.SHADOW}`, opacity: 0.95}}>
       <GitMark size={44} accent={accent.hex} />
       <span style={{fontFamily: INTER, fontWeight: 900, fontSize: 32, letterSpacing: "-0.02em", color: C.TEXT}}>@itsongit</span>
     </div>
@@ -132,7 +132,7 @@ const fit = (im: Img2) => {
 const CardImg: React.FC<{im: Img2}> = ({im}) => {
   const {w, h} = fit(im);
   return (
-    <div style={{width: w, height: h, borderRadius: 26, overflow: "hidden", border: `3px solid ${C.LINE}`, boxShadow: "0 40px 100px rgba(0,0,0,0.6)", background: C.CARD}}>
+    <div style={{width: w, height: h, borderRadius: 26, overflow: "hidden", border: `3px solid ${C.LINE}`, boxShadow: `0 40px 100px ${C.SHADOW}`, background: C.CARD}}>
       <Img src={staticFile(im.src)} style={{width: "100%", height: "100%", objectFit: "cover", display: "block"}} />
     </div>
   );
@@ -191,7 +191,7 @@ const Terminal: React.FC<{at: number; o: number; cmd: string}> = ({at, o, cmd}) 
   const size = cmd.length > 42 ? 28 : cmd.length > 34 ? 32 : 40;
   return (
     <div style={{position: "absolute", top: 1250, left: 0, right: 0, display: "flex", justifyContent: "center", opacity: Math.min(p * 1.5, 1), transform: `translateY(${(1 - p) * 60}px)`}}>
-      <div style={{padding: "26px 36px", borderRadius: 22, background: "#010409", border: `3px solid ${accent.hex}`, boxShadow: "0 30px 80px rgba(0,0,0,0.7)", fontFamily: MONO, fontWeight: 700, fontSize: size, color: C.TEXT, minWidth: 820, maxWidth: 980, whiteSpace: "nowrap"}}>
+      <div style={{padding: "26px 36px", borderRadius: 22, background: "#010409", border: `3px solid ${accent.hex}`, boxShadow: `0 30px 80px ${C.SHADOW}`, fontFamily: MONO, fontWeight: 700, fontSize: size, color: "#f0f6fc", minWidth: 820, maxWidth: 980, whiteSpace: "nowrap"}}>
         {/* no one-liner ("Download from GitHub Releases") → a download label, not a fake shell prompt */}
         <span style={{color: accent.hex}}>{/^download/i.test(cmd) ? "⬇ " : "$ "}</span>{cmd.slice(0, n)}<span style={{opacity: Math.floor(t * 3) % 2 ? 1 : 0, color: accent.hex}}>▍</span>
       </div>

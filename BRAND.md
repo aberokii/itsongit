@@ -10,20 +10,27 @@ and HyperFrames through `scripts/brand-css.mjs` → `brand.css`. Don't restyle p
 
 ## Type
 - **Inter** 900 (headlines, captions, chips), 800 (labels), 600 (small UI).
-- **JetBrains Mono** 700 for commands and code.
+- **JetBrains Mono** 700 for commands, code and the story header row.
+- **Instrument Serif** italic for accent words and big numbers.
 
-## Colour
-- Base: bg `#0b0f14`, card `#161b22`, line `#30363d`, text `#f0f6fc`, muted `#8b949e`.
-- Negative / "the paid thing": `#f85149`. Use it only for strikes, ✕ marks and the paid price.
-- **Accent: one of five, by the post's daily slot.** It's the only colour that changes between videos:
+## Colour (paper theme since 2026-11-02; the old dark theme is kept in brand.json as base_dark/accents_dark)
+Bright, editorial, like the fastest-growing faceless AI/tech accounts: warm off-white paper, charcoal type, one
+hot colour for money, white UI cards with soft warm shadows.
+- Base: bg `#F1EFE9` (paper), card `#FFFFFF`, line `#E2DED6`, text `#17171A`, muted `#6E6A64`, shadow `rgba(60,45,30,0.16)`.
+- **Tomato `#E5462C`** = money and pain: prices, strikes, ✕ marks, and the italic-serif accent word of a line.
+- **Selection blue `#2F6BFF`**: Figma-style selection boxes with corner handles around one key word.
+- **Instrument Serif italic** for accent words and big numbers ("at up to *$150,000*"); everything else Inter.
+- Small **JetBrains Mono** header row on story reels: `// 03 — mixxx` left, `SERATO → $0` right, muted.
+- Tag pills cycle blue / tomato / amber / green / violet.
+- **Accent: by the post's daily slot** (the only colour that changes between videos):
 
   | Slot | Accent | Hex |
   |---|---|---|
-  | 0 | green  | `#3fb950` |
-  | 1 | blue   | `#4c9aff` |
-  | 2 | purple | `#a371f7` |
-  | 3 | orange | `#f0883e` |
-  | 4 | yellow | `#e3b341` |
+  | 0 | blue   | `#2F6BFF` |
+  | 1 | green  | `#14A35A` |
+  | 2 | violet | `#7A4DFF` |
+  | 3 | amber  | `#F2A900` |
+  | 4 | pink   | `#E8417C` |
 
   The accent drives the active caption word, solid chips, highlight boxes, the background glow, the $0 or FREE
   slam and the CTA keyword.

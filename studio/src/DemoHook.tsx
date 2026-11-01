@@ -43,13 +43,13 @@ export const DemoHook: React.FC<{dur: number; dir: string; demo: DemoMedia; text
       {/* the outcome, readable on frame 0 */}
       <div style={{position: "absolute", top: 290, left: 50, right: 50, height: 250, display: "flex", alignItems: "center", justifyContent: "center", textAlign: "center",
         fontFamily: INTER, fontWeight: 900, fontSize: jobSize, lineHeight: 1.02, letterSpacing: "-0.045em", color: C.TEXT,
-        textShadow: "0 8px 40px rgba(0,0,0,0.8)"}}>
+        textShadow: "0 0 30px rgba(255,255,255,0.9)"}}>
         {text.job}
       </div>
 
       {/* the app in action */}
       <div style={{position: "absolute", top: CARD_TOP, left: (1080 - CARD_W) / 2, width: CARD_W, height: cardH, borderRadius: 34, overflow: "hidden",
-        border: `4px solid ${rgba(accent.hex, 0.9)}`, boxShadow: `0 50px 120px rgba(0,0,0,0.7), 0 0 80px ${rgba(accent.hex, 0.25)}`, background: "#000"}}>
+        border: `4px solid ${rgba(accent.hex, 0.9)}`, boxShadow: `0 50px 120px ${C.SHADOW}, 0 0 80px ${rgba(accent.hex, 0.2)}`, background: C.CARD}}>
         <div style={{width: "100%", height: "100%", transform: `scale(${push}) translateY(${drift}px)`}}>
           {demo.video ? <Video src={staticFile(demo.video)} muted style={{width: "100%", height: "100%", objectFit: "cover", display: "block"}} />
             : shown ? <Img src={staticFile(shown.src)} style={{width: "100%", height: "100%", objectFit: "cover", objectPosition: "50% 35%", display: "block"}} /> : null}
@@ -65,7 +65,7 @@ export const DemoHook: React.FC<{dur: number; dir: string; demo: DemoMedia; text
       {/* price strip: visible from frame 0, struck on "This", FREE stamps on "free" */}
       <div style={{position: "absolute", top: CARD_TOP + cardH - 120, left: 0, right: 0, display: "flex", justifyContent: "center"}}>
         <div style={{position: "relative", display: "flex", alignItems: "baseline", gap: 22, padding: "16px 40px 22px", borderRadius: 28,
-          background: rgba(C.BG, 0.92), border: `4px solid ${C.NEG}`, boxShadow: "0 20px 60px rgba(0,0,0,0.7)", transform: `scale(${1 + 0.08 * Math.sin(Math.min(priceHit, 1) * Math.PI)})`}}>
+          background: rgba(C.BG, 0.92), border: `4px solid ${C.NEG}`, boxShadow: `0 20px 60px ${C.SHADOW}`, transform: `scale(${1 + 0.08 * Math.sin(Math.min(priceHit, 1) * Math.PI)})`}}>
           <span style={{fontFamily: INTER, fontWeight: 800, fontSize: 62, color: C.TEXT, letterSpacing: "-0.02em"}}>{text.paid}</span>
           <span style={{fontFamily: INTER, fontWeight: 900, fontSize: 96, color: C.NEG, letterSpacing: "-0.05em"}}>{text.price}</span>
           <div style={{position: "absolute", left: 20, right: 20, top: "52%", height: 16, borderRadius: 8, background: C.NEG, transformOrigin: "left center",

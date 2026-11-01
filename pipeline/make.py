@@ -200,7 +200,8 @@ def make_story(V, vdir, slot, pub, pub_rel, work, a):
         if bt["scene"] == "versus":
             b.setdefault("paid", V["paid"]["name"]); b.setdefault("price", price_short(V)); b.setdefault("name", V["name"])
         beats.append(b)
-    props = {"accent": slot, "dir": pub_rel, "words": words, "beats": beats, "keyword": V["keyword"], "end": end, "icon": "icon.png"}
+    props = {"accent": slot, "dir": pub_rel, "words": words, "beats": beats, "keyword": V["keyword"], "end": end, "icon": "icon.png",
+             "name": V["name"], "paid": V["paid"]["name"]}
     (work / "props.json").write_text(json.dumps(props))
     raw = work / "reel_raw.mp4"
     run(["npx", "remotion", "render", "src/index.ts", "story", raw, f"--props={work / 'props.json'}", "--codec=h264", "--crf=18",
@@ -380,11 +381,11 @@ def main():
     inst_dur = b["cta"] - b["install"]
     shots = {"out": str(work), "fps": 30, "shots": [
         {"name": "gh-phone", "url": f"https://github.com/{V['repo']}", "mobile": True, "viewport": [393, 852], "scale": 3,
-         "scheme": "dark", "stepped": True, "measureAbout": True,
+         "scheme": "light", "stepped": True, "measureAbout": True,
          "actions": [{"wait": int(gh_hold1 * 1000)}, {"scroll": 650, "ms": 1600}, {"wait": int(gh_hold2 * 1000)},
                      {"scroll": 1000, "ms": 1800}, {"wait": 2500}]},
         {"name": "install-phone", "url": V.get("install_url") or f"https://github.com/{V['repo']}/releases/latest", "mobile": True,
-         "viewport": [393, 852], "scale": 3, "scheme": "dark", "stepped": True,
+         "viewport": [393, 852], "scale": 3, "scheme": "light", "stepped": True,
          "actions": [{"wait": 1200}, {"scroll": 380, "ms": 1800}, {"wait": 900}, {"scroll": 700, "ms": 2500}, {"wait": int(max(1, inst_dur - 4.5) * 1000)}]},
     ]}
     if not (a.skip_capture and (pub / "gh-phone.mp4").exists()):
