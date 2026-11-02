@@ -1,6 +1,6 @@
-# @itsongit experiments (2026-11-01)
+# @itsongit experiments (2026-11-02)
 
-Reels ≥48 h old: 60 (60 baseline before 2026-11-01, 0 in the test).
+Reels ≥48 h old: 62 (62 baseline before 2026-11-01, 0 in the test).
 
 ## Format test: Does the animated story format (Kit the cat, beats, whip pans) beat the classic ad template?
 
@@ -32,22 +32,22 @@ Reels ≥48 h old: 60 (60 baseline before 2026-11-01, 0 in the test).
 
 | topic | n | median views | median skip % | median watch s | shares+saves /100 views |
 |---|---|---|---|---|---|
-| subscription | 24 | 34.5 | 75.6 | 4.5 | 0.0 |
-| utility | 19 | 71 | 71.7 | 5.3 | 0.3 |
-| hobby | 8 | 58.0 | 83.8 | 4.8 | 0.0 |
-| niche | 9 | 56 | 75.2 | 3.8 | 0.8 |
+| subscription | 24 | 34.5 | 75.5 | 4.5 | 0.0 |
+| utility | 19 | 72 | 72.3 | 5.3 | 0.3 |
+| hobby | 8 | 59.5 | 84.7 | 4.8 | 0.0 |
+| niche | 11 | 69 | 75.2 | 5.5 | 0.8 |
 
 | window | n | median views | median skip % | median watch s | shares+saves /100 views |
 |---|---|---|---|---|---|
-| midday | 10 | 102.5 | 75.1 | 4.6 | 0.8 |
-| afternoon | 18 | 38.0 | 77.0 | 4.3 | 0.0 |
-| evening | 9 | 54 | 75 | 4.6 | 0.3 |
-| night | 23 | 34 | 76 | 4.8 | 0.0 |
+| midday | 11 | 106 | 74.5 | 4.7 | 0.8 |
+| afternoon | 19 | 42 | 76 | 4.7 | 0.0 |
+| evening | 9 | 56 | 75 | 4.6 | 0.3 |
+| night | 23 | 34 | 76 | 4.6 | 0.0 |
 
 ## Top 5 overall
 
-- 062-mixxx: 975 views, skip 65.3%, 9.9s watch, hook price, hobby
-- 056-loop: 301 views, skip 56%, 8.0s watch, hook price, utility
+- 062-mixxx: 999 views, skip 65.1%, 9.9s watch, hook price, hobby
+- 056-loop: 302 views, skip 56.2%, 8.0s watch, hook price, utility
 - 032-plainapp: 300 views, skip 71.1%, 5.3s watch, hook price, utility
 - 005-crisp: 249 views, skip 61.7%, 8.9s watch, hook price, utility
-- 029-flectar: 167 views, skip 61.8%, 4.4s watch, hook price, subscription
+- 064-invoify: 170 views, skip 56.8%, 6.3s watch, hook price, niche
