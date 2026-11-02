@@ -1,0 +1,111 @@
+{
+  "repo": "ossappscollective/OSS-DocumentScanner",
+  "name": "OSS Document Scanner",
+  "title": "OSS Document Scanner: free CamScanner alternative",
+  "slot": 2,
+  "topic_arm": "subscription",
+  "keyword": "SCANNER",
+  "paid": {
+    "name": "CamScanner",
+    "price": "$49.99",
+    "per": "/year",
+    "anchor": "fifty",
+    "source": "https://apps.apple.com/us/app/camscanner-pdf-scanner-app/id388627783"
+  },
+  "icon": "https://raw.githubusercontent.com/ossappscollective/OSS-DocumentScanner/main/fastlane/metadata/com.akylas.documentscanner/android/en-US/images/icon.png",
+  "hook": "CamScanner charges you fifty bucks a year to scan your documents. This app does it for free.",
+  "job": "Scans paper into clean PDFs",
+  "platforms": [
+    "iPhone",
+    "Android"
+  ],
+  "demo": {
+    "images": [
+      "https://raw.githubusercontent.com/ossappscollective/OSS-DocumentScanner/main/fastlane/metadata/com.akylas.documentscanner/android/en-US/images/phoneScreenshots/4_en-US.png",
+      "https://raw.githubusercontent.com/ossappscollective/OSS-DocumentScanner/main/fastlane/metadata/com.akylas.documentscanner/android/en-US/images/phoneScreenshots/2_en-US.png"
+    ]
+  },
+  "features": [
+    {
+      "say": "Point the camera and it finds the page edges by itself.",
+      "images": [
+        "https://raw.githubusercontent.com/ossappscollective/OSS-DocumentScanner/main/fastlane/metadata/com.akylas.documentscanner/android/en-US/images/phoneScreenshots/0_en-US.png",
+        "https://raw.githubusercontent.com/ossappscollective/OSS-DocumentScanner/main/fastlane/metadata/com.akylas.documentscanner/android/en-US/images/phoneScreenshots/4_en-US.png"
+      ],
+      "swap_anchor": "edges",
+      "chips": [
+        {
+          "label": "📐 Edge detection",
+          "anchor": "edges"
+        },
+        {
+          "label": "Camera",
+          "anchor": "camera"
+        }
+      ]
+    },
+    {
+      "say": "Crop it, rotate it, and enhance it.",
+      "images": [
+        "https://raw.githubusercontent.com/ossappscollective/OSS-DocumentScanner/main/fastlane/metadata/com.akylas.documentscanner/android/en-US/images/phoneScreenshots/2_en-US.png"
+      ],
+      "chips": [
+        {
+          "label": "✂️ Crop",
+          "anchor": "crop"
+        },
+        {
+          "label": "🔄 Rotate",
+          "anchor": "rotate"
+        }
+      ]
+    },
+    {
+      "say": "Then export a clean PDF, share it, or print it.",
+      "images": [
+        "https://raw.githubusercontent.com/ossappscollective/OSS-DocumentScanner/main/fastlane/metadata/com.akylas.documentscanner/android/en-US/images/phoneScreenshots/6_en-US.png",
+        "https://raw.githubusercontent.com/ossappscollective/OSS-DocumentScanner/main/fastlane/metadata/com.akylas.documentscanner/android/en-US/images/phoneScreenshots/5_en-US.png"
+      ],
+      "swap_anchor": "share",
+      "chips": [
+        {
+          "label": "📄 PDF",
+          "anchor": "pdf"
+        },
+        {
+          "label": "🖨 Print",
+          "anchor": "print"
+        }
+      ]
+    }
+  ],
+  "nolist": [
+    {
+      "say": "No subscription.",
+      "label": "Subscription"
+    },
+    {
+      "say": "No watermark.",
+      "label": "Watermark"
+    },
+    {
+      "say": "No paywall.",
+      "label": "Paywall"
+    }
+  ],
+  "install": "Download from the App Store or Google Play",
+  "caption": "CamScanner charges $49.99/year to scan your documents. OSS Document Scanner does it for free 📄\n\n✅ Scan with the camera, automatic edge detection, batch mode\n✅ Crop, rotate, enhance, merge, then export PDF, JPEG or PNG\n✅ Offline OCR for searchable PDFs, plus optional PDF password\n✅ No subscription, no watermark, 100% free\n\n📱 iPhone · Android\nℹ️ The iPhone app has optional tip-jar purchases (a coffee), and OCR language models are downloaded the first time you use them. CamScanner Premium is about $49.99/year, up to $59.99/year on other plans\n\nComment \"SCANNER\" and I'll DM you the link 🔗\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #documentscanner #pdf #productivity #freeapps #android #techtips",
+  "dm_pitch": "OSS Document Scanner, the free open-source CamScanner alternative 📄",
+  "thumb": {
+    "big": "FREE",
+    "line1": "CamScanner",
+    "line2": "alternative"
+  },
+  "hook_style": "demo",
+  "window": "night",
+  "publish": {
+    "date": "2026-11-02",
+    "time": "22:42"
+  },
+  "install_url": "https://ossdocumentscanner.akylas.fr/"
+}

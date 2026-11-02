@@ -1,0 +1,29 @@
+{
+  "title": "OSS Document Scanner: free CamScanner alternative",
+  "video": "FINAL.mp4",
+  "thumbnail": "FINAL_thumbnail.png",
+  "repo_url": "https://github.com/ossappscollective/OSS-DocumentScanner",
+  "keyword": "SCANNER",
+  "caption": "CamScanner charges $49.99/year to scan your documents. OSS Document Scanner does it for free \ud83d\udcc4\n\n\u2705 Scan with the camera, automatic edge detection, batch mode\n\u2705 Crop, rotate, enhance, merge, then export PDF, JPEG or PNG\n\u2705 Offline OCR for searchable PDFs, plus optional PDF password\n\u2705 No subscription, no watermark, 100% free\n\n\ud83d\udcf1 iPhone \u00b7 Android\n\u2139\ufe0f The iPhone app has optional tip-jar purchases (a coffee), and OCR language models are downloaded the first time you use them. CamScanner Premium is about $49.99/year, up to $59.99/year on other plans\n\nComment \"SCANNER\" and I'll DM you the link \ud83d\udd17\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #documentscanner #pdf #productivity #freeapps #android #techtips",
+  "dm_pitch": "OSS Document Scanner, the free open-source CamScanner alternative \ud83d\udcc4",
+  "install": "Download from the App Store or Google Play",
+  "dm_on_any_comment": true,
+  "follow_gate": true,
+  "slot": 2,
+  "price_source": "https://apps.apple.com/us/app/camscanner-pdf-scanner-app/id388627783",
+  "experiment": {
+    "format": "classic",
+    "hook": "demo",
+    "topic": "subscription",
+    "window": "night"
+  },
+  "idempotencyKey": "19d34bd0-e85d-4ae2-a8d8-da5722cd0cd2",
+  "zernio": {
+    "postId": "6ae88a1bf0bb8fc375df82ba",
+    "status": "scheduled",
+    "scheduledFor": "2026-11-02T21:42:00.000Z",
+    "url": null,
+    "automationId": "6ae88a1e78b1c19b099e5108",
+    "slot": 2
+  }
+}

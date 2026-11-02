@@ -68,5 +68,7 @@
  "meditohq/medito-app",
  "gorhill/uBlock",
  "lichess-org/lila",
- "simonoppowa/OpenNutriTracker"
+ "simonoppowa/OpenNutriTracker",
+ "ossappscollective/OSS-DocumentScanner",
+ "Anjok07/ultimatevocalremovergui"
 ]

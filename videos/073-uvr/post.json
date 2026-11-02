@@ -1,0 +1,29 @@
+{
+  "title": "Ultimate Vocal Remover: free Moises alternative",
+  "video": "FINAL.mp4",
+  "thumbnail": "FINAL_thumbnail.png",
+  "repo_url": "https://github.com/Anjok07/ultimatevocalremovergui",
+  "keyword": "KARAOKE",
+  "caption": "Moises Premium charges $5.99/month for unlimited vocal splitting. Ultimate Vocal Remover does it for free \ud83c\udfa4\n\n\u2705 Splits any song into vocals and instrumental\n\u2705 Make a karaoke track from your own audio files\n\u2705 Runs on your own computer with AI models built in\n\u2705 Save as WAV, FLAC or MP3\n\n\ud83d\udcbb Windows \u00b7 Mac\n\u2139\ufe0f It's a big download, and it's slow without a good graphics card (Nvidia GTX 1060 6GB or better is recommended). Moises has a limited free plan; Premium is $5.99/month or $39.99/year\n\nComment \"KARAOKE\" and I'll DM you the link \ud83d\udd17\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #karaoke #music #vocalremover #freeapps #musicproducer #techtips",
+  "dm_pitch": "Ultimate Vocal Remover, the free open-source Moises alternative \ud83c\udfa4",
+  "install": "Download from GitHub Releases",
+  "dm_on_any_comment": true,
+  "follow_gate": true,
+  "slot": 1,
+  "price_source": "https://apps.apple.com/us/app/moises-the-musicians-app/id1515796612",
+  "experiment": {
+    "format": "story",
+    "hook": "story",
+    "topic": "hobby",
+    "window": "evening"
+  },
+  "idempotencyKey": "af2f3d2f-f429-4941-bb94-fc3ba53d2d1c",
+  "zernio": {
+    "postId": "6ae88a13cbc8ec0e0db7fb38",
+    "status": "scheduled",
+    "scheduledFor": "2026-11-02T17:50:00.000Z",
+    "url": null,
+    "automationId": "6ae88a161e66d2a0e22f8f93",
+    "slot": 1
+  }
+}

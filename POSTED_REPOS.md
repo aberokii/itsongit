@@ -75,3 +75,5 @@ The scout (`pipeline/scout.py`) skips these automatically via `data/posted.json`
 | 68 | [gorhill/uBlock](https://github.com/gorhill/uBlock) | 069-ublock | BLOCK | published | 2026-11-01T17:04 | https://www.instagram.com/reel/DfNOX-AjELX/ |
 | 69 | [lichess-org/lila](https://github.com/lichess-org/lila) | 070-lichess | CHESS | published | 2026-11-01T20:54 | https://www.instagram.com/reel/DfNovRWj8nh/ |
 | 70 | [simonoppowa/OpenNutriTracker](https://github.com/simonoppowa/OpenNutriTracker) | 071-opennutritracker | FOOD | published | 2026-11-01T22:09 | https://www.instagram.com/reel/DfNxTDnldeb/ |
+| 71 | [ossappscollective/OSS-DocumentScanner](https://github.com/ossappscollective/OSS-DocumentScanner) | 072-docscanner | SCANNER | scheduled | 2026-11-02T21:42 |  |
+| 72 | [Anjok07/ultimatevocalremovergui](https://github.com/Anjok07/ultimatevocalremovergui) | 073-uvr | KARAOKE | scheduled | 2026-11-02T17:50 |  |

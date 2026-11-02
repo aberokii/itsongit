@@ -1,0 +1,206 @@
+{
+  "repo": "Anjok07/ultimatevocalremovergui",
+  "name": "Ultimate Vocal Remover",
+  "title": "Ultimate Vocal Remover: free Moises alternative",
+  "keyword": "KARAOKE",
+  "paid": {
+    "name": "Moises Premium",
+    "price": "$5.99",
+    "per": "/month",
+    "anchor": "six",
+    "source": "https://apps.apple.com/us/app/moises-the-musicians-app/id1515796612"
+  },
+  "icon": "https://raw.githubusercontent.com/Anjok07/ultimatevocalremovergui/master/gui_data/img/GUI-Icon.png",
+  "job": "Removes vocals from any song",
+  "platforms": [
+    "Windows",
+    "Mac"
+  ],
+  "install": "Download from GitHub Releases",
+  "caption": "Moises Premium charges $5.99/month for unlimited vocal splitting. Ultimate Vocal Remover does it for free 🎤\n\n✅ Splits any song into vocals and instrumental\n✅ Make a karaoke track from your own audio files\n✅ Runs on your own computer with AI models built in\n✅ Save as WAV, FLAC or MP3\n\n💻 Windows · Mac\nℹ️ It's a big download, and it's slow without a good graphics card (Nvidia GTX 1060 6GB or better is recommended). Moises has a limited free plan; Premium is $5.99/month or $39.99/year\n\nComment \"KARAOKE\" and I'll DM you the link 🔗\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #karaoke #music #vocalremover #freeapps #musicproducer #techtips",
+  "dm_pitch": "Ultimate Vocal Remover, the free open-source Moises alternative 🎤",
+  "thumb": {
+    "big": "FREE",
+    "line1": "Moises",
+    "line2": "alternative"
+  },
+  "format": "story",
+  "slot": 1,
+  "topic_arm": "hobby",
+  "_research": {
+    "facts": [
+      {
+        "fact": "Removes vocals from songs using AI source-separation models",
+        "readme": "This application uses state-of-the-art source separation models to remove vocals from audio files."
+      },
+      {
+        "fact": "Models were trained by the UVR developers (not Demucs 4-stem)",
+        "readme": "UVR's core developers trained all of the models provided in this package (except for the Demucs v3 and v4 4-stem models)."
+      },
+      {
+        "fact": "Includes Demucs 4-stem models, so it can split drums/bass/other too (README only says '4-stem'; stem names not stated)",
+        "readme": "except for the Demucs v3 and v4 4-stem models"
+      },
+      {
+        "fact": "Windows installer, no setup needed",
+        "readme": "These bundles contain the UVR interface, Python, PyTorch, and other dependencies needed to run the application effectively. No prerequisites are required."
+      },
+      {
+        "fact": "Windows 10 or higher",
+        "readme": "This installer is intended for those running Windows 10 or higher."
+      },
+      {
+        "fact": "Mac: Apple Silicon and Intel builds; macOS Big Sur and above",
+        "readme": "Mac M1 (arm64) users ... Mac Intel (x86_64) users ... This bundle is intended for those running macOS Big Sur and above."
+      },
+      {
+        "fact": "Mac uses the GPU too",
+        "readme": "MPS (GPU) acceleration for Mac M1 has been expanded to work with Demucs v4 and all MDX-Net models."
+      },
+      {
+        "fact": "GPU: Nvidia GTX 1060 6GB minimum for GPU conversions, 8GB VRAM recommended",
+        "readme": "Nvidia GTX 1060 6GB is the minimum requirement for GPU conversions. / Nvidia GPUs with at least 8GBs of V-RAM are recommended."
+      },
+      {
+        "fact": "Heavy on hardware, speed depends on your PC",
+        "readme": "Conversion times will significantly depend on your hardware. / These models are computationally intensive."
+      },
+      {
+        "fact": "AMD/Intel Arc: DirectML build for Windows (limited)",
+        "readme": "If you use an AMD Radeon or Intel Arc graphics card, you can try the DirectML version"
+      },
+      {
+        "fact": "Needs 64-bit; installs to C: drive on Windows",
+        "readme": "This application is only compatible with 64-bit platforms. / You must install UVR to the main C:\\ drive."
+      },
+      {
+        "fact": "Also has time-stretch and pitch-shift tools",
+        "readme": "This application relies on the Rubber Band library for the Time-Stretch and Pitch-Shift options."
+      },
+      {
+        "fact": "Remembers your settings",
+        "readme": "The application will automatically remember your settings when closed."
+      },
+      {
+        "fact": "Free and open source, MIT",
+        "readme": "This project is 100% open-source and free for anyone to use and modify as they wish."
+      },
+      {
+        "fact": "Output formats WAV/FLAC/MP3 and 'Vocals Only' / 'Instrumental Only' checkboxes (seen in README screenshot, not README text)",
+        "readme": "screenshot UVR_v5.6.png"
+      }
+    ],
+    "screenshots": [
+      {
+        "path_or_url": "videos/073-uvr/assets/uvr-main.png  (source https://raw.githubusercontent.com/Anjok07/ultimatevocalremovergui/master/gui_data/img/UVR_v5.6.png, 682x735)",
+        "what_it_shows": "Real v5.6 window, dark theme: Select Input/Output, WAV/FLAC/MP3, process method MDX-Net, model MDX23C-InstVoc HQ, GPU Conversion ticked, Vocals Only / Instrumental Only checkboxes, Start Processing. It is the idle UI (no progress bar, empty log), not mid-task. Portrait, so crop or letterbox on app beats."
+      },
+      {
+        "path_or_url": "https://github.com/user-attachments/assets/223917be-7f0e-451b-94ed-c1acf636b44f (NOT saved, do not use)",
+        "what_it_shows": "UVR6 PREVIEW from issue #2399 (unreleased PySide UI, input Blackout.mp3, 'Instrumental + Vocals' stems). Not the app people can download today, so excluded."
+      }
+    ],
+    "stars": 26914,
+    "contributors": "8 total (Anjok07 698 commits, DilanBoskan 63, djkcyl 7, aufr33 4, four with 1). Really a one-person project.",
+    "last_release": "v5.6 - UVR GUI, published 2023-09-26; ~3.64M downloads on UVR_v5.6.0_setup.exe alone, 624k arm64 dmg, 287k x86_64 dmg. Newer beta/patch assets (Jan 2025 DirectML 'UVR_1_15_25_22_30_BETA_full.exe' 277k downloads, Roformer betas) were uploaded to the same release.",
+    "install_notes": "Windows: run UVR_v5.6.0_setup.exe from Releases (Win10+, install on C:). Mac: .dmg for arm64 or x86_64 (Big Sur+); first launch can take 5-10 min; may need 'sudo xattr -rd com.apple.quarantine' because unsigned. Linux: NO installer, manual python venv + apt/pacman + 'python UVR.py'.",
+    "maintenance": "Last commit 2026-10-06 is a README-only edit announcing 'UVR 6' (Tkinter to PySide) with 'a new release within six weeks' (issue #2399, sole active developer). Previous commit 2025-03-13 (README). Last real release 2023-09 (betas to Jan 2025). 1570 open issues. Not abandoned but slow.",
+    "price_notes": "Moises Premium via US App Store IAP list: Premium Monthly $5.99, Premium Yearly $39.99, Pro Monthly $29.99. App Store description: 'Premium Plan: Unlimited AI audio separation and stem extract ... Up to 180 minutes of audio separation per upload'; free plan has vocals/drums/bass separation. moises.ai/pricing redirects to the home page and plans are JS/app-only, so the web price could not be read; the $3.99/month backlog figure is NOT confirmed (may be a web annual-billed promo). Prices from App Store can differ from web.",
+    "doubts": [
+      "Official web pricing page not readable; price is from the App Store IAP list (US storefront).",
+      "Not star-farmed: 2020 repo, 8 contributors, millions of downloads. But effectively single developer.",
+      "README has no explicit 'offline' wording; 'bundles contain Python, PyTorch' implies local, and models ship in the package, but do not say 'works offline' as a README fact.",
+      "README does not list stem names; only 'Vocals Only', 'Instrumental Only' in screenshot and '4-stem' for Demucs.",
+      "README says nothing of karaoke explicitly; keyword is our framing (instrumental output).",
+      "Only one usable README screenshot, idle UI, not mid-task; demo uses it as a single image.",
+      "Linux has no installer so platforms omit Linux.",
+      "Free Moises tier already separates vocals/drums/bass; the paid gain is unlimited/longer uploads, so the 'pays for' hook should say unlimited."
+    ]
+  },
+  "beats": [
+    {
+      "say": "There's a free app that pulls the vocals out of any song, and nobody talks about it.",
+      "scene": "slam",
+      "text": "Vocals: deleted",
+      "accent": "free",
+      "sub": "from any song",
+      "tone": "neg",
+      "mood": "shock"
+    },
+    {
+      "say": "Wait, any song?",
+      "scene": "character",
+      "text": "Any song?! 🎤",
+      "mood": "shock"
+    },
+    {
+      "say": "Moises charges six bucks a month for unlimited splits. This one costs nothing.",
+      "scene": "versus",
+      "mood": "point",
+      "accent": "six",
+      "select": "nothing"
+    },
+    {
+      "say": "Drop in a song, pick Vocals Only or Instrumental Only, and hit Start.",
+      "scene": "app",
+      "image": "assets/uvr-main.png",
+      "text": "Vocals · Instrumental",
+      "mood": "excited",
+      "select": "Start"
+    },
+    {
+      "say": "But here's the crazy part.",
+      "scene": "character",
+      "text": "It gets better 👀",
+      "mood": "smug"
+    },
+    {
+      "say": "Make karaoke tracks, sing covers, or sample the beat.",
+      "scene": "list",
+      "text": "Use it for",
+      "accent": "karaoke",
+      "items": [
+        {
+          "label": "🎤 Karaoke",
+          "anchor": "karaoke"
+        },
+        {
+          "label": "🎸 Covers",
+          "anchor": "covers"
+        },
+        {
+          "label": "🥁 Samples",
+          "anchor": "sample"
+        }
+      ]
+    },
+    {
+      "say": "Almost twenty seven thousand people on GitHub swear by it.",
+      "scene": "counter",
+      "from": 0,
+      "to": 26900,
+      "suffix": " ★",
+      "label": "GitHub stars",
+      "mood": "excited",
+      "select": "GitHub"
+    },
+    {
+      "say": "It's Moises, minus the subscription, forever.",
+      "scene": "slam",
+      "text": "Stop paying",
+      "accent": "paying",
+      "mood": "smug"
+    },
+    {
+      "say": "Comment Karaoke, and I'll send you the link.",
+      "scene": "cta",
+      "mood": "point"
+    }
+  ],
+  "hook_style": "story",
+  "window": "evening",
+  "publish": {
+    "date": "2026-11-02",
+    "time": "18:50"
+  }
+}

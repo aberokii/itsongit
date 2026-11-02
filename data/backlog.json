@@ -1,29 +1,5 @@
 [
  {
-  "repo": "ossappscollective/OSS-DocumentScanner",
-  "name": "OSS Document Scanner",
-  "arm": "subscription",
-  "paid": {
-   "name": "CamScanner Premium",
-   "price": "$4.99",
-   "per": "/month",
-   "source": "https://apps.apple.com/us/app/camscanner-pdf-scanner-app/id388627783"
-  },
-  "job": "Scans paper into clean PDFs",
-  "platforms": [
-   "Android",
-   "iOS"
-  ],
-  "mass_appeal": 8,
-  "demo_media": null,
-  "stars": 2611,
-  "contributors": 7,
-  "why": "Everyone has scanned a form with a phone and hit CamScanner's watermark/paywall; this does auto-crop, OCR and PDF export for free.",
-  "catch": "Small team (≈7 recent authors); price taken from App Store in-app purchase list, not a vendor pricing page; overlaps a little with posted pdfcraft (PDF tools) but the job is scanning, not editing.",
-  "price_verified": false,
-  "close_to": "012 PdfCraft (PDF)"
- },
- {
   "repo": "JunkFood02/Seal",
   "name": "Seal",
   "arm": "utility",
@@ -240,30 +216,6 @@
   "contributors": 30,
   "why": "Blender is the 3D tool behind countless viral renders and replaces pricey Cinema 4D/Maya subscriptions.",
   "catch": "Very well known already as free; Cinema 4D price could not be read on maxon.net (JS), $94.99/mo is from a reseller; GitHub repo is a mirror of projects.blender.org; mild overlap with posted Solidcraft (3D parts).",
-  "price_verified": false
- },
- {
-  "repo": "Anjok07/ultimatevocalremovergui",
-  "name": "Ultimate Vocal Remover",
-  "arm": "hobby",
-  "paid": {
-   "name": "Moises Premium",
-   "price": "$3.99",
-   "per": "/month",
-   "source": "https://moises.ai/pricing/"
-  },
-  "job": "Removes vocals from any song",
-  "platforms": [
-   "Windows",
-   "macOS",
-   "Linux"
-  ],
-  "mass_appeal": 7,
-  "demo_media": null,
-  "stars": 26880,
-  "contributors": 8,
-  "why": "Karaoke, covers and remixes all need stems, and UVR splits vocals/instruments locally with AI for free.",
-  "catch": "Moises' pricing table is behind login, $3.99/mo is from third-party reviews; mostly one maintainer (only 2 recent commit authors); heavy download and slow on old PCs.",
   "price_verified": false
  },
  {
