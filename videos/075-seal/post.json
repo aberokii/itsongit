@@ -1,0 +1,29 @@
+{
+  "title": "Seal: free 4K Video Downloader alternative",
+  "video": "FINAL.mp4",
+  "thumbnail": "FINAL_thumbnail.png",
+  "repo_url": "https://github.com/JunkFood02/Seal",
+  "keyword": "SAVE",
+  "caption": "4K Video Downloader Plus charges $15/year for the main features. Seal downloads videos on your Android phone for free \ud83d\udce5\n\n\u2705 Saves video and audio from sites that yt-dlp supports\n\u2705 Grabs a whole playlist with one click\n\u2705 Embeds subtitles, metadata and thumbnails\n\u2705 Material You design, easy to use\n\n\ud83d\udcbb Android\n\u2139\ufe0f Android only. Respect each site's terms and only save videos you're allowed to\n\nComment \"SAVE\" and I'll DM you the link \ud83d\udd17\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #android #androidapps #videodownloader #freeapps #techtips #ytdlp",
+  "dm_pitch": "Seal, the free open-source video downloader for Android \ud83d\udce5",
+  "install": "Download from GitHub Releases",
+  "dm_on_any_comment": true,
+  "follow_gate": true,
+  "slot": 2,
+  "price_source": "https://www.4kdownload.com/products/videodownloader/buy",
+  "experiment": {
+    "format": "story",
+    "hook": "story",
+    "topic": "utility",
+    "window": "night"
+  },
+  "idempotencyKey": "817c327d-0491-4a21-917f-b4ba756cddca",
+  "zernio": {
+    "postId": "6ae9d237d7b52ae508282aed",
+    "status": "scheduled",
+    "scheduledFor": "2026-11-03T20:08:00.000Z",
+    "url": null,
+    "automationId": "6ae9d23ad34821ddfd3a8ba6",
+    "slot": 2
+  }
+}

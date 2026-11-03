@@ -1,53 +1,5 @@
 [
  {
-  "repo": "JunkFood02/Seal",
-  "name": "Seal",
-  "arm": "utility",
-  "paid": {
-   "name": "4K Video Downloader Plus",
-   "price": "$15",
-   "per": "/year",
-   "source": "https://www.4kdownload.com/products/videodownloader/buy"
-  },
-  "job": "Saves any video to your phone",
-  "platforms": [
-   "Android"
-  ],
-  "mass_appeal": 8,
-  "demo_media": null,
-  "stars": 30222,
-  "contributors": 36,
-  "why": "Saving videos from YouTube/Instagram/TikTok is a mass want, and Seal does it from the share sheet for free.",
-  "catch": "Android only; downloading may break platform ToS; close-ish to posted Flow (YouTube client), avoid YouTube-only framing.",
-  "price_verified": true,
-  "close_to": "010 Flow (YouTube)"
- },
- {
-  "repo": "darktable-org/darktable",
-  "name": "darktable",
-  "arm": "subscription",
-  "paid": {
-   "name": "Adobe Lightroom",
-   "price": "$11.99",
-   "per": "/month",
-   "source": "https://www.adobe.com/products/photoshop-lightroom/plans.html"
-  },
-  "job": "Edits photos like Lightroom",
-  "platforms": [
-   "macOS",
-   "Windows",
-   "Linux"
-  ],
-  "mass_appeal": 7,
-  "demo_media": null,
-  "stars": 13368,
-  "contributors": 46,
-  "why": "Lightroom is the default photo-editing subscription for every hobby photographer; darktable is the mature free raw editor.",
-  "catch": "Steeper learning curve than Lightroom; we already posted Compositor as a Photoshop replacement, so frame this strictly as Lightroom/raw editing.",
-  "price_verified": true,
-  "close_to": "008 Compositor (Photoshop)"
- },
- {
   "repo": "mltframework/shotcut",
   "name": "Shotcut",
   "arm": "subscription",

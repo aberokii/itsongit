@@ -1,0 +1,114 @@
+{
+  "repo": "darktable-org/darktable",
+  "name": "darktable",
+  "title": "darktable: free Lightroom alternative",
+  "slot": 1,
+  "keyword": "PHOTOS",
+  "topic_arm": "subscription",
+  "paid": {
+    "name": "Lightroom",
+    "price": "$11.99",
+    "per": "/month",
+    "anchor": "twelve",
+    "source": "https://www.adobe.com/products/photoshop-lightroom/plans.html"
+  },
+  "icon": "https://raw.githubusercontent.com/darktable-org/darktable/master/data/pixmaps/256x256/darktable.png",
+  "hook": "Lightroom charges you twelve bucks a month to edit your raw photos. This app does it for free.",
+  "job": "Edits your raw photos",
+  "platforms": [
+    "Mac",
+    "Windows",
+    "Linux"
+  ],
+  "demo": {
+    "images": [
+      "https://www.darktable.org/images/screenshot_darkroom1.jpg",
+      "https://www.darktable.org/images/screenshot_darkroom3.jpg"
+    ]
+  },
+  "features": [
+    {
+      "say": "Fix light, color and detail with sliders and curves. Your originals stay untouched.",
+      "images": [
+        "https://www.darktable.org/images/screenshot_darkroom1.jpg",
+        "https://www.darktable.org/images/screenshot_darkroom3.jpg"
+      ],
+      "swap_anchor": "originals",
+      "chips": [
+        {
+          "label": "🎚 Sliders",
+          "anchor": "sliders"
+        },
+        {
+          "label": "📈 Curves",
+          "anchor": "curves"
+        },
+        {
+          "label": "🔒 Originals safe",
+          "anchor": "originals"
+        }
+      ]
+    },
+    {
+      "say": "Browse, rate and tag thousands of photos in one library.",
+      "images": [
+        "https://www.darktable.org/images/screenshot_lighttable.jpg"
+      ],
+      "chips": [
+        {
+          "label": "⭐ Rate",
+          "anchor": "rate"
+        },
+        {
+          "label": "🏷 Tag",
+          "anchor": "tag"
+        }
+      ]
+    },
+    {
+      "say": "It opens raw files from most cameras, and exports to JPEG, PNG or TIFF.",
+      "images": [
+        "https://www.darktable.org/images/screenshot_darkroom2.jpg"
+      ],
+      "chips": [
+        {
+          "label": "📷 Raw files",
+          "anchor": "raw"
+        },
+        {
+          "label": "JPEG",
+          "anchor": "jpeg"
+        }
+      ]
+    }
+  ],
+  "nolist": [
+    {
+      "say": "No subscription.",
+      "label": "Subscription"
+    },
+    {
+      "say": "No cloud account.",
+      "label": "Cloud account"
+    },
+    {
+      "say": "No ads.",
+      "label": "Ads"
+    }
+  ],
+  "install": "brew install --cask darktable",
+  "install_url": "https://www.darktable.org/",
+  "caption": "Lightroom charges $11.99/month to edit your raw photos. darktable does it for free 📸\n\n✅ Develop raw photos with sliders, curves and color tools\n✅ Non-destructive: your original files are never modified\n✅ Browse, rate and tag your whole photo library\n✅ Opens raw files from most cameras, exports JPEG, PNG or TIFF\n✅ No subscription, no cloud account, no ads\n\n💻 Mac · Windows · Linux\nℹ️ Heads up: it's not a Lightroom clone, it works its own way and takes longer to learn, and the Mac download is for Apple Silicon (M1 and newer)\n\nComment \"PHOTOS\" and I'll DM you the link 🔗\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #photography #photoediting #lightroom #rawphotos #freeapps #techtips",
+  "dm_pitch": "darktable, the free open-source Lightroom alternative 📸",
+  "thumb": {
+    "big": "FREE",
+    "line1": "Lightroom",
+    "line2": "alternative"
+  },
+  "hook_style": "price",
+  "window": "evening",
+  "publish": {
+    "date": "2026-11-03",
+    "time": "19:48"
+  }
+}

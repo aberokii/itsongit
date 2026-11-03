@@ -1,0 +1,122 @@
+{
+  "repo": "JunkFood02/Seal",
+  "name": "Seal",
+  "title": "Seal: free 4K Video Downloader alternative",
+  "format": "story",
+  "slot": 2,
+  "keyword": "SAVE",
+  "topic_arm": "utility",
+  "paid": {
+    "name": "4K Video Downloader Plus Lite",
+    "price": "$15",
+    "per": "/year",
+    "anchor": "fifteen",
+    "source": "https://www.4kdownload.com/products/videodownloader/buy"
+  },
+  "icon": "https://raw.githubusercontent.com/JunkFood02/Seal/main/fastlane/metadata/android/en-US/images/icon.png",
+  "job": "Saves videos to your phone",
+  "platforms": [
+    "Android"
+  ],
+  "install": "Download from GitHub Releases",
+  "install_url": "https://github.com/JunkFood02/Seal/releases/latest",
+  "caption": "4K Video Downloader Plus charges $15/year for the main features. Seal downloads videos on your Android phone for free 📥\n\n✅ Saves video and audio from sites that yt-dlp supports\n✅ Grabs a whole playlist with one click\n✅ Embeds subtitles, metadata and thumbnails\n✅ Material You design, easy to use\n\n💻 Android\nℹ️ Android only. Respect each site's terms and only save videos you're allowed to\n\nComment \"SAVE\" and I'll DM you the link 🔗\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #android #androidapps #videodownloader #freeapps #techtips #ytdlp",
+  "dm_pitch": "Seal, the free open-source video downloader for Android 📥",
+  "thumb": {
+    "big": "FREE",
+    "line1": "4K Downloader",
+    "line2": "alternative"
+  },
+  "demo": {
+    "images": [
+      "https://raw.githubusercontent.com/JunkFood02/Seal/main/fastlane/metadata/android/en-US/images/phoneScreenshots/1.jpg",
+      "https://raw.githubusercontent.com/JunkFood02/Seal/main/fastlane/metadata/android/en-US/images/phoneScreenshots/3.jpg"
+    ]
+  },
+  "beats": [
+    {
+      "say": "Stop paying fifteen dollars a year just to save videos.",
+      "scene": "slam",
+      "text": "$15 a year",
+      "sub": "just to save videos",
+      "accent": "save",
+      "tone": "neg",
+      "mood": "shock"
+    },
+    {
+      "say": "Your Android phone does it for free.",
+      "scene": "character",
+      "text": "Wait, free?! 😳",
+      "mood": "shock",
+      "select": "free"
+    },
+    {
+      "say": "Four K Video Downloader wants fifteen bucks a year. Seal costs nothing.",
+      "scene": "versus",
+      "mood": "point",
+      "select": "nothing"
+    },
+    {
+      "say": "Paste a link, tap download, and the video is saved on your phone.",
+      "scene": "app",
+      "image": "assets/paste.png",
+      "text": "Paste · tap · saved",
+      "mood": "excited",
+      "accent": "saved",
+      "select": "link"
+    },
+    {
+      "say": "But here's the crazy part.",
+      "scene": "character",
+      "text": "It gets better 👀",
+      "mood": "smug"
+    },
+    {
+      "say": "It grabs a whole playlist in one tap.",
+      "scene": "app",
+      "image": "https://raw.githubusercontent.com/JunkFood02/Seal/main/fastlane/metadata/android/en-US/images/phoneScreenshots/3.jpg",
+      "text": "Whole playlists",
+      "mood": "excited",
+      "select": "playlist"
+    },
+    {
+      "say": "Pick the quality, keep just the audio, even add subtitles.",
+      "scene": "list",
+      "text": "Your way",
+      "accent": "audio",
+      "items": [
+        {
+          "label": "Any quality",
+          "anchor": "quality"
+        },
+        {
+          "label": "Audio only",
+          "anchor": "audio"
+        },
+        {
+          "label": "Subtitles",
+          "anchor": "subtitles"
+        }
+      ]
+    },
+    {
+      "say": "No subscription. Nothing to pay. Ever.",
+      "scene": "slam",
+      "text": "$0 forever",
+      "accent": "forever",
+      "mood": "smug",
+      "select": "subscription"
+    },
+    {
+      "say": "Comment Save, and I'll send you the link.",
+      "scene": "cta",
+      "mood": "point"
+    }
+  ],
+  "hook_style": "story",
+  "window": "night",
+  "publish": {
+    "date": "2026-11-03",
+    "time": "21:08"
+  }
+}

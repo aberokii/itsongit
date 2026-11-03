@@ -1,0 +1,29 @@
+{
+  "title": "darktable: free Lightroom alternative",
+  "video": "FINAL.mp4",
+  "thumbnail": "FINAL_thumbnail.png",
+  "repo_url": "https://github.com/darktable-org/darktable",
+  "keyword": "PHOTOS",
+  "caption": "Lightroom charges $11.99/month to edit your raw photos. darktable does it for free \ud83d\udcf8\n\n\u2705 Develop raw photos with sliders, curves and color tools\n\u2705 Non-destructive: your original files are never modified\n\u2705 Browse, rate and tag your whole photo library\n\u2705 Opens raw files from most cameras, exports JPEG, PNG or TIFF\n\u2705 No subscription, no cloud account, no ads\n\n\ud83d\udcbb Mac \u00b7 Windows \u00b7 Linux\n\u2139\ufe0f Heads up: it's not a Lightroom clone, it works its own way and takes longer to learn, and the Mac download is for Apple Silicon (M1 and newer)\n\nComment \"PHOTOS\" and I'll DM you the link \ud83d\udd17\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #photography #photoediting #lightroom #rawphotos #freeapps #techtips",
+  "dm_pitch": "darktable, the free open-source Lightroom alternative \ud83d\udcf8",
+  "install": "brew install --cask darktable",
+  "dm_on_any_comment": true,
+  "follow_gate": true,
+  "slot": 1,
+  "price_source": "https://www.adobe.com/products/photoshop-lightroom/plans.html",
+  "experiment": {
+    "format": "classic",
+    "hook": "price",
+    "topic": "subscription",
+    "window": "evening"
+  },
+  "idempotencyKey": "280ad9a5-64f1-4fd3-b3c4-fef5c269a6e2",
+  "zernio": {
+    "postId": "6ae9d22fd7b52ae508282ab9",
+    "status": "scheduled",
+    "scheduledFor": "2026-11-03T18:48:00.000Z",
+    "url": null,
+    "automationId": "6ae9d232d34821ddfd3a8b9e",
+    "slot": 1
+  }
+}
