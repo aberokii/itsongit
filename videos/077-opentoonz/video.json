@@ -1,0 +1,112 @@
+{
+  "repo": "opentoonz/opentoonz",
+  "name": "OpenToonz",
+  "title": "OpenToonz: free Toon Boom alternative",
+  "slot": 2,
+  "keyword": "CARTOON",
+  "topic_arm": "hobby",
+  "paid": {
+    "name": "Toon Boom Harmony",
+    "price": "$31",
+    "per": "/month",
+    "anchor": "thirty",
+    "source": "https://shop.toonboom.com/en"
+  },
+  "icon": "assets/icon.png",
+  "hook": "Toon Boom charges you thirty one bucks a month to animate your own cartoons. This app does it for free.",
+  "job": "Animates your own cartoons",
+  "platforms": [
+    "Windows",
+    "Mac"
+  ],
+  "demo": {
+    "images": [
+      "https://raw.githubusercontent.com/opentoonz/opentoonz_docs/master/source/_static/UI/UI_1.png",
+      "https://opentoonz.github.io/e/img/function_img02.png"
+    ]
+  },
+  "features": [
+    {
+      "say": "Draw your frames, then recolor everything by changing the palette.",
+      "images": [
+        "https://raw.githubusercontent.com/opentoonz/opentoonz_docs/master/source/_static/UI/UI_1.png",
+        "https://opentoonz.github.io/e/img/function_img02.png"
+      ],
+      "swap_anchor": "recolor",
+      "chips": [
+        {
+          "label": "✏️ Draw",
+          "anchor": "draw"
+        },
+        {
+          "label": "🎨 Palette",
+          "anchor": "palette"
+        }
+      ],
+      "intro": "It's based on the software Studio Ghibli used for their films."
+    },
+    {
+      "say": "Scan your pencil drawings in and clean them up.",
+      "images": [
+        "https://opentoonz.github.io/e/img/function_img01.png"
+      ],
+      "chips": [
+        {
+          "label": "📄 Scan",
+          "anchor": "scan"
+        },
+        {
+          "label": "Clean up",
+          "anchor": "clean"
+        }
+      ]
+    },
+    {
+      "say": "Time it all on a timeline, and add effects with a node tree.",
+      "images": [
+        "https://raw.githubusercontent.com/opentoonz/opentoonz_docs/master/source/_static/UI/UI_timeline.png",
+        "https://opentoonz.github.io/e/img/function_img03.png"
+      ],
+      "swap_anchor": "effects",
+      "chips": [
+        {
+          "label": "🎞 Timeline",
+          "anchor": "timeline"
+        },
+        {
+          "label": "✨ Effects",
+          "anchor": "effects"
+        }
+      ]
+    }
+  ],
+  "nolist": [
+    {
+      "say": "No subscription.",
+      "label": "Subscription"
+    },
+    {
+      "say": "No watermark.",
+      "label": "Watermark"
+    },
+    {
+      "say": "No account.",
+      "label": "Account"
+    }
+  ],
+  "install": "Download from GitHub Releases",
+  "install_url": "https://opentoonz.github.io/e/",
+  "caption": "Toon Boom Harmony charges $31/month to animate your own cartoons. OpenToonz does it for free 🎬\n\n✅ Draw your frames and recolor everything from one palette\n✅ Scan pencil drawings in and clean them up\n✅ Timeline, xsheet and a node tree for effects\n✅ Based on the software Studio Ghibli customized for its films\n✅ No subscription, no watermark, no account\n\n💻 Windows · Mac\nℹ️ Heads up: it's a pro-style animation tool with a lot of panels, so expect a learning curve, and there's no ready-made Linux installer\n\nComment \"CARTOON\" and I'll DM you the link 🔗\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #animation #2danimation #cartoon #animator #freeapps #techtips",
+  "dm_pitch": "OpenToonz, the free open-source Toon Boom alternative 🎬",
+  "thumb": {
+    "big": "FREE",
+    "line1": "Toon Boom",
+    "line2": "alternative"
+  },
+  "hook_style": "price",
+  "window": "night",
+  "publish": {
+    "date": "2026-11-04",
+    "time": "22:21"
+  }
+}

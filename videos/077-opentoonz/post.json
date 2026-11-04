@@ -1,0 +1,29 @@
+{
+  "title": "OpenToonz: free Toon Boom alternative",
+  "video": "FINAL.mp4",
+  "thumbnail": "FINAL_thumbnail.png",
+  "repo_url": "https://github.com/opentoonz/opentoonz",
+  "keyword": "CARTOON",
+  "caption": "Toon Boom Harmony charges $31/month to animate your own cartoons. OpenToonz does it for free \ud83c\udfac\n\n\u2705 Draw your frames and recolor everything from one palette\n\u2705 Scan pencil drawings in and clean them up\n\u2705 Timeline, xsheet and a node tree for effects\n\u2705 Based on the software Studio Ghibli customized for its films\n\u2705 No subscription, no watermark, no account\n\n\ud83d\udcbb Windows \u00b7 Mac\n\u2139\ufe0f Heads up: it's a pro-style animation tool with a lot of panels, so expect a learning curve, and there's no ready-made Linux installer\n\nComment \"CARTOON\" and I'll DM you the link \ud83d\udd17\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #animation #2danimation #cartoon #animator #freeapps #techtips",
+  "dm_pitch": "OpenToonz, the free open-source Toon Boom alternative \ud83c\udfac",
+  "install": "Download from GitHub Releases",
+  "dm_on_any_comment": true,
+  "follow_gate": true,
+  "slot": 2,
+  "price_source": "https://shop.toonboom.com/en",
+  "experiment": {
+    "format": "classic",
+    "hook": "price",
+    "topic": "hobby",
+    "window": "night"
+  },
+  "idempotencyKey": "54a748ec-2f22-4b38-bae4-1ab9a24fce20",
+  "zernio": {
+    "postId": "6aeb28b22c76249484120f10",
+    "status": "scheduled",
+    "scheduledFor": "2026-11-04T21:21:00.000Z",
+    "url": null,
+    "automationId": "6aeb28b46bd724606cf29af5",
+    "slot": 2
+  }
+}

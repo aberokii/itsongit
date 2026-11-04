@@ -1,0 +1,120 @@
+{
+  "repo": "microsoft/PowerToys",
+  "name": "PowerToys",
+  "title": "PowerToys: free DisplayFusion alternative",
+  "keyword": "TOOLS",
+  "paid": {
+    "name": "DisplayFusion Pro",
+    "price": "$34",
+    "per": " one-time",
+    "anchor": "thirty",
+    "source": "https://www.displayfusion.com/Purchase/"
+  },
+  "icon": "https://raw.githubusercontent.com/microsoft/PowerToys/main/doc/images/icons/PowerToys%20icon/PNG/PowerToysAppList.targetsize-256.png",
+  "job": "Adds 30 free tools to Windows",
+  "platforms": [
+    "Windows"
+  ],
+  "install": "winget install Microsoft.PowerToys",
+  "install_url": "https://learn.microsoft.com/windows/powertoys/",
+  "caption": "DisplayFusion Pro costs $34 to add power-user tools to Windows. Microsoft's PowerToys gives you 30+ for free 🧰\n\n✅ Text Extractor copies text from anywhere on your screen, even inside images\n✅ Color Picker grabs any colour on screen and copies it\n✅ Image Resizer and PowerRename handle files in bulk\n✅ Peek, File Locksmith, Always On Top and more\n\n💻 Windows 10 · 11\nℹ️ Made by Microsoft and Windows only. DisplayFusion Pro is a $34 one-time licence focused on multi-monitor setups, so the two only partly overlap\n\nComment \"TOOLS\" and I'll DM you the link 🔗\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #windows #windows11 #microsoft #productivity #freeapps #techtips",
+  "dm_pitch": "PowerToys, Microsoft's free open-source toolkit for Windows 🧰",
+  "thumb": {
+    "big": "FREE",
+    "line1": "DisplayFusion",
+    "line2": "alternative"
+  },
+  "format": "story",
+  "topic_arm": "utility",
+  "slot": 1,
+  "demo": {
+    "url": "https://learn.microsoft.com/en-us/windows/powertoys/images/command-palette/cmdpal-overview1.gif",
+    "start": 0
+  },
+  "beats": [
+    {
+      "say": "If you use Windows, stop scrolling. You're missing thirty free utilities.",
+      "scene": "slam",
+      "text": "30 free tools",
+      "accent": "free",
+      "sub": "for Windows",
+      "mood": "shock"
+    },
+    {
+      "say": "And Microsoft made them.",
+      "scene": "character",
+      "text": "Wait, Microsoft?! 😳",
+      "mood": "shock",
+      "select": "Microsoft"
+    },
+    {
+      "say": "DisplayFusion charges thirty four bucks. PowerToys costs nothing.",
+      "scene": "versus",
+      "mood": "point",
+      "accent": "thirty",
+      "select": "nothing",
+      "price": "$34"
+    },
+    {
+      "say": "Point at any color on your screen, and it copies the code.",
+      "scene": "app",
+      "image": "https://learn.microsoft.com/en-us/windows/powertoys/images/color-picker/hex-editor.png",
+      "text": "Pick any color",
+      "mood": "excited",
+      "accent": "any"
+    },
+    {
+      "say": "But here's the crazy part.",
+      "scene": "character",
+      "text": "It gets better 👀",
+      "mood": "smug"
+    },
+    {
+      "say": "One shortcut opens a search bar for your apps, files and commands.",
+      "scene": "app",
+      "image": "assets/cmdpal.png",
+      "text": "Find anything fast",
+      "mood": "excited",
+      "select": "shortcut"
+    },
+    {
+      "say": "It also pulls text out of images, renames files in bulk, and resizes photos.",
+      "scene": "list",
+      "text": "Also in the box",
+      "items": [
+        {
+          "label": "Text from images",
+          "anchor": "text"
+        },
+        {
+          "label": "Bulk rename",
+          "anchor": "renames"
+        },
+        {
+          "label": "Resize photos",
+          "anchor": "resizes"
+        }
+      ],
+      "accent": "images"
+    },
+    {
+      "say": "It's a Swiss Army knife for Windows, minus the price tag.",
+      "scene": "slam",
+      "text": "$0 forever",
+      "accent": "$0",
+      "mood": "smug",
+      "select": "Windows"
+    },
+    {
+      "say": "Comment Tools, and I'll send you the link.",
+      "scene": "cta",
+      "mood": "point"
+    }
+  ],
+  "hook_style": "story",
+  "window": "evening",
+  "publish": {
+    "date": "2026-11-04",
+    "time": "19:02"
+  }
+}

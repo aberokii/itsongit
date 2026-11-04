@@ -77,5 +77,7 @@ The scout (`pipeline/scout.py`) skips these automatically via `data/posted.json`
 | 70 | [simonoppowa/OpenNutriTracker](https://github.com/simonoppowa/OpenNutriTracker) | 071-opennutritracker | FOOD | published | 2026-11-01T22:09 | https://www.instagram.com/reel/DfNxTDnldeb/ |
 | 71 | [ossappscollective/OSS-DocumentScanner](https://github.com/ossappscollective/OSS-DocumentScanner) | 072-docscanner | SCANNER | published | 2026-11-02T21:43 | https://www.instagram.com/reel/DfQTH4WE5Vf/ |
 | 72 | [Anjok07/ultimatevocalremovergui](https://github.com/Anjok07/ultimatevocalremovergui) | 073-uvr | KARAOKE | published | 2026-11-02T17:51 | https://www.instagram.com/reel/DfP4joEjhsk/ |
-| 73 | [darktable-org/darktable](https://github.com/darktable-org/darktable) | 074-darktable | PHOTOS | scheduled | 2026-11-03T18:48 |  |
-| 74 | [JunkFood02/Seal](https://github.com/JunkFood02/Seal) | 075-seal | SAVE | scheduled | 2026-11-03T20:08 |  |
+| 73 | [darktable-org/darktable](https://github.com/darktable-org/darktable) | 074-darktable | PHOTOS | published | 2026-11-03T18:49 | https://www.instagram.com/reel/DfSj_7FlAj0/ |
+| 74 | [JunkFood02/Seal](https://github.com/JunkFood02/Seal) | 075-seal | SAVE | published | 2026-11-03T20:09 | https://www.instagram.com/reel/DfStKKkiN7J/ |
+| 75 | [microsoft/PowerToys](https://github.com/microsoft/PowerToys) | 076-powertoys | TOOLS | scheduled | 2026-11-04T18:02 |  |
+| 76 | [opentoonz/opentoonz](https://github.com/opentoonz/opentoonz) | 077-opentoonz | CARTOON | scheduled | 2026-11-04T21:21 |  |

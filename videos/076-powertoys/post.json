@@ -1,0 +1,29 @@
+{
+  "title": "PowerToys: free DisplayFusion alternative",
+  "video": "FINAL.mp4",
+  "thumbnail": "FINAL_thumbnail.png",
+  "repo_url": "https://github.com/microsoft/PowerToys",
+  "keyword": "TOOLS",
+  "caption": "DisplayFusion Pro costs $34 to add power-user tools to Windows. Microsoft's PowerToys gives you 30+ for free \ud83e\uddf0\n\n\u2705 Text Extractor copies text from anywhere on your screen, even inside images\n\u2705 Color Picker grabs any colour on screen and copies it\n\u2705 Image Resizer and PowerRename handle files in bulk\n\u2705 Peek, File Locksmith, Always On Top and more\n\n\ud83d\udcbb Windows 10 \u00b7 11\n\u2139\ufe0f Made by Microsoft and Windows only. DisplayFusion Pro is a $34 one-time licence focused on multi-monitor setups, so the two only partly overlap\n\nComment \"TOOLS\" and I'll DM you the link \ud83d\udd17\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #windows #windows11 #microsoft #productivity #freeapps #techtips",
+  "dm_pitch": "PowerToys, Microsoft's free open-source toolkit for Windows \ud83e\uddf0",
+  "install": "winget install Microsoft.PowerToys",
+  "dm_on_any_comment": true,
+  "follow_gate": true,
+  "slot": 1,
+  "price_source": "https://www.displayfusion.com/Purchase/",
+  "experiment": {
+    "format": "story",
+    "hook": "story",
+    "topic": "utility",
+    "window": "evening"
+  },
+  "idempotencyKey": "4d05ef7c-fe44-4784-8d15-8f36856104d1",
+  "zernio": {
+    "postId": "6aeb28ac2c76249484120f07",
+    "status": "scheduled",
+    "scheduledFor": "2026-11-04T18:02:00.000Z",
+    "url": null,
+    "automationId": "6aeb28aed6095e76c2aaf09c",
+    "slot": 1
+  }
+}
