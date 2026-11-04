@@ -1,6 +1,6 @@
-# @itsongit experiments (2026-11-03)
+# @itsongit experiments (2026-11-04)
 
-Reels ≥48 h old: 65 (65 baseline before 2026-11-01, 0 in the test).
+Reels ≥48 h old: 68 (65 baseline before 2026-11-01, 3 in the test).
 
 ## Format test: Does the animated story format (Kit the cat, beats, whip pans) beat the classic ad template?
 
@@ -13,40 +13,32 @@ Reels ≥48 h old: 65 (65 baseline before 2026-11-01, 0 in the test).
 
 | hook | n | median views | median skip % | median watch s | shares+saves /100 views |
 |---|---|---|---|---|---|
+| price | 1 | 145 | 67.7 | 7.3 | 0.7 |
+| demo | 1 | 27 | 76 | 5.2 | 0.0 |
 
-**Verdict: keep testing** (0 A / 0 B; decide at 15 each). Rule: B wins if its median skip rate is at least 5 points lower than A's AND its median views are not lower. A wins if B is not better after 15 per arm. Then make the winner the default and test the next hook idea against it.
+Within-day (B − A), 1 days: skip +8.3 pts, views -118. B had the lower skip rate on 0 of 1 days.
+**Verdict: keep testing** (1 A / 1 B; decide at 15 each). Rule: B wins if its median skip rate is at least 5 points lower than A's AND its median views are not lower. A wins if B is not better after 15 per arm. Then make the winner the default and test the next hook idea against it.
 
 ## Topic test: Which kind of 'everyone pays for this' pick travels furthest?
 
 | topic | n | median views | median skip % | median watch s | shares+saves /100 views |
 |---|---|---|---|---|---|
+| subscription | 1 | 118 | 61.5 | 5.3 | 0.8 |
+| utility | 1 | 27 | 76 | 5.2 | 0.0 |
+| hobby | 1 | 145 | 67.7 | 7.3 | 0.7 |
 
-**Verdict: keep testing** ({'subscription': 0, 'utility': 0, 'hobby': 0}; decide at 10 each). Rule: After 10 per arm, give the best arm 2 of the 3 daily reels; keep 1 rotating so the others keep being measured.
+**Verdict: keep testing** ({'subscription': 1, 'utility': 1, 'hobby': 1}; decide at 10 each). Rule: After 10 per arm, give the best arm 2 of the 3 daily reels; keep 1 rotating so the others keep being measured.
 
 ## Posting window (test period)
 
 | window | n | median views | median skip % | median watch s | shares+saves /100 views |
 |---|---|---|---|---|---|
-
-## Baseline (before the test, all hook A)
-
-| topic | n | median views | median skip % | median watch s | shares+saves /100 views |
-|---|---|---|---|---|---|
-| subscription | 24 | 34.5 | 75.5 | 4.5 | 0.0 |
-| utility | 20 | 86.0 | 71.7 | 5.2 | 0.1 |
-| hobby | 8 | 59.5 | 84.7 | 4.8 | 0.0 |
-| niche | 11 | 69 | 75.2 | 5.5 | 0.8 |
-
-| window | n | median views | median skip % | median watch s | shares+saves /100 views |
-|---|---|---|---|---|---|
-| midday | 11 | 106 | 74.5 | 4.7 | 0.8 |
-| afternoon | 20 | 44.0 | 76.0 | 4.8 | 0.0 |
-| evening | 10 | 54.5 | 73.0 | 4.5 | 0.1 |
-| night | 24 | 33.0 | 75.5 | 4.5 | 0.0 |
+| evening | 1 | 27 | 76 | 5.2 | 0.0 |
+| night | 1 | 145 | 67.7 | 7.3 | 0.7 |
 
 ## Top 5 overall
 
-- 062-mixxx: 999 views, skip 65.1%, 9.9s watch, hook price, hobby
+- 062-mixxx: 1005 views, skip 65%, 9.9s watch, hook price, hobby
 - 056-loop: 302 views, skip 56.2%, 8.0s watch, hook price, utility
 - 032-plainapp: 300 views, skip 71.1%, 5.3s watch, hook price, utility
 - 005-crisp: 249 views, skip 61.7%, 8.9s watch, hook price, utility
