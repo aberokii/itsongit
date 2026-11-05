@@ -1,30 +1,5 @@
 [
   {
-    "repo": "mltframework/shotcut",
-    "name": "Shotcut",
-    "arm": "subscription",
-    "paid": {
-      "name": "Adobe Premiere Pro",
-      "price": "$22.99",
-      "per": "/month",
-      "source": "https://www.adobe.com/products/premiere/plans.html"
-    },
-    "job": "Edits videos like Premiere",
-    "platforms": [
-      "macOS",
-      "Windows",
-      "Linux"
-    ],
-    "mass_appeal": 7,
-    "demo_media": null,
-    "stars": 15545,
-    "contributors": 43,
-    "why": "Premiere is the best-known paid video editor and Shotcut is a full free timeline editor with 4K, filters and keyframes.",
-    "catch": "Concat vs CapCut (video editing) underperformed, so lean on the Adobe price, not 'video editor'; README has only one screenshot (shotcut.org has more).",
-    "price_verified": true,
-    "close_to": "004 Concat vs CapCut flopped (3 views): needs a strong demo"
-  },
-  {
     "repo": "saber-notes/saber",
     "name": "Saber",
     "arm": "subscription",
@@ -288,30 +263,6 @@
     "contributors": 57,
     "why": "Habit tracking is a mainstream self-improvement trend and Loop is the classic free, ad-free tracker with charts and widgets.",
     "catch": "Android only while Streaks is iPhone only; Streaks is cheap, so the hook number is small.",
-    "price_verified": true
-  },
-  {
-    "repo": "Stellarium/stellarium",
-    "name": "Stellarium",
-    "arm": "hobby",
-    "paid": {
-      "name": "SkySafari 8 Pro",
-      "price": "$34.99",
-      "per": "one-time",
-      "source": "https://skysafariastronomy.com/"
-    },
-    "job": "Shows every star in your sky",
-    "platforms": [
-      "Windows",
-      "macOS",
-      "Linux"
-    ],
-    "mass_appeal": 6,
-    "demo_media": null,
-    "stars": 10135,
-    "contributors": 58,
-    "why": "Point-and-learn astronomy is broadly cool, and Stellarium is the realistic free planetarium.",
-    "catch": "Desktop only (Stellarium Mobile is a separate paid app, not this repo); SkySafari is on sale ($49.99 regular); README has no screenshots.",
     "price_verified": true
   },
   {

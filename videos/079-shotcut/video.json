@@ -1,0 +1,124 @@
+{
+  "repo": "mltframework/shotcut",
+  "name": "Shotcut",
+  "title": "Shotcut: free Adobe Premiere alternative",
+  "keyword": "VIDEO",
+  "paid": {
+    "name": "Adobe Premiere",
+    "price": "$22.99",
+    "per": "/month",
+    "anchor": "twenty",
+    "source": "https://www.adobe.com/products/premiere/plans.html"
+  },
+  "icon": "https://raw.githubusercontent.com/mltframework/shotcut/master/packaging/windows/Microsoft%20Store/PackageFiles/Assets/Square310x310Logo.scale-100.png",
+  "job": "Cuts and edits your videos",
+  "platforms": [
+    "Windows",
+    "Mac",
+    "Linux"
+  ],
+  "install": "brew install --cask shotcut",
+  "install_url": "https://www.shotcut.org/",
+  "caption": "Adobe Premiere costs $22.99/month to edit videos. Shotcut does it for free 🎬\n\n✅ Multitrack timeline with thumbnails and waveforms\n✅ Color wheels, chroma key, blur and 100+ video filters\n✅ Keyframes for filter settings, plus audio and video fades\n✅ Edits files directly with no import step, up to 4K\n\n💻 Windows · Mac · Linux\nℹ️ Shotcut is a capable editor but has its own look, so expect a learning curve coming from Premiere. Adobe's $22.99/month is the Premiere-only plan, billed monthly on an annual commitment\n\nComment \"VIDEO\" and I'll DM you the link 🔗\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #videoediting #videoeditor #premierepro #freeapps #contentcreator #techtips",
+  "dm_pitch": "Shotcut, the free open-source video editor 🎬",
+  "thumb": {
+    "big": "FREE",
+    "line1": "Premiere",
+    "line2": "alternative"
+  },
+  "format": "story",
+  "slot": 2,
+  "topic_arm": "subscription",
+  "demo": {
+    "images": [
+      "https://www.shotcut.org/assets/img/screenshots/Shotcut-18.11.18.png",
+      "https://www.shotcut.org/assets/img/shotcut_mac_monitor.png"
+    ]
+  },
+  "beats": [
+    {
+      "say": "Creators pay two hundred seventy six dollars a year for something that's free.",
+      "scene": "slam",
+      "text": "$276 a year",
+      "accent": "free",
+      "sub": "Adobe Premiere",
+      "tone": "neg",
+      "mood": "shock"
+    },
+    {
+      "say": "And most of them have no clue.",
+      "scene": "character",
+      "text": "They have no clue 😭",
+      "mood": "worried",
+      "select": "clue"
+    },
+    {
+      "say": "Premiere charges twenty three bucks a month. Shotcut costs nothing.",
+      "scene": "versus",
+      "mood": "point",
+      "accent": "nothing",
+      "price": "$22.99"
+    },
+    {
+      "say": "You get a real timeline, with stacked tracks and waveforms on every clip.",
+      "scene": "app",
+      "image": "https://www.shotcut.org/assets/img/screenshots/Shotcut-18.11.18.png",
+      "text": "Multitrack timeline",
+      "mood": "excited",
+      "accent": "real",
+      "select": "waveforms"
+    },
+    {
+      "say": "And it gets better.",
+      "scene": "character",
+      "text": "It gets better 👀",
+      "mood": "smug"
+    },
+    {
+      "say": "Color wheels, green screen, and keyframes for every filter.",
+      "scene": "app",
+      "image": "https://www.shotcut.org/assets/img/shotcut_mac_monitor.png",
+      "text": "Color grading built in",
+      "mood": "excited",
+      "select": "keyframes"
+    },
+    {
+      "say": "No import step, four K editing, and it runs on Windows, Mac and Linux.",
+      "scene": "list",
+      "text": "Also in the box",
+      "items": [
+        {
+          "label": "No import step",
+          "anchor": "import"
+        },
+        {
+          "label": "4K video",
+          "anchor": "four"
+        },
+        {
+          "label": "Win · Mac · Linux",
+          "anchor": "Linux"
+        }
+      ]
+    },
+    {
+      "say": "It's Premiere, minus the monthly bill.",
+      "scene": "slam",
+      "text": "Stop paying",
+      "accent": "paying",
+      "mood": "smug",
+      "select": "minus"
+    },
+    {
+      "say": "Comment Video, and I'll send you the link.",
+      "scene": "cta",
+      "mood": "point"
+    }
+  ],
+  "hook_style": "story",
+  "window": "night",
+  "publish": {
+    "date": "2026-11-05",
+    "time": "21:13"
+  }
+}

@@ -79,5 +79,7 @@ The scout (`pipeline/scout.py`) skips these automatically via `data/posted.json`
 | 72 | [Anjok07/ultimatevocalremovergui](https://github.com/Anjok07/ultimatevocalremovergui) | 073-uvr | KARAOKE | published | 2026-11-02T17:51 | https://www.instagram.com/reel/DfP4joEjhsk/ |
 | 73 | [darktable-org/darktable](https://github.com/darktable-org/darktable) | 074-darktable | PHOTOS | published | 2026-11-03T18:49 | https://www.instagram.com/reel/DfSj_7FlAj0/ |
 | 74 | [JunkFood02/Seal](https://github.com/JunkFood02/Seal) | 075-seal | SAVE | published | 2026-11-03T20:09 | https://www.instagram.com/reel/DfStKKkiN7J/ |
-| 75 | [microsoft/PowerToys](https://github.com/microsoft/PowerToys) | 076-powertoys | TOOLS | scheduled | 2026-11-04T18:02 |  |
-| 76 | [opentoonz/opentoonz](https://github.com/opentoonz/opentoonz) | 077-opentoonz | CARTOON | scheduled | 2026-11-04T21:21 |  |
+| 75 | [microsoft/PowerToys](https://github.com/microsoft/PowerToys) | 076-powertoys | TOOLS | published | 2026-11-04T18:04 | https://www.instagram.com/reel/DfVDqBqDPOa/ |
+| 76 | [opentoonz/opentoonz](https://github.com/opentoonz/opentoonz) | 077-opentoonz | CARTOON | published | 2026-11-04T21:22 | https://www.instagram.com/reel/DfVaTT7jZuv/ |
+| 77 | [Stellarium/stellarium](https://github.com/Stellarium/stellarium) | 078-stellarium | STARS | scheduled | 2026-11-05T17:01 |  |
+| 78 | [mltframework/shotcut](https://github.com/mltframework/shotcut) | 079-shotcut | VIDEO | scheduled | 2026-11-05T20:13 |  |

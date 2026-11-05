@@ -1,0 +1,107 @@
+{
+  "repo": "Stellarium/stellarium",
+  "name": "Stellarium",
+  "title": "Stellarium: free SkySafari alternative",
+  "slot": 1,
+  "keyword": "STARS",
+  "topic_arm": "hobby",
+  "paid": {
+    "name": "SkySafari Plus",
+    "price": "$19.99",
+    "per": "",
+    "anchor": "twenty",
+    "source": "https://skysafariastronomy.com/products/skysafari-8-plus"
+  },
+  "icon": "https://raw.githubusercontent.com/Stellarium/stellarium/master/data/icons/512x512/stellarium.png",
+  "hook": "SkySafari Plus charges you twenty bucks to explore the night sky. This app does it for free.",
+  "job": "Maps every star in your sky",
+  "platforms": [
+    "Mac",
+    "Windows",
+    "Linux"
+  ],
+  "demo": {
+    "images": [
+      "https://stellarium.org/img/screenshots/0.10-planets.jpg",
+      "https://stellarium.org/img/screenshots/0.10-constellation-art-on.jpg"
+    ]
+  },
+  "features": [
+    {
+      "intro": "It's a real planetarium, right on your computer.",
+      "say": "Over six hundred thousand stars, plus all the planets and their moons.",
+      "images": [
+        "https://stellarium.org/img/screenshots/0.10-constellations.jpg",
+        "https://stellarium.org/img/screenshots/0.10-from-mars.jpg"
+      ],
+      "swap_anchor": "planets",
+      "chips": [
+        {
+          "label": "⭐ 600,000 stars",
+          "anchor": "stars"
+        },
+        {
+          "label": "🪐 Planets",
+          "anchor": "planets"
+        }
+      ]
+    },
+    {
+      "say": "Turn on constellation art, and the sky fills with illustrations.",
+      "images": [
+        "https://stellarium.org/img/screenshots/0.10-constellation-art-on.jpg"
+      ],
+      "chips": [
+        {
+          "label": "✨ Constellation art",
+          "anchor": "constellation"
+        }
+      ]
+    },
+    {
+      "say": "Zoom in on nebulas, then speed up time to watch the sky move.",
+      "images": [
+        "https://stellarium.org/img/screenshots/0.10-orion-nebula.jpg"
+      ],
+      "chips": [
+        {
+          "label": "🔭 Zoom",
+          "anchor": "zoom"
+        },
+        {
+          "label": "⏩ Time control",
+          "anchor": "time"
+        }
+      ]
+    }
+  ],
+  "nolist": [
+    {
+      "say": "No subscription.",
+      "label": "Subscription"
+    },
+    {
+      "say": "No account.",
+      "label": "Account"
+    },
+    {
+      "say": "No paywall.",
+      "label": "Paywall"
+    }
+  ],
+  "install": "Download from GitHub Releases",
+  "install_url": "https://stellarium.org",
+  "caption": "SkySafari Plus charges $19.99 to explore the night sky. Stellarium does it for free 🔭\n\n✅ Realistic 3D sky with over 600,000 stars, planets and their moons\n✅ Constellation art and nebula images from the full Messier catalogue\n✅ Zoom in and speed up time to watch the sky move\n✅ No subscription, no account, no paywall\n\n💻 Mac · Windows · Linux\nℹ️ Heads up: it's a desktop app (SkySafari is a phone/tablet app). Stellarium's own mobile app is a separate paid product. SkySafari Plus is $19.99 on sale right now, $29.99 regular\n\nComment \"STARS\" and I'll DM you the link 🔗\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #astronomy #stargazing #space #planetarium #freeapps #techtips",
+  "dm_pitch": "Stellarium, the free open-source planetarium for your computer 🔭",
+  "thumb": {
+    "big": "FREE",
+    "line1": "SkySafari",
+    "line2": "alternative"
+  },
+  "hook_style": "demo",
+  "window": "evening",
+  "publish": {
+    "date": "2026-11-05",
+    "time": "18:01"
+  }
+}

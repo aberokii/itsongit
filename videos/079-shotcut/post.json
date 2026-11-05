@@ -1,0 +1,29 @@
+{
+  "title": "Shotcut: free Adobe Premiere alternative",
+  "video": "FINAL.mp4",
+  "thumbnail": "FINAL_thumbnail.png",
+  "repo_url": "https://github.com/mltframework/shotcut",
+  "keyword": "VIDEO",
+  "caption": "Adobe Premiere costs $22.99/month to edit videos. Shotcut does it for free \ud83c\udfac\n\n\u2705 Multitrack timeline with thumbnails and waveforms\n\u2705 Color wheels, chroma key, blur and 100+ video filters\n\u2705 Keyframes for filter settings, plus audio and video fades\n\u2705 Edits files directly with no import step, up to 4K\n\n\ud83d\udcbb Windows \u00b7 Mac \u00b7 Linux\n\u2139\ufe0f Shotcut is a capable editor but has its own look, so expect a learning curve coming from Premiere. Adobe's $22.99/month is the Premiere-only plan, billed monthly on an annual commitment\n\nComment \"VIDEO\" and I'll DM you the link \ud83d\udd17\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #videoediting #videoeditor #premierepro #freeapps #contentcreator #techtips",
+  "dm_pitch": "Shotcut, the free open-source video editor \ud83c\udfac",
+  "install": "brew install --cask shotcut",
+  "dm_on_any_comment": true,
+  "follow_gate": true,
+  "slot": 2,
+  "price_source": "https://www.adobe.com/products/premiere/plans.html",
+  "experiment": {
+    "format": "story",
+    "hook": "story",
+    "topic": "subscription",
+    "window": "night"
+  },
+  "idempotencyKey": "43cd0a92-d64c-4571-9fb7-899feed32d0e",
+  "zernio": {
+    "postId": "6aec7be8aaf165d6c8000811",
+    "status": "scheduled",
+    "scheduledFor": "2026-11-05T20:13:00.000Z",
+    "url": null,
+    "automationId": "6aec7bec6e990d281990bd1c",
+    "slot": 2
+  }
+}

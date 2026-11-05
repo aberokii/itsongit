@@ -1,0 +1,29 @@
+{
+  "title": "Stellarium: free SkySafari alternative",
+  "video": "FINAL.mp4",
+  "thumbnail": "FINAL_thumbnail.png",
+  "repo_url": "https://github.com/Stellarium/stellarium",
+  "keyword": "STARS",
+  "caption": "SkySafari Plus charges $19.99 to explore the night sky. Stellarium does it for free \ud83d\udd2d\n\n\u2705 Realistic 3D sky with over 600,000 stars, planets and their moons\n\u2705 Constellation art and nebula images from the full Messier catalogue\n\u2705 Zoom in and speed up time to watch the sky move\n\u2705 No subscription, no account, no paywall\n\n\ud83d\udcbb Mac \u00b7 Windows \u00b7 Linux\n\u2139\ufe0f Heads up: it's a desktop app (SkySafari is a phone/tablet app). Stellarium's own mobile app is a separate paid product. SkySafari Plus is $19.99 on sale right now, $29.99 regular\n\nComment \"STARS\" and I'll DM you the link \ud83d\udd17\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #astronomy #stargazing #space #planetarium #freeapps #techtips",
+  "dm_pitch": "Stellarium, the free open-source planetarium for your computer \ud83d\udd2d",
+  "install": "Download from GitHub Releases",
+  "dm_on_any_comment": true,
+  "follow_gate": true,
+  "slot": 1,
+  "price_source": "https://skysafariastronomy.com/products/skysafari-8-plus",
+  "experiment": {
+    "format": "classic",
+    "hook": "demo",
+    "topic": "hobby",
+    "window": "evening"
+  },
+  "idempotencyKey": "f703cf36-3321-4322-b67b-5e647f100dd4",
+  "zernio": {
+    "postId": "6aec7bdcaaf165d6c8000795",
+    "status": "scheduled",
+    "scheduledFor": "2026-11-05T17:01:00.000Z",
+    "url": null,
+    "automationId": "6aec7be1a09136374f1f781e",
+    "slot": 1
+  }
+}
