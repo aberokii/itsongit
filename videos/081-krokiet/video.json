@@ -1,0 +1,114 @@
+{
+  "repo": "qarmin/czkawka",
+  "name": "Krokiet",
+  "title": "Krokiet: free Gemini alternative",
+  "slot": 2,
+  "keyword": "SPACE",
+  "topic_arm": "utility",
+  "paid": {
+    "name": "Gemini",
+    "price": "$19.99",
+    "per": "/year",
+    "anchor": "twenty",
+    "source": "https://apps.apple.com/us/app/gemini-2-the-duplicate-finder/id1090488118"
+  },
+  "icon": "https://raw.githubusercontent.com/qarmin/czkawka/master/krokiet/icons/krokiet_logo.png",
+  "hook": "Gemini charges you twenty bucks a year to find duplicate files on your Mac. This app does it for free.",
+  "job": "Finds duplicate files, fast",
+  "platforms": [
+    "Windows",
+    "Mac",
+    "Linux"
+  ],
+  "demo": {
+    "images": [
+      "assets/demo-list.png",
+      "assets/demo-scan.png"
+    ]
+  },
+  "features": [
+    {
+      "intro": "It hunts down the clutter eating your storage.",
+      "say": "It finds duplicate files, and photos that look alike, even at a different resolution.",
+      "images": [
+        "https://github.com/user-attachments/assets/720e98c3-598a-41aa-a04b-0c0c1d8a28e6"
+      ],
+      "chips": [
+        {
+          "label": "📁 Duplicates",
+          "anchor": "duplicate"
+        },
+        {
+          "label": "🖼 Similar photos",
+          "anchor": "photos"
+        }
+      ]
+    },
+    {
+      "say": "Biggest files, empty folders, broken files. It finds those too.",
+      "images": [
+        "https://github.com/user-attachments/assets/3cc7ec6a-3d6a-42cb-9d33-4b0f0c547af6"
+      ],
+      "chips": [
+        {
+          "label": "📦 Big files",
+          "anchor": "biggest"
+        },
+        {
+          "label": "🗂 Empty folders",
+          "anchor": "empty"
+        },
+        {
+          "label": "Broken files",
+          "anchor": "broken"
+        }
+      ]
+    },
+    {
+      "say": "It even spots similar videos, and the same song twice.",
+      "images": [
+        "https://github.com/user-attachments/assets/3cc7ec6a-3d6a-42cb-9d33-4b0f0c547af6",
+        "https://github.com/user-attachments/assets/720e98c3-598a-41aa-a04b-0c0c1d8a28e6"
+      ],
+      "swap_anchor": "song",
+      "chips": [
+        {
+          "label": "🎞 Similar videos",
+          "anchor": "videos"
+        },
+        {
+          "label": "🎵 Same music",
+          "anchor": "song"
+        }
+      ]
+    }
+  ],
+  "nolist": [
+    {
+      "say": "No ads.",
+      "label": "Ads"
+    },
+    {
+      "say": "No subscription.",
+      "label": "Subscription"
+    },
+    {
+      "say": "No sign-up.",
+      "label": "Sign-up"
+    }
+  ],
+  "install": "Download from GitHub Releases",
+  "caption": "Gemini charges $19.99/year to find duplicate files. Krokiet does it for free 🧹\n\n✅ Finds duplicate files and similar photos\n✅ Big files, empty folders and broken files\n✅ Similar videos and duplicate music\n✅ No ads, no subscription, 100% free\n\n💻 Windows · Mac · Linux\nℹ️ Download the app from GitHub Releases (no installer). The Mac build is for Apple Silicon, and on first launch your system may ask you to confirm it (Mac: \"Open anyway\", Windows: SmartScreen). Similar videos needs ffmpeg installed. Gemini's $19.99/year is the yearly plan on the Mac App Store and Gemini is Mac-only.\n\nComment \"SPACE\" and I'll DM you the link 🔗\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #macos #windows #productivity #freeapps #storage #techtips",
+  "dm_pitch": "Krokiet, the free open-source duplicate file finder 🧹",
+  "thumb": {
+    "big": "FREE",
+    "line1": "Gemini",
+    "line2": "alternative"
+  },
+  "hook_style": "demo",
+  "window": "night",
+  "publish": {
+    "date": "2026-11-06",
+    "time": "22:18"
+  }
+}

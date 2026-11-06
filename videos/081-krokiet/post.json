@@ -1,0 +1,29 @@
+{
+  "title": "Krokiet: free Gemini alternative",
+  "video": "FINAL.mp4",
+  "thumbnail": "FINAL_thumbnail.png",
+  "repo_url": "https://github.com/qarmin/czkawka",
+  "keyword": "SPACE",
+  "caption": "Gemini charges $19.99/year to find duplicate files. Krokiet does it for free \ud83e\uddf9\n\n\u2705 Finds duplicate files and similar photos\n\u2705 Big files, empty folders and broken files\n\u2705 Similar videos and duplicate music\n\u2705 No ads, no subscription, 100% free\n\n\ud83d\udcbb Windows \u00b7 Mac \u00b7 Linux\n\u2139\ufe0f Download the app from GitHub Releases (no installer). The Mac build is for Apple Silicon, and on first launch your system may ask you to confirm it (Mac: \"Open anyway\", Windows: SmartScreen). Similar videos needs ffmpeg installed. Gemini's $19.99/year is the yearly plan on the Mac App Store and Gemini is Mac-only.\n\nComment \"SPACE\" and I'll DM you the link \ud83d\udd17\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #macos #windows #productivity #freeapps #storage #techtips",
+  "dm_pitch": "Krokiet, the free open-source duplicate file finder \ud83e\uddf9",
+  "install": "Download from GitHub Releases",
+  "dm_on_any_comment": true,
+  "follow_gate": true,
+  "slot": 2,
+  "price_source": "https://apps.apple.com/us/app/gemini-2-the-duplicate-finder/id1090488118",
+  "experiment": {
+    "format": "classic",
+    "hook": "demo",
+    "topic": "utility",
+    "window": "night"
+  },
+  "idempotencyKey": "5a426d17-680d-4872-b7ac-98a0213e7000",
+  "zernio": {
+    "postId": "6aedc9ba6ba3031a045af15d",
+    "status": "scheduled",
+    "scheduledFor": "2026-11-06T21:18:00.000Z",
+    "url": null,
+    "automationId": "6aedc9bcaf90f4e20af5392e",
+    "slot": 2
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "repo": "saber-notes/saber",
+  "name": "Saber",
+  "title": "Saber: free Goodnotes alternative",
+  "slot": 1,
+  "keyword": "NOTES",
+  "topic_arm": "subscription",
+  "paid": {
+    "name": "Goodnotes Essential",
+    "price": "$11.99",
+    "per": "/year",
+    "anchor": "twelve",
+    "source": "https://www.goodnotes.com/pricing"
+  },
+  "icon": "https://raw.githubusercontent.com/saber-notes/saber/main/assets/icon/icon.png",
+  "job": "Handwritten notes anywhere",
+  "platforms": [
+    "iPad",
+    "iPhone",
+    "Android",
+    "Windows",
+    "Linux"
+  ],
+  "install": "Download from the App Store, Play Store or GitHub",
+  "install_url": "https://saber.adil.hanney.org",
+  "demo": {
+    "images": [
+      "https://raw.githubusercontent.com/saber-notes/saber/main/metadata/en-US/images/tenInchScreenshots/2_editor.png",
+      "https://raw.githubusercontent.com/saber-notes/saber/main/metadata/en-US/images/flathubScreenshots/2_editor.png"
+    ]
+  },
+  "caption": "Goodnotes charges $11.99/year for handwritten notes. Saber does it for free ✍️\n\n✅ Real handwriting, with a highlighter that never fades your ink\n✅ Import PDFs and photos and mark them up\n✅ Sync across devices, encrypted with your own password\n✅ No subscription, nested folders with no limit\n\n💻 iPad · iPhone · Android · Windows · Linux\nℹ️ Saber's sync runs through a Nextcloud account (Saber's server or your own), and there's no dedicated Mac build. Goodnotes also has a free plan (3 files, 5 MB imports); $11.99/year is its cheapest paid plan (Essential)\n\nComment \"NOTES\" and I'll DM you the link 🔗\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #notetaking #goodnotes #ipad #studytok #freeapps #techtips",
+  "dm_pitch": "Saber, the free open-source Goodnotes alternative ✍️",
+  "thumb": {
+    "big": "FREE",
+    "line1": "Goodnotes",
+    "line2": "alternative"
+  },
+  "format": "story",
+  "beats": [
+    {
+      "say": "If you still pay for Goodnotes, stop scrolling.",
+      "scene": "slam",
+      "text": "Still paying for Goodnotes?",
+      "accent": "paying",
+      "tone": "neg",
+      "mood": "shock"
+    },
+    {
+      "say": "Their free plan stops at three files. Three.",
+      "scene": "character",
+      "text": "Only three files?! 😾",
+      "mood": "worried",
+      "select": "three"
+    },
+    {
+      "say": "Goodnotes wants twelve bucks a year. Saber costs nothing.",
+      "scene": "versus",
+      "mood": "point",
+      "accent": "nothing"
+    },
+    {
+      "say": "You write by hand, and the highlighter never fades your ink, even where it overlaps.",
+      "scene": "app",
+      "image": "https://raw.githubusercontent.com/saber-notes/saber/main/metadata/en-US/images/tenInchScreenshots/2_editor.png",
+      "text": "Real handwriting",
+      "mood": "excited",
+      "accent": "hand",
+      "select": "overlaps"
+    },
+    {
+      "say": "But here's the crazy part.",
+      "scene": "character",
+      "text": "Wait for it 👀",
+      "mood": "smug"
+    },
+    {
+      "say": "Drop in a PDF or a photo, and write right on top of it.",
+      "scene": "app",
+      "image": "https://raw.githubusercontent.com/saber-notes/saber/main/metadata/en-US/images/flathubScreenshots/1_home.png",
+      "text": "Write on PDFs",
+      "mood": "excited",
+      "select": "PDF"
+    },
+    {
+      "say": "It runs on iPad, Android, Windows and Linux.",
+      "scene": "list",
+      "text": "On every device",
+      "items": [
+        {
+          "label": "iPad & iPhone",
+          "anchor": "iPad"
+        },
+        {
+          "label": "Android",
+          "anchor": "Android"
+        },
+        {
+          "label": "Windows · Linux",
+          "anchor": "Linux"
+        }
+      ]
+    },
+    {
+      "say": "It's Goodnotes, minus the paywall.",
+      "scene": "slam",
+      "text": "$0 forever",
+      "accent": "forever",
+      "mood": "smug",
+      "select": "minus"
+    },
+    {
+      "say": "Comment Notes, and I'll send you the link.",
+      "scene": "cta",
+      "mood": "point"
+    }
+  ],
+  "hook_style": "story",
+  "window": "evening",
+  "publish": {
+    "date": "2026-11-06",
+    "time": "19:23"
+  }
+}

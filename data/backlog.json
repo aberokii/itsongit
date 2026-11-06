@@ -1,31 +1,5 @@
 [
   {
-    "repo": "saber-notes/saber",
-    "name": "Saber",
-    "arm": "subscription",
-    "paid": {
-      "name": "Goodnotes Essential",
-      "price": "$11.99",
-      "per": "/year",
-      "source": "https://www.goodnotes.com/pricing"
-    },
-    "job": "Takes handwritten notes free",
-    "platforms": [
-      "iOS",
-      "Android",
-      "Windows",
-      "macOS",
-      "Linux"
-    ],
-    "mass_appeal": 7,
-    "demo_media": null,
-    "stars": 4991,
-    "contributors": 24,
-    "why": "Goodnotes is the student iPad app; Saber does handwriting notes on every platform for free.",
-    "catch": "Fewer templates/AI features than Goodnotes; Goodnotes' cheapest tier is cheap ($11.99/yr) so the hook number is small.",
-    "price_verified": true
-  },
-  {
     "repo": "proginosko/LeechBlockNG",
     "name": "LeechBlock NG",
     "arm": "utility",
@@ -217,31 +191,6 @@
     "why": "Every Windows-to-Mac switcher misses alt-tab window previews; AltTab adds them free, same Mac-utility lane as winners Loop and Maccy.",
     "catch": "README only has an SVG illustration (alt-tab.app has real screenshots); small core team.",
     "price_verified": true
-  },
-  {
-    "repo": "qarmin/czkawka",
-    "name": "Krokiet (Czkawka)",
-    "arm": "utility",
-    "paid": {
-      "name": "Gemini (MacPaw)",
-      "price": "$1.95",
-      "per": "/month",
-      "source": "https://macpaw.com/gemini"
-    },
-    "job": "Deletes your duplicate files",
-    "platforms": [
-      "Windows",
-      "macOS",
-      "Linux"
-    ],
-    "mass_appeal": 6,
-    "demo_media": null,
-    "stars": 34680,
-    "contributors": 41,
-    "why": "Running out of disk space is universal and this finds duplicate photos, big files and similar images for free.",
-    "catch": "Old Czkawka GUI is superseded by the new Krokiet app; MacPaw only states 'starting at $1.95/month'; close to posted PureMac (CleanMyMac) cleanup lane.",
-    "price_verified": false,
-    "close_to": "001 PureMac (cleanup)"
   },
   {
     "repo": "iSoron/uhabits",

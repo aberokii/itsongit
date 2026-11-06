@@ -1,0 +1,29 @@
+{
+  "title": "Saber: free Goodnotes alternative",
+  "video": "FINAL.mp4",
+  "thumbnail": "FINAL_thumbnail.png",
+  "repo_url": "https://github.com/saber-notes/saber",
+  "keyword": "NOTES",
+  "caption": "Goodnotes charges $11.99/year for handwritten notes. Saber does it for free \u270d\ufe0f\n\n\u2705 Real handwriting, with a highlighter that never fades your ink\n\u2705 Import PDFs and photos and mark them up\n\u2705 Sync across devices, encrypted with your own password\n\u2705 No subscription, nested folders with no limit\n\n\ud83d\udcbb iPad \u00b7 iPhone \u00b7 Android \u00b7 Windows \u00b7 Linux\n\u2139\ufe0f Saber's sync runs through a Nextcloud account (Saber's server or your own), and there's no dedicated Mac build. Goodnotes also has a free plan (3 files, 5 MB imports); $11.99/year is its cheapest paid plan (Essential)\n\nComment \"NOTES\" and I'll DM you the link \ud83d\udd17\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #notetaking #goodnotes #ipad #studytok #freeapps #techtips",
+  "dm_pitch": "Saber, the free open-source Goodnotes alternative \u270d\ufe0f",
+  "install": "Download from the App Store, Play Store or GitHub",
+  "dm_on_any_comment": true,
+  "follow_gate": true,
+  "slot": 1,
+  "price_source": "https://www.goodnotes.com/pricing",
+  "experiment": {
+    "format": "story",
+    "hook": "story",
+    "topic": "subscription",
+    "window": "evening"
+  },
+  "idempotencyKey": "b94eef8e-a4dc-4d72-9ebb-a6f253d9c142",
+  "zernio": {
+    "postId": "6aedca07250c9f1ca03283ea",
+    "status": "scheduled",
+    "scheduledFor": "2026-11-06T18:23:00.000Z",
+    "url": null,
+    "automationId": "6aedca094fc457b68ed76108",
+    "slot": 1
+  }
+}
