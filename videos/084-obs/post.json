@@ -1,0 +1,29 @@
+{
+  "title": "OBS Studio: free Streamlabs Ultra alternative",
+  "video": "FINAL.mp4",
+  "thumbnail": "FINAL_thumbnail.png",
+  "repo_url": "https://github.com/obsproject/obs-studio",
+  "keyword": "STREAM",
+  "caption": "Streamlabs Ultra charges $189/year. OBS Studio streams and records for free \ud83c\udfae\n\n\u2705 Stream live to Twitch, YouTube and more\n\u2705 Record your games and screen\n\u2705 Unlimited scenes with webcam, game, text and browser sources\n\u2705 Audio mixer with noise suppression, plus Studio Mode to preview before going live\n\n\ud83d\udcbb Windows \u00b7 Mac \u00b7 Linux\n\u2139\ufe0f OBS is free for streaming and recording, but it has no built-in multistreaming, overlay library or cloud storage, which Streamlabs Ultra sells. Streamlabs' $189 is the yearly plan ($27 if paid monthly)\n\nComment \"STREAM\" and I'll DM you the link \ud83d\udd17\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #obs #streaming #twitch #gaming #freeapps #techtips",
+  "dm_pitch": "OBS Studio, the free open-source way to stream and record \ud83c\udfae",
+  "install": "brew install --cask obs",
+  "dm_on_any_comment": true,
+  "follow_gate": true,
+  "slot": 2,
+  "price_source": "https://streamlabs.com/ultra",
+  "experiment": {
+    "format": "story",
+    "hook": "story",
+    "topic": "hobby",
+    "window": "night"
+  },
+  "idempotencyKey": "ea6b6d96-0eac-42a2-9dad-11512768b512",
+  "zernio": {
+    "postId": "6aef0cd33178b27b5f9740bc",
+    "status": "scheduled",
+    "scheduledFor": "2026-11-07T21:48:00.000Z",
+    "url": null,
+    "automationId": "6aef0cd583ed7736b32f1ace",
+    "slot": 2
+  }
+}

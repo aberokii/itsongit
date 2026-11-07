@@ -1,0 +1,123 @@
+{
+  "repo": "AppFlowy-IO/AppFlowy",
+  "name": "AppFlowy",
+  "title": "AppFlowy: free Notion alternative",
+  "slot": 0,
+  "keyword": "FLOW",
+  "paid": {
+    "name": "Notion Plus",
+    "price": "$10",
+    "per": "/month",
+    "anchor": "ten",
+    "source": "https://www.notion.com/pricing"
+  },
+  "icon": "https://raw.githubusercontent.com/AppFlowy-IO/AppFlowy/main/frontend/appflowy_flutter/macos/Runner/Assets.xcassets/AppIcon.appiconset/1024.png",
+  "job": "Organizes notes, tasks and docs",
+  "platforms": [
+    "Mac",
+    "Windows",
+    "Linux",
+    "iPhone",
+    "Android"
+  ],
+  "install": "brew install --cask appflowy",
+  "install_url": "https://appflowy.com",
+  "caption": "Notion Plus costs $120/year. AppFlowy organizes your notes, tasks and docs for free 📝\n\n✅ Docs and wikis for notes and reports\n✅ Databases with kanban boards for tasks and projects\n✅ Built-in AI to summarize and ask your workspace\n✅ Self-host it to keep control of your data\n\n💻 Mac · Windows · Linux · iPhone · Android\nℹ️ The desktop app is free to download and use, but AppFlowy also sells paid cloud and AI plans, and Notion's $120/year is Plus at $10/month billed yearly\n\nComment \"FLOW\" and I'll DM you the link 🔗\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #notion #productivity #notetaking #freeapps #techtips",
+  "dm_pitch": "AppFlowy, the free open-source Notion alternative 📝",
+  "thumb": {
+    "big": "FREE",
+    "line1": "Notion",
+    "line2": "alternative"
+  },
+  "format": "story",
+  "topic_arm": "subscription",
+  "demo": {
+    "images": [
+      "assets/kanban.png",
+      "assets/grid.png"
+    ]
+  },
+  "beats": [
+    {
+      "say": "Why is anyone still paying a hundred and twenty dollars a year for Notion?",
+      "scene": "slam",
+      "text": "$120 a year?",
+      "accent": "paying",
+      "tone": "neg",
+      "mood": "shock"
+    },
+    {
+      "say": "There's a free app that does all of it.",
+      "scene": "character",
+      "text": "Wait, free?! 😼",
+      "mood": "excited",
+      "select": "free"
+    },
+    {
+      "say": "Notion Plus costs ten bucks a month. AppFlowy costs nothing.",
+      "scene": "versus",
+      "mood": "point",
+      "accent": "nothing"
+    },
+    {
+      "say": "Plan projects on kanban boards, and drag tasks from to do to done.",
+      "image": "assets/kanban.png",
+      "scene": "app",
+      "text": "Kanban boards",
+      "mood": "excited",
+      "accent": "drag",
+      "select": "done"
+    },
+    {
+      "say": "And it gets better.",
+      "scene": "character",
+      "text": "It gets better 👀",
+      "mood": "smug"
+    },
+    {
+      "say": "Databases for your tasks, with owners, status and due dates.",
+      "scene": "app",
+      "image": "assets/grid.png",
+      "text": "Task databases",
+      "mood": "excited",
+      "select": "status"
+    },
+    {
+      "say": "It runs on Mac, Windows, Linux and your phone.",
+      "scene": "list",
+      "text": "On every device",
+      "items": [
+        {
+          "label": "Mac",
+          "anchor": "Mac"
+        },
+        {
+          "label": "Windows · Linux",
+          "anchor": "Linux"
+        },
+        {
+          "label": "iPhone & Android",
+          "anchor": "phone"
+        }
+      ]
+    },
+    {
+      "say": "It's Notion, minus the monthly bill.",
+      "scene": "slam",
+      "text": "$0 forever",
+      "accent": "minus",
+      "mood": "smug"
+    },
+    {
+      "say": "Comment Flow, and I'll send you the link.",
+      "scene": "cta",
+      "mood": "point"
+    }
+  ],
+  "hook_style": "story",
+  "window": "midday",
+  "publish": {
+    "date": "2026-11-07",
+    "time": "12:46"
+  }
+}

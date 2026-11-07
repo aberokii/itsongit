@@ -1,0 +1,29 @@
+{
+  "title": "AppFlowy: free Notion alternative",
+  "video": "FINAL.mp4",
+  "thumbnail": "FINAL_thumbnail.png",
+  "repo_url": "https://github.com/AppFlowy-IO/AppFlowy",
+  "keyword": "FLOW",
+  "caption": "Notion Plus costs $120/year. AppFlowy organizes your notes, tasks and docs for free \ud83d\udcdd\n\n\u2705 Docs and wikis for notes and reports\n\u2705 Databases with kanban boards for tasks and projects\n\u2705 Built-in AI to summarize and ask your workspace\n\u2705 Self-host it to keep control of your data\n\n\ud83d\udcbb Mac \u00b7 Windows \u00b7 Linux \u00b7 iPhone \u00b7 Android\n\u2139\ufe0f The desktop app is free to download and use, but AppFlowy also sells paid cloud and AI plans, and Notion's $120/year is Plus at $10/month billed yearly\n\nComment \"FLOW\" and I'll DM you the link \ud83d\udd17\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #notion #productivity #notetaking #freeapps #techtips",
+  "dm_pitch": "AppFlowy, the free open-source Notion alternative \ud83d\udcdd",
+  "install": "brew install --cask appflowy",
+  "dm_on_any_comment": true,
+  "follow_gate": true,
+  "slot": 0,
+  "price_source": "https://www.notion.com/pricing",
+  "experiment": {
+    "format": "story",
+    "hook": "story",
+    "topic": "subscription",
+    "window": "midday"
+  },
+  "idempotencyKey": "a40c37d9-2a7e-47ad-9e60-5ca339ed7b6e",
+  "zernio": {
+    "postId": "6aef09d5745c56eac417be75",
+    "status": "scheduled",
+    "scheduledFor": "2026-11-07T11:46:00.000Z",
+    "url": null,
+    "automationId": "6aef09d7b4a4e537230c36cb",
+    "slot": 0
+  }
+}

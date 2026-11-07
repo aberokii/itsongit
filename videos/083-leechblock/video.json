@@ -1,0 +1,107 @@
+{
+ "repo": "proginosko/LeechBlockNG",
+ "name": "LeechBlock NG",
+ "title": "LeechBlock NG: free Freedom alternative",
+ "slot": 1,
+ "keyword": "FOCUS",
+ "topic_arm": "utility",
+ "paid": {
+  "name": "Freedom Premium",
+  "price": "$40",
+  "per": "/year",
+  "anchor": "forty",
+  "source": "https://www.freedom.to/premium"
+ },
+ "icon": "assets/icon.png",
+ "hook": "Freedom charges you about forty bucks a year to block distracting websites. This app does it for free.",
+ "job": "Blocks time-wasting websites",
+ "platforms": [
+  "Firefox",
+  "Chrome"
+ ],
+ "demo": {
+  "images": [
+   "assets/blocked.png",
+   "assets/settings-sets.png"
+  ]
+ },
+ "features": [
+  {
+   "intro": "It blocks the sites that eat your day.",
+   "say": "Block sites at set times, or after a time limit.",
+   "images": [
+    "assets/settings-sets.png",
+    "assets/blocked.png"
+   ],
+   "swap_anchor": "limit",
+   "chips": [
+    {
+     "label": "⏰ Set times",
+     "anchor": "times"
+    },
+    {
+     "label": "Time limit",
+     "anchor": "limit"
+    }
+   ]
+  },
+  {
+   "say": "Lockdown blocks them right now, for as long as you choose.",
+   "images": [
+    "assets/blocked-temp.png"
+   ],
+   "chips": [
+    {
+     "label": "🔒 Lockdown",
+     "anchor": "lockdown"
+    }
+   ]
+  },
+  {
+   "say": "Add a password or a delay, so you can't cheat.",
+   "images": [
+    "assets/access-control.png"
+   ],
+   "chips": [
+    {
+     "label": "🔑 Password",
+     "anchor": "password"
+    },
+    {
+     "label": "⏳ Delay",
+     "anchor": "delay"
+    }
+   ]
+  }
+ ],
+ "nolist": [
+  {
+   "say": "No subscription.",
+   "label": "Subscription"
+  },
+  {
+   "say": "No sign up.",
+   "label": "Sign up"
+  },
+  {
+   "say": "No paywall.",
+   "label": "Paywall"
+  }
+ ],
+ "install": "Download from your browser's add-on store",
+ "install_url": "https://addons.mozilla.org/firefox/addon/leechblock-ng/",
+ "install_line": "It runs in Firefox and Chrome. Add it free from the store.",
+ "caption": "Freedom Premium charges about $40/year. LeechBlock NG blocks your time-wasting sites for free 🚫\n\n✅ Block sites at set times or after a time limit\n✅ Lockdown mode blocks them right now\n✅ Password or countdown delay so you can't cheat\n✅ No subscription, no sign up, 100% free\n\n💻 Firefox · Chrome\nℹ️ Browser-only: it won't block phone apps or other browsers. Freedom's price is Premium yearly at $3.33/month\n\nComment \"FOCUS\" and I'll DM you the link 🔗\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #productivity #studytips #focus #freeapps #browserextension #techtips",
+ "dm_pitch": "LeechBlock NG, the free open-source website blocker that keeps you focused 🚫",
+ "thumb": {
+  "big": "FREE",
+  "line1": "Freedom",
+  "line2": "alternative"
+ },
+ "hook_style": "price",
+ "window": "evening",
+ "publish": {
+  "date": "2026-11-07",
+  "time": "19:48"
+ }
+}

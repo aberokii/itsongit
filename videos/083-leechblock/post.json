@@ -1,0 +1,29 @@
+{
+  "title": "LeechBlock NG: free Freedom alternative",
+  "video": "FINAL.mp4",
+  "thumbnail": "FINAL_thumbnail.png",
+  "repo_url": "https://github.com/proginosko/LeechBlockNG",
+  "keyword": "FOCUS",
+  "caption": "Freedom Premium charges about $40/year. LeechBlock NG blocks your time-wasting sites for free \ud83d\udeab\n\n\u2705 Block sites at set times or after a time limit\n\u2705 Lockdown mode blocks them right now\n\u2705 Password or countdown delay so you can't cheat\n\u2705 No subscription, no sign up, 100% free\n\n\ud83d\udcbb Firefox \u00b7 Chrome\n\u2139\ufe0f Browser-only: it won't block phone apps or other browsers. Freedom's price is Premium yearly at $3.33/month\n\nComment \"FOCUS\" and I'll DM you the link \ud83d\udd17\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #productivity #studytips #focus #freeapps #browserextension #techtips",
+  "dm_pitch": "LeechBlock NG, the free open-source website blocker that keeps you focused \ud83d\udeab",
+  "install": "Download from your browser's add-on store",
+  "dm_on_any_comment": true,
+  "follow_gate": true,
+  "slot": 1,
+  "price_source": "https://www.freedom.to/premium",
+  "experiment": {
+    "format": "classic",
+    "hook": "price",
+    "topic": "utility",
+    "window": "evening"
+  },
+  "idempotencyKey": "ca2f34f5-7631-4a91-b40d-3cb6b9be276d",
+  "zernio": {
+    "postId": "6aef0bd88a59e6852b92c96c",
+    "status": "scheduled",
+    "scheduledFor": "2026-11-07T18:48:00.000Z",
+    "url": null,
+    "automationId": "6aef0bdbad570a6a5e779236",
+    "slot": 1
+  }
+}

@@ -1,0 +1,121 @@
+{
+ "repo": "obsproject/obs-studio",
+ "name": "OBS Studio",
+ "title": "OBS Studio: free Streamlabs Ultra alternative",
+ "slot": 2,
+ "keyword": "STREAM",
+ "paid": {
+  "name": "Streamlabs Ultra",
+  "price": "$189",
+  "per": "/year",
+  "anchor": "hundred",
+  "source": "https://streamlabs.com/ultra"
+ },
+ "icon": "https://raw.githubusercontent.com/obsproject/obs-studio/master/frontend/cmake/linux/icons/obs-logo-512.png",
+ "job": "Streams and records your games",
+ "platforms": [
+  "Windows",
+  "Mac",
+  "Linux"
+ ],
+ "install": "brew install --cask obs",
+ "install_url": "https://obsproject.com/",
+ "caption": "Streamlabs Ultra charges $189/year. OBS Studio streams and records for free 🎮\n\n✅ Stream live to Twitch, YouTube and more\n✅ Record your games and screen\n✅ Unlimited scenes with webcam, game, text and browser sources\n✅ Audio mixer with noise suppression, plus Studio Mode to preview before going live\n\n💻 Windows · Mac · Linux\nℹ️ OBS is free for streaming and recording, but it has no built-in multistreaming, overlay library or cloud storage, which Streamlabs Ultra sells. Streamlabs' $189 is the yearly plan ($27 if paid monthly)\n\nComment \"STREAM\" and I'll DM you the link 🔗\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #obs #streaming #twitch #gaming #freeapps #techtips",
+ "dm_pitch": "OBS Studio, the free open-source way to stream and record 🎮",
+ "thumb": {
+  "big": "FREE",
+  "line1": "Streamlabs Ultra",
+  "line2": "alternative"
+ },
+ "format": "story",
+ "topic_arm": "hobby",
+ "demo": {
+  "images": [
+   "assets/hero.png",
+   "assets/multiview.png"
+  ]
+ },
+ "beats": [
+  {
+   "say": "If you pay Streamlabs to go live, stop scrolling.",
+   "scene": "slam",
+   "text": "Still paying to stream?",
+   "accent": "pay",
+   "tone": "neg",
+   "mood": "shock"
+  },
+  {
+   "say": "You're paying for something that's free.",
+   "scene": "character",
+   "text": "Wait, what?! 🙀",
+   "mood": "worried",
+   "select": "free"
+  },
+  {
+   "say": "Streamlabs Ultra is a hundred and eighty nine dollars a year. OBS costs nothing.",
+   "scene": "versus",
+   "mood": "point",
+   "accent": "nothing"
+  },
+  {
+   "say": "Stack your game, webcam, text and browser windows into scenes, and go live.",
+   "scene": "app",
+   "image": "assets/hero.png",
+   "text": "Game + cam scenes",
+   "mood": "excited",
+   "accent": "webcam",
+   "select": "scenes"
+  },
+  {
+   "say": "But here's the crazy part.",
+   "scene": "character",
+   "text": "Wait for it 👀",
+   "mood": "smug"
+  },
+  {
+   "say": "Every mic gets its own filters, like noise suppression.",
+   "scene": "app",
+   "image": "assets/mixer.png",
+   "text": "Clean mic audio",
+   "mood": "excited",
+   "select": "noise"
+  },
+  {
+   "say": "Go live on Twitch and YouTube, or just record.",
+   "scene": "list",
+   "text": "Go live anywhere",
+   "items": [
+    {
+     "label": "Twitch",
+     "anchor": "Twitch"
+    },
+    {
+     "label": "YouTube",
+     "anchor": "YouTube"
+    },
+    {
+     "label": "⏺ Record",
+     "anchor": "record"
+    }
+   ]
+  },
+  {
+   "say": "Streamlabs is literally built on top of it.",
+   "scene": "slam",
+   "text": "$0 forever",
+   "accent": "literally",
+   "mood": "smug"
+  },
+  {
+   "say": "Comment Stream, and I'll send you the link.",
+   "scene": "cta",
+   "mood": "point"
+  }
+ ],
+ "hook_style": "story",
+ "window": "night",
+ "publish": {
+  "date": "2026-11-07",
+  "time": "22:48"
+ }
+}

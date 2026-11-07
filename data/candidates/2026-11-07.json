@@ -1,0 +1,5017 @@
+{
+ "date": "2026-11-07",
+ "candidates": [
+  {
+   "repo": "Anil-matcha/Open-Generative-AI",
+   "url": "https://github.com/Anil-matcha/Open-Generative-AI",
+   "description": "Unrestricted Open-source alternative to AI video platforms \u2014 Free AI image & video generation studio with 600+ models (Flux, Midjourney, Kling, Sora, Veo). No content filters. Self-hosted, MIT licensed.",
+   "homepage": "https://muapi.ai/open-generative-ai?utm_source=github&utm_medium=about&utm_campaign=open-generative-ai",
+   "stars": 32885,
+   "forks": 6245,
+   "contributors": 14,
+   "releaseDownloads": 63117,
+   "license": "MIT",
+   "created": "2023-05-09",
+   "pushed": "2026-11-06",
+   "topics": [
+    "ai-art-generator",
+    "ai-image-generation",
+    "ai-video-generation",
+    "fal-ai-alternative",
+    "generative-ai",
+    "image-to-video",
+    "invideo-alternative",
+    "kling-ai",
+    "lipsync",
+    "litellm-alternative",
+    "midjourney-alternative",
+    "muapi",
+    "open-source",
+    "openrouter-alternative",
+    "seedance2",
+    "sora-alternative",
+    "text-to-image",
+    "text-to-video",
+    "uncensored",
+    "wan-video"
+   ],
+   "alternativeTo": null,
+   "arm": "subscription",
+   "famousPaid": "midjourney",
+   "devPro": 1,
+   "sources": [
+    "gittrend",
+    "gh-search"
+   ],
+   "flags": [],
+   "score": 23.87
+  },
+  {
+   "repo": "hugohe3/ppt-master",
+   "url": "https://github.com/hugohe3/ppt-master",
+   "description": "AI turns documents or topics into real, native PowerPoint decks\u2014with native shapes, transitions and animations, data-backed charts and tables on demand, audio narration from speaker notes, and support for your own .pptx templates. \u00b7 by Hugo He",
+   "homepage": "https://hugohe3.github.io/ppt-master-examples/",
+   "stars": 74418,
+   "forks": 5831,
+   "contributors": 27,
+   "releaseDownloads": 98421,
+   "license": "MIT",
+   "created": "2025-12-10",
+   "pushed": "2026-11-06",
+   "topics": [
+    "ai-agent",
+    "aippt",
+    "office",
+    "powerpoint",
+    "powerpoint-generation",
+    "ppt",
+    "pptx",
+    "presentation",
+    "slide",
+    "slides"
+   ],
+   "alternativeTo": null,
+   "arm": "subscription",
+   "famousPaid": "powerpoint",
+   "devPro": 1,
+   "sources": [
+    "gittrend"
+   ],
+   "flags": [],
+   "score": 21.17
+  },
+  {
+   "repo": "MMFoundation/WallpaperMachine",
+   "url": "https://github.com/MMFoundation/WallpaperMachine",
+   "description": "Wallpaper Engine wallpapers on your Mac. A free, open-source app that plays scene, video and web wallpapers from the Steam Workshop. Apple silicon, macOS 15+.",
+   "homepage": "https://www.wallpapermachine.app/",
+   "stars": 1305,
+   "forks": 39,
+   "contributors": 11,
+   "releaseDownloads": 31493,
+   "license": "GPL-3.0",
+   "created": "2026-09-14",
+   "pushed": "2026-11-07",
+   "topics": [
+    "animated-wallpaper",
+    "apple-silicon",
+    "desktop-wallpaper",
+    "dynamic-wallpaper",
+    "live-wallpaper",
+    "lock-screen",
+    "macos",
+    "macos-app",
+    "metal",
+    "pixiv",
+    "rust",
+    "screensaver",
+    "steam-workshop",
+    "swift",
+    "swiftui",
+    "vulkan",
+    "wallpaper",
+    "wallpaper-engine"
+   ],
+   "alternativeTo": null,
+   "arm": "utility",
+   "famousPaid": "wallpaper engine",
+   "devPro": 0,
+   "sources": [
+    "gh-search"
+   ],
+   "flags": [],
+   "score": 19.54
+  },
+  {
+   "repo": "calesthio/OpenMontage",
+   "url": "https://github.com/calesthio/OpenMontage",
+   "description": "World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video production studio.",
+   "homepage": "https://www.openmontage.video/",
+   "stars": 77950,
+   "forks": 10381,
+   "contributors": 30,
+   "releaseDownloads": 0,
+   "license": "AGPL-3.0",
+   "created": "2026-03-29",
+   "pushed": "2026-11-03",
+   "topics": [
+    "agent",
+    "agentic-ai",
+    "ai",
+    "claude",
+    "copilot",
+    "cursor",
+    "elevenlabs",
+    "ffmpeg",
+    "flux",
+    "image-generation",
+    "open-source",
+    "openai",
+    "python",
+    "remotion",
+    "stable-diffusion",
+    "text-to-speech",
+    "text-to-video",
+    "video-generation",
+    "video-production"
+   ],
+   "alternativeTo": null,
+   "arm": "subscription",
+   "famousPaid": "elevenlabs",
+   "devPro": 2,
+   "sources": [
+    "gittrend",
+    "gh-trending-weekly"
+   ],
+   "flags": [],
+   "score": 19.52
+  },
+  {
+   "repo": "OpenSelena/omniget",
+   "url": "https://github.com/OpenSelena/omniget",
+   "description": "Open-source download manager for courses (Udemy/Hotmart), YouTube, music & 1,800+ sites. Built with Tauri 2.0, Rust & Svelte.",
+   "homepage": "https://t.me/OpenSelena",
+   "stars": 4710,
+   "forks": 593,
+   "contributors": 24,
+   "releaseDownloads": 40460,
+   "license": "GPL-3.0",
+   "created": "2026-07-08",
+   "pushed": "2026-11-06",
+   "topics": [
+    "downloadmanager",
+    "gui",
+    "hacktoberfest",
+    "homebrew",
+    "lightweight",
+    "linux",
+    "linux-distribution",
+    "local-first",
+    "macos",
+    "macos-package",
+    "omniget",
+    "open-source",
+    "rust",
+    "svelte",
+    "tauri",
+    "trending",
+    "trending-repositories",
+    "windows",
+    "windows-desktop",
+    "ytdlp"
+   ],
+   "alternativeTo": null,
+   "arm": "hobby",
+   "famousPaid": null,
+   "devPro": 0,
+   "sources": [
+    "gittrend"
+   ],
+   "flags": [],
+   "score": 19.33
+  },
+  {
+   "repo": "storytold/photocraft",
+   "url": "https://github.com/storytold/photocraft",
+   "description": "PhotoCraft: An open-source, photo editor written by scratch in pure Rust",
+   "homepage": "https://getartcraft.com/apps/photocraft",
+   "stars": 77590,
+   "forks": 13745,
+   "contributors": 30,
+   "releaseDownloads": 505191,
+   "license": "Apache-2.0",
+   "created": "2026-09-30",
+   "pushed": "2026-11-07",
+   "topics": [
+    "art",
+    "image-editing",
+    "image-editing-software",
+    "image-editor",
+    "images",
+    "photo-editing",
+    "rust"
+   ],
+   "alternativeTo": null,
+   "arm": "hobby",
+   "famousPaid": null,
+   "devPro": 0,
+   "sources": [
+    "gittrend"
+   ],
+   "flags": [],
+   "score": 19.33
+  },
+  {
+   "repo": "anomalyco/hex",
+   "url": "https://github.com/anomalyco/hex",
+   "description": "Local voice dictation for mac, windows and linux",
+   "homepage": "https://anoma.ly/hex",
+   "stars": 5595,
+   "forks": 329,
+   "contributors": 24,
+   "releaseDownloads": 1782,
+   "license": "MIT",
+   "created": "2026-07-17",
+   "pushed": "2026-11-07",
+   "topics": [
+    "dictation",
+    "linux",
+    "local-first",
+    "macos",
+    "rust",
+    "speech-recognition",
+    "speech-to-text",
+    "voice-control"
+   ],
+   "alternativeTo": null,
+   "arm": "utility",
+   "famousPaid": null,
+   "devPro": 0,
+   "sources": [
+    "gittrend"
+   ],
+   "flags": [],
+   "score": 19.32
+  },
+  {
+   "repo": "pingdotgg/t3code",
+   "url": "https://github.com/pingdotgg/t3code",
+   "description": null,
+   "homepage": "https://t3.codes",
+   "stars": 50421,
+   "forks": 9807,
+   "contributors": 30,
+   "releaseDownloads": 237785,
+   "license": "MIT",
+   "created": "2026-02-08",
+   "pushed": "2026-11-07",
+   "topics": [],
+   "alternativeTo": null,
+   "arm": null,
+   "famousPaid": null,
+   "devPro": 0,
+   "sources": [
+    "gittrend",
+    "gh-trending-weekly"
+   ],
+   "flags": [],
+   "score": 19.3
+  },
+  {
+   "repo": "FrigadeHQ/hob",
+   "url": "https://github.com/FrigadeHQ/hob",
+   "description": "An easier way to use AI on your own computer. A free, open-source alternative to Claude and ChatGPT that runs open-weight models like Gemma and gpt-oss locally on Mac, Windows and Linux. Private, and works offline.",
+   "homepage": "https://hob.chat",
+   "stars": 514,
+   "forks": 41,
+   "contributors": 3,
+   "releaseDownloads": 11208,
+   "license": "MIT",
+   "created": "2026-10-14",
+   "pushed": "2026-10-30",
+   "topics": [
+    "ai-agent",
+    "ai-assistant",
+    "chatgpt-alternative",
+    "claude-alternative",
+    "desktop-app",
+    "electron",
+    "gemma",
+    "gpt-oss",
+    "linux",
+    "llama-cpp",
+    "llm",
+    "local-ai",
+    "local-llm",
+    "macos",
+    "mcp",
+    "offline-ai",
+    "open-source",
+    "privacy",
+    "private-ai",
+    "windows"
+   ],
+   "alternativeTo": "Claude",
+   "arm": "subscription",
+   "famousPaid": "chatgpt",
+   "devPro": 3,
+   "sources": [
+    "hn-show"
+   ],
+   "flags": [],
+   "score": 18.13
+  },
+  {
+   "repo": "blader/humanizer",
+   "url": "https://github.com/blader/humanizer",
+   "description": "Agent skill that removes signs of AI-generated writing from text",
+   "homepage": "https://skills.sh/blader/humanizer",
+   "stars": 65802,
+   "forks": 5202,
+   "contributors": 23,
+   "releaseDownloads": 5304,
+   "license": "MIT",
+   "created": "2026-01-18",
+   "pushed": "2026-10-28",
+   "topics": [
+    "agent-skills",
+    "ai-humanizer",
+    "ai-writing",
+    "chatgpt",
+    "claude",
+    "claude-code",
+    "codex",
+    "cursor",
+    "humanize-ai-text",
+    "humanizer",
+    "llm",
+    "prompt-engineering",
+    "writing-tools"
+   ],
+   "alternativeTo": null,
+   "arm": "subscription",
+   "famousPaid": "chatgpt",
+   "devPro": 2,
+   "sources": [
+    "gittrend"
+   ],
+   "flags": [],
+   "score": 18.01
+  },
+  {
+   "repo": "fif7y/dimble",
+   "url": "https://github.com/fif7y/dimble",
+   "description": "A calm menu bar, done the native way. Hides the icons you don't need until you do.",
+   "homepage": "https://dimble.fif7y.com",
+   "stars": 1133,
+   "forks": 26,
+   "contributors": 10,
+   "releaseDownloads": 896,
+   "license": "GPL-3.0",
+   "created": "2026-08-20",
+   "pushed": "2026-11-07",
+   "topics": [
+    "bartender-alternative",
+    "ice-alternative",
+    "macos",
+    "macos-app",
+    "menu-bar",
+    "menu-bar-manager",
+    "menubar",
+    "menubar-app",
+    "status-bar",
+    "statusbar",
+    "swift",
+    "swiftui",
+    "utility"
+   ],
+   "alternativeTo": null,
+   "arm": "subscription",
+   "famousPaid": "calm",
+   "devPro": 0,
+   "sources": [
+    "gh-search"
+   ],
+   "flags": [],
+   "score": 17.92
+  },
+  {
+   "repo": "docmost/docmost",
+   "url": "https://github.com/docmost/docmost",
+   "description": "Docmost is an open-source collaborative wiki and documentation software. It is an open-source alternative to Confluence and Notion.",
+   "homepage": "https://docmost.com",
+   "stars": 22254,
+   "forks": 1673,
+   "contributors": 30,
+   "releaseDownloads": 582,
+   "license": "AGPL-3.0",
+   "created": "2023-08-03",
+   "pushed": "2026-11-07",
+   "topics": [
+    "ai",
+    "ai-agents",
+    "collaborative",
+    "confluence",
+    "document",
+    "documentation",
+    "documents",
+    "dot",
+    "dots",
+    "drawio",
+    "knowledge-base",
+    "mediawiki",
+    "miro",
+    "notion",
+    "notion-alternative",
+    "open-source",
+    "opensource",
+    "quip",
+    "realtime-collaboration",
+    "wiki"
+   ],
+   "alternativeTo": "Confluence",
+   "arm": "subscription",
+   "famousPaid": "notion",
+   "devPro": 1,
+   "sources": [
+    "gh-search"
+   ],
+   "flags": [],
+   "score": 17.9
+  },
+  {
+   "repo": "farion1231/cc-switch",
+   "url": "https://github.com/farion1231/cc-switch",
+   "description": "A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode,DeepSeek Harness and more. Only official website: ccswitch.io",
+   "homepage": "https://ccswitch.io",
+   "stars": 152507,
+   "forks": 10024,
+   "contributors": 30,
+   "releaseDownloads": 325443,
+   "license": "MIT",
+   "created": "2025-08-04",
+   "pushed": "2026-11-07",
+   "topics": [
+    "ai-tools",
+    "claude-code",
+    "codex",
+    "deepseek-harness",
+    "desktop-app",
+    "grok",
+    "grokbuild",
+    "hermes",
+    "kimi-code",
+    "mcp",
+    "open-source",
+    "opencode",
+    "pi",
+    "provider-management",
+    "rust",
+    "skills",
+    "skills-management",
+    "tauri",
+    "wsl-support"
+   ],
+   "alternativeTo": null,
+   "arm": "utility",
+   "famousPaid": null,
+   "devPro": 1,
+   "sources": [
+    "gittrend"
+   ],
+   "flags": [],
+   "score": 17.87
+  },
+  {
+   "repo": "github/spec-kit",
+   "url": "https://github.com/github/spec-kit",
+   "description": "\ud83d\udcab Toolkit to help you get started with SDD or any other process!",
+   "homepage": "https://github.github.com/spec-kit/",
+   "stars": 148292,
+   "forks": 13323,
+   "contributors": 30,
+   "releaseDownloads": 0,
+   "license": "MIT",
+   "created": "2025-08-21",
+   "pushed": "2026-11-07",
+   "topics": [
+    "ai",
+    "copilot",
+    "development",
+    "engineering",
+    "prd",
+    "spec",
+    "spec-driven"
+   ],
+   "alternativeTo": null,
+   "arm": null,
+   "famousPaid": null,
+   "devPro": 0,
+   "sources": [
+    "gittrend",
+    "gh-trending-weekly"
+   ],
+   "flags": [],
+   "score": 17.82
+  },
+  {
+   "repo": "boykopovar/AnyPS5",
+   "url": "https://github.com/boykopovar/AnyPS5",
+   "description": "Tool for automatic PS5 executables porting to Linux and Windows",
+   "homepage": "https://boykopovar.github.io/AnyPS5/",
+   "stars": 51898,
+   "forks": 4942,
+   "contributors": 30,
+   "releaseDownloads": 104642,
+   "license": "GPL-2.0",
+   "created": "2026-08-03",
+   "pushed": "2026-11-07",
+   "topics": [
+    "anyps5",
+    "dynamic-library",
+    "game-porting",
+    "ps5",
+    "ps5-tools",
+    "spir-v",
+    "vulkan"
+   ],
+   "alternativeTo": null,
+   "arm": "hobby",
+   "famousPaid": null,
+   "devPro": 0,
+   "sources": [
+    "gittrend"
+   ],
+   "flags": [],
+   "score": 17.58
+  },
+  {
+   "repo": "floci-io/floci",
+   "url": "https://github.com/floci-io/floci",
+   "description": "Light, fluffy, and always free - The AWS Local Emulator alternative",
+   "homepage": "https://floci.io/floci/",
+   "stars": 30952,
+   "forks": 3373,
+   "contributors": 30,
+   "releaseDownloads": 0,
+   "license": "MIT",
+   "created": "2026-02-18",
+   "pushed": "2026-11-07",
+   "topics": [
+    "aws",
+    "aws-emulation",
+    "devops",
+    "docker",
+    "ec2",
+    "ecs",
+    "localstack",
+    "s3",
+    "sqs",
+    "testcontainers"
+   ],
+   "alternativeTo": "Local Emulator",
+   "arm": "hobby",
+   "famousPaid": null,
+   "devPro": 2,
+   "sources": [
+    "gittrend"
+   ],
+   "flags": [],
+   "score": 17.55
+  },
+  {
+   "repo": "hyprwm/Hyprland",
+   "url": "https://github.com/hyprwm/Hyprland",
+   "description": "Hyprland is an independent, highly customizable, dynamic tiling Wayland compositor that doesn't sacrifice on its looks.",
+   "homepage": "https://hypr.land",
+   "stars": 40463,
+   "forks": 2167,
+   "contributors": 30,
+   "releaseDownloads": 14765,
+   "license": "BSD-3-Clause",
+   "created": "2022-03-16",
+   "pushed": "2026-11-06",
+   "topics": [
+    "compositor",
+    "cpp26",
+    "wayland",
+    "wayland-compositor"
+   ],
+   "alternativeTo": null,
+   "arm": null,
+   "famousPaid": null,
+   "devPro": 0,
+   "sources": [
+    "gh-trending-weekly"
+   ],
+   "flags": [],
+   "score": 17.44
+  },
+  {
+   "repo": "microsoft/vscode",
+   "url": "https://github.com/microsoft/vscode",
+   "description": "Visual Studio Code",
+   "homepage": "https://code.visualstudio.com",
+   "stars": 195124,
+   "forks": 44439,
+   "contributors": 30,
+   "releaseDownloads": 0,
+   "license": "MIT",
+   "created": "2015-09-03",
+   "pushed": "2026-11-07",
+   "topics": [
+    "editor",
+    "electron",
+    "microsoft",
+    "typescript",
+    "visual-studio-code"
+   ],
+   "alternativeTo": null,
+   "arm": null,
+   "famousPaid": null,
+   "devPro": 0,
+   "sources": [
+    "gittrend"
+   ],
+   "flags": [],
+   "score": 17.43
+  },
+  {
+   "repo": "mikufoxxx/Wenku8_Flutter",
+   "url": "https://github.com/mikufoxxx/Wenku8_Flutter",
+   "description": "A free Wenku8 and local-book reader for Android, iOS and HarmonyOS, with offline reading, text-to-speech, reading reports, widgets and S3 sync.",
+   "homepage": "https://mikufoxxx.github.io/Wenku8_Flutter/",
+   "stars": 1864,
+   "forks": 93,
+   "contributors": 1,
+   "releaseDownloads": 54223,
+   "license": "GPL-2.0",
+   "created": "2026-09-28",
+   "pushed": "2026-11-03",
+   "topics": [
+    "android",
+    "ebook-reader",
+    "flutter",
+    "harmonyos",
+    "ios",
+    "wenku8"
+   ],
+   "alternativeTo": null,
+   "arm": null,
+   "famousPaid": null,
+   "devPro": 0,
+   "sources": [
+    "gittrend"
+   ],
+   "flags": [],
+   "score": 17.26
+  },
+  {
+   "repo": "Nutlope/hallmark",
+   "url": "https://github.com/Nutlope/hallmark",
+   "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
+   "homepage": "https://www.usehallmark.com/",
+   "stars": 49890,
+   "forks": 2644,
+   "contributors": 11,
+   "releaseDownloads": 0,
+   "license": "MIT",
+   "created": "2026-04-27",
+   "pushed": "2026-11-05",
+   "topics": [],
+   "alternativeTo": null,
+   "arm": null,
+   "famousPaid": null,
+   "devPro": 0,
+   "sources": [
+    "gittrend",
+    "gh-trending-weekly"
+   ],
+   "flags": [],
+   "score": 17.23
+  },
+  {
+   "repo": "yt-dlp/yt-dlp",
+   "url": "https://github.com/yt-dlp/yt-dlp",
+   "description": "A feature-rich command-line audio/video downloader",
+   "homepage": "https://discord.gg/H5MNcFW63r",
+   "stars": 205887,
+   "forks": 18089,
+   "contributors": 30,
+   "releaseDownloads": 20790292,
+   "license": "Unlicense",
+   "created": "2020-10-26",
+   "pushed": "2026-11-04",
+   "topics": [
+    "cli",
+    "downloader",
+    "python",
+    "sponsorblock",
+    "youtube-dl",
+    "youtube-downloader",
+    "yt-dlp"
+   ],
+   "alternativeTo": null,
+   "arm": null,
+   "famousPaid": null,
+   "devPro": 1,
+   "sources": [
+    "gittrend"
+   ],
+   "flags": [],
+   "score": 16.89
+  },
+  {
+   "repo": "chen08209/FlClash",
+   "url": "https://github.com/chen08209/FlClash",
+   "description": "A multi-platform proxy client based on ClashMeta,simple and easy to use, open-source and ad-free.",
+   "homepage": "https://chen08209.github.io/FlClash",
+   "stars": 61782,
+   "forks": 4072,
+   "contributors": 3,
+   "releaseDownloads": 1441452,
+   "license": "GPL-3.0",
+   "created": "2023-08-15",
+   "pushed": "2026-11-04",
+   "topics": [
+    "clash",
+    "clash-meta",
+    "flutter",
+    "hysteria",
+    "multi-platform",
+    "proxy",
+    "v2ray",
+    "vless",
+    "vpn"
+   ],
+   "alternativeTo": null,
+   "arm": null,
+   "famousPaid": null,
+   "devPro": 0,
+   "sources": [
+    "gittrend"
+   ],
+   "flags": [],
+   "score": 16.8
+  },
+  {
+   "repo": "peach-mitao/peach",
+   "url": "https://github.com/peach-mitao/peach",
+   "description": "Peach: Local-first video metadata scraper and media manager.",
+   "homepage": "https://peach.video",
+   "stars": 14662,
+   "forks": 1692,
+   "contributors": 15,
+   "releaseDownloads": 3320,
+   "license": "AGPL-3.0",
+   "created": "2026-08-19",
+   "pushed": "2026-11-07",
+   "topics": [
+    "local-first",
+    "media-library",
+    "media-manager",
+    "python",
+    "react",
+    "self-hosted",
+    "video-player"
+   ],
+   "alternativeTo": null,
+   "arm": null,
+   "famousPaid": null,
+   "devPro": 1,
+   "sources": [
+    "gittrend",
+    "gh-search"
+   ],
+   "flags": [],
+   "score": 16.76
+  },
+  {
+   "repo": "microsoft/VibeVoice",
+   "url": "https://github.com/microsoft/VibeVoice",
+   "description": "Open-Source Frontier Voice AI",
+   "homepage": "https://microsoft.github.io/VibeVoice/",
+   "stars": 56587,
+   "forks": 6374,
+   "contributors": 22,
+   "releaseDownloads": 0,
+   "license": "MIT",
+   "created": "2025-08-25",
+   "pushed": "2026-10-08",
+   "topics": [],
+   "alternativeTo": null,
+   "arm": null,
+   "famousPaid": null,
+   "devPro": 0,
+   "sources": [
+    "gittrend"
+   ],
+   "flags": [],
+   "score": 16.75
+  },
+  {
+   "repo": "modelflare-ai/AnyModelBot",
+   "url": "https://github.com/modelflare-ai/AnyModelBot",
+   "description": "\ud83e\udd16 Open-source, local-first alternative to Grok Bot, OpenAI dots and Claude Duet. Your own AI bots on any model: GPT, Claude, Gemini, Grok, DeepSeek, Kimi, GLM and 70+ more through one Modelflare key. Reach them in the app, WeChat or Feishu; they remember you, work in the background, run commands and use your computer. Pay per use.",
+   "homepage": "https://anymodel.bot/",
+   "stars": 2734,
+   "forks": 43,
+   "contributors": 5,
+   "releaseDownloads": 561,
+   "license": "MIT",
+   "created": "2026-10-27",
+   "pushed": "2026-11-06",
+   "topics": [
+    "ai-agent",
+    "ai-assistant",
+    "chatbot",
+    "claude",
+    "computer-use",
+    "deepseek",
+    "desktop-app",
+    "dsh",
+    "electron",
+    "feishu",
+    "gemini",
+    "gpt",
+    "grok",
+    "llm",
+    "local-first",
+    "modelflare",
+    "multi-model",
+    "openai-compatible",
+    "personal-ai-agent",
+    "wechat"
+   ],
+   "alternativeTo": "Grok Bot",
+   "arm": "utility",
+   "famousPaid": "duet",
+   "devPro": 2,
+   "sources": [
+    "gh-search"
+   ],
+   "flags": [],
+   "score": 16.68
+  },
+  {
+   "repo": "saragordic/window-sweaters",
+   "url": "https://github.com/saragordic/window-sweaters",
+   "description": "A macOS menu-bar app that dresses your windows in knitted borders.",
+   "homepage": null,
+   "stars": 1321,
+   "forks": 38,
+   "contributors": 2,
+   "releaseDownloads": 2871,
+   "license": "GPL-3.0",
+   "created": "2026-09-15",
+   "pushed": "2026-11-05",
+   "topics": [
+    "desktop-customization",
+    "knitting",
+    "macos",
+    "macos-app",
+    "menubar",
+    "menubar-app",
+    "objective-c",
+    "window-management"
+   ],
+   "alternativeTo": null,
+   "arm": "hobby",
+   "famousPaid": null,
+   "devPro": 0,
+   "sources": [
+    "gittrend",
+    "gh-search"
+   ],
+   "flags": [],
+   "score": 16.57
+  },
+  {
+   "repo": "JustVugg/colibri",
+   "url": "https://github.com/JustVugg/colibri",
+   "description": "A hierarchical inference engine for frontier MoE models: hot experts on the GPU (CUDA, Vulkan), warm ones in RAM, cold ones streamed from NVMe. Written in C, runs on the hardware you already own.",
+   "homepage": "https://justvugg.github.io/colibri",
+   "stars": 48583,
+   "forks": 5657,
+   "contributors": 30,
+   "releaseDownloads": 64909,
+   "license": "Apache-2.0",
+   "created": "2026-07-01",
+   "pushed": "2026-11-07",
+   "topics": [],
+   "alternativeTo": null,
+   "arm": "hobby",
+   "famousPaid": null,
+   "devPro": 0,
+   "sources": [
+    "gittrend"
+   ],
+   "flags": [],
+   "score": 16.57
+  },
+  {
+   "repo": "garrytan/gstack",
+   "url": "https://github.com/garrytan/gstack",
+   "description": "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA",
+   "homepage": "",
+   "stars": 140560,
+   "forks": 20748,
+   "contributors": 14,
+   "releaseDownloads": 0,
+   "license": "MIT",
+   "created": "2026-03-11",
+   "pushed": "2026-11-07",
+   "topics": [],
+   "alternativeTo": null,
+   "arm": null,
+   "famousPaid": null,
+   "devPro": 0,
+   "sources": [
+    "gittrend"
+   ],
+   "flags": [],
+   "score": 16.54
+  },
+  {
+   "repo": "horizon-rust/horizon",
+   "url": "https://github.com/horizon-rust/horizon",
+   "description": "Minecraft: Java Edition 26.3 rewritten from scratch in Rust, checked against vanilla with 281 differential harnesses. Get it with the Horizon launcher.",
+   "homepage": "https://playhorizon.dev",
+   "stars": 7535,
+   "forks": 1142,
+   "contributors": 30,
+   "releaseDownloads": 93636,
+   "license": "MIT",
+   "created": "2026-10-03",
+   "pushed": "2026-11-07",
+   "topics": [
+    "differential-testing",
+    "game-engine",
+    "gamedev",
+    "linux",
+    "minecraft",
+    "minecraft-java",
+    "reimplementation",
+    "rust",
+    "voxel",
+    "vulkan",
+    "wgpu"
+   ],
+   "alternativeTo": null,
+   "arm": "hobby",
+   "famousPaid": null,
+   "devPro": 0,
+   "sources": [
+    "gittrend"
+   ],
+   "flags": [],
+   "score": 16.51
+  },
+  {
+   "repo": "nextlevelbuilder/ui-ux-pro-max-skill",
+   "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+   "description": "An AI skill that provides design intelligence for building professional UI/UX across multiple platforms.",
+   "homepage": "https://www.uupm.cc/",
+   "stars": 146338,
+   "forks": 15489,
+   "contributors": 30,
+   "releaseDownloads": 0,
+   "license": "MIT",
+   "created": "2025-11-30",
+   "pushed": "2026-11-05",
+   "topics": [
+    "ai-skills",
+    "antigravity",
+    "claude",
+    "claude-code",
+    "codex",
+    "command-line",
+    "copilot",
+    "cursor-ai",
+    "html5",
+    "kiro",
+    "landing-page",
+    "mobile-ui",
+    "qoder",
+    "react",
+    "tailwindcss",
+    "trae",
+    "ui-design",
+    "uikit",
+    "windsurf-ai"
+   ],
+   "alternativeTo": null,
+   "arm": null,
+   "famousPaid": null,
+   "devPro": 0,
+   "sources": [
+    "gittrend"
+   ],
+   "flags": [],
+   "score": 16.32
+  },
+  {
+   "repo": "storytold/craft-anything",
+   "url": "https://github.com/storytold/craft-anything",
+   "description": "Craft Anything: understand how any software works, and craft your own.",
+   "homepage": "",
+   "stars": 19280,
+   "forks": 3621,
+   "contributors": 30,
+   "releaseDownloads": 255540,
+   "license": "Apache-2.0",
+   "created": "2026-10-31",
+   "pushed": "2026-11-07",
+   "topics": [],
+   "alternativeTo": null,
+   "arm": null,
+   "famousPaid": null,
+   "devPro": 0,
+   "sources": [
+    "gittrend",
+    "gh-search"
+   ],
+   "flags": [],
+   "score": 16.29
+  },
+  {
+   "repo": "matomo-org/matomo",
+   "url": "https://github.com/matomo-org/matomo",
+   "description": "Empowering People Ethically \ud83d\ude80 \u2014 Matomo is hiring! Join us \u2192 https://matomo.org/jobs Matomo is the leading open-source alternative to Google Analytics, giving you complete control and built-in privacy. Easily collect, visualise, and analyse data from websites & apps. Star us on GitHub \u2b50\ufe0f  \u2013 Pull Requests welcome! ",
+   "homepage": "https://matomo.org/",
+   "stars": 22011,
+   "forks": 2929,
+   "contributors": 30,
+   "releaseDownloads": 85,
+   "license": "GPL-3.0",
+   "created": "2011-03-30",
+   "pushed": "2026-11-06",
+   "topics": [
+    "analytics",
+    "growth",
+    "hacktoberfest",
+    "intranet",
+    "log",
+    "marketing",
+    "matomo",
+    "mobile",
+    "mysql",
+    "php",
+    "piwik",
+    "privacy",
+    "security",
+    "web-analytics",
+    "website"
+   ],
+   "alternativeTo": "Google Analytics",
+   "arm": null,
+   "famousPaid": null,
+   "devPro": 0,
+   "sources": [
+    "gh-search"
+   ],
+   "flags": [],
+   "score": 16.09
+  },
+  {
+   "repo": "tashfeenahmed/freellmapi",
+   "url": "https://github.com/tashfeenahmed/freellmapi",
+   "description": "7.4 billion tokens per month. 34 free LLM providers. 635 free model endpoints. All behind one /v1 endpoint, plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experimentation only.",
+   "homepage": "https://freellmapi.co",
+   "stars": 48610,
+   "forks": 6694,
+   "contributors": 30,
+   "releaseDownloads": 51677,
+   "license": "MIT",
+   "created": "2026-04-21",
+   "pushed": "2026-11-07",
+   "topics": [],
+   "alternativeTo": null,
+   "arm": null,
+   "famousPaid": null,
+   "devPro": 1,
+   "sources": [
+    "gittrend"
+   ],
+   "flags": [],
+   "score": 16.03
+  },
+  {
+   "repo": "valentderah/totk-pc-recomp",
+   "url": "https://github.com/valentderah/totk-pc-recomp",
+   "description": "Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows and Linux x86-64, with a Vulkan renderer. Game files not included.",
+   "homepage": "",
+   "stars": 5538,
+   "forks": 459,
+   "contributors": 30,
+   "releaseDownloads": 44385,
+   "license": "MIT",
+   "created": "2026-10-29",
+   "pushed": "2026-11-07",
+   "topics": [
+    "game",
+    "linux",
+    "port",
+    "recompilation",
+    "windows"
+   ],
+   "alternativeTo": null,
+   "arm": "hobby",
+   "famousPaid": null,
+   "devPro": 0,
+   "sources": [
+    "gittrend",
+    "gh-search"
+   ],
+   "flags": [],
+   "score": 16.01
+  },
+  {
+   "repo": "NousResearch/hermes-agent",
+   "url": "https://github.com/NousResearch/hermes-agent",
+   "description": "The agent that grows with you",
+   "homepage": "https://hermes-agent.nousresearch.com",
+   "stars": 261335,
+   "forks": 57886,
+   "contributors": 30,
+   "releaseDownloads": 0,
+   "license": "MIT",
+   "created": "2025-07-22",
+   "pushed": "2026-11-07",
+   "topics": [
+    "ai",
+    "ai-agent",
+    "ai-agents",
+    "anthropic",
+    "chatgpt",
+    "claude",
+    "claude-code",
+    "codex",
+    "hermes",
+    "hermes-agent",
+    "llm",
+    "nous-research",
+    "openai"
+   ],
+   "alternativeTo": null,
+   "arm": "subscription",
+   "famousPaid": "chatgpt",
+   "devPro": 4,
+   "sources": [
+    "gittrend"
+   ],
+   "flags": [],
+   "score": 15.63
+  },
+  {
+   "repo": "seedds/nxnative",
+   "url": "https://github.com/seedds/nxnative",
+   "description": "Switch games running natively on iPhone, iPad and Mac: an NSP folder becomes an unsigned IPA (NSO rewriter, Horizon HLE host, NVN\u2192Metal)",
+   "homepage": null,
+   "stars": 13143,
+   "forks": 2247,
+   "contributors": 23,
+   "releaseDownloads": 0,
+   "license": "MIT",
+   "created": "2026-10-13",
+   "pushed": "2026-11-07",
+   "topics": [],
+   "alternativeTo": null,
+   "arm": "hobby",
+   "famousPaid": null,
+   "devPro": 0,
+   "sources": [
+    "gittrend",
+    "gh-search"
+   ],
+   "flags": [],
+   "score": 15.58
+  },
+  {
+   "repo": "LargeModGames/spotatui",
+   "url": "https://github.com/LargeModGames/spotatui",
+   "description": "A fast, standalone terminal music player in Rust: native Spotify streaming plus local, Subsonic, radio, Qobuz and Youtube sources",
+   "homepage": "https://spotatui.com",
+   "stars": 1811,
+   "forks": 225,
+   "contributors": 30,
+   "releaseDownloads": 18239,
+   "license": "MIT",
+   "created": "2025-11-10",
+   "pushed": "2026-11-05",
+   "topics": [
+    "audio-visualization",
+    "cli",
+    "lyrics",
+    "mpris",
+    "multimedia",
+    "music",
+    "music-player",
+    "navidrome",
+    "qobuz",
+    "radio",
+    "ratatui",
+    "rust",
+    "spotify",
+    "spotify-api",
+    "spotify-tui",
+    "subsonic",
+    "terminal",
+    "terminal-based",
+    "tui",
+    "youtube"
+   ],
+   "alternativeTo": null,
+   "arm": "subscription",
+   "famousPaid": "spotify",
+   "devPro": 3,
+   "sources": [
+    "hn-show"
+   ],
+   "flags": [],
+   "score": 15.57
+  },
+  {
+   "repo": "milind-soni/OpenMausBot",
+   "url": "https://github.com/milind-soni/OpenMausBot",
+   "description": "Open-source Grok Bot alternative with a virtual machine that bots can use",
+   "homepage": "https://www.openmausbot.com/",
+   "stars": 16142,
+   "forks": 2285,
+   "contributors": 30,
+   "releaseDownloads": 74517,
+   "license": "Apache-2.0",
+   "created": "2026-08-11",
+   "pushed": "2026-11-07",
+   "topics": [
+    "ai-agents",
+    "claude-code",
+    "codex",
+    "computer-use",
+    "docker",
+    "electron",
+    "expo",
+    "grok",
+    "grok-bot",
+    "grok-bot-alternative",
+    "self-hosted",
+    "typescript"
+   ],
+   "alternativeTo": "Grok Bot",
+   "arm": null,
+   "famousPaid": null,
+   "devPro": 3,
+   "sources": [
+    "gittrend",
+    "gh-trending-daily",
+    "gh-search"
+   ],
+   "flags": [],
+   "score": 15.51
+  },
+  {
+   "repo": "pbakaus/impeccable",
+   "url": "https://github.com/pbakaus/impeccable",
+   "description": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.",
+   "homepage": "https://impeccable.style",
+   "stars": 105094,
+   "forks": 6243,
+   "contributors": 30,
+   "releaseDownloads": 530775,
+   "license": "Apache-2.0",
+   "created": "2025-11-16",
+   "pushed": "2026-11-07",
+   "topics": [
+    "agent-skills",
+    "ai",
+    "anti-slop",
+    "design",
+    "slop"
+   ],
+   "alternativeTo": null,
+   "arm": null,
+   "famousPaid": null,
+   "devPro": 2,
+   "sources": [
+    "gittrend",
+    "gh-trending-weekly"
+   ],
+   "flags": [],
+   "score": 15.48
+  },
+  {
+   "repo": "deepseek-ai/deepseek-harness",
+   "url": "https://github.com/deepseek-ai/deepseek-harness",
+   "description": "DeepSeek Harness: Everything is a Plugin.",
+   "homepage": "https://deepseek.com/harness",
+   "stars": 275369,
+   "forks": 33665,
+   "contributors": 30,
+   "releaseDownloads": 0,
+   "license": "MIT",
+   "created": "2026-08-13",
+   "pushed": "2026-11-04",
+   "topics": [
+    "ai-agents",
+    "cordis",
+    "dsh",
+    "dsh-plugin"
+   ],
+   "alternativeTo": null,
+   "arm": null,
+   "famousPaid": null,
+   "devPro": 1,
+   "sources": [
+    "gittrend"
+   ],
+   "flags": [],
+   "score": 15.43
+  },
+  {
+   "repo": "scenario-labs/skills",
+   "url": "https://github.com/scenario-labs/skills",
+   "description": "Get production-ready images, video, audio, and 3D from any AI agent: skills that pick the right model, price before spending, and keep characters and brands consistent through the Scenario MCP, plus expert teams that drive Blender, Maya, ZBrush, Unreal, and Unity.",
+   "homepage": "https://www.skills.sh/scenario-labs/skills",
+   "stars": 3472,
+   "forks": 300,
+   "contributors": 13,
+   "releaseDownloads": 0,
+   "license": "MIT",
+   "created": "2026-08-12",
+   "pushed": "2026-11-07",
+   "topics": [
+    "3d-models",
+    "agent-skills",
+    "ai-agents",
+    "ai-art",
+    "blender",
+    "claude-code",
+    "claude-skills",
+    "codex",
+    "game-assets",
+    "game-development",
+    "generative-ai",
+    "image-generation",
+    "maya",
+    "mcp",
+    "model-context-protocol",
+    "skills-sh",
+    "unity",
+    "unreal-engine",
+    "video-generation",
+    "zbrush"
+   ],
+   "alternativeTo": null,
+   "arm": "hobby",
+   "famousPaid": "zbrush",
+   "devPro": 3,
+   "sources": [
+    "gittrend"
+   ],
+   "flags": [],
+   "score": 15.43
+  },
+  {
+   "repo": "storytold/artcraft",
+   "url": "https://github.com/storytold/artcraft",
+   "description": "ArtCraft is an intentional crafting engine for artists, designers, and filmmakers",
+   "homepage": "https://getartcraft.com",
+   "stars": 39387,
+   "forks": 6205,
+   "contributors": 6,
+   "releaseDownloads": 1127565,
+   "license": "Apache-2.0",
+   "created": "2022-03-31",
+   "pushed": "2026-11-07",
+   "topics": [
+    "3d-graphics",
+    "ai",
+    "aivideo",
+    "filmmaking",
+    "imagegeneration"
+   ],
+   "alternativeTo": null,
+   "arm": "hobby",
+   "famousPaid": null,
+   "devPro": 0,
+   "sources": [
+    "gittrend"
+   ],
+   "flags": [],
+   "score": 15.34
+  },
+  {
+   "repo": "sherlock-project/sherlock",
+   "url": "https://github.com/sherlock-project/sherlock",
+   "description": "Hunt down social media accounts by username across social networks",
+   "homepage": "https://sherlockproject.xyz",
+   "stars": 99258,
+   "forks": 11774,
+   "contributors": 30,
+   "releaseDownloads": 0,
+   "license": "MIT",
+   "created": "2018-12-24",
+   "pushed": "2026-11-07",
+   "topics": [
+    "cli",
+    "cti",
+    "cybersecurity",
+    "forensics",
+    "hacktoberfest",
+    "information-gathering",
+    "infosec",
+    "linux",
+    "osint",
+    "pentesting",
+    "python",
+    "python3",
+    "reconnaissance",
+    "redteam",
+    "sherlock",
+    "tools"
+   ],
+   "alternativeTo": null,
+   "arm": null,
+   "famousPaid": null,
+   "devPro": 1,
+   "sources": [
+    "gittrend",
+    "gh-trending-daily"
+   ],
+   "flags": [],
+   "score": 15.33
+  },
+  {
+   "repo": "Openpanel-dev/openpanel",
+   "url": "https://github.com/Openpanel-dev/openpanel",
+   "description": "OpenPanel is an open-source web and product analytics platform, an open-source alternative to Mixpanel with optional self-hosting.",
+   "homepage": "https://openpanel.dev",
+   "stars": 7265,
+   "forks": 537,
+   "contributors": 30,
+   "releaseDownloads": 18,
+   "license": "AGPL-3.0",
+   "created": "2024-02-29",
+   "pushed": "2026-11-06",
+   "topics": [
+    "alternative",
+    "analytics",
+    "open-source",
+    "privacy",
+    "productanalytics",
+    "webanalytics"
+   ],
+   "alternativeTo": "Mixpanel",
+   "arm": null,
+   "famousPaid": null,
+   "devPro": 0,
+   "sources": [
+    "gh-search"
+   ],
+   "flags": [],
+   "score": 15.12
+  },
+  {
+   "repo": "mattpocock/skills",
+   "url": "https://github.com/mattpocock/skills",
+   "description": "Skills for Real Engineers. Straight from my .agents directory.",
+   "homepage": "https://aihero.dev/skills",
+   "stars": 317132,
+   "forks": 26542,
+   "contributors": 4,
+   "releaseDownloads": 0,
+   "license": "MIT",
+   "created": "2026-02-03",
+   "pushed": "2026-11-05",
+   "topics": [],
+   "alternativeTo": null,
+   "arm": null,
+   "famousPaid": null,
+   "devPro": 1,
+   "sources": [
+    "gittrend",
+    "gh-trending-daily"
+   ],
+   "flags": [],
+   "score": 15.11
+  },
+  {
+   "repo": "morluto/rea",
+   "url": "https://github.com/morluto/rea",
+   "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
+   "homepage": "https://rea.tools",
+   "stars": 439322,
+   "forks": 108817,
+   "contributors": 30,
+   "releaseDownloads": 0,
+   "license": "MIT",
+   "created": "2026-04-14",
+   "pushed": "2026-11-07",
+   "topics": [
+    "agent-skills",
+    "ai",
+    "android",
+    "claude-code",
+    "cli",
+    "cpp",
+    "dsh-plugin",
+    "html",
+    "java",
+    "javascript",
+    "linux",
+    "mcp",
+    "nodejs",
+    "python",
+    "rea",
+    "react",
+    "rust",
+    "security",
+    "touhou",
+    "typescript"
+   ],
+   "alternativeTo": null,
+   "arm": null,
+   "famousPaid": null,
+   "devPro": 4,
+   "sources": [
+    "gittrend"
+   ],
+   "flags": [],
+   "score": 15.02
+  },
+  {
+   "repo": "public-apis/public-apis",
+   "url": "https://github.com/public-apis/public-apis",
+   "description": "A collective list of free APIs",
+   "homepage": "https://APILayer.com/?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo",
+   "stars": 496852,
+   "forks": 55522,
+   "contributors": 30,
+   "releaseDownloads": 0,
+   "license": "MIT",
+   "created": "2016-03-20",
+   "pushed": "2026-11-05",
+   "topics": [
+    "api",
+    "apis",
+    "dataset",
+    "development",
+    "free",
+    "list",
+    "lists",
+    "open-source",
+    "public",
+    "public-api",
+    "public-apis",
+    "resources",
+    "software"
+   ],
+   "alternativeTo": null,
+   "arm": null,
+   "famousPaid": null,
+   "devPro": 1,
+   "sources": [
+    "gittrend"
+   ],
+   "flags": [],
+   "score": 14.88
+  },
+  {
+   "repo": "Awakenchan/LanternEngine",
+   "url": "https://github.com/Awakenchan/LanternEngine",
+   "description": "Lantern Engine: run your own copy of Bloodborne on Windows. A launcher and engine where the game's code runs natively; bring your own game dump.",
+   "homepage": "",
+   "stars": 1593,
+   "forks": 68,
+   "contributors": 10,
+   "releaseDownloads": 32532,
+   "license": "GPL-3.0",
+   "created": "2026-10-11",
+   "pushed": "2026-11-04",
+   "topics": [
+    "bloodborne",
+    "bloodborne-launcher",
+    "bloodborne-pc",
+    "bloodborne-windows",
+    "trendshift"
+   ],
+   "alternativeTo": null,
+   "arm": "hobby",
+   "famousPaid": null,
+   "devPro": 0,
+   "sources": [
+    "gittrend"
+   ],
+   "flags": [],
+   "score": 14.85
+  },
+  {
+   "repo": "zortos293/Lichii",
+   "url": "https://github.com/zortos293/Lichii",
+   "description": "VERY experimental Nintendo Switch 2 emulator",
+   "homepage": "",
+   "stars": 4476,
+   "forks": 693,
+   "contributors": 30,
+   "releaseDownloads": 238493,
+   "license": "GPL-3.0",
+   "created": "2026-10-31",
+   "pushed": "2026-11-07",
+   "topics": [],
+   "alternativeTo": null,
+   "arm": "hobby",
+   "famousPaid": null,
+   "devPro": 0,
+   "sources": [
+    "gittrend",
+    "gh-search"
+   ],
+   "flags": [],
+   "score": 14.64
+  },
+  {
+   "repo": "dsmurrell/onkey",
+   "url": "https://github.com/dsmurrell/onkey",
+   "description": "Learn to sing the songs you love. A free, open-source singing trainer for Mac that listens to the music you play.",
+   "homepage": "https://singonkey.app",
+   "stars": 406,
+   "forks": 28,
+   "contributors": 1,
+   "releaseDownloads": 306,
+   "license": "MIT",
+   "created": "2026-10-18",
+   "pushed": "2026-11-02",
+   "topics": [
+    "apple-silicon",
+    "audio",
+    "macos",
+    "music",
+    "nextjs",
+    "onnx",
+    "pitch-detection",
+    "rust",
+    "singing",
+    "tauri",
+    "vocal-training"
+   ],
+   "alternativeTo": null,
+   "arm": "hobby",
+   "famousPaid": null,
+   "devPro": 0,
+   "sources": [
+    "hn-show"
+   ],
+   "flags": [],
+   "score": 14.6
+  },
+  {
+   "repo": "NationalSecurityAgency/ghidra",
+   "url": "https://github.com/NationalSecurityAgency/ghidra",
+   "description": "Ghidra is a software reverse engineering (SRE) framework",
+   "homepage": "",
+   "stars": 98484,
+   "forks": 11160,
+   "contributors": 30,
+   "releaseDownloads": 1774453,
+   "license": "Apache-2.0",
+   "created": "2019-03-01",
+   "pushed": "2026-11-06",
+   "topics": [
+    "disassembler",
+    "reverse-engineering",
+    "software-analysis"
+   ],
+   "alternativeTo": null,
+   "arm": null,
+   "famousPaid": null,
+   "devPro": 0,
+   "sources": [
+    "gittrend"
+   ],
+   "flags": [],
+   "score": 14.58
+  },
+  {
+   "repo": "elie222/rakazo",
+   "url": "https://github.com/elie222/rakazo",
+   "description": "Open-source Grok Bot alternative. Choose your own model and sandbox.",
+   "homepage": "https://rakazo.com",
+   "stars": 7391,
+   "forks": 1318,
+   "contributors": 30,
+   "releaseDownloads": 20318,
+   "license": "Apache-2.0",
+   "created": "2026-08-13",
+   "pushed": "2026-11-07",
+   "topics": [
+    "ai-agents",
+    "chatgpt",
+    "docker",
+    "electron",
+    "expo",
+    "grok",
+    "llm",
+    "self-hosted",
+    "typescript"
+   ],
+   "alternativeTo": "Grok Bot",
+   "arm": "subscription",
+   "famousPaid": "chatgpt",
+   "devPro": 4,
+   "sources": [
+    "gh-search"
+   ],
+   "flags": [],
+   "score": 14.44
+  },
+  {
+   "repo": "rust-lang/rust",
+   "url": "https://github.com/rust-lang/rust",
+   "description": "Empowering everyone to build reliable and efficient software.",
+   "homepage": "https://www.rust-lang.org",
+   "stars": 121575,
+   "forks": 17368,
+   "contributors": 30,
+   "releaseDownloads": 0,
+   "license": "Apache-2.0",
+   "created": "2010-06-16",
+   "pushed": "2026-11-07",
+   "topics": [
+    "compiler",
+    "language",
+    "rust"
+   ],
+   "alternativeTo": null,
+   "arm": null,
+   "famousPaid": null,
+   "devPro": 0,
+   "sources": [
+    "gittrend"
+   ],
+   "flags": [],
+   "score": 14.43
+  },
+  {
+   "repo": "prometheus/prometheus",
+   "url": "https://github.com/prometheus/prometheus",
+   "description": "The Prometheus monitoring system and time series database.",
+   "homepage": "https://prometheus.io/",
+   "stars": 67280,
+   "forks": 10992,
+   "contributors": 30,
+   "releaseDownloads": 15406,
+   "license": "Apache-2.0",
+   "created": "2012-11-24",
+   "pushed": "2026-11-07",
+   "topics": [
+    "alerting",
+    "graphing",
+    "hacktoberfest",
+    "metrics",
+    "monitoring",
+    "prometheus",
+    "time-series"
+   ],
+   "alternativeTo": null,
+   "arm": null,
+   "famousPaid": null,
+   "devPro": 1,
+   "sources": [
+    "gh-trending-daily"
+   ],
+   "flags": [],
+   "score": 14.42
+  },
+  {
+   "repo": "bherbruck/solidcraft",
+   "url": "https://github.com/tangency-labs/solidcraft",
+   "description": "SolidCraft: an open-source parametric 3D CAD application built in pure Rust. Desktop, web, and automation through MCP.",
+   "homepage": "https://solidcraft.io",
+   "stars": 14605,
+   "forks": 1956,
+   "contributors": 30,
+   "releaseDownloads": 228017,
+   "license": "Apache-2.0",
+   "created": "2026-10-07",
+   "pushed": "2026-11-07",
+   "topics": [
+    "3d-modeling",
+    "brep",
+    "cad",
+    "egui",
+    "mcp",
+    "parametric-cad",
+    "rust",
+    "step",
+    "wasm"
+   ],
+   "alternativeTo": null,
+   "arm": "hobby",
+   "famousPaid": null,
+   "devPro": 1,
+   "sources": [
+    "hn-show"
+   ],
+   "flags": [],
+   "score": 14.28
+  },
+  {
+   "repo": "emilkowalski/skills",
+   "url": "https://github.com/emilkowalski/skills",
+   "description": "Skills for Designers and Engineers.",
+   "homepage": "https://emilkowal.ski/skill",
+   "stars": 54243,
+   "forks": 3167,
+   "contributors": 3,
+   "releaseDownloads": 0,
+   "license": "MIT",
+   "created": "2026-03-16",
+   "pushed": "2026-11-04",
+   "topics": [],
+   "alternativeTo": null,
+   "arm": null,
+   "famousPaid": null,
+   "devPro": 0,
+   "sources": [
+    "gittrend"
+   ],
+   "flags": [],
+   "score": 14.13
+  },
+  {
+   "repo": "teamhanko/hanko",
+   "url": "https://github.com/teamhanko/hanko",
+   "description": "Modern authentication, on your terms. Open source alternative to Auth0, Clerk, WorkOS, Stytch.",
+   "homepage": "https://www.hanko.io",
+   "stars": 9066,
+   "forks": 1024,
+   "contributors": 30,
+   "releaseDownloads": 969,
+   "license": "AGPL-3.0",
+   "created": "2022-03-14",
+   "pushed": "2026-11-06",
+   "topics": [
+    "2fa",
+    "authentication",
+    "ciam",
+    "fido2",
+    "iam",
+    "jwt",
+    "mfa",
+    "oauth",
+    "passkeys",
+    "passwordless",
+    "saml",
+    "sso",
+    "user-management",
+    "webauthn"
+   ],
+   "alternativeTo": "Auth0",
+   "arm": null,
+   "famousPaid": null,
+   "devPro": 0,
+   "sources": [
+    "gh-search"
+   ],
+   "flags": [],
+   "score": 14.12
+  },
+  {
+   "repo": "egoist/mygo",
+   "url": "https://github.com/egoist/mygo",
+   "description": "Develop desktop apps with native UI or web frontend in Go",
+   "homepage": "https://mygo.egoist.dev",
+   "stars": 5112,
+   "forks": 312,
+   "contributors": 30,
+   "releaseDownloads": 0,
+   "license": "MIT",
+   "created": "2026-09-26",
+   "pushed": "2026-11-07",
+   "topics": [],
+   "alternativeTo": null,
+   "arm": "utility",
+   "famousPaid": null,
+   "devPro": 0,
+   "sources": [
+    "gittrend"
+   ],
+   "flags": [],
+   "score": 14.11
+  },
+  {
+   "repo": "angular/angular",
+   "url": "https://github.com/angular/angular",
+   "description": "Deliver web apps with confidence \ud83d\ude80",
+   "homepage": "https://angular.dev",
+   "stars": 101464,
+   "forks": 28919,
+   "contributors": 30,
+   "releaseDownloads": 0,
+   "license": "MIT",
+   "created": "2014-09-18",
+   "pushed": "2026-11-07",
+   "topics": [
+    "angular",
+    "javascript",
+    "pwa",
+    "typescript",
+    "web",
+    "web-framework",
+    "web-performance"
+   ],
+   "alternativeTo": null,
+   "arm": null,
+   "famousPaid": null,
+   "devPro": 0,
+   "sources": [
+    "gittrend"
+   ],
+   "flags": [],
+   "score": 14.1
+  },
+  {
+   "repo": "obra/superpowers",
+   "url": "https://github.com/obra/superpowers",
+   "description": "An agentic skills framework & software development methodology that works.",
+   "homepage": "",
+   "stars": 313826,
+   "forks": 27918,
+   "contributors": 30,
+   "releaseDownloads": 0,
+   "license": "MIT",
+   "created": "2025-10-09",
+   "pushed": "2026-11-03",
+   "topics": [
+    "ai",
+    "brainstorming",
+    "coding",
+    "obra",
+    "sdlc",
+    "skills",
+    "subagent-driven-development",
+    "superpowers"
+   ],
+   "alternativeTo": null,
+   "arm": null,
+   "famousPaid": null,
+   "devPro": 1,
+   "sources": [
+    "gittrend",
+    "gh-trending-weekly"
+   ],
+   "flags": [],
+   "score": 14.06
+  }
+ ],
+ "rejected": [
+  {
+   "repo": "janhq/jan",
+   "url": "https://github.com/janhq/jan",
+   "description": "Jan is an open source alternative to ChatGPT that runs 100% offline on your computer.",
+   "homepage": "https://jan.ai/",
+   "stars": 45544,
+   "forks": 3157,
+   "contributors": 30,
+   "releaseDownloads": 362535,
+   "license": "NOASSERTION",
+   "created": "2023-08-17",
+   "pushed": "2026-11-05",
+   "topics": [
+    "chatgpt",
+    "gpt",
+    "llamacpp",
+    "llm",
+    "localai",
+    "open-source",
+    "self-hosted",
+    "tauri"
+   ],
+   "alternativeTo": "ChatGPT",
+   "arm": "subscription",
+   "famousPaid": "chatgpt",
+   "devPro": 2,
+   "sources": [
+    "gh-search"
+   ],
+   "flags": [
+    "license:NOASSERTION"
+   ],
+   "score": 15.22
+  },
+  {
+   "repo": "zed-industries/zed",
+   "url": "https://github.com/zed-industries/zed",
+   "description": "Code at the speed of thought \u2013 Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.",
+   "homepage": "https://zed.dev",
+   "stars": 94015,
+   "forks": 11534,
+   "contributors": 30,
+   "releaseDownloads": 299772,
+   "license": "NOASSERTION",
+   "created": "2021-02-20",
+   "pushed": "2026-11-07",
+   "topics": [
+    "gpui",
+    "rust-lang",
+    "text-editor",
+    "zed"
+   ],
+   "alternativeTo": null,
+   "arm": null,
+   "famousPaid": null,
+   "devPro": 0,
+   "sources": [
+    "gittrend",
+    "gh-trending-daily"
+   ],
+   "flags": [
+    "license:NOASSERTION"
+   ],
+   "score": 15.2
+  },
+  {
+   "repo": "Beingpax/VoiceInk",
+   "url": "https://github.com/Beingpax/VoiceInk",
+   "description": "The best open-source alternative to Superwhisper & Wispr Flow. Voice-to-text app for macOS with no subscription",
+   "homepage": "https://tryvoiceink.com",
+   "stars": 7044,
+   "forks": 1001,
+   "contributors": 30,
+   "releaseDownloads": 3385,
+   "license": "NOASSERTION",
+   "created": "2024-10-20",
+   "pushed": "2026-11-07",
+   "topics": [
+    "macos",
+    "macos-app",
+    "swift"
+   ],
+   "alternativeTo": "Superwhisper & Wispr Flow",
+   "arm": null,
+   "famousPaid": null,
+   "devPro": 0,
+   "sources": [
+    "gh-search"
+   ],
+   "flags": [
+    "license:NOASSERTION"
+   ],
+   "score": 15.0
+  },
+  {
+   "repo": "elysia395/dsh-wallpaper-engine",
+   "url": "https://github.com/elysia395/dsh-wallpaper-engine",
+   "description": "\u628a\u672c\u673a Wallpaper Engine \u7684\u58c1\u7eb8\u642c\u8fdb DSH \u7f51\u9875\u754c\u9762\uff1a\u573a\u666f\u58c1\u7eb8\u7531\u5185\u7f6e MIT \u5f00\u6e90\u5f15\u64ce WebWallGL \u5b9e\u65f6 WebGL \u6e32\u67d3\uff08\u7c92\u5b50 / puppet \u9aa8\u9abc / SceneScript / \u97f3\u9891\u53cd\u5e94 / \u9f20\u6807\u4ea4\u4e92\uff09\uff0c\u5931\u8d25\u81ea\u52a8\u964d\u7ea7\u5185\u5d4c MP4 \u4e0e\u573a\u666f\u9759\u6001\u5e27\uff1bWeb \u58c1\u7eb8\u4e25\u683c\u6c99\u7bb1 + WE API\uff1biOS \u98ce\u683c\u6db2\u6001\u73bb\u7483 UI \u9ad8\u5ea6\u81ea\u5b9a\u4e49\uff0c\u906e\u6321\u6682\u505c\u7701\u7535\u3001ffmpeg \u5e27\u7387\u4e0a\u9650\u8f6c\u7801\u3001\u7cfb\u7edf\u97f3\u9891\u9891\u8c31\u4e0e Now Playing\u3001\u81ea\u5b9a\u4e49\u4e0a\u4f20\u4e0e\u81ea\u52a8\u8f6e\u64ad\uff1b\u8bbe\u7f6e\u5b58\u5bbf\u4e3b\u7aef\uff0c\u5bf9 agent \u96f6 token \u5f00\u9500\u3002Windows / macOS / Linux \u4e09\u5e73\u53f0\u539f\u751f\uff08\u540c\u4e00\u4e2a\u5305\u3001\u540c\u4e00\u6761\u547d\u4ee4\uff09\u3002",
+   "homepage": "",
+   "stars": 5671,
+   "forks": 105,
+   "contributors": 29,
+   "releaseDownloads": 921041,
+   "license": "MIT",
+   "created": "2026-08-16",
+   "pushed": "2026-11-06",
+   "topics": [
+    "deepseek-harness",
+    "dsh-plugin",
+    "dsh-plugin-market",
+    "dsh-plugins",
+    "liquid-glass",
+    "theme",
+    "wallpaper",
+    "wallpaper-engine",
+    "webgl"
+   ],
+   "alternativeTo": null,
+   "arm": "utility",
+   "famousPaid": "wallpaper engine",
+   "devPro": 2,
+   "sources": [
+    "gittrend"
+   ],
+   "flags": [
+    "non-english"
+   ],
+   "score": 14.08
+  },
+  {
+   "repo": "LNPANDY/NX2Apple",
+   "url": "https://github.com/LNPANDY/NX2Apple",
+   "description": "Play your own Switch games on iPhone/iPad \u2014 one-click macOS app, no terminal. | \u628a Switch \u6e38\u620f\u88c5\u8fdb iPhone\uff1a\u56fe\u5f62\u754c\u9762\u4e00\u952e\u6784\u5efa\uff0c\u4e0d\u7528\u547d\u4ee4\u884c\u3002Bring your own game.",
+   "homepage": "https://github.com/LNPANDY/NX2Apple#readme",
+   "stars": 4669,
+   "forks": 607,
+   "contributors": 29,
+   "releaseDownloads": 32783,
+   "license": "MIT",
+   "created": "2026-10-20",
+   "pushed": "2026-11-07",
+   "topics": [
+    "apple-silicon",
+    "custom-format",
+    "homebrew",
+    "ios",
+    "ipa",
+    "ipad",
+    "ipados",
+    "iphone",
+    "metal",
+    "native-port",
+    "nintendo-switch",
+    "nxnative",
+    "romfs",
+    "switch-games"
+   ],
+   "alternativeTo": null,
+   "arm": "hobby",
+   "famousPaid": null,
+   "devPro": 1,
+   "sources": [
+    "gittrend",
+    "gh-search"
+   ],
+   "flags": [
+    "non-english"
+   ],
+   "score": 13.71
+  },
+  {
+   "repo": "Renhuai123/ziwei-doushu",
+   "url": "https://github.com/Renhuai123/ziwei-doushu",
+   "description": "\u7d2b\u5fae\u6597\u6570\u5f00\u6e90\u6392\u76d8\u5f15\u64ce \u2014 \u57fa\u4e8e\u502a\u6d77\u53a6\u300a\u5929\u7eaa\u300b\u4f53\u7cfb\uff0c\u542b\u5b8c\u6574\u6392\u76d8\u7b97\u6cd5\u3001\u56db\u5316\u7cfb\u7edf\u3001\u683c\u5c40\u77e5\u8bc6\u5e93\u3001\u53e4\u7c4d\u539f\u6587\u6570\u636e",
+   "homepage": "https://ouranic.cn/?from=gh-about",
+   "stars": 16619,
+   "forks": 3226,
+   "contributors": 10,
+   "releaseDownloads": 327567,
+   "license": "MIT",
+   "created": "2026-05-01",
+   "pushed": "2026-11-03",
+   "topics": [
+    "bazi",
+    "chinese-astrology",
+    "divination",
+    "fortune-telling",
+    "nextjs",
+    "open-source",
+    "purple-star-astrology",
+    "typescript",
+    "zi-wei-dou-shu",
+    "ziwei-doushu"
+   ],
+   "alternativeTo": null,
+   "arm": null,
+   "famousPaid": null,
+   "devPro": 0,
+   "sources": [
+    "gittrend",
+    "gh-trending-weekly"
+   ],
+   "flags": [
+    "non-english"
+   ],
+   "score": 13.58
+  },
+  {
+   "repo": "longbridge/nsh",
+   "url": "https://github.com/longbridge/nsh",
+   "description": "Native Shell is a native UI framework for iOS, Android, macOS, Windows, Linux and the web, built in Rust.",
+   "homepage": "https://nsh.dev",
+   "stars": 1960,
+   "forks": 120,
+   "contributors": 30,
+   "releaseDownloads": 8394,
+   "license": "NOASSERTION",
+   "created": "2026-10-14",
+   "pushed": "2026-11-07",
+   "topics": [
+    "cross-platform",
+    "gui",
+    "native",
+    "nsh"
+   ],
+   "alternativeTo": null,
+   "arm": "utility",
+   "famousPaid": null,
+   "devPro": 0,
+   "sources": [
+    "gittrend"
+   ],
+   "flags": [
+    "license:NOASSERTION"
+   ],
+   "score": 13.26
+  },
+  {
+   "repo": "Minireel/HGhub",
+   "url": "https://github.com/Minireel/HGhub",
+   "description": "YellowFruit third-party client",
+   "homepage": "",
+   "stars": 1922,
+   "forks": 1047,
+   "contributors": 2,
+   "releaseDownloads": 18814,
+   "license": "NOASSERTION",
+   "created": "2026-11-03",
+   "pushed": "2026-11-05",
+   "topics": [
+    "android",
+    "drama",
+    "free",
+    "movie-web-app",
+    "reels",
+    "windows"
+   ],
+   "alternativeTo": null,
+   "arm": "utility",
+   "famousPaid": null,
+   "devPro": 0,
+   "sources": [
+    "gittrend"
+   ],
+   "flags": [
+    "license:NOASSERTION"
+   ],
+   "score": 12.98
+  },
+  {
+   "repo": "pengchujin/aerial-tv",
+   "url": "https://github.com/pengchujin/aerial-tv",
+   "description": "\u7ed9\u56fd\u4ea7\u7535\u89c6\u7684\u4e00\u5757\u5e72\u51c0\u684c\u9762\uff1a\u53c2\u7167 tvOS \u8bbe\u8ba1\u7684\u5f00\u6e90 Android TV \u684c\u9762\uff0c\u6ca1\u6709\u5e7f\u544a\uff0c\u5f00\u673a\u81ea\u52a8\u63a5\u7ba1\u3002A tvOS-style launcher for Xiaomi, TCL and other China-market TVs.",
+   "homepage": "https://aerial.qust.me",
+   "stars": 10490,
+   "forks": 891,
+   "contributors": 30,
+   "releaseDownloads": 14035,
+   "license": "MIT",
+   "created": "2026-10-20",
+   "pushed": "2026-11-06",
+   "topics": [],
+   "alternativeTo": null,
+   "arm": null,
+   "famousPaid": null,
+   "devPro": 0,
+   "sources": [
+    "gittrend",
+    "gh-search"
+   ],
+   "flags": [
+    "non-english"
+   ],
+   "score": 12.62
+  },
+  {
+   "repo": "remotion-dev/remotion",
+   "url": "https://github.com/remotion-dev/remotion",
+   "description": "\ud83c\udfa5      Make videos programmatically with React",
+   "homepage": "https://remotion.dev",
+   "stars": 71399,
+   "forks": 5908,
+   "contributors": 30,
+   "releaseDownloads": 0,
+   "license": "NOASSERTION",
+   "created": "2020-06-23",
+   "pushed": "2026-11-07",
+   "topics": [
+    "javascript",
+    "react",
+    "video"
+   ],
+   "alternativeTo": null,
+   "arm": null,
+   "famousPaid": null,
+   "devPro": 0,
+   "sources": [
+    "gittrend"
+   ],
+   "flags": [
+    "license:NOASSERTION"
+   ],
+   "score": 12.51
+  },
+  {
+   "repo": "Gathin23/cleanyourtv",
+   "url": "https://github.com/Gathin23/cleanyourtv",
+   "description": "Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.",
+   "homepage": "https://cleanyour.tv",
+   "stars": 53553,
+   "forks": 6867,
+   "contributors": 30,
+   "releaseDownloads": 0,
+   "license": "NOASSERTION",
+   "created": "2026-10-17",
+   "pushed": "2026-11-07",
+   "topics": [
+    "adb",
+    "adblock",
+    "android-tv",
+    "android-tv-launcher",
+    "apple-tv",
+    "bloatware-removal",
+    "claude-code",
+    "debloat",
+    "fire-tv",
+    "google-tv",
+    "launcher",
+    "privacy",
+    "smart-tv",
+    "sony-bravia",
+    "tcl",
+    "vibe-coding",
+    "xiaomi"
+   ],
+   "alternativeTo": null,
+   "arm": null,
+   "famousPaid": null,
+   "devPro": 1,
+   "sources": [
+    "gittrend",
+    "gh-search"
+   ],
+   "flags": [
+    "license:NOASSERTION"
+   ],
+   "score": 12.08
+  },
+  {
+   "repo": "harry0703/MoneyPrinterTurbo",
+   "url": "https://github.com/harry0703/MoneyPrinterTurbo",
+   "description": "\u5229\u7528 AI \u5927\u6a21\u578b\u548c\u81ea\u52a8\u5316\u5de5\u4f5c\u6d41\uff0c\u6839\u636e\u4e3b\u9898\u6216\u5173\u952e\u8bcd\u4e00\u952e\u751f\u6210\u9ad8\u6e05\u77ed\u89c6\u9891\u3002Generate HD short videos from a topic or keyword with an automated AI workflow.",
+   "homepage": "",
+   "stars": 140431,
+   "forks": 22402,
+   "contributors": 30,
+   "releaseDownloads": 49592,
+   "license": "MIT",
+   "created": "2024-03-11",
+   "pushed": "2026-11-07",
+   "topics": [
+    "ai-video-generator",
+    "content-creation",
+    "ffmpeg",
+    "instagram-reels",
+    "llm",
+    "python",
+    "short-video",
+    "subtitles",
+    "text-to-speech",
+    "tiktok",
+    "video-automation",
+    "video-workflow",
+    "workflow-automation",
+    "youtube-shorts"
+   ],
+   "alternativeTo": null,
+   "arm": null,
+   "famousPaid": null,
+   "devPro": 1,
+   "sources": [
+    "gittrend"
+   ],
+   "flags": [
+    "non-english"
+   ],
+   "score": 12.0
+  },
+  {
+   "repo": "shiyu-coder/Kronos",
+   "url": "https://github.com/shiyu-coder/Kronos",
+   "description": "Kronos: A Foundation Model for the Language of Financial Markets",
+   "homepage": null,
+   "stars": 47135,
+   "forks": 7793,
+   "contributors": 18,
+   "releaseDownloads": 0,
+   "license": "MIT",
+   "created": "2025-07-01",
+   "pushed": "2026-04-13",
+   "topics": [],
+   "alternativeTo": null,
+   "arm": null,
+   "famousPaid": null,
+   "devPro": 0,
+   "sources": [
+    "gh-trending-weekly"
+   ],
+   "flags": [
+    "stale"
+   ],
+   "score": 11.56
+  },
+  {
+   "repo": "HayatoG/iss_pc",
+   "url": "https://github.com/HayatoG/iss_pc",
+   "description": "Native PC port (Linux/Windows) of inFAMOUS Second Son (PS4, CUSA00223) \u2014 in development, playable; runs your own game dump; no game or firmware files included. Motion sensor emulation. | Port nativo para PC de inFAMOUS Second Son (em desenvolvimento) \u2014 usa o seu pr\u00f3prio dump.",
+   "homepage": "https://www.youtube.com/@hayatog-dev",
+   "stars": 1111,
+   "forks": 77,
+   "contributors": 10,
+   "releaseDownloads": 7123,
+   "license": null,
+   "created": "2026-10-13",
+   "pushed": "2026-11-07",
+   "topics": [
+    "game-preservation",
+    "homebrew",
+    "infamous-second-son",
+    "linux",
+    "native-port",
+    "pc-port",
+    "playstation-4",
+    "ps4",
+    "shadps4",
+    "sucker-punch-productions",
+    "vulkan",
+    "windows"
+   ],
+   "alternativeTo": null,
+   "arm": "hobby",
+   "famousPaid": null,
+   "devPro": 0,
+   "sources": [
+    "gittrend"
+   ],
+   "flags": [
+    "license:None"
+   ],
+   "score": 11.49
+  },
+  {
+   "repo": "longbridge/gpui-kit",
+   "url": "https://github.com/longbridge/gpui-kit",
+   "description": "Rust GUI components for building fantastic cross-platform desktop application by using GPUI.",
+   "homepage": "http://gpui-kit.com",
+   "stars": 19755,
+   "forks": 1218,
+   "contributors": 30,
+   "releaseDownloads": 548,
+   "license": "NOASSERTION",
+   "created": "2024-06-13",
+   "pushed": "2026-11-07",
+   "topics": [
+    "desktop-application",
+    "gpui",
+    "rust",
+    "uikit"
+   ],
+   "alternativeTo": null,
+   "arm": "utility",
+   "famousPaid": null,
+   "devPro": 0,
+   "sources": [
+    "gittrend"
+   ],
+   "flags": [
+    "license:NOASSERTION"
+   ],
+   "score": 11.44
+  },
+  {
+   "repo": "Alishahryar1/free-claude-code",
+   "url": "https://github.com/Alishahryar1/free-claude-code",
+   "description": "Use Claude Code, Codex, Antigravity, VSCode, Pi, and OpenCode (and 6 other harnesses) for free (1.3B+ free tokens) from your terminal, app, IDE, or phone, and now from the browser with native browser sessions (multi-harness + multi-model) like OpenClaw (voice supported + ToS friendly)",
+   "homepage": "",
+   "stars": 67068,
+   "forks": 10426,
+   "contributors": 30,
+   "releaseDownloads": 1576,
+   "license": "NOASSERTION",
+   "created": "2026-01-28",
+   "pushed": "2026-11-06",
+   "topics": [],
+   "alternativeTo": null,
+   "arm": null,
+   "famousPaid": null,
+   "devPro": 2,
+   "sources": [
+    "gittrend"
+   ],
+   "flags": [
+    "license:NOASSERTION"
+   ],
+   "score": 11.35
+  },
+  {
+   "repo": "lz4/lz4",
+   "url": "https://github.com/lz4/lz4",
+   "description": "Extremely Fast Compression algorithm",
+   "homepage": "http://www.lz4.org",
+   "stars": 12679,
+   "forks": 1646,
+   "contributors": 30,
+   "releaseDownloads": 4189474,
+   "license": "NOASSERTION",
+   "created": "2014-03-25",
+   "pushed": "2026-11-06",
+   "topics": [
+    "c",
+    "compression",
+    "lz4"
+   ],
+   "alternativeTo": null,
+   "arm": null,
+   "famousPaid": null,
+   "devPro": 0,
+   "sources": [
+    "gittrend"
+   ],
+   "flags": [
+    "license:NOASSERTION"
+   ],
+   "score": 11.28
+  },
+  {
+   "repo": "hmjz100/LinkSwift",
+   "url": "https://github.com/hmjz100/LinkSwift",
+   "description": "\u4e00\u4e2a\u57fa\u4e8e JavaScript \u7684\u7f51\u76d8\u6587\u4ef6\u4e0b\u8f7d\u5730\u5740\u83b7\u53d6\u5de5\u5177\u3002\u57fa\u4e8e\u3010\u7f51\u76d8\u76f4\u94fe\u4e0b\u8f7d\u52a9\u624b\u3011\u4fee\u6539 \uff0c\u652f\u6301 \u767e\u5ea6\u7f51\u76d8 / \u963f\u91cc\u4e91\u76d8 / \u4e2d\u56fd\u79fb\u52a8\u4e91\u76d8 / \u5929\u7ffc\u4e91\u76d8 / \u8fc5\u96f7\u4e91\u76d8 / \u5938\u514b\u7f51\u76d8 / UC\u7f51\u76d8 / 123\u4e91\u76d8 \u516b\u5927\u7f51\u76d8",
+   "homepage": "https://github.com/hmjz100/LinkSwift/raw/main/%EF%BC%88%E6%94%B9%EF%BC%89%E7%BD%91%E7%9B%98%E7%9B%B4%E9%93%BE%E4%B8%8B%E8%BD%BD%E5%8A%A9%E6%89%8B.user.js",
+   "stars": 38438,
+   "forks": 2771,
+   "contributors": 8,
+   "releaseDownloads": 488190,
+   "license": "AGPL-3.0",
+   "created": "2022-08-10",
+   "pushed": "2026-10-27",
+   "topics": [
+    "123pan",
+    "aliyun-drive",
+    "aliyunpan",
+    "aria2",
+    "baidu",
+    "baidu-netdisk",
+    "baidunetdisk",
+    "baidupan",
+    "baiduyun",
+    "guangya-netdisk",
+    "motrix",
+    "quark-netdisk",
+    "tampermonkey",
+    "tampermonkey-script",
+    "tampermonkey-userscript",
+    "tianyi-netdisk",
+    "uc-netdisk",
+    "userscript",
+    "xunlei-netdisk",
+    "yidong-netdisk"
+   ],
+   "alternativeTo": null,
+   "arm": null,
+   "famousPaid": null,
+   "devPro": 0,
+   "sources": [
+    "gittrend"
+   ],
+   "flags": [
+    "non-english"
+   ],
+   "score": 11.27
+  },
+  {
+   "repo": "jhaizhou-ops/d2r-mobile",
+   "url": "https://github.com/jhaizhou-ops/d2r-mobile",
+   "description": "Open-source compatibility layer for Diablo II: Resurrected with the Reign of the Warlock expansion. Runs your own Switch copy natively on iPhone, iPad, Mac, Android and HarmonyOS \u2014 full touch controls, 60 fps, new endgame modes. Bring your own game files. \u5f00\u6e90\u7684\u300a\u6697\u9ed1\u7834\u574f\u795e II\uff1a\u72f1\u706b\u91cd\u751f\u300b\u672f\u58eb\u541b\u4e34 iOS / macOS / \u5b89\u5353 / \u9e3f\u8499\u517c\u5bb9\u5c42",
+   "homepage": null,
+   "stars": 5189,
+   "forks": 1316,
+   "contributors": 15,
+   "releaseDownloads": 3704,
+   "license": "MIT",
+   "created": "2026-10-12",
+   "pushed": "2026-11-04",
+   "topics": [
+    "android",
+    "compatibility-layer",
+    "diablo-2-resurrected",
+    "diablo2",
+    "game-port",
+    "harmonyos",
+    "ios",
+    "ipad",
+    "iphone",
+    "mac",
+    "macos",
+    "metal",
+    "reign-of-the-warlock",
+    "vulkan"
+   ],
+   "alternativeTo": null,
+   "arm": "hobby",
+   "famousPaid": null,
+   "devPro": 0,
+   "sources": [
+    "gh-search"
+   ],
+   "flags": [
+    "non-english"
+   ],
+   "score": 10.73
+  },
+  {
+   "repo": "nightly-labs/openbot",
+   "url": "https://github.com/nightly-labs/openbot",
+   "description": "A local-first desktop workspace for persistent AI teammates. Run Codex, Claude, and Grok with dedicated workspaces, task queues, file sharing, browser control, and agent-to-agent collaboration.",
+   "homepage": "https://openbot.run/",
+   "stars": 6154,
+   "forks": 625,
+   "contributors": 30,
+   "releaseDownloads": 1112848,
+   "license": "NOASSERTION",
+   "created": "2026-08-12",
+   "pushed": "2026-11-07",
+   "topics": [
+    "ai-agents",
+    "bun",
+    "codex",
+    "electron",
+    "local-first",
+    "macos",
+    "solidjs",
+    "typescript"
+   ],
+   "alternativeTo": null,
+   "arm": "utility",
+   "famousPaid": null,
+   "devPro": 2,
+   "sources": [
+    "gittrend"
+   ],
+   "flags": [
+    "license:NOASSERTION"
+   ],
+   "score": 10.24
+  },
+  {
+   "repo": "anthropics/skills",
+   "url": "https://github.com/anthropics/skills",
+   "description": "Public repository for Agent Skills",
+   "homepage": "",
+   "stars": 188329,
+   "forks": 22209,
+   "contributors": 16,
+   "releaseDownloads": 0,
+   "license": null,
+   "created": "2025-09-22",
+   "pushed": "2026-11-06",
+   "topics": [
+    "agent-skills"
+   ],
+   "alternativeTo": null,
+   "arm": null,
+   "famousPaid": null,
+   "devPro": 1,
+   "sources": [
+    "gittrend",
+    "gh-trending-daily"
+   ],
+   "flags": [
+    "license:None"
+   ],
+   "score": 9.9
+  },
+  {
+   "repo": "Usagi-org/ai-goofish-monitor",
+   "url": "https://github.com/Usagi-org/ai-goofish-monitor",
+   "description": "\u57fa\u4e8e Playwright \u548cAI\u5b9e\u73b0\u7684\u95f2\u9c7c\u591a\u4efb\u52a1\u5b9e\u65f6/\u5b9a\u65f6\u76d1\u63a7\u4e0e\u667a\u80fd\u5206\u6790\u7cfb\u7edf\uff0c\u914d\u5907\u4e86\u529f\u80fd\u5b8c\u5584\u7684\u540e\u53f0\u7ba1\u7406UI\u3002\u5e2e\u52a9\u7528\u6237\u4ece\u95f2\u9c7c\u6d77\u91cf\u5546\u54c1\u4e2d\uff0c\u627e\u5230\u5fc3\u4eea\u4ea7\u54c1\u3002",
+   "homepage": "",
+   "stars": 18265,
+   "forks": 3012,
+   "contributors": 21,
+   "releaseDownloads": 0,
+   "license": "MIT",
+   "created": "2025-07-16",
+   "pushed": "2026-10-10",
+   "topics": [
+    "ai",
+    "ai-assistant",
+    "ai-tools",
+    "automation",
+    "gemini",
+    "goofish",
+    "open-source",
+    "openai",
+    "playwright",
+    "tool",
+    "xian-yu",
+    "xianyu",
+    "xianyu-bot"
+   ],
+   "alternativeTo": null,
+   "arm": null,
+   "famousPaid": null,
+   "devPro": 0,
+   "sources": [
+    "gittrend"
+   ],
+   "flags": [
+    "non-english"
+   ],
+   "score": 9.65
+  },
+  {
+   "repo": "vinta/awesome-python",
+   "url": "https://github.com/vinta/awesome-python",
+   "description": "The definitive list that answers \"I want to do X in Python, which tool should I use?\"",
+   "homepage": "https://awesome-python.com/",
+   "stars": 333106,
+   "forks": 29061,
+   "contributors": 30,
+   "releaseDownloads": 0,
+   "license": "NOASSERTION",
+   "created": "2014-06-27",
+   "pushed": "2026-11-06",
+   "topics": [
+    "awesome",
+    "awesome-list",
+    "python",
+    "python-frameworks",
+    "python-libraries",
+    "python-tools"
+   ],
+   "alternativeTo": null,
+   "arm": null,
+   "famousPaid": null,
+   "devPro": 0,
+   "sources": [
+    "gittrend"
+   ],
+   "flags": [
+    "license:NOASSERTION"
+   ],
+   "score": 9.63
+  },
+  {
+   "repo": "different-ai/openwork",
+   "url": "https://github.com/different-ai/openwork",
+   "description": "The open-source alternative to Claude Cowork (powered by opencode)",
+   "homepage": "https://openworklabs.com",
+   "stars": 24434,
+   "forks": 2485,
+   "contributors": 30,
+   "releaseDownloads": 657213,
+   "license": "NOASSERTION",
+   "created": "2026-01-14",
+   "pushed": "2026-11-07",
+   "topics": [],
+   "alternativeTo": null,
+   "arm": null,
+   "famousPaid": null,
+   "devPro": 0,
+   "sources": [
+    "gh-search"
+   ],
+   "flags": [
+    "license:NOASSERTION"
+   ],
+   "score": 9.48
+  },
+  {
+   "repo": "sindresorhus/awesome",
+   "url": "https://github.com/sindresorhus/awesome",
+   "description": "\ud83d\ude0e Awesome lists about all kinds of interesting topics [NOTE: Pull requests are temporarily disabled until I have a chance to catch up with the existing ones]",
+   "homepage": "",
+   "stars": 532798,
+   "forks": 38195,
+   "contributors": 30,
+   "releaseDownloads": 0,
+   "license": "CC0-1.0",
+   "created": "2014-07-11",
+   "pushed": "2026-09-02",
+   "topics": [
+    "awesome",
+    "awesome-list",
+    "lists",
+    "resources",
+    "unicorns"
+   ],
+   "alternativeTo": null,
+   "arm": null,
+   "famousPaid": null,
+   "devPro": 0,
+   "sources": [
+    "gittrend"
+   ],
+   "flags": [
+    "stale"
+   ],
+   "score": 9.46
+  },
+  {
+   "repo": "jiuyang5354/bilibili-margin",
+   "url": "https://github.com/jiuyang5354/bilibili-margin",
+   "description": "\u6620\u95f4 MARGIN \u00b7 \u91cd\u65b0\u8bbe\u8ba1 B \u7ad9\u9996\u9875\u4e0e\u89c6\u9891\u64ad\u653e\u9875\u9884\u89c8\u7248 (Chrome / Edge \u6269\u5c55) | A Chrome/Edge extension that redesigns Bilibili home, video and search pages with liquid glass controls and shader backgrounds.",
+   "homepage": null,
+   "stars": 633,
+   "forks": 43,
+   "contributors": 11,
+   "releaseDownloads": 5067,
+   "license": "MIT",
+   "created": "2026-10-27",
+   "pushed": "2026-11-07",
+   "topics": [],
+   "alternativeTo": null,
+   "arm": null,
+   "famousPaid": null,
+   "devPro": 0,
+   "sources": [
+    "gittrend"
+   ],
+   "flags": [
+    "non-english"
+   ],
+   "score": 8.74
+  },
+  {
+   "repo": "Lee-xeo/Claude-Cage",
+   "url": "https://github.com/Lee-xeo/Claude-Cage",
+   "description": "Cage\uff1a\u4e3a Claude \u7279\u5316\u7684\u8f7b\u91cf\u5316\u865a\u62df\u673a\uff0c\u5f7b\u5e95\u675c\u7edd\u7f51\u7edc\u6cc4\u9732\u3002\u591a\u5e73\u53f0\u9002\u914d\uff0c\u652f\u6301\u591a\u8d26\u53f7\u7ba1\u7406\u3001\u8fdc\u7a0b\u90e8\u7f72\u3001\u79fb\u52a8\u7aef\u64cd\u63a7\u3002",
+   "homepage": "https://lee-xeo.github.io/Claude-Cage/",
+   "stars": 553,
+   "forks": 51,
+   "contributors": 11,
+   "releaseDownloads": 1265,
+   "license": "MIT",
+   "created": "2026-10-31",
+   "pushed": "2026-11-07",
+   "topics": [],
+   "alternativeTo": null,
+   "arm": null,
+   "famousPaid": null,
+   "devPro": 0,
+   "sources": [
+    "gittrend"
+   ],
+   "flags": [
+    "non-english"
+   ],
+   "score": 8.72
+  },
+  {
+   "repo": "Verlintas/NOIR",
+   "url": "https://github.com/Verlintas/NOIR",
+   "description": "\u624b\u673a\u9690\u79c1\u5ba1\u8ba1\uff1a\u7528 adb \u626b\u51fa Android \u5e94\u7528\u7684\u6743\u9650\u3001\u4e0a\u62a5\u7aef\u70b9\u4e0e\u6570\u636e\u6d41\u5411\uff0c\u5e76\u7ed9\u51fa\u53ef\u56de\u6eda\u7684\u5904\u7f6e\u3002Desktop Android leak audit: permissions, endpoints, data flows, reversible fixes.",
+   "homepage": "https://verlintas.dev/noir/",
+   "stars": 2838,
+   "forks": 270,
+   "contributors": 3,
+   "releaseDownloads": 1964,
+   "license": "MIT",
+   "created": "2026-10-31",
+   "pushed": "2026-11-07",
+   "topics": [
+    "adb",
+    "android",
+    "android-privacy",
+    "android-security",
+    "android-tools",
+    "apk-analysis",
+    "bloatware",
+    "cli",
+    "cross-platform",
+    "debloat",
+    "jadx",
+    "kotlin",
+    "kotlin-multiplatform",
+    "privacy",
+    "privacy-tools",
+    "security-audit",
+    "static-analysis",
+    "telemetry",
+    "terminal-ui",
+    "tui"
+   ],
+   "alternativeTo": null,
+   "arm": "utility",
+   "famousPaid": null,
+   "devPro": 2,
+   "sources": [
+    "gittrend"
+   ],
+   "flags": [
+    "non-english"
+   ],
+   "score": 8.62
+  },
+  {
+   "repo": "HunYiSage/dsh-purge",
+   "url": "https://github.com/HunYiSage/dsh-purge",
+   "description": "DeepSeek Harness \u7834\u7532\uff1a\u8ba9\u6240\u6709\u6a21\u578b\u90fd\u80fd\u7834\u7532\uff0c\u4e0d\u540c\u6a21\u578b\u53ef\u6362\u4e0d\u540c\u63d0\u793a\u8bcd\uff1b\u9ed8\u8ba4\u63d0\u793a\u8bcd\u9762\u5411\u56fd\u6a21\u300c\u5c0f\u7801\u9171\u300d\u3002Jailbreak for every model \u2014 swap prompts per model. \u6c42 Star \u6536\u85cf \u2b50 \u5982\u8981\u4e8c\u5f00\uff0c\u8bf7\u67e5\u770b\u7f72\u540d\u8981\u6c42\u90e8\u5206",
+   "homepage": "",
+   "stars": 20452,
+   "forks": 4816,
+   "contributors": 2,
+   "releaseDownloads": 1537,
+   "license": "Apache-2.0",
+   "created": "2026-08-19",
+   "pushed": "2026-11-07",
+   "topics": [
+    "deepseek",
+    "deepseek-harness",
+    "dsh-plugin",
+    "dsh-plugins",
+    "harness-jailbreak",
+    "jailbreak",
+    "llm-jailbreak"
+   ],
+   "alternativeTo": null,
+   "arm": null,
+   "famousPaid": null,
+   "devPro": 1,
+   "sources": [
+    "gittrend"
+   ],
+   "flags": [
+    "non-english"
+   ],
+   "score": 8.56
+  },
+  {
+   "repo": "heydamir/unslop",
+   "url": "https://github.com/heydamir/unslop",
+   "description": "A Claude skill that turns vibecoded, AI-looking UI into a designed interface",
+   "homepage": null,
+   "stars": 11042,
+   "forks": 605,
+   "contributors": 3,
+   "releaseDownloads": 0,
+   "license": "CC-BY-4.0",
+   "created": "2026-10-29",
+   "pushed": "2026-11-01",
+   "topics": [],
+   "alternativeTo": null,
+   "arm": null,
+   "famousPaid": null,
+   "devPro": 0,
+   "sources": [
+    "gittrend",
+    "gh-search"
+   ],
+   "flags": [
+    "license:CC-BY-4.0"
+   ],
+   "score": 8.52
+  },
+  {
+   "repo": "Zagitta/gpu-unlock",
+   "url": "https://github.com/Zagitta/gpu-unlock",
+   "description": "Your GeForce runs AI at half speed. This fixes it for 20/30/40 series cards. Up to 2\u00d7 FP16 / BF16 / TF32 tensor throughput",
+   "homepage": "",
+   "stars": 17718,
+   "forks": 1802,
+   "contributors": 8,
+   "releaseDownloads": 893,
+   "license": null,
+   "created": "2026-10-18",
+   "pushed": "2026-10-29",
+   "topics": [],
+   "alternativeTo": null,
+   "arm": null,
+   "famousPaid": null,
+   "devPro": 0,
+   "sources": [
+    "gittrend",
+    "gh-search"
+   ],
+   "flags": [
+    "license:None"
+   ],
+   "score": 8.31
+  },
+  {
+   "repo": "Ebony-Vinyl/dsh-our-free-model",
+   "url": "https://github.com/Ebony-Vinyl/dsh-our-free-model",
+   "description": "\u5728 dsh \u91cc\u88c5\u4e0a\u8fd9\u4e2a\u63d2\u4ef6\u5373\u53ef\uff0c\u65e0\u9700\u767b\u5f55\u3001\u6ce8\u518c\u6216\u586b API Key\uff0c\u5c31\u80fd\u4f7f\u7528\u5305\u62ec DeepSeek V4.1 Flash\u3001Kimi K3 \u5728\u5185\u7684\u524d\u6cbf\u6a21\u578b\u2014\u2014\u5b8c\u5168\u514d\u8d39\uff0c\u4e0d\u9650\u91cf\u3002 All you do is install this plugin in dsh: no login, no sign-up, no API key \u2014 the frontier models are just there, DeepSeek V4.1 Flash and Kimi K3 among them. Completely free, with no usage cap.",
+   "homepage": null,
+   "stars": 64785,
+   "forks": 1745,
+   "contributors": 30,
+   "releaseDownloads": 17430,
+   "license": "MIT",
+   "created": "2026-09-24",
+   "pushed": "2026-11-05",
+   "topics": [
+    "ai-agents",
+    "deepseek",
+    "deepseek-harness",
+    "developer-tools",
+    "dsh",
+    "dsh-plugin",
+    "free-model",
+    "llm",
+    "model-provider",
+    "openai-compatible"
+   ],
+   "alternativeTo": null,
+   "arm": null,
+   "famousPaid": null,
+   "devPro": 4,
+   "sources": [
+    "gittrend"
+   ],
+   "flags": [
+    "non-english"
+   ],
+   "score": 8.15
+  },
+  {
+   "repo": "poco-ai/Agentero",
+   "url": "https://github.com/poco-ai/Agentero",
+   "description": "Unified research workspace for humans & agents \u2014 PDF Q&A with citations, Vault, writing. \u4e3a\u4eba\u4e0e Agent \u534f\u4f5c\u7684\u79d1\u7814\u5de5\u4f5c\u53f0\uff1b\u8865\u9f50 Zotero \u65f6\u4ee3\u7684\u4eba\u673a\u4e0a\u4e0b\u6587\u65ad\u70b9\u3002",
+   "homepage": "https://agentero.app",
+   "stars": 1770,
+   "forks": 114,
+   "contributors": 30,
+   "releaseDownloads": 8753,
+   "license": "MIT",
+   "created": "2026-07-07",
+   "pushed": "2026-11-07",
+   "topics": [
+    "academic",
+    "ai-agents",
+    "citations",
+    "desktop-app",
+    "dsh-plugin",
+    "knowledge-base",
+    "literature-review",
+    "llm",
+    "mcp",
+    "pdf",
+    "rag",
+    "research",
+    "research-assistant",
+    "tauri",
+    "typescript",
+    "writing-assistant"
+   ],
+   "alternativeTo": null,
+   "arm": "utility",
+   "famousPaid": null,
+   "devPro": 7,
+   "sources": [
+    "gittrend"
+   ],
+   "flags": [
+    "non-english"
+   ],
+   "score": 7.64
+  },
+  {
+   "repo": "lucas-martinic/polyfork-catalog",
+   "url": "https://github.com/lucas-martinic/polyfork-catalog",
+   "description": "Free low-poly 3D models for three.js and the web: 2,700+ GLB models and 26 themed kits. The public index of polyfork.dev.",
+   "homepage": "https://polyfork.dev",
+   "stars": 256,
+   "forks": 27,
+   "contributors": 1,
+   "releaseDownloads": 0,
+   "license": "NOASSERTION",
+   "created": "2026-11-02",
+   "pushed": "2026-11-02",
+   "topics": [
+    "3d-assets",
+    "3d-models",
+    "free-3d-models",
+    "game-assets",
+    "gamedev",
+    "glb",
+    "gltf",
+    "low-poly",
+    "threejs",
+    "webgl"
+   ],
+   "alternativeTo": null,
+   "arm": "hobby",
+   "famousPaid": null,
+   "devPro": 0,
+   "sources": [
+    "gittrend"
+   ],
+   "flags": [
+    "license:NOASSERTION"
+   ],
+   "score": 7.61
+  },
+  {
+   "repo": "supertokens/supertokens-core",
+   "url": "https://github.com/supertokens/supertokens-core",
+   "description": "Open source alternative to Auth0 / Firebase Auth / AWS Cognito ",
+   "homepage": "https://supertokens.com",
+   "stars": 15344,
+   "forks": 785,
+   "contributors": 30,
+   "releaseDownloads": 0,
+   "license": "NOASSERTION",
+   "created": "2020-01-05",
+   "pushed": "2026-11-06",
+   "topics": [
+    "auth0",
+    "authentication",
+    "aws-cognito",
+    "email-password",
+    "email-password-login",
+    "firebase-auth",
+    "hacktoberfest",
+    "java",
+    "keycloak",
+    "login",
+    "oauth",
+    "password",
+    "passwordless",
+    "passwordless-authentication",
+    "passwordless-login",
+    "session-management",
+    "signin",
+    "social-login",
+    "supertokens"
+   ],
+   "alternativeTo": null,
+   "arm": null,
+   "famousPaid": null,
+   "devPro": 0,
+   "sources": [
+    "gh-search"
+   ],
+   "flags": [
+    "license:NOASSERTION"
+   ],
+   "score": 7.57
+  },
+  {
+   "repo": "chadyi/StudyOnTV",
+   "url": "https://github.com/chadyi/StudyOnTV",
+   "description": "StudyOnTV (Tiledaoti TV) \u2014 open-source Android TV app where kids unlock screen time by answering questions. Runs fully on the TV: no server, no account. Parents scan a QR code and manage questions from the LAN. Learn first. Watch later.",
+   "homepage": null,
+   "stars": 784,
+   "forks": 188,
+   "contributors": 3,
+   "releaseDownloads": 2151,
+   "license": "NOASSERTION",
+   "created": "2026-11-01",
+   "pushed": "2026-11-07",
+   "topics": [
+    "android",
+    "android-tv",
+    "children",
+    "digital-wellbeing",
+    "edtech",
+    "education",
+    "family",
+    "kids",
+    "learn-first",
+    "learning",
+    "learning-app",
+    "open-source",
+    "parental-controls",
+    "parenting",
+    "quiz",
+    "screen-time",
+    "screen-time-management",
+    "smart-tv",
+    "study-app",
+    "tv-box"
+   ],
+   "alternativeTo": null,
+   "arm": null,
+   "famousPaid": null,
+   "devPro": 1,
+   "sources": [
+    "gittrend"
+   ],
+   "flags": [
+    "license:NOASSERTION"
+   ],
+   "score": 7.32
+  },
+  {
+   "repo": "worldonlyu/Google_AI_Pro_2Year_ZeroCost_Auto",
+   "url": "https://github.com/worldonlyu/Google_AI_Pro_2Year_ZeroCost_Auto",
+   "description": "Google_AI_Pro_2Year_ZeroCost_Auto",
+   "homepage": null,
+   "stars": 2983,
+   "forks": 1159,
+   "contributors": 1,
+   "releaseDownloads": 0,
+   "license": null,
+   "created": "2026-11-04",
+   "pushed": "2026-11-06",
+   "topics": [],
+   "alternativeTo": null,
+   "arm": null,
+   "famousPaid": null,
+   "devPro": 0,
+   "sources": [
+    "gittrend"
+   ],
+   "flags": [
+    "license:None"
+   ],
+   "score": 6.98
+  },
+  {
+   "repo": "deepseek-ai/dsh-superagent-prototype",
+   "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
+   "description": "Towards a More Autonomous Agent System",
+   "homepage": null,
+   "stars": 20557,
+   "forks": 2411,
+   "contributors": 0,
+   "releaseDownloads": 0,
+   "license": "MIT",
+   "created": "2026-10-31",
+   "pushed": "2026-11-03",
+   "topics": [],
+   "alternativeTo": null,
+   "arm": null,
+   "famousPaid": null,
+   "devPro": 1,
+   "sources": [
+    "gittrend",
+    "gh-search"
+   ],
+   "flags": [
+    "star-velocity-suspicious"
+   ],
+   "score": 6.92
+  },
+  {
+   "repo": "ccch1mneyyy/dsh-Go",
+   "url": "https://github.com/ccch1mneyyy/dsh-Go",
+   "description": "dsh-go \u2014 DeepSeek Harness \u88c5\u8fdb\u53e3\u888b\uff1a\u624b\u673a\u672c\u673a\u8fd0\u884c\uff0c\u4e5f\u80fd\u9065\u63a7\u4f60\u7684\u7535\u8111\u3002",
+   "homepage": "",
+   "stars": 13444,
+   "forks": 607,
+   "contributors": 1,
+   "releaseDownloads": 124780,
+   "license": "AGPL-3.0",
+   "created": "2026-10-25",
+   "pushed": "2026-11-07",
+   "topics": [
+    "ai-agent",
+    "android",
+    "android-app",
+    "coding-agent",
+    "deepseek",
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "dsh-tui",
+    "flutter",
+    "llm"
+   ],
+   "alternativeTo": null,
+   "arm": null,
+   "famousPaid": null,
+   "devPro": 3,
+   "sources": [
+    "gittrend",
+    "gh-search"
+   ],
+   "flags": [
+    "non-english"
+   ],
+   "score": 6.9
+  },
+  {
+   "repo": "awesome-selfhosted/awesome-selfhosted",
+   "url": "https://github.com/awesome-selfhosted/awesome-selfhosted",
+   "description": "A list of Free Software network services and web applications which can be hosted on your own servers",
+   "homepage": "https://awesome-selfhosted.net/",
+   "stars": 334668,
+   "forks": 15757,
+   "contributors": 30,
+   "releaseDownloads": 0,
+   "license": "NOASSERTION",
+   "created": "2015-06-01",
+   "pushed": "2026-11-06",
+   "topics": [
+    "awesome",
+    "awesome-list",
+    "cloud",
+    "free-software",
+    "hosting",
+    "privacy",
+    "self-hosted",
+    "selfhosted"
+   ],
+   "alternativeTo": null,
+   "arm": null,
+   "famousPaid": null,
+   "devPro": 2,
+   "sources": [
+    "gittrend"
+   ],
+   "flags": [
+    "license:NOASSERTION"
+   ],
+   "score": 6.89
+  },
+  {
+   "repo": "max-sixty/worktrunk",
+   "url": "https://github.com/max-sixty/worktrunk",
+   "description": "Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows",
+   "homepage": "https://worktrunk.dev",
+   "stars": 11864,
+   "forks": 459,
+   "contributors": 30,
+   "releaseDownloads": 211084,
+   "license": "NOASSERTION",
+   "created": "2025-10-17",
+   "pushed": "2026-11-07",
+   "topics": [
+    "agents",
+    "claude-code",
+    "codex",
+    "developer-tools",
+    "git",
+    "worktrees"
+   ],
+   "alternativeTo": null,
+   "arm": null,
+   "famousPaid": null,
+   "devPro": 5,
+   "sources": [
+    "gittrend",
+    "gh-trending-weekly"
+   ],
+   "flags": [
+    "license:NOASSERTION"
+   ],
+   "score": 6.74
+  },
+  {
+   "repo": "JuneYaooo/rea-video",
+   "url": "https://github.com/JuneYaooo/rea-video",
+   "description": "Reverse-engineer any video, shot by shot: tells whether each shot was filmed, AI-generated or coded, how the captions, cuts and audio were made, and how to remake it. \u9006\u5411\u4e00\u5207\u89c6\u9891\uff0c\u9010\u955c\u62c6\u51fa\u5236\u4f5c\u65b9\u5f0f\u5e76\u7ed9\u51fa\u590d\u523b\u65b9\u6848\u3002",
+   "homepage": null,
+   "stars": 3402,
+   "forks": 477,
+   "contributors": 5,
+   "releaseDownloads": 0,
+   "license": "Apache-2.0",
+   "created": "2026-10-29",
+   "pushed": "2026-11-07",
+   "topics": [
+    "agent-skills",
+    "ai-video",
+    "aigc-detection",
+    "claude-code",
+    "codex",
+    "ffmpeg",
+    "prompt-engineering",
+    "remotion",
+    "reverse-engineering",
+    "short-video",
+    "shot-detection",
+    "subtitles",
+    "video-analysis",
+    "video-breakdown",
+    "video-editing",
+    "video-generation",
+    "vlm"
+   ],
+   "alternativeTo": null,
+   "arm": "hobby",
+   "famousPaid": null,
+   "devPro": 1,
+   "sources": [
+    "gittrend"
+   ],
+   "flags": [
+    "non-english"
+   ],
+   "score": 6.73
+  },
+  {
+   "repo": "Jarvis322/macos-sysdata",
+   "url": "https://github.com/Jarvis322/macos-sysdata",
+   "description": "See what is really inside macOS System Data and delete it item by item. A free menu bar app that explains every category and shows each command before it runs.",
+   "homepage": "https://macos-sysdata.yigitech.dev",
+   "stars": 2008,
+   "forks": 74,
+   "contributors": 6,
+   "releaseDownloads": 8332,
+   "license": "NOASSERTION",
+   "created": "2026-09-05",
+   "pushed": "2026-11-06",
+   "topics": [
+    "cache-cleaner",
+    "developer-tools",
+    "disk-cleaner",
+    "disk-cleanup",
+    "disk-space",
+    "macos",
+    "macos-app",
+    "macos-system-data",
+    "menubar",
+    "storage",
+    "swift",
+    "swiftui",
+    "system-data",
+    "xcode"
+   ],
+   "alternativeTo": null,
+   "arm": "utility",
+   "famousPaid": null,
+   "devPro": 1,
+   "sources": [
+    "gh-search"
+   ],
+   "flags": [
+    "license:NOASSERTION"
+   ],
+   "score": 6.71
+  },
+  {
+   "repo": "togg53192-cmd/jailbreaks",
+   "url": "https://github.com/togg53192-cmd/jailbreaks",
+   "description": "LIST OF ALL MY JAILBREAKS",
+   "homepage": null,
+   "stars": 15062,
+   "forks": 2343,
+   "contributors": 4,
+   "releaseDownloads": 0,
+   "license": null,
+   "created": "2026-06-18",
+   "pushed": "2026-11-05",
+   "topics": [],
+   "alternativeTo": null,
+   "arm": null,
+   "famousPaid": null,
+   "devPro": 0,
+   "sources": [
+    "gittrend"
+   ],
+   "flags": [
+    "license:None"
+   ],
+   "score": 6.61
+  },
+  {
+   "repo": "ivankovic/omnidiff",
+   "url": "https://github.com/ivankovic/omnidiff",
+   "description": "Fast, robust, accurate diffing ",
+   "homepage": "https://ivankovic.github.io/omnidiff/showcase/",
+   "stars": 1200,
+   "forks": 31,
+   "contributors": 1,
+   "releaseDownloads": 1394,
+   "license": "NOASSERTION",
+   "created": "2025-10-17",
+   "pushed": "2026-11-06",
+   "topics": [
+    "ast-diff",
+    "ast-diff-tool",
+    "ast-differencing",
+    "code-quality",
+    "code-review",
+    "codereview",
+    "codereview-tools",
+    "diff",
+    "difftool",
+    "git",
+    "git-diff",
+    "git-difftool",
+    "ratatui",
+    "structural-diff",
+    "syntax-aware-diff"
+   ],
+   "alternativeTo": null,
+   "arm": null,
+   "famousPaid": null,
+   "devPro": 1,
+   "sources": [
+    "hn-show"
+   ],
+   "flags": [
+    "license:NOASSERTION"
+   ],
+   "score": 6.43
+  },
+  {
+   "repo": "mmdoctor/google-pro-helper",
+   "url": "https://github.com/mmdoctor/google-pro-helper",
+   "description": null,
+   "homepage": null,
+   "stars": 1027,
+   "forks": 391,
+   "contributors": 1,
+   "releaseDownloads": 0,
+   "license": null,
+   "created": "2026-11-05",
+   "pushed": "2026-11-05",
+   "topics": [],
+   "alternativeTo": null,
+   "arm": null,
+   "famousPaid": null,
+   "devPro": 0,
+   "sources": [
+    "gittrend"
+   ],
+   "flags": [
+    "license:None"
+   ],
+   "score": 6.35
+  },
+  {
+   "repo": "25Cloud/TuraIDC",
+   "url": "https://github.com/25Cloud/TuraIDC",
+   "description": "TuraIDC - Next-generation IDC cloud service management & billing system \u56fe\u62c9\u4e91\u4e1a\u52a1/\u8d22\u52a1\u7cfb\u7edf \u2014\u2014 \u65b0\u4e00\u4ee3\u7684IDC\u4e91\u670d\u52a1\u7ecf\u8425\u7cfb\u7edf",
+   "homepage": "https://docs.turaidc.com",
+   "stars": 283,
+   "forks": 18,
+   "contributors": 11,
+   "releaseDownloads": 0,
+   "license": "AGPL-3.0",
+   "created": "2026-08-14",
+   "pushed": "2026-11-07",
+   "topics": [],
+   "alternativeTo": null,
+   "arm": null,
+   "famousPaid": null,
+   "devPro": 0,
+   "sources": [
+    "gittrend"
+   ],
+   "flags": [
+    "non-english"
+   ],
+   "score": 6.34
+  },
+  {
+   "repo": "DhvanilPatel/swarm-cursors",
+   "url": "https://github.com/DhvanilPatel/swarm-cursors",
+   "description": null,
+   "homepage": null,
+   "stars": 1798,
+   "forks": 223,
+   "contributors": 1,
+   "releaseDownloads": 0,
+   "license": null,
+   "created": "2026-10-14",
+   "pushed": "2026-11-06",
+   "topics": [],
+   "alternativeTo": null,
+   "arm": null,
+   "famousPaid": null,
+   "devPro": 0,
+   "sources": [
+    "gittrend"
+   ],
+   "flags": [
+    "license:None"
+   ],
+   "score": 6.19
+  },
+  {
+   "repo": "TNTcraftHIM/Piik",
+   "url": "https://github.com/TNTcraftHIM/Piik",
+   "description": "Free, open-source screen sharing for private live streams with friends. Watch together in a browser or self-host Piik. \u514d\u8d39\u5f00\u6e90\u7684\u79c1\u5bc6\u5c4f\u5e55\u5171\u4eab\uff0c\u652f\u6301\u6e38\u620f\u76f4\u64ad\u3001\u4e00\u8d77\u770b\u7535\u5f71\u4e0e\u81ea\u90e8\u7f72\u3002",
+   "homepage": "https://piik.tv",
+   "stars": 4118,
+   "forks": 254,
+   "contributors": 1,
+   "releaseDownloads": 7362,
+   "license": "MIT",
+   "created": "2026-08-18",
+   "pushed": "2026-11-07",
+   "topics": [
+    "live-streaming",
+    "p2p",
+    "private-streaming",
+    "screen-sharing",
+    "self-hosted",
+    "watch-together",
+    "webrtc"
+   ],
+   "alternativeTo": null,
+   "arm": "hobby",
+   "famousPaid": null,
+   "devPro": 1,
+   "sources": [
+    "gh-search"
+   ],
+   "flags": [
+    "non-english"
+   ],
+   "score": 6.13
+  },
+  {
+   "repo": "woniuniuniu/dsh-media-desk",
+   "url": "https://github.com/woniuniuniu/dsh-media-desk",
+   "description": "DeepSeek Harness \u81ea\u5a92\u4f53\u5de5\u4f5c\u53f0\u63d2\u4ef6\uff1a\u4e00\u53e5\u8bdd\u8bb0\u7075\u611f\uff0c\u4e00\u952e\u751f\u6210\u811a\u672c\u3001\u5c01\u9762\u3001\u914d\u56fe\u548c\u5206\u955c",
+   "homepage": "https://www.npmjs.com/package/dsh-media-desk",
+   "stars": 414,
+   "forks": 34,
+   "contributors": 3,
+   "releaseDownloads": 57,
+   "license": "MIT",
+   "created": "2026-11-02",
+   "pushed": "2026-11-06",
+   "topics": [
+    "content-creation",
+    "deepseek",
+    "deepseek-harness",
+    "dsh-plugin",
+    "xiaohongshu"
+   ],
+   "alternativeTo": null,
+   "arm": null,
+   "famousPaid": null,
+   "devPro": 0,
+   "sources": [
+    "gittrend"
+   ],
+   "flags": [
+    "non-english"
+   ],
+   "score": 5.99
+  },
+  {
+   "repo": "codecrafters-io/build-your-own-x",
+   "url": "https://github.com/codecrafters-io/build-your-own-x",
+   "description": "Master programming by recreating your favorite technologies from scratch.",
+   "homepage": "https://codecrafters.io",
+   "stars": 560580,
+   "forks": 52448,
+   "contributors": 30,
+   "releaseDownloads": 0,
+   "license": null,
+   "created": "2018-05-09",
+   "pushed": "2026-07-14",
+   "topics": [
+    "awesome-list",
+    "free",
+    "programming",
+    "tutorial-code",
+    "tutorial-exercises",
+    "tutorials"
+   ],
+   "alternativeTo": null,
+   "arm": null,
+   "famousPaid": null,
+   "devPro": 0,
+   "sources": [
+    "gittrend"
+   ],
+   "flags": [
+    "license:None",
+    "stale"
+   ],
+   "score": 5.9
+  },
+  {
+   "repo": "momusdigital/fnv_decomp",
+   "url": "https://github.com/momusdigital/fnv_decomp",
+   "description": null,
+   "homepage": null,
+   "stars": 346,
+   "forks": 70,
+   "contributors": 30,
+   "releaseDownloads": 0,
+   "license": "NOASSERTION",
+   "created": "2026-10-31",
+   "pushed": "2026-11-07",
+   "topics": [],
+   "alternativeTo": null,
+   "arm": null,
+   "famousPaid": null,
+   "devPro": 0,
+   "sources": [
+    "gittrend"
+   ],
+   "flags": [
+    "license:NOASSERTION"
+   ],
+   "score": 5.6
+  },
+  {
+   "repo": "JGRFW/comfyui-aicg3d-PoseSwap",
+   "url": "https://github.com/JGRFW/comfyui-aicg3d-PoseSwap",
+   "description": "ComfyUI \u4e00\u952e\u6362\u8138 + \u6362\u59ff\u52bf + \u6362\u670d\u88c5\uff011499 \u5934\u50cf + 1439 \u59ff\u52bf + 1407 \u670d\u88c5\u81ea\u7531\u7ec4\u5408",
+   "homepage": "https://github.com/JGRFW/comfyui-aicg3d-PoseSwap",
+   "stars": 303,
+   "forks": 44,
+   "contributors": 1,
+   "releaseDownloads": 0,
+   "license": "MIT",
+   "created": "2026-10-30",
+   "pushed": "2026-11-01",
+   "topics": [],
+   "alternativeTo": null,
+   "arm": null,
+   "famousPaid": null,
+   "devPro": 0,
+   "sources": [
+    "gittrend"
+   ],
+   "flags": [
+    "non-english"
+   ],
+   "score": 5.51
+  },
+  {
+   "repo": "rddmwmddr/android-ad-cleaner",
+   "url": "https://github.com/rddmwmddr/android-ad-cleaner",
+   "description": "\u5173\u6389\u56fd\u4ea7\u5b89\u5353\u624b\u673a\u7cfb\u7edf\u91cc\u7684\u5e7f\u544a\u3001\u70ed\u641c\u3001\u8d44\u8baf\u63a8\u8350\u548c\u8425\u9500\u63a8\u9001\u3002\u4e0d root\uff0c\u53ef\u8fd8\u539f\uff0c\u652f\u6301 AI \u667a\u80fd\u4f53\u4e00\u952e\u6267\u884c\u3002",
+   "homepage": null,
+   "stars": 6832,
+   "forks": 611,
+   "contributors": 30,
+   "releaseDownloads": 13848,
+   "license": "MIT",
+   "created": "2026-10-24",
+   "pushed": "2026-11-07",
+   "topics": [
+    "adb",
+    "ai-agent",
+    "android",
+    "coloros",
+    "debloat",
+    "hyperos",
+    "magicos",
+    "originos"
+   ],
+   "alternativeTo": null,
+   "arm": null,
+   "famousPaid": null,
+   "devPro": 1,
+   "sources": [
+    "gh-search"
+   ],
+   "flags": [
+    "non-english"
+   ],
+   "score": 5.37
+  },
+  {
+   "repo": "notaroomba/keybytes",
+   "url": "https://github.com/notaroomba/keybytes",
+   "description": "A truly modular keyboard",
+   "homepage": null,
+   "stars": 444,
+   "forks": 12,
+   "contributors": 1,
+   "releaseDownloads": 0,
+   "license": null,
+   "created": "2025-12-19",
+   "pushed": "2026-11-02",
+   "topics": [],
+   "alternativeTo": null,
+   "arm": null,
+   "famousPaid": null,
+   "devPro": 0,
+   "sources": [
+    "hn-show"
+   ],
+   "flags": [
+    "license:None"
+   ],
+   "score": 5.07
+  },
+  {
+   "repo": "ranxianglei/billion-context",
+   "url": "https://github.com/ranxianglei/billion-context",
+   "description": "A context-compression plugin for month-long single sessions (billions of tokens) ,small context windows (a 100K context is enough) and token savings (5x fewer tokens) .\u4e0a\u4e0b\u6587\u538b\u7f29\u63d2\u4ef6\uff0c\u6708\u7ea7\u957f\u4f1a\u8bdd\u4f1a\u8bdd\uff0c \u517c\u987e\u5c0f\u7a97\u53e3(100k\u4e0a\u4e0b\u6587\u8db3\u77e3)\u7701token(\u77015\u500dtoken) . billion-context is all you need",
+   "homepage": "",
+   "stars": 4381,
+   "forks": 358,
+   "contributors": 30,
+   "releaseDownloads": 0,
+   "license": "NOASSERTION",
+   "created": "2026-08-06",
+   "pushed": "2026-11-07",
+   "topics": [
+    "dsh-plugin"
+   ],
+   "alternativeTo": null,
+   "arm": "utility",
+   "famousPaid": null,
+   "devPro": 0,
+   "sources": [
+    "gh-trending-daily"
+   ],
+   "flags": [
+    "license:NOASSERTION",
+    "non-english"
+   ],
+   "score": 4.89
+  },
+  {
+   "repo": "kingcharleslzy-ai/dsh-purge",
+   "url": "https://github.com/kingcharleslzy-ai/dsh-purge",
+   "description": "dsh-purge Community \u00b7 DeepSeek Harness \u793e\u533a\u7ef4\u62a4\u7248\uff1a\u5bbf\u4e3b\u517c\u5bb9\u3001\u72b6\u6001\u8bca\u65ad\u3001\u63d0\u793a\u8bcd\u7ba1\u7406\u3001\u66f4\u65b0\u4e0e\u672c\u673a\u5907\u4efd\u56de\u6eda\u3002\u57fa\u4e8e\u5c0f\u6768 / YuJunZhiXue \u7684 dsh-purge\u3002",
+   "homepage": "https://github.com/kingcharleslzy-ai/dsh-purge/releases",
+   "stars": 4831,
+   "forks": 2289,
+   "contributors": 23,
+   "releaseDownloads": 77522,
+   "license": "MIT",
+   "created": "2026-10-16",
+   "pushed": "2026-11-06",
+   "topics": [
+    "agent-tools",
+    "backup",
+    "deepseek",
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "jailbreak",
+    "prompt-injection",
+    "prompt-management",
+    "purge-community",
+    "rollback"
+   ],
+   "alternativeTo": null,
+   "arm": null,
+   "famousPaid": null,
+   "devPro": 1,
+   "sources": [
+    "gh-search"
+   ],
+   "flags": [
+    "non-english"
+   ],
+   "score": 4.87
+  },
+  {
+   "repo": "awesome-dsh-plugin/awesome-dsh-plugin",
+   "url": "https://github.com/awesome-dsh-plugin/awesome-dsh-plugin",
+   "description": "A curated list of plugins for DeepSeek Harness (dsh) \u00b7 DeepSeek Harness \u63d2\u4ef6\u7cbe\u9009\u5217\u8868",
+   "homepage": "https://awesome-dsh-plugin.com",
+   "stars": 23472,
+   "forks": 7191,
+   "contributors": 30,
+   "releaseDownloads": 0,
+   "license": "CC0-1.0",
+   "created": "2026-08-13",
+   "pushed": "2026-11-07",
+   "topics": [
+    "awesome",
+    "awesome-list",
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin"
+   ],
+   "alternativeTo": null,
+   "arm": null,
+   "famousPaid": null,
+   "devPro": 0,
+   "sources": [
+    "gittrend"
+   ],
+   "flags": [
+    "non-english"
+   ],
+   "score": 4.86
+  },
+  {
+   "repo": "dbreunig/nesformer",
+   "url": "https://github.com/dbreunig/nesformer",
+   "description": "An NES CPU compiled into the weights of a stock Qwen3.5 model",
+   "homepage": null,
+   "stars": 290,
+   "forks": 9,
+   "contributors": 1,
+   "releaseDownloads": 0,
+   "license": "NOASSERTION",
+   "created": "2026-10-30",
+   "pushed": "2026-10-30",
+   "topics": [],
+   "alternativeTo": null,
+   "arm": null,
+   "famousPaid": null,
+   "devPro": 0,
+   "sources": [
+    "hn-show"
+   ],
+   "flags": [
+    "license:NOASSERTION"
+   ],
+   "score": 4.67
+  },
+  {
+   "repo": "lemomo-ai/lemo-opuscar",
+   "url": "https://github.com/lemomo-ai/lemo-opuscar",
+   "description": "A toolbox of film styles made in code for Claude Code: 66 ready to use, and your own. Each style is a style prompt plus a demo film made entirely in code by Claude Opus 5.5, with no video model. By Lemomo. \u00b7 \u4e00\u5957\u7528\u4ee3\u7801\u505a\u7247\u7684\u98ce\u683c\u5de5\u5177\u7bb1\uff1a66 \u79cd\u73b0\u6210\u98ce\u683c\uff0c\u4e5f\u80fd\u505a\u51fa\u4f60\u81ea\u5df1\u7684",
+   "homepage": "https://lemomo-ai.github.io/lemo-opuscar/",
+   "stars": 13194,
+   "forks": 1531,
+   "contributors": 8,
+   "releaseDownloads": 269367,
+   "license": "MIT",
+   "created": "2026-09-26",
+   "pushed": "2026-11-07",
+   "topics": [
+    "agent-skills",
+    "ai-agents",
+    "ai-short-film",
+    "ai-video",
+    "animation",
+    "canvas",
+    "claude",
+    "claude-code",
+    "claude-code-plugin",
+    "claude-code-skill",
+    "creative-coding",
+    "ffmpeg",
+    "filmmaking",
+    "motion-graphics",
+    "opus-5-5",
+    "prompt-library",
+    "text-to-speech",
+    "threejs",
+    "video-production",
+    "webgl"
+   ],
+   "alternativeTo": null,
+   "arm": "hobby",
+   "famousPaid": null,
+   "devPro": 3,
+   "sources": [
+    "gittrend"
+   ],
+   "flags": [
+    "non-english"
+   ],
+   "score": 4.33
+  },
+  {
+   "repo": "larashero3-dotcom/lieflat-less-ai-tone",
+   "url": "https://github.com/larashero3-dotcom/lieflat-less-ai-tone",
+   "description": "\u4e00\u4e2a\u57fa\u4e8e 520 \u4e07\u5b57\u8bed\u6599\u7edf\u8ba1\u7684\u53bb AI \u5473 skill \u00b7 An AI-tone removal skill grounded in a 5.2-million-character corpus study",
+   "homepage": "",
+   "stars": 6681,
+   "forks": 462,
+   "contributors": 1,
+   "releaseDownloads": 0,
+   "license": "NOASSERTION",
+   "created": "2026-08-20",
+   "pushed": "2026-11-05",
+   "topics": [],
+   "alternativeTo": null,
+   "arm": null,
+   "famousPaid": null,
+   "devPro": 0,
+   "sources": [
+    "gittrend"
+   ],
+   "flags": [
+    "license:NOASSERTION",
+    "non-english"
+   ],
+   "score": 4.16
+  },
+  {
+   "repo": "Dokploy/dokploy",
+   "url": "https://github.com/Dokploy/dokploy",
+   "description": "Open Source Alternative to Vercel, Netlify and Heroku.",
+   "homepage": "https://dokploy.com/",
+   "stars": 38281,
+   "forks": 3158,
+   "contributors": 30,
+   "releaseDownloads": 1318,
+   "license": "NOASSERTION",
+   "created": "2024-04-19",
+   "pushed": "2026-11-07",
+   "topics": [
+    "agents",
+    "ai",
+    "backend",
+    "backups",
+    "databases",
+    "deployment",
+    "deployments",
+    "devops",
+    "docker",
+    "frontend",
+    "mariadb",
+    "mongodb",
+    "mysql",
+    "nextjs",
+    "postgresql",
+    "self-hosted",
+    "vps"
+   ],
+   "alternativeTo": null,
+   "arm": null,
+   "famousPaid": null,
+   "devPro": 4,
+   "sources": [
+    "gh-search"
+   ],
+   "flags": [
+    "license:NOASSERTION"
+   ],
+   "score": 3.87
+  },
+  {
+   "repo": "braydennilsen/PaliCAD",
+   "url": "https://github.com/braydennilsen/PaliCAD",
+   "description": "Lightweight direct modelling 3D CAD for all platforms, with a custom CAD kernel called Pali Ijo",
+   "homepage": "palicad.com",
+   "stars": 252,
+   "forks": 20,
+   "contributors": 1,
+   "releaseDownloads": 0,
+   "license": "NOASSERTION",
+   "created": "2026-09-21",
+   "pushed": "2026-10-30",
+   "topics": [],
+   "alternativeTo": null,
+   "arm": "hobby",
+   "famousPaid": null,
+   "devPro": 0,
+   "sources": [
+    "gittrend"
+   ],
+   "flags": [
+    "license:NOASSERTION"
+   ],
+   "score": 3.86
+  },
+  {
+   "repo": "QingYunA/answer-me-with-html",
+   "url": "https://github.com/QingYunA/answer-me-with-html",
+   "description": "Answer me with HTML \u2014 an agent skill that answers hard questions with a one-page HTML you can actually read. \u8ba9 AI Agent \u7528\u4e00\u9875 HTML \u56de\u7b54\u590d\u6742\u95ee\u9898\u3002",
+   "homepage": "https://answer-me-with-html.com/",
+   "stars": 5953,
+   "forks": 390,
+   "contributors": 23,
+   "releaseDownloads": 0,
+   "license": "MIT",
+   "created": "2026-10-02",
+   "pushed": "2026-11-05",
+   "topics": [
+    "agent-skill",
+    "ai-agent",
+    "claude-code",
+    "claude-code-skill",
+    "claude-skill",
+    "claude-skills",
+    "cli",
+    "diagram",
+    "dsh-plugin",
+    "explainer",
+    "html",
+    "llm",
+    "ste100"
+   ],
+   "alternativeTo": null,
+   "arm": null,
+   "famousPaid": null,
+   "devPro": 3,
+   "sources": [
+    "gittrend"
+   ],
+   "flags": [
+    "non-english"
+   ],
+   "score": 3.39
+  },
+  {
+   "repo": "Anil-matcha/awesome-open-source-saas-alternatives",
+   "url": "https://github.com/Anil-matcha/awesome-open-source-saas-alternatives",
+   "description": "Open source alternatives to paid SaaS apps: Notion, Slack, Auth0, Vercel and more. Curated list with licenses and GitHub stars.",
+   "homepage": "https://muapi.ai/open-source/alternatives",
+   "stars": 3461,
+   "forks": 520,
+   "contributors": 30,
+   "releaseDownloads": 0,
+   "license": null,
+   "created": "2023-11-10",
+   "pushed": "2026-11-07",
+   "topics": [
+    "alternatives",
+    "auth0-alternative",
+    "awesome",
+    "awesome-list",
+    "figma-alternative",
+    "firebase-alternative",
+    "free-software",
+    "notion-alternative",
+    "open-source",
+    "open-source-alternatives",
+    "open-source-software",
+    "postman-alternative",
+    "privacy",
+    "saas",
+    "saas-alternatives",
+    "self-hosted",
+    "selfhosted",
+    "slack-alternative",
+    "vercel-alternative",
+    "zapier-alternative"
+   ],
+   "alternativeTo": null,
+   "arm": "subscription",
+   "famousPaid": "notion",
+   "devPro": 3,
+   "sources": [
+    "gh-search"
+   ],
+   "flags": [
+    "license:None"
+   ],
+   "score": 3.18
+  },
+  {
+   "repo": "anywhere-labs/Agents-Anywhere",
+   "url": "https://github.com/anywhere-labs/Agents-Anywhere",
+   "description": "\u8de8\u8bbe\u5907\u7684\u5f00\u6e90Agent\u5de5\u4f5c\u53f0",
+   "homepage": "https://agents-anywhere.com",
+   "stars": 3033,
+   "forks": 260,
+   "contributors": 24,
+   "releaseDownloads": 15338,
+   "license": null,
+   "created": "2026-05-22",
+   "pushed": "2026-11-07",
+   "topics": [
+    "acp",
+    "agentclientprotocol",
+    "agents",
+    "claudecode",
+    "codex",
+    "codex-app",
+    "dsh",
+    "dsh-plugin",
+    "dsh-plugins",
+    "llm",
+    "opencode",
+    "remote",
+    "remote-control"
+   ],
+   "alternativeTo": null,
+   "arm": null,
+   "famousPaid": null,
+   "devPro": 2,
+   "sources": [
+    "gittrend"
+   ],
+   "flags": [
+    "license:None",
+    "non-english"
+   ],
+   "score": 3.09
+  },
+  {
+   "repo": "andrewfader/blokkily",
+   "url": "https://github.com/andrewfader/blokkily",
+   "description": "An experimental pattern-first DAW",
+   "homepage": "",
+   "stars": 100,
+   "forks": 3,
+   "contributors": 3,
+   "releaseDownloads": 91,
+   "license": "NOASSERTION",
+   "created": "2026-09-26",
+   "pushed": "2026-11-06",
+   "topics": [
+    "audio",
+    "clap",
+    "daw",
+    "soundfonts",
+    "vst3"
+   ],
+   "alternativeTo": null,
+   "arm": null,
+   "famousPaid": null,
+   "devPro": 0,
+   "sources": [
+    "hn-show"
+   ],
+   "flags": [
+    "license:NOASSERTION"
+   ],
+   "score": 2.98
+  },
+  {
+   "repo": "trimstray/the-book-of-secret-knowledge",
+   "url": "https://github.com/trimstray/the-book-of-secret-knowledge",
+   "description": "A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools and more.",
+   "homepage": "",
+   "stars": 256523,
+   "forks": 14812,
+   "contributors": 30,
+   "releaseDownloads": 0,
+   "license": "MIT",
+   "created": "2018-06-23",
+   "pushed": "2024-11-19",
+   "topics": [
+    "awesome",
+    "awesome-list",
+    "bsd",
+    "cheatsheets",
+    "devops",
+    "guidelines",
+    "hacking",
+    "hacks",
+    "howtos",
+    "linux",
+    "lists",
+    "manuals",
+    "one-liners",
+    "pentesters",
+    "resources",
+    "search-engines",
+    "security",
+    "security-researchers",
+    "sysops"
+   ],
+   "alternativeTo": null,
+   "arm": null,
+   "famousPaid": null,
+   "devPro": 2,
+   "sources": [
+    "gittrend"
+   ],
+   "flags": [
+    "stale"
+   ],
+   "score": 2.91
+  },
+  {
+   "repo": "multica-ai/andrej-karpathy-skills",
+   "url": "https://github.com/multica-ai/andrej-karpathy-skills",
+   "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
+   "homepage": "",
+   "stars": 230436,
+   "forks": 22931,
+   "contributors": 7,
+   "releaseDownloads": 0,
+   "license": null,
+   "created": "2026-01-27",
+   "pushed": "2026-04-20",
+   "topics": [],
+   "alternativeTo": null,
+   "arm": null,
+   "famousPaid": null,
+   "devPro": 2,
+   "sources": [
+    "gittrend"
+   ],
+   "flags": [
+    "license:None",
+    "stale"
+   ],
+   "score": 2.64
+  },
+  {
+   "repo": "wzc520pyfm/gen-ai-pose-image",
+   "url": "https://github.com/wzc520pyfm/gen-ai-pose-image",
+   "description": "\u6f9c\u59ff\uff1a\u4ece\u59ff\u52bf\u7ebf\u7a3f\u548c\u8863\u88c5\u96c6\u7ed9\u793e\u533a\u9cb8\u9c7c\u5a18\u5927\u80a5\u9c7c\u6a21\u7279\u51fa\u56fe\uff0c\u8c03\u6574\u59ff\u52bf\u52a0\u53d8\u88c5\uff0c\u4e5f\u53ef\u88c5\u8fdb DeepSeek Harness\u3002Lanpose generates images of the community whale-girl Dafeiyu from pose sketches and costumes, and installs into DeepSeek Harness.",
+   "homepage": "https://gen-ai-pose-image.vercel.app/",
+   "stars": 699,
+   "forks": 57,
+   "contributors": 3,
+   "releaseDownloads": 0,
+   "license": "NOASSERTION",
+   "created": "2026-10-29",
+   "pushed": "2026-11-04",
+   "topics": [
+    "deepseek",
+    "genai",
+    "generic",
+    "gpt",
+    "image",
+    "pose"
+   ],
+   "alternativeTo": null,
+   "arm": null,
+   "famousPaid": null,
+   "devPro": 0,
+   "sources": [
+    "gittrend"
+   ],
+   "flags": [
+    "license:NOASSERTION",
+    "non-english"
+   ],
+   "score": 2.26
+  },
+  {
+   "repo": "KKKKhazix/agent-autoloop",
+   "url": "https://github.com/KKKKhazix/agent-autoloop",
+   "description": "\u8ba9\u4f60\u7684\u547d\u4ee4\u884c Agent \u5728\u540e\u53f0\u81ea\u5df1\u63a5\u6d3b\u3001\u81ea\u5df1\u8ddf\u8fdb\u5230\u5e95\uff1b\u5e73\u65f6\u4e0d\u70e6\u4f60\uff0c\u9047\u5230\u62ff\u4e0d\u51c6\u7684\u4e8b\u624d\u53d1\u5361\u7247\u627e\u4f60\u62cd\u677f\u3002",
+   "homepage": "",
+   "stars": 3850,
+   "forks": 698,
+   "contributors": 24,
+   "releaseDownloads": 0,
+   "license": "MIT",
+   "created": "2026-11-03",
+   "pushed": "2026-11-07",
+   "topics": [
+    "ai-agents",
+    "automation",
+    "claude-code",
+    "cli",
+    "codex",
+    "event-driven",
+    "mcp",
+    "nodejs",
+    "self-hosted",
+    "typescript",
+    "workflow"
+   ],
+   "alternativeTo": null,
+   "arm": null,
+   "famousPaid": null,
+   "devPro": 5,
+   "sources": [
+    "gittrend",
+    "gh-search"
+   ],
+   "flags": [
+    "non-english"
+   ],
+   "score": 2.12
+  },
+  {
+   "repo": "syufk/2026vpn",
+   "url": "https://github.com/syufk/2026vpn",
+   "description": "\u3010\u56fd\u5185VPN\u68af\u5b50\u30112026\u6700\u7a33\u5b9a\u7684\u68af\u5b50\u63a8\u8350\u4e0e\u673a\u573a\u79d1\u5b66\u4e0a\u7f51\u6d4b\u8bc4\ud83d\udd25\ud83d\udd25\ud83d\udd25",
+   "homepage": "https://51bcy.site/",
+   "stars": 463,
+   "forks": 21,
+   "contributors": 1,
+   "releaseDownloads": 0,
+   "license": null,
+   "created": "2026-08-03",
+   "pushed": "2026-11-02",
+   "topics": [
+    "clash",
+    "shadowsocks",
+    "v2ray",
+    "vpn"
+   ],
+   "alternativeTo": null,
+   "arm": null,
+   "famousPaid": null,
+   "devPro": 0,
+   "sources": [
+    "gittrend"
+   ],
+   "flags": [
+    "license:None",
+    "non-english"
+   ],
+   "score": 1.9
+  },
+  {
+   "repo": "ZXEB/dsh-purge",
+   "url": "https://github.com/ZXEB/dsh-purge",
+   "description": "dsh-purge v1.1.71 \u5b8c\u6574\u6e90\u7801\u955c\u50cf\uff08\u539f\u4ed3\u5e93 YuJunZhiXue/dsh-purge \u4e0e npm \u5305\u5747\u5df2\u5220\u9664\uff09\u3002DeepSeek Harness \u7834\u7532 / \u7ea2\u961f\u8bc4\u6d4b\u63d2\u4ef6\uff0c\u652f\u6301\u5b98\u65b9 web \u4e0e\u684c\u9762\u5bbf\u4e3b\u3002",
+   "homepage": null,
+   "stars": 185,
+   "forks": 224,
+   "contributors": 1,
+   "releaseDownloads": 721,
+   "license": "MIT",
+   "created": "2026-10-23",
+   "pushed": "2026-10-23",
+   "topics": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "llm-security",
+    "nodejs",
+    "prompt-injection",
+    "redteam"
+   ],
+   "alternativeTo": null,
+   "arm": null,
+   "famousPaid": null,
+   "devPro": 1,
+   "sources": [
+    "gittrend"
+   ],
+   "flags": [
+    "non-english"
+   ],
+   "score": 1.85
+  },
+  {
+   "repo": "windmill-labs/windmill",
+   "url": "https://github.com/windmill-labs/windmill",
+   "description": "Code-first platform for workflows, apps and AI agents, on the fastest self-hostable orchestrator (benchmarked against Airflow, Prefect and Temporal). Business teams build with AI, engineers control what ships. Open-source alternative to Lovable, Retool and n8n.",
+   "homepage": "https://windmill.dev",
+   "stars": 18446,
+   "forks": 1141,
+   "contributors": 30,
+   "releaseDownloads": 87,
+   "license": "NOASSERTION",
+   "created": "2022-05-05",
+   "pushed": "2026-11-06",
+   "topics": [
+    "ai-agents",
+    "airflow-alternative",
+    "internal-tools",
+    "open-source",
+    "orchestration",
+    "postgresql",
+    "python",
+    "rust",
+    "self-hostable",
+    "self-hosted",
+    "typescript",
+    "vibe-coding",
+    "workflow-engine"
+   ],
+   "alternativeTo": null,
+   "arm": null,
+   "famousPaid": null,
+   "devPro": 3,
+   "sources": [
+    "gh-search"
+   ],
+   "flags": [
+    "license:NOASSERTION"
+   ],
+   "score": 1.73
+  },
+  {
+   "repo": "Soulmate-Halo/heterogeneous-gpu-pd-lab",
+   "url": "https://github.com/Soulmate-Halo/heterogeneous-gpu-pd-lab",
+   "description": "\u4f7f\u7528\u7a20\u5bc6\u7b97\u529b\u5361\u5bf9\u7a00\u758f\u5927\u663e\u5b58\u4e3b\u673a\u8fdb\u884c\u52a0\u901f\uff0c\u4e3b\u673a\u5305\u62ec AI Max+ 395\u3001M3 512G\u3001DGX Spark \u7b49\u3002",
+   "homepage": null,
+   "stars": 1132,
+   "forks": 178,
+   "contributors": 1,
+   "releaseDownloads": 318,
+   "license": null,
+   "created": "2026-09-01",
+   "pushed": "2026-11-02",
+   "topics": [
+    "heterogeneous-gpu",
+    "llama-cpp",
+    "pipeline-parallelism",
+    "prefill-decode",
+    "rtx-3060",
+    "strix-halo"
+   ],
+   "alternativeTo": null,
+   "arm": null,
+   "famousPaid": null,
+   "devPro": 0,
+   "sources": [
+    "gittrend"
+   ],
+   "flags": [
+    "license:None",
+    "non-english"
+   ],
+   "score": 1.59
+  },
+  {
+   "repo": "designfuchen/word-atlas",
+   "url": "https://github.com/designfuchen/word-atlas",
+   "description": "\u8bcd\u5149 \u00b7 Word Atlas \u2014 Illustrated IELTS vocabulary with 7,298 words, UK/US audio and FSRS review. Open-source app + CC BY 4.0 dataset.",
+   "homepage": "https://0xlei.tech/words/",
+   "stars": 4365,
+   "forks": 926,
+   "contributors": 1,
+   "releaseDownloads": 0,
+   "license": "NOASSERTION",
+   "created": "2026-10-25",
+   "pushed": "2026-10-31",
+   "topics": [
+    "chinese",
+    "dataset",
+    "english-learning",
+    "flashcards",
+    "fsrs",
+    "ielts",
+    "language-learning",
+    "pwa",
+    "react",
+    "spaced-repetition",
+    "vocabulary",
+    "webgl"
+   ],
+   "alternativeTo": null,
+   "arm": null,
+   "famousPaid": null,
+   "devPro": 0,
+   "sources": [
+    "gh-search"
+   ],
+   "flags": [
+    "license:NOASSERTION",
+    "non-english"
+   ],
+   "score": 1.48
+  },
+  {
+   "repo": "Arekejoker/qwen21-nsfw-pose-skill",
+   "url": "https://github.com/Arekejoker/qwen21-nsfw-pose-skill",
+   "description": "Qwen-Image 2.1 NSFW/\u59ff\u52bf\u51fa\u56fe skill\uff1a\u4f5c\u8005\u7ea7\u63d0\u793a\u8bcd\u914d\u65b9 + NSFW LoRA + 136 \u59ff\u52bf VNCCS \u4eba\u5076\u63a7\u5236\uff1b\u9002\u7528 Claude Code / Codex / Cursor / OpenClaw",
+   "homepage": null,
+   "stars": 4212,
+   "forks": 722,
+   "contributors": 3,
+   "releaseDownloads": 0,
+   "license": "Apache-2.0",
+   "created": "2026-10-13",
+   "pushed": "2026-10-26",
+   "topics": [
+    "agent-skill",
+    "comfyui",
+    "image-generation",
+    "openclaw",
+    "pose-control",
+    "qwen-image"
+   ],
+   "alternativeTo": null,
+   "arm": null,
+   "famousPaid": null,
+   "devPro": 1,
+   "sources": [
+    "gh-search"
+   ],
+   "flags": [
+    "non-english"
+   ],
+   "score": 1.25
+  },
+  {
+   "repo": "DigitalShieldOfficial/USDT-Payment-Gateway",
+   "url": "https://github.com/DigitalShieldOfficial/USDT-Payment-Gateway",
+   "description": "A lightweight USDT/USDC payment gateway with multi-chain support, integration guides, SDK documentation, and merchant demos.\u8f7b\u91cf\u7ea7 USDT/USDC \u652f\u4ed8\u7f51\u5173\uff0c\u63d0\u4f9b\u591a\u94fe\u652f\u6301\u3001\u63a5\u5165\u6307\u5357\u3001SDK \u6587\u6863\u548c\u5546\u6237\u6f14\u793a\u7a0b\u5e8f\u3002",
+   "homepage": "https://mcashier.ds.pro/",
+   "stars": 1802,
+   "forks": 71,
+   "contributors": 4,
+   "releaseDownloads": 0,
+   "license": "MIT",
+   "created": "2026-08-13",
+   "pushed": "2026-11-06",
+   "topics": [
+    "crypto-payment-sdk",
+    "multi-chain",
+    "multi-chain-wallet",
+    "multi-chain-wallet-api",
+    "payment-gateway",
+    "web3"
+   ],
+   "alternativeTo": null,
+   "arm": null,
+   "famousPaid": null,
+   "devPro": 1,
+   "sources": [
+    "gittrend"
+   ],
+   "flags": [
+    "non-english"
+   ],
+   "score": 0.87
+  },
+  {
+   "repo": "Sunhaiy/Reflex",
+   "url": "https://github.com/Sunhaiy/Reflex",
+   "description": "is a next-generation, modern, and lightweight SSH client engineered for absolute efficiency. Beyond standard terminal emulation, it acts as your ultimate developer workbench by integrating AI-assisted debugging, a native Docker manager, hardware monitoring, and seamless SFTP file management into one beautiful, cross-platform application.",
+   "homepage": "https://reflex.ink/",
+   "stars": 419,
+   "forks": 2,
+   "contributors": 2,
+   "releaseDownloads": 307,
+   "license": "NOASSERTION",
+   "created": "2026-02-01",
+   "pushed": "2026-10-27",
+   "topics": [
+    "ai",
+    "ai-agent",
+    "ai-assistant",
+    "cross-platform",
+    "dev-tools",
+    "docker",
+    "docker-manager",
+    "electron",
+    "react",
+    "sftp-client",
+    "ssh",
+    "ssh-client",
+    "system-monitoring",
+    "tailwindcss",
+    "terminal",
+    "terminal-emulator",
+    "typescript",
+    "xtermjs"
+   ],
+   "alternativeTo": null,
+   "arm": "hobby",
+   "famousPaid": null,
+   "devPro": 4,
+   "sources": [
+    "gittrend"
+   ],
+   "flags": [
+    "license:NOASSERTION"
+   ],
+   "score": 0.86
+  },
+  {
+   "repo": "xiaoyang111222/cn-math-taxonomy",
+   "url": "https://github.com/xiaoyang111222/cn-math-taxonomy",
+   "description": "\u6570\u5b66\uff08\u5c0f\u5b66\u5230\u9ad8\u4e2d\uff09\u3001\u82f1\u8bed\uff08\u4e09\u5e74\u7ea7\u5230\u9ad8\u4e2d\uff09\u3001\u521d\u4e2d\u7269\u7406\u7684\u77e5\u8bc6\u56fe\u8c31\uff1a1644 \u4e2a\u77e5\u8bc6\u70b9\u30012403 \u6761\u5148\u4fee\u8fb9\u30016723 \u9053\u9898\uff0c\u5bf9\u9f50\u8bfe\u6807\uff0c\u9644\u81ea\u9002\u5e94\u524d\u7f6e\u8bca\u65ad\u3002",
+   "homepage": "https://math.pansgo.com/",
+   "stars": 6982,
+   "forks": 1823,
+   "contributors": 6,
+   "releaseDownloads": 0,
+   "license": "NOASSERTION",
+   "created": "2026-10-18",
+   "pushed": "2026-11-06",
+   "topics": [
+    "chinese",
+    "curriculum",
+    "diagnostic",
+    "edtech",
+    "education",
+    "elementary-school",
+    "english",
+    "high-school",
+    "junior-high-school",
+    "k12",
+    "knowledge-graph",
+    "math",
+    "mathematics",
+    "middle-school",
+    "open-data",
+    "primary-school"
+   ],
+   "alternativeTo": null,
+   "arm": null,
+   "famousPaid": null,
+   "devPro": 0,
+   "sources": [
+    "gh-search"
+   ],
+   "flags": [
+    "license:NOASSERTION",
+    "non-english"
+   ],
+   "score": 0.69
+  },
+  {
+   "repo": "anhao/ai-pose-gallery-zh",
+   "url": "https://github.com/anhao/ai-pose-gallery-zh",
+   "description": "\u4e2d\u6587\u7248 AI \u59ff\u52bf\u53c2\u8003\u56fe\u5e93 \u00b7 1439 \u7ec4 / 2878 \u5f20\u56fe\u7247 / \u5b8c\u6574\u6c49\u5316 \u00b7 \u96f6\u4f9d\u8d56\u9759\u6001\u753b\u5eca",
+   "homepage": "https://ai-pose-gallery.anhao.app",
+   "stars": 6316,
+   "forks": 1601,
+   "contributors": 5,
+   "releaseDownloads": 0,
+   "license": "NOASSERTION",
+   "created": "2026-10-27",
+   "pushed": "2026-11-04",
+   "topics": [
+    "ai-art",
+    "chinese",
+    "cloudflare-pages",
+    "gallery",
+    "i18n",
+    "pose",
+    "reference-images",
+    "static-site"
+   ],
+   "alternativeTo": null,
+   "arm": null,
+   "famousPaid": null,
+   "devPro": 0,
+   "sources": [
+    "gh-search"
+   ],
+   "flags": [
+    "license:NOASSERTION",
+    "non-english"
+   ],
+   "score": 0.6
+  },
+  {
+   "repo": "jasonbitsmith/muse-skills",
+   "url": "https://github.com/jasonbitsmith/muse-skills",
+   "description": "300 \u6761 Muse \u6280\u80fd\uff1a\u6bcf\u6761\u4e00\u53e5\u8bdd\u75db\u70b9 + \u4e09\u6b65\u505a\u6cd5\uff0c\u70b9\u5f00\u5c31\u80fd\u7528",
+   "homepage": null,
+   "stars": 365,
+   "forks": 37,
+   "contributors": 1,
+   "releaseDownloads": 0,
+   "license": null,
+   "created": "2026-10-05",
+   "pushed": "2026-10-20",
+   "topics": [],
+   "alternativeTo": null,
+   "arm": null,
+   "famousPaid": null,
+   "devPro": 0,
+   "sources": [
+    "gittrend"
+   ],
+   "flags": [
+    "license:None",
+    "non-english"
+   ],
+   "score": 0.47
+  },
+  {
+   "repo": "KKKKhazix/AIHOT",
+   "url": "https://github.com/KKKKhazix/AIHOT",
+   "description": "\u4e00\u4e2a\u81ea\u5df1\u627e\u70ed\u70b9\u3001\u81ea\u5df1\u5199\u65e5\u62a5\u7684\u7f51\u7ad9\u6846\u67b6\u3002\u628a\u4fe1\u6e90\u548c\u7cbe\u9009\u6807\u51c6\u6362\u6210\u4f60\u7684\uff0c\u5b83\u5c31\u662f\u4f60\u7684\u884c\u4e1a\u70ed\u70b9\u7ad9\u3002",
+   "homepage": "https://aihot.news",
+   "stars": 9714,
+   "forks": 2275,
+   "contributors": 25,
+   "releaseDownloads": 0,
+   "license": "MIT",
+   "created": "2026-09-28",
+   "pushed": "2026-11-07",
+   "topics": [
+    "ai",
+    "chinese",
+    "content-curation",
+    "daily-digest",
+    "docker-compose",
+    "llm",
+    "mcp",
+    "news-aggregator",
+    "postgresql",
+    "rss",
+    "self-hosted",
+    "typescript"
+   ],
+   "alternativeTo": null,
+   "arm": null,
+   "famousPaid": null,
+   "devPro": 4,
+   "sources": [
+    "gh-search"
+   ],
+   "flags": [
+    "non-english"
+   ],
+   "score": -0.02
+  },
+  {
+   "repo": "yaojingang/GEOInflow",
+   "url": "https://github.com/yaojingang/GEOInflow",
+   "description": "Self-hosted web and AI crawler analytics for Generative Engine Optimization (GEO). Track visitors, AI search referrals, crawl logs, content coverage, and conversions. Jointly published by \u730e\u770b\u79d1\u6280 \u00b7 \u5317\u4eac\u65e5\u62a5\u793e\u667a\u6e90GEO. MIT licensed.",
+   "homepage": null,
+   "stars": 814,
+   "forks": 254,
+   "contributors": 6,
+   "releaseDownloads": 0,
+   "license": "MIT",
+   "created": "2026-10-26",
+   "pushed": "2026-11-03",
+   "topics": [
+    "ai-analytics",
+    "geo",
+    "mit",
+    "postgresql",
+    "self-hosted",
+    "web-analytics"
+   ],
+   "alternativeTo": null,
+   "arm": null,
+   "famousPaid": null,
+   "devPro": 1,
+   "sources": [
+    "gh-search"
+   ],
+   "flags": [
+    "non-english"
+   ],
+   "score": -0.17
+  },
+  {
+   "repo": "BryceYuuu/RUN",
+   "url": "https://github.com/BryceYuuu/RUN",
+   "description": "RUN \u00b7 \u6da6\uff1a\u4e2d\u56fd\u62a4\u7167\u6301\u6709\u4eba\u7684\u6d77\u5916\u79fb\u5c45\u624b\u518c\u3002\u6b27\u6d32 36 \u56fd 110 \u6761\u79fb\u6c11\u8def\u7ebf + 13 \u4e2a\u4e3b\u8981\u79fb\u6c11\u5730\u533a\uff1a\u6570\u5b57\u6e38\u6c11\u7b7e\u8bc1\u3001\u6b27\u76df\u84dd\u5361\u3001\u6280\u672f\u79fb\u6c11\u3001\u7559\u5b66\u8f6c\u5de5\u4f5c\u3001\u521b\u4e1a\u81ea\u96c7\u3001\u6295\u8d44\u5c45\u7559\uff0c\u6bcf\u6761\u9644\u5b98\u65b9\u6765\u6e90\uff0c\u6301\u7eed\u66f4\u65b0\u3002",
+   "homepage": null,
+   "stars": 4141,
+   "forks": 295,
+   "contributors": 1,
+   "releaseDownloads": 0,
+   "license": "CC-BY-SA-4.0",
+   "created": "2026-10-29",
+   "pushed": "2026-11-07",
+   "topics": [
+    "china",
+    "chinese",
+    "digital-nomad",
+    "digital-nomad-visa",
+    "emigration",
+    "eu-blue-card",
+    "europe",
+    "expat",
+    "golden-visa",
+    "immigration",
+    "immigration-guide",
+    "relocation",
+    "residence-permit",
+    "run-philosophy",
+    "schengen",
+    "study-abroad",
+    "visa",
+    "work-visa"
+   ],
+   "alternativeTo": null,
+   "arm": null,
+   "famousPaid": null,
+   "devPro": 0,
+   "sources": [
+    "gh-search"
+   ],
+   "flags": [
+    "license:CC-BY-SA-4.0",
+    "non-english"
+   ],
+   "score": -0.76
+  },
+  {
+   "repo": "AhmadHassan-BTed/.github",
+   "url": "https://github.com/AhmadHassan-BTed/.github",
+   "description": null,
+   "homepage": "",
+   "stars": 4021,
+   "forks": 0,
+   "contributors": 1,
+   "releaseDownloads": 0,
+   "license": null,
+   "created": "2026-10-09",
+   "pushed": "2026-11-02",
+   "topics": [],
+   "alternativeTo": null,
+   "arm": null,
+   "famousPaid": null,
+   "devPro": 0,
+   "sources": [
+    "gh-search"
+   ],
+   "flags": [
+    "license:None",
+    "low-fork-ratio"
+   ],
+   "score": -0.79
+  },
+  {
+   "repo": "gulucaptain/Best-Paper-Writing-Skill",
+   "url": "https://github.com/gulucaptain/Best-Paper-Writing-Skill",
+   "description": "[Writing] Claude / Codex skill for drafting abstracts, introductions, methods and experiments in the style of CVPR/ICCV/NeurIPS best papers, distilled from 60 award-winning papers.",
+   "homepage": "",
+   "stars": 287,
+   "forks": 17,
+   "contributors": 1,
+   "releaseDownloads": 0,
+   "license": "NOASSERTION",
+   "created": "2026-10-28",
+   "pushed": "2026-10-29",
+   "topics": [
+    "academic-writing",
+    "agent-skills",
+    "claude-skills",
+    "codex",
+    "cvpr",
+    "eccv",
+    "iccv",
+    "iclr",
+    "icml",
+    "nips",
+    "paper-writing"
+   ],
+   "alternativeTo": null,
+   "arm": null,
+   "famousPaid": null,
+   "devPro": 2,
+   "sources": [
+    "gittrend"
+   ],
+   "flags": [
+    "license:NOASSERTION"
+   ],
+   "score": -1.18
+  },
+  {
+   "repo": "cinderline/northcinder",
+   "url": "https://github.com/cinderline/northcinder",
+   "description": "Open-source MCP server for comparing products and asking the buyer before purchase.",
+   "homepage": null,
+   "stars": 1201,
+   "forks": 9,
+   "contributors": 1,
+   "releaseDownloads": 0,
+   "license": "MIT",
+   "created": "2026-08-17",
+   "pushed": "2026-08-22",
+   "topics": [
+    "agentic-commerce",
+    "human-in-the-loop",
+    "local-first",
+    "mcp",
+    "mcp-server",
+    "model-context-protocol",
+    "privacy",
+    "self-hosted",
+    "shopping-agent",
+    "typescript"
+   ],
+   "alternativeTo": null,
+   "arm": null,
+   "famousPaid": null,
+   "devPro": 4,
+   "sources": [
+    "gh-search"
+   ],
+   "flags": [
+    "stale"
+   ],
+   "score": -1.43
+  },
+  {
+   "repo": "XiaoyeCodes/code-animation-prompts",
+   "url": "https://github.com/XiaoyeCodes/code-animation-prompts",
+   "description": "341 \u79cd\u4ee3\u7801\u52a8\u753b\u98ce\u683c\u63d0\u793a\u8bcd\u3001196 \u5f20\u53c2\u8003\u9759\u5e27\u4e0e\u79bb\u7ebf\u6311\u9009\u5668\uff0c\u5c01\u88c5\u4e3a Claude Code / Codex Skill\uff0c\u652f\u6301\u4e00\u952e\u5bfc\u5165\u4e0e HTML \u89c6\u9891\u6e32\u67d3\u3002",
+   "homepage": null,
+   "stars": 737,
+   "forks": 176,
+   "contributors": 2,
+   "releaseDownloads": 0,
+   "license": "NOASSERTION",
+   "created": "2026-10-29",
+   "pushed": "2026-11-05",
+   "topics": [
+    "agent-skills",
+    "animation",
+    "claude-code",
+    "codex",
+    "creative-coding",
+    "prompts",
+    "video-generation"
+   ],
+   "alternativeTo": null,
+   "arm": null,
+   "famousPaid": null,
+   "devPro": 2,
+   "sources": [
+    "gittrend"
+   ],
+   "flags": [
+    "license:NOASSERTION",
+    "non-english"
+   ],
+   "score": -1.69
+  },
+  {
+   "repo": "xing653245/BJX-WeChat-Work-Hook",
+   "url": "https://github.com/xing653245/BJX-WeChat-Work-Hook",
+   "description": "\ud83d\ude80 \u4f01\u4e1a\u5fae\u4fe1\u673a\u5668\u4ebaHook \u6846\u67b6\uff1a\u652f\u6301\u6d88\u606f\u6536\u53d1\u3001\u7fa4\u7ba1\u7406\u3001\u81ea\u52a8\u5316\u4efb\u52a1\u3002\u7a33\u5b9a\u9002\u914d\u4f01\u5fae\u6700\u65b0\u7248\uff0c\u63d0\u4f9bHTTP API \u63a5\u53e3\uff0c\u52a9\u529b\u5feb\u901f\u4e8c\u6b21\u5f00\u53d1\u3002",
+   "homepage": "",
+   "stars": 320,
+   "forks": 0,
+   "contributors": 1,
+   "releaseDownloads": 282,
+   "license": null,
+   "created": "2026-01-14",
+   "pushed": "2026-10-27",
+   "topics": [
+    "automation",
+    "enterprise-wechat",
+    "hook-framework",
+    "wechat-robot",
+    "wechat-work"
+   ],
+   "alternativeTo": null,
+   "arm": null,
+   "famousPaid": null,
+   "devPro": 2,
+   "sources": [
+    "gittrend"
+   ],
+   "flags": [
+    "license:None",
+    "non-english"
+   ],
+   "score": -4.8
+  }
+ ]
+}
