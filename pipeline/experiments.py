@@ -68,6 +68,8 @@ def fetch_all(refresh):
             "views": views, "skip": m.get("reelsSkipRate"), "watch": round((m.get("igReelsAvgWatchTime") or 0) / 1000, 1),
             "ss100": round(100 * ((m.get("shares") or 0) + (m.get("saves") or 0)) / views, 1) if views else 0.0,
             "comments": m.get("comments") or 0,
+            "line": exp.get("line") or V.get("line") or "consumer",
+            "theme": exp.get("theme") or V.get("theme") or "paper",
         })
     CACHE.parent.mkdir(parents=True, exist_ok=True)
     CACHE.write_text(json.dumps(cache))
@@ -167,6 +169,18 @@ def main():
         best = max(T["arms"], key=lambda k: med([r["views"] for r in test if r["topic"] == k]) or 0)
         L.append(f"**Verdict: {best} leads.** {T['decide']}")
     L.append("")
+
+    # developer-first line (since the dev_line test starts): line, skin and dev-hook tables
+    for key, name in (("dev_line", "line"), ("visual_theme", "theme"), ("dev_hook", "hook")):
+        E = CFG["experiments"].get(key)
+        if not E or not E.get("started"):
+            continue
+        rs = [r for r in full if r["local"].date().isoformat() >= E["started"]]
+        if key != "dev_line":
+            rs = [r for r in rs if r["line"] == "dev"]
+        L += [f"## {key}: {E['question']}", ""] + table(rs, name, list(E["arms"])) + [""]
+        n = {k: sum(r[name] == k for r in rs) for k in E["arms"]}
+        L += [f"**Verdict: {'keep testing' if min(n.values() or [0]) < E['min_per_arm'] else 'decide now'}** ({n}; min {E['min_per_arm']} each). Rule: {E['decide']}", ""]
 
     L += ["## Posting window (test period)", ""] + table(test, "window", [w["id"] for w in CFG["windows"]]) + [""]
     if a.all or not test:

@@ -204,6 +204,20 @@ Look (paper theme, BRAND.md): warm off-white, charcoal type, tomato for money, K
 QA for story reels: frame 0 shows the hook line and the hook text big (not an empty frame); every beat's scene matches its line; Kit is
 never covering text; the price strip/numbers are correct; 22–35 s.
 
+### 3c. Developer line (`"line": "dev"`, story format with a skin): only when the plan or the user asks for it
+
+The dev line is a test (data/experiments.json → dev_line, visual_theme, dev_hook); the consumer rules in §2 (the
+developer-tool ban) don't apply to it. Details: PLAYBOOK.md §17, research in `labs/dev-line/RESEARCH.md`.
+- Picks: terminal tools, self-hosting / replace a paid dev tool (Vercel, Postman, Heroku…), local AI for devs, repo
+  stories. Still: ≥ 5 contributors, active, OSI licence, every claim from the README.
+- `"theme"`: crt | keynote | blueprint | paper (rotate; never two of the same skin on one day). Kit is off except on paper.
+- Open on a `terminal` beat already typing on frame 0 (result-first) or a `slam` with the money (money-leak), and
+  record which in `"hook_type"`.
+- Listicles: `rank` beat + one proof beat per item (terminal or app), re-hook before the last item, best item last,
+  `"thumb": {"kicker", "big", "line", "repo"}`; no `paid` needed.
+- Terminal `out` lines must be real or a faithful example of what the README says the tool shows (atuin: exit code, duration, time), or clearly a comment (`# that's the whole install`). Never invent speeds or numbers.
+- Examples: `labs/dev-line/t1-shell-*/video.json` (listicle), `labs/dev-line/t2-coolify-*/video.json` (hook A/B).
+
 ### Script rules (the voiceover is assembled from these fields)
 The final script is: `hook` + "It's called {name}." + the fixed GitHub line + the features (intro + say) + the no-list
 + the install line (built from `install` + `platforms`, see below) + "Comment {Keyword}, and I'll send you the link."

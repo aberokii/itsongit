@@ -42,3 +42,14 @@ data/logs/
 !studio/public/sfx/
 !studio/public/sfx/**
 data/experiments/analytics_cache.json
+
+# lab experiments: keep specs, notes and small hand-made stills; never the renders
+labs/**
+!labs/*/
+!labs/*/*/
+!labs/**/*.md
+!labs/*/*/video.json
+!labs/*/*/post.json
+!labs/*/*/script.txt
+!labs/*/*/assets/
+!labs/*/*/assets/*.png

@@ -1,0 +1,23 @@
+{
+  "title": "Coolify: self-host your own Vercel for free",
+  "video": "FINAL.mp4",
+  "thumbnail": "FINAL_thumbnail.png",
+  "repo_url": "https://github.com/coollabsio/coolify",
+  "keyword": "DEPLOY",
+  "caption": "Vercel Pro is $20/month per seat. Coolify gives you the same push-to-deploy flow on your own server, for free 🚀\n\n✅ git push → deploy, with pull-request previews\n✅ Automatic HTTPS and custom domains\n✅ Databases + 360+ one-click services\n✅ No lock-in: stop using Coolify and your apps keep running\n\n💻 Any server you can SSH into: a VPS, bare metal, even a Raspberry Pi\nℹ️ Coolify itself is free, but you pay for (or own) the server it runs on. There's also a paid Coolify Cloud if you don't want to host the dashboard yourself\n\nComment \"DEPLOY\" and I'll DM you the link 🔗\n\nFollow @itsongit for open-source finds that save developers money\n\n#selfhosted #devops #webdev #vercel #opensource #github #developer",
+  "dm_pitch": "Coolify, the free self-hosted alternative to Vercel 🚀",
+  "install": "curl -fsSL https://cdn.coollabs.io/coolify/install.sh | bash",
+  "dm_on_any_comment": true,
+  "follow_gate": true,
+  "slot": 1,
+  "price_source": "https://vercel.com/pricing",
+  "experiment": {
+    "format": "story",
+    "hook": "money-leak",
+    "topic": "dev",
+    "window": null,
+    "theme": "blueprint",
+    "line": "dev",
+    "dev_format": "replace-paid-dev-tool"
+  }
+}

@@ -375,3 +375,35 @@ SKILL.md §3b. It is A/B tested against the classic template (data/experiments.j
 **Next ideas if story wins:** an ElevenLabs voice (needs an `ELEVENLABS_API_KEY` secret; Kokoro is the weakest part
 of the stack), dropping to 1–2 reels a day with more polish each, and story topics beyond single repos
 ("5 free apps that replace your subscriptions", "why open source is eating Adobe").
+
+## 17. Developer-first line + visual skins (since 2026-11-08, ready to test)
+
+**Why.** The owner wants a second line aimed at developers (inspired by @dopaminedevs, which could not be read from the
+cloud session: Instagram needs a logged-in session). Earlier dev picks (opencode, hoppscotch) failed when framed as
+consumer "free alternative" ads; this line changes the framing, not just the topic. Research notes:
+`labs/dev-line/RESEARCH.md`.
+
+**What changed in the engine.**
+- `studio/src/themes.tsx`: pluggable skins for `Story.tsx`. `paper` (house style, control) plus three skins adapted
+  from Lemo-Opuscar style prompts (github.com/lemomo-ai/lemo-opuscar, MIT; palettes/techniques only):
+  `crt` (amber phosphor terminal, VT323, scanlines, bloom), `keynote` (near-black, 48px hairline grid, one accent,
+  Inter Tight numbers), `blueprint` (white line work on mottled Prussian blue, drafting frame, B612 numbers).
+- Two new scenes: `terminal` (a command typed live; on beat 1 frame 0 is already mid-typing, so the opener moves and
+  is instantly recognisable; output lines colour-coded `+ ✓` green, `- ✗` red, `#` muted, `> →` accent) and `rank`
+  (numbered listicle card "01 / 03", repo name, a star count whose digits lock one by one).
+- `studio/src/DevThumb.tsx`: a themed cover (kicker, 2–4 word promise, line, repo pill).
+- Fonts are self-hosted in `studio/public/fonts` (`src/fonts.ts`), so renders no longer depend on fonts.gstatic.com.
+
+**video.json fields for the dev line** (format `story`): `"line": "dev"`, `"theme"`, `"dev_format"`
+(listicle | replace-paid-dev-tool | one-command | before-after), `"hook_type"`, optional `"mascot"`, `"paid"` is
+optional (listicles have none), `"thumb": {"kicker", "big", "line", "repo"}`. Terminal beats: `cmd`, `out[]`,
+optional `text` chip. Rank beats: `n`, `total`, `text`, `sub`, `stars`.
+
+**Dev script rules (from the research).** Evidence over polish: show the real command, real flags, real pane names.
+Specific beats vague ("in a few keystrokes", "360+ services"). Every claim from the README. Say the honest catch in
+the caption (you still pay for the server). No hype words; "feels illegal" is saturated, don't use it as a headline.
+Re-hook every ~3 beats ("But save the best for last"). The best item goes last in listicles.
+
+**Tests queued** (`data/experiments.json`): `dev_line` (dev vs consumer), `visual_theme` (paper vs crt vs keynote vs
+blueprint, same script + voice), `dev_hook` (money-leak vs result-first). Set each test's `"started"` date when the
+first reel posts; `pipeline/experiments.py` then adds its table to the report.

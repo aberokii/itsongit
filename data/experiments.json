@@ -78,6 +78,61 @@
    "min_per_arm": 10,
    "decide": "After 10 per arm, give the best arm 2 of the 3 daily reels; keep 1 rotating so the others keep being measured.",
    "banned": "developer, academic and pro-only tools (the 'niche' baseline group: median views far below the rest)"
+  },
+  "dev_line": {
+   "started": null,
+   "status": "ready (labs/dev-line has the first 5 builds; not posted yet)",
+   "question": "Does a developer-first line (terminal tools, self-hosting, AI coding repos) earn more views/follows per reel than the consumer 'free alternative' line?",
+   "arms": {
+    "consumer": "current story/classic reels: famous paid consumer app -> free repo",
+    "dev": "developer-first story reels: video.json \"line\": \"dev\" (listicle, replace-paid-dev-tool, one-command, before/after)"
+   },
+   "primary": "views",
+   "secondary": [
+    "skip_rate",
+    "shares_saves_per_100",
+    "follows",
+    "comments_per_100"
+   ],
+   "min_per_arm": 10,
+   "decide": "dev wins if its median views are within 20% of consumer AND shares+saves/100 or follows/100 are higher (devs save and share tools): then 1 of 3 daily slots becomes dev. Dev loses if median views < 60% of consumer after 10.",
+   "note": "Baseline warning: earlier dev picks (opencode, hoppscotch) posted as consumer-style reels landed in the 'niche' group. This test changes the framing (dev hooks, dev visuals), not just the topic."
+  },
+  "visual_theme": {
+   "started": null,
+   "status": "ready (labs/dev-line/t1-shell-{crt,keynote,paper}: same script + same voice, 3 skins)",
+   "question": "Inside the dev line, which skin holds attention best: Lemo-Opuscar 'crt' terminal, 'keynote' dark launch, 'blueprint' drawing, or our 'paper' + Kit?",
+   "arms": {
+    "paper": "house style + Kit (control)",
+    "crt": "amber CRT terminal (ascii-crt)",
+    "keynote": "dark keynote, one accent (dark-keynote)",
+    "blueprint": "white line work on blue (blueprint)"
+   },
+   "primary": "skip_rate",
+   "secondary": [
+    "avg_watch_s",
+    "views"
+   ],
+   "min_per_arm": 6,
+   "decide": "A skin wins if its median skip rate is 5+ points below paper's and its median watch time is not lower. Rotate skins across dev reels, never two of the same skin on one day.",
+   "how": "video.json \"theme\": paper|crt|keynote|blueprint (studio/src/themes.tsx). Kit is on for paper, off for the others unless \"mascot\": true."
+  },
+  "dev_hook": {
+   "started": null,
+   "status": "ready (labs/dev-line/t2-coolify-{money,result}: same body, different first 2 beats)",
+   "question": "For developer reels, does a money-leak hook beat a result-first 'one command' hook?",
+   "arms": {
+    "money-leak": "\"You're paying Vercel twenty dollars a month...\" (price slam on frame 0)",
+    "result-first": "\"This one command turns any server into your own Vercel\" (live typed terminal on frame 0)"
+   },
+   "primary": "skip_rate",
+   "secondary": [
+    "avg_watch_s",
+    "views"
+   ],
+   "min_per_arm": 8,
+   "decide": "result-first wins with 5+ points lower median skip; then live-terminal openers become the dev default.",
+   "how": "video.json \"hook_type\" is stamped into post.json experiment.hook"
   }
  },
  "baseline_topic": {
@@ -147,5 +202,23 @@
   "063": "niche",
   "064": "niche"
  },
- "windows_note": "Analysed by real Berlin posting time. The old slot numbers only picked the accent colour (times were already randomised)."
+ "windows_note": "Analysed by real Berlin posting time. The old slot numbers only picked the accent colour (times were already randomised).",
+ "ideas_next": [
+  {
+   "name": "withheld-payoff hook (consumer line)",
+   "from": "claude-content-skills: going-viral / virality",
+   "idea": "Hooks currently reveal 'price -> $0' in the first second, closing the loop. Test a hook that names the pain and the result but withholds the app until ~5-7 s ('I cancelled a $144/yr subscription last week. What replaced it costs nothing.'), against the current money-leak opener. Primary: avg watch time.",
+   "why": "avg watch is 5-7 s of 25-40 s; the skills put the first retention cliff right after the loop closes"
+  },
+  {
+   "name": "live-typed hook text on frame 0 (consumer line)",
+   "from": "virality skill: same line 522 views as a static card vs 35,834 typed live in the real app",
+   "idea": "Type the hook line into a search bar / app UI on frame 0 instead of slamming it as a static word block."
+  },
+  {
+   "name": "living-screencast skin for AI coding agents",
+   "from": "lemo-opuscar living-screencast",
+   "idea": "Redrawn UI (terminal/diff/PR) with a pixel mascot acting out the agent's work; fits Claude Code / opencode / aider reels."
+  }
+ ]
 }

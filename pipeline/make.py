@@ -156,7 +156,8 @@ def voice_and_align(V, vdir, pub, work, sections, skip_tts):
     return toks, times, words
 
 
-STORY_SCENES = {"slam", "counter", "app", "versus", "list", "character", "cta"}
+STORY_SCENES = {"slam", "counter", "app", "versus", "list", "character", "cta", "terminal", "rank"}
+THEMES = {"paper", "crt", "keynote", "blueprint"}
 
 
 def make_story(V, vdir, slot, pub, pub_rel, work, a):
@@ -169,6 +170,11 @@ def make_story(V, vdir, slot, pub, pub_rel, work, a):
             sys.exit(f"beat {i}: scene must be one of {sorted(STORY_SCENES)}")
     if beats_in[-1]["scene"] != "cta" or norm(V["keyword"]) not in [norm(w) for w in beats_in[-1]["say"].split()]:
         sys.exit("the last beat must be scene 'cta' and say the keyword (\"Comment Mix, and I'll send you the link.\")")
+    theme = V.get("theme", "paper")
+    if theme not in THEMES:
+        sys.exit(f"theme must be one of {sorted(THEMES)}")
+    paid = V.get("paid") or {}
+    V.setdefault("paid", {"name": paid.get("name", "GitHub")})  # dev listicles may have no paid tool
     sections = [(f"b{i}", bt["say"]) for i, bt in enumerate(beats_in)]
     toks, times, words = voice_and_align(V, vdir, pub, work, sections, a.skip_tts)
     print(f"[{slug}] story: {len(toks)} words, {len(beats_in)} beats")
@@ -198,10 +204,12 @@ def make_story(V, vdir, slot, pub, pub_rel, work, a):
         if bt.get("items"):
             b["items"] = [{"label": it["label"], "at": anchor(i, it["anchor"])} for it in bt["items"][:3]]
         if bt["scene"] == "versus":
-            b.setdefault("paid", V["paid"]["name"]); b.setdefault("price", price_short(V)); b.setdefault("name", V["name"])
+            b.setdefault("paid", paid["name"]); b.setdefault("price", price_short(V)); b.setdefault("name", V["name"])
         beats.append(b)
     props = {"accent": slot, "dir": pub_rel, "words": words, "beats": beats, "keyword": V["keyword"], "end": end, "icon": "icon.png",
-             "name": V["name"], "paid": V["paid"]["name"]}
+             "name": V["name"], "paid": paid.get("name"), "theme": theme}
+    if "mascot" in V:
+        props["mascot"] = bool(V["mascot"])
     (work / "props.json").write_text(json.dumps(props))
     raw = work / "reel_raw.mp4"
     run(["npx", "remotion", "render", "src/index.ts", "story", raw, f"--props={work / 'props.json'}", "--codec=h264", "--crf=18",
@@ -210,17 +218,22 @@ def make_story(V, vdir, slot, pub, pub_rel, work, a):
     run(["ffmpeg", "-v", "error", "-y", "-i", raw, "-c:v", "copy", "-af", "loudnorm=I=-14:TP=-1.5:LRA=11", "-c:a", "aac",
          "-b:a", "320k", "-ar", "48000", "-movflags", "+faststart", final])
     th = V["thumb"]
-    tprops = {"accent": slot, "icon": f"{pub_rel}/icon.png", "paid": V["paid"]["name"], "price": price_short(V),
-              "big": th.get("big", "FREE"), "line1": th["line1"], "line2": th["line2"], "repo": V["repo"], "job": V.get("job", "")}
+    if theme != "paper" or not paid.get("price"):  # developer line: a themed cover (studio/src/DevThumb.tsx)
+        tprops, still = {"theme": theme, "accent": slot, "kicker": th["kicker"], "big": th["big"], "line": th["line"], "repo": th.get("repo", V["repo"])}, "devthumb"
+    else:
+        tprops = {"accent": slot, "icon": f"{pub_rel}/icon.png", "paid": V["paid"]["name"], "price": price_short(V),
+                  "big": th.get("big", "FREE"), "line1": th["line1"], "line2": th["line2"], "repo": V["repo"], "job": V.get("job", "")}
+        still = "thumb"
     (work / "thumb.json").write_text(json.dumps(tprops))
-    run(["npx", "remotion", "still", "src/index.ts", "thumb", vdir / "FINAL_thumbnail.png", f"--props={work / 'thumb.json'}"], cwd=ROOT / "studio")
+    run(["npx", "remotion", "still", "src/index.ts", still, vdir / "FINAL_thumbnail.png", f"--props={work / 'thumb.json'}"], cwd=ROOT / "studio")
     post_path = vdir / "post.json"
     post = json.loads(post_path.read_text()) if post_path.exists() else {}
     post.update({"title": V["title"], "video": "FINAL.mp4", "thumbnail": "FINAL_thumbnail.png",
                  "repo_url": f"https://github.com/{V['repo']}", "keyword": V["keyword"].upper(), "caption": V["caption"],
                  "dm_pitch": V["dm_pitch"], "install": V["install"], "dm_on_any_comment": True, "follow_gate": True, "slot": slot,
-                 "price_source": V["paid"].get("source"),
-                 "experiment": {"format": "story", "hook": "story", "topic": V.get("topic_arm"), "window": V.get("window")}})
+                 "price_source": paid.get("source"),
+                 "experiment": {"format": "story", "hook": V.get("hook_type", "story"), "topic": V.get("topic_arm"), "window": V.get("window"),
+                                "theme": theme, "line": V.get("line", "consumer"), "dev_format": V.get("dev_format")}})
     post_path.write_text(json.dumps(post, indent=2, ensure_ascii=False))
     ver = vdir / "verify"
     ts = [0.0] + [min(b["end"] - 0.05, b["start"] + 0.9) for b in beats[1:]] + [end - 0.3]

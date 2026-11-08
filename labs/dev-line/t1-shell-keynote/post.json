@@ -1,0 +1,23 @@
+{
+  "title": "3 free terminal tools: zoxide, Atuin, lazygit",
+  "video": "FINAL.mp4",
+  "thumbnail": "FINAL_thumbnail.png",
+  "repo_url": "https://github.com/ajeetdsouza/zoxide",
+  "keyword": "SHELL",
+  "caption": "3 free terminal tools I'd install on day one 🖥️\n\n① zoxide: a smarter cd that remembers the folders you use most (z api → ~/code/clients/acme/api)\n② Atuin: your shell history in a searchable SQLite database, with exit code, duration and time for every command\n③ lazygit: a terminal UI for git. Stage single lines, cherry-pick and rebase without the arcane commands\n\nAll three are open source. brew install zoxide atuin lazygit\n\nComment \"SHELL\" and I'll DM you all three links 🔗\n\nFollow @itsongit for open-source finds that make your day faster\n\n#terminal #cli #developer #opensource #github #git #programming",
+  "dm_pitch": "zoxide, Atuin and lazygit: 3 free terminal tools 🖥️",
+  "install": "brew install zoxide atuin lazygit",
+  "dm_on_any_comment": true,
+  "follow_gate": true,
+  "slot": 2,
+  "price_source": null,
+  "experiment": {
+    "format": "story",
+    "hook": "callout",
+    "topic": "dev",
+    "window": null,
+    "theme": "keynote",
+    "line": "dev",
+    "dev_format": "listicle"
+  }
+}

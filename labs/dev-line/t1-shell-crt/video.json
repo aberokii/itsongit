@@ -1,0 +1,116 @@
+{
+ "repo": "ajeetdsouza/zoxide",
+ "name": "3 terminal tools",
+ "title": "3 free terminal tools: zoxide, Atuin, lazygit",
+ "line": "dev",
+ "dev_format": "listicle",
+ "hook_type": "callout",
+ "topic_arm": "dev",
+ "format": "story",
+ "slot": 0,
+ "keyword": "SHELL",
+ "icon": "assets/icon.png",
+ "install": "brew install zoxide atuin lazygit",
+ "caption": "3 free terminal tools I'd install on day one 🖥️\n\n① zoxide: a smarter cd that remembers the folders you use most (z api → ~/code/clients/acme/api)\n② Atuin: your shell history in a searchable SQLite database, with exit code, duration and time for every command\n③ lazygit: a terminal UI for git. Stage single lines, cherry-pick and rebase without the arcane commands\n\nAll three are open source. brew install zoxide atuin lazygit\n\nComment \"SHELL\" and I'll DM you all three links 🔗\n\nFollow @itsongit for open-source finds that make your day faster\n\n#terminal #cli #developer #opensource #github #git #programming",
+ "dm_pitch": "zoxide, Atuin and lazygit: 3 free terminal tools 🖥️",
+ "thumb": {
+  "kicker": "// 03 terminal tools",
+  "big": "Install these tonight",
+  "line": "if you live in the terminal",
+  "repo": "zoxide · atuin · lazygit"
+ },
+ "beats": [
+  {
+   "say": "If you live in the terminal, install these three tonight.",
+   "scene": "terminal",
+   "cmd": "cd ~/code/clients/acme/api/src",
+   "out": [
+    "# every. single. day."
+   ],
+   "accent": "three",
+   "select": "terminal",
+   "mood": "smug"
+  },
+  {
+   "say": "Number one. Zoxide.",
+   "scene": "rank",
+   "n": 1,
+   "total": 3,
+   "text": "zoxide",
+   "sub": "a smarter cd",
+   "stars": 40504,
+   "mood": "excited"
+  },
+  {
+   "say": "It remembers the folders you use most, so you jump there in a few keystrokes.",
+   "scene": "terminal",
+   "cmd": "z api",
+   "out": [
+    "→ ~/code/clients/acme/api"
+   ],
+   "text": "2 keystrokes",
+   "select": "remembers",
+   "mood": "point"
+  },
+  {
+   "say": "Number two. Atuin.",
+   "scene": "rank",
+   "n": 2,
+   "total": 3,
+   "text": "Atuin",
+   "sub": "shell history you can search",
+   "stars": 32234,
+   "mood": "excited"
+  },
+  {
+   "say": "Every command goes into a database, with its exit code, how long it took, and when you ran it.",
+   "scene": "terminal",
+   "cmd": "atuin search --exit 0 --after \"yesterday 3pm\" make",
+   "out": [
+    "✓ make build    0   2s   yesterday 4:12pm",
+    "✓ make test     0  14s   yesterday 5:40pm",
+    "✓ make deploy   0  31s   today 9:03am"
+   ],
+   "accent": "database",
+   "mood": "point"
+  },
+  {
+   "say": "But save the best for last.",
+   "scene": "slam",
+   "text": "Best one last",
+   "accent": "last",
+   "mood": "smug"
+  },
+  {
+   "say": "Number three. Lazygit.",
+   "scene": "rank",
+   "n": 3,
+   "total": 3,
+   "text": "lazygit",
+   "sub": "git, in a terminal UI",
+   "stars": 83729,
+   "mood": "excited"
+  },
+  {
+   "say": "Stage single lines, cherry pick and rebase, without memorising a single git command.",
+   "scene": "terminal",
+   "cmd": "lazygit",
+   "out": [
+    "[1] Status  [2] Files",
+    "[3] Branches  [4] Commits",
+    "> space  stage hunk",
+    "> a      single lines",
+    "> c      commit"
+   ],
+   "select": "single",
+   "accent": "without",
+   "mood": "excited"
+  },
+  {
+   "say": "Comment Shell, and I'll send you all three.",
+   "scene": "cta",
+   "mood": "excited"
+  }
+ ],
+ "theme": "crt"
+}

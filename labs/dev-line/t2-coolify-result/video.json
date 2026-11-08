@@ -1,0 +1,97 @@
+{
+ "repo": "coollabsio/coolify",
+ "name": "Coolify",
+ "title": "Coolify: self-host your own Vercel for free",
+ "line": "dev",
+ "dev_format": "replace-paid-dev-tool",
+ "topic_arm": "dev",
+ "format": "story",
+ "theme": "blueprint",
+ "slot": 1,
+ "keyword": "DEPLOY",
+ "paid": {
+  "name": "Vercel Pro",
+  "price": "$20",
+  "per": "/month",
+  "anchor": "twenty",
+  "source": "https://vercel.com/pricing"
+ },
+ "icon": "assets/icon.png",
+ "job": "Your own Vercel, on your server",
+ "install": "curl -fsSL https://cdn.coollabs.io/coolify/install.sh | bash",
+ "install_url": "https://coolify.io",
+ "caption": "Vercel Pro is $20/month per seat. Coolify gives you the same push-to-deploy flow on your own server, for free 🚀\n\n✅ git push → deploy, with pull-request previews\n✅ Automatic HTTPS and custom domains\n✅ Databases + 360+ one-click services\n✅ No lock-in: stop using Coolify and your apps keep running\n\n💻 Any server you can SSH into: a VPS, bare metal, even a Raspberry Pi\nℹ️ Coolify itself is free, but you pay for (or own) the server it runs on. There's also a paid Coolify Cloud if you don't want to host the dashboard yourself\n\nComment \"DEPLOY\" and I'll DM you the link 🔗\n\nFollow @itsongit for open-source finds that save developers money\n\n#selfhosted #devops #webdev #vercel #opensource #github #developer",
+ "dm_pitch": "Coolify, the free self-hosted alternative to Vercel 🚀",
+ "thumb": {
+  "kicker": "// vercel pro → $0",
+  "big": "Your own Vercel",
+  "line": "free, on any server you own",
+  "repo": "coollabsio/coolify"
+ },
+ "hook_type": "result-first",
+ "beats": [
+  {
+   "say": "This one command turns any server you own into your own Vercel.",
+   "scene": "terminal",
+   "cmd": "curl -fsSL https://cdn.coollabs.io/coolify/install.sh | bash",
+   "out": [
+    "# that's the whole install"
+   ],
+   "accent": "Vercel",
+   "select": "command"
+  },
+  {
+   "say": "It's called Coolify. Free, open source, and it runs on your hardware.",
+   "scene": "slam",
+   "text": "Coolify",
+   "sub": "free · open source · self-hosted",
+   "select": "free"
+  },
+  {
+   "say": "Vercel Pro is twenty dollars a month per seat. Coolify costs nothing.",
+   "scene": "versus",
+   "accent": "nothing"
+  },
+  {
+   "say": "Push to Git and it deploys. Pull requests get previews. And HTTPS is automatic.",
+   "scene": "list",
+   "text": "",
+   "items": [
+    {
+     "label": "git push → deploy",
+     "anchor": "push"
+    },
+    {
+     "label": "PR previews",
+     "anchor": "previews"
+    },
+    {
+     "label": "auto HTTPS",
+     "anchor": "https"
+    }
+   ],
+   "select": "deploys"
+  },
+  {
+   "say": "It runs your databases too, plus more than three hundred and sixty one click services.",
+   "scene": "counter",
+   "from": 0,
+   "to": 360,
+   "suffix": "+",
+   "label": "one-click services",
+   "tone": "accent",
+   "accent": "databases"
+  },
+  {
+   "say": "And if you ever stop using it, your apps keep running.",
+   "scene": "slam",
+   "text": "No lock-in",
+   "accent": "lock-in",
+   "select": "running"
+  },
+  {
+   "say": "Comment Deploy, and I'll send you the link.",
+   "scene": "cta"
+  }
+ ]
+}

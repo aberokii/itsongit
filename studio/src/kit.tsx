@@ -1,15 +1,13 @@
 import React, {createContext, useContext} from "react";
 import {AbsoluteFill, Img, interpolate, Sequence, spring, staticFile, useCurrentFrame, useVideoConfig} from "remotion";
 import {Audio, Video} from "@remotion/media";
-import {loadFont as loadInter} from "@remotion/google-fonts/Inter";
-import {loadFont as loadMono} from "@remotion/google-fonts/JetBrainsMono";
-import {loadFont as loadSerif} from "@remotion/google-fonts/InstrumentSerif";
+import {localFont} from "./fonts";
 import {accentFor, C, rgba, SAFE, type Accent} from "./brand";
 
 export {C, SAFE, rgba};
-export const {fontFamily: INTER} = loadInter("normal", {weights: ["600", "800", "900"], subsets: ["latin"]});
-export const {fontFamily: MONO} = loadMono("normal", {weights: ["700"], subsets: ["latin"]});
-export const {fontFamily: SERIF} = loadSerif("italic", {weights: ["400"], subsets: ["latin"]});
+export const INTER = localFont("Inter");
+export const MONO = localFont("JetBrains Mono");
+export const SERIF = localFont("Instrument Serif");
 
 export const AccentCtx = createContext<Accent>(accentFor(0));
 export const useAccent = () => useContext(AccentCtx);

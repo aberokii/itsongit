@@ -1,0 +1,74 @@
+[
+ {
+  "family": "Inter",
+  "style": "normal",
+  "weight": "600",
+  "file": "Inter-600.woff2"
+ },
+ {
+  "family": "Inter",
+  "style": "normal",
+  "weight": "700",
+  "file": "Inter-700.woff2"
+ },
+ {
+  "family": "Inter",
+  "style": "normal",
+  "weight": "800",
+  "file": "Inter-800.woff2"
+ },
+ {
+  "family": "Inter",
+  "style": "normal",
+  "weight": "900",
+  "file": "Inter-900.woff2"
+ },
+ {
+  "family": "JetBrains Mono",
+  "style": "normal",
+  "weight": "700",
+  "file": "JetBrainsMono-700.woff2"
+ },
+ {
+  "family": "Instrument Serif",
+  "style": "italic",
+  "weight": "400",
+  "file": "InstrumentSerif-400i.woff2"
+ },
+ {
+  "family": "VT323",
+  "style": "normal",
+  "weight": "400",
+  "file": "VT323-400.woff2"
+ },
+ {
+  "family": "Inter Tight",
+  "style": "normal",
+  "weight": "600",
+  "file": "InterTight-600.woff2"
+ },
+ {
+  "family": "Inter Tight",
+  "style": "normal",
+  "weight": "800",
+  "file": "InterTight-800.woff2"
+ },
+ {
+  "family": "Inter Tight",
+  "style": "normal",
+  "weight": "900",
+  "file": "InterTight-900.woff2"
+ },
+ {
+  "family": "Architects Daughter",
+  "style": "normal",
+  "weight": "400",
+  "file": "ArchitectsDaughter-400.woff2"
+ },
+ {
+  "family": "B612 Mono",
+  "style": "normal",
+  "weight": "700",
+  "file": "B612Mono-700.woff2"
+ }
+]

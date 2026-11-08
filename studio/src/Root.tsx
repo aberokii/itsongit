@@ -8,6 +8,7 @@ import {LogoIG, LogoRound} from "./Logo";
 import {Reel, type ReelProps} from "./Reel";
 import reelDefaults from "./reel-default-props.json";
 import {Story, type StoryProps} from "./Story";
+import {DevThumb, type DevThumbProps} from "./DevThumb";
 
 const storyDefaults: StoryProps = {accent: 0, dir: "reels/demo", words: [], keyword: "MIX", end: 3,
   beats: [{start: 0, end: 3, scene: "slam", text: "Hello", mood: "excited"}]};
@@ -39,6 +40,7 @@ export const RemotionRoot: React.FC = () => (
   />
   <Still id="logo-round" component={LogoRound} defaultProps={{accent: 0}} width={1024} height={1024} />
   <Still id="logo-ig" component={LogoIG} defaultProps={{accent: 0}} width={1080} height={1080} />
+  <Still id="devthumb" component={DevThumb} defaultProps={{theme: "crt", accent: 0, kicker: "// 03 terminal tools", big: "Stop typing cd", line: "3 free tools that fix your terminal", repo: "ajeetdsouza/zoxide"} as DevThumbProps} width={1080} height={1920} />
   <Still id="thumb" component={Thumbnail} defaultProps={thumb001} width={1080} height={1920} />
   <Composition
     id="v001-puremac"
