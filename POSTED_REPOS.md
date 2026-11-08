@@ -85,6 +85,8 @@ The scout (`pipeline/scout.py`) skips these automatically via `data/posted.json`
 | 78 | [mltframework/shotcut](https://github.com/mltframework/shotcut) | 079-shotcut | VIDEO | published | 2026-11-05T20:14 | https://www.instagram.com/reel/DfX3T6dif23/ |
 | 79 | [saber-notes/saber](https://github.com/saber-notes/saber) | 080-saber | NOTES | published | 2026-11-06T18:24 | https://www.instagram.com/reel/DfaPg9nDUHn/ |
 | 80 | [qarmin/czkawka](https://github.com/qarmin/czkawka) | 081-krokiet | SPACE | published | 2026-11-06T21:19 | https://www.instagram.com/reel/DfajlyZCSM7/ |
-| 81 | [AppFlowy-IO/AppFlowy](https://github.com/AppFlowy-IO/AppFlowy) | 082-appflowy | FLOW | scheduled | 2026-11-07T11:46 |  |
-| 82 | [proginosko/LeechBlockNG](https://github.com/proginosko/LeechBlockNG) | 083-leechblock | FOCUS | scheduled | 2026-11-07T18:48 |  |
-| 83 | [obsproject/obs-studio](https://github.com/obsproject/obs-studio) | 084-obs | STREAM | scheduled | 2026-11-07T21:48 |  |
+| 81 | [AppFlowy-IO/AppFlowy](https://github.com/AppFlowy-IO/AppFlowy) | 082-appflowy | FLOW | published | 2026-11-07T11:47 | https://www.instagram.com/reel/DfcG499AqnU/ |
+| 82 | [proginosko/LeechBlockNG](https://github.com/proginosko/LeechBlockNG) | 083-leechblock | FOCUS | published | 2026-11-07T18:49 | https://www.instagram.com/reel/Dfc3O06D2_r/ |
+| 83 | [obsproject/obs-studio](https://github.com/obsproject/obs-studio) | 084-obs | STREAM | published | 2026-11-07T21:49 | https://www.instagram.com/reel/DfdLxHnHJR4/ |
+| 84 | [blender/blender](https://github.com/blender/blender) | 085-blender | RENDER | scheduled | 2026-11-08T17:53 |  |
+| 85 | [syncthing/syncthing](https://github.com/syncthing/syncthing) | 086-syncthing | SYNC | scheduled | 2026-11-08T21:02 |  |

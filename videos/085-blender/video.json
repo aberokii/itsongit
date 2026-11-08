@@ -1,0 +1,103 @@
+{
+  "repo": "blender/blender",
+  "name": "Blender",
+  "title": "Blender: free Cinema 4D alternative",
+  "slot": 1,
+  "keyword": "RENDER",
+  "topic_arm": "hobby",
+  "paid": {
+    "name": "Cinema 4D",
+    "price": "$839",
+    "per": "/year",
+    "anchor": "eight",
+    "source": "https://www.maxon.net/en/buy"
+  },
+  "icon": "https://github.com/blender.png?size=512",
+  "job": "Makes 3D art and animation",
+  "platforms": [
+    "Windows",
+    "Mac",
+    "Linux"
+  ],
+  "demo": {
+    "images": [
+      "https://www.blender.org/wp-content/uploads/2019/07/sculpt01.jpg",
+      "https://www.blender.org/wp-content/uploads/2017/11/ghost_driver_lukas_walzer.jpg"
+    ]
+  },
+  "install": "brew install --cask blender",
+  "install_url": "https://www.blender.org/download/",
+  "caption": "Cinema 4D charges $839/year. Blender does 3D art and animation for free 🎨\n\n✅ Sculpt models with 20 brush types\n✅ Render realistic images with Cycles, on your CPU or graphics card\n✅ UV unwrap and texture right inside the app\n✅ No subscription, no watermark, 100% free\n\n💻 Windows · Mac · Linux\nℹ️ Rendering is much faster with a supported graphics card (NVIDIA, AMD, Intel or Apple); on a CPU alone it works but is slower. Cinema 4D's $839/year is the annual-billed plan; it's $109/month if you pay monthly\n\nComment \"RENDER\" and I'll DM you the link 🔗\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #blender #3d #animation #3dmodeling #freeapps #techtips",
+  "dm_pitch": "Blender, the free open-source Cinema 4D alternative 🎨",
+  "thumb": {
+    "big": "FREE",
+    "line1": "Cinema 4D",
+    "line2": "alternative"
+  },
+  "format": "story",
+  "beats": [
+    {
+      "say": "Cinema 4D: eight hundred and thirty nine dollars a year for 3D art. Blender: zero.",
+      "scene": "slam",
+      "text": "$839 a year",
+      "sub": "Blender: $0",
+      "tone": "neg",
+      "accent": "zero",
+      "mood": "shock"
+    },
+    {
+      "say": "Wait. Zero dollars? For real?",
+      "scene": "character",
+      "text": "Wait… zero?! 😳",
+      "mood": "shock",
+      "select": "real"
+    },
+    {
+      "say": "Cinema 4D bills you every year. Blender costs nothing, forever.",
+      "scene": "versus",
+      "mood": "point",
+      "select": "forever"
+    },
+    {
+      "say": "You sculpt a model like clay, with twenty different brushes.",
+      "scene": "app",
+      "image": "https://www.blender.org/wp-content/uploads/2019/07/sculpt01.jpg",
+      "text": "20 sculpt brushes",
+      "mood": "excited",
+      "accent": "clay",
+      "select": "brushes"
+    },
+    {
+      "say": "And it gets better.",
+      "scene": "character",
+      "text": "It gets better 👀",
+      "mood": "smug"
+    },
+    {
+      "say": "Unwrap it, paint right on the model, then render it with your graphics card.",
+      "scene": "app",
+      "image": "https://www.blender.org/wp-content/uploads/2017/11/ghost_driver_lukas_walzer.jpg",
+      "text": "GPU rendering",
+      "mood": "excited",
+      "select": "render"
+    },
+    {
+      "say": "It's Cinema 4D, minus the yearly bill.",
+      "scene": "slam",
+      "text": "Stop paying",
+      "accent": "minus",
+      "mood": "smug"
+    },
+    {
+      "say": "Comment Render, and I'll send you the link.",
+      "scene": "cta",
+      "mood": "point"
+    }
+  ],
+  "hook_style": "story",
+  "window": "evening",
+  "publish": {
+    "date": "2026-11-08",
+    "time": "18:53"
+  }
+}

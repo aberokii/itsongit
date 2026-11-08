@@ -1,0 +1,29 @@
+{
+  "title": "Blender: free Cinema 4D alternative",
+  "video": "FINAL.mp4",
+  "thumbnail": "FINAL_thumbnail.png",
+  "repo_url": "https://github.com/blender/blender",
+  "keyword": "RENDER",
+  "caption": "Cinema 4D charges $839/year. Blender does 3D art and animation for free \ud83c\udfa8\n\n\u2705 Sculpt models with 20 brush types\n\u2705 Render realistic images with Cycles, on your CPU or graphics card\n\u2705 UV unwrap and texture right inside the app\n\u2705 No subscription, no watermark, 100% free\n\n\ud83d\udcbb Windows \u00b7 Mac \u00b7 Linux\n\u2139\ufe0f Rendering is much faster with a supported graphics card (NVIDIA, AMD, Intel or Apple); on a CPU alone it works but is slower. Cinema 4D's $839/year is the annual-billed plan; it's $109/month if you pay monthly\n\nComment \"RENDER\" and I'll DM you the link \ud83d\udd17\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #blender #3d #animation #3dmodeling #freeapps #techtips",
+  "dm_pitch": "Blender, the free open-source Cinema 4D alternative \ud83c\udfa8",
+  "install": "brew install --cask blender",
+  "dm_on_any_comment": true,
+  "follow_gate": true,
+  "slot": 1,
+  "price_source": "https://www.maxon.net/en/buy",
+  "experiment": {
+    "format": "story",
+    "hook": "story",
+    "topic": "hobby",
+    "window": "evening"
+  },
+  "idempotencyKey": "0e10eec9-977d-435a-a5bc-44a3d3a8a23a",
+  "zernio": {
+    "postId": "6af0601d5823b877f4d0776b",
+    "status": "scheduled",
+    "scheduledFor": "2026-11-08T17:53:00.000Z",
+    "url": null,
+    "automationId": "6af0601e5186097aa89b4bff",
+    "slot": 1
+  }
+}

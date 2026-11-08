@@ -1,0 +1,108 @@
+{
+  "repo": "syncthing/syncthing",
+  "name": "Syncthing",
+  "title": "Syncthing: free Dropbox alternative",
+  "slot": 2,
+  "keyword": "SYNC",
+  "paid": {
+    "name": "Dropbox Plus",
+    "price": "$9.99",
+    "per": "/month",
+    "anchor": "ten",
+    "source": "https://www.dropbox.com/plans"
+  },
+  "icon": "https://raw.githubusercontent.com/syncthing/syncthing/main/assets/logo-512.png",
+  "hook": "Dropbox charges you ten bucks a month to sync your files. This app does it for free.",
+  "job": "Syncs files across devices",
+  "platforms": [
+    "Windows",
+    "Mac",
+    "Linux"
+  ],
+  "features": [
+    {
+      "say": "Pick a folder, link another device, and changes show up on both.",
+      "images": [
+        "assets/devices.png"
+      ],
+      "chips": [
+        {
+          "label": "📁 Any folder",
+          "anchor": "folder"
+        },
+        {
+          "label": "🔗 Both devices",
+          "anchor": "both"
+        }
+      ]
+    },
+    {
+      "say": "Photos, music, work documents, all kept in step, with live progress.",
+      "images": [
+        "assets/folders.png"
+      ],
+      "chips": [
+        {
+          "label": "🖼 Photos",
+          "anchor": "photos"
+        },
+        {
+          "label": "🎵 Music",
+          "anchor": "music"
+        },
+        {
+          "label": "📄 Documents",
+          "anchor": "documents"
+        }
+      ]
+    },
+    {
+      "say": "It's encrypted in transit, and nothing goes to a cloud.",
+      "images": [
+        "https://docs.syncthing.net/_images/gs5.png"
+      ],
+      "chips": [
+        {
+          "label": "🔒 Encrypted",
+          "anchor": "encrypted"
+        }
+      ]
+    }
+  ],
+  "nolist": [
+    {
+      "say": "No subscription.",
+      "label": "Subscription"
+    },
+    {
+      "say": "No storage fees.",
+      "label": "Storage fees"
+    },
+    {
+      "say": "No ads.",
+      "label": "Ads"
+    }
+  ],
+  "install": "brew install --cask syncthing-app",
+  "install_url": "https://syncthing.net/",
+  "caption": "Dropbox charges $9.99/month to sync your files. Syncthing does it for free 🔄\n\n✅ Pick a folder, link another device, and changes show up on both\n✅ Photos, music, work documents kept in step with live progress\n✅ Data is encrypted in transit and never uploaded to a cloud\n✅ No subscription, no storage fees\n\n💻 Windows · Mac · Linux\nℹ️ Syncthing syncs directly between your own devices, so it isn't cloud storage: devices exchange files when they're online at the same time, and there's no copy waiting on a server. The official Android app was discontinued in 2024 and there's no official iPhone app. Dropbox's $9.99 is Plus (2 TB) billed yearly\n\nComment \"SYNC\" and I'll DM you the link 🔗\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #syncthing #dropbox #filesync #backup #freeapps #techtips",
+  "dm_pitch": "Syncthing, the free open-source way to sync your files between devices 🔄",
+  "thumb": {
+    "big": "FREE",
+    "line1": "Dropbox",
+    "line2": "alternative"
+  },
+  "topic_arm": "subscription",
+  "demo": {
+    "images": [
+      "https://docs.syncthing.net/_images/gui1.png",
+      "https://docs.syncthing.net/_images/gs5.png"
+    ]
+  },
+  "hook_style": "price",
+  "window": "night",
+  "publish": {
+    "date": "2026-11-08",
+    "time": "22:02"
+  }
+}
