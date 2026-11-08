@@ -1,0 +1,132 @@
+{
+ "repo": "ollama/ollama",
+ "name": "Ollama",
+ "title": "Ollama: run open AI models on your own laptop",
+ "line": "dev",
+ "dev_format": "dialogue",
+ "hook_type": "question",
+ "topic_arm": "dev",
+ "format": "story",
+ "theme": "clay",
+ "cast": true,
+ "slot": 1,
+ "voices": {
+  "kit": "af_sky",
+  "claude": "am_michael"
+ },
+ "keyword": "LOCAL",
+ "icon": "assets/icon.png",
+ "install": "curl -fsSL https://ollama.com/install.sh | sh",
+ "install_url": "https://ollama.com",
+ "caption": "Kit asked Claude how to run AI on a laptop, offline. The answer: Ollama 🦙\n\n✅ One command to install, then: ollama run gemma4\n✅ Open models like Gemma, Qwen, DeepSeek and gpt-oss\n✅ A local REST API on localhost:11434 for your own apps\n✅ ollama launch claude starts Claude Code with it\n\n💻 Mac · Windows · Linux\nℹ️ Bigger models need a lot of RAM (or a good GPU) to run well, and Ollama also offers optional cloud models\n\nComment \"LOCAL\" and I'll DM you the link 🔗\n\nFollow @itsongit for open-source finds for developers\n\n#ollama #localai #llm #developer #opensource #github #ai",
+ "dm_pitch": "Ollama: run open AI models on your own laptop 🦙",
+ "thumb": {
+  "kicker": "// kit asks claude",
+  "big": "AI with no internet",
+  "line": "run open models on your laptop",
+  "repo": "ollama/ollama"
+ },
+ "beats": [
+  {
+   "speaker": "kit",
+   "say": "Claude, can I run an AI model on my own laptop? Offline?",
+   "scene": "slam",
+   "text": "Offline AI?",
+   "accent": "offline",
+   "select": "laptop",
+   "mood": "shock"
+  },
+  {
+   "speaker": "claude",
+   "say": "You can. It's called Ollama, and it's free and open source.",
+   "scene": "rank",
+   "n": 1,
+   "total": 1,
+   "text": "Ollama",
+   "sub": "run open models locally",
+   "stars": 186317,
+   "mood": "smug",
+   "accent": "free"
+  },
+  {
+   "speaker": "kit",
+   "say": "Okay. How do I start?",
+   "scene": "character",
+   "text": "How do I start? 👀",
+   "mood": "excited"
+  },
+  {
+   "speaker": "claude",
+   "say": "Install it, then type ollama run, and the name of a model.",
+   "scene": "terminal",
+   "cmd": "ollama run gemma4",
+   "out": [
+    ">>> Send a message (/? for help)"
+   ],
+   "text": "you're chatting",
+   "mood": "point",
+   "select": "model"
+  },
+  {
+   "speaker": "kit",
+   "say": "Which models, though?",
+   "scene": "character",
+   "text": "Which models? 🤔",
+   "mood": "worried"
+  },
+  {
+   "speaker": "claude",
+   "say": "Open ones, like Gemma, Qwen, and DeepSeek.",
+   "scene": "list",
+   "items": [
+    {
+     "label": "Gemma",
+     "anchor": "gemma"
+    },
+    {
+     "label": "Qwen",
+     "anchor": "qwen"
+    },
+    {
+     "label": "DeepSeek",
+     "anchor": "deepseek"
+    }
+   ],
+   "mood": "excited"
+  },
+  {
+   "speaker": "claude",
+   "say": "It also runs a local API, so your own apps can talk to it.",
+   "scene": "terminal",
+   "cmd": "curl http://localhost:11434/api/chat",
+   "out": [
+    "# your apps, your machine"
+   ],
+   "accent": "local",
+   "mood": "point"
+  },
+  {
+   "speaker": "kit",
+   "say": "Wait. Can it launch you, too?",
+   "scene": "character",
+   "text": "Can it launch YOU?! 🙀",
+   "mood": "shock"
+  },
+  {
+   "speaker": "claude",
+   "say": "Yep. Ollama launch Claude.",
+   "scene": "terminal",
+   "cmd": "ollama launch claude",
+   "out": [
+    "# starts Claude Code with Ollama"
+   ],
+   "mood": "smug"
+  },
+  {
+   "speaker": "kit",
+   "say": "Comment Local, and I'll send you the link.",
+   "scene": "cta",
+   "mood": "excited"
+  }
+ ]
+}

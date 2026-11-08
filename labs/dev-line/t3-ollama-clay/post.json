@@ -1,0 +1,23 @@
+{
+  "title": "Ollama: run open AI models on your own laptop",
+  "video": "FINAL.mp4",
+  "thumbnail": "FINAL_thumbnail.png",
+  "repo_url": "https://github.com/ollama/ollama",
+  "keyword": "LOCAL",
+  "caption": "Kit asked Claude how to run AI on a laptop, offline. The answer: Ollama 🦙\n\n✅ One command to install, then: ollama run gemma4\n✅ Open models like Gemma, Qwen, DeepSeek and gpt-oss\n✅ A local REST API on localhost:11434 for your own apps\n✅ ollama launch claude starts Claude Code with it\n\n💻 Mac · Windows · Linux\nℹ️ Bigger models need a lot of RAM (or a good GPU) to run well, and Ollama also offers optional cloud models\n\nComment \"LOCAL\" and I'll DM you the link 🔗\n\nFollow @itsongit for open-source finds for developers\n\n#ollama #localai #llm #developer #opensource #github #ai",
+  "dm_pitch": "Ollama: run open AI models on your own laptop 🦙",
+  "install": "curl -fsSL https://ollama.com/install.sh | sh",
+  "dm_on_any_comment": true,
+  "follow_gate": true,
+  "slot": 1,
+  "price_source": null,
+  "experiment": {
+    "format": "story",
+    "hook": "question",
+    "topic": "dev",
+    "window": null,
+    "theme": "clay",
+    "line": "dev",
+    "dev_format": "dialogue"
+  }
+}

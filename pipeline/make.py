@@ -127,7 +127,22 @@ def voice_and_align(V, vdir, pub, work, sections, skip_tts):
     if not (skip_tts and vo.exists()):
         env = {**os.environ, "HYPERFRAMES_PYTHON": PY}
         voice = BRAND["voice"]
-        run(["npx", "-y", HF, "tts", vdir / "script.txt", "-v", voice["id"], "-s", V.get("voice_speed", voice["speed"]), "-o", vo], env=env)
+        if V.get("cast"):  # dialogue reels: one Kokoro voice per speaker, line by line, joined with short gaps
+            voices = {"kit": "af_sky", "claude": "am_michael", **V.get("voices", {})}
+            parts, lst = [], work / "lines.txt"
+            gap = work / "gap.wav"
+            run(["ffmpeg", "-v", "error", "-y", "-f", "lavfi", "-i", "anullsrc=r=24000:cl=mono", "-t", "0.22", "-c:a", "pcm_s16le", gap])
+            for i, (sec, text) in enumerate(sections):
+                spk = V["beats"][i].get("speaker", "kit")
+                tf, wf, wn = work / f"line{i}.txt", work / f"line{i}.wav", work / f"line{i}n.wav"
+                tf.write_text(text + "\n")
+                run(["npx", "-y", HF, "tts", tf, "-v", voices[spk], "-s", V.get("voice_speed", voice["speed"]), "-o", wf], env=env)
+                run(["ffmpeg", "-v", "error", "-y", "-i", wf, "-ar", "24000", "-ac", "1", "-c:a", "pcm_s16le", wn])
+                parts += [wn, gap]
+            lst.write_text("".join(f"file '{q}'\n" for q in parts[:-1]))
+            run(["ffmpeg", "-v", "error", "-y", "-f", "concat", "-safe", "0", "-i", lst, "-c:a", "pcm_s16le", vo])
+        else:
+            run(["npx", "-y", HF, "tts", vdir / "script.txt", "-v", voice["id"], "-s", V.get("voice_speed", voice["speed"]), "-o", vo], env=env)
         run([PY, ROOT / "pipeline/transcribe.py", vo, work / "transcript.json", "--prompt", f"{V['name']}, {V['paid']['name']}, GitHub"])
     tw = json.loads((work / "transcript.json").read_text())["words"]
     sm = difflib.SequenceMatcher(a=[t[2] for t in toks], b=[norm(w["text"]) for w in tw], autojunk=False)
@@ -157,7 +172,7 @@ def voice_and_align(V, vdir, pub, work, sections, skip_tts):
 
 
 STORY_SCENES = {"slam", "counter", "app", "versus", "list", "character", "cta", "terminal", "rank"}
-THEMES = {"paper", "crt", "keynote", "blueprint"}
+THEMES = {"paper", "crt", "keynote", "blueprint", "clay"}
 
 
 def make_story(V, vdir, slot, pub, pub_rel, work, a):
@@ -207,7 +222,7 @@ def make_story(V, vdir, slot, pub, pub_rel, work, a):
             b.setdefault("paid", paid["name"]); b.setdefault("price", price_short(V)); b.setdefault("name", V["name"])
         beats.append(b)
     props = {"accent": slot, "dir": pub_rel, "words": words, "beats": beats, "keyword": V["keyword"], "end": end, "icon": "icon.png",
-             "name": V["name"], "paid": paid.get("name"), "theme": theme}
+             "name": V["name"], "paid": paid.get("name"), "theme": theme, "cast": bool(V.get("cast"))}
     if "mascot" in V:
         props["mascot"] = bool(V["mascot"])
     (work / "props.json").write_text(json.dumps(props))

@@ -2,6 +2,7 @@ import React from "react";
 import {interpolate, spring, useCurrentFrame, useVideoConfig} from "remotion";
 import {C, rgba} from "./brand";
 import {useAccent, type Word} from "./kit";
+import {ClayFilter} from "./Clay";
 
 // "Kit", the @itsongit cat: the cat head from our GitMark logo, grown a body. Original character (no borrowed design).
 // Lip sync comes from the voiceover's word timings: the mouth chatters while a word is spoken (one open/close per
@@ -18,15 +19,16 @@ const useMouth = (words: Word[], t: number) => {
   return 0.25 + 0.75 * Math.abs(Math.sin(p * Math.PI * n));
 };
 
-export const Mascot: React.FC<{words: Word[]; mood: Mood; moodAt: number; size?: number; talking?: boolean; style?: React.CSSProperties}> = ({
-  words, mood, moodAt, size = 420, talking = true, style,
+export const Mascot: React.FC<{words: Word[]; mood: Mood; moodAt: number; size?: number; talking?: boolean; style?: React.CSSProperties;
+  clay?: boolean}> = ({
+  words, mood, moodAt, size = 420, talking = true, style, clay = false,
 }) => {
   const frame = useCurrentFrame();
   const {fps} = useVideoConfig();
   const t = frame / fps;
   const accent = useAccent();
-  const fg = "#FFFFFF"; // white fur…
-  const ink = C.TEXT; // …with charcoal cartoon outlines (reads on the paper theme)
+  const fg = clay ? "#FBF4EA" : "#FFFFFF"; // white fur… (warm off-white clay on the clay set)
+  const ink = clay ? "#4A3326" : C.TEXT; // …with charcoal cartoon outlines (soft brown "pressed line" in clay)
   const O = {stroke: ink, strokeWidth: 4.5, strokeLinejoin: "round" as const};
   const react = spring({frame: frame - moodAt * fps, fps, config: {damping: 9, stiffness: 200, mass: 0.7}}); // pop on mood change
   const mouth = talking ? useMouth(words, t) : 0.05; // eslint-disable-line react-hooks/rules-of-hooks
@@ -45,7 +47,8 @@ export const Mascot: React.FC<{words: Word[]; mood: Mood; moodAt: number; size?:
   const sweat = mood === "worried" ? interpolate(t % 1.2, [0, 1.2], [0, 26]) : null;
   return (
     <svg width={size} height={size * 1.25} viewBox="0 0 200 250" style={{overflow: "visible", ...style}}>
-      <g transform={`translate(0 ${bob}) translate(100 245) scale(${scale} ${2 - scale}) translate(-100 -245)`}>
+      {clay && <defs><ClayFilter id="clayKit" /></defs>}
+      <g filter={clay ? "url(#clayKit)" : undefined} transform={`translate(0 ${bob}) translate(100 245) scale(${scale} ${2 - scale}) translate(-100 -245)`}>
         {/* tail */}
         <path d={`M140 215 C175 210, 180 ${170 + tail}, ${165 + tail / 2} ${150 + tail}`} stroke={ink} strokeWidth={21} strokeLinecap="round" fill="none" />
         <path d={`M140 215 C175 210, 180 ${170 + tail}, ${165 + tail / 2} ${150 + tail}`} stroke={fg} strokeWidth={12} strokeLinecap="round" fill="none" />

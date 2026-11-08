@@ -216,7 +216,8 @@ developer-tool ban) don't apply to it. Details: PLAYBOOK.md §17, research in `l
 - Listicles: `rank` beat + one proof beat per item (terminal or app), re-hook before the last item, best item last,
   `"thumb": {"kicker", "big", "line", "repo"}`; no `paid` needed.
 - Terminal `out` lines must be real or a faithful example of what the README says the tool shows (atuin: exit code, duration, time), or clearly a comment (`# that's the whole install`). Never invent speeds or numbers.
-- Examples: `labs/dev-line/t1-shell-*/video.json` (listicle), `labs/dev-line/t2-coolify-*/video.json` (hook A/B).
+- Examples: `labs/dev-line/t1-shell-*/video.json` (listicle), `labs/dev-line/t2-coolify-*/video.json` (hook A/B),
+  `labs/dev-line/t3-ollama-clay/video.json` (clay dialogue: `"cast": true`, `"speaker"` per beat, PLAYBOOK §17b).
 
 ### Script rules (the voiceover is assembled from these fields)
 The final script is: `hook` + "It's called {name}." + the fixed GitHub line + the features (intro + say) + the no-list

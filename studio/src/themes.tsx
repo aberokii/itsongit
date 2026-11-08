@@ -1,13 +1,14 @@
 import React, {createContext, useContext} from "react";
 import {AbsoluteFill, random, useCurrentFrame} from "remotion";
 import {localFont} from "./fonts";
+import {ClayBg, ClayOverlay} from "./Clay";
 import {C as PAPER, INTER, MONO, SERIF, Background, rgba, useAccent} from "./kit";
 
 // Visual skins for the story engine (Story.tsx). "paper" is the locked house style (BRAND.md). The others are test
 // skins for the developer-first line, adapted from Lemo-Opuscar style prompts (github.com/lemomo-ai/lemo-opuscar,
 // MIT): ascii-crt -> "crt", dark-keynote -> "keynote", blueprint -> "blueprint". Palettes and techniques only;
 // no code or footage copied. Each theme = colour tokens + fonts + a background + an overlay drawn over everything.
-export type ThemeId = "paper" | "crt" | "keynote" | "blueprint";
+export type ThemeId = "paper" | "crt" | "keynote" | "blueprint" | "clay";
 export type Theme = {
   id: ThemeId; dark: boolean;
   BG: string; CARD: string; LINE: string; TEXT: string; MUTED: string; NEG: string; SHADOW: string; SELECT: string;
@@ -23,6 +24,7 @@ const VT = localFont("VT323");
 const TIGHT = localFont("Inter Tight");
 const ARCH = localFont("Architects Daughter");
 const B612 = localFont("B612 Mono");
+const FRED = localFont("Fredoka");
 
 const none = () => "none";
 const Nothing: React.FC = () => null;
@@ -85,6 +87,11 @@ export const THEMES: Record<ThemeId, Theme> = {
   blueprint: {id: "blueprint", dark: true, BG: "#18336B", CARD: "rgba(13,17,22,0.18)", LINE: "#E7F0F9", TEXT: "#E7F0F9", MUTED: "rgba(231,240,249,0.65)",
     NEG: "#E5462C", SHADOW: "transparent", SELECT: "#F2C14E", SANS: ARCH, SERIF: ARCH, MONO: B612, DISPLAY: ARCH, NUM: B612, textScale: 1.05, serifItalic: false,
     glow: () => "0 0 1.5px rgba(231,240,249,0.7)", radius: 6, Bg: BlueBg, Overlay: BlueOverlay},
+  // clay: plasticine stop-motion set (warm paper sweep, clay tabletop), rounded Fredoka type, characters through
+  // the clay SVG filter (Clay.tsx). Built for the two-character dialogue reels (Kit asks, the assistant answers).
+  clay: {id: "clay", dark: false, BG: "#EAD7BF", CARD: "#FFF7EC", LINE: "#D9C3A5", TEXT: "#3A2418", MUTED: "#8A6A52", NEG: "#D9572B",
+    SHADOW: "rgba(90,55,30,0.28)", SELECT: "#3F7BE0", SANS: FRED, SERIF: FRED, MONO, DISPLAY: FRED, NUM: FRED, textScale: 1.06,
+    serifItalic: false, glow: none, radius: 40, Bg: ClayBg, Overlay: ClayOverlay},
 };
 
 export const ThemeCtx = createContext<Theme>(THEMES.paper);

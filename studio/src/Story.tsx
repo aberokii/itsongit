@@ -6,6 +6,8 @@ import {THEMES, ThemeCtx, useTheme, type ThemeId} from "./themes";
 import {accentFor} from "./brand";
 import {GitMark} from "./Logo";
 import {Mascot, type Mood} from "./Mascot";
+import {ClayBuddy, clayCard} from "./Clay";
+import {Freeze} from "remotion";
 
 // Format C, "story": an animated explainer, not the ad template. Layout grammar (paper theme):
 //   y 196  mono header row:  "// 03 — mixxx"  ·  "SERATO → $0"
@@ -26,9 +28,10 @@ export type Beat = {
   paid?: string; price?: string; name?: string;
   items?: {label: string; at: number}[];
   cmd?: string; out?: string[]; n?: number; total?: number; stars?: number; // terminal / rank
+  speaker?: "kit" | "claude"; // dialogue reels (props.cast)
 };
 export type StoryProps = {accent: number; dir: string; words: Word[]; beats: Beat[]; keyword: string; end: number; icon?: string;
-  name?: string; paid?: string; theme?: ThemeId; mascot?: boolean};
+  name?: string; paid?: string; theme?: ThemeId; mascot?: boolean; cast?: boolean};
 const alpha = (c: string, a: number) => (c.startsWith("#") ? rgba(c, a) : c);
 
 const WHIP = 0.2;
@@ -78,9 +81,15 @@ const Line: React.FC<{b: Beat; words: Word[]}> = ({b, words}) => {
   const first = b.start < 0.2;
   const n = ws.reduce((a, w) => a + w.text.length + 1, 0);
   const size = (n > 70 ? 58 : n > 48 ? 66 : 76) * C.textScale;
+  const tag = b.speaker && (
+    <span style={{display: "inline-block", alignSelf: "center", padding: "4px 18px 6px", marginRight: 6, borderRadius: 999, fontSize: size * 0.5, letterSpacing: "0.02em",
+      background: b.speaker === "claude" ? "#D9774F" : "#FFFFFF", color: b.speaker === "claude" ? "#FFF7EC" : C.TEXT, border: `3px solid ${b.speaker === "claude" ? "#B85C38" : C.LINE}`}}>
+      {b.speaker === "claude" ? "Claude" : "Kit"}</span>
+  );
   return (
     <div style={{position: "absolute", top: 262, left: 66, right: 66, fontFamily: C.SANS, fontWeight: 700, fontSize: size, lineHeight: 1.12,
       letterSpacing: "-0.035em", color: C.TEXT, display: "flex", flexWrap: "wrap", gap: "0 0.26em"}}>
+      {tag}
       {ws.map((w, i) => {
         const shown = first || t >= w.start - 0.06;
         const p = first ? 1 : pop(w.start - 0.06, 14);
@@ -290,20 +299,20 @@ const Terminal: React.FC<{b: Beat}> = ({b}) => {
   const doneAt = b.start + (first ? 0 : 0.12) + td * (1 - k0);
   const out = b.out || [];
   const crt = C.id === "crt";
-  const term = crt ? "transparent" : C.id === "blueprint" ? "rgba(13,17,22,0.35)" : "#0E1014";
+  const term = crt ? "transparent" : C.id === "blueprint" ? "rgba(13,17,22,0.35)" : C.id === "clay" ? "#2E2622" : "#0E1014";
   const size = cmd.length > 34 ? 42 : cmd.length > 20 ? 50 : 60;
   const fs = crt ? size * 1.35 : size;
   const outFs = crt ? size * 1.15 : size * 0.86;
   const lines = (s: string, f: number) => Math.max(1, Math.ceil((s.length + 2) * f * 0.6 / 920));
   const contentH = 52 + 52 + lines(cmd, fs) * fs * 1.32 + out.reduce((a, l) => a + lines(l, outFs) * outFs * 1.32, 0) + (out.length ? 10 : 0) + (b.text ? 90 : 20);
-  const boxH = Math.max(C.id === "paper" ? 360 : 420, Math.min(C.id === "paper" ? 700 : 900, contentH));
-  const boxTop = C.id === "paper" ? TOP - 10 : Math.max(TOP - 10, 1010 - boxH / 2);
+  const boxH = Math.max(!C.dark ? 360 : 420, Math.min(!C.dark ? 700 : 900, contentH));
+  const boxTop = !C.dark ? TOP - 10 : Math.max(TOP - 10, 1010 - boxH / 2);
   const caret = Math.floor(t * 2.2) % 2 === 0 || k < 1;
   const p = first ? 1 : pop(b.start, 13);
   return (
     <div style={{position: "absolute", top: boxTop, left: 50, width: 980, height: boxH, borderRadius: C.radius, overflow: "hidden", background: term,
       border: crt ? `3px double ${C.LINE}` : `2px solid ${C.dark ? C.LINE : "#2A2E37"}`, boxShadow: C.dark ? undefined : `0 40px 90px ${C.SHADOW}`,
-      transform: `scale(${0.9 + 0.1 * Math.min(p, 1)})`, opacity: Math.min(p * 1.5, 1)}}>
+      transform: `scale(${0.9 + 0.1 * Math.min(p, 1)})`, opacity: Math.min(p * 1.5, 1), ...(C.id === "clay" ? {...clayCard(term), border: "none"} : {})}}>
       <div style={{height: 52, display: "flex", alignItems: "center", gap: 12, padding: "0 22px", borderBottom: `2px solid ${crt ? C.LINE : "rgba(255,255,255,0.08)"}`,
         fontFamily: C.MONO, fontSize: crt ? 34 : 24, color: crt ? C.TEXT : "#8A90A0"}}>
         {!crt && ["#ff5f57", "#febc2e", "#28c840"].map((c) => <span key={c} style={{width: 15, height: 15, borderRadius: 8, background: c}} />)}
@@ -344,12 +353,12 @@ const Rank: React.FC<{b: Beat}> = ({b}) => {
   }).join("");
   const name = b.text || "";
   return (
-    <div style={{position: "absolute", top: C.id === "paper" ? TOP - 40 : TOP + 60, left: 66, right: 66, height: 700}}>
-      <div style={{display: "flex", alignItems: "baseline", gap: 14, opacity: Math.min(a * 2, 1), transform: `translateY(${(1 - Math.min(a, 1)) * -60}px)`}}>
+    <div style={{position: "absolute", top: !C.dark ? TOP - 40 : TOP + 60, left: 66, right: 66, height: 700}}>
+      {(b.total ?? 3) > 1 && <div style={{display: "flex", alignItems: "baseline", gap: 14, opacity: Math.min(a * 2, 1), transform: `translateY(${(1 - Math.min(a, 1)) * -60}px)`}}>
         <span style={{fontFamily: C.NUM, fontWeight: 800, fontSize: 250, lineHeight: 0.9, color: accent.hex, letterSpacing: "-0.05em",
           textShadow: C.id === "paper" ? "none" : C.glow(accent.hex)}}>{String(b.n ?? 1).padStart(2, "0")}</span>
         <span style={{fontFamily: C.MONO, fontWeight: 700, fontSize: 70, color: C.MUTED}}>/ {String(b.total ?? 3).padStart(2, "0")}</span>
-      </div>
+      </div>}
       <div style={{fontFamily: C.DISPLAY, fontWeight: 900, fontSize: name.length > 9 ? 150 : 190, lineHeight: 1, letterSpacing: "-0.05em", color: C.TEXT, marginTop: 10,
         transform: `scale(${first ? 1 : 1.6 - 0.6 * Math.min(nm, 1.05)})`, transformOrigin: "0 50%", opacity: Math.min(nm * 2, 1)}}>{name}</div>
       {b.sub && <div style={{fontFamily: C.SANS, fontWeight: 800, fontSize: 56, lineHeight: 1.15, color: C.MUTED, marginTop: 24, maxWidth: 900, opacity: sb}}>{b.sub}</div>}
@@ -412,11 +421,28 @@ export const Story: React.FC<StoryProps> = (props) => {
             </Sequence>
           ))}
           {/* Kit: big in the bottom-right, cut off by the frame edge; centre stage on character beats */}
-          {showKit && <div style={{position: "absolute", left: 560 + (250 - 560) * k, top: 1270 + (1060 - 1270) * k}}>
+          {p.cast && (() => {
+            // dialogue: Kit (left) asks, the assistant (right) answers; only the speaker lip-syncs; posed on twos
+            const spk = cur.speaker ?? "kit";
+            const wordsOf = (who: string) => p.words.filter((w) => p.beats.some((b) => (b.speaker ?? "kit") === who && w.start >= b.start - 0.05 && w.start < b.end));
+            const lean = (who: string) => spring({frame: frame - cur.start * fps, fps, config: {damping: 14, stiffness: 150}}) * (spk === who ? 1 : -1);
+            const f2 = frame - (frame % 2);
+            return (
+              <Freeze frame={f2}>
+                <div style={{position: "absolute", left: 30, top: 1215, transform: `scale(${1 + 0.05 * lean("kit")})`, transformOrigin: "50% 100%"}}>
+                  <Mascot clay words={wordsOf("kit")} talking={spk === "kit"} mood={spk === "kit" ? (cur.mood ?? "neutral") : "neutral"} moodAt={cur.start} size={380} />
+                </div>
+                <div style={{position: "absolute", left: 650, top: 1250, transform: `scale(${1 + 0.05 * lean("claude")})`, transformOrigin: "50% 100%"}}>
+                  <ClayBuddy words={wordsOf("claude")} talking={spk === "claude"} mood={spk === "claude" ? ((cur.mood as never) ?? "neutral") : "neutral"} moodAt={cur.start} size={370} />
+                </div>
+              </Freeze>
+            );
+          })()}
+          {showKit && !p.cast && <div style={{position: "absolute", left: 560 + (250 - 560) * k, top: 1270 + (1060 - 1270) * k}}>
             <Mascot words={p.words} mood={cur.mood ?? (big ? "excited" : "neutral")} moodAt={cur.start} size={560 + 60 * k} />
           </div>}
         </AbsoluteFill>
-        <div style={{position: "absolute", bottom: 210, left: 66, display: "flex", alignItems: "center", gap: 10, padding: "8px 20px 8px 10px",
+        <div style={{position: "absolute", bottom: p.cast ? 196 : 210, left: p.cast ? 430 : 66, display: "flex", alignItems: "center", gap: 10, padding: "8px 20px 8px 10px",
           background: alpha(C.CARD, 0.9), border: `2px solid ${C.LINE}`, borderRadius: C.radius ? 999 : 0}}>
           <GitMark size={40} fg={C.TEXT} accent={acc.hex} />
           <span style={{fontFamily: C.SANS, fontWeight: 900, fontSize: 30, color: C.TEXT}}>@itsongit</span>

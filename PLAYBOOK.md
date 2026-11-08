@@ -407,3 +407,20 @@ Re-hook every ~3 beats ("But save the best for last"). The best item goes last i
 **Tests queued** (`data/experiments.json`): `dev_line` (dev vs consumer), `visual_theme` (paper vs crt vs keynote vs
 blueprint, same script + voice), `dev_hook` (money-leak vs result-first). Set each test's `"started"` date when the
 first reel posts; `pipeline/experiments.py` then adds its table to the report.
+
+### 17b. Clay dialogue format (`"theme": "clay"`, `"cast": true`)
+
+Kit asks, an assistant character named "Claude" answers with real dev-tool facts. It's a two-voice, two-character
+stop-motion look. There's no dedicated clay style in Lemo-Opuscar; this combines its living-screencast idea (a mascot
+acting out the software) with a plasticine material. Code: `studio/src/Clay.tsx`, with an SVG clay filter
+(specular-lit bumpy surface, fingerprint grain, a displacement "boil" re-seeded every 2 frames), a paper-sweep set with
+a clay tabletop, faux-clay card bevels, and `ClayBuddy`, the assistant. Characters are posed on twos (`Freeze`).
+- **video.json:** `"theme": "clay"`, `"cast": true`, `"voices": {"kit": "af_sky", "claude": "am_michael"}`, and
+  `"speaker": "kit" | "claude"` on every beat. make.py voices each line with its speaker's Kokoro voice and joins the
+  lines with 0.22 s gaps. Only the speaker lip-syncs, and a name pill sits in front of each spoken line.
+- **Shape:** Kit opens with the viewer's question on frame 0 (hook type "question"). The assistant answers with proof
+  beats (terminal, rank, list). Kit re-hooks with short reactions (`character` bubbles). Kit says the CTA.
+- **Brand care:** the assistant is an original design (a terracotta pebble with a `>_` badge). It does not use
+  Anthropic's logo or official mascot, and its name tag is plain text. Facts must come from the tool's README, never
+  "Claude said so".
+- **Example:** `labs/dev-line/t3-ollama-clay/video.json`.

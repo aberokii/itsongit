@@ -70,5 +70,23 @@
   "style": "normal",
   "weight": "700",
   "file": "B612Mono-700.woff2"
+ },
+ {
+  "family": "Fredoka",
+  "style": "normal",
+  "weight": "500",
+  "file": "Fredoka-500.woff2"
+ },
+ {
+  "family": "Fredoka",
+  "style": "normal",
+  "weight": "600",
+  "file": "Fredoka-600.woff2"
+ },
+ {
+  "family": "Fredoka",
+  "style": "normal",
+  "weight": "700",
+  "file": "Fredoka-700.woff2"
  }
 ]
