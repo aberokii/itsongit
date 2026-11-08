@@ -257,6 +257,22 @@ The final script is: `hook` + "It's called {name}." + the fixed GitHub line + th
   with "free <line1> <line2>" small underneath and the "<Paid> $X → $0" strip on top. So `job` must read well
   on its own at grid size: one clear outcome, no jargon.
 
+### 3c. Quality pass (vendored skills, see `.claude/skills/THIRD_PARTY.md`)
+Run these on every `video.json` before building. They tighten the script; they never override the rules above
+(hook template, word count, caption format, BRAND.md win on any conflict).
+1. **`virality`: the 8-point hook check.** Score the hook and frame 0 against its checklist (frame 0 moving and
+   recognisable, the claim word by word at ~1.2–1.6 s, first spoken word within 0.5 s, works on mute, about the
+   viewer). Fix any miss in the hook line or the hook visual. For story reels, also check that something on screen
+   changes on every spoken line.
+2. **`humanizer`: the anti-AI pass**, in embedded mode, on the voiceover lines and the caption. It may cut staged
+   openers, forced triads and stock AI words; it must not change prices, names, numbers or the keyword.
+3. **`cta-writer`: the delivery check.** The keyword must be easy to spell and not autocorrect, and the DM must
+   actually hold the link. If the link isn't ready, don't post.
+4. **`ab-hook-tester`** when the plan pairs hook arms: the two hooks must pull different levers (price vs demo),
+   with everything else held constant, so `experiments.py` reads a real result.
+Optional: **`hook-mining`** on a CSV of hooks that performed (our ledger export or a Sandcastles export) to remix proven
+hook skeletons; **`reel-analyzer`** to study a competitor reel before copying its *format* (never its words).
+
 ## 4. Build
 
 ```bash
