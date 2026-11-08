@@ -107,7 +107,8 @@
     "crt": "amber CRT terminal (ascii-crt)",
     "keynote": "dark keynote, one accent (dark-keynote)",
     "blueprint": "white line work on blue (blueprint)",
-    "clay": "clay stop-motion dialogue: Kit asks, an assistant character answers (two voices)"
+    "clay": "clay stop-motion dialogue: Kit asks, an assistant character answers (two voices)",
+    "screencast": "Lemo-Opuscar living screencast: redrawn Claude Code + lazygit UI, original pixel mascot Pip"
    },
    "primary": "skip_rate",
    "secondary": [

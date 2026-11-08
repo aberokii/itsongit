@@ -1,0 +1,154 @@
+{
+ "repo": "ajeetdsouza/zoxide",
+ "name": "3 terminal tools",
+ "title": "Claude Code's 3 terminal tools: zoxide, Atuin, lazygit",
+ "line": "dev",
+ "dev_format": "listicle",
+ "hook_type": "result-first",
+ "topic_arm": "dev",
+ "format": "screencast",
+ "slot": 0,
+ "keyword": "SHELL",
+ "voice": {
+  "id": "am_michael",
+  "speed": 1.0
+ },
+ "icon": "assets/icon.png",
+ "install": "brew install zoxide atuin lazygit",
+ "caption": "I asked Claude Code which terminal tools every developer should install. Its 3 picks 🖥️\n\n① zoxide: a smarter cd that learns the folders you use most (z api → ~/code/clients/acme/api)\n② Atuin: every command saved to a searchable database, with exit code, duration and time\n③ lazygit: stage single lines, cherry-pick and rebase in a terminal UI\n\nAll three: brew install zoxide atuin lazygit\n\nComment \"SHELL\" and I'll DM you all three links 🔗\n\nFollow @itsongit for open-source finds for developers\n\n#claudecode #terminal #cli #developer #opensource #github #git",
+ "dm_pitch": "zoxide, Atuin and lazygit: the 3 terminal tools from the reel 🖥️",
+ "thumb": {
+  "kicker": "// asked claude code",
+  "big": "3 terminal tools every dev needs",
+  "at": 8.0
+ },
+ "beats": [
+  {
+   "act": "prompt",
+   "say": "I asked Claude Code which terminal tools every developer should install.",
+   "text": "what terminal tools should devs install?",
+   "em": [
+    "claude",
+    "code"
+   ]
+  },
+  {
+   "act": "answer",
+   "say": "It picked three. And it saved the best for last.",
+   "em": [
+    "three",
+    "best"
+   ],
+   "spark": "last",
+   "lines": [
+    {
+     "text": "⏺ Three I'd install on day one:"
+    },
+    {
+     "row": true,
+     "text": "1. zoxide — a smarter cd",
+     "anchor": "picked"
+    },
+    {
+     "row": true,
+     "text": "2. atuin — searchable shell history",
+     "anchor": "three"
+    },
+    {
+     "row": true,
+     "text": "3. lazygit — git in a terminal UI",
+     "anchor": "saved"
+    }
+   ]
+  },
+  {
+   "act": "explain",
+   "chapter": {
+    "no": "01",
+    "nm": "zoxide"
+   },
+   "say": "Number one, zoxide. It learns the folders you use most, so a few keystrokes take you there.",
+   "em": [
+    "learns",
+    "keystrokes"
+   ],
+   "lines": [
+    {
+     "text": "⏺ `zoxide` learns the folders you use most."
+    },
+    {
+     "code": "z api        # → ~/code/clients/acme/api",
+     "anchor": "keystrokes"
+    }
+   ]
+  },
+  {
+   "act": "explain",
+   "chapter": {
+    "no": "02",
+    "nm": "Atuin"
+   },
+   "say": "Number two, Atuin. It saves every command to a database, with its exit code, duration and time.",
+   "em": [
+    "database",
+    "exit",
+    "duration",
+    "time"
+   ],
+   "spark": "time",
+   "lines": [
+    {
+     "text": "⏺ `atuin` keeps shell history in a database:"
+    },
+    {
+     "code": "atuin search --exit 0 make",
+     "anchor": "exit"
+    }
+   ],
+   "table": [
+    "✓ make build    0   2s  yesterday 4:12pm",
+    "✓ make test     0  14s  yesterday 5:40pm",
+    "✓ make deploy   0  31s  today 9:03am"
+   ]
+  },
+  {
+   "act": "lazygit",
+   "chapter": {
+    "no": "03",
+    "nm": "lazygit"
+   },
+   "say": "Number three, lazygit. Stage single lines, cherry pick and rebase, without memorising git.",
+   "em": [
+    "single",
+    "without"
+   ],
+   "stage": "single",
+   "spot": "without",
+   "lines": [
+    {
+     "text": "⏺ Run `lazygit` inside any git repo."
+    }
+   ]
+  },
+  {
+   "act": "explain",
+   "say": "Install all three with one brew command.",
+   "em": [
+    "one"
+   ],
+   "lines": [
+    {
+     "text": "⏺ Install all three:"
+    },
+    {
+     "code": "brew install zoxide atuin lazygit",
+     "anchor": "brew"
+    }
+   ]
+  },
+  {
+   "act": "end",
+   "say": "Comment Shell, and I'll send you all three."
+  }
+ ]
+}

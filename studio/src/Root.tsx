@@ -9,6 +9,7 @@ import {Reel, type ReelProps} from "./Reel";
 import reelDefaults from "./reel-default-props.json";
 import {Story, type StoryProps} from "./Story";
 import {DevThumb, type DevThumbProps} from "./DevThumb";
+import {Screencast, ScreencastCover, type ScreencastProps} from "./Screencast";
 
 const storyDefaults: StoryProps = {accent: 0, dir: "reels/demo", words: [], keyword: "MIX", end: 3,
   beats: [{start: 0, end: 3, scene: "slam", text: "Hello", mood: "excited"}]};
@@ -40,6 +41,16 @@ export const RemotionRoot: React.FC = () => (
   />
   <Still id="logo-round" component={LogoRound} defaultProps={{accent: 0}} width={1024} height={1024} />
   <Still id="logo-ig" component={LogoIG} defaultProps={{accent: 0}} width={1080} height={1080} />
+  <Composition
+    id="screencast"
+    component={Screencast}
+    defaultProps={{dir: "reels/preview", words: [], end: 3, keyword: "SHELL", beats: [{start: 0, end: 1.5, act: "prompt", text: "hello"}, {start: 1.5, end: 3, act: "answer", lines: [{text: "⏺ hi"}]}]} as ScreencastProps}
+    calculateMetadata={({props}) => ({durationInFrames: Math.round(props.end * FPS)})}
+    fps={FPS}
+    width={1080}
+    height={1920}
+  />
+  <Still id="screencover" component={ScreencastCover} defaultProps={{dir: "reels/preview", words: [], end: 3, keyword: "SHELL", beats: [{start: 0, end: 1.5, act: "prompt", text: "hello"}, {start: 1.5, end: 3, act: "answer", lines: [{text: "⏺ hi"}]}]} as ScreencastProps} width={1080} height={1920} />
   <Still id="devthumb" component={DevThumb} defaultProps={{theme: "crt", accent: 0, kicker: "// 03 terminal tools", big: "Stop typing cd", line: "3 free tools that fix your terminal", repo: "ajeetdsouza/zoxide"} as DevThumbProps} width={1080} height={1920} />
   <Still id="thumb" component={Thumbnail} defaultProps={thumb001} width={1080} height={1920} />
   <Composition

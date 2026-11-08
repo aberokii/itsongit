@@ -126,7 +126,7 @@ def voice_and_align(V, vdir, pub, work, sections, skip_tts):
     vo = pub / "vo.wav"
     if not (skip_tts and vo.exists()):
         env = {**os.environ, "HYPERFRAMES_PYTHON": PY}
-        voice = BRAND["voice"]
+        voice = {**BRAND["voice"], **V.get("voice", {})}
         if V.get("cast"):  # dialogue reels: one Kokoro voice per speaker, line by line, joined with short gaps
             voices = {"kit": "af_sky", "claude": "am_michael", **V.get("voices", {})}
             parts, lst = [], work / "lines.txt"
@@ -180,11 +180,16 @@ def make_story(V, vdir, slot, pub, pub_rel, work, a):
     line = one animated scene, cut on its first word. Kit the cat lip-syncs to the voice and reacts per beat "mood"."""
     slug = vdir.name
     beats_in = V["beats"]
+    screencast = V.get("format") == "screencast"  # Lemo-Opuscar "living screencast" (studio/src/Screencast.tsx)
+    ACTS = {"prompt", "answer", "explain", "lazygit", "end"}
     for i, bt in enumerate(beats_in):
-        if bt.get("scene") not in STORY_SCENES:
+        if screencast and bt.get("act") not in ACTS:
+            sys.exit(f"beat {i}: act must be one of {sorted(ACTS)}")
+        if not screencast and bt.get("scene") not in STORY_SCENES:
             sys.exit(f"beat {i}: scene must be one of {sorted(STORY_SCENES)}")
-    if beats_in[-1]["scene"] != "cta" or norm(V["keyword"]) not in [norm(w) for w in beats_in[-1]["say"].split()]:
-        sys.exit("the last beat must be scene 'cta' and say the keyword (\"Comment Mix, and I'll send you the link.\")")
+    last_ok = beats_in[-1].get("act") == "end" if screencast else beats_in[-1].get("scene") == "cta"
+    if not last_ok or norm(V["keyword"]) not in [norm(w) for w in beats_in[-1]["say"].split()]:
+        sys.exit("the last beat must be the CTA (scene 'cta' / act 'end') and say the keyword (\"Comment Mix, and I'll send you the link.\")")
     theme = V.get("theme", "paper")
     if theme not in THEMES:
         sys.exit(f"theme must be one of {sorted(THEMES)}")
@@ -218,22 +223,27 @@ def make_story(V, vdir, slot, pub, pub_rel, work, a):
             b["image"] = {"src": f"{pub_rel}/b{i}.png", "w": w, "h": h}
         if bt.get("items"):
             b["items"] = [{"label": it["label"], "at": anchor(i, it["anchor"])} for it in bt["items"][:3]]
-        if bt["scene"] == "versus":
+        if bt.get("scene") == "versus":
             b.setdefault("paid", paid["name"]); b.setdefault("price", price_short(V)); b.setdefault("name", V["name"])
         beats.append(b)
     props = {"accent": slot, "dir": pub_rel, "words": words, "beats": beats, "keyword": V["keyword"], "end": end, "icon": "icon.png",
              "name": V["name"], "paid": paid.get("name"), "theme": theme, "cast": bool(V.get("cast"))}
     if "mascot" in V:
         props["mascot"] = bool(V["mascot"])
+    if screencast:
+        props = {"dir": pub_rel, "words": words, "beats": beats, "end": end, "keyword": V["keyword"]}
+        run([PY, ROOT / "pipeline/screencast_audio.py", "bed", pub / "bed.wav", f"{end:.2f}"])
     (work / "props.json").write_text(json.dumps(props))
     raw = work / "reel_raw.mp4"
-    run(["npx", "remotion", "render", "src/index.ts", "story", raw, f"--props={work / 'props.json'}", "--codec=h264", "--crf=18",
+    run(["npx", "remotion", "render", "src/index.ts", "screencast" if screencast else "story", raw, f"--props={work / 'props.json'}", "--codec=h264", "--crf=18",
          "--audio-bitrate=320k"], cwd=ROOT / "studio")
     final = vdir / "FINAL.mp4"
     run(["ffmpeg", "-v", "error", "-y", "-i", raw, "-c:v", "copy", "-af", "loudnorm=I=-14:TP=-1.5:LRA=11", "-c:a", "aac",
          "-b:a", "320k", "-ar", "48000", "-movflags", "+faststart", final])
     th = V["thumb"]
-    if theme != "paper" or not paid.get("price"):  # developer line: a themed cover (studio/src/DevThumb.tsx)
+    if screencast:  # the cover is a real frame of the film with the headline on a frosted card
+        tprops, still = {**props, "coverAt": th.get("at", 2.0), "cover": {"kicker": th["kicker"], "big": th["big"]}}, "screencover"
+    elif theme != "paper" or not paid.get("price"):  # developer line: a themed cover (studio/src/DevThumb.tsx)
         tprops, still = {"theme": theme, "accent": slot, "kicker": th["kicker"], "big": th["big"], "line": th["line"], "repo": th.get("repo", V["repo"])}, "devthumb"
     else:
         tprops = {"accent": slot, "icon": f"{pub_rel}/icon.png", "paid": V["paid"]["name"], "price": price_short(V),
@@ -247,7 +257,7 @@ def make_story(V, vdir, slot, pub, pub_rel, work, a):
                  "repo_url": f"https://github.com/{V['repo']}", "keyword": V["keyword"].upper(), "caption": V["caption"],
                  "dm_pitch": V["dm_pitch"], "install": V["install"], "dm_on_any_comment": True, "follow_gate": True, "slot": slot,
                  "price_source": paid.get("source"),
-                 "experiment": {"format": "story", "hook": V.get("hook_type", "story"), "topic": V.get("topic_arm"), "window": V.get("window"),
+                 "experiment": {"format": V.get("format", "story"), "hook": V.get("hook_type", "story"), "topic": V.get("topic_arm"), "window": V.get("window"),
                                 "theme": theme, "line": V.get("line", "consumer"), "dev_format": V.get("dev_format")}})
     post_path.write_text(json.dumps(post, indent=2, ensure_ascii=False))
     ver = vdir / "verify"
@@ -284,7 +294,7 @@ def main():
     for d in (pub, vdir / "work", vdir / "verify"):
         d.mkdir(parents=True, exist_ok=True)
     work = vdir / "work"
-    if V.get("format") == "story":  # format C: animated explainer with Kit the cat (studio/src/Story.tsx)
+    if V.get("format") in ("story", "screencast"):  # format C: animated explainer with Kit the cat (studio/src/Story.tsx)
         return make_story(V, vdir, slot, pub, pub_rel, work, a)
 
     # ── 1. script: ordered sections → tokens ──────────────────────────────────────────────────

@@ -424,3 +424,34 @@ a clay tabletop, faux-clay card bevels, and `ClayBuddy`, the assistant. Characte
   Anthropic's logo or official mascot, and its name tag is plain text. Facts must come from the tool's README, never
   "Claude said so".
 - **Example:** `labs/dev-line/t3-ollama-clay/video.json`.
+
+### 17c. Living Screencast (`"format": "screencast"`): Lemo-Opuscar's style, recreated
+
+`styles/living-screencast` from Lemo-Opuscar, rebuilt for 1080×1920 in `studio/src/Screencast.tsx`. No Kit.
+- **The look:** real UI redrawn in HTML (Claude Code in a terminal: welcome box, `>` prompt, `✻ Thinking…`, `⏺` replies,
+  code panels; lazygit with its real pane names and keys). A low-res pixel mascot lives in that hi-res UI:
+  **Pip**, an original 14×13 sprite in the style's clay `#D97757`. Pip is not the official Claude Code mascot.
+- **Mascot rules:**
+  - Pip stands only on top edges (the prompt box, a line, a code panel) and hops down a text-free lane on the right.
+  - Keep every transcript line ≤ 44 chars so the lane stays clear.
+  - Acting: anticipation crouch → stretch → tucked legs → landing squash and dust; breathes on the 104 BPM beat;
+    the eyes act; thinking dots, sparks, checks.
+- **Camera:** recording-software camera, zoom ≥ 1, push-ins, whip-pans with motion blur on an untransformed wrapper.
+- **Information layers only:** chapter pill (bottom-left), keystroke HUD (bottom-right), frosted caption pill, pixel
+  chapter wipes.
+- **Native moves:** moving floor (Pip follows the caret, then the sent message), karaoke hops (list rows, end card),
+  cell division (lazygit splits the window, Pip splits and its twin rides the staged line), spotlight freeze, and the
+  cursor petting Pip (heart).
+- **Sound in two resolutions** (`pipeline/screencast_audio.py`, synthesised, no samples):
+  - a hi-fi bed (piano chords, bass, brushed hats, ducked under the voice);
+  - chiptune jump/land/step blips and C5-G5-C6 notes for the mascot;
+  - key thocks for typing.
+  - Voice: Kokoro `am_michael` at 1.0, as in the style's demo.
+- **video.json:** `"format": "screencast"`, `"voice": {"id", "speed"}`, `"thumb": {"kicker", "big", "at"}` (the cover
+  is a real frame), beats with `act`:
+  - `prompt` (`text` = what gets typed)
+  - `answer` (`lines`, rows with `row: true` and `anchor` words; `spark`)
+  - `explain` (`chapter`, `lines` with `code`, optional `table` revealed on `spark`)
+  - `lazygit` (`stage`, `spot` anchors)
+  - `end` (says the keyword)
+- **Example:** `labs/dev-line/t4-shell-screencast/video.json`.

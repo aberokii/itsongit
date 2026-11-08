@@ -1,0 +1,23 @@
+{
+  "title": "Claude Code's 3 terminal tools: zoxide, Atuin, lazygit",
+  "video": "FINAL.mp4",
+  "thumbnail": "FINAL_thumbnail.png",
+  "repo_url": "https://github.com/ajeetdsouza/zoxide",
+  "keyword": "SHELL",
+  "caption": "I asked Claude Code which terminal tools every developer should install. Its 3 picks 🖥️\n\n① zoxide: a smarter cd that learns the folders you use most (z api → ~/code/clients/acme/api)\n② Atuin: every command saved to a searchable database, with exit code, duration and time\n③ lazygit: stage single lines, cherry-pick and rebase in a terminal UI\n\nAll three: brew install zoxide atuin lazygit\n\nComment \"SHELL\" and I'll DM you all three links 🔗\n\nFollow @itsongit for open-source finds for developers\n\n#claudecode #terminal #cli #developer #opensource #github #git",
+  "dm_pitch": "zoxide, Atuin and lazygit: the 3 terminal tools from the reel 🖥️",
+  "install": "brew install zoxide atuin lazygit",
+  "dm_on_any_comment": true,
+  "follow_gate": true,
+  "slot": 0,
+  "price_source": null,
+  "experiment": {
+    "format": "screencast",
+    "hook": "result-first",
+    "topic": "dev",
+    "window": null,
+    "theme": "paper",
+    "line": "dev",
+    "dev_format": "listicle"
+  }
+}
