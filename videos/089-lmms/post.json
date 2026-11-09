@@ -1,0 +1,29 @@
+{
+  "title": "LMMS: free FL Studio alternative",
+  "video": "FINAL.mp4",
+  "thumbnail": "FINAL_thumbnail.png",
+  "repo_url": "https://github.com/LMMS/lmms",
+  "keyword": "BEATS",
+  "caption": "FL Studio's cheapest edition costs $99 to make beats. LMMS does it for free \ud83c\udfb9\n\n\u2705 Song editor to lay out drums, bass and melodies on one timeline\n\u2705 Piano roll, beat sequencer and a mixer with unlimited channels\n\u2705 15+ synths built in, plus VST plugins and SoundFonts\n\u2705 Full MIDI support, import and export MIDI files\n\n\ud83d\udcbb Mac \u00b7 Windows \u00b7 Linux\n\u2139\ufe0f LMMS is built for making beats and electronic music, not for recording vocals, and the stable version is a few years old (the big 1.3 update is in alpha). The $99 is FL Studio Fruity Edition, a one-time purchase\n\nComment \"BEATS\" and I'll DM you the link \ud83d\udd17\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #beatmaking #musicproduction #producer #flstudio #freeapps #techtips",
+  "dm_pitch": "LMMS, the free open-source FL Studio alternative \ud83c\udfb9",
+  "install": "Download from GitHub Releases",
+  "dm_on_any_comment": true,
+  "follow_gate": true,
+  "slot": 0,
+  "price_source": "https://www.image-line.com/fl-studio/pricing",
+  "experiment": {
+    "format": "story",
+    "hook": "story",
+    "topic": "hobby",
+    "window": "now"
+  },
+  "idempotencyKey": "75182475-7d7a-4d35-9673-8688fd0c2bfe",
+  "zernio": {
+    "postId": "6af221ec5c65433176e6efca",
+    "status": "publishing",
+    "scheduledFor": "2026-11-09T19:41:32.239Z",
+    "url": null,
+    "automationId": "6af221f2eaf1dab1d6cb5657",
+    "slot": 0
+  }
+}

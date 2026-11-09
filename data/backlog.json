@@ -1,29 +1,5 @@
 [
  {
-  "repo": "LMMS/lmms",
-  "name": "LMMS",
-  "arm": "hobby",
-  "paid": {
-   "name": "FL Studio Fruity",
-   "price": "$99",
-   "per": "one-time",
-   "source": "https://www.image-line.com/fl-studio/pricing"
-  },
-  "job": "Makes beats like FL Studio",
-  "platforms": [
-   "Windows",
-   "macOS",
-   "Linux"
-  ],
-  "mass_appeal": 7,
-  "demo_media": null,
-  "stars": 10571,
-  "contributors": 49,
-  "why": "FL Studio is the beat-making app every bedroom producer knows; LMMS has the same pattern/piano-roll workflow free.",
-  "catch": "No README screenshots (lmms.io has them); FL price is from the official page title 'From $99', not a per-edition table; less polished than FL.",
-  "price_verified": false
- },
- {
   "repo": "valinet/ExplorerPatcher",
   "name": "ExplorerPatcher",
   "arm": "utility",
