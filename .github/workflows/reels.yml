@@ -1,14 +1,19 @@
 # Daily @itsongit reels, made and scheduled on GitHub's servers (works with the laptop shut).
 # One run a day makes 3 reels for the A/B tests (data/experiments.json): pipeline/plan.py assigns each reel a
 # posting window (midday 11:05–12:50, evening 18:00–19:50, night 21:00–22:50 Berlin), a hook arm and a topic arm.
-# Cron is UTC: 04:30 is 06:30 Berlin in summer time and 05:30 in winter time, well before the first window.
+# Cron is UTC. GitHub often starts scheduled runs hours late (Nov 2026: 7-9 h, so the midday window was lost), and
+# delays are worst on :00/:30. So there are two starts: 02:17 UTC (03:17 Berlin winter / 04:17 summer) and a backup
+# at 05:47 UTC (06:47 / 07:47). The "gate" job skips a daily run when main already has today's "reels: DATE" commit,
+# so whichever run starts first makes the reels and the other does nothing. A Claude scheduled task also checks at
+# 09:41 Berlin and starts a "daily" run by hand if neither has made today's reels.
 # Run it by hand: Actions → reels → Run workflow. mode "daily" = the planned 3 (rows whose window has passed are
 # skipped); mode "one-now" = a single reel in the chosen format, published immediately (outside the A/B plan).
 name: reels
 
 on:
   schedule:
-    - cron: "30 4 * * *"
+    - cron: "17 2 * * *"   # main run
+    - cron: "47 5 * * *"   # backup, skipped by the gate if the main run already made today's reels
   workflow_dispatch:
     inputs:
       mode:
@@ -30,7 +35,28 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  gate:
+    runs-on: ubuntu-latest
+    outputs:
+      go: ${{ steps.check.outputs.go }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 50
+      - id: check
+        run: |
+          TODAY=$(TZ=Europe/Berlin date +%F)
+          git fetch -q origin main
+          if [ "${{ inputs.mode || 'daily' }}" = daily ] && git log origin/main --since=36.hours --format=%s | grep -qx "reels: $TODAY"; then
+            echo "Today's reels ($TODAY) are already made: skipping this run."
+            echo "go=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "go=true" >> "$GITHUB_OUTPUT"
+          fi
+
   reels:
+    needs: gate
+    if: needs.gate.outputs.go == 'true'
     runs-on: ubuntu-latest
     timeout-minutes: 150
     env:
@@ -42,6 +68,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
+          ref: main
           fetch-depth: 0
 
       - name: Day
