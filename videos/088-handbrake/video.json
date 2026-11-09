@@ -1,0 +1,124 @@
+{
+  "repo": "HandBrake/HandBrake",
+  "name": "HandBrake",
+  "title": "HandBrake: free UniConverter alternative",
+  "slot": 2,
+  "keyword": "SHRINK",
+  "paid": {
+    "name": "UniConverter",
+    "price": "$49.99",
+    "per": "/year",
+    "anchor": "fifty",
+    "source": "https://videoconverter.wondershare.com/buy/video-converter-ultimate.html"
+  },
+  "icon": "https://raw.githubusercontent.com/HandBrake/HandBrake/master/gtk/icons/256x256/apps/fr.handbrake.ghb.png",
+  "job": "Shrinks huge videos in clicks",
+  "platforms": [
+    "Mac",
+    "Windows",
+    "Linux"
+  ],
+  "install": "brew install --cask handbrake-app",
+  "install_url": "https://handbrake.fr",
+  "caption": "UniConverter charges $49.99/year to convert and shrink videos. HandBrake does it for free 🎬\n\n✅ Presets for phones, TVs, the web and Discord-sized clips\n✅ Batch queue: line up a pile of videos and walk away\n✅ Outputs MP4, MKV or WebM, with H.265, H.264 and AV1\n✅ Crop, deinterlace, denoise and add subtitles\n\n💻 Mac · Windows · Linux\nℹ️ HandBrake is built for converting and compressing, not for editing, and it only handles DVD and Blu-ray sources without copy protection. The $49.99/year is UniConverter's Windows yearly plan; Mac is $59.99\n\nComment \"SHRINK\" and I'll DM you the link 🔗\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #videoediting #handbrake #videoconverter #freeapps #techtips",
+  "dm_pitch": "HandBrake, the free open-source UniConverter alternative 🎬",
+  "thumb": {
+    "big": "FREE",
+    "line1": "UniConverter",
+    "line2": "alternative"
+  },
+  "format": "story",
+  "topic_arm": "utility",
+  "demo": {
+    "images": [
+      "https://raw.githubusercontent.com/HandBrake/HandBrake-docs/master/source/docs/en/images/mac/encode-progress-1.1.0-original@2x.png",
+      "https://raw.githubusercontent.com/HandBrake/HandBrake-docs/master/source/docs/en/images/mac/preset-selection-1.1.0-original@2x.png"
+    ]
+  },
+  "beats": [
+    {
+      "say": "You're paying fifty bucks a year just to shrink your videos.",
+      "scene": "slam",
+      "text": "$50 a year",
+      "accent": "shrink",
+      "tone": "neg",
+      "mood": "shock"
+    },
+    {
+      "say": "And there's an app that does it for free.",
+      "scene": "character",
+      "text": "Wait, free?! 🙀",
+      "mood": "shock",
+      "select": "free"
+    },
+    {
+      "say": "UniConverter wants fifty dollars a year. HandBrake costs nothing.",
+      "scene": "versus",
+      "mood": "point",
+      "select": "nothing"
+    },
+    {
+      "say": "Drop in a huge four K video, pick a preset, and it shrinks it down.",
+      "scene": "app",
+      "image": "https://raw.githubusercontent.com/HandBrake/HandBrake-docs/master/source/docs/en/images/mac/encode-progress-1.1.0-original@2x.png",
+      "text": "4K → 1080p",
+      "mood": "excited",
+      "accent": "huge",
+      "select": "preset"
+    },
+    {
+      "say": "But here's the crazy part.",
+      "scene": "character",
+      "text": "Wait for it 👀",
+      "mood": "smug"
+    },
+    {
+      "say": "There are presets for your phone, your TV, even Discord.",
+      "scene": "list",
+      "text": "A preset for everything",
+      "items": [
+        {
+          "label": "📱 Phone",
+          "anchor": "phone"
+        },
+        {
+          "label": "📺 TV",
+          "anchor": "tv"
+        },
+        {
+          "label": "💬 Discord",
+          "anchor": "discord"
+        }
+      ],
+      "accent": "Discord"
+    },
+    {
+      "say": "The latest version alone got downloaded over three million times.",
+      "scene": "counter",
+      "from": 0,
+      "to": 3,
+      "suffix": "M+",
+      "label": "downloads, latest version",
+      "mood": "excited",
+      "select": "million"
+    },
+    {
+      "say": "It's UniConverter, minus the yearly bill.",
+      "scene": "slam",
+      "text": "$0 forever",
+      "accent": "minus",
+      "mood": "smug"
+    },
+    {
+      "say": "Comment Shrink, and I'll send you the link.",
+      "scene": "cta",
+      "mood": "point"
+    }
+  ],
+  "hook_style": "story",
+  "window": "night",
+  "publish": {
+    "date": "2026-11-09",
+    "time": "22:20"
+  }
+}

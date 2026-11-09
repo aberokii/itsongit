@@ -1,0 +1,29 @@
+{
+  "title": "Jan: free ChatGPT alternative",
+  "video": "FINAL.mp4",
+  "thumbnail": "FINAL_thumbnail.png",
+  "repo_url": "https://github.com/janhq/jan",
+  "keyword": "OFFLINE",
+  "caption": "ChatGPT Plus charges $20/month to chat with an AI assistant. Jan does it for free \ud83e\udd16\n\n\u2705 Download models like Llama, Gemma and Qwen and chat offline\n\u2705 Custom assistants, plus cloud models like GPT and Claude if you want them\n\u2705 Local server for other apps, and tools like web search\n\u2705 No subscription, everything can run on your own computer\n\n\ud83d\udcbb Mac \u00b7 Windows \u00b7 Linux\n\u2139\ufe0f Local models are smaller than ChatGPT's best cloud models, and bigger ones need a decent computer: Jan suggests about 8GB of RAM for 3B models, 16GB for 7B and 32GB for 13B. ChatGPT Plus's $20 is the monthly price\n\nComment \"OFFLINE\" and I'll DM you the link \ud83d\udd17\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #chatgpt #ai #localai #privacy #freeapps #techtips",
+  "dm_pitch": "Jan, the free open-source ChatGPT alternative that runs offline \ud83e\udd16",
+  "install": "brew install --cask jan",
+  "dm_on_any_comment": true,
+  "follow_gate": true,
+  "slot": 1,
+  "price_source": "https://openai.com/chatgpt/pricing/",
+  "experiment": {
+    "format": "classic",
+    "hook": "demo",
+    "topic": "subscription",
+    "window": "evening"
+  },
+  "idempotencyKey": "fe48e4a7-376a-48e0-ab0c-d69560366f08",
+  "zernio": {
+    "postId": "6af1c9dab66301ec495e0d69",
+    "status": "scheduled",
+    "scheduledFor": "2026-11-09T17:58:00.000Z",
+    "url": null,
+    "automationId": "6af1c9de921f1246316ca372",
+    "slot": 1
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "repo": "janhq/jan",
+  "name": "Jan",
+  "title": "Jan: free ChatGPT alternative",
+  "format": "classic",
+  "slot": 1,
+  "keyword": "OFFLINE",
+  "paid": {
+    "name": "ChatGPT Plus",
+    "price": "$20",
+    "per": "/month",
+    "anchor": "twenty",
+    "source": "https://openai.com/chatgpt/pricing/"
+  },
+  "icon": "https://raw.githubusercontent.com/janhq/jan/main/src-tauri/icons/icon.png",
+  "hook": "ChatGPT Plus charges you twenty bucks a month to chat with an AI assistant. This app does it for free.",
+  "job": "Runs ChatGPT-style AI offline",
+  "platforms": [
+    "Mac",
+    "Windows",
+    "Linux"
+  ],
+  "features": [
+    {
+      "intro": "It runs AI right on your computer.",
+      "say": "Download models like Llama, Gemma and Qwen, and chat with them offline.",
+      "images": [
+        "https://raw.githubusercontent.com/janhq/jan/main/docs/public/assets/images/homepage/features01.png"
+      ],
+      "chips": [
+        {
+          "label": "🦙 Llama",
+          "anchor": "llama"
+        },
+        {
+          "label": "Gemma",
+          "anchor": "gemma"
+        },
+        {
+          "label": "Qwen",
+          "anchor": "qwen"
+        },
+        {
+          "label": "✈️ Offline",
+          "anchor": "offline"
+        }
+      ]
+    },
+    {
+      "say": "Build custom assistants, or plug in cloud models like GPT and Claude.",
+      "images": [
+        "https://raw.githubusercontent.com/janhq/jan/main/docs/public/assets/images/changelog/jan-v0.6.1-ui-revamp.png"
+      ],
+      "chips": [
+        {
+          "label": "🧑‍🏫 Custom assistants",
+          "anchor": "assistants"
+        },
+        {
+          "label": "☁️ Cloud models",
+          "anchor": "cloud"
+        }
+      ]
+    },
+    {
+      "say": "It can even use tools, like searching Google for you.",
+      "images": [
+        "https://raw.githubusercontent.com/janhq/jan/main/docs/public/assets/images/general/research-result-local.png"
+      ],
+      "chips": [
+        {
+          "label": "🔎 Google search",
+          "anchor": "google"
+        }
+      ]
+    }
+  ],
+  "nolist": [
+    {
+      "say": "No subscription.",
+      "label": "Subscription"
+    },
+    {
+      "say": "No internet needed.",
+      "label": "Internet"
+    },
+    {
+      "say": "No data shared.",
+      "label": "Data sharing"
+    }
+  ],
+  "install": "brew install --cask jan",
+  "install_url": "https://jan.ai/",
+  "caption": "ChatGPT Plus charges $20/month to chat with an AI assistant. Jan does it for free 🤖\n\n✅ Download models like Llama, Gemma and Qwen and chat offline\n✅ Custom assistants, plus cloud models like GPT and Claude if you want them\n✅ Local server for other apps, and tools like web search\n✅ No subscription, everything can run on your own computer\n\n💻 Mac · Windows · Linux\nℹ️ Local models are smaller than ChatGPT's best cloud models, and bigger ones need a decent computer: Jan suggests about 8GB of RAM for 3B models, 16GB for 7B and 32GB for 13B. ChatGPT Plus's $20 is the monthly price\n\nComment \"OFFLINE\" and I'll DM you the link 🔗\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #chatgpt #ai #localai #privacy #freeapps #techtips",
+  "dm_pitch": "Jan, the free open-source ChatGPT alternative that runs offline 🤖",
+  "thumb": {
+    "big": "FREE",
+    "line1": "ChatGPT",
+    "line2": "alternative"
+  },
+  "topic_arm": "subscription",
+  "demo": {
+    "images": [
+      "https://raw.githubusercontent.com/janhq/jan/main/docs/public/assets/images/general/research-result-local.png",
+      "https://raw.githubusercontent.com/janhq/jan/main/docs/public/assets/images/homepage/features01.png"
+    ]
+  },
+  "hook_style": "demo",
+  "window": "evening",
+  "publish": {
+    "date": "2026-11-09",
+    "time": "18:58"
+  }
+}

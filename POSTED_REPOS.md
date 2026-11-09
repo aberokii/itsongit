@@ -88,5 +88,7 @@ The scout (`pipeline/scout.py`) skips these automatically via `data/posted.json`
 | 81 | [AppFlowy-IO/AppFlowy](https://github.com/AppFlowy-IO/AppFlowy) | 082-appflowy | FLOW | published | 2026-11-07T11:47 | https://www.instagram.com/reel/DfcG499AqnU/ |
 | 82 | [proginosko/LeechBlockNG](https://github.com/proginosko/LeechBlockNG) | 083-leechblock | FOCUS | published | 2026-11-07T18:49 | https://www.instagram.com/reel/Dfc3O06D2_r/ |
 | 83 | [obsproject/obs-studio](https://github.com/obsproject/obs-studio) | 084-obs | STREAM | published | 2026-11-07T21:49 | https://www.instagram.com/reel/DfdLxHnHJR4/ |
-| 84 | [blender/blender](https://github.com/blender/blender) | 085-blender | RENDER | scheduled | 2026-11-08T17:53 |  |
-| 85 | [syncthing/syncthing](https://github.com/syncthing/syncthing) | 086-syncthing | SYNC | scheduled | 2026-11-08T21:02 |  |
+| 84 | [blender/blender](https://github.com/blender/blender) | 085-blender | RENDER | published | 2026-11-08T17:54 | https://www.instagram.com/reel/DffVq3AjGWs/ |
+| 85 | [syncthing/syncthing](https://github.com/syncthing/syncthing) | 086-syncthing | SYNC | published | 2026-11-08T21:03 | https://www.instagram.com/reel/DffrS9wFA3S/ |
+| 86 | [janhq/jan](https://github.com/janhq/jan) | 087-jan | OFFLINE | scheduled | 2026-11-09T17:58 |  |
+| 87 | [HandBrake/HandBrake](https://github.com/HandBrake/HandBrake) | 088-handbrake | SHRINK | scheduled | 2026-11-09T21:20 |  |

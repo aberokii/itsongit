@@ -1,187 +1,162 @@
 [
-  {
-    "repo": "LMMS/lmms",
-    "name": "LMMS",
-    "arm": "hobby",
-    "paid": {
-      "name": "FL Studio Fruity",
-      "price": "$99",
-      "per": "one-time",
-      "source": "https://www.image-line.com/fl-studio/pricing"
-    },
-    "job": "Makes beats like FL Studio",
-    "platforms": [
-      "Windows",
-      "macOS",
-      "Linux"
-    ],
-    "mass_appeal": 7,
-    "demo_media": null,
-    "stars": 10571,
-    "contributors": 49,
-    "why": "FL Studio is the beat-making app every bedroom producer knows; LMMS has the same pattern/piano-roll workflow free.",
-    "catch": "No README screenshots (lmms.io has them); FL price is from the official page title 'From $99', not a per-edition table; less polished than FL.",
-    "price_verified": false
+ {
+  "repo": "LMMS/lmms",
+  "name": "LMMS",
+  "arm": "hobby",
+  "paid": {
+   "name": "FL Studio Fruity",
+   "price": "$99",
+   "per": "one-time",
+   "source": "https://www.image-line.com/fl-studio/pricing"
   },
-  {
-    "repo": "valinet/ExplorerPatcher",
-    "name": "ExplorerPatcher",
-    "arm": "utility",
-    "paid": {
-      "name": "StartAllBack",
-      "price": "$4.99",
-      "per": "one-time",
-      "source": "https://www.startisback.com/"
-    },
-    "job": "Brings back the old taskbar",
-    "platforms": [
-      "Windows"
-    ],
-    "mass_appeal": 6,
-    "demo_media": null,
-    "stars": 34187,
-    "contributors": 18,
-    "why": "Hating the Windows 11 taskbar/start menu is common and this restores the Windows 10 look for free.",
-    "catch": "Windows updates sometimes break it and some antiviruses flag it; StartAllBack is cheap so the money hook is small.",
-    "price_verified": true
+  "job": "Makes beats like FL Studio",
+  "platforms": [
+   "Windows",
+   "macOS",
+   "Linux"
+  ],
+  "mass_appeal": 7,
+  "demo_media": null,
+  "stars": 10571,
+  "contributors": 49,
+  "why": "FL Studio is the beat-making app every bedroom producer knows; LMMS has the same pattern/piano-roll workflow free.",
+  "catch": "No README screenshots (lmms.io has them); FL price is from the official page title 'From $99', not a per-edition table; less polished than FL.",
+  "price_verified": false
+ },
+ {
+  "repo": "valinet/ExplorerPatcher",
+  "name": "ExplorerPatcher",
+  "arm": "utility",
+  "paid": {
+   "name": "StartAllBack",
+   "price": "$4.99",
+   "per": "one-time",
+   "source": "https://www.startisback.com/"
   },
-  {
-    "repo": "HandBrake/HandBrake",
-    "name": "HandBrake",
-    "arm": "utility",
-    "paid": {
-      "name": "Wondershare UniConverter",
-      "price": "$39.99",
-      "per": "/year",
-      "source": "https://videoconverter.wondershare.com/buy/video-converter-ultimate.html"
-    },
-    "job": "Shrinks huge videos in clicks",
-    "platforms": [
-      "Windows",
-      "macOS",
-      "Linux"
-    ],
-    "mass_appeal": 6,
-    "demo_media": null,
-    "stars": 24835,
-    "contributors": 37,
-    "why": "'Video too big to send' is a daily pain and HandBrake is the classic free converter/compressor.",
-    "catch": "Wondershare's page shows both $39.99 and $45.99 for the yearly plan; README has no screenshots (handbrake.fr has them); slightly close to posted Filee (file converter).",
-    "price_verified": false,
-    "close_to": "003 Filee (conversion)"
+  "job": "Brings back the old taskbar",
+  "platforms": [
+   "Windows"
+  ],
+  "mass_appeal": 6,
+  "demo_media": null,
+  "stars": 34187,
+  "contributors": 18,
+  "why": "Hating the Windows 11 taskbar/start menu is common and this restores the Windows 10 look for free.",
+  "catch": "Windows updates sometimes break it and some antiviruses flag it; StartAllBack is cheap so the money hook is small.",
+  "price_verified": true
+ },
+ {
+  "repo": "lwouis/alt-tab-macos",
+  "name": "AltTab",
+  "arm": "utility",
+  "paid": {
+   "name": "Contexts",
+   "price": "$9.99",
+   "per": "one-time",
+   "source": "https://contexts.co/"
   },
-  {
-    "repo": "lwouis/alt-tab-macos",
-    "name": "AltTab",
-    "arm": "utility",
-    "paid": {
-      "name": "Contexts",
-      "price": "$9.99",
-      "per": "one-time",
-      "source": "https://contexts.co/"
-    },
-    "job": "Brings Windows alt-tab to Mac",
-    "platforms": [
-      "macOS"
-    ],
-    "mass_appeal": 6,
-    "demo_media": null,
-    "stars": 16462,
-    "contributors": 6,
-    "why": "Every Windows-to-Mac switcher misses alt-tab window previews; AltTab adds them free, same Mac-utility lane as winners Loop and Maccy.",
-    "catch": "README only has an SVG illustration (alt-tab.app has real screenshots); small core team.",
-    "price_verified": true
+  "job": "Brings Windows alt-tab to Mac",
+  "platforms": [
+   "macOS"
+  ],
+  "mass_appeal": 6,
+  "demo_media": null,
+  "stars": 16462,
+  "contributors": 6,
+  "why": "Every Windows-to-Mac switcher misses alt-tab window previews; AltTab adds them free, same Mac-utility lane as winners Loop and Maccy.",
+  "catch": "README only has an SVG illustration (alt-tab.app has real screenshots); small core team.",
+  "price_verified": true
+ },
+ {
+  "repo": "iSoron/uhabits",
+  "name": "Loop Habit Tracker",
+  "arm": "utility",
+  "paid": {
+   "name": "Streaks",
+   "price": "$5.99",
+   "per": "one-time",
+   "source": "https://apps.apple.com/us/app/streaks/id963034692"
   },
-  {
-    "repo": "iSoron/uhabits",
-    "name": "Loop Habit Tracker",
-    "arm": "utility",
-    "paid": {
-      "name": "Streaks",
-      "price": "$5.99",
-      "per": "one-time",
-      "source": "https://apps.apple.com/us/app/streaks/id963034692"
-    },
-    "job": "Tracks your habits and streaks",
-    "platforms": [
-      "Android"
-    ],
-    "mass_appeal": 6,
-    "demo_media": null,
-    "stars": 10380,
-    "contributors": 57,
-    "why": "Habit tracking is a mainstream self-improvement trend and Loop is the classic free, ad-free tracker with charts and widgets.",
-    "catch": "Android only while Streaks is iPhone only; Streaks is cheap, so the hook number is small.",
-    "price_verified": true
+  "job": "Tracks your habits and streaks",
+  "platforms": [
+   "Android"
+  ],
+  "mass_appeal": 6,
+  "demo_media": null,
+  "stars": 10380,
+  "contributors": 57,
+  "why": "Habit tracking is a mainstream self-improvement trend and Loop is the classic free, ad-free tracker with charts and widgets.",
+  "catch": "Android only while Streaks is iPhone only; Streaks is cheap, so the hook number is small.",
+  "price_verified": true
+ },
+ {
+  "repo": "linearmouse/linearmouse",
+  "name": "LinearMouse",
+  "arm": "utility",
+  "paid": {
+   "name": "SteerMouse",
+   "price": "$19.99",
+   "per": "one-time",
+   "source": "https://plentycom.jp/en/steermouse/"
   },
-  {
-    "repo": "linearmouse/linearmouse",
-    "name": "LinearMouse",
-    "arm": "utility",
-    "paid": {
-      "name": "SteerMouse",
-      "price": "$19.99",
-      "per": "one-time",
-      "source": "https://plentycom.jp/en/steermouse/"
-    },
-    "job": "Fixes your mouse on a Mac",
-    "platforms": [
-      "macOS"
-    ],
-    "mass_appeal": 5,
-    "demo_media": null,
-    "stars": 7095,
-    "contributors": 22,
-    "why": "Mac + normal mouse = reversed scrolling and acceleration pain; LinearMouse fixes it per device, a Loop/Maccy-style Mac annoyance fix.",
-    "catch": "README has no screenshots (linearmouse.app has them); niche to Mac users with external mice.",
-    "price_verified": true
+  "job": "Fixes your mouse on a Mac",
+  "platforms": [
+   "macOS"
+  ],
+  "mass_appeal": 5,
+  "demo_media": null,
+  "stars": 7095,
+  "contributors": 22,
+  "why": "Mac + normal mouse = reversed scrolling and acceleration pain; LinearMouse fixes it per device, a Loop/Maccy-style Mac annoyance fix.",
+  "catch": "README has no screenshots (linearmouse.app has them); niche to Mac users with external mice.",
+  "price_verified": true
+ },
+ {
+  "repo": "helge17/tuxguitar",
+  "name": "TuxGuitar",
+  "arm": "hobby",
+  "paid": {
+   "name": "Guitar Pro 8",
+   "price": "€69.95",
+   "per": "one-time",
+   "source": "https://www.guitar-pro.com/"
   },
-  {
-    "repo": "helge17/tuxguitar",
-    "name": "TuxGuitar",
-    "arm": "hobby",
-    "paid": {
-      "name": "Guitar Pro 8",
-      "price": "€69.95",
-      "per": "one-time",
-      "source": "https://www.guitar-pro.com/"
-    },
-    "job": "Writes and plays guitar tabs",
-    "platforms": [
-      "Windows",
-      "macOS",
-      "Linux"
-    ],
-    "mass_appeal": 5,
-    "demo_media": null,
-    "stars": 1606,
-    "contributors": 21,
-    "why": "Guitar Pro is the standard tab editor every guitarist knows; TuxGuitar opens .gp files and plays them back free.",
-    "catch": "Guitar Pro's live store page could not be read; €69.95 is from official blog/store snippets via search; old-looking UI; no README screenshots.",
-    "price_verified": false
+  "job": "Writes and plays guitar tabs",
+  "platforms": [
+   "Windows",
+   "macOS",
+   "Linux"
+  ],
+  "mass_appeal": 5,
+  "demo_media": null,
+  "stars": 1606,
+  "contributors": 21,
+  "why": "Guitar Pro is the standard tab editor every guitarist knows; TuxGuitar opens .gp files and plays them back free.",
+  "catch": "Guitar Pro's live store page could not be read; €69.95 is from official blog/store snippets via search; old-looking UI; no README screenshots.",
+  "price_verified": false
+ },
+ {
+  "repo": "surge-synthesizer/surge",
+  "name": "Surge XT",
+  "arm": "hobby",
+  "paid": {
+   "name": "Serum 2",
+   "price": "$249",
+   "per": "one-time",
+   "source": "https://xferrecords.com/products/serum-2"
   },
-  {
-    "repo": "surge-synthesizer/surge",
-    "name": "Surge XT",
-    "arm": "hobby",
-    "paid": {
-      "name": "Serum 2",
-      "price": "$249",
-      "per": "one-time",
-      "source": "https://xferrecords.com/products/serum-2"
-    },
-    "job": "Makes synth sounds like Serum",
-    "platforms": [
-      "Windows",
-      "macOS",
-      "Linux"
-    ],
-    "mass_appeal": 5,
-    "demo_media": null,
-    "stars": 4087,
-    "contributors": 20,
-    "why": "Serum is the most famous synth plugin among producers; Surge XT is a pro-grade free wavetable synth.",
-    "catch": "Needs a DAW to host the plugin (pairs with LMMS); producer niche; no README screenshots.",
-    "price_verified": true
-  }
+  "job": "Makes synth sounds like Serum",
+  "platforms": [
+   "Windows",
+   "macOS",
+   "Linux"
+  ],
+  "mass_appeal": 5,
+  "demo_media": null,
+  "stars": 4087,
+  "contributors": 20,
+  "why": "Serum is the most famous synth plugin among producers; Surge XT is a pro-grade free wavetable synth.",
+  "catch": "Needs a DAW to host the plugin (pairs with LMMS); producer niche; no README screenshots.",
+  "price_verified": true
+ }
 ]

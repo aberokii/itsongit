@@ -1,0 +1,29 @@
+{
+  "title": "HandBrake: free UniConverter alternative",
+  "video": "FINAL.mp4",
+  "thumbnail": "FINAL_thumbnail.png",
+  "repo_url": "https://github.com/HandBrake/HandBrake",
+  "keyword": "SHRINK",
+  "caption": "UniConverter charges $49.99/year to convert and shrink videos. HandBrake does it for free \ud83c\udfac\n\n\u2705 Presets for phones, TVs, the web and Discord-sized clips\n\u2705 Batch queue: line up a pile of videos and walk away\n\u2705 Outputs MP4, MKV or WebM, with H.265, H.264 and AV1\n\u2705 Crop, deinterlace, denoise and add subtitles\n\n\ud83d\udcbb Mac \u00b7 Windows \u00b7 Linux\n\u2139\ufe0f HandBrake is built for converting and compressing, not for editing, and it only handles DVD and Blu-ray sources without copy protection. The $49.99/year is UniConverter's Windows yearly plan; Mac is $59.99\n\nComment \"SHRINK\" and I'll DM you the link \ud83d\udd17\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #videoediting #handbrake #videoconverter #freeapps #techtips",
+  "dm_pitch": "HandBrake, the free open-source UniConverter alternative \ud83c\udfac",
+  "install": "brew install --cask handbrake-app",
+  "dm_on_any_comment": true,
+  "follow_gate": true,
+  "slot": 2,
+  "price_source": "https://videoconverter.wondershare.com/buy/video-converter-ultimate.html",
+  "experiment": {
+    "format": "story",
+    "hook": "story",
+    "topic": "utility",
+    "window": "night"
+  },
+  "idempotencyKey": "df91187d-f91f-4b49-ba6c-86ed3d2ac99d",
+  "zernio": {
+    "postId": "6af1c9e1b66301ec495e0dbb",
+    "status": "scheduled",
+    "scheduledFor": "2026-11-09T21:20:00.000Z",
+    "url": null,
+    "automationId": "6af1c9e24dae7ae043075dd7",
+    "slot": 2
+  }
+}
