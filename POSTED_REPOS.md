@@ -92,4 +92,4 @@ The scout (`pipeline/scout.py`) skips these automatically via `data/posted.json`
 | 85 | [syncthing/syncthing](https://github.com/syncthing/syncthing) | 086-syncthing | SYNC | published | 2026-11-08T21:03 | https://www.instagram.com/reel/DffrS9wFA3S/ |
 | 86 | [janhq/jan](https://github.com/janhq/jan) | 087-jan | OFFLINE | published | 2026-11-09T17:59 | https://www.instagram.com/reel/Dfh7C_2CEVQ/ |
 | 87 | [HandBrake/HandBrake](https://github.com/HandBrake/HandBrake) | 088-handbrake | SHRINK | scheduled | 2026-11-09T21:20 |  |
-| 88 | [LMMS/lmms](https://github.com/LMMS/lmms) | 089-lmms | BEATS | publishing | 2026-11-09T19:41 |  |
+| 88 | [LMMS/lmms](https://github.com/LMMS/lmms) | 089-lmms | BEATS | published | 2026-11-09T19:42 | https://www.instagram.com/reel/DfiG0m6lDdA/ |
