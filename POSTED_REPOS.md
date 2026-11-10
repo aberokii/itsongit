@@ -93,7 +93,7 @@ The scout (`pipeline/scout.py`) skips these automatically via `data/posted.json`
 | 86 | [janhq/jan](https://github.com/janhq/jan) | 087-jan | OFFLINE | published | 2026-11-09T17:59 | https://www.instagram.com/reel/Dfh7C_2CEVQ/ |
 | 87 | [HandBrake/HandBrake](https://github.com/HandBrake/HandBrake) | 088-handbrake | SHRINK | published | 2026-11-09T21:21 | https://www.instagram.com/reel/DfiSKQCn9Nr/ |
 | 88 | [LMMS/lmms](https://github.com/LMMS/lmms) | 089-lmms | BEATS | published | 2026-11-09T19:42 | https://www.instagram.com/reel/DfiG0m6lDdA/ |
-| 89 | [valinet/ExplorerPatcher](https://github.com/valinet/ExplorerPatcher) | 090-explorerpatcher | TASKBAR | scheduled | 2026-11-10T10:22 |  |
+| 89 | [valinet/ExplorerPatcher](https://github.com/valinet/ExplorerPatcher) | 090-explorerpatcher | TASKBAR | published | 2026-11-10T10:23 | https://www.instagram.com/reel/DfjrpuvEsRt/ |
 | 90 | [lwouis/alt-tab-macos](https://github.com/lwouis/alt-tab-macos) | 091-alttab | SWITCH | scheduled | 2026-11-10T17:13 |  |
 | 91 | [iSoron/uhabits](https://github.com/iSoron/uhabits) | 092-loophabit | HABIT | scheduled | 2026-11-10T11:47 |  |
 | 92 | [surge-synthesizer/surge](https://github.com/surge-synthesizer/surge) | 093-surge | SYNTH | scheduled | 2026-11-10T20:58 |  |
