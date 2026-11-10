@@ -1,0 +1,101 @@
+{
+ "repo": "linearmouse/linearmouse",
+ "name": "LinearMouse",
+ "title": "LinearMouse: free SteerMouse alternative",
+ "keyword": "SCROLL",
+ "paid": {
+  "name": "SteerMouse",
+  "price": "$19.99",
+  "per": " once",
+  "anchor": "nineteen",
+  "source": "https://plentycom.jp/en/steermouse/"
+ },
+ "icon": "https://raw.githubusercontent.com/linearmouse/linearmouse/main/LinearMouse/Assets.xcassets/AppIcon.appiconset/Icon-512.png",
+ "job": "Fixes mouse scrolling on Mac",
+ "platforms": [
+  "Mac"
+ ],
+ "install": "brew install --cask linearmouse",
+ "caption": "SteerMouse charges $19.99 to fix a normal mouse on Mac. LinearMouse does it for free 🖱️\n\n✅ Reverse scrolling on your mouse, and keep natural scrolling on your trackpad\n✅ Turn mouse acceleration off, or tune the pointer speed\n✅ Separate settings per device, per app and per display\n✅ Remap your mouse buttons to shortcuts, Mission Control and more\n\n💻 Mac\nℹ️ LinearMouse needs Accessibility permission to read your mouse input. SteerMouse is a $19.99 one-time license with a 30-day free trial\n\nComment \"SCROLL\" and I'll DM you the link 🔗\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #macos #mactips #productivity #freeapps #techtips",
+ "dm_pitch": "LinearMouse, the free open-source SteerMouse alternative 🖱️",
+ "thumb": {
+  "big": "FREE",
+  "line1": "SteerMouse",
+  "line2": "alternative"
+ },
+ "format": "paint",
+ "look": "crayon",
+ "slot": 0,
+ "topic_arm": "utility",
+ "beats": [
+  {
+   "say": "Why pay twenty bucks to fix your Mac's backwards mouse scrolling?",
+   "scene": "slam",
+   "text": "$19.99",
+   "sub": "for a mouse app?",
+   "accent": "twenty",
+   "tone": "neg"
+  },
+  {
+   "say": "This app reverses scrolling on your mouse and turns off mouse acceleration.",
+   "scene": "character",
+   "text": "Finally, a normal mouse 🙌",
+   "select": "acceleration"
+  },
+  {
+   "say": "SteerMouse costs nineteen ninety nine. LinearMouse costs nothing.",
+   "scene": "versus",
+   "select": "nothing"
+  },
+  {
+   "say": "Flip the scroll direction on your mouse, and leave your trackpad alone.",
+   "scene": "app",
+   "image": "https://linearmouse.app/features/feature-2.png",
+   "text": "Reverse scrolling",
+   "accent": "Flip",
+   "select": "trackpad"
+  },
+  {
+   "say": "And it gets better.",
+   "scene": "character",
+   "text": "Wait, per device? 👀"
+  },
+  {
+   "say": "Settings are per device, so your mouse and trackpad each get their own.",
+   "scene": "app",
+   "image": "https://linearmouse.app/features/feature-1.png",
+   "text": "Per-device settings",
+   "accent": "each",
+   "select": "device"
+  },
+  {
+   "say": "It also tunes pointer acceleration, speed, and what each button does.",
+   "scene": "list",
+   "text": "Tune everything",
+   "items": [
+    {
+     "label": "Acceleration",
+     "anchor": "acceleration"
+    },
+    {
+     "label": "Speed",
+     "anchor": "speed"
+    },
+    {
+     "label": "Buttons",
+     "anchor": "button"
+    }
+   ]
+  },
+  {
+   "say": "Your mouse should have worked like this from day one.",
+   "scene": "slam",
+   "text": "Stop paying",
+   "accent": "paying"
+  },
+  {
+   "say": "Comment Scroll, and I'll send you the link.",
+   "scene": "cta"
+  }
+ ]
+}

@@ -1,0 +1,29 @@
+{
+  "title": "LinearMouse: free SteerMouse alternative",
+  "video": "FINAL.mp4",
+  "thumbnail": "FINAL_thumbnail.png",
+  "repo_url": "https://github.com/linearmouse/linearmouse",
+  "keyword": "SCROLL",
+  "caption": "SteerMouse charges $19.99 to fix a normal mouse on Mac. LinearMouse does it for free \ud83d\uddb1\ufe0f\n\n\u2705 Reverse scrolling on your mouse, and keep natural scrolling on your trackpad\n\u2705 Turn mouse acceleration off, or tune the pointer speed\n\u2705 Separate settings per device, per app and per display\n\u2705 Remap your mouse buttons to shortcuts, Mission Control and more\n\n\ud83d\udcbb Mac\n\u2139\ufe0f LinearMouse needs Accessibility permission to read your mouse input. SteerMouse is a $19.99 one-time license with a 30-day free trial\n\nComment \"SCROLL\" and I'll DM you the link \ud83d\udd17\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #macos #mactips #productivity #freeapps #techtips",
+  "dm_pitch": "LinearMouse, the free open-source SteerMouse alternative \ud83d\uddb1\ufe0f",
+  "install": "brew install --cask linearmouse",
+  "dm_on_any_comment": true,
+  "follow_gate": true,
+  "slot": 0,
+  "price_source": "https://plentycom.jp/en/steermouse/",
+  "experiment": {
+    "format": "paint",
+    "hook": "crayon",
+    "topic": null,
+    "window": "paint-exp"
+  },
+  "idempotencyKey": "d18976ce-a4e4-4d1b-92d0-d2494845d63c",
+  "zernio": {
+    "postId": "6af2ea02ace6d21af2f463ce",
+    "status": "publishing",
+    "scheduledFor": "2026-11-10T09:55:14.303Z",
+    "url": null,
+    "automationId": "6af2ea09be50cb589e1134b1",
+    "slot": 0
+  }
+}

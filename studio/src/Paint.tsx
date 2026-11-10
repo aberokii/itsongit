@@ -10,6 +10,8 @@ import {loadFont as loadOswald} from "@remotion/google-fonts/Oswald";
 import {loadFont as loadTechMono} from "@remotion/google-fonts/ShareTechMono";
 import {loadFont as loadAnton} from "@remotion/google-fonts/Anton";
 import {loadFont as loadCabin} from "@remotion/google-fonts/CabinSketch";
+import {loadFont as loadGaegu} from "@remotion/google-fonts/Gaegu";
+import {loadFont as loadPatrick} from "@remotion/google-fonts/PatrickHand";
 import {AccentCtx, f, INTER, MONO, rgba, Sfx, type Word} from "./kit";
 import {accentFor} from "./brand";
 import {GitMark} from "./Logo";
@@ -23,7 +25,7 @@ import type {Beat, StoryProps} from "./Story";
 //   y 262  the spoken line, word-timed; the accent word in the look's display face with a drawn underline, the
 //          `select` word highlighted the look's way (paint swipe, marker loop, dashed callout, ink tint, chalk ring)
 //   y 600–1300  the scene; bottom-right the app icon in a frame (where Kit used to sit)
-type Look = "watercolor" | "whiteboard" | "blueprint" | "risograph" | "chalkboard";
+type Look = "watercolor" | "whiteboard" | "blueprint" | "risograph" | "chalkboard" | "crayon";
 const fam = (x: {fontFamily: string}) => x.fontFamily;
 const F = {
   brush: fam(loadBrush("normal", {weights: ["400"], subsets: ["latin"]})),
@@ -35,13 +37,15 @@ const F = {
   tech: fam(loadTechMono("normal", {weights: ["400"], subsets: ["latin"]})),
   anton: fam(loadAnton("normal", {weights: ["400"], subsets: ["latin"]})),
   cabin: fam(loadCabin("normal", {weights: ["700"], subsets: ["latin"]})),
+  gaegu: fam(loadGaegu("normal", {weights: ["700"], subsets: ["latin"]})),
+  patrick: fam(loadPatrick("normal", {weights: ["400"], subsets: ["latin"]})),
 };
 
 type Theme = {
   look: Look; paper: string; ink: string; muted: string; card: string; acc: string; accInk: string; neg: string; hi: string;
   pig: string[]; solid: boolean; // solid = colour fields (paint, ink); otherwise drawn outlines (marker, line, chalk)
   display: string; displayUpper?: boolean; hand: string; body: string; bodyWeight: number; bodySize: number;
-  textFilter?: string; displayShadow?: string; edge: string; wipe: "brush" | "eraser" | "scan" | "roller";
+  textFilter?: string; displayShadow?: string; edge: string; wipe: "brush" | "eraser" | "scan" | "roller" | "crayon";
 };
 const THEMES: Record<Look, (slotAcc: {hex: string; ink: string}) => Theme> = {
   watercolor: (a) => ({look: "watercolor", paper: "#F3ECDF", ink: "#2A251F", muted: "#7A6F62", card: "#FBF7EF", acc: a.hex, accInk: a.ink, neg: "#D9472B",
@@ -50,6 +54,9 @@ const THEMES: Record<Look, (slotAcc: {hex: string; ink: string}) => Theme> = {
   whiteboard: () => ({look: "whiteboard", paper: "#F6F7F5", ink: "#23262C", muted: "#6B717A", card: "#FFFFFF", acc: "#D97757", accInk: "#D97757", neg: "#D97757",
     hi: "#2A5CB3", pig: ["#2A5CB3", "#D97757", "#23262C"], solid: false, display: F.gochi, hand: F.arch, body: F.kalam, bodyWeight: 700, bodySize: 1.04,
     edge: "url(#p-marker)", wipe: "eraser"}),
+  crayon: () => ({look: "crayon", paper: "#F4EFE3", ink: "#2E3577", muted: "#6A6A9A", card: "#FBF8F0", acc: "#E3452F", accInk: "#2E3577", neg: "#E3452F",
+    hi: "#F4C430", pig: ["#E3452F", "#2F6FD6", "#3FA34D", "#EE7FA6", "#F4C430"], solid: false, display: F.gaegu, hand: F.patrick, body: F.patrick, bodyWeight: 400,
+    bodySize: 1.12, textFilter: "url(#p-wax-lite)", edge: "url(#p-wax)", wipe: "crayon"}),
   blueprint: () => ({look: "blueprint", paper: "#1E4387", ink: "#E7F0F9", muted: "#A9C1E2", card: "#22488F", acc: "#E7F0F9", accInk: "#E7F0F9",
     neg: "#E7F0F9", hi: "#E7F0F9", pig: ["#E7F0F9", "#E7F0F9", "#E7F0F9"], solid: false, display: F.oswald, displayUpper: true, hand: F.tech, body: F.oswald,
     bodyWeight: 500, bodySize: 1.02, edge: "url(#p-line)", wipe: "scan"}),
@@ -106,6 +113,18 @@ const Defs: React.FC = () => (
         <feColorMatrix in="n" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 -0.7 1.3" result="m" />
         <feComposite in="SourceGraphic" in2="m" operator="in" />
       </filter>
+      <filter id="p-wax" x="-5%" y="-5%" width="110%" height="110%">
+        <feTurbulence type="fractalNoise" baseFrequency="0.75" numOctaves={3} seed={13} result="n" />
+        <feColorMatrix in="n" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 -1.5 1.45" result="m" />
+        <feComposite in="SourceGraphic" in2="m" operator="in" result="w" />
+        <feTurbulence type="fractalNoise" baseFrequency="0.035" numOctaves={2} seed={14} />
+        <feDisplacementMap in="w" scale={5} xChannelSelector="R" yChannelSelector="G" />
+      </filter>
+      <filter id="p-wax-lite" x="-5%" y="-5%" width="110%" height="110%">
+        <feTurbulence type="fractalNoise" baseFrequency="0.75" numOctaves={3} seed={13} result="n" />
+        <feColorMatrix in="n" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 -0.8 1.3" result="m" />
+        <feComposite in="SourceGraphic" in2="m" operator="in" />
+      </filter>
       <filter id="p-riso" x="-5%" y="-5%" width="110%" height="110%">
         <feTurbulence type="fractalNoise" baseFrequency="0.8" numOctaves={2} seed={11} result="n" />
         <feColorMatrix in="n" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 -1.1 1.4" result="m" />
@@ -157,13 +176,20 @@ const Patch: React.FC<{color?: string; mode?: "fill" | "card"; radius?: number; 
         border: `3px solid ${T.ink}`, filter: T.edge}} />
       <div style={{position: "absolute", inset: 8, border: `1.5px solid ${rgba(T.ink, 0.7)}`, filter: T.edge}} />
     </>;
+  } else if (T.look === "crayon") {
+    bg = <>
+      {mode === "fill" && <div style={{position: "absolute", inset: -10, borderRadius: radius, transform: "rotate(-1.5deg)", filter: T.edge,
+        background: `repeating-linear-gradient(-32deg, ${rgba(c, 0.9)} 0 9px, transparent 9px 15px), repeating-linear-gradient(28deg, ${rgba(c, 0.35)} 0 6px, transparent 6px 17px)`}} />}
+      {mode === "card" && <div style={{position: "absolute", inset: 0, borderRadius: radius, background: T.card}} />}
+      <div style={{position: "absolute", inset: 0, borderRadius: radius, border: `8px solid ${T.ink}`, filter: T.edge}} />
+    </>;
   } else { // whiteboard, chalkboard: drawn outline, tinted inside when "fill"
     bg = <div style={{position: "absolute", inset: 0, borderRadius: radius, border: `${T.look === "chalkboard" ? 6 : 7}px solid ${mode === "fill" ? c : T.ink}`,
       background: mode === "fill" ? rgba(c, 0.12) : T.card, filter: T.edge}} />;
   }
   return <div style={{position: "relative", ...style}}>{bg}<div style={{position: "relative"}}>{children}</div></div>;
 };
-const onFill = (T: Theme, c: string) => (T.solid ? (c === T.pig[2] || c === "#FFB000" ? T.ink : "#fff") : c);
+const onFill = (T: Theme, c: string) => (T.look === "crayon" ? T.ink : T.solid ? (c === T.pig[2] || c === "#FFB000" ? T.ink : "#fff") : c);
 
 const Background: React.FC = () => {
   const T = useTheme();
@@ -180,6 +206,17 @@ const Background: React.FC = () => {
         {blob(700, 380, 520, 420, "#C9577A", 0.07, 4)}{blob(-200, 1100, 600, 520, "#3C8C86", 0.08, 1)}
         <AbsoluteFill style={{filter: "url(#p-grain)", background: "#fff", opacity: 0.55, mixBlendMode: "multiply"}} />
         <AbsoluteFill style={{background: "radial-gradient(ellipse at 50% 45%, transparent 55%, rgba(90,70,40,0.16) 100%)"}} />
+      </AbsoluteFill>
+    );
+  }
+  if (T.look === "crayon") {
+    return (
+      <AbsoluteFill style={{background: T.paper, overflow: "hidden"}}>
+        <div style={{position: "absolute", left: -200, top: -260, width: 1500, height: 620, borderRadius: "50%", background: "#3D6BE0", opacity: 0.09, filter: "url(#p-wash)",
+          transform: `translateX(${Math.sin(t * 0.2) * 20}px)`}} />
+        <div style={{position: "absolute", left: -100, top: 1620, width: 1300, height: 500, borderRadius: "50%", background: "#3FA34D", opacity: 0.08, filter: "url(#p-wash)"}} />
+        <AbsoluteFill style={{filter: "url(#p-grain)", background: "#fff", opacity: 0.4, mixBlendMode: "multiply"}} />
+        <AbsoluteFill style={{background: `repeating-linear-gradient(0deg, rgba(120,100,60,0.035) 0 1px, transparent 1px 4px)`}} />
       </AbsoluteFill>
     );
   }
@@ -246,6 +283,8 @@ const Wipe: React.FC<{b: Beat; color: string; children: React.ReactNode}> = ({b,
   const edge = -500 + k * 2300;
   const band: React.CSSProperties =
     T.wipe === "brush" ? {left: edge - 300, width: 420, background: color, transform: "skewX(-11deg)", filter: "url(#p-bristle)", opacity: 0.92}
+      : T.wipe === "crayon" ? {left: edge - 320, width: 400, transform: "skewX(-9deg)", filter: "url(#p-wax)",
+        background: `repeating-linear-gradient(-58deg, ${color} 0 14px, transparent 14px 20px)`}
       : T.wipe === "eraser" ? {left: edge - 360, width: 460, background: T.paper, transform: "skewX(-8deg)", filter: "blur(14px)", opacity: 0.97}
         : T.wipe === "scan" ? {left: edge - 20, width: 6, background: "#F4F9FF", boxShadow: "0 0 30px 10px rgba(231,240,249,0.5)"}
           : {left: edge - 320, width: 380, background: `${halftone("#ffffff", 0.25, 9)}, ${color}`, transform: "skewX(-6deg)", mixBlendMode: "multiply", filter: "url(#p-riso)"};
@@ -334,6 +373,8 @@ const Field: React.FC<{color: string; k: number; w?: number; h?: number; top?: n
   if (T.look === "watercolor") return <div style={{...base, borderRadius: "48%", background: color, opacity: 0.32 * k, filter: "url(#p-wash)"}} />;
   if (T.look === "risograph") return <div style={{...base, borderRadius: "50%", background: halftone(color, 0.85, 10), opacity: k, mixBlendMode: "multiply", filter: T.edge}} />;
   if (T.look === "blueprint") return <div style={{...base, border: `2px dashed ${rgba(T.ink, 0.5)}`, opacity: k}} />;
+  if (T.look === "crayon") return <div style={{...base, borderRadius: "50%", opacity: k, filter: T.edge, border: `8px solid ${T.ink}`,
+    background: `repeating-linear-gradient(-30deg, ${rgba(color, 0.55)} 0 10px, transparent 10px 17px)`}} />;
   return <div style={{...base, borderRadius: "50%", border: `7px solid ${color}`, opacity: 0.9 * k, filter: T.edge}} />;
 };
 
@@ -450,7 +491,7 @@ const Versus: React.FC<{b: Beat; dir: string; icon?: string}> = ({b, dir, icon})
       <Patch radius={34}><div style={{padding: "34px 20px 30px", display: "flex", flexDirection: "column", alignItems: "center", gap: 6, filter: T.textFilter}}>{children}</div></Patch>
     </div>
   );
-  const freeCol = T.look === "watercolor" ? T.acc : T.look === "risograph" ? T.pig[1] : T.look === "blueprint" ? T.ink : T.hi;
+  const freeCol = T.look === "watercolor" ? T.acc : T.look === "crayon" ? "#2E8F3E" : T.look === "risograph" ? T.pig[1] : T.look === "blueprint" ? T.ink : T.hi;
   return (
     <div style={{position: "absolute", top: TOP, left: 0, right: 0, height: 700}}>
       {card(<>
@@ -531,7 +572,7 @@ const Splash: React.FC<{b: Beat; color: string}> = ({b, color}) => {
       )}
       <Splatter at={b.start + 0.1} b={b} color={color} />
       <div style={{position: "relative", maxWidth: 800, textAlign: "center", fontFamily: T.display, fontWeight: T.look === "blueprint" ? 700 : 400,
-        fontSize: (b.text.length > 24 ? 104 : 128) * (T.displayUpper ? 0.85 : 1), lineHeight: 1.04, color: T.solid ? "#fff" : T.look === "blueprint" ? T.ink : color,
+        fontSize: (b.text.length > 24 ? 104 : 128) * (T.displayUpper ? 0.85 : 1), lineHeight: 1.04, color: T.solid ? "#fff" : T.look === "blueprint" || T.look === "crayon" ? T.ink : color,
         textTransform: T.displayUpper ? "uppercase" : undefined, textShadow: T.solid ? "0 4px 0 rgba(0,0,0,0.12)" : undefined, filter: T.textFilter,
         opacity: Math.min(p * 2, 1), transform: `scale(${0.7 + 0.3 * p}) rotate(${T.look === "blueprint" ? 0 : -3}deg)`}}>{b.text}</div>
     </div>
@@ -556,7 +597,7 @@ const Cta: React.FC<{b: Beat; keyword: string}> = ({b, keyword}) => {
             fontSize: kw.length > 6 ? 170 : 210, lineHeight: 1, filter: "url(#p-riso)", background: "rgba(216,50,43,0.08)"}}>{kw}</div>
           : <Patch mode="fill" color={T.acc} radius={70}>
             <div style={{padding: "10px 70px 26px", fontFamily: T.display, fontSize: (kw.length > 6 ? 180 : 230) * (T.displayUpper ? 0.85 : 1), lineHeight: 1,
-              color: T.solid ? T.accInk : T.acc, filter: T.textFilter}}>{kw}</div>
+              color: T.solid || T.look === "crayon" ? T.accInk : T.acc, filter: T.textFilter}}>{kw}</div>
           </Patch>}
       </div>
       <div style={{position: "absolute", top: TOP + 540, opacity: c, transform: `rotate(${stamp ? 0 : 2}deg)`}}>
@@ -599,7 +640,8 @@ export const PaintStory: React.FC<PaintProps> = (props) => {
         <AbsoluteFill style={{background: T.paper}}>
           <Defs />
           <Background />
-          <AbsoluteFill style={{transform: shake}}>
+          <AbsoluteFill style={{transform: [shake, T.look === "crayon" ? (() => { const n = Math.floor(frame / 2);
+            return `translate(${(Math.sin(n * 12.9898) * 43758.5453 % 1) * 1.6}px, ${(Math.sin(n * 78.233) * 12345.678 % 1) * 1.6}px)`; })() : ""].filter(Boolean).join(" ") || undefined}}>
             <Header i={idx} name={p.name || "itsongit"} right={right} />
             {p.beats.map((b, i) => (
               <Sequence key={i} from={f(b.start)} durationInFrames={Math.max(1, f(b.end) - f(b.start))} name={`${i}-${b.scene}`}>

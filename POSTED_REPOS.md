@@ -98,3 +98,4 @@ The scout (`pipeline/scout.py`) skips these automatically via `data/posted.json`
 | 91 | [iSoron/uhabits](https://github.com/iSoron/uhabits) | 092-loophabit | HABIT | scheduled | 2026-11-10T11:47 |  |
 | 92 | [surge-synthesizer/surge](https://github.com/surge-synthesizer/surge) | 093-surge | SYNTH | scheduled | 2026-11-10T20:58 |  |
 | 93 | [helge17/tuxguitar](https://github.com/helge17/tuxguitar) | 094-tuxguitar | GUITAR | scheduled | 2026-11-10T18:41 |  |
+| 94 | [linearmouse/linearmouse](https://github.com/linearmouse/linearmouse) | 095-linearmouse | SCROLL | published | 2026-11-10T09:56 | https://www.instagram.com/reel/DfjomGFjar5/ |
