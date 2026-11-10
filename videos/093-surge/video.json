@@ -1,0 +1,86 @@
+{
+ "repo": "surge-synthesizer/surge",
+ "name": "Surge XT",
+ "title": "Surge XT: free Serum 2 alternative",
+ "keyword": "SYNTH",
+ "paid": {
+  "name": "Serum 2",
+  "price": "$249",
+  "per": " once",
+  "anchor": "two",
+  "source": "https://xferrecords.com/products/serum-2"
+ },
+ "icon": "https://raw.githubusercontent.com/surge-synthesizer/surge/main/resources/assets/Logo/PNG/surge_icon_512.png",
+ "job": "Makes your own synth sounds",
+ "platforms": ["Mac", "Windows", "Linux"],
+ "install": "brew install --cask surge-xt",
+ "caption": "Serum 2 costs $249. Surge XT makes your own synth sounds for free 🎹\n\n✅ Over 2,800 ready-made sounds to start from\n✅ 3 oscillators per scene, with 12 oscillator types\n✅ Filters, LFOs and 27 effects to shape your sound\n✅ Runs inside your music app, or on its own\n\n💻 Mac · Windows · Linux\nℹ️ Surge XT works best as a plugin inside a music app (a DAW), though it also runs standalone. Serum 2 is a one-time $249 purchase\n\nComment \"SYNTH\" and I'll DM you the link 🔗\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #musicproduction #synthesizer #producer #freeapps #beatmaker #techtips",
+ "dm_pitch": "Surge XT, the free open-source Serum 2 alternative 🎹",
+ "thumb": {
+  "big": "FREE",
+  "line1": "Serum 2",
+  "line2": "alternative"
+ },
+ "format": "paint",
+ "slot": 3,
+ "topic_arm": "hobby",
+ "beats": [
+  {
+   "say": "Serum 2 costs two hundred forty nine dollars. This synth costs zero.",
+   "scene": "slam",
+   "text": "$249",
+   "accent": "$249",
+   "tone": "neg",
+   "select": "zero"
+  },
+  {
+   "say": "A synth is how you make your own sounds in your music software.",
+   "scene": "character",
+   "text": "Wait, it's free?! 🤯",
+   "accent": "own"
+  },
+  {
+   "say": "Serum 2 is two hundred forty nine, once. Surge XT is nothing.",
+   "scene": "versus",
+   "select": "nothing"
+  },
+  {
+   "say": "Surge XT comes with over twenty eight hundred ready-made sounds.",
+   "scene": "app",
+   "image": "assets/surge-ui.png",
+   "text": "2,800+ sounds",
+   "accent": "twenty",
+   "select": "sounds"
+  },
+  {
+   "say": "Build your own with oscillators, filters and effects.",
+   "scene": "list",
+   "text": "Shape any sound",
+   "items": [
+    {"label": "Oscillators", "anchor": "oscillators"},
+    {"label": "Filters", "anchor": "filters"},
+    {"label": "Effects", "anchor": "effects"}
+   ],
+   "select": "own"
+  },
+  {
+   "say": "Open it inside your music app, or run it all by itself.",
+   "scene": "app",
+   "image": "https://surge-synthesizer.github.io/images/digital.png",
+   "text": "Plugin or standalone",
+   "accent": "inside",
+   "select": "itself"
+  },
+  {
+   "say": "Nobody needs to pay for this.",
+   "scene": "slam",
+   "text": "Skip the $249",
+   "accent": "$249",
+   "select": "pay"
+  },
+  {
+   "say": "Comment Synth, and I'll send you the link.",
+   "scene": "cta"
+  }
+ ]
+}

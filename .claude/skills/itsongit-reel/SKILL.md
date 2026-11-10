@@ -204,6 +204,16 @@ Look (paper theme, BRAND.md): warm off-white, charcoal type, tomato for money, K
 QA for story reels: frame 0 shows the hook line and the hook text big (not an empty frame); every beat's scene matches its line; Kit is
 never covering text; the price strip/numbers are correct; 22–35 s.
 
+### 3c. Paint look (`"format": "paint"`): experiment, 2026-11-10
+
+Same `beats` schema and rules as §3b, rendered by `studio/src/Paint.tsx`: watercolour paper, brush-edged cards, a
+paint-stroke wipe on every cut, brush lettering (Caveat Brush / Caveat), and **no Kit**. A `character` beat becomes a
+big painted splash with its `text` (≤ 6 words); the app icon sits in a painted frame in the bottom-right instead of
+the cat. Tall (phone) screenshots get a tall frame automatically. `post.json` is tagged `experiment.format = "paint"`
+(outside the classic-vs-story test). Rendering in a Claude cloud container needs
+`REMOTION_BROWSER=/opt/pw-browsers/chromium-1243/chrome-linux64/chrome` (Remotion's own headless shell doesn't trust
+the container's proxy certificate, so Google Fonts fail to load); GitHub Actions needs nothing extra.
+
 ### Script rules (the voiceover is assembled from these fields)
 The final script is: `hook` + "It's called {name}." + the fixed GitHub line + the features (intro + say) + the no-list
 + the install line (built from `install` + `platforms`, see below) + "Comment {Keyword}, and I'll send you the link."

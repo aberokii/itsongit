@@ -1,0 +1,34 @@
+{
+ "repo": "iSoron/uhabits",
+ "name": "Loop Habit Tracker",
+ "title": "Loop: free Streaks alternative",
+ "keyword": "HABIT",
+ "paid": {
+  "name": "Streaks",
+  "price": "$5.99",
+  "per": " once",
+  "anchor": "six",
+  "source": "https://apps.apple.com/us/app/streaks/id963034692"
+ },
+ "icon": "https://raw.githubusercontent.com/iSoron/uhabits/HEAD/uhabits-android/src/main/ic_launcher-web.png",
+ "job": "Tracks habits with streaks",
+ "platforms": ["Android"],
+ "install": "Download from Google Play or F-Droid",
+ "caption": "Streaks charges $5.99 on iPhone to track your habits. Loop does it on Android for free 🔥\n\n✅ Tick off habits daily and watch your streaks build\n✅ Charts for your habit score, history and best streaks\n✅ Reminders and home screen widgets\n✅ No ads, no accounts, no in-app purchases\n\n📱 Android\nℹ️ Loop is Android only, while Streaks is an iPhone app, so this is the closest free swap for Android users. Streaks is a one-time $5.99 purchase, not a subscription\n\nComment \"HABIT\" and I'll DM you the link 🔗\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #habittracker #android #productivity #freeapps #selfimprovement",
+ "dm_pitch": "Loop Habit Tracker, the free open-source habit app for Android 🔥",
+ "thumb": {"big": "FREE", "line1": "Streaks", "line2": "alternative"},
+ "format": "paint",
+ "slot": 2,
+ "topic_arm": "utility",
+ "beats": [
+  {"say": "If you still pay six dollars for a habit app, stop scrolling.", "scene": "slam", "text": "$5.99", "accent": "six", "tone": "neg"},
+  {"say": "Loop tracks your habits, with streaks and charts, and it's free.", "scene": "character", "text": "Wait, it's free?! 🤯", "select": "free"},
+  {"say": "Streaks charges six dollars on iPhone. Loop is zero on Android.", "scene": "versus", "select": "zero"},
+  {"say": "Tick off a habit every day and watch your streaks build.", "scene": "app", "image": "https://raw.githubusercontent.com/iSoron/uhabits/HEAD/uhabits-android/src/main/play/listings/en-US/graphics/phone-screenshots/1.png", "text": "Daily check-ins", "accent": "streaks"},
+  {"say": "Charts show your score, your history, and your best streaks.", "scene": "app", "image": "https://raw.githubusercontent.com/iSoron/uhabits/HEAD/uhabits-android/src/main/play/listings/en-US/graphics/phone-screenshots/3.png", "text": "Charts and streaks", "select": "history"},
+  {"say": "No ads, no accounts, and no in-app purchases.", "scene": "list", "text": "Never any", "items": [{"label": "Ads", "anchor": "ads"}, {"label": "Accounts", "anchor": "accounts"}, {"label": "Purchases", "anchor": "purchases"}]},
+  {"say": "It even works offline, and your data stays on your phone.", "scene": "character", "text": "Fully private 🔒", "accent": "offline"},
+  {"say": "Stop paying for streaks.", "scene": "slam", "text": "Stop paying", "accent": "paying"},
+  {"say": "Comment Habit, and I'll send you the link.", "scene": "cta"}
+ ]
+}
