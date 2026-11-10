@@ -202,10 +202,14 @@ def make_story(V, vdir, slot, pub, pub_rel, work, a):
         beats.append(b)
     props = {"accent": slot, "dir": pub_rel, "words": words, "beats": beats, "keyword": V["keyword"], "end": end, "icon": "icon.png",
              "name": V["name"], "paid": V["paid"]["name"]}
+    if V.get("format") == "paint":  # watercolor | whiteboard | blueprint | risograph | chalkboard (studio/src/Paint.tsx)
+        props["look"] = V.get("look", "watercolor")
     (work / "props.json").write_text(json.dumps(props))
     raw = work / "reel_raw.mp4"
-    run(["npx", "remotion", "render", "src/index.ts", "story", raw, f"--props={work / 'props.json'}", "--codec=h264", "--crf=18",
-         "--audio-bitrate=320k"], cwd=ROOT / "studio")
+    comp = "paint" if V.get("format") == "paint" else "story"
+    bx = [f"--browser-executable={os.environ['REMOTION_BROWSER']}"] if os.environ.get("REMOTION_BROWSER") else []
+    run(["npx", "remotion", "render", "src/index.ts", comp, raw, f"--props={work / 'props.json'}", "--codec=h264", "--crf=18",
+         "--audio-bitrate=320k", *bx], cwd=ROOT / "studio")
     final = vdir / "FINAL.mp4"
     run(["ffmpeg", "-v", "error", "-y", "-i", raw, "-c:v", "copy", "-af", "loudnorm=I=-14:TP=-1.5:LRA=11", "-c:a", "aac",
          "-b:a", "320k", "-ar", "48000", "-movflags", "+faststart", final])
@@ -213,14 +217,15 @@ def make_story(V, vdir, slot, pub, pub_rel, work, a):
     tprops = {"accent": slot, "icon": f"{pub_rel}/icon.png", "paid": V["paid"]["name"], "price": price_short(V),
               "big": th.get("big", "FREE"), "line1": th["line1"], "line2": th["line2"], "repo": V["repo"], "job": V.get("job", "")}
     (work / "thumb.json").write_text(json.dumps(tprops))
-    run(["npx", "remotion", "still", "src/index.ts", "thumb", vdir / "FINAL_thumbnail.png", f"--props={work / 'thumb.json'}"], cwd=ROOT / "studio")
+    run(["npx", "remotion", "still", "src/index.ts", "thumb", vdir / "FINAL_thumbnail.png", f"--props={work / 'thumb.json'}", *bx], cwd=ROOT / "studio")
     post_path = vdir / "post.json"
     post = json.loads(post_path.read_text()) if post_path.exists() else {}
     post.update({"title": V["title"], "video": "FINAL.mp4", "thumbnail": "FINAL_thumbnail.png",
                  "repo_url": f"https://github.com/{V['repo']}", "keyword": V["keyword"].upper(), "caption": V["caption"],
                  "dm_pitch": V["dm_pitch"], "install": V["install"], "dm_on_any_comment": True, "follow_gate": True, "slot": slot,
                  "price_source": V["paid"].get("source"),
-                 "experiment": {"format": "story", "hook": "story", "topic": V.get("topic_arm"), "window": V.get("window")}})
+                 "experiment": ({"format": "paint", "hook": V.get("look", "watercolor"), "topic": None, "window": "paint-exp"} if comp == "paint" else
+                                {"format": "story", "hook": "story", "topic": V.get("topic_arm"), "window": V.get("window")})})
     post_path.write_text(json.dumps(post, indent=2, ensure_ascii=False))
     ver = vdir / "verify"
     ts = [0.0] + [min(b["end"] - 0.05, b["start"] + 0.9) for b in beats[1:]] + [end - 0.3]
@@ -256,7 +261,7 @@ def main():
     for d in (pub, vdir / "work", vdir / "verify"):
         d.mkdir(parents=True, exist_ok=True)
     work = vdir / "work"
-    if V.get("format") == "story":  # format C: animated explainer with Kit the cat (studio/src/Story.tsx)
+    if V.get("format") in ("story", "paint"):  # format C (+ the painted look, studio/src/Paint.tsx): animated explainer with Kit the cat (studio/src/Story.tsx)
         return make_story(V, vdir, slot, pub, pub_rel, work, a)
 
     # ── 1. script: ordered sections → tokens ──────────────────────────────────────────────────

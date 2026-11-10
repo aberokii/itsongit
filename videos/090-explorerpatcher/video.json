@@ -1,0 +1,94 @@
+{
+ "repo": "valinet/ExplorerPatcher",
+ "name": "ExplorerPatcher",
+ "title": "ExplorerPatcher: free StartAllBack alternative",
+ "keyword": "TASKBAR",
+ "paid": {
+  "name": "StartAllBack",
+  "price": "$4.99",
+  "per": " one-time",
+  "anchor": "four",
+  "source": "https://www.startisback.com/"
+ },
+ "icon": "assets/icon.png",
+ "job": "Brings back the old taskbar",
+ "platforms": [
+  "Windows"
+ ],
+ "install": "Download from GitHub Releases",
+ "caption": "StartAllBack charges $4.99 to bring the Windows 10 taskbar back on Windows 11. ExplorerPatcher does it for free 🪟\n\n✅ Windows 10 taskbar and Start menu on Windows 11\n✅ Windows 10 style Alt+Tab window switcher\n✅ Never combine taskbar icons, plus more tweaks\n✅ Built-in updates, no subscription\n\n💻 Windows\nℹ️ Some features may be unavailable on some Windows versions, so update it when a new Windows build lands. The installer restarts File Explorer, so save your work first. StartAllBack's $4.99 is its cheapest one-PC license\n\nComment \"TASKBAR\" and I'll DM you the link 🔗\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #windows11 #windows10 #taskbar #freeapps #techtips",
+ "dm_pitch": "ExplorerPatcher, the free open-source StartAllBack alternative 🪟",
+ "thumb": {
+  "big": "FREE",
+  "line1": "StartAllBack",
+  "line2": "alternative"
+ },
+ "format": "paint",
+ "slot": 0,
+ "topic_arm": "utility",
+ "beats": [
+  {
+   "say": "People pay five bucks to get the Windows 10 taskbar back on Windows 11.",
+   "scene": "slam",
+   "text": "$4.99",
+   "accent": "five",
+   "tone": "neg"
+  },
+  {
+   "say": "This free app does it.",
+   "scene": "character",
+   "text": "Free. Really. 😳",
+   "select": "free"
+  },
+  {
+   "say": "StartAllBack charges four ninety nine. ExplorerPatcher costs nothing.",
+   "scene": "versus",
+   "select": "nothing"
+  },
+  {
+   "say": "It brings back the old taskbar and the Windows 10 Start menu.",
+   "scene": "app",
+   "image": "https://gist.githubusercontent.com/valinet/d0f72ff09773702584e77c46065b95e0/raw/94036ed3e38218b87744a29ae5c40b06be637daf/ep_img0.png",
+   "text": "Win 10 taskbar + Start",
+   "accent": "old",
+   "select": "Start"
+  },
+  {
+   "say": "Switch the taskbar, Start menu, even Alt Tab back to Windows 10 style.",
+   "scene": "list",
+   "text": "Switch it back",
+   "items": [
+    {
+     "label": "Taskbar",
+     "anchor": "taskbar"
+    },
+    {
+     "label": "Start menu",
+     "anchor": "Start"
+    },
+    {
+     "label": "Alt+Tab",
+     "anchor": "Alt"
+    }
+   ]
+  },
+  {
+   "say": "It all lives in one settings window. Just right-click the taskbar.",
+   "scene": "app",
+   "image": "https://user-images.githubusercontent.com/6503598/137494597-6ab591bc-3384-4b86-99be-80d2dedcd492.png",
+   "text": "Right-click → Properties",
+   "select": "settings"
+  },
+  {
+   "say": "Stop paying for a taskbar. Just download this.",
+   "scene": "slam",
+   "text": "Stop paying",
+   "accent": "paying"
+  },
+  {
+   "say": "Comment Taskbar, and I'll send you the link.",
+   "scene": "cta"
+  }
+ ],
+ "look": "blueprint"
+}

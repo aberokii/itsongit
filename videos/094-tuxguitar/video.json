@@ -1,0 +1,99 @@
+{
+ "repo": "helge17/tuxguitar",
+ "name": "TuxGuitar",
+ "title": "TuxGuitar: free Guitar Pro alternative",
+ "keyword": "GUITAR",
+ "paid": {
+  "name": "Guitar Pro 8",
+  "price": "$69.95",
+  "per": " one-time",
+  "anchor": "seventy",
+  "source": "https://www.guitar-pro.com/10-products"
+ },
+ "icon": "https://raw.githubusercontent.com/helge17/tuxguitar/master/fastlane/metadata/android/en-US/images/icon.png",
+ "job": "Writes and plays guitar tabs",
+ "platforms": [
+  "Windows",
+  "Mac",
+  "Linux",
+  "Android"
+ ],
+ "install": "Download from GitHub Releases",
+ "caption": "Guitar Pro 8 costs $69.95. TuxGuitar writes and plays guitar tabs for free 🎸\n\n✅ Write tabs next to regular sheet music\n✅ Built-in player plays your song back\n✅ Opens Guitar Pro, Power Tab, TablEdit and MIDI files\n✅ Free, with no trial and no subscription\n\n💻 Windows · Mac · Linux · Android\nℹ️ The interface looks a bit dated, and the installers aren't signed, so your system will warn you on first install. It also isn't a clone of Guitar Pro 8, so some of its features differ\n\nComment \"GUITAR\" and I'll DM you the link 🔗\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #guitar #guitartabs #music #guitarist #freeapps",
+ "dm_pitch": "TuxGuitar, the free open-source Guitar Pro alternative 🎸",
+ "thumb": {
+  "big": "FREE",
+  "line1": "Guitar Pro",
+  "line2": "alternative"
+ },
+ "format": "paint",
+ "slot": 4,
+ "topic_arm": "hobby",
+ "beats": [
+  {
+   "say": "Guitar Pro charges seventy dollars to write and play guitar tabs.",
+   "scene": "slam",
+   "text": "$69.95",
+   "tone": "neg",
+   "accent": "seventy",
+   "select": "tabs"
+  },
+  {
+   "say": "TuxGuitar writes, opens and plays guitar tabs, even Guitar Pro files.",
+   "scene": "character",
+   "text": "Wait, it's free?! 🎸",
+   "accent": "even"
+  },
+  {
+   "say": "Guitar Pro costs seventy dollars. TuxGuitar costs nothing.",
+   "scene": "versus",
+   "select": "nothing"
+  },
+  {
+   "say": "Write guitar tabs right next to regular sheet music.",
+   "scene": "app",
+   "image": "https://raw.githubusercontent.com/helge17/tuxguitar/master/misc/Screenshot_Breeze.png",
+   "text": "Tabs + sheet music",
+   "accent": "right",
+   "select": "sheet"
+  },
+  {
+   "say": "Then hit play, and the built-in player performs it for you.",
+   "scene": "app",
+   "image": "https://raw.githubusercontent.com/helge17/tuxguitar/master/misc/Screenshot_Oxygen-dark.png",
+   "text": "Built-in player",
+   "select": "play"
+  },
+  {
+   "say": "And it opens Guitar Pro, Power Tab, TablEdit and MIDI files.",
+   "scene": "list",
+   "text": "Opens your files",
+   "items": [
+    {
+     "label": "Guitar Pro",
+     "anchor": "Guitar"
+    },
+    {
+     "label": "Power Tab",
+     "anchor": "Power"
+    },
+    {
+     "label": "MIDI",
+     "anchor": "MIDI"
+    }
+   ]
+  },
+  {
+   "say": "That's seventy dollars back in your pocket.",
+   "scene": "slam",
+   "text": "Keep $70",
+   "accent": "Keep",
+   "select": "pocket"
+  },
+  {
+   "say": "Comment Guitar, and I'll send you the link.",
+   "scene": "cta"
+  }
+ ],
+ "look": "chalkboard"
+}

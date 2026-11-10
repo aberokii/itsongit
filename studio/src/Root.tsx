@@ -8,6 +8,7 @@ import {LogoIG, LogoRound} from "./Logo";
 import {Reel, type ReelProps} from "./Reel";
 import reelDefaults from "./reel-default-props.json";
 import {Story, type StoryProps} from "./Story";
+import {PaintStory} from "./Paint";
 
 const storyDefaults: StoryProps = {accent: 0, dir: "reels/demo", words: [], keyword: "MIX", end: 3,
   beats: [{start: 0, end: 3, scene: "slam", text: "Hello", mood: "excited"}]};
@@ -31,6 +32,15 @@ export const RemotionRoot: React.FC = () => (
   <Composition
     id="story"
     component={Story}
+    defaultProps={storyDefaults}
+    calculateMetadata={({props}) => ({durationInFrames: Math.round(props.end * FPS)})}
+    fps={FPS}
+    width={1080}
+    height={1920}
+  />
+  <Composition
+    id="paint"
+    component={PaintStory}
     defaultProps={storyDefaults}
     calculateMetadata={({props}) => ({durationInFrames: Math.round(props.end * FPS)})}
     fps={FPS}

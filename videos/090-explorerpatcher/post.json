@@ -1,0 +1,29 @@
+{
+  "title": "ExplorerPatcher: free StartAllBack alternative",
+  "video": "FINAL.mp4",
+  "thumbnail": "FINAL_thumbnail.png",
+  "repo_url": "https://github.com/valinet/ExplorerPatcher",
+  "keyword": "TASKBAR",
+  "caption": "StartAllBack charges $4.99 to bring the Windows 10 taskbar back on Windows 11. ExplorerPatcher does it for free \ud83e\ude9f\n\n\u2705 Windows 10 taskbar and Start menu on Windows 11\n\u2705 Windows 10 style Alt+Tab window switcher\n\u2705 Never combine taskbar icons, plus more tweaks\n\u2705 Built-in updates, no subscription\n\n\ud83d\udcbb Windows\n\u2139\ufe0f Some features may be unavailable on some Windows versions, so update it when a new Windows build lands. The installer restarts File Explorer, so save your work first. StartAllBack's $4.99 is its cheapest one-PC license\n\nComment \"TASKBAR\" and I'll DM you the link \ud83d\udd17\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #windows11 #windows10 #taskbar #freeapps #techtips",
+  "dm_pitch": "ExplorerPatcher, the free open-source StartAllBack alternative \ud83e\ude9f",
+  "install": "Download from GitHub Releases",
+  "dm_on_any_comment": true,
+  "follow_gate": true,
+  "slot": 0,
+  "price_source": "https://www.startisback.com/",
+  "experiment": {
+    "format": "paint",
+    "hook": "blueprint",
+    "topic": null,
+    "window": "paint-exp"
+  },
+  "idempotencyKey": "83d49dc0-47ca-4dea-98c8-fdd334fff7bb",
+  "zernio": {
+    "postId": "6af2d7aa99c2b56dc869d9e2",
+    "status": "scheduled",
+    "scheduledFor": "2026-11-10T10:22:00.000Z",
+    "url": null,
+    "automationId": "6af2d7ac647ae2489533eed3",
+    "slot": 0
+  }
+}
