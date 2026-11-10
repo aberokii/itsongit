@@ -1,0 +1,20 @@
+{
+  "title": "Surge XT: free Serum 2 alternative",
+  "video": "FINAL.mp4",
+  "thumbnail": "FINAL_thumbnail.png",
+  "repo_url": "https://github.com/surge-synthesizer/surge",
+  "keyword": "SYNTH",
+  "caption": "Serum 2 costs $249. Surge XT makes your own synth sounds for free 🎹\n\n✅ Over 2,800 ready-made sounds to start from\n✅ 3 oscillators per scene, with 12 oscillator types\n✅ Filters, LFOs and 27 effects to shape your sound\n✅ Runs inside your music app, or on its own\n\n💻 Mac · Windows · Linux\nℹ️ Surge XT works best as a plugin inside a music app (a DAW), though it also runs standalone. Serum 2 is a one-time $249 purchase\n\nComment \"SYNTH\" and I'll DM you the link 🔗\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #musicproduction #synthesizer #producer #freeapps #beatmaker #techtips",
+  "dm_pitch": "Surge XT, the free open-source Serum 2 alternative 🎹",
+  "install": "brew install --cask surge-xt",
+  "dm_on_any_comment": true,
+  "follow_gate": true,
+  "slot": 3,
+  "price_source": "https://xferrecords.com/products/serum-2",
+  "experiment": {
+    "format": "paint",
+    "hook": "risograph",
+    "topic": null,
+    "window": "paint-exp"
+  }
+}

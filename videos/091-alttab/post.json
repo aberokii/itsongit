@@ -1,0 +1,20 @@
+{
+  "title": "AltTab: free Contexts alternative",
+  "video": "FINAL.mp4",
+  "thumbnail": "FINAL_thumbnail.png",
+  "repo_url": "https://github.com/lwouis/alt-tab-macos",
+  "keyword": "SWITCH",
+  "caption": "Contexts charges $9.99 for a better window switcher on Mac. AltTab does the core job for free 🪟\n\n✅ Windows-style alt-tab, with a live preview of every window\n✅ Lists each window, not just each app\n✅ Finds minimized and hidden windows, even on other Spaces\n✅ Free and open source, with no tracking and no telemetry\n\n💻 Mac\nℹ️ AltTab needs Accessibility and Screen Recording permission to read windows and show previews. The core switcher is free forever, but extras like search and more styles are AltTab Pro, free for 14 days, then paid. Contexts is $9.99 as a one-time license\n\nComment \"SWITCH\" and I'll DM you the link 🔗\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #macos #mactips #productivity #freeapps #techtips",
+  "dm_pitch": "AltTab, the free open-source Contexts alternative 🪟",
+  "install": "brew install --cask alt-tab",
+  "dm_on_any_comment": true,
+  "follow_gate": true,
+  "slot": 1,
+  "price_source": "https://contexts.co/",
+  "experiment": {
+    "format": "paint",
+    "hook": "paint",
+    "topic": null,
+    "window": "paint-exp"
+  }
+}

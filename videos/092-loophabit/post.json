@@ -1,0 +1,20 @@
+{
+  "title": "Loop: free Streaks alternative",
+  "video": "FINAL.mp4",
+  "thumbnail": "FINAL_thumbnail.png",
+  "repo_url": "https://github.com/iSoron/uhabits",
+  "keyword": "HABIT",
+  "caption": "Streaks charges $5.99 on iPhone to track your habits. Loop does it on Android for free 🔥\n\n✅ Tick off habits daily and watch your streaks build\n✅ Charts for your habit score, history and best streaks\n✅ Reminders and home screen widgets\n✅ No ads, no accounts, no in-app purchases\n\n📱 Android\nℹ️ Loop is Android only, while Streaks is an iPhone app, so this is the closest free swap for Android users. Streaks is a one-time $5.99 purchase, not a subscription\n\nComment \"HABIT\" and I'll DM you the link 🔗\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #habittracker #android #productivity #freeapps #selfimprovement",
+  "dm_pitch": "Loop Habit Tracker, the free open-source habit app for Android 🔥",
+  "install": "Download from Google Play or F-Droid",
+  "dm_on_any_comment": true,
+  "follow_gate": true,
+  "slot": 2,
+  "price_source": "https://apps.apple.com/us/app/streaks/id963034692",
+  "experiment": {
+    "format": "paint",
+    "hook": "watercolor",
+    "topic": null,
+    "window": "paint-exp"
+  }
+}
