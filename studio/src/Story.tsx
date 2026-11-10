@@ -262,7 +262,7 @@ export const Story: React.FC<StoryProps> = (props) => {
   const cur = p.beats.find((b) => t >= b.start && t < b.end) ?? p.beats[p.beats.length - 1];
   const idx = p.beats.indexOf(cur);
   const slam = p.beats.find((b, i) => i > 0 && b.scene === "slam" && t >= b.start + 0.12 && t < b.start + 0.42);
-  const sh = slam ? Math.max(0, 1 - (t - slam.start - 0.12) / 0.3) * 14 : 0;
+  const sh = slam ? Math.max(0, 1 - (t - slam.start - 0.12) / 0.3) * 5 : 0;
   const shake = sh ? `translate(${Math.sin(t * 90) * sh}px, ${Math.cos(t * 77) * sh}px)` : undefined;
   const big = cur.scene === "character";
   const prevBig = idx > 0 && p.beats[idx - 1].scene === "character";

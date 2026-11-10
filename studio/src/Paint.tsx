@@ -622,7 +622,7 @@ export const PaintStory: React.FC<PaintProps> = (props) => {
   const cur = p.beats.find((b) => t >= b.start && t < b.end) ?? p.beats[p.beats.length - 1];
   const idx = p.beats.indexOf(cur);
   const slam = p.beats.find((b, i) => i > 0 && b.scene === "slam" && t >= b.start + 0.12 && t < b.start + 0.4);
-  const sh = slam ? Math.max(0, 1 - (t - slam.start - 0.12) / 0.28) * 10 : 0;
+  const sh = slam ? Math.max(0, 1 - (t - slam.start - 0.12) / 0.28) * 3 : 0;
   const shake = sh ? `translate(${Math.sin(t * 90) * sh}px, ${Math.cos(t * 77) * sh}px)` : undefined;
   const pig = (i: number) => (T.look === "watercolor" && i % 2 === 0 ? T.acc : T.pig[i % T.pig.length]);
   const right = p.paid ? `${p.paid} → $0` : "free & open source";
@@ -641,7 +641,7 @@ export const PaintStory: React.FC<PaintProps> = (props) => {
           <Defs />
           <Background />
           <AbsoluteFill style={{transform: [shake, T.look === "crayon" ? (() => { const n = Math.floor(frame / 2);
-            return `translate(${(Math.sin(n * 12.9898) * 43758.5453 % 1) * 1.6}px, ${(Math.sin(n * 78.233) * 12345.678 % 1) * 1.6}px)`; })() : ""].filter(Boolean).join(" ") || undefined}}>
+            return `translate(${(Math.sin(n * 12.9898) * 43758.5453 % 1) * 0.7}px, ${(Math.sin(n * 78.233) * 12345.678 % 1) * 0.7}px)`; })() : ""].filter(Boolean).join(" ") || undefined}}>
             <Header i={idx} name={p.name || "itsongit"} right={right} />
             {p.beats.map((b, i) => (
               <Sequence key={i} from={f(b.start)} durationInFrames={Math.max(1, f(b.end) - f(b.start))} name={`${i}-${b.scene}`}>
