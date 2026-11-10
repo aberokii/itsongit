@@ -12,7 +12,9 @@
  },
  "icon": "https://raw.githubusercontent.com/lwouis/alt-tab-macos/master/resources/icons/app/app.png",
  "job": "Previews every window on Mac",
- "platforms": ["Mac"],
+ "platforms": [
+  "Mac"
+ ],
  "install": "brew install --cask alt-tab",
  "caption": "Contexts charges $9.99 for a better window switcher on Mac. AltTab does the core job for free 🪟\n\n✅ Windows-style alt-tab, with a live preview of every window\n✅ Lists each window, not just each app\n✅ Finds minimized and hidden windows, even on other Spaces\n✅ Free and open source, with no tracking and no telemetry\n\n💻 Mac\nℹ️ AltTab needs Accessibility and Screen Recording permission to read windows and show previews. The core switcher is free forever, but extras like search and more styles are AltTab Pro, free for 14 days, then paid. Contexts is $9.99 as a one-time license\n\nComment \"SWITCH\" and I'll DM you the link 🔗\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #macos #mactips #productivity #freeapps #techtips",
  "dm_pitch": "AltTab, the free open-source Contexts alternative 🪟",
@@ -62,9 +64,18 @@
    "scene": "list",
    "text": "It finds them all",
    "items": [
-    {"label": "Minimized", "anchor": "minimized"},
-    {"label": "Hidden", "anchor": "hidden"},
-    {"label": "Other Spaces", "anchor": "Spaces"}
+    {
+     "label": "Minimized",
+     "anchor": "minimized"
+    },
+    {
+     "label": "Hidden",
+     "anchor": "hidden"
+    },
+    {
+     "label": "Other Spaces",
+     "anchor": "Spaces"
+    }
    ]
   },
   {
@@ -86,5 +97,6 @@
    "say": "Comment Switch, and I'll send you the link.",
    "scene": "cta"
   }
- ]
+ ],
+ "look": "whiteboard"
 }

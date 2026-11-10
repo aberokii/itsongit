@@ -202,6 +202,8 @@ def make_story(V, vdir, slot, pub, pub_rel, work, a):
         beats.append(b)
     props = {"accent": slot, "dir": pub_rel, "words": words, "beats": beats, "keyword": V["keyword"], "end": end, "icon": "icon.png",
              "name": V["name"], "paid": V["paid"]["name"]}
+    if V.get("format") == "paint":  # watercolor | whiteboard | blueprint | risograph | chalkboard (studio/src/Paint.tsx)
+        props["look"] = V.get("look", "watercolor")
     (work / "props.json").write_text(json.dumps(props))
     raw = work / "reel_raw.mp4"
     comp = "paint" if V.get("format") == "paint" else "story"
@@ -222,7 +224,7 @@ def make_story(V, vdir, slot, pub, pub_rel, work, a):
                  "repo_url": f"https://github.com/{V['repo']}", "keyword": V["keyword"].upper(), "caption": V["caption"],
                  "dm_pitch": V["dm_pitch"], "install": V["install"], "dm_on_any_comment": True, "follow_gate": True, "slot": slot,
                  "price_source": V["paid"].get("source"),
-                 "experiment": ({"format": "paint", "hook": "paint", "topic": None, "window": "paint-exp"} if comp == "paint" else
+                 "experiment": ({"format": "paint", "hook": V.get("look", "watercolor"), "topic": None, "window": "paint-exp"} if comp == "paint" else
                                 {"format": "story", "hook": "story", "topic": V.get("topic_arm"), "window": V.get("window")})})
     post_path.write_text(json.dumps(post, indent=2, ensure_ascii=False))
     ver = vdir / "verify"

@@ -12,7 +12,11 @@
  },
  "icon": "https://raw.githubusercontent.com/surge-synthesizer/surge/main/resources/assets/Logo/PNG/surge_icon_512.png",
  "job": "Makes your own synth sounds",
- "platforms": ["Mac", "Windows", "Linux"],
+ "platforms": [
+  "Mac",
+  "Windows",
+  "Linux"
+ ],
  "install": "brew install --cask surge-xt",
  "caption": "Serum 2 costs $249. Surge XT makes your own synth sounds for free 🎹\n\n✅ Over 2,800 ready-made sounds to start from\n✅ 3 oscillators per scene, with 12 oscillator types\n✅ Filters, LFOs and 27 effects to shape your sound\n✅ Runs inside your music app, or on its own\n\n💻 Mac · Windows · Linux\nℹ️ Surge XT works best as a plugin inside a music app (a DAW), though it also runs standalone. Serum 2 is a one-time $249 purchase\n\nComment \"SYNTH\" and I'll DM you the link 🔗\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #musicproduction #synthesizer #producer #freeapps #beatmaker #techtips",
  "dm_pitch": "Surge XT, the free open-source Serum 2 alternative 🎹",
@@ -36,7 +40,7 @@
   {
    "say": "A synth is how you make your own sounds in your music software.",
    "scene": "character",
-   "text": "Wait, it's free?! 🤯",
+   "text": "Your own sounds 🎛️",
    "accent": "own"
   },
   {
@@ -57,9 +61,18 @@
    "scene": "list",
    "text": "Shape any sound",
    "items": [
-    {"label": "Oscillators", "anchor": "oscillators"},
-    {"label": "Filters", "anchor": "filters"},
-    {"label": "Effects", "anchor": "effects"}
+    {
+     "label": "Oscillators",
+     "anchor": "oscillators"
+    },
+    {
+     "label": "Filters",
+     "anchor": "filters"
+    },
+    {
+     "label": "Effects",
+     "anchor": "effects"
+    }
    ],
    "select": "own"
   },
@@ -82,5 +95,6 @@
    "say": "Comment Synth, and I'll send you the link.",
    "scene": "cta"
   }
- ]
+ ],
+ "look": "risograph"
 }
