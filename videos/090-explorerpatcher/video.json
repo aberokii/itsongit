@@ -10,7 +10,7 @@
   "anchor": "four",
   "source": "https://www.startisback.com/"
  },
- "icon": "https://avatars.githubusercontent.com/valinet?size=512",
+ "icon": "assets/icon.png",
  "job": "Brings back the old taskbar",
  "platforms": [
   "Windows"

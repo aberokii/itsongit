@@ -4,8 +4,8 @@
   "thumbnail": "FINAL_thumbnail.png",
   "repo_url": "https://github.com/surge-synthesizer/surge",
   "keyword": "SYNTH",
-  "caption": "Serum 2 costs $249. Surge XT makes your own synth sounds for free 🎹\n\n✅ Over 2,800 ready-made sounds to start from\n✅ 3 oscillators per scene, with 12 oscillator types\n✅ Filters, LFOs and 27 effects to shape your sound\n✅ Runs inside your music app, or on its own\n\n💻 Mac · Windows · Linux\nℹ️ Surge XT works best as a plugin inside a music app (a DAW), though it also runs standalone. Serum 2 is a one-time $249 purchase\n\nComment \"SYNTH\" and I'll DM you the link 🔗\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #musicproduction #synthesizer #producer #freeapps #beatmaker #techtips",
-  "dm_pitch": "Surge XT, the free open-source Serum 2 alternative 🎹",
+  "caption": "Serum 2 costs $249. Surge XT makes your own synth sounds for free \ud83c\udfb9\n\n\u2705 Over 2,800 ready-made sounds to start from\n\u2705 3 oscillators per scene, with 12 oscillator types\n\u2705 Filters, LFOs and 27 effects to shape your sound\n\u2705 Runs inside your music app, or on its own\n\n\ud83d\udcbb Mac \u00b7 Windows \u00b7 Linux\n\u2139\ufe0f Surge XT works best as a plugin inside a music app (a DAW), though it also runs standalone. Serum 2 is a one-time $249 purchase\n\nComment \"SYNTH\" and I'll DM you the link \ud83d\udd17\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #musicproduction #synthesizer #producer #freeapps #beatmaker #techtips",
+  "dm_pitch": "Surge XT, the free open-source Serum 2 alternative \ud83c\udfb9",
   "install": "brew install --cask surge-xt",
   "dm_on_any_comment": true,
   "follow_gate": true,
@@ -16,5 +16,14 @@
     "hook": "risograph",
     "topic": null,
     "window": "paint-exp"
+  },
+  "idempotencyKey": "2acfcdb8-7383-4cd1-81a1-9ed78b4691c0",
+  "zernio": {
+    "postId": "6af2d7c399c2b56dc869daca",
+    "status": "scheduled",
+    "scheduledFor": "2026-11-10T20:58:00.000Z",
+    "url": null,
+    "automationId": "6af2d7c67cc45b0a05c42ea3",
+    "slot": 3
   }
 }

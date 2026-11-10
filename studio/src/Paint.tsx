@@ -497,7 +497,7 @@ const List: React.FC<{b: Beat}> = ({b}) => {
               <div style={{padding: "14px 48px 22px 30px", display: "flex", alignItems: "center", gap: 20, fontFamily: T.display, fontWeight: T.look === "blueprint" ? 700 : 400,
                 fontSize: (it.label.length > 16 ? 72 : 88) * (T.look === "risograph" || T.look === "blueprint" ? 0.85 : 1), color: onFill(T, c), whiteSpace: "nowrap",
                 textTransform: T.displayUpper ? "uppercase" : undefined, filter: T.textFilter}}>
-                <span style={{fontSize: "0.8em"}}>{T.look === "blueprint" ? `${i + 1}` : "✓"}</span>{it.label}
+                <span style={{fontSize: "0.8em"}}>{it.label.toLowerCase().startsWith("no ") ? "✕" : "✓"}</span>{it.label}
               </div>
             </Patch>
           </div>

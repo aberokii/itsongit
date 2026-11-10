@@ -4,8 +4,8 @@
   "thumbnail": "FINAL_thumbnail.png",
   "repo_url": "https://github.com/iSoron/uhabits",
   "keyword": "HABIT",
-  "caption": "Streaks charges $5.99 on iPhone to track your habits. Loop does it on Android for free 🔥\n\n✅ Tick off habits daily and watch your streaks build\n✅ Charts for your habit score, history and best streaks\n✅ Reminders and home screen widgets\n✅ No ads, no accounts, no in-app purchases\n\n📱 Android\nℹ️ Loop is Android only, while Streaks is an iPhone app, so this is the closest free swap for Android users. Streaks is a one-time $5.99 purchase, not a subscription\n\nComment \"HABIT\" and I'll DM you the link 🔗\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #habittracker #android #productivity #freeapps #selfimprovement",
-  "dm_pitch": "Loop Habit Tracker, the free open-source habit app for Android 🔥",
+  "caption": "Streaks charges $5.99 on iPhone to track your habits. Loop does it on Android for free \ud83d\udd25\n\n\u2705 Tick off habits daily and watch your streaks build\n\u2705 Charts for your habit score, history and best streaks\n\u2705 Reminders and home screen widgets\n\u2705 No ads, no accounts, no in-app purchases\n\n\ud83d\udcf1 Android\n\u2139\ufe0f Loop is Android only, while Streaks is an iPhone app, so this is the closest free swap for Android users. Streaks is a one-time $5.99 purchase, not a subscription\n\nComment \"HABIT\" and I'll DM you the link \ud83d\udd17\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #habittracker #android #productivity #freeapps #selfimprovement",
+  "dm_pitch": "Loop Habit Tracker, the free open-source habit app for Android \ud83d\udd25",
   "install": "Download from Google Play or F-Droid",
   "dm_on_any_comment": true,
   "follow_gate": true,
@@ -16,5 +16,14 @@
     "hook": "watercolor",
     "topic": null,
     "window": "paint-exp"
+  },
+  "idempotencyKey": "1b0162e6-2d24-431d-99f4-74f69d6de921",
+  "zernio": {
+    "postId": "6af2d7af1798cab4327dce2d",
+    "status": "scheduled",
+    "scheduledFor": "2026-11-10T11:47:00.000Z",
+    "url": null,
+    "automationId": "6af2d7b24818098a79658cda",
+    "slot": 2
   }
 }

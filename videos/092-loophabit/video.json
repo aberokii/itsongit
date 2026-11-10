@@ -62,18 +62,18 @@
   {
    "say": "No ads, no accounts, and no in-app purchases.",
    "scene": "list",
-   "text": "Never any",
+   "text": "Zero catches",
    "items": [
     {
-     "label": "Ads",
+     "label": "No ads",
      "anchor": "ads"
     },
     {
-     "label": "Accounts",
+     "label": "No accounts",
      "anchor": "accounts"
     },
     {
-     "label": "Purchases",
+     "label": "No in-app buys",
      "anchor": "purchases"
     }
    ]
