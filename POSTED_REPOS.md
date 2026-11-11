@@ -94,8 +94,11 @@ The scout (`pipeline/scout.py`) skips these automatically via `data/posted.json`
 | 87 | [HandBrake/HandBrake](https://github.com/HandBrake/HandBrake) | 088-handbrake | SHRINK | published | 2026-11-09T21:21 | https://www.instagram.com/reel/DfiSKQCn9Nr/ |
 | 88 | [LMMS/lmms](https://github.com/LMMS/lmms) | 089-lmms | BEATS | published | 2026-11-09T19:42 | https://www.instagram.com/reel/DfiG0m6lDdA/ |
 | 89 | [valinet/ExplorerPatcher](https://github.com/valinet/ExplorerPatcher) | 090-explorerpatcher | TASKBAR | published | 2026-11-10T10:23 | https://www.instagram.com/reel/DfjrpuvEsRt/ |
-| 90 | [lwouis/alt-tab-macos](https://github.com/lwouis/alt-tab-macos) | 091-alttab | SWITCH | scheduled | 2026-11-10T17:13 |  |
-| 91 | [iSoron/uhabits](https://github.com/iSoron/uhabits) | 092-loophabit | HABIT | scheduled | 2026-11-10T11:47 |  |
-| 92 | [surge-synthesizer/surge](https://github.com/surge-synthesizer/surge) | 093-surge | SYNTH | scheduled | 2026-11-10T20:58 |  |
-| 93 | [helge17/tuxguitar](https://github.com/helge17/tuxguitar) | 094-tuxguitar | GUITAR | scheduled | 2026-11-10T18:41 |  |
+| 90 | [lwouis/alt-tab-macos](https://github.com/lwouis/alt-tab-macos) | 091-alttab | SWITCH | published | 2026-11-10T17:14 | https://www.instagram.com/reel/DfkasaRD-WI/ |
+| 91 | [iSoron/uhabits](https://github.com/iSoron/uhabits) | 092-loophabit | HABIT | published | 2026-11-10T11:48 | https://www.instagram.com/reel/Dfj1bR3D9eS/ |
+| 92 | [surge-synthesizer/surge](https://github.com/surge-synthesizer/surge) | 093-surge | SYNTH | published | 2026-11-10T20:59 | https://www.instagram.com/reel/Dfk0cKoivsb/ |
+| 93 | [helge17/tuxguitar](https://github.com/helge17/tuxguitar) | 094-tuxguitar | GUITAR | published | 2026-11-10T18:42 | https://www.instagram.com/reel/DfkkzLIjiD3/ |
 | 94 | [linearmouse/linearmouse](https://github.com/linearmouse/linearmouse) | 095-linearmouse | SCROLL | published | 2026-11-10T09:56 | https://www.instagram.com/reel/DfjomGFjar5/ |
+| 95 | [ShareX/ShareX](https://github.com/ShareX/ShareX) | 096-sharex | CAPTURE | published | 2026-11-11T10:47 | https://www.instagram.com/reel/DfmTMY6jXnc/ |
+| 96 | [Orama-Interactive/Pixelorama](https://github.com/Orama-Interactive/Pixelorama) | 097-pixelorama | SPRITE | scheduled | 2026-11-11T17:09 |  |
+| 97 | [spliit-app/spliit](https://github.com/spliit-app/spliit) | 098-spliit | BILLS | scheduled | 2026-11-11T20:10 |  |

@@ -1,0 +1,121 @@
+{
+  "repo": "spliit-app/spliit",
+  "name": "Spliit",
+  "title": "Spliit: free Splitwise alternative",
+  "keyword": "BILLS",
+  "paid": {
+    "name": "Splitwise Pro",
+    "price": "$39.99",
+    "per": "/year",
+    "anchor": "forty",
+    "source": "https://apps.apple.com/us/app/splitwise/id458023433"
+  },
+  "icon": "https://raw.githubusercontent.com/spliit-app/spliit/main/public/logo/512x512.png",
+  "job": "Splits bills with friends",
+  "platforms": [
+    "any browser",
+    "iPhone"
+  ],
+  "install": "Open spliit.app in any browser",
+  "install_url": "https://spliit.app",
+  "caption": "Splitwise Pro charges $39.99/year to lift its daily expense limit. Spliit splits the bills for free 💸\n\n✅ Groups for trips, events and gifts, shared with a link\n✅ Split evenly, by shares, by percentage or by exact amount\n✅ Balances show who owes whom, plus the payments that settle up\n✅ Scan or attach receipts, no ads, no account\n\n💻 Any browser · iPhone\nℹ️ The hosted spliit.app is paid for by donations, and there's no Android app (the website works in any browser)\n\nComment \"BILLS\" and I'll DM you the link 🔗\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #splitwise #travel #budgeting #freeapps #techtips",
+  "dm_pitch": "Spliit, the free open-source Splitwise alternative 💸",
+  "thumb": {
+    "big": "FREE",
+    "line1": "Splitwise",
+    "line2": "alternative"
+  },
+  "topic_arm": "subscription",
+  "format": "story",
+  "slot": 2,
+  "demo": {
+    "images": [
+      "assets/02-expenses.png",
+      "assets/04-balances.png"
+    ]
+  },
+  "beats": [
+    {
+      "say": "You're paying forty bucks a year just to split dinner with friends.",
+      "scene": "slam",
+      "text": "$40 a year",
+      "accent": "forty",
+      "tone": "neg",
+      "mood": "shock"
+    },
+    {
+      "say": "Splitwise even limits how many expenses you can add a day.",
+      "scene": "character",
+      "text": "A daily limit?! 😤",
+      "mood": "worried",
+      "select": "limits"
+    },
+    {
+      "say": "Splitwise Pro charges forty bucks a year. This one costs nothing.",
+      "scene": "versus",
+      "mood": "point",
+      "select": "nothing"
+    },
+    {
+      "say": "Make a group for your trip, add every expense, and share one link.",
+      "scene": "app",
+      "image": "assets/02-expenses.png",
+      "text": "Trips · shared link",
+      "mood": "excited",
+      "accent": "every",
+      "select": "link"
+    },
+    {
+      "say": "Split it evenly, by shares, by percent, or exact amounts.",
+      "scene": "app",
+      "image": "assets/03-split-crop.png",
+      "text": "Split it any way",
+      "accent": "percent"
+    },
+    {
+      "say": "And it gets better.",
+      "scene": "character",
+      "text": "Wait for it 👀",
+      "mood": "excited"
+    },
+    {
+      "say": "It shows who owes who, and the fewest payments to settle up.",
+      "scene": "app",
+      "image": "assets/04-balances-crop.png",
+      "text": "Who owes who",
+      "accent": "fewest",
+      "select": "settle"
+    },
+    {
+      "say": "No ads, no account, and no daily limits.",
+      "scene": "list",
+      "text": "Zero catches",
+      "items": [
+        {
+          "label": "No ads",
+          "anchor": "ads"
+        },
+        {
+          "label": "No account",
+          "anchor": "account"
+        },
+        {
+          "label": "No limits",
+          "anchor": "limits"
+        }
+      ],
+      "mood": "smug"
+    },
+    {
+      "say": "Comment Bills, and I'll send you the link.",
+      "scene": "cta",
+      "mood": "point"
+    }
+  ],
+  "hook_style": "story",
+  "window": "night",
+  "publish": {
+    "date": "2026-11-11",
+    "time": "21:10"
+  }
+}

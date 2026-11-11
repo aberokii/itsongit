@@ -1,0 +1,29 @@
+{
+  "title": "Spliit: free Splitwise alternative",
+  "video": "FINAL.mp4",
+  "thumbnail": "FINAL_thumbnail.png",
+  "repo_url": "https://github.com/spliit-app/spliit",
+  "keyword": "BILLS",
+  "caption": "Splitwise Pro charges $39.99/year to lift its daily expense limit. Spliit splits the bills for free \ud83d\udcb8\n\n\u2705 Groups for trips, events and gifts, shared with a link\n\u2705 Split evenly, by shares, by percentage or by exact amount\n\u2705 Balances show who owes whom, plus the payments that settle up\n\u2705 Scan or attach receipts, no ads, no account\n\n\ud83d\udcbb Any browser \u00b7 iPhone\n\u2139\ufe0f The hosted spliit.app is paid for by donations, and there's no Android app (the website works in any browser)\n\nComment \"BILLS\" and I'll DM you the link \ud83d\udd17\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #splitwise #travel #budgeting #freeapps #techtips",
+  "dm_pitch": "Spliit, the free open-source Splitwise alternative \ud83d\udcb8",
+  "install": "Open spliit.app in any browser",
+  "dm_on_any_comment": true,
+  "follow_gate": true,
+  "slot": 2,
+  "price_source": "https://apps.apple.com/us/app/splitwise/id458023433",
+  "experiment": {
+    "format": "story",
+    "hook": "story",
+    "topic": "subscription",
+    "window": "night"
+  },
+  "idempotencyKey": "6bfdd21f-4f10-43ac-b241-f7558dc2d696",
+  "zernio": {
+    "postId": "6af46c6f6108e231c3c689a1",
+    "status": "scheduled",
+    "scheduledFor": "2026-11-11T20:10:00.000Z",
+    "url": null,
+    "automationId": "6af46c7218474fa83492acd6",
+    "slot": 2
+  }
+}

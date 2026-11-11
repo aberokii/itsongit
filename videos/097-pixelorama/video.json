@@ -1,0 +1,113 @@
+{
+  "repo": "Orama-Interactive/Pixelorama",
+  "name": "Pixelorama",
+  "title": "Pixelorama: free Aseprite alternative",
+  "slot": 1,
+  "keyword": "SPRITE",
+  "topic_arm": "hobby",
+  "format": "classic",
+  "paid": {
+    "name": "Aseprite",
+    "price": "$19.99",
+    "per": " once",
+    "anchor": "twenty",
+    "source": "https://www.aseprite.org/faq/"
+  },
+  "icon": "https://raw.githubusercontent.com/Orama-Interactive/Pixelorama/master/assets/graphics/icons/icon.png",
+  "hook": "Aseprite charges you twenty bucks to draw and animate pixel art. This app does it for free.",
+  "job": "Draws and animates pixel art",
+  "platforms": [
+    "Mac",
+    "Windows",
+    "Linux"
+  ],
+  "demo": {
+    "url": "https://pixelorama.org/img/main_page/screenshot1.gif",
+    "start": 0
+  },
+  "features": [
+    {
+      "intro": "It's a full pixel art studio.",
+      "say": "Animate with layers, frames and onion skinning, and draw while the animation plays.",
+      "images": [
+        "https://pixelorama.org/img/main_page/screenshot1.gif"
+      ],
+      "chips": [
+        {
+          "label": "🎞 Onion skinning",
+          "anchor": "onion"
+        },
+        {
+          "label": "Layers",
+          "anchor": "layers"
+        },
+        {
+          "label": "Frames",
+          "anchor": "frames"
+        }
+      ]
+    },
+    {
+      "say": "Pixel perfect lines, palettes, and effects like outlines and drop shadows.",
+      "images": [
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2779170/ss_54395040c25b243cb82a3bd68778e19e04b43ade.1920x1080.jpg",
+        "https://pixelorama.org/img/main_page/screenshot3.gif"
+      ],
+      "swap_anchor": "outlines",
+      "chips": [
+        {
+          "label": "✓ Pixel perfect",
+          "anchor": "perfect"
+        },
+        {
+          "label": "🎨 Palettes",
+          "anchor": "palettes"
+        }
+      ]
+    },
+    {
+      "say": "It exports to PNG, spritesheets and GIFs, and makes tilemaps for your games.",
+      "images": [
+        "https://pixelorama.org/img/main_page/screenshot2.gif"
+      ],
+      "chips": [
+        {
+          "label": "Spritesheets",
+          "anchor": "spritesheets"
+        },
+        {
+          "label": "Tilemaps",
+          "anchor": "tilemaps"
+        }
+      ]
+    }
+  ],
+  "nolist": [
+    {
+      "say": "No subscription.",
+      "label": "Subscription"
+    },
+    {
+      "say": "No account.",
+      "label": "Account"
+    },
+    {
+      "say": "No ads.",
+      "label": "Ads"
+    }
+  ],
+  "install": "Download from GitHub Releases",
+  "caption": "Aseprite charges $19.99 to draw and animate pixel art. Pixelorama does it for free 🎨\n\n✅ Animate with layers, frames and onion skinning\n✅ Pixel perfect lines, palettes and layer effects\n✅ Export PNG, spritesheets and GIFs, plus tilemaps for games\n✅ No subscription, no account, no ads\n\n💻 Mac · Windows · Linux\nℹ️ The GitHub download is free. There's also an optional paid Steam copy ($9.99) if you want to support the devs. Aseprite is a $19.99 one-time purchase\n\nComment \"SPRITE\" and I'll DM you the link 🔗\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #pixelart #gamedev #indiedev #freeapps #techtips",
+  "dm_pitch": "Pixelorama, the free open-source Aseprite alternative 🎨",
+  "thumb": {
+    "big": "FREE",
+    "line1": "Aseprite",
+    "line2": "alternative"
+  },
+  "hook_style": "price",
+  "window": "evening",
+  "publish": {
+    "date": "2026-11-11",
+    "time": "18:09"
+  }
+}
