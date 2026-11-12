@@ -1,0 +1,90 @@
+{
+  "repo": "Read-Aloud/read-aloud",
+  "name": "Read Aloud",
+  "title": "Read Aloud: free Speechify alternative",
+  "slot": 2,
+  "keyword": "READ",
+  "topic_arm": "utility",
+  "paid": {
+    "name": "Speechify Premium",
+    "price": "$139",
+    "per": "/year",
+    "anchor": "hundred",
+    "source": "https://speechify.com/pricing/"
+  },
+  "icon": "assets/icon.png",
+  "hook": "Speechify charges you a hundred and thirty nine dollars a year to read articles out loud. This does it for free.",
+  "job": "Reads any webpage out loud",
+  "platforms": [
+    "Chrome",
+    "Firefox",
+    "Edge"
+  ],
+  "demo": {
+    "url": "https://raw.githubusercontent.com/Read-Aloud/read-aloud/master/docs/images/demo-extension-button.gif",
+    "start": 0
+  },
+  "features": [
+    {
+      "intro": "Open any article and tap the icon.",
+      "say": "It reads the page out loud, and can highlight each sentence.",
+      "images": [
+        "assets/reading.png",
+        "assets/highlight.png"
+      ],
+      "swap_anchor": "highlight",
+      "chips": [
+        {
+          "label": "🔊 Reads the page",
+          "anchor": "page"
+        },
+        {
+          "label": "Highlighting",
+          "anchor": "highlight"
+        }
+      ]
+    },
+    {
+      "say": "Or select some text, right click, and hear just that.",
+      "images": [
+        "assets/rightclick.png"
+      ],
+      "chips": [
+        {
+          "label": "🖱 Right click",
+          "anchor": "right"
+        }
+      ]
+    }
+  ],
+  "nolist": [
+    {
+      "say": "No subscription.",
+      "label": "Subscription"
+    },
+    {
+      "say": "No copy and paste.",
+      "label": "Copy and paste"
+    },
+    {
+      "say": "No extra app.",
+      "label": "Extra app"
+    }
+  ],
+  "install": "Download from the Chrome Web Store",
+  "install_url": "https://readaloud.app/",
+  "install_line": "It runs on Chrome, Firefox and Edge. Just add the free extension from your browser's store.",
+  "caption": "Speechify charges $139/year to read articles out loud. Read Aloud does it for free 🔊\n\n✅ Reads any webpage out loud with one click\n✅ Highlights the text as it reads\n✅ Select text, right click, and hear just that\n✅ Free and open source, no subscription\n\n💻 Chrome · Firefox · Edge\nℹ️ The built-in browser voices are free. Premium voices like Google Wavenet and Amazon Polly need your own Google Cloud or AWS API key, and some cloud voices may need an in-app purchase. Speechify Premium is $139/year billed yearly (or $29 a month)\n\nComment \"READ\" and I'll DM you the link 🔗\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #browserextension #chrome #productivity #freeapps #techtips",
+  "dm_pitch": "Read Aloud, the free open-source Speechify alternative 🔊",
+  "thumb": {
+    "big": "FREE",
+    "line1": "Speechify",
+    "line2": "alternative"
+  },
+  "hook_style": "price",
+  "window": "night",
+  "publish": {
+    "date": "2026-11-12",
+    "time": "22:32"
+  }
+}

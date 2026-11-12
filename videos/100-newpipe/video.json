@@ -1,0 +1,122 @@
+{
+  "repo": "TeamNewPipe/NewPipe",
+  "name": "NewPipe",
+  "title": "NewPipe: free YouTube Premium alternative",
+  "slot": 1,
+  "keyword": "TUBE",
+  "paid": {
+    "name": "YouTube Premium",
+    "price": "$15.99",
+    "per": "/month",
+    "anchor": "sixteen",
+    "source": "https://www.youtube.com/premium"
+  },
+  "icon": "https://raw.githubusercontent.com/TeamNewPipe/NewPipe/dev/assets/new_pipe_icon_5.png",
+  "job": "Plays YouTube with no ads",
+  "platforms": [
+    "Android"
+  ],
+  "install": "Download from GitHub Releases",
+  "install_url": "https://newpipe.net",
+  "caption": "YouTube Premium charges $15.99/month to remove ads and play in the background. NewPipe does both for free 📺\n\n✅ Plays YouTube without ads, no Google account needed\n✅ Listen in the background with the screen off, audio only to save data\n✅ Floating popup player so you can watch while using other apps\n✅ Download videos or just the audio, and subscribe to channels without signing in\n\n💻 Android\nℹ️ Android only, still in beta, and not on Google Play: install it from F-Droid or the APK on GitHub\n\nComment \"TUBE\" and I'll DM you the link 🔗\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #youtube #android #youtubepremium #freeapps #techtips",
+  "dm_pitch": "NewPipe, the free open-source YouTube Premium alternative for Android 📺",
+  "thumb": {
+    "big": "FREE",
+    "line1": "YouTube Premium",
+    "line2": "alternative"
+  },
+  "topic_arm": "subscription",
+  "format": "story",
+  "demo": {
+    "images": [
+      "assets/01-player.png",
+      "assets/03-popup.png"
+    ]
+  },
+  "beats": [
+    {
+      "say": "There's a free app that makes YouTube Premium pointless, and nobody talks about it.",
+      "scene": "slam",
+      "text": "Premium? Pointless.",
+      "accent": "pointless",
+      "sub": "$192 a year → $0",
+      "tone": "neg",
+      "mood": "shock"
+    },
+    {
+      "say": "Wait, YouTube with no ads, for free?",
+      "scene": "character",
+      "text": "No ads?! 😳",
+      "mood": "worried",
+      "select": "ads"
+    },
+    {
+      "say": "YouTube Premium is sixteen dollars a month. NewPipe costs nothing.",
+      "scene": "versus",
+      "mood": "point",
+      "accent": "sixteen",
+      "select": "nothing"
+    },
+    {
+      "say": "Lock your Android phone, and the audio keeps playing in the background.",
+      "scene": "app",
+      "image": "assets/01-player.png",
+      "text": "Background play",
+      "mood": "excited",
+      "accent": "keeps",
+      "select": "background"
+    },
+    {
+      "say": "Or float the video in a little popup over your other apps.",
+      "scene": "app",
+      "image": "assets/03-popup.png",
+      "text": "Popup player",
+      "accent": "float",
+      "select": "popup"
+    },
+    {
+      "say": "But here's the crazy part.",
+      "scene": "character",
+      "text": "It gets better 👀",
+      "mood": "excited"
+    },
+    {
+      "say": "Download videos and subscribe to channels, with no Google account.",
+      "scene": "list",
+      "text": "Still free",
+      "items": [
+        {
+          "label": "Downloads",
+          "anchor": "download"
+        },
+        {
+          "label": "Subscriptions",
+          "anchor": "subscribe"
+        },
+        {
+          "label": "No account",
+          "anchor": "account"
+        }
+      ],
+      "mood": "smug"
+    },
+    {
+      "say": "It's YouTube Premium, minus the bill, forever.",
+      "scene": "slam",
+      "text": "Minus the bill",
+      "accent": "bill",
+      "mood": "smug"
+    },
+    {
+      "say": "Comment Tube, and I'll send you the link.",
+      "scene": "cta",
+      "mood": "point"
+    }
+  ],
+  "hook_style": "story",
+  "window": "evening",
+  "publish": {
+    "date": "2026-11-12",
+    "time": "19:36"
+  }
+}

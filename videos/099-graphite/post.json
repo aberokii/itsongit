@@ -1,0 +1,29 @@
+{
+  "title": "Graphite: free Adobe Illustrator alternative",
+  "video": "FINAL.mp4",
+  "thumbnail": "FINAL_thumbnail.png",
+  "repo_url": "https://github.com/GraphiteEditor/Graphite",
+  "keyword": "ART",
+  "caption": "Adobe Illustrator charges $22.99/month. Graphite draws vector art for free \ud83c\udfa8\n\n\u2705 Vector editing with layers, in your browser\n\u2705 Zoom in forever and export at any resolution\n\u2705 Nondestructive: change a slider instead of redrawing\n\u2705 No subscription, 100% free\n\n\u2139\ufe0f Graphite is still in alpha, so expect rough edges. The web app is live now; desktop apps are still in testing\n\ud83d\udcbb Any browser\n\nComment \"ART\" and I'll DM you the link \ud83d\udd17\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #illustrator #graphicdesign #vectorart #digitalart #freeapps #techtips",
+  "dm_pitch": "Graphite, the free open-source Adobe Illustrator alternative \ud83c\udfa8",
+  "install": "Open editor.graphite.art in your browser",
+  "dm_on_any_comment": true,
+  "follow_gate": true,
+  "slot": 0,
+  "price_source": "https://www.adobe.com/products/illustrator.html",
+  "experiment": {
+    "format": "classic",
+    "hook": "demo",
+    "topic": "hobby",
+    "window": "midday"
+  },
+  "idempotencyKey": "73ee2325-9a7b-42b7-a48f-6b85c054d208",
+  "zernio": {
+    "postId": "6af57f495774e7aa80ab343e",
+    "status": "scheduled",
+    "scheduledFor": "2026-11-12T10:32:00.000Z",
+    "url": null,
+    "automationId": "6af57f4b7c5b27e5590f6f2e",
+    "slot": 0
+  }
+}

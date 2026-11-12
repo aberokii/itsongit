@@ -1,0 +1,29 @@
+{
+  "title": "NewPipe: free YouTube Premium alternative",
+  "video": "FINAL.mp4",
+  "thumbnail": "FINAL_thumbnail.png",
+  "repo_url": "https://github.com/TeamNewPipe/NewPipe",
+  "keyword": "TUBE",
+  "caption": "YouTube Premium charges $15.99/month to remove ads and play in the background. NewPipe does both for free \ud83d\udcfa\n\n\u2705 Plays YouTube without ads, no Google account needed\n\u2705 Listen in the background with the screen off, audio only to save data\n\u2705 Floating popup player so you can watch while using other apps\n\u2705 Download videos or just the audio, and subscribe to channels without signing in\n\n\ud83d\udcbb Android\n\u2139\ufe0f Android only, still in beta, and not on Google Play: install it from F-Droid or the APK on GitHub\n\nComment \"TUBE\" and I'll DM you the link \ud83d\udd17\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #youtube #android #youtubepremium #freeapps #techtips",
+  "dm_pitch": "NewPipe, the free open-source YouTube Premium alternative for Android \ud83d\udcfa",
+  "install": "Download from GitHub Releases",
+  "dm_on_any_comment": true,
+  "follow_gate": true,
+  "slot": 1,
+  "price_source": "https://www.youtube.com/premium",
+  "experiment": {
+    "format": "story",
+    "hook": "story",
+    "topic": "subscription",
+    "window": "evening"
+  },
+  "idempotencyKey": "7a40780f-7d38-41dd-9385-64c3e244c0f9",
+  "zernio": {
+    "postId": "6af57fc3cc7ca7934d33e281",
+    "status": "scheduled",
+    "scheduledFor": "2026-11-12T18:36:00.000Z",
+    "url": null,
+    "automationId": "6af57fc7a253d39173f86499",
+    "slot": 1
+  }
+}

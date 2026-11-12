@@ -1,0 +1,29 @@
+{
+  "title": "Read Aloud: free Speechify alternative",
+  "video": "FINAL.mp4",
+  "thumbnail": "FINAL_thumbnail.png",
+  "repo_url": "https://github.com/Read-Aloud/read-aloud",
+  "keyword": "READ",
+  "caption": "Speechify charges $139/year to read articles out loud. Read Aloud does it for free \ud83d\udd0a\n\n\u2705 Reads any webpage out loud with one click\n\u2705 Highlights the text as it reads\n\u2705 Select text, right click, and hear just that\n\u2705 Free and open source, no subscription\n\n\ud83d\udcbb Chrome \u00b7 Firefox \u00b7 Edge\n\u2139\ufe0f The built-in browser voices are free. Premium voices like Google Wavenet and Amazon Polly need your own Google Cloud or AWS API key, and some cloud voices may need an in-app purchase. Speechify Premium is $139/year billed yearly (or $29 a month)\n\nComment \"READ\" and I'll DM you the link \ud83d\udd17\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #browserextension #chrome #productivity #freeapps #techtips",
+  "dm_pitch": "Read Aloud, the free open-source Speechify alternative \ud83d\udd0a",
+  "install": "Download from the Chrome Web Store",
+  "dm_on_any_comment": true,
+  "follow_gate": true,
+  "slot": 2,
+  "price_source": "https://speechify.com/pricing/",
+  "experiment": {
+    "format": "classic",
+    "hook": "price",
+    "topic": "utility",
+    "window": "night"
+  },
+  "idempotencyKey": "94834c91-cd0a-472a-98fb-0b056e91e4fe",
+  "zernio": {
+    "postId": "6af580cde8e7083a9feb4e96",
+    "status": "scheduled",
+    "scheduledFor": "2026-11-12T21:32:00.000Z",
+    "url": null,
+    "automationId": "6af580d158fe3b72d931a3ee",
+    "slot": 2
+  }
+}

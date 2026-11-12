@@ -100,5 +100,8 @@ The scout (`pipeline/scout.py`) skips these automatically via `data/posted.json`
 | 93 | [helge17/tuxguitar](https://github.com/helge17/tuxguitar) | 094-tuxguitar | GUITAR | published | 2026-11-10T18:42 | https://www.instagram.com/reel/DfkkzLIjiD3/ |
 | 94 | [linearmouse/linearmouse](https://github.com/linearmouse/linearmouse) | 095-linearmouse | SCROLL | published | 2026-11-10T09:56 | https://www.instagram.com/reel/DfjomGFjar5/ |
 | 95 | [ShareX/ShareX](https://github.com/ShareX/ShareX) | 096-sharex | CAPTURE | published | 2026-11-11T10:47 | https://www.instagram.com/reel/DfmTMY6jXnc/ |
-| 96 | [Orama-Interactive/Pixelorama](https://github.com/Orama-Interactive/Pixelorama) | 097-pixelorama | SPRITE | scheduled | 2026-11-11T17:09 |  |
-| 97 | [spliit-app/spliit](https://github.com/spliit-app/spliit) | 098-spliit | BILLS | scheduled | 2026-11-11T20:10 |  |
+| 96 | [Orama-Interactive/Pixelorama](https://github.com/Orama-Interactive/Pixelorama) | 097-pixelorama | SPRITE | published | 2026-11-11T17:10 | https://www.instagram.com/reel/Dfm_Dw9FT-d/ |
+| 97 | [spliit-app/spliit](https://github.com/spliit-app/spliit) | 098-spliit | BILLS | published | 2026-11-11T20:11 | https://www.instagram.com/reel/DfnTuxgk44g/ |
+| 98 | [GraphiteEditor/Graphite](https://github.com/GraphiteEditor/Graphite) | 099-graphite | ART | scheduled | 2026-11-12T10:32 |  |
+| 99 | [TeamNewPipe/NewPipe](https://github.com/TeamNewPipe/NewPipe) | 100-newpipe | TUBE | scheduled | 2026-11-12T18:36 |  |
+| 100 | [Read-Aloud/read-aloud](https://github.com/Read-Aloud/read-aloud) | 101-readaloud | READ | scheduled | 2026-11-12T21:32 |  |

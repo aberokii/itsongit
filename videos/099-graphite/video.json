@@ -1,0 +1,95 @@
+{
+  "repo": "GraphiteEditor/Graphite",
+  "name": "Graphite",
+  "title": "Graphite: free Adobe Illustrator alternative",
+  "slot": 0,
+  "keyword": "ART",
+  "topic_arm": "hobby",
+  "format": "classic",
+  "paid": {
+    "name": "Illustrator",
+    "price": "$22.99",
+    "per": "/month",
+    "anchor": "twenty",
+    "source": "https://www.adobe.com/products/illustrator.html"
+  },
+  "icon": "https://github.com/GraphiteEditor.png?size=512",
+  "hook": "Adobe Illustrator charges you twenty three dollars a month to draw logos and vector art. This app does it for free.",
+  "job": "Draws vector art in a browser",
+  "platforms": [
+    "any browser"
+  ],
+  "demo": {
+    "url": "https://static.graphite.art/content/index/gui-demo-animation-twirl.mp4",
+    "start": 0
+  },
+  "features": [
+    {
+      "intro": "It's a vector editor that lives in your browser.",
+      "say": "Draw shapes on layers, zoom in forever without it getting blurry, and export at any resolution.",
+      "images": [
+        "https://static.graphite.art/content/index/gui-demo-painted-dreams__4.png"
+      ],
+      "chips": [
+        {
+          "label": "Layers",
+          "anchor": "layers"
+        },
+        {
+          "label": "🔍 Zoom forever",
+          "anchor": "forever"
+        },
+        {
+          "label": "Any resolution",
+          "anchor": "resolution"
+        }
+      ]
+    },
+    {
+      "say": "Everything is nondestructive, so you tweak a slider later instead of redrawing.",
+      "images": [
+        "assets/twirl.png"
+      ],
+      "chips": [
+        {
+          "label": "✓ Nondestructive",
+          "anchor": "nondestructive"
+        },
+        {
+          "label": "🎚 Sliders",
+          "anchor": "slider"
+        }
+      ]
+    }
+  ],
+  "nolist": [
+    {
+      "say": "No subscription.",
+      "label": "Subscription"
+    },
+    {
+      "say": "No account.",
+      "label": "Account"
+    },
+    {
+      "say": "No install.",
+      "label": "Install"
+    }
+  ],
+  "install": "Open editor.graphite.art in your browser",
+  "install_url": "https://editor.graphite.art",
+  "install_line": "It runs in any browser. Nothing to install, just open the editor.",
+  "caption": "Adobe Illustrator charges $22.99/month. Graphite draws vector art for free 🎨\n\n✅ Vector editing with layers, in your browser\n✅ Zoom in forever and export at any resolution\n✅ Nondestructive: change a slider instead of redrawing\n✅ No subscription, 100% free\n\nℹ️ Graphite is still in alpha, so expect rough edges. The web app is live now; desktop apps are still in testing\n💻 Any browser\n\nComment \"ART\" and I'll DM you the link 🔗\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #illustrator #graphicdesign #vectorart #digitalart #freeapps #techtips",
+  "dm_pitch": "Graphite, the free open-source Adobe Illustrator alternative 🎨",
+  "thumb": {
+    "big": "FREE",
+    "line1": "Illustrator",
+    "line2": "alternative"
+  },
+  "hook_style": "demo",
+  "window": "midday",
+  "publish": {
+    "date": "2026-11-12",
+    "time": "11:32"
+  }
+}
