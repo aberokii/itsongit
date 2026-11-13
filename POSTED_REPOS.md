@@ -102,6 +102,9 @@ The scout (`pipeline/scout.py`) skips these automatically via `data/posted.json`
 | 95 | [ShareX/ShareX](https://github.com/ShareX/ShareX) | 096-sharex | CAPTURE | published | 2026-11-11T10:47 | https://www.instagram.com/reel/DfmTMY6jXnc/ |
 | 96 | [Orama-Interactive/Pixelorama](https://github.com/Orama-Interactive/Pixelorama) | 097-pixelorama | SPRITE | published | 2026-11-11T17:10 | https://www.instagram.com/reel/Dfm_Dw9FT-d/ |
 | 97 | [spliit-app/spliit](https://github.com/spliit-app/spliit) | 098-spliit | BILLS | published | 2026-11-11T20:11 | https://www.instagram.com/reel/DfnTuxgk44g/ |
-| 98 | [GraphiteEditor/Graphite](https://github.com/GraphiteEditor/Graphite) | 099-graphite | ART | scheduled | 2026-11-12T10:32 |  |
-| 99 | [TeamNewPipe/NewPipe](https://github.com/TeamNewPipe/NewPipe) | 100-newpipe | TUBE | scheduled | 2026-11-12T18:36 |  |
-| 100 | [Read-Aloud/read-aloud](https://github.com/Read-Aloud/read-aloud) | 101-readaloud | READ | scheduled | 2026-11-12T21:32 |  |
+| 98 | [GraphiteEditor/Graphite](https://github.com/GraphiteEditor/Graphite) | 099-graphite | ART | published | 2026-11-12T10:34 | https://www.instagram.com/reel/Dfo2cZFDQXh/ |
+| 99 | [TeamNewPipe/NewPipe](https://github.com/TeamNewPipe/NewPipe) | 100-newpipe | TUBE | published | 2026-11-12T18:37 | https://www.instagram.com/reel/DfptxLFgEhr/ |
+| 100 | [Read-Aloud/read-aloud](https://github.com/Read-Aloud/read-aloud) | 101-readaloud | READ | published | 2026-11-12T21:34 | https://www.instagram.com/reel/DfqCBwVmV-2/ |
+| 101 | [Stirling-Tools/Stirling-PDF](https://github.com/Stirling-Tools/Stirling-PDF) | 102-stirlingpdf | DOCS | scheduled | 2026-11-13T11:33 |  |
+| 102 | [chidiwilliams/buzz](https://github.com/chidiwilliams/buzz) | 103-buzz | BUZZ | scheduled | 2026-11-13T17:52 |  |
+| 103 | [PolyMeilex/Neothesia](https://github.com/PolyMeilex/Neothesia) | 104-neothesia | PIANO | scheduled | 2026-11-13T20:55 |  |

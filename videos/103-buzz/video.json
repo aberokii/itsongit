@@ -1,0 +1,110 @@
+{
+  "repo": "chidiwilliams/buzz",
+  "name": "Buzz",
+  "title": "Buzz: free Otter alternative",
+  "slot": 1,
+  "keyword": "BUZZ",
+  "topic_arm": "utility",
+  "paid": {
+    "name": "Otter Pro",
+    "price": "$100",
+    "per": "/year",
+    "anchor": "hundred",
+    "source": "https://otter.ai/pricing"
+  },
+  "icon": "assets/icon.png",
+  "hook": "Otter charges you a hundred bucks a year to turn speech into text. This app does it for free.",
+  "job": "Turns any audio into text",
+  "platforms": [
+    "Mac",
+    "Windows",
+    "Linux"
+  ],
+  "demo": {
+    "images": [
+      "assets/transcript.png",
+      "assets/queue.png"
+    ]
+  },
+  "features": [
+    {
+      "intro": "Drop in any audio or video file.",
+      "say": "It writes out the full transcript, with timestamps, right on your computer.",
+      "images": [
+        "assets/queue.png",
+        "assets/transcript.png"
+      ],
+      "swap_anchor": "transcript",
+      "chips": [
+        {
+          "label": "📝 Full transcript",
+          "anchor": "transcript"
+        },
+        {
+          "label": "⏱ Timestamps",
+          "anchor": "timestamps"
+        },
+        {
+          "label": "Offline",
+          "anchor": "computer"
+        }
+      ]
+    },
+    {
+      "say": "Or hit record, and it transcribes your voice live.",
+      "images": [
+        "assets/live.png"
+      ],
+      "chips": [
+        {
+          "label": "🎙 Live",
+          "anchor": "live"
+        }
+      ]
+    },
+    {
+      "say": "Export to text or subtitle files, and translate it too.",
+      "images": [
+        "assets/import.png"
+      ],
+      "chips": [
+        {
+          "label": "Subtitles",
+          "anchor": "subtitle"
+        },
+        {
+          "label": "🌍 Translate",
+          "anchor": "translate"
+        }
+      ]
+    }
+  ],
+  "nolist": [
+    {
+      "say": "No subscription.",
+      "label": "Subscription"
+    },
+    {
+      "say": "No minute caps.",
+      "label": "Minute caps"
+    },
+    {
+      "say": "No uploads.",
+      "label": "Uploads"
+    }
+  ],
+  "install": "Download from GitHub Releases",
+  "caption": "Otter charges $100/year to turn speech into text. Buzz does it for free 🎙\n\n✅ Transcribes audio and video files, with timestamps\n✅ Live transcription from your microphone\n✅ Exports to TXT, SRT and VTT, and can translate\n✅ Runs offline on your computer, no subscription\n\n💻 Mac · Windows · Linux\nℹ️ New Mac versions need Apple silicon (Intel Macs stop at 1.4.5), the first run downloads a Whisper model, and the Windows installer is unsigned (\"More info\" → \"Run anyway\"). Otter Pro's $100/year is the annual plan; monthly it's $16.99\n\nComment \"BUZZ\" and I'll DM you the link 🔗\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #transcription #whisper #productivity #freeapps #techtips",
+  "dm_pitch": "Buzz, the free open-source Otter alternative 🎙",
+  "thumb": {
+    "big": "FREE",
+    "line1": "Otter",
+    "line2": "alternative"
+  },
+  "hook_style": "demo",
+  "window": "evening",
+  "publish": {
+    "date": "2026-11-13",
+    "time": "18:52"
+  }
+}

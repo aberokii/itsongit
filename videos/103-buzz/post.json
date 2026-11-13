@@ -1,0 +1,29 @@
+{
+  "title": "Buzz: free Otter alternative",
+  "video": "FINAL.mp4",
+  "thumbnail": "FINAL_thumbnail.png",
+  "repo_url": "https://github.com/chidiwilliams/buzz",
+  "keyword": "BUZZ",
+  "caption": "Otter charges $100/year to turn speech into text. Buzz does it for free \ud83c\udf99\n\n\u2705 Transcribes audio and video files, with timestamps\n\u2705 Live transcription from your microphone\n\u2705 Exports to TXT, SRT and VTT, and can translate\n\u2705 Runs offline on your computer, no subscription\n\n\ud83d\udcbb Mac \u00b7 Windows \u00b7 Linux\n\u2139\ufe0f New Mac versions need Apple silicon (Intel Macs stop at 1.4.5), the first run downloads a Whisper model, and the Windows installer is unsigned (\"More info\" \u2192 \"Run anyway\"). Otter Pro's $100/year is the annual plan; monthly it's $16.99\n\nComment \"BUZZ\" and I'll DM you the link \ud83d\udd17\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #transcription #whisper #productivity #freeapps #techtips",
+  "dm_pitch": "Buzz, the free open-source Otter alternative \ud83c\udf99",
+  "install": "Download from GitHub Releases",
+  "dm_on_any_comment": true,
+  "follow_gate": true,
+  "slot": 1,
+  "price_source": "https://otter.ai/pricing",
+  "experiment": {
+    "format": "classic",
+    "hook": "demo",
+    "topic": "utility",
+    "window": "evening"
+  },
+  "idempotencyKey": "5cd8189a-2c3e-466c-8ae1-a2ea1ebab60a",
+  "zernio": {
+    "postId": "6af6d255e6c522d6c79bfa55",
+    "status": "scheduled",
+    "scheduledFor": "2026-11-13T17:52:00.000Z",
+    "url": null,
+    "automationId": "6af6d2563963f3f7533b8407",
+    "slot": 1
+  }
+}

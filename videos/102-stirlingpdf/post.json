@@ -1,0 +1,29 @@
+{
+  "title": "Stirling PDF: free Adobe Acrobat alternative",
+  "video": "FINAL.mp4",
+  "thumbnail": "FINAL_thumbnail.png",
+  "repo_url": "https://github.com/Stirling-Tools/Stirling-PDF",
+  "keyword": "DOCS",
+  "caption": "Adobe Acrobat Pro charges $19.99/month to edit PDFs. Stirling PDF does it for free \ud83d\udcc4\n\n\u2705 Edit, merge, split and compress PDFs in one app\n\u2705 Sign documents and black out private info with redact\n\u2705 OCR turns scanned pages into searchable text\n\u2705 Add passwords and watermarks, 60+ tools in total\n\n\ud83d\udcbb Windows \u00b7 Mac \u00b7 Linux\n\u2139\ufe0f The desktop app is free for personal use and works offline. The text editor is still marked alpha, and team features like single sign-on are a separate paid plan\n\nComment \"DOCS\" and I'll DM you the link \ud83d\udd17\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #pdf #adobeacrobat #productivity #freeapps #techtips",
+  "dm_pitch": "Stirling PDF, the free open-source Adobe Acrobat alternative \ud83d\udcc4",
+  "install": "Download from GitHub Releases",
+  "dm_on_any_comment": true,
+  "follow_gate": true,
+  "slot": 0,
+  "price_source": "https://www.adobe.com/acrobat/pricing.html",
+  "experiment": {
+    "format": "story",
+    "hook": "story",
+    "topic": "subscription",
+    "window": "midday"
+  },
+  "idempotencyKey": "e6511c9d-afd5-4ce7-915c-3b5cf595cc35",
+  "zernio": {
+    "postId": "6af6d24ee6c522d6c79bfa36",
+    "status": "scheduled",
+    "scheduledFor": "2026-11-13T11:33:00.000Z",
+    "url": null,
+    "automationId": "6af6d251d98cd926790bbe5c",
+    "slot": 0
+  }
+}

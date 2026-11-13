@@ -1,0 +1,123 @@
+{
+  "repo": "PolyMeilex/Neothesia",
+  "name": "Neothesia",
+  "title": "Neothesia: free Synthesia alternative",
+  "slot": 2,
+  "keyword": "PIANO",
+  "paid": {
+    "name": "Synthesia",
+    "price": "$39",
+    "per": "",
+    "anchor": "thirty",
+    "source": "https://www.synthesiagame.com/unlock"
+  },
+  "icon": "https://raw.githubusercontent.com/PolyMeilex/Neothesia/master/docs/public/neothesia-icon.png",
+  "job": "Shows you which keys to play",
+  "platforms": [
+    "Windows",
+    "Mac",
+    "Linux"
+  ],
+  "install": "Download from GitHub Releases",
+  "install_url": "https://polymeilex.github.io/Neothesia/",
+  "caption": "Synthesia costs $39 to learn piano songs from falling notes. Neothesia does it for free 🎹\n\n✅ Turns any MIDI song into colorful falling notes on a virtual piano\n✅ Plug in a MIDI keyboard and play along\n✅ Choose a track to mute, auto-play or play yourself\n✅ Slow the song down and rewind while you practice\n\n💻 Windows · Mac · Linux\nℹ️ You bring your own MIDI files (no built-in song library), and playing along needs a MIDI keyboard. On Mac, right-click the app and choose Open the first time. Synthesia's regular price is $39 (it's sometimes on sale)\n\nComment \"PIANO\" and I'll DM you the link 🔗\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #piano #learnpiano #pianotutorial #synthesia #music #freeapps",
+  "dm_pitch": "Neothesia, the free open-source Synthesia alternative for learning piano 🎹",
+  "thumb": {
+    "big": "FREE",
+    "line1": "Synthesia",
+    "line2": "alternative"
+  },
+  "topic_arm": "hobby",
+  "format": "story",
+  "demo": {
+    "images": [
+      "assets/falling-notes.png",
+      "assets/tracks.png"
+    ]
+  },
+  "beats": [
+    {
+      "say": "Strangers on the internet rebuilt Synthesia, and gave it away for free.",
+      "scene": "slam",
+      "text": "Rebuilt for free",
+      "accent": "free",
+      "sub": "$39 → $0",
+      "tone": "neg",
+      "mood": "shock"
+    },
+    {
+      "say": "Wait, the falling notes piano app?",
+      "scene": "character",
+      "text": "The falling notes?! 😱",
+      "mood": "worried"
+    },
+    {
+      "say": "Synthesia charges thirty nine dollars. Neothesia costs nothing.",
+      "scene": "versus",
+      "mood": "point",
+      "accent": "thirty",
+      "select": "nothing"
+    },
+    {
+      "say": "Load any MIDI song, and the notes fall onto the keys you need to play.",
+      "scene": "app",
+      "image": "assets/falling-notes.png",
+      "text": "Falling notes",
+      "mood": "excited",
+      "accent": "fall",
+      "select": "keys"
+    },
+    {
+      "say": "But here's the best part.",
+      "scene": "character",
+      "text": "Best part 👀",
+      "mood": "excited"
+    },
+    {
+      "say": "Plug in a keyboard, and pick which parts you play and which it plays for you.",
+      "scene": "app",
+      "image": "assets/tracks.png",
+      "text": "You play, it plays",
+      "accent": "you",
+      "select": "keyboard"
+    },
+    {
+      "say": "Slow it down, rewind, and pick your own piano sound.",
+      "scene": "list",
+      "text": "Practice tools",
+      "items": [
+        {
+          "label": "Slow down",
+          "anchor": "slow"
+        },
+        {
+          "label": "Rewind",
+          "anchor": "rewind"
+        },
+        {
+          "label": "Your sound",
+          "anchor": "sound"
+        }
+      ],
+      "mood": "smug"
+    },
+    {
+      "say": "It's Synthesia, without the price tag.",
+      "scene": "slam",
+      "text": "No price tag",
+      "accent": "price",
+      "mood": "smug"
+    },
+    {
+      "say": "Comment Piano, and I'll send you the link.",
+      "scene": "cta",
+      "mood": "point"
+    }
+  ],
+  "hook_style": "story",
+  "window": "night",
+  "publish": {
+    "date": "2026-11-13",
+    "time": "21:55"
+  }
+}

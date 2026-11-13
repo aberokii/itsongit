@@ -1,0 +1,114 @@
+{
+  "repo": "Stirling-Tools/Stirling-PDF",
+  "name": "Stirling PDF",
+  "title": "Stirling PDF: free Adobe Acrobat alternative",
+  "slot": 0,
+  "keyword": "DOCS",
+  "paid": {
+    "name": "Adobe Acrobat Pro",
+    "price": "$19.99",
+    "per": "/month",
+    "anchor": "twenty",
+    "source": "https://www.adobe.com/acrobat/pricing.html"
+  },
+  "icon": "https://raw.githubusercontent.com/Stirling-Tools/Stirling-PDF/main/frontend/src-tauri/icons/android-chrome-512x512.png",
+  "job": "Edits, merges and signs PDFs",
+  "platforms": [
+    "Windows",
+    "Mac",
+    "Linux"
+  ],
+  "install": "Download from GitHub Releases",
+  "install_url": "https://stirling.com",
+  "caption": "Adobe Acrobat Pro charges $19.99/month to edit PDFs. Stirling PDF does it for free 📄\n\n✅ Edit, merge, split and compress PDFs in one app\n✅ Sign documents and black out private info with redact\n✅ OCR turns scanned pages into searchable text\n✅ Add passwords and watermarks, 60+ tools in total\n\n💻 Windows · Mac · Linux\nℹ️ The desktop app is free for personal use and works offline. The text editor is still marked alpha, and team features like single sign-on are a separate paid plan\n\nComment \"DOCS\" and I'll DM you the link 🔗\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #pdf #adobeacrobat #productivity #freeapps #techtips",
+  "dm_pitch": "Stirling PDF, the free open-source Adobe Acrobat alternative 📄",
+  "thumb": {
+    "big": "FREE",
+    "line1": "Adobe Acrobat",
+    "line2": "alternative"
+  },
+  "topic_arm": "subscription",
+  "format": "story",
+  "demo": {
+    "images": [
+      "assets/editor-light.png",
+      "assets/tools.png"
+    ]
+  },
+  "beats": [
+    {
+      "say": "Stop paying Adobe twenty bucks a month just to edit a PDF. Seriously.",
+      "scene": "slam",
+      "text": "Stop paying Adobe",
+      "accent": "paying",
+      "sub": "$240 a year → $0",
+      "tone": "neg",
+      "mood": "shock"
+    },
+    {
+      "say": "Wait, there's a free one?",
+      "scene": "character",
+      "text": "Wait, it's free?! 😳",
+      "mood": "worried",
+      "select": "free"
+    },
+    {
+      "say": "Acrobat Pro is twenty dollars a month. Stirling PDF costs nothing.",
+      "scene": "versus",
+      "mood": "point",
+      "accent": "twenty",
+      "select": "nothing"
+    },
+    {
+      "say": "Open any PDF, then redact, sign, merge or compress it, all in one app.",
+      "scene": "app",
+      "image": "assets/editor-light.png",
+      "text": "All in one app",
+      "mood": "excited",
+      "accent": "all",
+      "select": "sign"
+    },
+    {
+      "say": "And it gets better.",
+      "scene": "character",
+      "text": "It gets better 👀",
+      "mood": "excited"
+    },
+    {
+      "say": "It even turns scans into searchable text, with over fifty tools in total.",
+      "scene": "app",
+      "image": "assets/tools.png",
+      "text": "50+ PDF tools",
+      "accent": "fifty",
+      "select": "scans"
+    },
+    {
+      "say": "Tons of people on GitHub keep it free.",
+      "scene": "counter",
+      "from": 0,
+      "to": 96000,
+      "suffix": " ★",
+      "label": "GitHub stars",
+      "mood": "excited",
+      "select": "free"
+    },
+    {
+      "say": "It's Acrobat, without the monthly bill.",
+      "scene": "slam",
+      "text": "No monthly bill",
+      "accent": "bill",
+      "mood": "smug"
+    },
+    {
+      "say": "Comment Docs, and I'll send you the link.",
+      "scene": "cta",
+      "mood": "point"
+    }
+  ],
+  "hook_style": "story",
+  "window": "midday",
+  "publish": {
+    "date": "2026-11-13",
+    "time": "12:33"
+  }
+}

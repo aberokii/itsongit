@@ -1,0 +1,29 @@
+{
+  "title": "Neothesia: free Synthesia alternative",
+  "video": "FINAL.mp4",
+  "thumbnail": "FINAL_thumbnail.png",
+  "repo_url": "https://github.com/PolyMeilex/Neothesia",
+  "keyword": "PIANO",
+  "caption": "Synthesia costs $39 to learn piano songs from falling notes. Neothesia does it for free \ud83c\udfb9\n\n\u2705 Turns any MIDI song into colorful falling notes on a virtual piano\n\u2705 Plug in a MIDI keyboard and play along\n\u2705 Choose a track to mute, auto-play or play yourself\n\u2705 Slow the song down and rewind while you practice\n\n\ud83d\udcbb Windows \u00b7 Mac \u00b7 Linux\n\u2139\ufe0f You bring your own MIDI files (no built-in song library), and playing along needs a MIDI keyboard. On Mac, right-click the app and choose Open the first time. Synthesia's regular price is $39 (it's sometimes on sale)\n\nComment \"PIANO\" and I'll DM you the link \ud83d\udd17\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #piano #learnpiano #pianotutorial #synthesia #music #freeapps",
+  "dm_pitch": "Neothesia, the free open-source Synthesia alternative for learning piano \ud83c\udfb9",
+  "install": "Download from GitHub Releases",
+  "dm_on_any_comment": true,
+  "follow_gate": true,
+  "slot": 2,
+  "price_source": "https://www.synthesiagame.com/unlock",
+  "experiment": {
+    "format": "story",
+    "hook": "story",
+    "topic": "hobby",
+    "window": "night"
+  },
+  "idempotencyKey": "35babbb0-71f0-43e7-b803-7416a54891ea",
+  "zernio": {
+    "postId": "6af6d25ab564fd6cc8a0be9b",
+    "status": "scheduled",
+    "scheduledFor": "2026-11-13T20:55:00.000Z",
+    "url": null,
+    "automationId": "6af6d25c1f42711160b2529d",
+    "slot": 2
+  }
+}
