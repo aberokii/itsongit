@@ -1,0 +1,124 @@
+{
+  "repo": "Azgaar/Fantasy-Map-Generator",
+  "name": "Fantasy Map Generator",
+  "title": "Fantasy Map Generator: free Inkarnate alternative",
+  "slot": 1,
+  "keyword": "WORLD",
+  "paid": {
+    "name": "Inkarnate",
+    "price": "$39.99",
+    "per": "/year",
+    "anchor": "forty",
+    "source": "https://inkarnate.com/pricing"
+  },
+  "icon": "https://raw.githubusercontent.com/Azgaar/Fantasy-Map-Generator/master/build/icon.png",
+  "job": "Draws fantasy maps in seconds",
+  "platforms": [
+    "any browser",
+    "Windows",
+    "Mac",
+    "Linux"
+  ],
+  "install": "Open it in your browser",
+  "install_url": "https://azgaar.github.io/Fantasy-Map-Generator",
+  "caption": "Inkarnate's Creator plan costs $39.99/year to make fantasy maps. This one generates a whole world for free 🗺️\n\n✅ One click builds continents, rivers, kingdoms, cultures, religions and cities\n✅ Edit anything: reshape the land, rename states, move cities\n✅ Switch between political, biome and heightmap views\n✅ Export your map as PNG, SVG or JPEG\n\n💻 Any browser · Windows · Mac · Linux\nℹ️ It generates the map for you and the look is its own (not Inkarnate's hand-painted art), so there are lots of buttons to learn. Inkarnate also has a free tier with 3 maps; its paid Creator plan is $39.99/year or $7.99/month\n\nComment \"WORLD\" and I'll DM you the link 🔗\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #worldbuilding #dnd #fantasymap #dungeonsanddragons #rpg #freeapps",
+  "dm_pitch": "Fantasy Map Generator, the free open-source Inkarnate alternative for D&D and worldbuilding 🗺️",
+  "thumb": {
+    "big": "FREE",
+    "line1": "Inkarnate",
+    "line2": "alternative"
+  },
+  "topic_arm": "hobby",
+  "format": "story",
+  "demo": {
+    "images": [
+      "assets/political.png",
+      "assets/states.png"
+    ]
+  },
+  "beats": [
+    {
+      "say": "There's a free site that builds an entire fantasy world in one click.",
+      "scene": "slam",
+      "text": "A world in one click",
+      "accent": "free",
+      "sub": "$39.99 → $0",
+      "tone": "neg",
+      "mood": "shock"
+    },
+    {
+      "say": "Wait, an entire world?",
+      "scene": "character",
+      "text": "A whole world?! 😳",
+      "mood": "worried"
+    },
+    {
+      "say": "Inkarnate charges forty bucks a year. This costs nothing.",
+      "scene": "versus",
+      "mood": "point",
+      "accent": "forty",
+      "select": "nothing"
+    },
+    {
+      "say": "Continents, rivers, kingdoms and cities, all named and drawn for you.",
+      "scene": "app",
+      "image": "assets/political.png",
+      "text": "Auto-drawn world",
+      "mood": "excited",
+      "accent": "named",
+      "select": "kingdoms"
+    },
+    {
+      "say": "And it gets better.",
+      "scene": "character",
+      "text": "It gets better 👀",
+      "mood": "excited"
+    },
+    {
+      "say": "Rename any kingdom, add cities and rivers, or reshape the land yourself.",
+      "scene": "app",
+      "image": "assets/states.png",
+      "text": "Edit everything",
+      "mood": "smug",
+      "select": "rename"
+    },
+    {
+      "say": "Then export it for your campaign, your novel, or your game.",
+      "scene": "list",
+      "text": "Export as PNG or SVG",
+      "items": [
+        {
+          "label": "🎲 Campaign",
+          "anchor": "campaign"
+        },
+        {
+          "label": "📖 Novel",
+          "anchor": "novel"
+        },
+        {
+          "label": "🎮 Game",
+          "anchor": "game"
+        }
+      ],
+      "accent": "export"
+    },
+    {
+      "say": "It's Inkarnate, minus the subscription.",
+      "scene": "slam",
+      "text": "No subscription",
+      "accent": "subscription",
+      "mood": "smug"
+    },
+    {
+      "say": "Comment World, and I'll send you the link.",
+      "scene": "cta",
+      "mood": "point"
+    }
+  ],
+  "hook_style": "story",
+  "window": "evening",
+  "publish": {
+    "date": "2026-11-14",
+    "time": "19:37"
+  }
+}

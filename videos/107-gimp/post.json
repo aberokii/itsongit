@@ -1,0 +1,29 @@
+{
+  "title": "GIMP: free Photoshop alternative",
+  "video": "FINAL.mp4",
+  "thumbnail": "FINAL_thumbnail.png",
+  "repo_url": "https://github.com/GNOME/gimp",
+  "keyword": "PHOTO",
+  "caption": "Photoshop costs $19.99/month to edit your photos. GIMP does it for free \ud83d\udcf8\n\n\u2705 Edit photos in layers, with curves and color filters\n\u2705 Filters stay editable, so you can tweak them later\n\u2705 Opens and saves Photoshop PSD files\n\u2705 No subscription, no watermarks, 100% free\n\n\ud83d\udcbb Mac \u00b7 Windows \u00b7 Linux\n\u2139\ufe0f The interface is different from Photoshop, so expect a learning curve. Photoshop price is the Photography plan (includes Lightroom), billed monthly on an annual plan\n\nComment \"PHOTO\" and I'll DM you the link \ud83d\udd17\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #photoshop #photoediting #gimp #photography #freeapps #techtips",
+  "dm_pitch": "GIMP, the free open-source Photoshop alternative \ud83d\udcf8",
+  "install": "brew install --cask gimp",
+  "dm_on_any_comment": true,
+  "follow_gate": true,
+  "slot": 2,
+  "price_source": "https://www.adobe.com/products/photoshop/plans.html",
+  "experiment": {
+    "format": "classic",
+    "hook": "demo",
+    "topic": "subscription",
+    "window": "night"
+  },
+  "idempotencyKey": "6eb6d067-7301-46bb-be27-f6986b40fcdd",
+  "zernio": {
+    "postId": "6af8259ca0a26f574c05f34d",
+    "status": "scheduled",
+    "scheduledFor": "2026-11-14T21:16:00.000Z",
+    "url": null,
+    "automationId": "6af8259e2ec6ed58c9c72bd5",
+    "slot": 2
+  }
+}

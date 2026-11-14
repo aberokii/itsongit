@@ -1,0 +1,94 @@
+{
+  "repo": "GNOME/gimp",
+  "name": "GIMP",
+  "title": "GIMP: free Photoshop alternative",
+  "slot": 2,
+  "keyword": "PHOTO",
+  "paid": {
+    "name": "Photoshop",
+    "price": "$19.99",
+    "per": "/month",
+    "anchor": "twenty",
+    "source": "https://www.adobe.com/products/photoshop/plans.html"
+  },
+  "icon": "assets/icon.png",
+  "hook": "Photoshop charges you twenty bucks a month to edit your photos. This app does it for free.",
+  "job": "Edits photos with layers",
+  "platforms": [
+    "Mac",
+    "Windows",
+    "Linux"
+  ],
+  "features": [
+    {
+      "intro": "It's a real photo editor.",
+      "say": "Work in layers, fix colors with curves, and watch the changes live.",
+      "images": [
+        "https://www.gimp.org/release-notes/images/3.0-nde-example.jpg"
+      ],
+      "chips": [
+        {
+          "label": "🗂 Layers",
+          "anchor": "layers"
+        },
+        {
+          "label": "📈 Curves",
+          "anchor": "curves"
+        }
+      ]
+    },
+    {
+      "say": "Filters stay editable, so you can tweak them later. It opens Photoshop PSD files too.",
+      "images": [
+        "https://www.gimp.org/release-notes/images/3.2-vibrance-filter.png"
+      ],
+      "chips": [
+        {
+          "label": "✓ Editable filters",
+          "anchor": "editable"
+        },
+        {
+          "label": "PSD files",
+          "anchor": "psd"
+        }
+      ]
+    }
+  ],
+  "nolist": [
+    {
+      "say": "No subscription.",
+      "label": "Subscription"
+    },
+    {
+      "say": "No watermarks.",
+      "label": "Watermarks"
+    },
+    {
+      "say": "No sign-up.",
+      "label": "Sign-up"
+    }
+  ],
+  "install": "brew install --cask gimp",
+  "install_url": "https://www.gimp.org/downloads/",
+  "caption": "Photoshop costs $19.99/month to edit your photos. GIMP does it for free 📸\n\n✅ Edit photos in layers, with curves and color filters\n✅ Filters stay editable, so you can tweak them later\n✅ Opens and saves Photoshop PSD files\n✅ No subscription, no watermarks, 100% free\n\n💻 Mac · Windows · Linux\nℹ️ The interface is different from Photoshop, so expect a learning curve. Photoshop price is the Photography plan (includes Lightroom), billed monthly on an annual plan\n\nComment \"PHOTO\" and I'll DM you the link 🔗\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #photoshop #photoediting #gimp #photography #freeapps #techtips",
+  "dm_pitch": "GIMP, the free open-source Photoshop alternative 📸",
+  "thumb": {
+    "big": "FREE",
+    "line1": "Photoshop",
+    "line2": "alternative"
+  },
+  "topic_arm": "subscription",
+  "format": "classic",
+  "demo": {
+    "images": [
+      "https://www.gimp.org/release-notes/images/3.2-vibrance-filter.png",
+      "https://www.gimp.org/release-notes/images/3.0-nde-example.jpg"
+    ]
+  },
+  "hook_style": "demo",
+  "window": "night",
+  "publish": {
+    "date": "2026-11-14",
+    "time": "22:16"
+  }
+}

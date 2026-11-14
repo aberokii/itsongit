@@ -6,13 +6,13 @@ The scout (`pipeline/scout.py`) skips these automatically via `data/posted.json`
 | # | Repo | Video | Keyword | Status | When (UTC) | Instagram |
 |---|---|---|---|---|---|---|
 | 1 | [momenbasel/PureMac](https://github.com/momenbasel/PureMac) | 001-puremac | MAC | published | 2026-10-19T19:46 | https://www.instagram.com/reel/DesCn--G41b/ |
-| 2 | [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio) | 002-voicestudio | VOICE | published | 2026-10-19T21:26 | https://www.instagram.com/reel/DesOFGvFI5w/ |
-| 3 | [KnifeLemon/Filee](https://github.com/KnifeLemon/Filee) | 003-filee | FILE | published | 2026-10-19T21:57 | https://www.instagram.com/reel/DesRnIniDOA/ |
+| 2 | [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio) | 002-voicestudio | VOICE | scheduled | 2026-10-19T21:25 |  |
+| 3 | [KnifeLemon/Filee](https://github.com/KnifeLemon/Filee) | 003-filee | FILE | scheduled | 2026-10-19T21:55 |  |
 | 4 | [jub0t/Concat](https://github.com/jub0t/Concat) | 004-concat | EDIT | published | 2026-10-19T22:26 | https://www.instagram.com/reel/DesU8p5jRKZ/ |
 | 5 | [didriksg/Crisp](https://github.com/didriksg/Crisp) | 005-crisp | SCREEN | published | 2026-10-19T22:57 | https://www.instagram.com/reel/DesYbQGjBzt/ |
 | 6 | [anomalyco/opencode](https://github.com/anomalyco/opencode) | 006-opencode | CODE | published | 2026-10-19T23:12 | https://www.instagram.com/reel/DesaPNMla48/ |
 | 7 | [Saffsanity/sill](https://github.com/Saffsanity/sill) | 007-sill | MIRROR | published | 2026-10-19T22:11 | https://www.instagram.com/reel/DesTPbPAk4b/ |
-| 8 | [robbietilton/Compositor](https://github.com/robbietilton/Compositor) | 008-compositor | PHOTO | published | 2026-10-19T21:41 | https://www.instagram.com/reel/DesPzHSDTbL/ |
+| 8 | [robbietilton/Compositor](https://github.com/robbietilton/Compositor) | 008-compositor | PHOTO | scheduled | 2026-10-19T21:40 |  |
 | 9 | [Niko1221/Strata](https://github.com/Niko1221/Strata) | 009-strata | CHAT | published | 2026-10-19T22:41 | https://www.instagram.com/reel/DesWqfHiZAG/ |
 | 10 | [Flow-Tube/Flow](https://github.com/Flow-Tube/Flow) | 010-flow | FLOW | published | 2026-10-20T13:05 | https://www.instagram.com/reel/Det5deFjjVv/ |
 | 11 | [DuarteSantos8/openGym](https://github.com/DuarteSantos8/openGym) | 011-opengym | GYM | published | 2026-10-20T17:25 | https://www.instagram.com/reel/DeuXQywCMjc/ |
@@ -105,6 +105,9 @@ The scout (`pipeline/scout.py`) skips these automatically via `data/posted.json`
 | 98 | [GraphiteEditor/Graphite](https://github.com/GraphiteEditor/Graphite) | 099-graphite | ART | published | 2026-11-12T10:34 | https://www.instagram.com/reel/Dfo2cZFDQXh/ |
 | 99 | [TeamNewPipe/NewPipe](https://github.com/TeamNewPipe/NewPipe) | 100-newpipe | TUBE | published | 2026-11-12T18:37 | https://www.instagram.com/reel/DfptxLFgEhr/ |
 | 100 | [Read-Aloud/read-aloud](https://github.com/Read-Aloud/read-aloud) | 101-readaloud | READ | published | 2026-11-12T21:34 | https://www.instagram.com/reel/DfqCBwVmV-2/ |
-| 101 | [Stirling-Tools/Stirling-PDF](https://github.com/Stirling-Tools/Stirling-PDF) | 102-stirlingpdf | DOCS | scheduled | 2026-11-13T11:33 |  |
-| 102 | [chidiwilliams/buzz](https://github.com/chidiwilliams/buzz) | 103-buzz | BUZZ | scheduled | 2026-11-13T17:52 |  |
-| 103 | [PolyMeilex/Neothesia](https://github.com/PolyMeilex/Neothesia) | 104-neothesia | PIANO | scheduled | 2026-11-13T20:55 |  |
+| 101 | [Stirling-Tools/Stirling-PDF](https://github.com/Stirling-Tools/Stirling-PDF) | 102-stirlingpdf | DOCS | published | 2026-11-13T11:35 | https://www.instagram.com/reel/DfriP-XCuJJ/ |
+| 102 | [chidiwilliams/buzz](https://github.com/chidiwilliams/buzz) | 103-buzz | BUZZ | published | 2026-11-13T17:53 | https://www.instagram.com/reel/DfsNiIvDjWw/ |
+| 103 | [PolyMeilex/Neothesia](https://github.com/PolyMeilex/Neothesia) | 104-neothesia | PIANO | published | 2026-11-13T20:56 | https://www.instagram.com/reel/Dfsie1aCPgr/ |
+| 104 | [TheBoredTeam/boring.notch](https://github.com/TheBoredTeam/boring.notch) | 105-boringnotch | NOTCH | scheduled | 2026-11-14T11:37 |  |
+| 105 | [Azgaar/Fantasy-Map-Generator](https://github.com/Azgaar/Fantasy-Map-Generator) | 106-fantasymap | WORLD | scheduled | 2026-11-14T18:37 |  |
+| 106 | [GNOME/gimp](https://github.com/GNOME/gimp) | 107-gimp | PHOTO | scheduled | 2026-11-14T21:16 |  |

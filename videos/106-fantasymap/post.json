@@ -1,0 +1,29 @@
+{
+  "title": "Fantasy Map Generator: free Inkarnate alternative",
+  "video": "FINAL.mp4",
+  "thumbnail": "FINAL_thumbnail.png",
+  "repo_url": "https://github.com/Azgaar/Fantasy-Map-Generator",
+  "keyword": "WORLD",
+  "caption": "Inkarnate's Creator plan costs $39.99/year to make fantasy maps. This one generates a whole world for free \ud83d\uddfa\ufe0f\n\n\u2705 One click builds continents, rivers, kingdoms, cultures, religions and cities\n\u2705 Edit anything: reshape the land, rename states, move cities\n\u2705 Switch between political, biome and heightmap views\n\u2705 Export your map as PNG, SVG or JPEG\n\n\ud83d\udcbb Any browser \u00b7 Windows \u00b7 Mac \u00b7 Linux\n\u2139\ufe0f It generates the map for you and the look is its own (not Inkarnate's hand-painted art), so there are lots of buttons to learn. Inkarnate also has a free tier with 3 maps; its paid Creator plan is $39.99/year or $7.99/month\n\nComment \"WORLD\" and I'll DM you the link \ud83d\udd17\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #worldbuilding #dnd #fantasymap #dungeonsanddragons #rpg #freeapps",
+  "dm_pitch": "Fantasy Map Generator, the free open-source Inkarnate alternative for D&D and worldbuilding \ud83d\uddfa\ufe0f",
+  "install": "Open it in your browser",
+  "dm_on_any_comment": true,
+  "follow_gate": true,
+  "slot": 1,
+  "price_source": "https://inkarnate.com/pricing",
+  "experiment": {
+    "format": "story",
+    "hook": "story",
+    "topic": "hobby",
+    "window": "evening"
+  },
+  "idempotencyKey": "73125ba1-88c1-4665-bf55-666ab0329dee",
+  "zernio": {
+    "postId": "6af82596a0a26f574c05f324",
+    "status": "scheduled",
+    "scheduledFor": "2026-11-14T18:37:00.000Z",
+    "url": null,
+    "automationId": "6af825987e1b46c10b27f720",
+    "slot": 1
+  }
+}

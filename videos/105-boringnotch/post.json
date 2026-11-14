@@ -1,0 +1,29 @@
+{
+  "title": "Boring Notch: free NotchNook alternative",
+  "video": "FINAL.mp4",
+  "thumbnail": "FINAL_thumbnail.png",
+  "repo_url": "https://github.com/TheBoredTeam/boring.notch",
+  "keyword": "NOTCH",
+  "caption": "NotchNook charges $15 to turn your MacBook notch into a music player. Boring Notch does it for free \ud83c\udfb5\n\n\u2705 Notch expands into music controls with a live visualizer\n\u2705 Calendar and reminders right in the notch\n\u2705 File shelf with AirDrop support\n\u2705 Replaces the volume and brightness pop-ups\n\n\ud83d\udcbb Mac (macOS 14 Sonoma or later)\n\u2139\ufe0f The app isn't signed by Apple, so the first launch needs a one-time bypass (the Homebrew install skips it). It's also still on release candidates for the next version. NotchNook's lifetime price is $15 (there's also a $2/month plan)\n\nComment \"NOTCH\" and I'll DM you the link \ud83d\udd17\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #macos #macbook #notch #macapps #freeapps #productivity",
+  "dm_pitch": "Boring Notch, the free open-source NotchNook alternative for your MacBook \ud83c\udfb5",
+  "install": "brew install --cask TheBoredTeam/boring-notch/boring-notch",
+  "dm_on_any_comment": true,
+  "follow_gate": true,
+  "slot": 0,
+  "price_source": "https://lo.cafe/notchnook",
+  "experiment": {
+    "format": "classic",
+    "hook": "price",
+    "topic": "utility",
+    "window": "midday"
+  },
+  "idempotencyKey": "2146a28c-82fc-4484-9f7c-c92e4cf70d4a",
+  "zernio": {
+    "postId": "6af82590fa8ab778f754470f",
+    "status": "scheduled",
+    "scheduledFor": "2026-11-14T11:37:00.000Z",
+    "url": null,
+    "automationId": "6af82592290ae0e8f895312c",
+    "slot": 0
+  }
+}
