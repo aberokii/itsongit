@@ -1,0 +1,29 @@
+{
+  "title": "Magpie: free Lossless Scaling alternative",
+  "video": "FINAL.mp4",
+  "thumbnail": "FINAL_thumbnail.png",
+  "repo_url": "https://github.com/Blinue/Magpie",
+  "keyword": "GAMES",
+  "caption": "Lossless Scaling costs $6.99 on Steam. Magpie upscales your games for free \ud83c\udfae\n\n\u2705 One shortcut upscales the window you're playing\n\u2705 FSR, Anime4K and retro CRT filters built in\n\u2705 FPS counter and screenshots in the toolbar\n\u2705 No subscription, no ads, 100% free\n\n\ud83d\udcbb Windows\n\u2139\ufe0f Windows 10 (1903+) or 11 and a DirectX 11 GPU. Magpie upscales only; it has no frame generation like Lossless Scaling. Lossless Scaling price is the one-time Steam price\n\nComment \"GAMES\" and I'll DM you the link \ud83d\udd17\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #pcgaming #gaming #windows #steam #freeapps #techtips",
+  "dm_pitch": "Magpie, the free open-source Lossless Scaling alternative \ud83c\udfae",
+  "install": "Download from GitHub Releases",
+  "dm_on_any_comment": true,
+  "follow_gate": true,
+  "slot": 0,
+  "price_source": "https://store.steampowered.com/app/993090/",
+  "experiment": {
+    "format": "story",
+    "hook": "story",
+    "topic": "hobby",
+    "window": "midday"
+  },
+  "idempotencyKey": "01ab4bcb-cb42-41d2-9eb0-d0f8af3c66a0",
+  "zernio": {
+    "postId": "6af972e87ffc18b58c8c7929",
+    "status": "scheduled",
+    "scheduledFor": "2026-11-15T11:03:00.000Z",
+    "url": null,
+    "automationId": "6af972eacf6d55affbf8417b",
+    "slot": 0
+  }
+}

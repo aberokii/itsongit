@@ -1,0 +1,111 @@
+{
+  "repo": "Blinue/Magpie",
+  "name": "Magpie",
+  "title": "Magpie: free Lossless Scaling alternative",
+  "slot": 0,
+  "keyword": "GAMES",
+  "paid": {
+    "name": "Lossless Scaling",
+    "price": "$6.99",
+    "per": " one-time",
+    "anchor": "seven",
+    "source": "https://store.steampowered.com/app/993090/"
+  },
+  "icon": "assets/icon.png",
+  "job": "Upscales any game window",
+  "platforms": [
+    "Windows"
+  ],
+  "install": "Download from GitHub Releases",
+  "caption": "Lossless Scaling costs $6.99 on Steam. Magpie upscales your games for free 🎮\n\n✅ One shortcut upscales the window you're playing\n✅ FSR, Anime4K and retro CRT filters built in\n✅ FPS counter and screenshots in the toolbar\n✅ No subscription, no ads, 100% free\n\n💻 Windows\nℹ️ Windows 10 (1903+) or 11 and a DirectX 11 GPU. Magpie upscales only; it has no frame generation like Lossless Scaling. Lossless Scaling price is the one-time Steam price\n\nComment \"GAMES\" and I'll DM you the link 🔗\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #pcgaming #gaming #windows #steam #freeapps #techtips",
+  "dm_pitch": "Magpie, the free open-source Lossless Scaling alternative 🎮",
+  "thumb": {
+    "big": "FREE",
+    "line1": "Lossless Scaling",
+    "line2": "alternative"
+  },
+  "topic_arm": "hobby",
+  "format": "story",
+  "demo": {
+    "images": [
+      "assets/game-crt.png",
+      "assets/main-window.png"
+    ]
+  },
+  "beats": [
+    {
+      "say": "There's a free app that makes your games look sharper, and nobody talks about it.",
+      "scene": "slam",
+      "text": "Sharper games, free",
+      "accent": "free",
+      "sub": "Windows · $0",
+      "tone": "neg",
+      "mood": "shock"
+    },
+    {
+      "say": "Wait, how is that free?",
+      "scene": "character",
+      "text": "Wait, it's free?! 😳",
+      "mood": "worried",
+      "select": "free"
+    },
+    {
+      "say": "Lossless Scaling costs seven bucks on Steam. Magpie costs nothing.",
+      "scene": "versus",
+      "mood": "point",
+      "accent": "seven",
+      "select": "nothing"
+    },
+    {
+      "say": "On Windows, press one shortcut, and it upscales whatever window you're playing.",
+      "scene": "app",
+      "image": "assets/main-window.png",
+      "text": "One shortcut",
+      "mood": "excited",
+      "accent": "one",
+      "select": "upscales"
+    },
+    {
+      "say": "And it gets better.",
+      "scene": "character",
+      "text": "It gets better 👀",
+      "mood": "excited"
+    },
+    {
+      "say": "Pick a sharp upscaler, or a retro CRT filter that makes games look like an old TV.",
+      "scene": "app",
+      "image": "assets/game-crt.png",
+      "text": "Retro CRT filter",
+      "accent": "retro",
+      "select": "sharp"
+    },
+    {
+      "say": "Thousands of gamers on GitHub keep it free.",
+      "scene": "counter",
+      "from": 0,
+      "to": 16400,
+      "suffix": " ★",
+      "label": "GitHub stars",
+      "mood": "excited",
+      "select": "free"
+    },
+    {
+      "say": "Sharper games. Zero dollars.",
+      "scene": "slam",
+      "text": "Zero dollars",
+      "accent": "Zero",
+      "mood": "smug"
+    },
+    {
+      "say": "Comment Games, and I'll send you the link.",
+      "scene": "cta",
+      "mood": "point"
+    }
+  ],
+  "hook_style": "story",
+  "window": "midday",
+  "publish": {
+    "date": "2026-11-15",
+    "time": "12:03"
+  }
+}

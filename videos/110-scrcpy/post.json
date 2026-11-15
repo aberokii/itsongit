@@ -1,0 +1,29 @@
+{
+  "title": "scrcpy: free Vysor alternative",
+  "video": "FINAL.mp4",
+  "thumbnail": "FINAL_thumbnail.png",
+  "repo_url": "https://github.com/Genymobile/scrcpy",
+  "keyword": "MIRROR",
+  "caption": "Vysor Pro costs $10/year to control your phone from your computer. scrcpy does it for free \ud83d\udcf1\n\n\u2705 Mirror your Android phone with low delay, and control it with your mouse and keyboard\n\u2705 Sound, screen recording, and copy-paste both ways\n\u2705 Drag an APK to install it, or drag files to send them to your phone\n\u2705 No account, no ads, no app on your phone, 100% free\n\n\ud83d\udcbb Mac \u00b7 Windows \u00b7 Linux\n\u2139\ufe0f Android only (no iPhone). You turn on USB debugging on the phone once, and sound needs Android 11 or newer. On Mac and Linux you start it with one command. Vysor price is the yearly Pro plan\n\nComment \"MIRROR\" and I'll DM you the link \ud83d\udd17\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #android #scrcpy #screenmirroring #freeapps #techtips",
+  "dm_pitch": "scrcpy, the free open-source Vysor alternative \ud83d\udcf1",
+  "install": "brew install scrcpy",
+  "dm_on_any_comment": true,
+  "follow_gate": true,
+  "slot": 2,
+  "price_source": "https://www.vysor.io/",
+  "experiment": {
+    "format": "story",
+    "hook": "story",
+    "topic": "utility",
+    "window": "night"
+  },
+  "idempotencyKey": "99abcf05-f31a-4aeb-a55a-30702ee2a864",
+  "zernio": {
+    "postId": "6af974ab458f6ebb32053cd9",
+    "status": "scheduled",
+    "scheduledFor": "2026-11-15T21:03:00.000Z",
+    "url": null,
+    "automationId": "6af974ad504ecef4a858855a",
+    "slot": 2
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "repo": "Genymobile/scrcpy",
+  "name": "scrcpy",
+  "title": "scrcpy: free Vysor alternative",
+  "slot": 2,
+  "keyword": "MIRROR",
+  "paid": {
+    "name": "Vysor Pro",
+    "price": "$10",
+    "per": "/year",
+    "anchor": "ten",
+    "source": "https://www.vysor.io/"
+  },
+  "icon": "assets/icon.png",
+  "job": "Controls your phone from a PC",
+  "platforms": [
+    "Mac",
+    "Windows",
+    "Linux"
+  ],
+  "install": "brew install scrcpy",
+  "caption": "Vysor Pro costs $10/year to control your phone from your computer. scrcpy does it for free 📱\n\n✅ Mirror your Android phone with low delay, and control it with your mouse and keyboard\n✅ Sound, screen recording, and copy-paste both ways\n✅ Drag an APK to install it, or drag files to send them to your phone\n✅ No account, no ads, no app on your phone, 100% free\n\n💻 Mac · Windows · Linux\nℹ️ Android only (no iPhone). You turn on USB debugging on the phone once, and sound needs Android 11 or newer. On Mac and Linux you start it with one command. Vysor price is the yearly Pro plan\n\nComment \"MIRROR\" and I'll DM you the link 🔗\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #android #scrcpy #screenmirroring #freeapps #techtips",
+  "dm_pitch": "scrcpy, the free open-source Vysor alternative 📱",
+  "thumb": {
+    "big": "FREE",
+    "line1": "Vysor",
+    "line2": "alternative"
+  },
+  "topic_arm": "utility",
+  "format": "story",
+  "demo": {
+    "images": [
+      "assets/mirror.jpg"
+    ]
+  },
+  "beats": [
+    {
+      "say": "I can't believe this is free. You can control your Android phone right from your computer.",
+      "scene": "slam",
+      "text": "Your phone on your PC",
+      "accent": "phone",
+      "sub": "$0 · no app on the phone",
+      "tone": "neg",
+      "mood": "shock"
+    },
+    {
+      "say": "Wait, the whole phone?",
+      "scene": "character",
+      "text": "The WHOLE phone?! 🤯",
+      "mood": "worried",
+      "select": "whole"
+    },
+    {
+      "say": "Vysor charges ten bucks a year for this. This one costs nothing.",
+      "scene": "versus",
+      "mood": "point",
+      "accent": "ten",
+      "select": "nothing"
+    },
+    {
+      "say": "Your screen pops up with almost no delay, and you tap and type with your mouse.",
+      "scene": "app",
+      "image": "assets/mirror-wide.png",
+      "text": "Mouse + keyboard",
+      "mood": "excited",
+      "accent": "delay",
+      "select": "mouse"
+    },
+    {
+      "say": "But here's the crazy part.",
+      "scene": "character",
+      "text": "Here's the crazy part 👀",
+      "mood": "excited"
+    },
+    {
+      "say": "Sound comes through, you can record it, and copy paste works both ways.",
+      "scene": "list",
+      "text": "It also does",
+      "items": [
+        {
+          "label": "🔊 Sound",
+          "anchor": "sound"
+        },
+        {
+          "label": "⏺ Recording",
+          "anchor": "record"
+        },
+        {
+          "label": "📋 Copy-paste",
+          "anchor": "paste"
+        }
+      ],
+      "select": "both"
+    },
+    {
+      "say": "Nothing gets installed on your phone.",
+      "scene": "slam",
+      "text": "Nothing to install",
+      "accent": "Nothing",
+      "mood": "smug"
+    },
+    {
+      "say": "It's one of the biggest free apps on GitHub.",
+      "scene": "counter",
+      "from": 0,
+      "to": 154800,
+      "suffix": " ★",
+      "label": "GitHub stars",
+      "mood": "excited",
+      "select": "biggest"
+    },
+    {
+      "say": "Comment Mirror, and I'll send you the link.",
+      "scene": "cta",
+      "mood": "point"
+    }
+  ],
+  "hook_style": "story",
+  "window": "night",
+  "publish": {
+    "date": "2026-11-15",
+    "time": "22:03"
+  }
+}

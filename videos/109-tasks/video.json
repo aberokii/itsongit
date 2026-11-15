@@ -1,0 +1,94 @@
+{
+  "repo": "tasks/tasks",
+  "name": "Tasks",
+  "title": "Tasks.org: free Todoist alternative",
+  "slot": 1,
+  "keyword": "LIST",
+  "paid": {
+    "name": "Todoist Pro",
+    "price": "$5",
+    "per": "/month",
+    "anchor": "five",
+    "source": "https://www.todoist.com/pricing"
+  },
+  "icon": "assets/icon.png",
+  "hook": "Todoist charges you five bucks a month to organize your to-do list. This app does it for free.",
+  "job": "Organizes your to-do list",
+  "platforms": [
+    "Android"
+  ],
+  "features": [
+    {
+      "intro": "It's a full to-do list.",
+      "say": "Break big jobs into subtasks, and set repeating tasks that come back by themselves.",
+      "images": [
+        "assets/c4.png"
+      ],
+      "chips": [
+        {
+          "label": "✓ Subtasks",
+          "anchor": "subtasks"
+        },
+        {
+          "label": "🔁 Repeating",
+          "anchor": "repeating"
+        }
+      ]
+    },
+    {
+      "say": "Get a reminder the moment you arrive at the grocery store, and sort everything with tags.",
+      "images": [
+        "assets/c1.png",
+        "assets/c5.png"
+      ],
+      "chips": [
+        {
+          "label": "📍 Location reminders",
+          "anchor": "arrive"
+        },
+        {
+          "label": "🏷 Tags",
+          "anchor": "tags"
+        }
+      ],
+      "swap_anchor": "tags"
+    }
+  ],
+  "nolist": [
+    {
+      "say": "No ads.",
+      "label": "Ads"
+    },
+    {
+      "say": "No account.",
+      "label": "Account"
+    },
+    {
+      "say": "No tracking.",
+      "label": "Tracking"
+    }
+  ],
+  "install": "Download from Google Play",
+  "install_url": "https://tasks.org",
+  "caption": "Todoist Pro costs $5/month (billed yearly, $60/year). Tasks.org organizes your to-do list for free ✅\n\n✅ Subtasks, repeating tasks and tags\n✅ Location reminders when you arrive somewhere\n✅ Works offline, no account needed\n✅ No ads, no tracking, free\n\n💻 Android\nℹ️ The core app is free. Syncing with CalDAV, DAVx5 or EteSync, the desktop app and custom themes need an optional Tasks.org subscription (you choose the price, from $0.99/year). Google Tasks sync is free. Todoist price is the Pro plan, billed yearly ($7/month if billed monthly)\n\nComment \"LIST\" and I'll DM you the link 🔗\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #android #todolist #productivity #todoist #freeapps #techtips",
+  "dm_pitch": "Tasks.org, the free open-source Todoist alternative for Android ✅",
+  "thumb": {
+    "big": "FREE",
+    "line1": "Todoist",
+    "line2": "alternative"
+  },
+  "topic_arm": "subscription",
+  "format": "classic",
+  "demo": {
+    "images": [
+      "assets/c4.png",
+      "assets/c1.png"
+    ]
+  },
+  "hook_style": "price",
+  "window": "evening",
+  "publish": {
+    "date": "2026-11-15",
+    "time": "18:32"
+  }
+}
