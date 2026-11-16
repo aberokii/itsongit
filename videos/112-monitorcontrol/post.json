@@ -1,0 +1,29 @@
+{
+  "title": "MonitorControl: free Lunar Pro alternative",
+  "video": "FINAL.mp4",
+  "thumbnail": "FINAL_thumbnail.png",
+  "repo_url": "https://github.com/MonitorControl/MonitorControl",
+  "keyword": "BRIGHT",
+  "caption": "Lunar Pro charges $23 to control your external monitor's brightness from your Mac. MonitorControl does it for free \ud83d\udca1\n\n\u2705 Your keyboard's brightness and volume keys work on external monitors\n\u2705 Brightness and volume sliders for every screen, right in the menu bar\n\u2705 Dims past your monitor's minimum, even all the way to black\n\u2705 No subscription, no license, 100% free\n\n\ud83d\udcbb Mac\n\u2139\ufe0f Hardware control needs a monitor that supports DDC. The built-in HDMI port on M1 Macs and some Mac minis doesn't, so use USB-C there; DisplayLink docks only get software dimming\n\nComment \"BRIGHT\" and I'll DM you the link \ud83d\udd17\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #macos #macbook #desksetup #freeapps #techtips",
+  "dm_pitch": "MonitorControl, the free open-source Lunar Pro alternative \ud83d\udca1",
+  "install": "brew install --cask monitorcontrol",
+  "dm_on_any_comment": true,
+  "follow_gate": true,
+  "slot": 1,
+  "price_source": "https://lunar.fyi",
+  "experiment": {
+    "format": "story",
+    "hook": "story",
+    "topic": "utility",
+    "window": "evening"
+  },
+  "idempotencyKey": "5496cd2d-b200-4a25-8dcb-0bb16b51cf6b",
+  "zernio": {
+    "postId": "6afac977817c43f2e79d78b6",
+    "status": "scheduled",
+    "scheduledFor": "2026-11-16T17:17:00.000Z",
+    "url": null,
+    "automationId": "6afac97a130b33ac0c79a363",
+    "slot": 1
+  }
+}

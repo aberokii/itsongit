@@ -9,12 +9,12 @@ The scout (`pipeline/scout.py`) skips these automatically via `data/posted.json`
 | 2 | [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio) | 002-voicestudio | VOICE | scheduled | 2026-10-19T21:25 |  |
 | 3 | [KnifeLemon/Filee](https://github.com/KnifeLemon/Filee) | 003-filee | FILE | scheduled | 2026-10-19T21:55 |  |
 | 4 | [jub0t/Concat](https://github.com/jub0t/Concat) | 004-concat | EDIT | scheduled | 2026-10-19T22:25 |  |
-| 5 | [didriksg/Crisp](https://github.com/didriksg/Crisp) | 005-crisp | SCREEN | published | 2026-10-19T22:57 | https://www.instagram.com/reel/DesYbQGjBzt/ |
-| 6 | [anomalyco/opencode](https://github.com/anomalyco/opencode) | 006-opencode | CODE | published | 2026-10-19T23:12 | https://www.instagram.com/reel/DesaPNMla48/ |
+| 5 | [didriksg/Crisp](https://github.com/didriksg/Crisp) | 005-crisp | SCREEN | scheduled | 2026-10-19T22:55 |  |
+| 6 | [anomalyco/opencode](https://github.com/anomalyco/opencode) | 006-opencode | CODE | scheduled | 2026-10-19T23:10 |  |
 | 7 | [Saffsanity/sill](https://github.com/Saffsanity/sill) | 007-sill | MIRROR | scheduled | 2026-10-19T22:10 |  |
 | 8 | [robbietilton/Compositor](https://github.com/robbietilton/Compositor) | 008-compositor | PHOTO | scheduled | 2026-10-19T21:40 |  |
 | 9 | [Niko1221/Strata](https://github.com/Niko1221/Strata) | 009-strata | CHAT | scheduled | 2026-10-19T22:40 |  |
-| 10 | [Flow-Tube/Flow](https://github.com/Flow-Tube/Flow) | 010-flow | FLOW | published | 2026-10-20T13:05 | https://www.instagram.com/reel/Det5deFjjVv/ |
+| 10 | [Flow-Tube/Flow](https://github.com/Flow-Tube/Flow) | 010-flow | FLOW | scheduled | 2026-10-20T13:02 |  |
 | 11 | [DuarteSantos8/openGym](https://github.com/DuarteSantos8/openGym) | 011-opengym | GYM | published | 2026-10-20T17:25 | https://www.instagram.com/reel/DeuXQywCMjc/ |
 | 12 | [storytold/pdfcraft](https://github.com/storytold/pdfcraft) | 012-pdfcraft | PAGES | published | 2026-10-20T16:34 | https://www.instagram.com/reel/DeuRbvXio1e/ |
 | 13 | [Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI) | 013-comfyui | COMFY | published | 2026-10-20T19:42 | https://www.instagram.com/reel/Deum7xxkx5n/ |
@@ -111,6 +111,9 @@ The scout (`pipeline/scout.py`) skips these automatically via `data/posted.json`
 | 104 | [TheBoredTeam/boring.notch](https://github.com/TheBoredTeam/boring.notch) | 105-boringnotch | NOTCH | published | 2026-11-14T11:38 | https://www.instagram.com/reel/DfuHcveDHa0/ |
 | 105 | [Azgaar/Fantasy-Map-Generator](https://github.com/Azgaar/Fantasy-Map-Generator) | 106-fantasymap | WORLD | published | 2026-11-14T18:38 | https://www.instagram.com/reel/Dfu3elRD2TD/ |
 | 106 | [GNOME/gimp](https://github.com/GNOME/gimp) | 107-gimp | PHOTO | published | 2026-11-14T21:18 | https://www.instagram.com/reel/DfvJwkQDwsl/ |
-| 107 | [Blinue/Magpie](https://github.com/Blinue/Magpie) | 108-magpie | GAMES | scheduled | 2026-11-15T11:03 |  |
-| 108 | [tasks/tasks](https://github.com/tasks/tasks) | 109-tasks | LIST | scheduled | 2026-11-15T17:32 |  |
-| 109 | [Genymobile/scrcpy](https://github.com/Genymobile/scrcpy) | 110-scrcpy | MIRROR | scheduled | 2026-11-15T21:03 |  |
+| 107 | [Blinue/Magpie](https://github.com/Blinue/Magpie) | 108-magpie | GAMES | published | 2026-11-15T11:05 | https://www.instagram.com/reel/DfwoXb0nIiG/ |
+| 108 | [tasks/tasks](https://github.com/tasks/tasks) | 109-tasks | LIST | published | 2026-11-15T17:33 | https://www.instagram.com/reel/DfxU4WjjFQW/ |
+| 109 | [Genymobile/scrcpy](https://github.com/Genymobile/scrcpy) | 110-scrcpy | MIRROR | published | 2026-11-15T21:05 | https://www.instagram.com/reel/DfxtCDjimSE/ |
+| 110 | [friction2d/friction](https://github.com/friction2d/friction) | 111-friction | MOTION | scheduled | 2026-11-16T10:39 |  |
+| 111 | [MonitorControl/MonitorControl](https://github.com/MonitorControl/MonitorControl) | 112-monitorcontrol | BRIGHT | scheduled | 2026-11-16T17:17 |  |
+| 112 | [luanti-org/luanti](https://github.com/luanti-org/luanti) | 113-luanti | BLOCKS | scheduled | 2026-11-16T20:49 |  |

@@ -1,0 +1,124 @@
+{
+  "repo": "MonitorControl/MonitorControl",
+  "name": "MonitorControl",
+  "title": "MonitorControl: free Lunar Pro alternative",
+  "slot": 1,
+  "keyword": "BRIGHT",
+  "paid": {
+    "name": "Lunar Pro",
+    "price": "$23",
+    "per": " one-time",
+    "anchor": "twenty",
+    "source": "https://lunar.fyi"
+  },
+  "icon": "https://raw.githubusercontent.com/MonitorControl/MonitorControl/main/MonitorControl/Assets.xcassets/AppIcon.appiconset/Icon-1024.png",
+  "job": "Dims your monitor from your Mac",
+  "platforms": [
+    "Mac"
+  ],
+  "install": "brew install --cask monitorcontrol",
+  "install_url": "https://monitorcontrol.app",
+  "caption": "Lunar Pro charges $23 to control your external monitor's brightness from your Mac. MonitorControl does it for free 💡\n\n✅ Your keyboard's brightness and volume keys work on external monitors\n✅ Brightness and volume sliders for every screen, right in the menu bar\n✅ Dims past your monitor's minimum, even all the way to black\n✅ No subscription, no license, 100% free\n\n💻 Mac\nℹ️ Hardware control needs a monitor that supports DDC. The built-in HDMI port on M1 Macs and some Mac minis doesn't, so use USB-C there; DisplayLink docks only get software dimming\n\nComment \"BRIGHT\" and I'll DM you the link 🔗\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #macos #macbook #desksetup #freeapps #techtips",
+  "dm_pitch": "MonitorControl, the free open-source Lunar Pro alternative 💡",
+  "thumb": {
+    "big": "FREE",
+    "line1": "Lunar Pro",
+    "line2": "alternative"
+  },
+  "format": "story",
+  "topic_arm": "utility",
+  "demo": {
+    "images": [
+      "https://raw.githubusercontent.com/MonitorControl/MonitorControl/main/.github/screenshot.png",
+      "https://raw.githubusercontent.com/MonitorControl/MonitorControl/main/.github/pref_2.png"
+    ]
+  },
+  "beats": [
+    {
+      "say": "If your Mac can't dim your external monitor, stop scrolling.",
+      "scene": "slam",
+      "text": "Monitor won't dim?",
+      "sub": "$0 fix · Mac",
+      "accent": "dim",
+      "tone": "neg",
+      "mood": "shock"
+    },
+    {
+      "say": "Wait, there's a free fix?",
+      "scene": "character",
+      "text": "A free fix?! 😳",
+      "mood": "excited",
+      "select": "free"
+    },
+    {
+      "say": "Lunar Pro charges twenty three bucks for this. Monitor Control costs nothing.",
+      "scene": "versus",
+      "mood": "point",
+      "accent": "twenty",
+      "select": "nothing"
+    },
+    {
+      "say": "Brightness and volume sliders sit right in your menu bar, for every screen.",
+      "scene": "app",
+      "image": "assets/sliders.png",
+      "text": "Sliders for every screen",
+      "mood": "excited",
+      "accent": "every",
+      "select": "sliders"
+    },
+    {
+      "say": "And it gets better.",
+      "scene": "character",
+      "text": "It gets better 👀",
+      "mood": "smug"
+    },
+    {
+      "say": "Your keyboard keys work too, and it can dim past the minimum, all the way to black.",
+      "scene": "list",
+      "text": "It also does",
+      "items": [
+        {
+          "label": "⌨️ Keyboard keys",
+          "anchor": "keys"
+        },
+        {
+          "label": "🌙 Below minimum",
+          "anchor": "minimum"
+        },
+        {
+          "label": "⚫ Full black",
+          "anchor": "black"
+        }
+      ],
+      "select": "keyboard"
+    },
+    {
+      "say": "Thousands of Mac users on GitHub keep it free.",
+      "scene": "counter",
+      "from": 0,
+      "to": 34700,
+      "suffix": " ★",
+      "label": "GitHub stars",
+      "mood": "excited",
+      "select": "free"
+    },
+    {
+      "say": "No more reaching for the buttons on the back of your monitor.",
+      "scene": "slam",
+      "text": "No more buttons",
+      "accent": "buttons",
+      "mood": "smug"
+    },
+    {
+      "say": "Comment Bright, and I'll send you the link.",
+      "scene": "cta",
+      "mood": "point"
+    }
+  ],
+  "hook_style": "story",
+  "window": "evening",
+  "publish": {
+    "date": "2026-11-16",
+    "time": "18:17"
+  }
+}

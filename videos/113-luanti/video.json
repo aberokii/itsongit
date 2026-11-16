@@ -1,0 +1,110 @@
+{
+  "repo": "luanti-org/luanti",
+  "name": "Luanti",
+  "title": "Luanti: free Minecraft alternative",
+  "slot": 2,
+  "keyword": "BLOCKS",
+  "paid": {
+    "name": "Minecraft",
+    "price": "$29.99",
+    "per": " one-time",
+    "anchor": "thirty",
+    "source": "https://www.xbox.com/en-us/games/store/minecraft-java-bedrock-edition-for-pc/9nxp44l49shj"
+  },
+  "icon": "https://raw.githubusercontent.com/luanti-org/luanti/master/textures/base/pack/logo.png",
+  "hook": "Minecraft charges you thirty bucks to build your own block worlds. This game does it for free.",
+  "job": "Builds your own block worlds",
+  "platforms": [
+    "Mac",
+    "Windows",
+    "Linux",
+    "Android"
+  ],
+  "features": [
+    {
+      "intro": "You pick a game, then start playing.",
+      "say": "Survive and build, solve puzzles, or jump into action.",
+      "images": [
+        "https://www.luanti.org/media/gallery/8.jpg",
+        "https://www.luanti.org/media/gallery/4.jpg"
+      ],
+      "swap_anchor": "puzzles",
+      "chips": [
+        {
+          "label": "🌲 Survive and build",
+          "anchor": "survive"
+        },
+        {
+          "label": "🧩 Puzzles",
+          "anchor": "puzzles"
+        }
+      ]
+    },
+    {
+      "say": "Play solo, with friends, or online with dozens of players.",
+      "images": [
+        "https://www.luanti.org/media/gallery/5.jpg"
+      ],
+      "chips": [
+        {
+          "label": "👥 With friends",
+          "anchor": "friends"
+        },
+        {
+          "label": "🌐 Online servers",
+          "anchor": "online"
+        }
+      ]
+    },
+    {
+      "say": "Over three thousand free mods add new items and animals.",
+      "images": [
+        "https://www.luanti.org/media/gallery/3.jpg",
+        "https://www.luanti.org/media/gallery/6.jpg"
+      ],
+      "swap_anchor": "animals",
+      "chips": [
+        {
+          "label": "🧩 3,000+ mods",
+          "anchor": "thousand"
+        }
+      ]
+    }
+  ],
+  "nolist": [
+    {
+      "say": "No subscription.",
+      "label": "Subscription"
+    },
+    {
+      "say": "No paywall.",
+      "label": "Paywall"
+    },
+    {
+      "say": "No ads.",
+      "label": "Ads"
+    }
+  ],
+  "install": "brew install --cask luanti",
+  "install_url": "https://www.luanti.org",
+  "caption": "Minecraft costs $29.99. Luanti lets you build your own block worlds for free 🧱\n\n✅ Pick from many free games: survive, build, solve puzzles\n✅ Play solo, with friends, or on online servers\n✅ Over 3,000 free mods on ContentDB\n✅ No subscription, no paywall, 100% free\n\n💻 Mac · Windows · Linux · Android\nℹ️ Luanti is an engine, not Minecraft. On first launch you install a game from the built-in ContentDB browser. Minecraft price is the one-time PC Java & Bedrock price\n\nComment \"BLOCKS\" and I'll DM you the link 🔗\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #gaming #pcgaming #sandbox #indiegames #freeapps #techtips",
+  "dm_pitch": "Luanti, the free open-source Minecraft alternative 🧱",
+  "thumb": {
+    "big": "FREE",
+    "line1": "Minecraft",
+    "line2": "alternative"
+  },
+  "topic_arm": "hobby",
+  "demo": {
+    "images": [
+      "https://www.luanti.org/media/gallery/8.jpg",
+      "https://www.luanti.org/media/gallery/5.jpg"
+    ]
+  },
+  "hook_style": "price",
+  "window": "night",
+  "publish": {
+    "date": "2026-11-16",
+    "time": "21:49"
+  }
+}

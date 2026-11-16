@@ -1,0 +1,29 @@
+{
+  "title": "Luanti: free Minecraft alternative",
+  "video": "FINAL.mp4",
+  "thumbnail": "FINAL_thumbnail.png",
+  "repo_url": "https://github.com/luanti-org/luanti",
+  "keyword": "BLOCKS",
+  "caption": "Minecraft costs $29.99. Luanti lets you build your own block worlds for free \ud83e\uddf1\n\n\u2705 Pick from many free games: survive, build, solve puzzles\n\u2705 Play solo, with friends, or on online servers\n\u2705 Over 3,000 free mods on ContentDB\n\u2705 No subscription, no paywall, 100% free\n\n\ud83d\udcbb Mac \u00b7 Windows \u00b7 Linux \u00b7 Android\n\u2139\ufe0f Luanti is an engine, not Minecraft. On first launch you install a game from the built-in ContentDB browser. Minecraft price is the one-time PC Java & Bedrock price\n\nComment \"BLOCKS\" and I'll DM you the link \ud83d\udd17\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #gaming #pcgaming #sandbox #indiegames #freeapps #techtips",
+  "dm_pitch": "Luanti, the free open-source Minecraft alternative \ud83e\uddf1",
+  "install": "brew install --cask luanti",
+  "dm_on_any_comment": true,
+  "follow_gate": true,
+  "slot": 2,
+  "price_source": "https://www.xbox.com/en-us/games/store/minecraft-java-bedrock-edition-for-pc/9nxp44l49shj",
+  "experiment": {
+    "format": "classic",
+    "hook": "price",
+    "topic": "hobby",
+    "window": "night"
+  },
+  "idempotencyKey": "27ce6152-e714-48e2-b9ce-73d8ff8daf3b",
+  "zernio": {
+    "postId": "6afac97d756bf1dbfa66b786",
+    "status": "scheduled",
+    "scheduledFor": "2026-11-16T20:49:00.000Z",
+    "url": null,
+    "automationId": "6afac980225760920f6b3591",
+    "slot": 2
+  }
+}

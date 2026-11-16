@@ -107,5 +107,8 @@
  "GNOME/gimp",
  "Blinue/Magpie",
  "tasks/tasks",
- "Genymobile/scrcpy"
+ "Genymobile/scrcpy",
+ "friction2d/friction",
+ "MonitorControl/MonitorControl",
+ "luanti-org/luanti"
 ]

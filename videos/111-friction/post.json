@@ -1,0 +1,29 @@
+{
+  "title": "Friction: free After Effects alternative",
+  "video": "FINAL.mp4",
+  "thumbnail": "FINAL_thumbnail.png",
+  "repo_url": "https://github.com/friction2d/friction",
+  "keyword": "MOTION",
+  "caption": "After Effects charges $22.99/month to animate your videos. Friction does it for free \ud83c\udfac\n\n\u2705 Keyframes, a graph editor and text effects\n\u2705 Export animated SVGs for the web, or render MP4 and WebM video\n\u2705 Expression editor and multiple scenes\n\u2705 No subscription, 100% free\n\n\ud83d\udcbb Mac \u00b7 Windows \u00b7 Linux\n\u2139\ufe0f Friction 1.0 is new and its builds aren't code-signed, so the first launch on Mac or Windows needs an \"Open anyway\"; shader effects are still experimental. The $22.99/month is Adobe's annual plan, billed monthly\n\nComment \"MOTION\" and I'll DM you the link \ud83d\udd17\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #motiongraphics #aftereffects #animation #videoediting #freeapps #techtips",
+  "dm_pitch": "Friction, the free open-source After Effects alternative \ud83c\udfac",
+  "install": "Download from GitHub Releases",
+  "dm_on_any_comment": true,
+  "follow_gate": true,
+  "slot": 0,
+  "price_source": "https://www.adobe.com/products/aftereffects/plans.html",
+  "experiment": {
+    "format": "classic",
+    "hook": "demo",
+    "topic": "subscription",
+    "window": "midday"
+  },
+  "idempotencyKey": "1ba2d3e5-7bab-4568-aea9-6002a3f25cee",
+  "zernio": {
+    "postId": "6afac972756bf1dbfa66b682",
+    "status": "scheduled",
+    "scheduledFor": "2026-11-16T10:39:00.000Z",
+    "url": null,
+    "automationId": "6afac97468d92d36d2e3e691",
+    "slot": 0
+  }
+}

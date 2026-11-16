@@ -1,0 +1,112 @@
+{
+ "repo": "friction2d/friction",
+ "name": "Friction",
+ "title": "Friction: free After Effects alternative",
+ "slot": 0,
+ "keyword": "MOTION",
+ "paid": {
+  "name": "After Effects",
+  "price": "$22.99",
+  "per": "/month",
+  "anchor": "twenty",
+  "source": "https://www.adobe.com/products/aftereffects/plans.html"
+ },
+ "icon": "https://raw.githubusercontent.com/friction2d/friction-icon-theme/main/friction-icon.png",
+ "hook": "After Effects charges you twenty three bucks a month to animate your videos. This app does it for free.",
+ "job": "Animates text, shapes and art",
+ "platforms": [
+  "Mac",
+  "Windows",
+  "Linux"
+ ],
+ "features": [
+  {
+   "intro": "Make anything move.",
+   "say": "Set keyframes, smooth the motion in a graph, and add effects to your text.",
+   "images": [
+    "https://friction.graphics/assets/screenshots/friction-screenshot.jpg",
+    "https://friction.graphics/assets/screenshots/friction-text-effect.jpg"
+   ],
+   "swap_anchor": "text",
+   "chips": [
+    {
+     "label": "🔑 Keyframes",
+     "anchor": "keyframes"
+    },
+    {
+     "label": "📈 Graph editor",
+     "anchor": "graph"
+    },
+    {
+     "label": "✨ Text effects",
+     "anchor": "effects"
+    }
+   ]
+  },
+  {
+   "say": "Export animations for the web, or render them straight to video.",
+   "images": [
+    "https://friction.graphics/assets/screenshots/friction-web-animations.jpg"
+   ],
+   "chips": [
+    {
+     "label": "🌐 Web animations",
+     "anchor": "web"
+    },
+    {
+     "label": "🎬 MP4 + WebM",
+     "anchor": "video"
+    }
+   ]
+  },
+  {
+   "say": "Want more? There's an expression editor, and experimental shader effects.",
+   "images": [
+    "https://friction.graphics/assets/screenshots/friction-expressions.jpg",
+    "https://friction.graphics/assets/screenshots/friction-shader-effects.jpg"
+   ],
+   "swap_anchor": "shader",
+   "chips": [
+    {
+     "label": "Expressions",
+     "anchor": "expression"
+    }
+   ]
+  }
+ ],
+ "nolist": [
+  {
+   "say": "No subscription.",
+   "label": "Subscription"
+  },
+  {
+   "say": "No trial period.",
+   "label": "Trial period"
+  },
+  {
+   "say": "No Creative Cloud.",
+   "label": "Creative Cloud"
+  }
+ ],
+ "install": "Download from GitHub Releases",
+ "install_url": "https://friction.graphics",
+ "caption": "After Effects charges $22.99/month to animate your videos. Friction does it for free 🎬\n\n✅ Keyframes, a graph editor and text effects\n✅ Export animated SVGs for the web, or render MP4 and WebM video\n✅ Expression editor and multiple scenes\n✅ No subscription, 100% free\n\n💻 Mac · Windows · Linux\nℹ️ Friction 1.0 is new and its builds aren't code-signed, so the first launch on Mac or Windows needs an \"Open anyway\"; shader effects are still experimental. The $22.99/month is Adobe's annual plan, billed monthly\n\nComment \"MOTION\" and I'll DM you the link 🔗\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #motiongraphics #aftereffects #animation #videoediting #freeapps #techtips",
+ "dm_pitch": "Friction, the free open-source After Effects alternative 🎬",
+ "thumb": {
+  "big": "FREE",
+  "line1": "After Effects",
+  "line2": "alternative"
+ },
+ "format": "classic",
+ "topic_arm": "subscription",
+ "demo": {
+  "url": "assets/demo.mp4",
+  "start": 0
+ },
+ "hook_style": "demo",
+ "window": "midday",
+ "publish": {
+  "date": "2026-11-16",
+  "time": "11:39"
+ }
+}
