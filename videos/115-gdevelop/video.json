@@ -1,0 +1,108 @@
+{
+  "repo": "4ian/GDevelop",
+  "name": "GDevelop",
+  "title": "GDevelop: free Construct 3 alternative",
+  "slot": 1,
+  "keyword": "MAKER",
+  "paid": {
+    "name": "Construct 3",
+    "price": "$129.99",
+    "per": "/year",
+    "anchor": "hundred",
+    "source": "https://www.construct.net/en/make-games/buy-construct"
+  },
+  "icon": "https://raw.githubusercontent.com/4ian/GDevelop/master/newIDE/app/public/android-chrome-512x512.png",
+  "hook": "Construct charges you a hundred and thirty bucks a year to make your own video games. This app does it for free.",
+  "job": "Makes video games, no code",
+  "platforms": [
+    "Mac",
+    "Windows",
+    "Linux"
+  ],
+  "features": [
+    {
+      "intro": "No coding needed.",
+      "say": "Build 2D or 3D games on a visual editor, right on your computer.",
+      "images": [
+        "https://raw.githubusercontent.com/4ian/GDevelop/master/newIDE/GDevelop%202D%20screenshot.png",
+        "https://raw.githubusercontent.com/4ian/GDevelop/master/newIDE/GDevelop%20screenshot.png"
+      ],
+      "swap_anchor": "3D",
+      "chips": [
+        {
+          "label": "🕹 2D games",
+          "anchor": "2D"
+        },
+        {
+          "label": "🧊 3D games",
+          "anchor": "3D"
+        }
+      ]
+    },
+    {
+      "say": "You set the rules with simple events, like when this happens, do that.",
+      "images": [
+        "assets/events.png"
+      ],
+      "chips": [
+        {
+          "label": "🧩 Event system",
+          "anchor": "events"
+        }
+      ]
+    },
+    {
+      "say": "Then publish to mobile, desktop and the web.",
+      "images": [
+        "https://raw.githubusercontent.com/4ian/GDevelop/master/newIDE/GDevelop%20games.png"
+      ],
+      "chips": [
+        {
+          "label": "📱 Mobile",
+          "anchor": "mobile"
+        },
+        {
+          "label": "🌐 Web",
+          "anchor": "web"
+        }
+      ]
+    }
+  ],
+  "nolist": [
+    {
+      "say": "No trial period.",
+      "label": "Trial period"
+    },
+    {
+      "say": "No license fee.",
+      "label": "License fee"
+    },
+    {
+      "say": "No credit card.",
+      "label": "Credit card"
+    }
+  ],
+  "install": "brew install --cask gdevelop",
+  "install_url": "https://gdevelop.io",
+  "caption": "Construct 3 charges $129.99/year to make your own video games. GDevelop does it for free 🎮\n\n✅ No code: build 2D and 3D games in a visual editor\n✅ Set the rules with a simple event system\n✅ Publish to mobile, desktop and the web\n✅ Sell what you make, your games don't have to be open source\n\n💻 Mac · Windows · Linux\nℹ️ The editor is free. GDevelop also sells optional subscriptions (Silver, Gold, Pro) for cloud builds, AI credits and higher publishing limits. $129.99/year is Construct 3's Personal license (it also has a limited free version)\n\nComment \"MAKER\" and I'll DM you the link 🔗\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #gamedev #indiegame #nocode #makegames #freeapps #techtips",
+  "dm_pitch": "GDevelop, the free open-source Construct 3 alternative 🎮",
+  "thumb": {
+    "big": "FREE",
+    "line1": "Construct 3",
+    "line2": "alternative"
+  },
+  "format": "classic",
+  "topic_arm": "hobby",
+  "demo": {
+    "images": [
+      "https://raw.githubusercontent.com/4ian/GDevelop/master/newIDE/GDevelop%202D%20screenshot.png",
+      "https://raw.githubusercontent.com/4ian/GDevelop/master/newIDE/GDevelop%20screenshot.png"
+    ]
+  },
+  "hook_style": "demo",
+  "window": "evening",
+  "publish": {
+    "date": "2026-11-17",
+    "time": "18:39"
+  }
+}

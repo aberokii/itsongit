@@ -1,0 +1,112 @@
+{
+ "repo": "M2Team/NanaZip",
+ "name": "NanaZip",
+ "title": "NanaZip: free WinRAR alternative",
+ "keyword": "ZIP",
+ "paid": {
+  "name": "WinRAR",
+  "price": "$29",
+  "per": "",
+  "anchor": "twenty",
+  "source": "https://www.win-rar.com/buy/index_shop.php?AffID=200001006"
+ },
+ "icon": "https://raw.githubusercontent.com/M2Team/NanaZip/main/Assets/OriginalAssets/NanaZip/Standard/Standard_512.png",
+ "job": "Opens any zip, right-click",
+ "platforms": [
+  "Windows"
+ ],
+ "install": "winget install M2Team.NanaZip",
+ "install_url": "https://nanazip.org",
+ "caption": "WinRAR costs $29 for one license, and nags you to buy it. NanaZip opens your zip files for free 🗜️\n\n✅ Right-click any file in Windows 11 to extract or zip it\n✅ Dark mode everywhere, built for modern Windows\n✅ Smart Extraction, plus 7-Zip's formats and more\n✅ Built on 7-Zip, 16,000+ stars, 100% free\n\n💻 Windows\nℹ️ NanaZip is free and open source. There's an optional paid Sponsor Edition if you want to support the developer. WinRAR's trial keeps working after 40 days, it just keeps asking you to buy. (7-Zip is free too, but NanaZip adds the Windows 11 look and right-click menu)\n\nComment \"ZIP\" and I'll DM you the link 🔗\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #windows #windows11 #winrar #freeapps #techtips",
+ "dm_pitch": "NanaZip, the free open-source WinRAR alternative 🗜️",
+ "thumb": {
+  "big": "FREE",
+  "line1": "WinRAR",
+  "line2": "alternative"
+ },
+ "format": "story",
+ "topic_arm": "utility",
+ "slot": 0,
+ "demo": {
+  "images": [
+   "assets/context-menu.png",
+   "assets/dark.png"
+  ]
+ },
+ "beats": [
+  {
+   "say": "Why is anyone still paying twenty nine bucks just to open zip files?",
+   "scene": "slam",
+   "text": "$29 to unzip?",
+   "sub": "Windows · $0 fix",
+   "accent": "zip",
+   "tone": "neg",
+   "mood": "shock"
+  },
+  {
+   "say": "Wait, there's a free one?",
+   "scene": "character",
+   "text": "A free one?! 😳",
+   "mood": "excited",
+   "select": "free"
+  },
+  {
+   "say": "WinRAR charges twenty nine dollars. NanaZip costs nothing.",
+   "scene": "versus",
+   "mood": "point",
+   "accent": "twenty",
+   "select": "nothing"
+  },
+  {
+   "say": "Right-click any file in Windows eleven, and extract or zip it in one click.",
+   "scene": "app",
+   "image": "assets/context-menu.png",
+   "text": "Right-click → done",
+   "mood": "excited",
+   "accent": "one",
+   "select": "extract"
+  },
+  {
+   "say": "And it gets better.",
+   "scene": "character",
+   "text": "It gets better 👀",
+   "mood": "smug"
+  },
+  {
+   "say": "Dark mode everywhere, and it opens even more formats than seven zip.",
+   "scene": "app",
+   "image": "assets/dark.png",
+   "text": "Dark mode built in",
+   "mood": "excited",
+   "select": "dark"
+  },
+  {
+   "say": "Forty four people on GitHub keep it free.",
+   "scene": "counter",
+   "from": 0,
+   "to": 16200,
+   "suffix": " ★",
+   "label": "GitHub stars",
+   "mood": "excited",
+   "select": "free"
+  },
+  {
+   "say": "It's WinRAR, minus the price tag, forever.",
+   "scene": "slam",
+   "text": "$0 forever",
+   "accent": "forever",
+   "mood": "smug"
+  },
+  {
+   "say": "Comment Zip, and I'll send you the link.",
+   "scene": "cta",
+   "mood": "point"
+  }
+ ],
+ "hook_style": "story",
+ "window": "midday",
+ "publish": {
+  "date": "2026-11-17",
+  "time": "11:18"
+ }
+}

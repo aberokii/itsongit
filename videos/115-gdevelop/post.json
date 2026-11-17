@@ -1,0 +1,29 @@
+{
+  "title": "GDevelop: free Construct 3 alternative",
+  "video": "FINAL.mp4",
+  "thumbnail": "FINAL_thumbnail.png",
+  "repo_url": "https://github.com/4ian/GDevelop",
+  "keyword": "MAKER",
+  "caption": "Construct 3 charges $129.99/year to make your own video games. GDevelop does it for free \ud83c\udfae\n\n\u2705 No code: build 2D and 3D games in a visual editor\n\u2705 Set the rules with a simple event system\n\u2705 Publish to mobile, desktop and the web\n\u2705 Sell what you make, your games don't have to be open source\n\n\ud83d\udcbb Mac \u00b7 Windows \u00b7 Linux\n\u2139\ufe0f The editor is free. GDevelop also sells optional subscriptions (Silver, Gold, Pro) for cloud builds, AI credits and higher publishing limits. $129.99/year is Construct 3's Personal license (it also has a limited free version)\n\nComment \"MAKER\" and I'll DM you the link \ud83d\udd17\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #gamedev #indiegame #nocode #makegames #freeapps #techtips",
+  "dm_pitch": "GDevelop, the free open-source Construct 3 alternative \ud83c\udfae",
+  "install": "brew install --cask gdevelop",
+  "dm_on_any_comment": true,
+  "follow_gate": true,
+  "slot": 1,
+  "price_source": "https://www.construct.net/en/make-games/buy-construct",
+  "experiment": {
+    "format": "classic",
+    "hook": "demo",
+    "topic": "hobby",
+    "window": "evening"
+  },
+  "idempotencyKey": "ebd9110b-5c48-44b1-a4b7-84ea93773fff",
+  "zernio": {
+    "postId": "6afc17ab76c7cf0be9b4ab96",
+    "status": "scheduled",
+    "scheduledFor": "2026-11-17T17:39:00.000Z",
+    "url": null,
+    "automationId": "6afc17ae84c2a88178bc3f06",
+    "slot": 1
+  }
+}

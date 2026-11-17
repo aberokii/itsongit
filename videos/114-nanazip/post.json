@@ -1,0 +1,29 @@
+{
+  "title": "NanaZip: free WinRAR alternative",
+  "video": "FINAL.mp4",
+  "thumbnail": "FINAL_thumbnail.png",
+  "repo_url": "https://github.com/M2Team/NanaZip",
+  "keyword": "ZIP",
+  "caption": "WinRAR costs $29 for one license, and nags you to buy it. NanaZip opens your zip files for free \ud83d\udddc\ufe0f\n\n\u2705 Right-click any file in Windows 11 to extract or zip it\n\u2705 Dark mode everywhere, built for modern Windows\n\u2705 Smart Extraction, plus 7-Zip's formats and more\n\u2705 Built on 7-Zip, 16,000+ stars, 100% free\n\n\ud83d\udcbb Windows\n\u2139\ufe0f NanaZip is free and open source. There's an optional paid Sponsor Edition if you want to support the developer. WinRAR's trial keeps working after 40 days, it just keeps asking you to buy. (7-Zip is free too, but NanaZip adds the Windows 11 look and right-click menu)\n\nComment \"ZIP\" and I'll DM you the link \ud83d\udd17\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #windows #windows11 #winrar #freeapps #techtips",
+  "dm_pitch": "NanaZip, the free open-source WinRAR alternative \ud83d\udddc\ufe0f",
+  "install": "winget install M2Team.NanaZip",
+  "dm_on_any_comment": true,
+  "follow_gate": true,
+  "slot": 0,
+  "price_source": "https://www.win-rar.com/buy/index_shop.php?AffID=200001006",
+  "experiment": {
+    "format": "story",
+    "hook": "story",
+    "topic": "utility",
+    "window": "midday"
+  },
+  "idempotencyKey": "747ca648-9a7b-4f00-8ee9-258c987c4b5b",
+  "zernio": {
+    "postId": "6afc16b203a77fe1858e4a64",
+    "status": "scheduled",
+    "scheduledFor": "2026-11-17T10:18:00.000Z",
+    "url": null,
+    "automationId": "6afc16b406c62632075a5489",
+    "slot": 0
+  }
+}

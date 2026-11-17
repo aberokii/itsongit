@@ -1,0 +1,29 @@
+{
+  "title": "draw.io: free Lucidchart alternative",
+  "video": "FINAL.mp4",
+  "thumbnail": "FINAL_thumbnail.png",
+  "repo_url": "https://github.com/jgraph/drawio-desktop",
+  "keyword": "CHART",
+  "caption": "Lucidchart charges $9/month to draw flowcharts. draw.io does it for free \ud83d\udcca\n\n\u2705 Drag-and-drop shapes: flowcharts, BPMN, AWS and more\n\u2705 Works as a desktop app, no sign-up needed\n\u2705 Your diagrams stay in files on your computer\n\u2705 No analytics, and no diagram data is sent anywhere\n\n\ud83d\udcbb Mac \u00b7 Windows \u00b7 Linux\n\u2139\ufe0f Lucidchart's $9/month is its Individual plan billed annually (about $108 a year), and it also has a limited free plan. draw.io is free in the browser too\n\nComment \"CHART\" and I'll DM you the link \ud83d\udd17\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #flowchart #diagram #productivity #freeapps #techtips #students",
+  "dm_pitch": "draw.io, the free open-source Lucidchart alternative \ud83d\udcca",
+  "install": "Download from GitHub Releases",
+  "dm_on_any_comment": true,
+  "follow_gate": true,
+  "slot": 2,
+  "price_source": "https://lucid.co/pricing/lucidchart",
+  "experiment": {
+    "format": "story",
+    "hook": "story",
+    "topic": "subscription",
+    "window": "night"
+  },
+  "idempotencyKey": "9af98314-fd75-4027-8f02-d6b83b2b4d84",
+  "zernio": {
+    "postId": "6afc1813830b206ebfc1396b",
+    "status": "scheduled",
+    "scheduledFor": "2026-11-17T20:16:00.000Z",
+    "url": null,
+    "automationId": "6afc18150ee5eb0d09020bd6",
+    "slot": 2
+  }
+}

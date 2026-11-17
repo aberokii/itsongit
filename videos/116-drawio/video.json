@@ -1,0 +1,113 @@
+{
+ "repo": "jgraph/drawio-desktop",
+ "name": "draw.io",
+ "title": "draw.io: free Lucidchart alternative",
+ "keyword": "CHART",
+ "paid": {
+  "name": "Lucidchart",
+  "price": "$9",
+  "per": "/month",
+  "anchor": "nine",
+  "source": "https://lucid.co/pricing/lucidchart"
+ },
+ "icon": "https://raw.githubusercontent.com/jgraph/drawio-desktop/dev/build/512x512.png",
+ "job": "Makes flowcharts in minutes",
+ "platforms": [
+  "Mac",
+  "Windows",
+  "Linux"
+ ],
+ "install": "Download from GitHub Releases",
+ "install_url": "https://www.drawio.com/",
+ "caption": "Lucidchart charges $9/month to draw flowcharts. draw.io does it for free 📊\n\n✅ Drag-and-drop shapes: flowcharts, BPMN, AWS and more\n✅ Works as a desktop app, no sign-up needed\n✅ Your diagrams stay in files on your computer\n✅ No analytics, and no diagram data is sent anywhere\n\n💻 Mac · Windows · Linux\nℹ️ Lucidchart's $9/month is its Individual plan billed annually (about $108 a year), and it also has a limited free plan. draw.io is free in the browser too\n\nComment \"CHART\" and I'll DM you the link 🔗\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #flowchart #diagram #productivity #freeapps #techtips #students",
+ "dm_pitch": "draw.io, the free open-source Lucidchart alternative 📊",
+ "thumb": {
+  "big": "FREE",
+  "line1": "Lucidchart",
+  "line2": "alternative"
+ },
+ "format": "story",
+ "topic_arm": "subscription",
+ "slot": 2,
+ "demo": {
+  "images": [
+   "https://www.drawio.com/img/home/editor-simple-bpmn.png",
+   "https://www.drawio.com/img/home/editor-classic-aws.png"
+  ]
+ },
+ "beats": [
+  {
+   "say": "You're paying a hundred and eight dollars a year just to draw flowcharts.",
+   "scene": "slam",
+   "text": "$108 a year",
+   "sub": "for flowcharts?",
+   "accent": "flowcharts",
+   "tone": "neg",
+   "mood": "shock"
+  },
+  {
+   "say": "For boxes and arrows.",
+   "scene": "character",
+   "text": "Boxes and arrows?! 😤",
+   "mood": "worried"
+  },
+  {
+   "say": "Lucidchart charges nine bucks a month. draw.io costs nothing.",
+   "scene": "versus",
+   "mood": "point",
+   "accent": "nine",
+   "select": "nothing"
+  },
+  {
+   "say": "Drag shapes onto the page, snap arrows between them, done.",
+   "scene": "app",
+   "image": "https://www.drawio.com/img/home/editor-simple-bpmn.png",
+   "text": "Drag, drop, done",
+   "mood": "excited",
+   "accent": "done",
+   "select": "drag"
+  },
+  {
+   "say": "But here's the crazy part.",
+   "scene": "character",
+   "text": "Wait for it 👀",
+   "mood": "smug"
+  },
+  {
+   "say": "No account, no sign-up, and your diagrams stay on your computer.",
+   "scene": "app",
+   "image": "https://www.drawio.com/img/home/editor-classic-aws.png",
+   "text": "No sign-up needed",
+   "mood": "excited",
+   "select": "computer"
+  },
+  {
+   "say": "Over a hundred million people already use it.",
+   "scene": "counter",
+   "from": 0,
+   "to": 100,
+   "suffix": "M+",
+   "label": "people use draw.io",
+   "mood": "excited",
+   "select": "million"
+  },
+  {
+   "say": "It's Lucidchart, minus the subscription, forever.",
+   "scene": "slam",
+   "text": "$0 forever",
+   "accent": "forever",
+   "mood": "smug"
+  },
+  {
+   "say": "Comment Chart, and I'll send you the link.",
+   "scene": "cta",
+   "mood": "point"
+  }
+ ],
+ "hook_style": "story",
+ "window": "night",
+ "publish": {
+  "date": "2026-11-17",
+  "time": "21:16"
+ }
+}

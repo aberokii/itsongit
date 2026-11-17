@@ -15,9 +15,9 @@ The scout (`pipeline/scout.py`) skips these automatically via `data/posted.json`
 | 8 | [robbietilton/Compositor](https://github.com/robbietilton/Compositor) | 008-compositor | PHOTO | scheduled | 2026-10-19T21:40 |  |
 | 9 | [Niko1221/Strata](https://github.com/Niko1221/Strata) | 009-strata | CHAT | scheduled | 2026-10-19T22:40 |  |
 | 10 | [Flow-Tube/Flow](https://github.com/Flow-Tube/Flow) | 010-flow | FLOW | scheduled | 2026-10-20T13:02 |  |
-| 11 | [DuarteSantos8/openGym](https://github.com/DuarteSantos8/openGym) | 011-opengym | GYM | published | 2026-10-20T17:25 | https://www.instagram.com/reel/DeuXQywCMjc/ |
-| 12 | [storytold/pdfcraft](https://github.com/storytold/pdfcraft) | 012-pdfcraft | PAGES | published | 2026-10-20T16:34 | https://www.instagram.com/reel/DeuRbvXio1e/ |
-| 13 | [Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI) | 013-comfyui | COMFY | published | 2026-10-20T19:42 | https://www.instagram.com/reel/Deum7xxkx5n/ |
+| 11 | [DuarteSantos8/openGym](https://github.com/DuarteSantos8/openGym) | 011-opengym | GYM | scheduled | 2026-10-20T17:24 |  |
+| 12 | [storytold/pdfcraft](https://github.com/storytold/pdfcraft) | 012-pdfcraft | PAGES | scheduled | 2026-10-20T16:33 |  |
+| 13 | [Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI) | 013-comfyui | COMFY | scheduled | 2026-10-20T19:41 |  |
 | 14 | [shaongitbd/doory](https://github.com/shaongitbd/doory) | 014-doory | DESIGN | published | 2026-10-21T10:24 | https://www.instagram.com/reel/DewL3R0Dm4g/ |
 | 15 | [getopenscreen/openscreen](https://github.com/getopenscreen/openscreen) | 015-openscreen | DEMO | published | 2026-10-21T11:48 | https://www.instagram.com/reel/DewVebWjulQ/ |
 | 16 | [tangency-labs/solidcraft](https://github.com/tangency-labs/solidcraft) | 016-solidcraft | MODEL | published | 2026-10-21T13:09 | https://www.instagram.com/reel/DewewtnCkHE/ |
@@ -114,6 +114,9 @@ The scout (`pipeline/scout.py`) skips these automatically via `data/posted.json`
 | 107 | [Blinue/Magpie](https://github.com/Blinue/Magpie) | 108-magpie | GAMES | published | 2026-11-15T11:05 | https://www.instagram.com/reel/DfwoXb0nIiG/ |
 | 108 | [tasks/tasks](https://github.com/tasks/tasks) | 109-tasks | LIST | published | 2026-11-15T17:33 | https://www.instagram.com/reel/DfxU4WjjFQW/ |
 | 109 | [Genymobile/scrcpy](https://github.com/Genymobile/scrcpy) | 110-scrcpy | MIRROR | published | 2026-11-15T21:05 | https://www.instagram.com/reel/DfxtCDjimSE/ |
-| 110 | [friction2d/friction](https://github.com/friction2d/friction) | 111-friction | MOTION | scheduled | 2026-11-16T10:39 |  |
-| 111 | [MonitorControl/MonitorControl](https://github.com/MonitorControl/MonitorControl) | 112-monitorcontrol | BRIGHT | scheduled | 2026-11-16T17:17 |  |
-| 112 | [luanti-org/luanti](https://github.com/luanti-org/luanti) | 113-luanti | BLOCKS | scheduled | 2026-11-16T20:49 |  |
+| 110 | [friction2d/friction](https://github.com/friction2d/friction) | 111-friction | MOTION | published | 2026-11-16T10:40 | https://www.instagram.com/reel/DfzKXquCjho/ |
+| 111 | [MonitorControl/MonitorControl](https://github.com/MonitorControl/MonitorControl) | 112-monitorcontrol | BRIGHT | published | 2026-11-16T17:18 | https://www.instagram.com/reel/Dfz37AxE2S7/ |
+| 112 | [luanti-org/luanti](https://github.com/luanti-org/luanti) | 113-luanti | BLOCKS | published | 2026-11-16T20:50 | https://www.instagram.com/reel/Df0QLZeCvMR/ |
+| 113 | [M2Team/NanaZip](https://github.com/M2Team/NanaZip) | 114-nanazip | ZIP | scheduled | 2026-11-17T10:18 |  |
+| 114 | [4ian/GDevelop](https://github.com/4ian/GDevelop) | 115-gdevelop | MAKER | scheduled | 2026-11-17T17:39 |  |
+| 115 | [jgraph/drawio-desktop](https://github.com/jgraph/drawio-desktop) | 116-drawio | CHART | scheduled | 2026-11-17T20:16 |  |
