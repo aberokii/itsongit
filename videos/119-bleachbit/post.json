@@ -1,0 +1,29 @@
+{
+  "title": "BleachBit: free CCleaner alternative",
+  "video": "FINAL.mp4",
+  "thumbnail": "FINAL_thumbnail.png",
+  "repo_url": "https://github.com/bleachbit/bleachbit",
+  "keyword": "CLEAN",
+  "caption": "CCleaner charges $44.95/year. BleachBit cleans up your PC for free \ud83e\uddf9\n\n\u2705 Previews every file before it deletes anything\n\u2705 Clears browser caches, cookies and history\n\u2705 Secure deletion shreds files beyond recovery\n\u2705 No ads, no upsells, 100% free\n\n\ud83d\udcbb Windows \u00b7 Linux\n\u2139\ufe0f BleachBit deletes for real, so check the Preview before you click Clean. No Mac version. CCleaner price is the Professional plan list price for one PC\n\nComment \"CLEAN\" and I'll DM you the link \ud83d\udd17\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #windows #linux #pctips #cleanup #freeapps #techtips",
+  "dm_pitch": "BleachBit, the free open-source CCleaner alternative \ud83e\uddf9",
+  "install": "winget install BleachBit.BleachBit",
+  "dm_on_any_comment": true,
+  "follow_gate": true,
+  "slot": 2,
+  "price_source": "https://www.ccleaner.com/ccleaner/professional",
+  "experiment": {
+    "format": "classic",
+    "hook": "demo",
+    "topic": "utility",
+    "window": "night"
+  },
+  "idempotencyKey": "45db4ba6-83a0-43d1-8917-6a794a2b8dbd",
+  "zernio": {
+    "postId": "6afd6f33499724da55e0de71",
+    "status": "scheduled",
+    "scheduledFor": "2026-11-18T20:08:00.000Z",
+    "url": null,
+    "automationId": "6afd6f354da05064c1c8d3e4",
+    "slot": 2
+  }
+}

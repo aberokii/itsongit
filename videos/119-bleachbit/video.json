@@ -1,0 +1,109 @@
+{
+ "repo": "bleachbit/bleachbit",
+ "name": "BleachBit",
+ "title": "BleachBit: free CCleaner alternative",
+ "slot": 2,
+ "keyword": "CLEAN",
+ "paid": {
+  "name": "CCleaner",
+  "price": "$44.95",
+  "per": "/year",
+  "anchor": "forty",
+  "source": "https://www.ccleaner.com/ccleaner/professional"
+ },
+ "icon": "https://raw.githubusercontent.com/bleachbit/bleachbit/master/bleachbit.png",
+ "hook": "CCleaner charges you forty five bucks a year to clean up your PC. This app does it for free.",
+ "job": "Cleans the junk off your PC",
+ "platforms": [
+  "Windows",
+  "Linux"
+ ],
+ "features": [
+  {
+   "intro": "It scans first, then you decide.",
+   "say": "It lists every file before deleting, so you see the gigabytes you'll free.",
+   "images": [
+    "https://www.bleachbit.org/images/bleachbit30_windows10_preview.png",
+    "assets/system-20gb.png"
+   ],
+   "swap_anchor": "gigabytes",
+   "chips": [
+    {
+     "label": "👀 Preview first",
+     "anchor": "every"
+    },
+    {
+     "label": "💾 Free gigabytes",
+     "anchor": "gigabytes"
+    }
+   ]
+  },
+  {
+   "say": "It clears browser caches, cookies and history.",
+   "images": [
+    "https://lh3.googleusercontent.com/-ZHs6M_r9odI/VnbrV7sK1cI/AAAAAAAAD6A/WBdTf4DUVbs/s800-Ic42/BleachBit%2525201.9.3%252520on%252520Windows%25252010%252520showing%252520Firefox%252520preview.png"
+   ],
+   "chips": [
+    {
+     "label": "🌐 Browser caches",
+     "anchor": "caches"
+    },
+    {
+     "label": "🍪 Cookies",
+     "anchor": "cookies"
+    },
+    {
+     "label": "🕘 History",
+     "anchor": "history"
+    }
+   ]
+  },
+  {
+   "say": "Secure deletion shreds files beyond recovery.",
+   "images": [
+    "https://www.bleachbit.org/images/bleachbit-v2_0-windows10.png"
+   ],
+   "chips": [
+    {
+     "label": "🗑 Shreds files",
+     "anchor": "shreds"
+    }
+   ]
+  }
+ ],
+ "nolist": [
+  {
+   "say": "No ads.",
+   "label": "Ads"
+  },
+  {
+   "say": "No upsells.",
+   "label": "Upsells"
+  },
+  {
+   "say": "No registration.",
+   "label": "Registration"
+  }
+ ],
+ "install": "winget install BleachBit.BleachBit",
+ "caption": "CCleaner charges $44.95/year. BleachBit cleans up your PC for free 🧹\n\n✅ Previews every file before it deletes anything\n✅ Clears browser caches, cookies and history\n✅ Secure deletion shreds files beyond recovery\n✅ No ads, no upsells, 100% free\n\n💻 Windows · Linux\nℹ️ BleachBit deletes for real, so check the Preview before you click Clean. No Mac version. CCleaner price is the Professional plan list price for one PC\n\nComment \"CLEAN\" and I'll DM you the link 🔗\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #windows #linux #pctips #cleanup #freeapps #techtips",
+ "dm_pitch": "BleachBit, the free open-source CCleaner alternative 🧹",
+ "thumb": {
+  "big": "FREE",
+  "line1": "CCleaner",
+  "line2": "alternative"
+ },
+ "topic_arm": "utility",
+ "demo": {
+  "images": [
+   "assets/system-20gb.png",
+   "assets/chrome-preview.png"
+  ]
+ },
+ "hook_style": "demo",
+ "window": "night",
+ "publish": {
+  "date": "2026-11-18",
+  "time": "21:08"
+ }
+}

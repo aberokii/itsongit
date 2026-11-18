@@ -1,0 +1,114 @@
+{
+ "repo": "duplicati/duplicati",
+ "name": "Duplicati",
+ "title": "Duplicati: free Acronis alternative",
+ "keyword": "BACKUP",
+ "paid": {
+  "name": "Acronis True Image",
+  "price": "$49.99",
+  "per": "/year",
+  "anchor": "fifty",
+  "source": "https://www.acronis.com/en/products/true-image/"
+ },
+ "icon": "https://github.com/duplicati.png?size=512",
+ "job": "Backs up your files, encrypted",
+ "platforms": [
+  "Mac",
+  "Windows",
+  "Linux"
+ ],
+ "install": "brew install --cask duplicati",
+ "install_url": "https://duplicati.com/download",
+ "caption": "Acronis True Image charges $49.99/year to back up your computer. Duplicati does it for free 💾\n\n✅ Backs up the folders you pick, on a schedule that runs by itself\n✅ Sends backups to Google Drive, OneDrive, Dropbox, an external drive and more\n✅ Encrypts everything with AES-256 before it leaves your computer\n✅ After the first backup, only changes are saved, so it's fast and small\n\n💻 Mac · Windows · Linux\nℹ️ You bring your own storage (an external drive or a cloud account you already have); Duplicati also sells an optional paid storage and console service. Acronis's $49.99/year is its Essentials plan\n\nComment \"BACKUP\" and I'll DM you the link 🔗\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #backup #datasafety #cloudbackup #freeapps #techtips #productivity",
+ "dm_pitch": "Duplicati, the free open-source Acronis alternative 💾",
+ "thumb": {
+  "big": "FREE",
+  "line1": "Acronis",
+  "line2": "alternative"
+ },
+ "format": "story",
+ "topic_arm": "subscription",
+ "slot": 1,
+ "demo": {
+  "images": [
+   "assets/folders.png",
+   "assets/destinations.png"
+  ]
+ },
+ "beats": [
+  {
+   "say": "Acronis: fifty bucks a year. This: zero.",
+   "scene": "slam",
+   "text": "$50 a year",
+   "sub": "this one: $0",
+   "accent": "zero",
+   "tone": "neg",
+   "mood": "shock"
+  },
+  {
+   "say": "Your laptop dies tomorrow. Then what?",
+   "scene": "character",
+   "text": "Then what?! 😱",
+   "mood": "worried",
+   "select": "dies"
+  },
+  {
+   "say": "Acronis True Image charges fifty a year. Duplicati costs nothing.",
+   "scene": "versus",
+   "mood": "point",
+   "accent": "fifty",
+   "select": "nothing"
+  },
+  {
+   "say": "Pick the folders you care about, like your documents and photos.",
+   "scene": "app",
+   "image": "assets/folders.png",
+   "text": "Pick your folders",
+   "mood": "excited",
+   "accent": "photos",
+   "select": "folders"
+  },
+  {
+   "say": "And it gets better.",
+   "scene": "character",
+   "text": "It gets better 👀",
+   "mood": "smug"
+  },
+  {
+   "say": "Then it sends them to an external drive, or cloud storage you already have, like Google Drive.",
+   "scene": "app",
+   "image": "assets/destinations.png",
+   "text": "Drive or cloud",
+   "mood": "excited",
+   "accent": "already",
+   "select": "external"
+  },
+  {
+   "say": "Everything is encrypted before it leaves your computer, and it runs on its own schedule.",
+   "scene": "slam",
+   "text": "Locked & automatic",
+   "accent": "automatic",
+   "sub": "AES-256 encryption",
+   "mood": "smug",
+   "select": "schedule"
+  },
+  {
+   "say": "It's Acronis, minus the subscription, forever.",
+   "scene": "slam",
+   "text": "$0 forever",
+   "accent": "forever",
+   "mood": "smug"
+  },
+  {
+   "say": "Comment Backup, and I'll send you the link.",
+   "scene": "cta",
+   "mood": "point"
+  }
+ ],
+ "hook_style": "story",
+ "window": "evening",
+ "publish": {
+  "date": "2026-11-18",
+  "time": "18:42"
+ }
+}

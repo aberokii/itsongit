@@ -1,0 +1,110 @@
+{
+  "repo": "saga-soft/novelWriter",
+  "name": "novelWriter",
+  "title": "novelWriter: free Scrivener alternative",
+  "slot": 0,
+  "keyword": "NOVEL",
+  "paid": {
+    "name": "Scrivener",
+    "price": "$59.99",
+    "per": " one-time",
+    "anchor": "sixty",
+    "source": "https://www.literatureandlatte.com/store/scrivener"
+  },
+  "icon": "https://raw.githubusercontent.com/saga-soft/novelWriter/main/setup/macos/novelwriter.iconset/icon_512x512.png",
+  "hook": "Scrivener charges you sixty bucks to write and plan your novel. This app does it for free.",
+  "job": "Writes and plans your novel",
+  "platforms": [
+    "Windows",
+    "Linux"
+  ],
+  "features": [
+    {
+      "intro": "Write it scene by scene.",
+      "say": "Break your novel into chapters and scenes, then drag them into any order.",
+      "images": [
+        "https://novelwriter.io/_images/feat_editor_light.png",
+        "https://novelwriter.io/_images/feat_novelview_light.png"
+      ],
+      "swap_anchor": "order",
+      "chips": [
+        {
+          "label": "📖 Chapters",
+          "anchor": "chapters"
+        },
+        {
+          "label": "🎬 Scenes",
+          "anchor": "scenes"
+        }
+      ]
+    },
+    {
+      "say": "Tag your characters and locations, and see the whole outline at a glance.",
+      "images": [
+        "https://novelwriter.io/_images/feat_outline_light.png"
+      ],
+      "chips": [
+        {
+          "label": "🏷 Tags",
+          "anchor": "tag"
+        },
+        {
+          "label": "🗺 Full outline",
+          "anchor": "outline"
+        }
+      ]
+    },
+    {
+      "say": "When you're done, export to Word, PDF or Open Document.",
+      "images": [
+        "https://novelwriter.io/_images/feat_build_light.png"
+      ],
+      "chips": [
+        {
+          "label": "Word",
+          "anchor": "Word"
+        },
+        {
+          "label": "PDF",
+          "anchor": "PDF"
+        }
+      ]
+    }
+  ],
+  "nolist": [
+    {
+      "say": "No subscription.",
+      "label": "Subscription"
+    },
+    {
+      "say": "No paywall.",
+      "label": "Paywall"
+    },
+    {
+      "say": "No trial period.",
+      "label": "Trial period"
+    }
+  ],
+  "install": "Download from GitHub Releases",
+  "install_url": "https://novelwriter.io",
+  "caption": "Scrivener charges $59.99 to write and plan your novel. novelWriter does it for free ✍️\n\n✅ Split your novel into chapters and scenes, drag them into any order\n✅ Tag characters and locations, see the whole outline at a glance\n✅ Export to Word, PDF or Open Document\n✅ No subscription, no paywall, 100% free\n\n💻 Windows · Linux · Mac (via Python)\nℹ️ novelWriter is a plain text editor with simple Markdown-style markup, not a rich-text word processor. On Mac there's no installer right now, you install it with Python. $59.99 is Scrivener's one-time Standard licence\n\nComment \"NOVEL\" and I'll DM you the link 🔗\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #writing #amwriting #novelwriting #writingcommunity #freeapps #techtips",
+  "dm_pitch": "novelWriter, the free open-source Scrivener alternative ✍️",
+  "thumb": {
+    "big": "FREE",
+    "line1": "Scrivener",
+    "line2": "alternative"
+  },
+  "topic_arm": "hobby",
+  "demo": {
+    "images": [
+      "https://novelwriter.io/_images/feat_editor_light.png",
+      "https://novelwriter.io/_images/feat_novelview_light.png"
+    ]
+  },
+  "hook_style": "price",
+  "window": "midday",
+  "publish": {
+    "date": "2026-11-18",
+    "time": "11:58"
+  }
+}

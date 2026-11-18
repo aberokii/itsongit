@@ -1,0 +1,29 @@
+{
+  "title": "novelWriter: free Scrivener alternative",
+  "video": "FINAL.mp4",
+  "thumbnail": "FINAL_thumbnail.png",
+  "repo_url": "https://github.com/saga-soft/novelWriter",
+  "keyword": "NOVEL",
+  "caption": "Scrivener charges $59.99 to write and plan your novel. novelWriter does it for free \u270d\ufe0f\n\n\u2705 Split your novel into chapters and scenes, drag them into any order\n\u2705 Tag characters and locations, see the whole outline at a glance\n\u2705 Export to Word, PDF or Open Document\n\u2705 No subscription, no paywall, 100% free\n\n\ud83d\udcbb Windows \u00b7 Linux \u00b7 Mac (via Python)\n\u2139\ufe0f novelWriter is a plain text editor with simple Markdown-style markup, not a rich-text word processor. On Mac there's no installer right now, you install it with Python. $59.99 is Scrivener's one-time Standard licence\n\nComment \"NOVEL\" and I'll DM you the link \ud83d\udd17\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #writing #amwriting #novelwriting #writingcommunity #freeapps #techtips",
+  "dm_pitch": "novelWriter, the free open-source Scrivener alternative \u270d\ufe0f",
+  "install": "Download from GitHub Releases",
+  "dm_on_any_comment": true,
+  "follow_gate": true,
+  "slot": 0,
+  "price_source": "https://www.literatureandlatte.com/store/scrivener",
+  "experiment": {
+    "format": "classic",
+    "hook": "price",
+    "topic": "hobby",
+    "window": "midday"
+  },
+  "idempotencyKey": "1ef41d7a-d848-4d2e-80c4-d4af64c49349",
+  "zernio": {
+    "postId": "6afd6c3a7e924135c9c4f04c",
+    "status": "scheduled",
+    "scheduledFor": "2026-11-18T10:58:00.000Z",
+    "url": null,
+    "automationId": "6afd6c3c5c1bc138ae105bc0",
+    "slot": 0
+  }
+}
