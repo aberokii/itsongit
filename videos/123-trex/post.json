@@ -1,0 +1,29 @@
+{
+  "title": "TRex: free TextSniper alternative",
+  "video": "FINAL.mp4",
+  "thumbnail": "FINAL_thumbnail.png",
+  "repo_url": "https://github.com/amebalabs/TRex",
+  "keyword": "TEXT",
+  "caption": "TextSniper charges $7.99. TRex copies text off your screen for free \ud83e\udd96\n\n\u2705 Draw a box on your screen, the text lands in your clipboard\n\u2705 Reads QR codes and barcodes too\n\u2705 Works offline with a shortcut you set\n\u2705 No subscription, no retyping, free from GitHub\n\n\ud83d\udcbb Mac (macOS 11 Big Sur and up)\n\u2139\ufe0f The free download is on GitHub and Homebrew. The Mac App Store version is a paid listing. TextSniper price is its one-time single-Mac license\n\nComment \"TEXT\" and I'll DM you the link \ud83d\udd17\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #macos #macbook #productivity #freeapps #techtips",
+  "dm_pitch": "TRex, the free open-source TextSniper alternative \ud83e\udd96",
+  "install": "brew install --cask trex",
+  "dm_on_any_comment": true,
+  "follow_gate": true,
+  "slot": 1,
+  "price_source": "https://textsniper.app",
+  "experiment": {
+    "format": "classic",
+    "hook": "price",
+    "topic": "utility",
+    "window": "evening"
+  },
+  "idempotencyKey": "235b94bd-5b63-4546-82a4-030716588ef8",
+  "zernio": {
+    "postId": "6afebc7f9faab8cfc57fca3c",
+    "status": "scheduled",
+    "scheduledFor": "2026-11-19T17:50:00.000Z",
+    "url": null,
+    "automationId": "6afebc81ad359385bc5817b0",
+    "slot": 1
+  }
+}

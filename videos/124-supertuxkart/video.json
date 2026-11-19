@@ -1,0 +1,126 @@
+{
+  "repo": "supertuxkart/stk-code",
+  "name": "SuperTuxKart",
+  "title": "SuperTuxKart: free Mario Kart alternative",
+  "slot": 2,
+  "keyword": "KART",
+  "paid": {
+    "name": "Mario Kart World",
+    "price": "$79.99",
+    "per": "",
+    "anchor": "eighty",
+    "source": "https://www.nintendo.com/us/store/products/mario-kart-world-switch-2/"
+  },
+  "icon": "assets/icon.png",
+  "job": "Races karts with your friends",
+  "platforms": [
+    "Mac",
+    "Windows",
+    "Linux",
+    "Android"
+  ],
+  "install": "brew install --cask supertuxkart",
+  "install_url": "https://supertuxkart.net",
+  "caption": "Mario Kart World costs $79.99. SuperTuxKart lets you race karts with friends for free 🏁\n\n✅ 21 tracks and 18 karts, with power-ups all over the road\n✅ Race, battle or play soccer with up to 8 friends on one computer\n✅ Story mode, Grand Prix cups and Time Trial\n✅ No ads, no paywall, 100% free\n\n💻 Mac · Windows · Linux · Android\nℹ️ It's not Mario Kart: no Nintendo characters, its own mascots and tracks. Mobile is a separate download. Mario Kart World's $79.99 is Nintendo's Switch 2 price\n\nComment \"KART\" and I'll DM you the link 🔗\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #gaming #pcgaming #kartracing #indiegames #freeapps #techtips",
+  "dm_pitch": "SuperTuxKart, the free open-source kart racing game 🏁",
+  "thumb": {
+    "big": "FREE",
+    "line1": "Mario Kart",
+    "line2": "alternative"
+  },
+  "format": "story",
+  "topic_arm": "hobby",
+  "demo": {
+    "images": [
+      "assets/g2.jpg",
+      "assets/g3.jpg"
+    ]
+  },
+  "beats": [
+    {
+      "say": "Strangers on the internet built their own kart racer, and it costs nothing.",
+      "scene": "slam",
+      "text": "$80 vs $0",
+      "sub": "built by strangers online",
+      "accent": "nothing",
+      "tone": "neg",
+      "mood": "shock"
+    },
+    {
+      "say": "Wait, it's actually free?",
+      "scene": "character",
+      "text": "Wait, it's FREE?! 🏎️",
+      "mood": "excited",
+      "select": "free"
+    },
+    {
+      "say": "Mario Kart World costs eighty bucks. SuperTuxKart costs nothing.",
+      "scene": "versus",
+      "mood": "point",
+      "accent": "eighty",
+      "select": "nothing"
+    },
+    {
+      "say": "Twenty one tracks, eighteen karts, and power-ups all over the road.",
+      "scene": "app",
+      "image": "assets/g2.jpg",
+      "text": "21 tracks · 18 karts",
+      "mood": "excited",
+      "accent": "power-ups",
+      "select": "tracks"
+    },
+    {
+      "say": "But here's the crazy part.",
+      "scene": "character",
+      "text": "Here's the crazy part 👀",
+      "mood": "smug"
+    },
+    {
+      "say": "Up to eight friends on one computer can race, battle, or play soccer.",
+      "scene": "list",
+      "text": "8 friends, 1 computer",
+      "items": [
+        {
+          "label": "🏁 Race",
+          "anchor": "race"
+        },
+        {
+          "label": "💥 Battle",
+          "anchor": "battle"
+        },
+        {
+          "label": "⚽ Soccer",
+          "anchor": "soccer"
+        }
+      ],
+      "select": "eight"
+    },
+    {
+      "say": "It runs on Windows, Mac, Linux and Android, and there's even a story mode.",
+      "scene": "app",
+      "image": "assets/g3.jpg",
+      "text": "Story mode too",
+      "mood": "excited",
+      "accent": "story",
+      "select": "Android"
+    },
+    {
+      "say": "It's kart night with your friends, minus the eighty dollar game.",
+      "scene": "slam",
+      "text": "Kart night: $0",
+      "accent": "night",
+      "mood": "smug"
+    },
+    {
+      "say": "Comment Kart, and I'll send you the link.",
+      "scene": "cta",
+      "mood": "point"
+    }
+  ],
+  "hook_style": "story",
+  "window": "night",
+  "publish": {
+    "date": "2026-11-19",
+    "time": "22:05"
+  }
+}

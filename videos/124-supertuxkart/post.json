@@ -1,0 +1,29 @@
+{
+  "title": "SuperTuxKart: free Mario Kart alternative",
+  "video": "FINAL.mp4",
+  "thumbnail": "FINAL_thumbnail.png",
+  "repo_url": "https://github.com/supertuxkart/stk-code",
+  "keyword": "KART",
+  "caption": "Mario Kart World costs $79.99. SuperTuxKart lets you race karts with friends for free \ud83c\udfc1\n\n\u2705 21 tracks and 18 karts, with power-ups all over the road\n\u2705 Race, battle or play soccer with up to 8 friends on one computer\n\u2705 Story mode, Grand Prix cups and Time Trial\n\u2705 No ads, no paywall, 100% free\n\n\ud83d\udcbb Mac \u00b7 Windows \u00b7 Linux \u00b7 Android\n\u2139\ufe0f It's not Mario Kart: no Nintendo characters, its own mascots and tracks. Mobile is a separate download. Mario Kart World's $79.99 is Nintendo's Switch 2 price\n\nComment \"KART\" and I'll DM you the link \ud83d\udd17\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #gaming #pcgaming #kartracing #indiegames #freeapps #techtips",
+  "dm_pitch": "SuperTuxKart, the free open-source kart racing game \ud83c\udfc1",
+  "install": "brew install --cask supertuxkart",
+  "dm_on_any_comment": true,
+  "follow_gate": true,
+  "slot": 2,
+  "price_source": "https://www.nintendo.com/us/store/products/mario-kart-world-switch-2/",
+  "experiment": {
+    "format": "story",
+    "hook": "story",
+    "topic": "hobby",
+    "window": "night"
+  },
+  "idempotencyKey": "4196e91a-0dc7-453e-859a-34fe5adfcb31",
+  "zernio": {
+    "postId": "6afebceba6799898f731e01c",
+    "status": "scheduled",
+    "scheduledFor": "2026-11-19T21:05:00.000Z",
+    "url": null,
+    "automationId": "6afebced6a4b9723a37d1e8a",
+    "slot": 2
+  }
+}

@@ -116,5 +116,8 @@
  "jgraph/drawio-desktop",
  "saga-soft/novelWriter",
  "duplicati/duplicati",
- "bleachbit/bleachbit"
+ "bleachbit/bleachbit",
+ "iina/iina",
+ "amebalabs/TRex",
+ "supertuxkart/stk-code"
 ]

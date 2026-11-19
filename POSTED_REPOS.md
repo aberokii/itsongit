@@ -21,9 +21,9 @@ The scout (`pipeline/scout.py`) skips these automatically via `data/posted.json`
 | 14 | [shaongitbd/doory](https://github.com/shaongitbd/doory) | 014-doory | DESIGN | scheduled | 2026-10-21T10:23 |  |
 | 15 | [getopenscreen/openscreen](https://github.com/getopenscreen/openscreen) | 015-openscreen | DEMO | scheduled | 2026-10-21T11:47 |  |
 | 16 | [tangency-labs/solidcraft](https://github.com/tangency-labs/solidcraft) | 016-solidcraft | MODEL | scheduled | 2026-10-21T13:08 |  |
-| 17 | [actualbudget/actual](https://github.com/actualbudget/actual) | 017-actual | BUDGET | published | 2026-10-21T17:04 | https://www.instagram.com/reel/Dew5qQAjb5v/ |
-| 18 | [Zackriya-Solutions/meetily](https://github.com/Zackriya-Solutions/meetily) | 018-meetily | NOTES | published | 2026-10-21T18:52 | https://www.instagram.com/reel/DexGFVgkdPg/ |
-| 19 | [utmapp/UTM](https://github.com/utmapp/UTM) | 019-utm | WINDOWS | published | 2026-10-22T10:20 | https://www.instagram.com/reel/DeywM-CjcUe/ |
+| 17 | [actualbudget/actual](https://github.com/actualbudget/actual) | 017-actual | BUDGET | scheduled | 2026-10-21T17:03 |  |
+| 18 | [Zackriya-Solutions/meetily](https://github.com/Zackriya-Solutions/meetily) | 018-meetily | NOTES | scheduled | 2026-10-21T18:51 |  |
+| 19 | [utmapp/UTM](https://github.com/utmapp/UTM) | 019-utm | WINDOWS | scheduled | 2026-10-22T10:19 |  |
 | 20 | [vorssaint/vorssaint-utils](https://github.com/vorssaint/vorssaint-utils) | 020-vorssaint | MENU | published | 2026-10-22T11:33 | https://www.instagram.com/reel/Dey4js4inD7/ |
 | 21 | [altic-dev/FluidVoice](https://github.com/altic-dev/FluidVoice) | 021-fluidvoice | TYPE | published | 2026-10-22T12:45 | https://www.instagram.com/reel/DezAvBLjUn-/ |
 | 22 | [laurent22/joplin](https://github.com/laurent22/joplin) | 022-joplin | NOTEBOOK | published | 2026-10-22T19:11 | https://www.instagram.com/reel/DeztAifAjQV/ |
@@ -120,6 +120,9 @@ The scout (`pipeline/scout.py`) skips these automatically via `data/posted.json`
 | 113 | [M2Team/NanaZip](https://github.com/M2Team/NanaZip) | 114-nanazip | ZIP | published | 2026-11-17T10:19 | https://www.instagram.com/reel/Df1sxR3nNpD/ |
 | 114 | [4ian/GDevelop](https://github.com/4ian/GDevelop) | 115-gdevelop | MAKER | published | 2026-11-17T17:40 | https://www.instagram.com/reel/Df2fOtwCafd/ |
 | 115 | [jgraph/drawio-desktop](https://github.com/jgraph/drawio-desktop) | 116-drawio | CHART | published | 2026-11-17T20:17 | https://www.instagram.com/reel/Df2xMGbDrd4/ |
-| 116 | [saga-soft/novelWriter](https://github.com/saga-soft/novelWriter) | 117-novelwriter | NOVEL | scheduled | 2026-11-18T10:58 |  |
-| 117 | [duplicati/duplicati](https://github.com/duplicati/duplicati) | 118-duplicati | BACKUP | scheduled | 2026-11-18T17:42 |  |
-| 118 | [bleachbit/bleachbit](https://github.com/bleachbit/bleachbit) | 119-bleachbit | CLEAN | scheduled | 2026-11-18T20:08 |  |
+| 116 | [saga-soft/novelWriter](https://github.com/saga-soft/novelWriter) | 117-novelwriter | NOVEL | published | 2026-11-18T11:00 | https://www.instagram.com/reel/Df4WNGYDJDQ/ |
+| 117 | [duplicati/duplicati](https://github.com/duplicati/duplicati) | 118-duplicati | BACKUP | published | 2026-11-18T17:43 | https://www.instagram.com/reel/Df5EYCJjbFN/ |
+| 118 | [bleachbit/bleachbit](https://github.com/bleachbit/bleachbit) | 119-bleachbit | CLEAN | published | 2026-11-18T20:09 | https://www.instagram.com/reel/Df5VE8LDime/ |
+| 119 | [iina/iina](https://github.com/iina/iina) | 120-iina | MOVIE | scheduled | 2026-11-19T10:12 |  |
+| 120 | [amebalabs/TRex](https://github.com/amebalabs/TRex) | 123-trex | TEXT | scheduled | 2026-11-19T17:50 |  |
+| 121 | [supertuxkart/stk-code](https://github.com/supertuxkart/stk-code) | 124-supertuxkart | KART | scheduled | 2026-11-19T21:05 |  |

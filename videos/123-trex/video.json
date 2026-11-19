@@ -1,0 +1,106 @@
+{
+  "repo": "amebalabs/TRex",
+  "name": "TRex",
+  "title": "TRex: free TextSniper alternative",
+  "slot": 1,
+  "keyword": "TEXT",
+  "paid": {
+    "name": "TextSniper",
+    "price": "$7.99",
+    "per": "",
+    "anchor": "eight",
+    "source": "https://textsniper.app"
+  },
+  "icon": "https://raw.githubusercontent.com/amebalabs/TRex/main/TRex/Resources/Assets.xcassets/AppIcon.appiconset/mac_512%402x.png",
+  "hook": "TextSniper charges you eight bucks to copy text off your screen. This app does it for free.",
+  "job": "Copies text from your screen",
+  "platforms": [
+    "Mac"
+  ],
+  "features": [
+    {
+      "intro": "Draw a box. Get the text.",
+      "say": "Select any area of your screen and the text lands in your clipboard.",
+      "images": [
+        "assets/sel.png",
+        "assets/got.png"
+      ],
+      "swap_anchor": "clipboard",
+      "chips": [
+        {
+          "label": "📋 Straight to clipboard",
+          "anchor": "clipboard"
+        },
+        {
+          "label": "🖼 Any screen area",
+          "anchor": "area"
+        }
+      ]
+    },
+    {
+      "say": "It reads QR codes and barcodes too.",
+      "images": [
+        "assets/qr.png"
+      ],
+      "chips": [
+        {
+          "label": "🔳 QR codes",
+          "anchor": "QR"
+        },
+        {
+          "label": "Barcodes",
+          "anchor": "barcodes"
+        }
+      ]
+    },
+    {
+      "say": "It works offline, and the shortcut is yours to set.",
+      "images": [
+        "https://raw.githubusercontent.com/amebalabs/TRex/main/Resources/screenshot.png"
+      ],
+      "chips": [
+        {
+          "label": "✈ Offline",
+          "anchor": "offline"
+        },
+        {
+          "label": "⌨ Your shortcut",
+          "anchor": "shortcut"
+        }
+      ]
+    }
+  ],
+  "nolist": [
+    {
+      "say": "No subscription.",
+      "label": "Subscription"
+    },
+    {
+      "say": "No internet.",
+      "label": "Internet"
+    },
+    {
+      "say": "No retyping.",
+      "label": "Retyping"
+    }
+  ],
+  "install": "brew install --cask trex",
+  "caption": "TextSniper charges $7.99. TRex copies text off your screen for free 🦖\n\n✅ Draw a box on your screen, the text lands in your clipboard\n✅ Reads QR codes and barcodes too\n✅ Works offline with a shortcut you set\n✅ No subscription, no retyping, free from GitHub\n\n💻 Mac (macOS 11 Big Sur and up)\nℹ️ The free download is on GitHub and Homebrew. The Mac App Store version is a paid listing. TextSniper price is its one-time single-Mac license\n\nComment \"TEXT\" and I'll DM you the link 🔗\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #macos #macbook #productivity #freeapps #techtips",
+  "dm_pitch": "TRex, the free open-source TextSniper alternative 🦖",
+  "thumb": {
+    "big": "FREE",
+    "line1": "TextSniper",
+    "line2": "alternative"
+  },
+  "topic_arm": "utility",
+  "demo": {
+    "url": "https://raw.githubusercontent.com/amebalabs/TRex/main/Resources/demo.gif",
+    "start": 1
+  },
+  "hook_style": "price",
+  "window": "evening",
+  "publish": {
+    "date": "2026-11-19",
+    "time": "18:50"
+  }
+}

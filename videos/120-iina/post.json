@@ -1,0 +1,29 @@
+{
+  "title": "IINA: free Infuse Pro alternative",
+  "video": "FINAL.mp4",
+  "thumbnail": "FINAL_thumbnail.png",
+  "repo_url": "https://github.com/iina/iina",
+  "keyword": "MOVIE",
+  "caption": "Infuse Pro charges $16.99/year to play videos on your Mac. IINA does it for free \ud83c\udfac\n\n\u2705 Subtitles built in, including online subtitle search\n\u2705 Picture-in-Picture and trackpad gestures, made for macOS\n\u2705 Video thumbnails and unlimited playback history\n\u2705 No tracking, no telemetry, no subscription\n\n\ud83d\udcbb Mac\n\u2139\ufe0f Mac only (macOS 12+, macOS 11 on Intel). Infuse also runs on iPhone, iPad and Apple TV, which IINA doesn't; Infuse's $16.99/year is its Pro plan (basic Infuse is free)\n\nComment \"MOVIE\" and I'll DM you the link \ud83d\udd17\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #macos #macbook #movies #videoplayer #freeapps #techtips",
+  "dm_pitch": "IINA, the free open-source Infuse Pro alternative \ud83c\udfac",
+  "install": "brew install --cask iina",
+  "dm_on_any_comment": true,
+  "follow_gate": true,
+  "slot": 0,
+  "price_source": "https://firecore.com/infuse",
+  "experiment": {
+    "format": "story",
+    "hook": "story",
+    "topic": "subscription",
+    "window": null
+  },
+  "idempotencyKey": "d2073663-f59f-4322-afd2-88510a2eaca2",
+  "zernio": {
+    "postId": "6afeb9d92b864a49063e2257",
+    "status": "scheduled",
+    "scheduledFor": "2026-11-19T10:12:00.000Z",
+    "url": null,
+    "automationId": "6afeb9dc47f05c3969e492de",
+    "slot": 0
+  }
+}

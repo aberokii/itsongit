@@ -1,0 +1,122 @@
+{
+  "repo": "iina/iina",
+  "name": "IINA",
+  "title": "IINA: free Infuse Pro alternative",
+  "keyword": "MOVIE",
+  "paid": {
+    "name": "Infuse Pro",
+    "price": "$16.99",
+    "per": "/year",
+    "anchor": "seventeen",
+    "source": "https://firecore.com/infuse"
+  },
+  "icon": "https://github.com/iina.png?size=512",
+  "job": "Plays your movies on a Mac",
+  "platforms": [
+    "Mac"
+  ],
+  "install": "brew install --cask iina",
+  "install_url": "https://iina.io",
+  "caption": "Infuse Pro charges $16.99/year to play videos on your Mac. IINA does it for free 🎬\n\n✅ Subtitles built in, including online subtitle search\n✅ Picture-in-Picture and trackpad gestures, made for macOS\n✅ Video thumbnails and unlimited playback history\n✅ No tracking, no telemetry, no subscription\n\n💻 Mac\nℹ️ Mac only (macOS 12+, macOS 11 on Intel). Infuse also runs on iPhone, iPad and Apple TV, which IINA doesn't; Infuse's $16.99/year is its Pro plan (basic Infuse is free)\n\nComment \"MOVIE\" and I'll DM you the link 🔗\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #macos #macbook #movies #videoplayer #freeapps #techtips",
+  "dm_pitch": "IINA, the free open-source Infuse Pro alternative 🎬",
+  "thumb": {
+    "big": "FREE",
+    "line1": "Infuse Pro",
+    "line2": "alternative"
+  },
+  "format": "story",
+  "topic_arm": "subscription",
+  "slot": 0,
+  "demo": {
+    "images": [
+      "assets/player.png",
+      "assets/controls.png"
+    ]
+  },
+  "beats": [
+    {
+      "say": "If you pay seventeen bucks a year just to watch movies on your Mac, stop scrolling.",
+      "scene": "slam",
+      "text": "$17 a year",
+      "sub": "just to watch movies?",
+      "accent": "seventeen",
+      "tone": "neg",
+      "mood": "shock"
+    },
+    {
+      "say": "Wait, people actually pay for that?",
+      "scene": "character",
+      "text": "People pay for this?! 😳",
+      "mood": "worried",
+      "select": "pay"
+    },
+    {
+      "say": "Infuse Pro charges seventeen a year. IINA costs nothing.",
+      "scene": "versus",
+      "mood": "point",
+      "accent": "seventeen",
+      "select": "nothing"
+    },
+    {
+      "say": "Drop in a video and it just plays, with clean controls built for your Mac.",
+      "scene": "app",
+      "image": "assets/player.png",
+      "text": "Drop in, press play",
+      "mood": "excited",
+      "accent": "clean",
+      "select": "plays"
+    },
+    {
+      "say": "And it gets better.",
+      "scene": "character",
+      "text": "It gets better 👀",
+      "mood": "smug"
+    },
+    {
+      "say": "It searches for subtitles online, and Picture in Picture keeps your movie floating while you work.",
+      "scene": "app",
+      "image": "assets/controls.png",
+      "text": "Subtitles · PiP",
+      "mood": "excited",
+      "accent": "floating",
+      "select": "subtitles"
+    },
+    {
+      "say": "Control it your way, with the keyboard, mouse or trackpad.",
+      "scene": "list",
+      "text": "Your controls",
+      "items": [
+        {
+          "label": "⌨️ Keyboard",
+          "anchor": "keyboard"
+        },
+        {
+          "label": "🖱 Mouse",
+          "anchor": "mouse"
+        },
+        {
+          "label": "✋ Trackpad",
+          "anchor": "trackpad"
+        }
+      ]
+    },
+    {
+      "say": "It's Infuse Pro, minus the subscription, forever.",
+      "scene": "slam",
+      "text": "$0 forever",
+      "accent": "forever",
+      "mood": "smug"
+    },
+    {
+      "say": "Comment Movie, and I'll send you the link.",
+      "scene": "cta",
+      "mood": "point"
+    }
+  ],
+  "hook_style": "story",
+  "window": "midday",
+  "publish": {
+    "date": "2026-11-19",
+    "time": "11:12"
+  }
+}
