@@ -1,0 +1,112 @@
+{
+  "repo": "KDE/kdenlive",
+  "name": "Kdenlive",
+  "title": "Kdenlive: free Adobe Premiere Pro alternative",
+  "slot": 2,
+  "keyword": "CUT",
+  "paid": {
+    "name": "Premiere Pro",
+    "price": "$22.99",
+    "per": "/month",
+    "anchor": "twenty",
+    "source": "https://www.adobe.com/products/premiere/plans.html"
+  },
+  "icon": "assets/icon.png",
+  "hook": "Premiere Pro charges you twenty three bucks a month to edit your videos. This app does it for free.",
+  "job": "Edits videos, adds subtitles",
+  "platforms": [
+    "Windows",
+    "Mac",
+    "Linux"
+  ],
+  "features": [
+    {
+      "say": "A flexible timeline with multicam editing, markers, and automatic backups.",
+      "images": [
+        "https://cdn.kde.org/screenshots/kdenlive/k2.png",
+        "https://cdn.kde.org/screenshots/kdenlive/k3.png"
+      ],
+      "chips": [
+        {
+          "label": "🎥 Multicam",
+          "anchor": "multicam"
+        },
+        {
+          "label": "💾 Auto backups",
+          "anchor": "backups"
+        }
+      ],
+      "swap_anchor": "markers"
+    },
+    {
+      "say": "Grade your color with LUTs and scopes, then add hundreds of effects with keyframes.",
+      "images": [
+        "https://cdn.kde.org/screenshots/kdenlive/k4.png",
+        "https://cdn.kde.org/screenshots/kdenlive/k1.png"
+      ],
+      "swap_anchor": "effects",
+      "chips": [
+        {
+          "label": "🎨 LUTs",
+          "anchor": "LUTs"
+        },
+        {
+          "label": "📊 Scopes",
+          "anchor": "scopes"
+        },
+        {
+          "label": "Keyframes",
+          "anchor": "keyframes"
+        }
+      ]
+    },
+    {
+      "say": "It makes subtitles with automatic transcription, and you can style them.",
+      "images": [
+        "assets/subtitles.png"
+      ],
+      "chips": [
+        {
+          "label": "💬 Auto subtitles",
+          "anchor": "transcription"
+        }
+      ]
+    }
+  ],
+  "nolist": [
+    {
+      "say": "No subscription.",
+      "label": "Subscription"
+    },
+    {
+      "say": "No trial.",
+      "label": "Trial"
+    },
+    {
+      "say": "No paywall.",
+      "label": "Paywall"
+    }
+  ],
+  "install": "brew install --cask kdenlive",
+  "install_url": "https://kdenlive.org",
+  "caption": "Premiere Pro costs $22.99/month to edit videos. Kdenlive does it for free 🎬\n\n✅ Flexible timeline with multicam editing, markers and automatic backups\n✅ Color grading with LUTs, scopes and hundreds of effects with keyframes\n✅ Subtitles with automatic transcription, plus titles and text\n✅ No subscription, no trial, free to download\n\n💻 Windows · Mac · Linux\nℹ️ On Mac there are separate Apple Silicon and Intel downloads (macOS 13 or newer). Adobe's $22.99/month is the Premiere-only plan, billed monthly on an annual plan\n\nComment \"CUT\" and I'll DM you the link 🔗\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #videoediting #videoeditor #premierepro #kdenlive #freeapps #contentcreator",
+  "dm_pitch": "Kdenlive, the free open-source video editor 🎬",
+  "thumb": {
+    "big": "FREE",
+    "line1": "Premiere Pro",
+    "line2": "alternative"
+  },
+  "topic_arm": "subscription",
+  "demo": {
+    "images": [
+      "https://cdn.kde.org/screenshots/kdenlive/k2.png",
+      "https://cdn.kde.org/screenshots/kdenlive/k4.png"
+    ]
+  },
+  "hook_style": "price",
+  "window": "night",
+  "publish": {
+    "date": "2026-11-20",
+    "time": "21:35"
+  }
+}

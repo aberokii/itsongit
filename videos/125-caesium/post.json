@@ -1,0 +1,29 @@
+{
+  "title": "Caesium: free TinyPNG alternative",
+  "video": "FINAL.mp4",
+  "thumbnail": "FINAL_thumbnail.png",
+  "repo_url": "https://github.com/Lymphatus/caesium-image-compressor",
+  "keyword": "TINY",
+  "caption": "TinyPNG charges $39/year. Caesium shrinks your photos for free \ud83d\udddc\ufe0f\n\n\u2705 Cuts the file size of JPG, PNG and WebP pictures\n\u2705 Keeps the overall quality, and can shrink the resolution too\n\u2705 Easier to store, send and share your pictures\n\u2705 No subscription, no paywall, 100% free\n\n\ud83d\udcbb Mac \u00b7 Windows \u00b7 Linux \u00b7 or try it in your browser at caesium.app\n\u2139\ufe0f Mac and Windows have ready-made downloads on GitHub. Linux means building it yourself or using a third-party build. A big v3.0 rewrite is in the works. TinyPNG also has a free web tier with limits, $39/year is its Web Pro plan\n\nComment \"TINY\" and I'll DM you the link \ud83d\udd17\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #imagecompressor #photography #productivity #macos #freeapps #techtips",
+  "dm_pitch": "Caesium, the free open-source TinyPNG alternative \ud83d\udddc\ufe0f",
+  "install": "Download from GitHub Releases",
+  "dm_on_any_comment": true,
+  "follow_gate": true,
+  "slot": 0,
+  "price_source": "https://tinypng.com/pricing/web",
+  "experiment": {
+    "format": "classic",
+    "hook": "demo",
+    "topic": "utility",
+    "window": "midday"
+  },
+  "idempotencyKey": "79718209-27d2-40ef-9428-9c270ec559ec",
+  "zernio": {
+    "postId": "6b00125534bb30ee1920c4aa",
+    "status": "scheduled",
+    "scheduledFor": "2026-11-20T11:05:00.000Z",
+    "url": null,
+    "automationId": "6b00125c408f7368d6a6e05d",
+    "slot": 0
+  }
+}

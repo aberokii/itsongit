@@ -1,0 +1,29 @@
+{
+  "title": "PhoneBox: free Stream Deck alternative",
+  "video": "FINAL.mp4",
+  "thumbnail": "FINAL_thumbnail.png",
+  "repo_url": "https://github.com/ersinkoc/phonebox",
+  "keyword": "PANEL",
+  "caption": "Elgato's Stream Deck costs $149.99. PhoneBox turns the old phone in your drawer into a touch deck for free \ud83d\udcf1\n\n\u2705 PC stats on your desk: CPU, GPU, RAM, network\n\u2705 Touch keys for apps, shortcuts and macros\n\u2705 Music controls, plus OBS and mic controls\n\u2705 124 widgets and 30 ready-made layouts\n\n\ud83d\udcbb Windows \u00b7 Mac \u00b7 Linux (PC) + Android 5+ (phone)\n\u2139\ufe0f It needs an Android phone (no iPhone) and a one-time setup: USB debugging or Wi-Fi pairing. It's a touchscreen, not physical keys, and the fullest audio and OBS controls are on Windows. Stream Deck's $149.99 is the one-time price of the 15-key hardware\n\nComment \"PANEL\" and I'll DM you the link \ud83d\udd17\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #streamdeck #pcsetup #desksetup #gaming #freeapps #techtips",
+  "dm_pitch": "PhoneBox, the free open-source Stream Deck alternative for your old phone \ud83d\udcf1",
+  "install": "Download from GitHub Releases",
+  "dm_on_any_comment": true,
+  "follow_gate": true,
+  "slot": 1,
+  "price_source": "https://www.elgato.com/us/en/p/stream-deck",
+  "experiment": {
+    "format": "story",
+    "hook": "story",
+    "topic": "hobby",
+    "window": "evening"
+  },
+  "idempotencyKey": "6bd1112d-53f5-4152-8e13-dd3d47f0c482",
+  "zernio": {
+    "postId": "6b001260e856cf9af915faef",
+    "status": "scheduled",
+    "scheduledFor": "2026-11-20T17:21:00.000Z",
+    "url": null,
+    "automationId": "6b001264666692805153351c",
+    "slot": 1
+  }
+}

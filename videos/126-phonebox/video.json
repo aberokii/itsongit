@@ -1,0 +1,126 @@
+{
+  "repo": "ersinkoc/phonebox",
+  "name": "PhoneBox",
+  "title": "PhoneBox: free Stream Deck alternative",
+  "slot": 1,
+  "keyword": "PANEL",
+  "paid": {
+    "name": "Elgato Stream Deck",
+    "price": "$149.99",
+    "per": "",
+    "anchor": "hundred",
+    "source": "https://www.elgato.com/us/en/p/stream-deck"
+  },
+  "icon": "assets/icon.png",
+  "job": "Turns an old phone into a deck",
+  "platforms": [
+    "Windows",
+    "Mac",
+    "Linux",
+    "Android"
+  ],
+  "install": "Download from GitHub Releases",
+  "install_url": "https://ersinkoc.github.io/phonebox/",
+  "caption": "Elgato's Stream Deck costs $149.99. PhoneBox turns the old phone in your drawer into a touch deck for free 📱\n\n✅ PC stats on your desk: CPU, GPU, RAM, network\n✅ Touch keys for apps, shortcuts and macros\n✅ Music controls, plus OBS and mic controls\n✅ 124 widgets and 30 ready-made layouts\n\n💻 Windows · Mac · Linux (PC) + Android 5+ (phone)\nℹ️ It needs an Android phone (no iPhone) and a one-time setup: USB debugging or Wi-Fi pairing. It's a touchscreen, not physical keys, and the fullest audio and OBS controls are on Windows. Stream Deck's $149.99 is the one-time price of the 15-key hardware\n\nComment \"PANEL\" and I'll DM you the link 🔗\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #streamdeck #pcsetup #desksetup #gaming #freeapps #techtips",
+  "dm_pitch": "PhoneBox, the free open-source Stream Deck alternative for your old phone 📱",
+  "thumb": {
+    "big": "FREE",
+    "line1": "Stream Deck",
+    "line2": "alternative"
+  },
+  "format": "story",
+  "topic_arm": "hobby",
+  "demo": {
+    "images": [
+      "https://raw.githubusercontent.com/ersinkoc/phonebox/main/docs/screenshots/dashboard.png",
+      "https://raw.githubusercontent.com/ersinkoc/phonebox/main/docs/screenshots/system.png"
+    ]
+  },
+  "beats": [
+    {
+      "say": "Don't buy a Stream Deck. The old phone in your drawer does it for free.",
+      "scene": "slam",
+      "text": "Skip the $150",
+      "sub": "your old phone does this",
+      "accent": "free",
+      "tone": "neg",
+      "mood": "shock"
+    },
+    {
+      "say": "Wait, my old phone?",
+      "scene": "character",
+      "text": "My old phone?! 📱",
+      "mood": "excited",
+      "select": "phone"
+    },
+    {
+      "say": "A Stream Deck costs a hundred and fifty bucks. PhoneBox costs nothing.",
+      "scene": "versus",
+      "mood": "point",
+      "accent": "hundred",
+      "select": "nothing"
+    },
+    {
+      "say": "Plug it in, and you get touch keys for your apps, shortcuts and macros.",
+      "scene": "app",
+      "image": "https://raw.githubusercontent.com/ersinkoc/phonebox/main/docs/screenshots/deck.png",
+      "text": "Touch keys · macros",
+      "mood": "excited",
+      "accent": "macros",
+      "select": "keys"
+    },
+    {
+      "say": "And it gets better.",
+      "scene": "character",
+      "text": "It gets better 👀",
+      "mood": "smug"
+    },
+    {
+      "say": "It shows your CPU, GPU and RAM live, right on your desk.",
+      "scene": "app",
+      "image": "https://raw.githubusercontent.com/ersinkoc/phonebox/main/docs/screenshots/system.png",
+      "text": "Live PC stats",
+      "mood": "excited",
+      "accent": "live",
+      "select": "GPU"
+    },
+    {
+      "say": "Control your music, your mic, and OBS with one tap.",
+      "scene": "list",
+      "text": "One tap control",
+      "items": [
+        {
+          "label": "🎵 Music",
+          "anchor": "music"
+        },
+        {
+          "label": "🎙️ Mic",
+          "anchor": "mic"
+        },
+        {
+          "label": "🔴 OBS",
+          "anchor": "OBS"
+        }
+      ],
+      "select": "tap"
+    },
+    {
+      "say": "It's a Stream Deck, minus the hundred and fifty dollars.",
+      "scene": "slam",
+      "text": "Desk deck: $0",
+      "accent": "minus",
+      "mood": "smug"
+    },
+    {
+      "say": "Comment Panel, and I'll send you the link.",
+      "scene": "cta",
+      "mood": "point"
+    }
+  ],
+  "hook_style": "story",
+  "window": "evening",
+  "publish": {
+    "date": "2026-11-20",
+    "time": "18:21"
+  }
+}

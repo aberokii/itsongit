@@ -1,0 +1,29 @@
+{
+  "title": "Kdenlive: free Adobe Premiere Pro alternative",
+  "video": "FINAL.mp4",
+  "thumbnail": "FINAL_thumbnail.png",
+  "repo_url": "https://github.com/KDE/kdenlive",
+  "keyword": "CUT",
+  "caption": "Premiere Pro costs $22.99/month to edit videos. Kdenlive does it for free \ud83c\udfac\n\n\u2705 Flexible timeline with multicam editing, markers and automatic backups\n\u2705 Color grading with LUTs, scopes and hundreds of effects with keyframes\n\u2705 Subtitles with automatic transcription, plus titles and text\n\u2705 No subscription, no trial, free to download\n\n\ud83d\udcbb Windows \u00b7 Mac \u00b7 Linux\n\u2139\ufe0f On Mac there are separate Apple Silicon and Intel downloads (macOS 13 or newer). Adobe's $22.99/month is the Premiere-only plan, billed monthly on an annual plan\n\nComment \"CUT\" and I'll DM you the link \ud83d\udd17\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #videoediting #videoeditor #premierepro #kdenlive #freeapps #contentcreator",
+  "dm_pitch": "Kdenlive, the free open-source video editor \ud83c\udfac",
+  "install": "brew install --cask kdenlive",
+  "dm_on_any_comment": true,
+  "follow_gate": true,
+  "slot": 2,
+  "price_source": "https://www.adobe.com/products/premiere/plans.html",
+  "experiment": {
+    "format": "classic",
+    "hook": "price",
+    "topic": "subscription",
+    "window": "night"
+  },
+  "idempotencyKey": "cf6a6325-3bef-4f12-bc5d-c353c33c901c",
+  "zernio": {
+    "postId": "6b001268b743132430221308",
+    "status": "scheduled",
+    "scheduledFor": "2026-11-20T20:35:00.000Z",
+    "url": null,
+    "automationId": "6b00126a4c1e299a452f1393",
+    "slot": 2
+  }
+}

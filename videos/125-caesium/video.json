@@ -1,0 +1,94 @@
+{
+  "repo": "Lymphatus/caesium-image-compressor",
+  "name": "Caesium",
+  "title": "Caesium: free TinyPNG alternative",
+  "slot": 0,
+  "keyword": "TINY",
+  "paid": {
+    "name": "TinyPNG",
+    "price": "$39",
+    "per": "/year",
+    "anchor": "thirty",
+    "source": "https://tinypng.com/pricing/web"
+  },
+  "icon": "https://raw.githubusercontent.com/Lymphatus/caesium-image-compressor/main/resources/icons/icon.iconset/icon_512x512.png",
+  "hook": "TinyPNG charges you thirty nine bucks a year to shrink your photos. This app does it for free.",
+  "job": "Shrinks photos, same quality",
+  "platforms": [
+    "Mac",
+    "Windows"
+  ],
+  "features": [
+    {
+      "intro": "It makes your photos tiny.",
+      "say": "It cuts the file size of JPG, PNG and WebP pictures while keeping the overall quality.",
+      "images": [
+        "assets/sizes.png",
+        "assets/after.png"
+      ],
+      "swap_anchor": "keeping",
+      "chips": [
+        {
+          "label": "JPG",
+          "anchor": "jpg"
+        },
+        {
+          "label": "PNG",
+          "anchor": "png"
+        },
+        {
+          "label": "WebP",
+          "anchor": "webp"
+        }
+      ]
+    },
+    {
+      "say": "You can shrink the resolution too, so pictures are easier to store, send and share.",
+      "images": [
+        "assets/app.png"
+      ],
+      "chips": [
+        {
+          "label": "📐 Resolution",
+          "anchor": "resolution"
+        }
+      ]
+    }
+  ],
+  "nolist": [
+    {
+      "say": "No subscription.",
+      "label": "Subscription"
+    },
+    {
+      "say": "No sign up.",
+      "label": "Sign up"
+    },
+    {
+      "say": "No uploads.",
+      "label": "Uploads"
+    }
+  ],
+  "install": "Download from GitHub Releases",
+  "install_url": "https://github.com/Lymphatus/caesium-image-compressor/releases",
+  "caption": "TinyPNG charges $39/year. Caesium shrinks your photos for free 🗜️\n\n✅ Cuts the file size of JPG, PNG and WebP pictures\n✅ Keeps the overall quality, and can shrink the resolution too\n✅ Easier to store, send and share your pictures\n✅ No subscription, no paywall, 100% free\n\n💻 Mac · Windows · Linux · or try it in your browser at caesium.app\nℹ️ Mac and Windows have ready-made downloads on GitHub. Linux means building it yourself or using a third-party build. A big v3.0 rewrite is in the works. TinyPNG also has a free web tier with limits, $39/year is its Web Pro plan\n\nComment \"TINY\" and I'll DM you the link 🔗\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #imagecompressor #photography #productivity #macos #freeapps #techtips",
+  "dm_pitch": "Caesium, the free open-source TinyPNG alternative 🗜️",
+  "thumb": {
+    "big": "FREE",
+    "line1": "TinyPNG",
+    "line2": "alternative"
+  },
+  "topic_arm": "utility",
+  "demo": {
+    "images": [
+      "assets/app.png",
+      "assets/sizes.png"
+    ]
+  },
+  "hook_style": "demo",
+  "window": "midday",
+  "publish": {
+    "date": "2026-11-20",
+    "time": "12:05"
+  }
+}

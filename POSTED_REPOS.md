@@ -24,9 +24,9 @@ The scout (`pipeline/scout.py`) skips these automatically via `data/posted.json`
 | 17 | [actualbudget/actual](https://github.com/actualbudget/actual) | 017-actual | BUDGET | scheduled | 2026-10-21T17:03 |  |
 | 18 | [Zackriya-Solutions/meetily](https://github.com/Zackriya-Solutions/meetily) | 018-meetily | NOTES | scheduled | 2026-10-21T18:51 |  |
 | 19 | [utmapp/UTM](https://github.com/utmapp/UTM) | 019-utm | WINDOWS | scheduled | 2026-10-22T10:19 |  |
-| 20 | [vorssaint/vorssaint-utils](https://github.com/vorssaint/vorssaint-utils) | 020-vorssaint | MENU | published | 2026-10-22T11:33 | https://www.instagram.com/reel/Dey4js4inD7/ |
-| 21 | [altic-dev/FluidVoice](https://github.com/altic-dev/FluidVoice) | 021-fluidvoice | TYPE | published | 2026-10-22T12:45 | https://www.instagram.com/reel/DezAvBLjUn-/ |
-| 22 | [laurent22/joplin](https://github.com/laurent22/joplin) | 022-joplin | NOTEBOOK | published | 2026-10-22T19:11 | https://www.instagram.com/reel/DeztAifAjQV/ |
+| 20 | [vorssaint/vorssaint-utils](https://github.com/vorssaint/vorssaint-utils) | 020-vorssaint | MENU | scheduled | 2026-10-22T11:32 |  |
+| 21 | [altic-dev/FluidVoice](https://github.com/altic-dev/FluidVoice) | 021-fluidvoice | TYPE | scheduled | 2026-10-22T12:43 |  |
+| 22 | [laurent22/joplin](https://github.com/laurent22/joplin) | 022-joplin | NOTEBOOK | scheduled | 2026-10-22T19:10 |  |
 | 23 | [keepassxreboot/keepassxc](https://github.com/keepassxreboot/keepassxc) | 023-keepassxc | PASSWORD | published | 2026-10-22T20:36 | https://www.instagram.com/reel/Dez2s_vFAY6/ |
 | 24 | [rohit267/net-merge](https://github.com/rohit267/net-merge) | 024-netmerge | SPEED | published | 2026-10-23T10:20 | https://www.instagram.com/reel/De1U9_vlY_e/ |
 | 25 | [nyblnet/bento](https://github.com/nyblnet/bento) | 025-bento | SLIDES | published | 2026-10-23T11:33 | https://www.instagram.com/reel/De1dXHoky0U/ |
@@ -123,6 +123,9 @@ The scout (`pipeline/scout.py`) skips these automatically via `data/posted.json`
 | 116 | [saga-soft/novelWriter](https://github.com/saga-soft/novelWriter) | 117-novelwriter | NOVEL | published | 2026-11-18T11:00 | https://www.instagram.com/reel/Df4WNGYDJDQ/ |
 | 117 | [duplicati/duplicati](https://github.com/duplicati/duplicati) | 118-duplicati | BACKUP | published | 2026-11-18T17:43 | https://www.instagram.com/reel/Df5EYCJjbFN/ |
 | 118 | [bleachbit/bleachbit](https://github.com/bleachbit/bleachbit) | 119-bleachbit | CLEAN | published | 2026-11-18T20:09 | https://www.instagram.com/reel/Df5VE8LDime/ |
-| 119 | [iina/iina](https://github.com/iina/iina) | 120-iina | MOVIE | scheduled | 2026-11-19T10:12 |  |
-| 120 | [amebalabs/TRex](https://github.com/amebalabs/TRex) | 123-trex | TEXT | scheduled | 2026-11-19T17:50 |  |
-| 121 | [supertuxkart/stk-code](https://github.com/supertuxkart/stk-code) | 124-supertuxkart | KART | scheduled | 2026-11-19T21:05 |  |
+| 119 | [iina/iina](https://github.com/iina/iina) | 120-iina | MOVIE | published | 2026-11-19T10:13 | https://www.instagram.com/reel/Df61p9kDCty/ |
+| 120 | [amebalabs/TRex](https://github.com/amebalabs/TRex) | 123-trex | TEXT | published | 2026-11-19T17:51 | https://www.instagram.com/reel/Df7qFEdkW-C/ |
+| 121 | [supertuxkart/stk-code](https://github.com/supertuxkart/stk-code) | 124-supertuxkart | KART | published | 2026-11-19T21:06 | https://www.instagram.com/reel/Df8AY4Kjzrr/ |
+| 122 | [Lymphatus/caesium-image-compressor](https://github.com/Lymphatus/caesium-image-compressor) | 125-caesium | TINY | scheduled | 2026-11-20T11:05 |  |
+| 123 | [ersinkoc/phonebox](https://github.com/ersinkoc/phonebox) | 126-phonebox | PANEL | scheduled | 2026-11-20T17:21 |  |
+| 124 | [KDE/kdenlive](https://github.com/KDE/kdenlive) | 127-kdenlive | CUT | scheduled | 2026-11-20T20:35 |  |
