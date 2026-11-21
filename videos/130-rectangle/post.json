@@ -1,0 +1,29 @@
+{
+  "title": "Rectangle: free Magnet alternative",
+  "video": "FINAL.mp4",
+  "thumbnail": "FINAL_thumbnail.png",
+  "repo_url": "https://github.com/rxhanson/Rectangle",
+  "keyword": "SNAP",
+  "caption": "Magnet costs $4.99 to snap your Mac windows into place. Rectangle does it for free \ud83e\ude9f\n\n\u2705 Drag a window to a screen edge and it snaps to a half\n\u2705 Corners give you quarters, the bottom edge gives you thirds\n\u2705 Keyboard shortcuts for every layout, fully customizable\n\u2705 Send windows to your next display with one shortcut\n\n\ud83d\udcbb Mac\n\u2139\ufe0f Rectangle is free and open source. A separate app, Rectangle Pro, adds extras like custom snap targets and saved layouts for a one-time $9.99\n\nComment \"SNAP\" and I'll DM you the link \ud83d\udd17\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #macos #macbook #productivity #freeapps #techtips",
+  "dm_pitch": "Rectangle, the free open-source Magnet alternative \ud83e\ude9f",
+  "install": "brew install --cask rectangle",
+  "dm_on_any_comment": true,
+  "follow_gate": true,
+  "slot": 2,
+  "price_source": "https://apps.apple.com/us/app/magnet/id441258766",
+  "experiment": {
+    "format": "story",
+    "hook": "story",
+    "topic": "utility",
+    "window": "night"
+  },
+  "idempotencyKey": "54d169a9-18a6-4e78-b903-8b347221e7f0",
+  "zernio": {
+    "postId": "6b015ee01bbbe44e3decf476",
+    "status": "scheduled",
+    "scheduledFor": "2026-11-21T20:57:00.000Z",
+    "url": null,
+    "automationId": "6b015ee1e6ef329d62cc2d00",
+    "slot": 2
+  }
+}

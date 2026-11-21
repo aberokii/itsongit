@@ -1,0 +1,123 @@
+{
+  "repo": "rxhanson/Rectangle",
+  "name": "Rectangle",
+  "title": "Rectangle: free Magnet alternative",
+  "slot": 2,
+  "keyword": "SNAP",
+  "paid": {
+    "name": "Magnet",
+    "price": "$4.99",
+    "per": "",
+    "anchor": "five",
+    "source": "https://apps.apple.com/us/app/magnet/id441258766"
+  },
+  "icon": "https://raw.githubusercontent.com/rxhanson/Rectangle/main/Rectangle/Assets.xcassets/AppIcon.appiconset/mac512pts2x.png",
+  "job": "Snaps Mac windows into place",
+  "platforms": [
+    "Mac"
+  ],
+  "install": "brew install --cask rectangle",
+  "install_url": "https://rectangleapp.com",
+  "caption": "Magnet costs $4.99 to snap your Mac windows into place. Rectangle does it for free 🪟\n\n✅ Drag a window to a screen edge and it snaps to a half\n✅ Corners give you quarters, the bottom edge gives you thirds\n✅ Keyboard shortcuts for every layout, fully customizable\n✅ Send windows to your next display with one shortcut\n\n💻 Mac\nℹ️ Rectangle is free and open source. A separate app, Rectangle Pro, adds extras like custom snap targets and saved layouts for a one-time $9.99\n\nComment \"SNAP\" and I'll DM you the link 🔗\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #macos #macbook #productivity #freeapps #techtips",
+  "dm_pitch": "Rectangle, the free open-source Magnet alternative 🪟",
+  "thumb": {
+    "big": "FREE",
+    "line1": "Magnet",
+    "line2": "alternative"
+  },
+  "topic_arm": "utility",
+  "format": "story",
+  "demo": {
+    "images": [
+      "assets/snap-grid.png",
+      "assets/shortcuts.png"
+    ]
+  },
+  "beats": [
+    {
+      "say": "Stop dragging your Mac windows around by hand.",
+      "scene": "slam",
+      "text": "Stop dragging",
+      "sub": "your windows by hand",
+      "accent": "dragging",
+      "tone": "neg",
+      "mood": "smug"
+    },
+    {
+      "say": "Wait, there's a shortcut?",
+      "scene": "character",
+      "text": "There's a shortcut?! 😮",
+      "mood": "shock",
+      "select": "shortcut"
+    },
+    {
+      "say": "Magnet charges five bucks for this. Rectangle does it for free.",
+      "scene": "versus",
+      "mood": "point",
+      "accent": "five",
+      "select": "free"
+    },
+    {
+      "say": "Drag a window to an edge, and it snaps to a half, a quarter, or a third.",
+      "scene": "app",
+      "image": "assets/snap-grid.png",
+      "text": "Halves · quarters · thirds",
+      "mood": "excited",
+      "accent": "snaps",
+      "select": "edge"
+    },
+    {
+      "say": "Or skip the mouse. Every layout has its own keyboard shortcut.",
+      "scene": "app",
+      "image": "assets/shortcuts.png",
+      "text": "Shortcuts for every layout",
+      "mood": "excited",
+      "accent": "skip",
+      "select": "shortcut"
+    },
+    {
+      "say": "But here's the best part.",
+      "scene": "character",
+      "text": "Best part? 👀",
+      "mood": "smug"
+    },
+    {
+      "say": "Send a window to your other screen, center it, or maximize it, all with one key.",
+      "scene": "list",
+      "text": "One key each",
+      "items": [
+        {
+          "label": "🖥 Other screen",
+          "anchor": "screen"
+        },
+        {
+          "label": "🎯 Center",
+          "anchor": "center"
+        },
+        {
+          "label": "⬜ Maximize",
+          "anchor": "maximize"
+        }
+      ],
+      "select": "one"
+    },
+    {
+      "say": "It's Magnet, minus the price tag.",
+      "scene": "slam",
+      "text": "Snapping: $0",
+      "accent": "minus",
+      "mood": "smug"
+    },
+    {
+      "say": "Comment Snap, and I'll send you the link.",
+      "scene": "cta",
+      "mood": "point"
+    }
+  ],
+  "hook_style": "story",
+  "window": "night",
+  "publish": {
+    "date": "2026-11-21",
+    "time": "21:57"
+  }
+}

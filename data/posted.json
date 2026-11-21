@@ -122,5 +122,8 @@
  "supertuxkart/stk-code",
  "Lymphatus/caesium-image-compressor",
  "ersinkoc/phonebox",
- "KDE/kdenlive"
+ "KDE/kdenlive",
+ "invoke-ai/InvokeAI",
+ "bitwarden/clients",
+ "rxhanson/Rectangle"
 ]

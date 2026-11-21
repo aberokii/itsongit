@@ -1,0 +1,125 @@
+{
+  "repo": "invoke-ai/InvokeAI",
+  "name": "Invoke",
+  "title": "Invoke: free Midjourney alternative",
+  "keyword": "PROMPT",
+  "paid": {
+    "name": "Midjourney",
+    "price": "$10",
+    "per": "/month",
+    "anchor": "ten",
+    "source": "https://docs.midjourney.com/hc/en-us/articles/27870484040333-Comparing-Midjourney-Plans"
+  },
+  "icon": "https://raw.githubusercontent.com/invoke-ai/launcher/main/build/icon.png",
+  "job": "Makes AI art on your computer",
+  "platforms": [
+    "Windows",
+    "Mac",
+    "Linux"
+  ],
+  "install": "Download from GitHub Releases",
+  "install_url": "https://invoke.ai",
+  "caption": "Midjourney charges $10/month to make AI art. Invoke does it on your own computer for free 🎨\n\n✅ Type a prompt, get an image, no credits to count\n✅ Canvas to paint, inpaint and outpaint your images\n✅ Runs Flux, SDXL, Stable Diffusion and more\n✅ Everything stays on your machine, 100% free\n\n💻 Windows · Mac · Linux\nℹ️ It runs on your own hardware: Windows and Linux want an NVIDIA or AMD GPU, Macs need Apple Silicon (16GB+ memory recommended), and models are multi-GB downloads\n\nComment \"PROMPT\" and I'll DM you the link 🔗\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #aiart #midjourney #aiimages #freeapps #techtips",
+  "dm_pitch": "Invoke, the free open-source Midjourney alternative 🎨",
+  "thumb": {
+    "big": "FREE",
+    "line1": "Midjourney",
+    "line2": "alternative"
+  },
+  "format": "story",
+  "slot": 0,
+  "topic_arm": "hobby",
+  "demo": {
+    "images": [
+      "https://raw.githubusercontent.com/invoke-ai/InvokeAI/main/docs/src/content/docs/assets/invoke-web-server-1.png",
+      "https://github.com/invoke-ai/InvokeAI/assets/31807370/708f7a82-084f-4860-bfbe-e2588c53548d"
+    ]
+  },
+  "beats": [
+    {
+      "say": "Why are you still paying ten bucks a month for Midjourney?",
+      "scene": "slam",
+      "text": "$10 a month",
+      "sub": "for AI art?",
+      "accent": "paying",
+      "tone": "neg",
+      "mood": "shock"
+    },
+    {
+      "say": "Wait, there's a free one?",
+      "scene": "character",
+      "text": "There's a free one?! 😳",
+      "mood": "excited",
+      "select": "free"
+    },
+    {
+      "say": "Midjourney charges ten dollars a month. Invoke costs nothing.",
+      "scene": "versus",
+      "mood": "point",
+      "accent": "ten",
+      "select": "nothing"
+    },
+    {
+      "say": "Type a prompt, and it makes the image right on your own computer.",
+      "scene": "app",
+      "image": "https://raw.githubusercontent.com/invoke-ai/InvokeAI/main/docs/src/content/docs/assets/invoke-web-server-1.png",
+      "text": "Prompt → image",
+      "mood": "excited",
+      "accent": "own",
+      "select": "prompt"
+    },
+    {
+      "say": "But here's the crazy part.",
+      "scene": "character",
+      "text": "Here's the crazy part 👀",
+      "mood": "smug"
+    },
+    {
+      "say": "Paint over any spot, and it redraws just that part. Or grow the picture past its edges.",
+      "scene": "app",
+      "image": "assets/canvas.png",
+      "text": "Inpaint · outpaint",
+      "mood": "excited",
+      "accent": "edges",
+      "select": "redraws"
+    },
+    {
+      "say": "It runs Flux, SDXL and Stable Diffusion, with no credits to count.",
+      "scene": "list",
+      "text": "Your models",
+      "items": [
+        {
+          "label": "Flux",
+          "anchor": "flux"
+        },
+        {
+          "label": "SDXL",
+          "anchor": "sdxl"
+        },
+        {
+          "label": "Stable Diffusion",
+          "anchor": "stable"
+        }
+      ],
+      "select": "credits"
+    },
+    {
+      "say": "It's Midjourney, minus the monthly bill.",
+      "scene": "slam",
+      "text": "AI art: $0",
+      "accent": "minus",
+      "mood": "smug"
+    },
+    {
+      "say": "Comment Prompt, and I'll send you the link.",
+      "scene": "cta",
+      "mood": "point"
+    }
+  ],
+  "hook_style": "story",
+  "window": "midday",
+  "publish": {
+    "date": "2026-11-21",
+    "time": "11:05"
+  }
+}

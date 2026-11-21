@@ -1,0 +1,95 @@
+{
+  "repo": "bitwarden/clients",
+  "name": "Bitwarden",
+  "title": "Bitwarden: free 1Password alternative",
+  "slot": 1,
+  "keyword": "VAULT",
+  "paid": {
+    "name": "1Password",
+    "price": "$3.99",
+    "per": "/month",
+    "anchor": "three",
+    "source": "https://1password.com/pricing/password-manager"
+  },
+  "icon": "https://raw.githubusercontent.com/bitwarden/clients/main/apps/desktop/resources/icon.iconset/icon_512x512.png",
+  "hook": "1Password charges you three ninety nine a month to store your passwords. This app does it for free.",
+  "job": "Keeps all your passwords safe",
+  "platforms": [
+    "any browser",
+    "Mac",
+    "Windows",
+    "Linux",
+    "iPhone",
+    "Android"
+  ],
+  "features": [
+    {
+      "say": "Every password, card and note sits in one encrypted vault, with unlimited passwords on unlimited devices.",
+      "images": [
+        "assets/phone-vault.png",
+        "assets/mac-vault-list.png"
+      ],
+      "swap_anchor": "unlimited",
+      "chips": [
+        {
+          "label": "🔐 Encrypted vault",
+          "anchor": "encrypted"
+        },
+        {
+          "label": "♾ Unlimited",
+          "anchor": "unlimited"
+        }
+      ]
+    },
+    {
+      "say": "Need a new login? The built in generator makes a strong password in one tap.",
+      "images": [
+        "assets/browser-generator.png",
+        "assets/phone-generator.png"
+      ],
+      "chips": [
+        {
+          "label": "🎲 Generator",
+          "anchor": "generator"
+        }
+      ],
+      "swap_anchor": "strong"
+    }
+  ],
+  "nolist": [
+    {
+      "say": "No subscription.",
+      "label": "Subscription"
+    },
+    {
+      "say": "No password limits.",
+      "label": "Limits"
+    },
+    {
+      "say": "No device limits.",
+      "label": "Device limits"
+    }
+  ],
+  "install": "brew install --cask bitwarden",
+  "install_url": "https://bitwarden.com/download/",
+  "caption": "1Password charges $3.99/month. Bitwarden stores your passwords for free 🔐\n\n✅ One encrypted vault for passwords, cards and notes\n✅ Unlimited passwords on unlimited devices\n✅ Built-in password generator\n✅ No subscription, no password limits, free plan\n\n💻 Any browser · Mac · Windows · Linux · iPhone · Android\nℹ️ The free plan covers the essentials. Extras like the built-in authenticator codes, file attachments and emergency access are in Premium at $19.80/year. The iPhone and Android apps live in separate GitHub repos\n\nComment \"VAULT\" and I'll DM you the link 🔗\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #passwordmanager #privacy #security #bitwarden #freeapps #techtips",
+  "dm_pitch": "Bitwarden, the free open-source 1Password alternative 🔐",
+  "thumb": {
+    "big": "FREE",
+    "line1": "1Password",
+    "line2": "alternative"
+  },
+  "topic_arm": "subscription",
+  "demo": {
+    "images": [
+      "assets/phone-vault.png",
+      "assets/browser-generator.png"
+    ]
+  },
+  "hook_style": "demo",
+  "window": "evening",
+  "publish": {
+    "date": "2026-11-21",
+    "time": "18:22"
+  }
+}

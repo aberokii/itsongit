@@ -1,0 +1,29 @@
+{
+  "title": "Invoke: free Midjourney alternative",
+  "video": "FINAL.mp4",
+  "thumbnail": "FINAL_thumbnail.png",
+  "repo_url": "https://github.com/invoke-ai/InvokeAI",
+  "keyword": "PROMPT",
+  "caption": "Midjourney charges $10/month to make AI art. Invoke does it on your own computer for free \ud83c\udfa8\n\n\u2705 Type a prompt, get an image, no credits to count\n\u2705 Canvas to paint, inpaint and outpaint your images\n\u2705 Runs Flux, SDXL, Stable Diffusion and more\n\u2705 Everything stays on your machine, 100% free\n\n\ud83d\udcbb Windows \u00b7 Mac \u00b7 Linux\n\u2139\ufe0f It runs on your own hardware: Windows and Linux want an NVIDIA or AMD GPU, Macs need Apple Silicon (16GB+ memory recommended), and models are multi-GB downloads\n\nComment \"PROMPT\" and I'll DM you the link \ud83d\udd17\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #aiart #midjourney #aiimages #freeapps #techtips",
+  "dm_pitch": "Invoke, the free open-source Midjourney alternative \ud83c\udfa8",
+  "install": "Download from GitHub Releases",
+  "dm_on_any_comment": true,
+  "follow_gate": true,
+  "slot": 0,
+  "price_source": "https://docs.midjourney.com/hc/en-us/articles/27870484040333-Comparing-Midjourney-Plans",
+  "experiment": {
+    "format": "story",
+    "hook": "story",
+    "topic": "hobby",
+    "window": null
+  },
+  "idempotencyKey": "ba67c019-1cbc-4e2b-9819-c83bbf8f705a",
+  "zernio": {
+    "postId": "6b015c2b43ccb3a39147dee2",
+    "status": "scheduled",
+    "scheduledFor": "2026-11-21T10:05:00.000Z",
+    "url": null,
+    "automationId": "6b015c2d46c7e6a73843445f",
+    "slot": 0
+  }
+}

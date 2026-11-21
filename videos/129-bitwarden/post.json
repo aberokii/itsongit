@@ -1,0 +1,29 @@
+{
+  "title": "Bitwarden: free 1Password alternative",
+  "video": "FINAL.mp4",
+  "thumbnail": "FINAL_thumbnail.png",
+  "repo_url": "https://github.com/bitwarden/clients",
+  "keyword": "VAULT",
+  "caption": "1Password charges $3.99/month. Bitwarden stores your passwords for free \ud83d\udd10\n\n\u2705 One encrypted vault for passwords, cards and notes\n\u2705 Unlimited passwords on unlimited devices\n\u2705 Built-in password generator\n\u2705 No subscription, no password limits, free plan\n\n\ud83d\udcbb Any browser \u00b7 Mac \u00b7 Windows \u00b7 Linux \u00b7 iPhone \u00b7 Android\n\u2139\ufe0f The free plan covers the essentials. Extras like the built-in authenticator codes, file attachments and emergency access are in Premium at $19.80/year. The iPhone and Android apps live in separate GitHub repos\n\nComment \"VAULT\" and I'll DM you the link \ud83d\udd17\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #passwordmanager #privacy #security #bitwarden #freeapps #techtips",
+  "dm_pitch": "Bitwarden, the free open-source 1Password alternative \ud83d\udd10",
+  "install": "brew install --cask bitwarden",
+  "dm_on_any_comment": true,
+  "follow_gate": true,
+  "slot": 1,
+  "price_source": "https://1password.com/pricing/password-manager",
+  "experiment": {
+    "format": "classic",
+    "hook": "demo",
+    "topic": "subscription",
+    "window": "evening"
+  },
+  "idempotencyKey": "cd68967b-0925-47cd-b01e-30ff94eb08b4",
+  "zernio": {
+    "postId": "6b015e2d46be48a51b4acf21",
+    "status": "scheduled",
+    "scheduledFor": "2026-11-21T17:22:00.000Z",
+    "url": null,
+    "automationId": "6b015e2fbe7280071c3f1952",
+    "slot": 1
+  }
+}
