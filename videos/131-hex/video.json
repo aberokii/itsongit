@@ -1,0 +1,93 @@
+{
+  "repo": "anomalyco/hex",
+  "name": "Hex",
+  "title": "Hex: free Wispr Flow alternative",
+  "slot": 0,
+  "keyword": "VOICE",
+  "paid": {
+    "name": "Wispr Flow Pro",
+    "price": "$15",
+    "per": "/month",
+    "anchor": "fifteen",
+    "source": "https://wisprflow.ai/pricing"
+  },
+  "icon": "https://raw.githubusercontent.com/anomalyco/hex/HEAD/android/play/artwork/icon.png",
+  "hook": "Wispr Flow Pro charges you fifteen dollars a month to type whatever you say. This app does it for free.",
+  "job": "Types whatever you say",
+  "platforms": [
+    "Mac",
+    "Windows",
+    "Linux"
+  ],
+  "features": [
+    {
+      "intro": "Hold a key, talk, and it types.",
+      "say": "Hold the shortcut and speak. When you let go, the text lands at your cursor, in any app.",
+      "images": [
+        "https://raw.githubusercontent.com/anomalyco/hex/HEAD/docs/images/history.png"
+      ],
+      "chips": [
+        {
+          "label": "⌨ Hold shortcut",
+          "anchor": "shortcut"
+        },
+        {
+          "label": "Any app",
+          "anchor": "app"
+        }
+      ]
+    },
+    {
+      "say": "It cuts the ums and fixes names your way, with different rules for each app.",
+      "images": [
+        "https://raw.githubusercontent.com/anomalyco/hex/HEAD/docs/images/output.png"
+      ],
+      "chips": [
+        {
+          "label": "✂ No ums",
+          "anchor": "ums"
+        },
+        {
+          "label": "Per-app rules",
+          "anchor": "rules"
+        }
+      ]
+    }
+  ],
+  "nolist": [
+    {
+      "say": "No subscription.",
+      "label": "Subscription"
+    },
+    {
+      "say": "No cloud.",
+      "label": "Cloud"
+    },
+    {
+      "say": "No paywall.",
+      "label": "Paywall"
+    }
+  ],
+  "install": "Download from GitHub Releases",
+  "install_url": "https://anoma.ly/hex",
+  "caption": "Wispr Flow Pro charges $15/month to type whatever you say. Hex does it for free 🎙️\n\n✅ Hold a shortcut, talk, and the text pastes at your cursor in any app\n✅ Cuts the ums and fixes names, with different rules per app\n✅ Transcribes on your device with a local speech model\n✅ No subscription, no paywall, 100% free\n\n💻 Mac · Windows · Linux\nℹ️ The Mac build is for Apple silicon, Windows and Linux are still in beta, and Hex downloads a speech model on first run. (Wispr Flow has a limited free plan; $15/month is Pro, unlimited)\n\nComment \"VOICE\" and I'll DM you the link 🔗\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #voicetyping #dictation #speechtotext #productivity #freeapps #techtips",
+  "dm_pitch": "Hex, the free open-source Wispr Flow alternative 🎙️",
+  "thumb": {
+    "big": "FREE",
+    "line1": "Wispr Flow",
+    "line2": "alternative"
+  },
+  "topic_arm": "subscription",
+  "demo": {
+    "images": [
+      "https://raw.githubusercontent.com/anomalyco/hex/HEAD/docs/images/history.png",
+      "https://raw.githubusercontent.com/anomalyco/hex/HEAD/docs/images/output.png"
+    ]
+  },
+  "hook_style": "price",
+  "window": "midday",
+  "publish": {
+    "date": "2026-11-22",
+    "time": "11:37"
+  }
+}

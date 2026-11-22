@@ -96,8 +96,8 @@ const Line: React.FC<{b: Beat; words: Word[]}> = ({b, words}) => {
 const Header: React.FC<{i: number; name: string; right: string}> = ({i, name, right}) => (
   <div style={{position: "absolute", top: 196, left: 66, right: 66, display: "flex", justifyContent: "space-between", fontFamily: MONO, fontWeight: 700,
     fontSize: 25, color: C.MUTED, letterSpacing: "0.02em"}}>
-    <span>{`// ${String(i + 1).padStart(2, "0")} — ${name.toLowerCase()}`}</span>
-    <span style={{textTransform: "uppercase"}}>{right}</span>
+    <span style={{whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis", minWidth: 0, marginRight: 28}}>{`// ${String(i + 1).padStart(2, "0")} — ${name.toLowerCase()}`}</span>
+    <span style={{textTransform: "uppercase", whiteSpace: "nowrap", flexShrink: 0}}>{right}</span>
   </div>
 );
 

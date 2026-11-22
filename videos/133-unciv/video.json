@@ -1,0 +1,114 @@
+{
+  "repo": "yairm210/Unciv",
+  "name": "Unciv",
+  "title": "Unciv: free Civilization alternative",
+  "slot": 2,
+  "keyword": "EMPIRE",
+  "paid": {
+    "name": "Civilization V",
+    "price": "$29.99",
+    "per": "",
+    "anchor": "thirty",
+    "source": "https://store.steampowered.com/app/8930/"
+  },
+  "icon": "https://raw.githubusercontent.com/yairm210/Unciv/master/extraImages/Icons/Unciv%20icon%20v6.png",
+  "hook": "Civilization V charges you thirty bucks to build and rule your own empire. This game does it for free.",
+  "job": "Builds and rules your empire",
+  "platforms": [
+    "Mac",
+    "Windows",
+    "Linux",
+    "Android"
+  ],
+  "features": [
+    {
+      "say": "Found cities, research technologies, and lead armies across the map.",
+      "images": [
+        "https://raw.githubusercontent.com/yairm210/Unciv/master/extraImages/GithubPreviewImage.jpg",
+        "https://raw.githubusercontent.com/yairm210/Unciv/master/extraImages/Screenshots/CityScreen.png"
+      ],
+      "swap_anchor": "armies",
+      "chips": [
+        {
+          "label": "🏛 Cities",
+          "anchor": "cities"
+        },
+        {
+          "label": "⚔️ Armies",
+          "anchor": "armies"
+        }
+      ]
+    },
+    {
+      "say": "Research a big tech tree, then make friends or declare war on rivals.",
+      "images": [
+        "https://raw.githubusercontent.com/yairm210/Unciv/master/extraImages/Screenshots/TechTree.png",
+        "https://raw.githubusercontent.com/yairm210/Unciv/master/extraImages/Screenshots/DiplomacyScreen.png"
+      ],
+      "swap_anchor": "friends",
+      "chips": [
+        {
+          "label": "🔬 Tech tree",
+          "anchor": "tree"
+        },
+        {
+          "label": "🤝 Diplomacy",
+          "anchor": "friends"
+        }
+      ]
+    },
+    {
+      "say": "Pick your policies, play multiplayer with friends, and download mods.",
+      "images": [
+        "https://raw.githubusercontent.com/yairm210/Unciv/master/extraImages/Screenshots/PolicyScreen.png"
+      ],
+      "chips": [
+        {
+          "label": "👥 Multiplayer",
+          "anchor": "multiplayer"
+        },
+        {
+          "label": "🧩 Mods",
+          "anchor": "mods"
+        }
+      ]
+    }
+  ],
+  "nolist": [
+    {
+      "say": "No subscription.",
+      "label": "Subscription"
+    },
+    {
+      "say": "No paywall.",
+      "label": "Paywall"
+    },
+    {
+      "say": "No ads.",
+      "label": "Ads"
+    }
+  ],
+  "install": "Download from GitHub Releases",
+  "install_url": "https://yairm210.itch.io/unciv",
+  "caption": "Civilization V costs $29.99. Unciv lets you build and rule your own empire for free 🏛️\n\n✅ Found cities, research technologies and lead armies\n✅ Big tech tree, diplomacy with rival civilizations, or all-out war\n✅ Multiplayer with friends and mods you can download in the game\n✅ No subscription, no paywall, no ads, 100% free\n\n💻 Mac · Windows · Linux · Android\nℹ️ Unciv is a fan-made remake, not Civilization V and not made by Firaxis: simpler graphics, its own art. No iPhone version. Civ V's $29.99 is the one-time Steam price\n\nComment \"EMPIRE\" and I'll DM you the link 🔗\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #gaming #pcgaming #strategygames #civilization #freeapps #techtips",
+  "dm_pitch": "Unciv, the free open-source Civilization alternative 🏛️",
+  "thumb": {
+    "big": "FREE",
+    "line1": "Civilization",
+    "line2": "alternative"
+  },
+  "format": "classic",
+  "topic_arm": "hobby",
+  "demo": {
+    "images": [
+      "https://raw.githubusercontent.com/yairm210/Unciv/master/extraImages/GithubPreviewImage.jpg",
+      "https://raw.githubusercontent.com/yairm210/Unciv/master/extraImages/Screenshots/WorldScreen.png"
+    ]
+  },
+  "hook_style": "demo",
+  "window": "night",
+  "publish": {
+    "date": "2026-11-22",
+    "time": "21:59"
+  }
+}

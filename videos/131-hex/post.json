@@ -1,0 +1,29 @@
+{
+  "title": "Hex: free Wispr Flow alternative",
+  "video": "FINAL.mp4",
+  "thumbnail": "FINAL_thumbnail.png",
+  "repo_url": "https://github.com/anomalyco/hex",
+  "keyword": "VOICE",
+  "caption": "Wispr Flow Pro charges $15/month to type whatever you say. Hex does it for free \ud83c\udf99\ufe0f\n\n\u2705 Hold a shortcut, talk, and the text pastes at your cursor in any app\n\u2705 Cuts the ums and fixes names, with different rules per app\n\u2705 Transcribes on your device with a local speech model\n\u2705 No subscription, no paywall, 100% free\n\n\ud83d\udcbb Mac \u00b7 Windows \u00b7 Linux\n\u2139\ufe0f The Mac build is for Apple silicon, Windows and Linux are still in beta, and Hex downloads a speech model on first run. (Wispr Flow has a limited free plan; $15/month is Pro, unlimited)\n\nComment \"VOICE\" and I'll DM you the link \ud83d\udd17\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #voicetyping #dictation #speechtotext #productivity #freeapps #techtips",
+  "dm_pitch": "Hex, the free open-source Wispr Flow alternative \ud83c\udf99\ufe0f",
+  "install": "Download from GitHub Releases",
+  "dm_on_any_comment": true,
+  "follow_gate": true,
+  "slot": 0,
+  "price_source": "https://wisprflow.ai/pricing",
+  "experiment": {
+    "format": "classic",
+    "hook": "price",
+    "topic": "subscription",
+    "window": "midday"
+  },
+  "idempotencyKey": "17784458-3dd0-4974-a70a-8f4704a1223c",
+  "zernio": {
+    "postId": "6b02b0f35a1ff0309f7968b4",
+    "status": "scheduled",
+    "scheduledFor": "2026-11-22T10:37:00.000Z",
+    "url": null,
+    "automationId": "6b02b0f49a934693ec82df63",
+    "slot": 0
+  }
+}

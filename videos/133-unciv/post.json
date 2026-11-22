@@ -1,0 +1,29 @@
+{
+  "title": "Unciv: free Civilization alternative",
+  "video": "FINAL.mp4",
+  "thumbnail": "FINAL_thumbnail.png",
+  "repo_url": "https://github.com/yairm210/Unciv",
+  "keyword": "EMPIRE",
+  "caption": "Civilization V costs $29.99. Unciv lets you build and rule your own empire for free \ud83c\udfdb\ufe0f\n\n\u2705 Found cities, research technologies and lead armies\n\u2705 Big tech tree, diplomacy with rival civilizations, or all-out war\n\u2705 Multiplayer with friends and mods you can download in the game\n\u2705 No subscription, no paywall, no ads, 100% free\n\n\ud83d\udcbb Mac \u00b7 Windows \u00b7 Linux \u00b7 Android\n\u2139\ufe0f Unciv is a fan-made remake, not Civilization V and not made by Firaxis: simpler graphics, its own art. No iPhone version. Civ V's $29.99 is the one-time Steam price\n\nComment \"EMPIRE\" and I'll DM you the link \ud83d\udd17\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #gaming #pcgaming #strategygames #civilization #freeapps #techtips",
+  "dm_pitch": "Unciv, the free open-source Civilization alternative \ud83c\udfdb\ufe0f",
+  "install": "Download from GitHub Releases",
+  "dm_on_any_comment": true,
+  "follow_gate": true,
+  "slot": 2,
+  "price_source": "https://store.steampowered.com/app/8930/",
+  "experiment": {
+    "format": "classic",
+    "hook": "demo",
+    "topic": "hobby",
+    "window": "night"
+  },
+  "idempotencyKey": "5f0b2a87-3d21-43ed-a93a-c924bafa5f5d",
+  "zernio": {
+    "postId": "6b02b0fc6f23a67c595f4772",
+    "status": "scheduled",
+    "scheduledFor": "2026-11-22T20:59:00.000Z",
+    "url": null,
+    "automationId": "6b02b0fd8521d2760d013d1d",
+    "slot": 2
+  }
+}

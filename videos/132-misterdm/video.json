@@ -1,0 +1,124 @@
+{
+  "repo": "anefzaoui/misterdownloadmanager",
+  "name": "Mister Download Manager",
+  "title": "Mister Download Manager: free IDM alternative",
+  "keyword": "SPEED",
+  "paid": {
+    "name": "Internet Download Manager",
+    "price": "$11.95",
+    "per": "/year",
+    "anchor": "twelve",
+    "source": "https://www.internetdownloadmanager.com/buy.html"
+  },
+  "icon": "https://raw.githubusercontent.com/anefzaoui/misterdownloadmanager/main/crates/app/assets/icons/app/mdm-256.png",
+  "job": "Downloads files way faster",
+  "platforms": [
+    "Windows",
+    "Linux",
+    "Mac"
+  ],
+  "install": "Download from GitHub Releases",
+  "install_url": "https://misterdownloadmanager.com",
+  "caption": "Internet Download Manager charges $11.95/year to download files faster. Mister Download Manager does it for free ⚡\n\n✅ Splits every download into parts and fetches them at once\n✅ Resumes after a crash or dropped connection\n✅ Grabs downloads from Chrome, Firefox, Edge and Brave\n✅ Torrents, magnet links and one-click video downloads too\n\n💻 Windows · Linux · Mac\nℹ️ It's a young project (4 weeks old): the Windows installer isn't code-signed yet, so Windows may say \"protected your PC\" (More info, then Run anyway). Mac builds are experimental, and you add its free browser extension to catch downloads. The \"5x faster\" claim is the developer's own local test, and IDM's $11.95 is a one-year license (lifetime is $24.95)\n\nComment \"SPEED\" and I'll DM you the link 🔗\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #windows #downloadmanager #freeapps #techtips #idm #productivity",
+  "dm_pitch": "Mister Download Manager, the free open-source IDM alternative ⚡",
+  "thumb": {
+    "big": "FREE",
+    "line1": "IDM",
+    "line2": "alternative"
+  },
+  "format": "story",
+  "slot": 1,
+  "topic_arm": "utility",
+  "demo": {
+    "images": [
+      "assets/main.png",
+      "assets/progress.png"
+    ]
+  },
+  "beats": [
+    {
+      "say": "If you still pay for IDM, stop scrolling.",
+      "scene": "slam",
+      "text": "Still paying for IDM?",
+      "accent": "stop",
+      "tone": "neg",
+      "mood": "shock"
+    },
+    {
+      "say": "Wait, there's a free one?",
+      "scene": "character",
+      "text": "Wait, a free one?! 😳",
+      "mood": "worried",
+      "select": "free"
+    },
+    {
+      "say": "IDM charges twelve bucks a year. This one costs nothing.",
+      "scene": "versus",
+      "mood": "point",
+      "accent": "twelve",
+      "select": "nothing"
+    },
+    {
+      "say": "It grabs every file in parts at the same time, so downloads fly.",
+      "scene": "app",
+      "image": "assets/progress.png",
+      "text": "Parts at once",
+      "mood": "excited",
+      "accent": "fly",
+      "select": "parts"
+    },
+    {
+      "say": "And it gets better.",
+      "scene": "character",
+      "text": "It gets better 👀",
+      "mood": "smug"
+    },
+    {
+      "say": "A download button pops up on videos, and it handles torrents too.",
+      "scene": "app",
+      "image": "assets/main.png",
+      "text": "Videos · torrents",
+      "mood": "excited",
+      "accent": "button",
+      "select": "torrents"
+    },
+    {
+      "say": "It resumes after a crash, a restart, or a dropped connection.",
+      "scene": "list",
+      "text": "Never starts over",
+      "items": [
+        {
+          "label": "Crash",
+          "anchor": "crash"
+        },
+        {
+          "label": "Restart",
+          "anchor": "restart"
+        },
+        {
+          "label": "Dropped connection",
+          "anchor": "dropped"
+        }
+      ],
+      "select": "resumes"
+    },
+    {
+      "say": "It's IDM, minus the license key, forever.",
+      "scene": "slam",
+      "text": "License key: $0",
+      "accent": "minus",
+      "mood": "smug"
+    },
+    {
+      "say": "Comment Speed, and I'll send you the link.",
+      "scene": "cta",
+      "mood": "point"
+    }
+  ],
+  "hook_style": "story",
+  "window": "evening",
+  "publish": {
+    "date": "2026-11-22",
+    "time": "19:29"
+  }
+}

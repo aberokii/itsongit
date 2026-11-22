@@ -1,0 +1,29 @@
+{
+  "title": "Mister Download Manager: free IDM alternative",
+  "video": "FINAL.mp4",
+  "thumbnail": "FINAL_thumbnail.png",
+  "repo_url": "https://github.com/anefzaoui/misterdownloadmanager",
+  "keyword": "SPEED",
+  "caption": "Internet Download Manager charges $11.95/year to download files faster. Mister Download Manager does it for free \u26a1\n\n\u2705 Splits every download into parts and fetches them at once\n\u2705 Resumes after a crash or dropped connection\n\u2705 Grabs downloads from Chrome, Firefox, Edge and Brave\n\u2705 Torrents, magnet links and one-click video downloads too\n\n\ud83d\udcbb Windows \u00b7 Linux \u00b7 Mac\n\u2139\ufe0f It's a young project (4 weeks old): the Windows installer isn't code-signed yet, so Windows may say \"protected your PC\" (More info, then Run anyway). Mac builds are experimental, and you add its free browser extension to catch downloads. The \"5x faster\" claim is the developer's own local test, and IDM's $11.95 is a one-year license (lifetime is $24.95)\n\nComment \"SPEED\" and I'll DM you the link \ud83d\udd17\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #windows #downloadmanager #freeapps #techtips #idm #productivity",
+  "dm_pitch": "Mister Download Manager, the free open-source IDM alternative \u26a1",
+  "install": "Download from GitHub Releases",
+  "dm_on_any_comment": true,
+  "follow_gate": true,
+  "slot": 1,
+  "price_source": "https://www.internetdownloadmanager.com/buy.html",
+  "experiment": {
+    "format": "story",
+    "hook": "story",
+    "topic": "utility",
+    "window": "evening"
+  },
+  "idempotencyKey": "897c1a52-1e07-43c4-aeeb-24edb6a2d1f9",
+  "zernio": {
+    "postId": "6b02b0f76f23a67c595f4753",
+    "status": "scheduled",
+    "scheduledFor": "2026-11-22T18:29:00.000Z",
+    "url": null,
+    "automationId": "6b02b0f8afee42247c2ff622",
+    "slot": 1
+  }
+}

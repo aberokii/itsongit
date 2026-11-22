@@ -125,5 +125,8 @@
  "KDE/kdenlive",
  "invoke-ai/InvokeAI",
  "bitwarden/clients",
- "rxhanson/Rectangle"
+ "rxhanson/Rectangle",
+ "anomalyco/hex",
+ "anefzaoui/misterdownloadmanager",
+ "yairm210/Unciv"
 ]
