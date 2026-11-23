@@ -1,0 +1,29 @@
+{
+  "title": "iDescriptor: free iMazing alternative",
+  "video": "FINAL.mp4",
+  "thumbnail": "FINAL_thumbnail.png",
+  "repo_url": "https://github.com/iDescriptor/iDescriptor",
+  "keyword": "IPHONE",
+  "caption": "iMazing charges $49.99/year. iDescriptor manages your iPhone from a computer for free \ud83d\udcf1\n\n\u2705 Browse your iPhone albums and photos on your computer\n\u2705 Battery health + a genuine-cable check\n\u2705 Cast your iPhone screen to your computer\n\u2705 No subscription, no tracking, 100% free\n\n\ud83d\udcbb Windows \u00b7 Mac \u00b7 Linux\n\u2139\ufe0f The Mac app isn't signed by Apple, so it needs one Terminal command on first launch (steps are in the README).\n\nComment \"IPHONE\" and I'll DM you the link \ud83d\udd17\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #iphone #ios #windows #macos #linux #freeapps #techtips",
+  "dm_pitch": "iDescriptor, the free open-source iMazing alternative \ud83d\udcf1",
+  "install": "Download from GitHub Releases",
+  "dm_on_any_comment": true,
+  "follow_gate": true,
+  "slot": 0,
+  "price_source": "https://imazing.com/store",
+  "experiment": {
+    "format": "story",
+    "hook": "story",
+    "topic": "utility",
+    "window": "midday"
+  },
+  "idempotencyKey": "39967af1-b85d-492f-a8b3-5dcd665456aa",
+  "zernio": {
+    "postId": "6b0401ab2c2da1600f40897f",
+    "status": "scheduled",
+    "scheduledFor": "2026-11-23T11:33:00.000Z",
+    "url": null,
+    "automationId": "6b0401ad1b8bc9b350b78496",
+    "slot": 0
+  }
+}

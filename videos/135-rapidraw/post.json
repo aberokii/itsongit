@@ -1,0 +1,29 @@
+{
+  "title": "RapidRAW: free Lightroom alternative",
+  "video": "FINAL.mp4",
+  "thumbnail": "FINAL_thumbnail.png",
+  "repo_url": "https://github.com/CyberTimon/RapidRAW",
+  "keyword": "RAW",
+  "caption": "Lightroom charges $11.99/month to edit your raw photos. RapidRAW does it for free \ud83d\udcf8\n\n\u2705 Edit raw photos with sliders, curves and color tools\n\u2705 Non-destructive: your original files stay untouched\n\u2705 Brush over people or dust and AI removes them, running on your own computer\n\u2705 Opens raw files from Canon, Nikon, Sony and more, exports JPEG or TIFF\n\u2705 No subscription, no uploads, no paywall\n\n\ud83d\udcbb Mac \u00b7 Windows \u00b7 Linux \u00b7 Android\n\u2139\ufe0f The editor and its AI tools run free on your own computer; there's an optional paid cloud add-on for heavier AI fills. A dedicated GPU and 16GB of RAM are recommended\n\nComment \"RAW\" and I'll DM you the link \ud83d\udd17\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #photography #photoediting #lightroom #rawphotos #freeapps #techtips",
+  "dm_pitch": "RapidRAW, the free open-source Lightroom alternative \ud83d\udcf8",
+  "install": "Download from GitHub Releases",
+  "dm_on_any_comment": true,
+  "follow_gate": true,
+  "slot": 1,
+  "price_source": "https://www.adobe.com/creativecloud/plans.html",
+  "experiment": {
+    "format": "classic",
+    "hook": "price",
+    "topic": "hobby",
+    "window": "evening"
+  },
+  "idempotencyKey": "02ac0283-98e3-4fa4-a438-d469232c822c",
+  "zernio": {
+    "postId": "6b0401b12c2da1600f4089d9",
+    "status": "scheduled",
+    "scheduledFor": "2026-11-23T17:11:00.000Z",
+    "url": null,
+    "automationId": "6b0401b36c3e34d871c7ddf5",
+    "slot": 1
+  }
+}

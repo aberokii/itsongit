@@ -1,0 +1,124 @@
+{
+  "repo": "iDescriptor/iDescriptor",
+  "name": "iDescriptor",
+  "title": "iDescriptor: free iMazing alternative",
+  "slot": 0,
+  "keyword": "IPHONE",
+  "topic_arm": "utility",
+  "format": "story",
+  "paid": {
+    "name": "iMazing",
+    "price": "$49.99",
+    "per": "/year",
+    "anchor": "fifty",
+    "source": "https://imazing.com/store"
+  },
+  "icon": "https://raw.githubusercontent.com/iDescriptor/iDescriptor/main/packaging/shared/resources/app-icon/icon.png",
+  "job": "Manages your iPhone on any PC",
+  "platforms": [
+    "Windows",
+    "Mac",
+    "Linux"
+  ],
+  "demo": {
+    "images": [
+      "https://raw.githubusercontent.com/iDescriptor/iDescriptor/main/resources/repo/gallery.png",
+      "https://raw.githubusercontent.com/iDescriptor/iDescriptor/main/resources/repo/battery.png"
+    ]
+  },
+  "install": "Download from GitHub Releases",
+  "install_url": "https://idescriptor.github.io",
+  "caption": "iMazing charges $49.99/year. iDescriptor manages your iPhone from a computer for free 📱\n\n✅ Browse your iPhone albums and photos on your computer\n✅ Battery health + a genuine-cable check\n✅ Cast your iPhone screen to your computer\n✅ No subscription, no tracking, 100% free\n\n💻 Windows · Mac · Linux\nℹ️ The Mac app isn't signed by Apple, so it needs one Terminal command on first launch (steps are in the README).\n\nComment \"IPHONE\" and I'll DM you the link 🔗\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #iphone #ios #windows #macos #linux #freeapps #techtips",
+  "dm_pitch": "iDescriptor, the free open-source iMazing alternative 📱",
+  "thumb": {
+    "big": "FREE",
+    "line1": "iMazing",
+    "line2": "alternative"
+  },
+  "research_notes": "All from the README (v0.6.x; repo ~4.8k stars, AGPL, Rust + Qt, 233 forks, last push 2026-11-17). 1) Runs on Windows, macOS and Linux (MSI, portable zip, Choco; Intel + Apple Silicon DMG; AppImage, AUR, Flathub, Nix). 2) Connects over USB or wirelessly (wireless since v0.4.0). 3) Cable Info: checks authenticity of connected USB cables (shows Genuine vs Third-party, current limit, model; README itself notes it may not be an absolute guarantee). 4) Battery Information: health %, cycle count, max vs design capacity, adapter power. 5) AirPlay: cast the device screen to the computer (UxPlay based); Live Screen is for devices that do not support AirPlay. 6) Wireless Gallery Import: import photos wirelessly, requires the Shortcuts app on the iPhone. 7) Gallery: see albums/photos like the Photos app. 8) File Explorer + iFuse Filesystem Mount (use the iPhone as a regular drive; read and write; Windows and Linux only; not for photo import). 9) Download and install apps from the App Store (needs Apple ID sign-in). 10) Virtual Location (simulate GPS); SSH terminal (jailbroken only); Network Device Discovery; Query MobileGestalt. 11) Privacy: README says it does not collect, store, transmit or sell personal data or telemetry. EXPERIMENTAL: Device Backups (iOS 13-26). Roadmap-only (not available): install IPA files, sideloading, import music, CLI. Catch: macOS build is not signed with an Apple Developer ID, needs `xattr -c ~/Applications/iDescriptor.app`. README warns to only download from idescriptor.github.io or this repo's Releases (fake sites exist).",
+  "beats": [
+    {
+      "say": "There's a free app that runs your whole iPhone from your computer, and nobody talks about it.",
+      "scene": "slam",
+      "text": "iMazing? Pointless.",
+      "accent": "Pointless",
+      "tone": "neg",
+      "mood": "smug",
+      "select": "free"
+    },
+    {
+      "say": "Wait, it's actually free?",
+      "scene": "character",
+      "text": "Wait, it's free?! 😳",
+      "mood": "shock"
+    },
+    {
+      "say": "iMazing charges fifty bucks a year. This one costs nothing.",
+      "scene": "versus",
+      "mood": "point",
+      "accent": "fifty",
+      "select": "nothing"
+    },
+    {
+      "say": "Plug in your phone, and see every album and photo on your computer.",
+      "scene": "app",
+      "image": "https://raw.githubusercontent.com/iDescriptor/iDescriptor/main/resources/repo/gallery.png",
+      "text": "Your photos, on PC",
+      "mood": "excited",
+      "accent": "every",
+      "select": "album"
+    },
+    {
+      "say": "But here's the crazy part.",
+      "scene": "character",
+      "text": "The crazy part 👀",
+      "mood": "smug"
+    },
+    {
+      "say": "It shows your real battery health, and even catches fake cables.",
+      "scene": "app",
+      "image": "https://raw.githubusercontent.com/iDescriptor/iDescriptor/main/resources/repo/battery.png",
+      "text": "Battery health · 78%",
+      "mood": "excited",
+      "accent": "fake",
+      "select": "health"
+    },
+    {
+      "say": "It works on Windows, Mac and Linux.",
+      "scene": "list",
+      "text": "Runs everywhere",
+      "items": [
+        {
+          "label": "Windows",
+          "anchor": "windows"
+        },
+        {
+          "label": "Mac",
+          "anchor": "mac"
+        },
+        {
+          "label": "Linux",
+          "anchor": "linux"
+        }
+      ]
+    },
+    {
+      "say": "It's iMazing, minus the yearly bill, forever.",
+      "scene": "slam",
+      "text": "Yearly bill: $0",
+      "accent": "minus",
+      "mood": "smug"
+    },
+    {
+      "say": "Comment iPhone, and I'll send you the link.",
+      "scene": "cta",
+      "mood": "point"
+    }
+  ],
+  "hook_style": "story",
+  "window": "midday",
+  "publish": {
+    "date": "2026-11-23",
+    "time": "12:33"
+  }
+}

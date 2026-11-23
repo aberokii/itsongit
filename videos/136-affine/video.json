@@ -1,0 +1,124 @@
+{
+  "repo": "toeverything/AFFiNE",
+  "name": "AFFiNE",
+  "title": "AFFiNE: free Notion alternative with a whiteboard",
+  "slot": 2,
+  "keyword": "BOARD",
+  "paid": {
+    "name": "Notion Plus",
+    "price": "$10",
+    "per": "/month",
+    "anchor": "ten",
+    "source": "https://www.notion.com/pricing"
+  },
+  "icon": "https://raw.githubusercontent.com/toeverything/AFFiNE/canary/packages/frontend/apps/electron/resources/icons/icon_stable_512x512.png",
+  "job": "Notes and whiteboards in one",
+  "platforms": [
+    "Mac",
+    "Windows",
+    "Linux"
+  ],
+  "install": "brew install --cask affine",
+  "install_url": "https://affine.pro",
+  "caption": "Notion Plus costs $120/year. AFFiNE gives you docs and a whiteboard in one app, free 🎨\n\n✅ Write docs, then flip the same page into an edgeless whiteboard\n✅ Sticky notes, databases, shapes and slides on one canvas\n✅ Local-first: your notes live on your own disk\n✅ Unlimited local workspaces, no subscription\n\n💻 Mac · Windows · Linux\nℹ️ The desktop app and local workspaces are free, but AFFiNE also sells optional cloud plans and an AI add-on, and Notion's $120/year is Plus at $10/month billed yearly\n\nComment \"BOARD\" and I'll DM you the link 🔗\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #notion #whiteboard #productivity #notetaking #freeapps",
+  "dm_pitch": "AFFiNE, the free open-source Notion alternative with a built-in whiteboard 🎨",
+  "thumb": {
+    "big": "FREE",
+    "line1": "Notion",
+    "line2": "alternative"
+  },
+  "topic_arm": "subscription",
+  "format": "story",
+  "demo": {
+    "images": [
+      "https://raw.githubusercontent.com/toeverything/AFFiNE/canary/blocksuite/docs-site/images/affine-demo.jpg",
+      "https://raw.githubusercontent.com/toeverything/AFFiNE/canary/packages/frontend/core/public/imgs/screenshot1.png"
+    ]
+  },
+  "research_notes": "Verified facts (README, affine.pro, GitHub API, 2026-11-23). README tagline: 'Write, Draw and Plan All at Once'; 'A privacy-focused, local-first, open-source, and ready-to-use alternative for Notion & Miro'; 'Docs, canvas and tables are hyper-merged'. README: on the edgeless canvas you can put 'rich text, sticky notes, any embedded web pages, multi-view databases, linked pages, shapes and even slides'. README: 'Docs and whiteboard are now fully merged'. README: local-first, 'you always own your data on your disk'; real-time sync and collaboration on web and cross-platform clients. README: self-host with Docker; you can fork and build your own. README: AFFiNE AI can turn an outline into slides, summarize an article into a mindmap (AI is the paid add-on, $8.9/month billed annually per affine.pro/pricing; do not promise it free). Pricing page: 'Local FOSS + Cloud Basic' is Free with Unlimited Local Workspaces, Unlimited Doc and Edgeless editing, 10 GB cloud storage, up to 3 members per workspace; Pro $6.75/month (100 GB, 10 members); Team $10/seat/month. Platforms: GitHub releases ship macOS (arm64+x64 dmg), Windows (x64+arm64 exe), Linux (appimage, deb, flatpak); latest stable v0.27.4 (2026-08-18) had about 878k downloads; Homebrew cask 'affine' exists (v0.27.4, macOS 12+, desc 'Note editor and whiteboard'). README hero image lists macOS, iOS, Android, Windows, Linux, Web. Repo: about 77k stars, about 270 contributor pages (about 270 contributors), pushed today; affine.pro says 70K+ stars and 200K+ pro users. Notion Plus: $10 per member/month on notion.com/pricing (yearly toggle 'Save up to 20% with yearly'; page default is the yearly price, so $120/year). Miro cheapest paid (Starter): $8 /month per member, billed yearly (miro.com/pricing, fetched 2026-11-23). Possible script line: 'Notion plus Miro is eighteen bucks a month' (10+8, both billed yearly; only if main agent wants it, note Miro Starter is per member). License is NOASSERTION on GitHub: README says Community Edition is MIT and a future Enterprise Edition is proprietary; affine.pro says 'MIT editor, source-available backend'. Do not talk license in script.",
+  "beats": [
+    {
+      "say": "You're paying a hundred and twenty dollars a year for notes you could keep for free.",
+      "scene": "slam",
+      "text": "$120 a year",
+      "accent": "free",
+      "tone": "neg",
+      "mood": "shock"
+    },
+    {
+      "say": "For notes? Seriously?",
+      "scene": "character",
+      "text": "For notes?! 😩",
+      "mood": "worried"
+    },
+    {
+      "say": "Notion Plus is ten bucks a month. AFFiNE costs nothing.",
+      "scene": "versus",
+      "mood": "point",
+      "accent": "ten",
+      "select": "nothing"
+    },
+    {
+      "say": "Write a doc, then flip the same page into a giant whiteboard.",
+      "scene": "app",
+      "image": "https://raw.githubusercontent.com/toeverything/AFFiNE/canary/packages/frontend/core/public/imgs/screenshot1.png",
+      "text": "Doc → whiteboard",
+      "mood": "excited",
+      "accent": "flip",
+      "select": "whiteboard"
+    },
+    {
+      "say": "And it gets better.",
+      "scene": "character",
+      "text": "It gets better 👀",
+      "mood": "smug"
+    },
+    {
+      "say": "Drop sticky notes, tables and even slides right onto the canvas.",
+      "scene": "app",
+      "image": "https://raw.githubusercontent.com/toeverything/AFFiNE/canary/blocksuite/docs-site/images/affine-demo.jpg",
+      "text": "Notes · tables · slides",
+      "mood": "excited",
+      "accent": "slides",
+      "select": "sticky"
+    },
+    {
+      "say": "Your notes stay on your own disk, on Mac, Windows or Linux.",
+      "scene": "list",
+      "text": "Yours, offline",
+      "items": [
+        {
+          "label": "Mac",
+          "anchor": "mac"
+        },
+        {
+          "label": "Windows",
+          "anchor": "windows"
+        },
+        {
+          "label": "Linux",
+          "anchor": "linux"
+        }
+      ],
+      "select": "disk"
+    },
+    {
+      "say": "It's Notion and Miro in one app, minus the bill.",
+      "scene": "slam",
+      "text": "Notion + Miro: $0",
+      "accent": "minus",
+      "mood": "smug"
+    },
+    {
+      "say": "Comment Board, and I'll send you the link.",
+      "scene": "cta",
+      "mood": "point"
+    }
+  ],
+  "hook_style": "story",
+  "window": "night",
+  "publish": {
+    "date": "2026-11-23",
+    "time": "21:09"
+  }
+}

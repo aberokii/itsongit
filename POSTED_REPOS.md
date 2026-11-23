@@ -33,9 +33,9 @@ The scout (`pipeline/scout.py`) skips these automatically via `data/posted.json`
 | 26 | [hoppscotch/hoppscotch](https://github.com/hoppscotch/hoppscotch) | 026-hoppscotch | TEST | scheduled | 2026-10-23T12:44 |  |
 | 27 | [ARahim3/DigUp](https://github.com/ARahim3/DigUp) | 027-digup | SEARCH | scheduled | 2026-10-23T20:54 |  |
 | 28 | [rustdesk/rustdesk](https://github.com/rustdesk/rustdesk) | 028-rustdesk | REMOTE | scheduled | 2026-10-23T17:39 |  |
-| 29 | [flectar/mail](https://github.com/flectar/mail) | 029-flectar | MAIL | published | 2026-10-24T09:53 | https://www.instagram.com/reel/De32uMskyf2/ |
-| 30 | [ace-step/ACE-Step-1.5](https://github.com/ace-step/ACE-Step-1.5) | 030-acestep | SONG | published | 2026-10-24T11:19 | https://www.instagram.com/reel/De4AjD2kRwP/ |
-| 31 | [duongductrong/Snapzy](https://github.com/duongductrong/Snapzy) | 031-snapzy | SHOT | published | 2026-10-24T12:42 | https://www.instagram.com/reel/De4KDCdkbwu/ |
+| 29 | [flectar/mail](https://github.com/flectar/mail) | 029-flectar | MAIL | scheduled | 2026-10-24T09:52 |  |
+| 30 | [ace-step/ACE-Step-1.5](https://github.com/ace-step/ACE-Step-1.5) | 030-acestep | SONG | scheduled | 2026-10-24T11:17 |  |
+| 31 | [duongductrong/Snapzy](https://github.com/duongductrong/Snapzy) | 031-snapzy | SHOT | scheduled | 2026-10-24T12:41 |  |
 | 32 | [plainhub/plain-app](https://github.com/plainhub/plain-app) | 032-plainapp | PHONE | published | 2026-10-24T16:24 | https://www.instagram.com/reel/De4jaB7gfu0/ |
 | 33 | [excalidraw/excalidraw](https://github.com/excalidraw/excalidraw) | 033-excalidraw | DRAW | published | 2026-10-24T18:39 | https://www.instagram.com/reel/De4y6dhjusR/ |
 | 34 | [ONLYOFFICE/DesktopEditors](https://github.com/ONLYOFFICE/DesktopEditors) | 034-onlyoffice | OFFICE | published | 2026-10-25T10:20 | https://www.instagram.com/reel/De6elyzFF74/ |
@@ -132,6 +132,9 @@ The scout (`pipeline/scout.py`) skips these automatically via `data/posted.json`
 | 125 | [invoke-ai/InvokeAI](https://github.com/invoke-ai/InvokeAI) | 128-invokeai | PROMPT | published | 2026-11-21T10:06 | https://www.instagram.com/reel/Df_-c4iDuXq/ |
 | 126 | [bitwarden/clients](https://github.com/bitwarden/clients) | 129-bitwarden | VAULT | published | 2026-11-21T17:24 | https://www.instagram.com/reel/DgAwfe5iEvv/ |
 | 127 | [rxhanson/Rectangle](https://github.com/rxhanson/Rectangle) | 130-rectangle | SNAP | published | 2026-11-21T20:58 | https://www.instagram.com/reel/DgBJD_qjHI-/ |
-| 128 | [anomalyco/hex](https://github.com/anomalyco/hex) | 131-hex | VOICE | scheduled | 2026-11-22T10:37 |  |
-| 129 | [anefzaoui/misterdownloadmanager](https://github.com/anefzaoui/misterdownloadmanager) | 132-misterdm | SPEED | scheduled | 2026-11-22T18:29 |  |
-| 130 | [yairm210/Unciv](https://github.com/yairm210/Unciv) | 133-unciv | EMPIRE | scheduled | 2026-11-22T20:59 |  |
+| 128 | [anomalyco/hex](https://github.com/anomalyco/hex) | 131-hex | VOICE | published | 2026-11-22T10:38 | https://www.instagram.com/reel/DgCm4n-GXxz/ |
+| 129 | [anefzaoui/misterdownloadmanager](https://github.com/anefzaoui/misterdownloadmanager) | 132-misterdm | SPEED | published | 2026-11-22T18:30 | https://www.instagram.com/reel/DgDc60AAJtf/ |
+| 130 | [yairm210/Unciv](https://github.com/yairm210/Unciv) | 133-unciv | EMPIRE | published | 2026-11-22T21:00 | https://www.instagram.com/reel/DgDuFuzkhf9/ |
+| 131 | [iDescriptor/iDescriptor](https://github.com/iDescriptor/iDescriptor) | 134-idescriptor | IPHONE | scheduled | 2026-11-23T11:33 |  |
+| 132 | [CyberTimon/RapidRAW](https://github.com/CyberTimon/RapidRAW) | 135-rapidraw | RAW | scheduled | 2026-11-23T17:11 |  |
+| 133 | [toeverything/AFFiNE](https://github.com/toeverything/AFFiNE) | 136-affine | BOARD | scheduled | 2026-11-23T20:09 |  |

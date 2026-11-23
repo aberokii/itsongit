@@ -1,0 +1,115 @@
+{
+  "repo": "CyberTimon/RapidRAW",
+  "name": "RapidRAW",
+  "title": "RapidRAW: free Lightroom alternative",
+  "slot": 1,
+  "keyword": "RAW",
+  "topic_arm": "hobby",
+  "paid": {
+    "name": "Lightroom",
+    "price": "$11.99",
+    "per": "/month",
+    "anchor": "twelve",
+    "source": "https://www.adobe.com/creativecloud/plans.html"
+  },
+  "icon": "https://raw.githubusercontent.com/CyberTimon/RapidRAW/main/src-tauri/icons/full_res_original.png",
+  "hook": "Lightroom charges you twelve bucks a month to edit your raw photos. This app does it for free.",
+  "job": "Edits your raw photos",
+  "platforms": [
+    "Mac",
+    "Windows",
+    "Linux",
+    "Android"
+  ],
+  "demo": {
+    "url": "https://raw.githubusercontent.com/CyberTimon/RapidRAW/assets/.github/assets/inpainting.gif",
+    "start": 0
+  },
+  "features": [
+    {
+      "say": "Sliders, curves and color tools fix your light, and your originals stay untouched.",
+      "images": [
+        "https://raw.githubusercontent.com/CyberTimon/RapidRAW/assets/.github/assets/editor.jpg",
+        "https://raw.githubusercontent.com/CyberTimon/RapidRAW/assets/.github/assets/editor_view.jpg"
+      ],
+      "swap_anchor": "originals",
+      "chips": [
+        {
+          "label": "🎚 Sliders",
+          "anchor": "sliders"
+        },
+        {
+          "label": "📈 Curves",
+          "anchor": "curves"
+        },
+        {
+          "label": "🔒 Originals safe",
+          "anchor": "originals"
+        }
+      ]
+    },
+    {
+      "say": "Brush over a person or a speck of dust, and AI removes it, all on your own computer.",
+      "images": [
+        "assets/inpaint1.png",
+        "assets/inpaint2.png"
+      ],
+      "swap_anchor": "dust",
+      "chips": [
+        {
+          "label": "🧽 Remove things",
+          "anchor": "removes"
+        },
+        {
+          "label": "🖥 On your computer",
+          "anchor": "computer"
+        }
+      ]
+    },
+    {
+      "say": "It opens raw files from Canon, Nikon and Sony, and exports JPEG or TIFF.",
+      "images": [
+        "https://raw.githubusercontent.com/CyberTimon/RapidRAW/assets/.github/assets/library_view.jpg"
+      ],
+      "chips": [
+        {
+          "label": "📷 Raw files",
+          "anchor": "raw"
+        },
+        {
+          "label": "JPEG",
+          "anchor": "jpeg"
+        }
+      ]
+    }
+  ],
+  "nolist": [
+    {
+      "say": "No subscription.",
+      "label": "Subscription"
+    },
+    {
+      "say": "No uploads.",
+      "label": "Uploads"
+    },
+    {
+      "say": "No paywall.",
+      "label": "Paywall"
+    }
+  ],
+  "install": "Download from GitHub Releases",
+  "install_url": "https://getrapidraw.com",
+  "caption": "Lightroom charges $11.99/month to edit your raw photos. RapidRAW does it for free 📸\n\n✅ Edit raw photos with sliders, curves and color tools\n✅ Non-destructive: your original files stay untouched\n✅ Brush over people or dust and AI removes them, running on your own computer\n✅ Opens raw files from Canon, Nikon, Sony and more, exports JPEG or TIFF\n✅ No subscription, no uploads, no paywall\n\n💻 Mac · Windows · Linux · Android\nℹ️ The editor and its AI tools run free on your own computer; there's an optional paid cloud add-on for heavier AI fills. A dedicated GPU and 16GB of RAM are recommended\n\nComment \"RAW\" and I'll DM you the link 🔗\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #photography #photoediting #lightroom #rawphotos #freeapps #techtips",
+  "dm_pitch": "RapidRAW, the free open-source Lightroom alternative 📸",
+  "thumb": {
+    "big": "FREE",
+    "line1": "Lightroom",
+    "line2": "alternative"
+  },
+  "hook_style": "price",
+  "window": "evening",
+  "publish": {
+    "date": "2026-11-23",
+    "time": "18:11"
+  }
+}
