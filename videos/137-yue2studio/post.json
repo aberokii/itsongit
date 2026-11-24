@@ -1,0 +1,29 @@
+{
+  "title": "YuE2 Studio: free Suno alternative",
+  "video": "FINAL.mp4",
+  "thumbnail": "FINAL_thumbnail.png",
+  "repo_url": "https://github.com/timoncool/YuE2-Studio",
+  "keyword": "SONG",
+  "caption": "Suno charges $10/month to make songs with vocals. YuE2 Studio does it for free \ud83c\udfb5\n\n\u2705 Write lyrics, pick a style, get a full song with vocals made on your own computer\n\u2705 Editable sheet music: change the notes, tempo or key and render another take\n\u2705 Covers: pick a recording and it sings the melody in a new style\n\u2705 No subscription, no credits, 100% free\n\n\ud83d\udcbb Windows\n\u2139\ufe0f It needs a Windows 10/11 PC with a GPU with 6 GB of VRAM or more (NVIDIA recommended; AMD and Intel are experimental), and a few GB of model downloads on first run. Suno's $10/month is the Pro plan billed monthly\n\nComment \"SONG\" and I'll DM you the link \ud83d\udd17\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #suno #aimusic #songwriting #musicproduction #freeapps #techtips",
+  "dm_pitch": "YuE2 Studio, the free open-source Suno alternative \ud83c\udfb5",
+  "install": "Download from GitHub Releases",
+  "dm_on_any_comment": true,
+  "follow_gate": true,
+  "slot": 0,
+  "price_source": "https://suno.com/pricing",
+  "experiment": {
+    "format": "classic",
+    "hook": "demo",
+    "topic": "hobby",
+    "window": "midday"
+  },
+  "idempotencyKey": "4d35f90d-ba20-4553-8fe9-bb19241c764c",
+  "zernio": {
+    "postId": "6b05514d73785d152d767ff5",
+    "status": "scheduled",
+    "scheduledFor": "2026-11-24T11:06:00.000Z",
+    "url": null,
+    "automationId": "6b0551502d8cbb46c9c980c4",
+    "slot": 0
+  }
+}

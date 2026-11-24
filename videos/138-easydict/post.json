@@ -1,0 +1,29 @@
+{
+  "title": "Easydict: free DeepL alternative for Mac",
+  "video": "FINAL.mp4",
+  "thumbnail": "FINAL_thumbnail.png",
+  "repo_url": "https://github.com/tisfeng/Easydict",
+  "keyword": "TRANSLATE",
+  "caption": "DeepL Pro charges \u20ac7.49/month to translate text. Easydict does it for free on your Mac \ud83c\udf0d\n\n\u2705 Select text, press a shortcut, get the translation instantly\n\u2705 Screenshot anything on screen and translate the text in it\n\u2705 Compares Google, Bing, DeepL and Apple Translate side by side\n\u2705 Auto-detects the language, 52 languages to pick from\n\n\ud83d\udcbb Mac (macOS 13+)\n\u2139\ufe0f Google, Bing, DeepL and Apple Translate work out of the box with no API key, but AI services like OpenAI, Gemini and Claude need your own API key. DeepL's \u20ac7.49/month is the Individual plan billed yearly, and the web-style DeepL inside Easydict isn't the same as a paid Pro account\n\nComment \"TRANSLATE\" and I'll DM you the link \ud83d\udd17\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #macos #translation #languagelearning #productivity #freeapps",
+  "dm_pitch": "Easydict, the free open-source DeepL alternative for Mac \ud83c\udf0d",
+  "install": "brew install --cask easydict",
+  "dm_on_any_comment": true,
+  "follow_gate": true,
+  "slot": 1,
+  "price_source": "https://www.deepl.com/en/pro",
+  "experiment": {
+    "format": "story",
+    "hook": "story",
+    "topic": "subscription",
+    "window": "evening"
+  },
+  "idempotencyKey": "7eb8a409-905b-43a0-b12d-ffa845f08951",
+  "zernio": {
+    "postId": "6b0553beef53d71643a6094a",
+    "status": "scheduled",
+    "scheduledFor": "2026-11-24T17:12:00.000Z",
+    "url": null,
+    "automationId": "6b0553c02989a7d88f381510",
+    "slot": 1
+  }
+}

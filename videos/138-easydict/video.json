@@ -1,0 +1,117 @@
+{
+  "repo": "tisfeng/Easydict",
+  "name": "Easydict",
+  "title": "Easydict: free DeepL alternative for Mac",
+  "slot": 1,
+  "keyword": "TRANSLATE",
+  "paid": {
+    "name": "DeepL Pro",
+    "price": "€7.49",
+    "per": "/month",
+    "anchor": "seven",
+    "source": "https://www.deepl.com/en/pro"
+  },
+  "icon": "https://raw.githubusercontent.com/tisfeng/Easydict/dev/Easydict/App/Assets.xcassets/white-black-icon.appiconset/icon_512x512@2x.png",
+  "job": "Translates anything you select",
+  "platforms": [
+    "Mac"
+  ],
+  "install": "brew install --cask easydict",
+  "caption": "DeepL Pro charges €7.49/month to translate text. Easydict does it for free on your Mac 🌍\n\n✅ Select text, press a shortcut, get the translation instantly\n✅ Screenshot anything on screen and translate the text in it\n✅ Compares Google, Bing, DeepL and Apple Translate side by side\n✅ Auto-detects the language, 52 languages to pick from\n\n💻 Mac (macOS 13+)\nℹ️ Google, Bing, DeepL and Apple Translate work out of the box with no API key, but AI services like OpenAI, Gemini and Claude need your own API key. DeepL's €7.49/month is the Individual plan billed yearly, and the web-style DeepL inside Easydict isn't the same as a paid Pro account\n\nComment \"TRANSLATE\" and I'll DM you the link 🔗\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #macos #translation #languagelearning #productivity #freeapps",
+  "dm_pitch": "Easydict, the free open-source DeepL alternative for Mac 🌍",
+  "thumb": {
+    "big": "FREE",
+    "line1": "DeepL",
+    "line2": "alternative"
+  },
+  "topic_arm": "subscription",
+  "format": "story",
+  "demo": {
+    "url": "https://raw.githubusercontent.com/tisfeng/ImageBed/main/uPic/iShot_2023-01-20_11.24.37-1674185125.gif",
+    "start": 1
+  },
+  "beats": [
+    {
+      "say": "You might be paying ninety euros a year for something your Mac can do for free.",
+      "scene": "slam",
+      "text": "€90 a year",
+      "accent": "free",
+      "tone": "neg",
+      "mood": "shock"
+    },
+    {
+      "say": "Wait, for real?",
+      "scene": "character",
+      "text": "Wait, for real?! 🤯",
+      "mood": "shock"
+    },
+    {
+      "say": "DeepL Pro costs seven forty nine a month. Easydict costs nothing.",
+      "scene": "versus",
+      "mood": "point",
+      "select": "nothing"
+    },
+    {
+      "say": "Select any text, hit one shortcut, and the translation pops up right there.",
+      "scene": "app",
+      "image": "assets/select.png",
+      "text": "Select → translated",
+      "mood": "excited",
+      "accent": "one",
+      "select": "shortcut"
+    },
+    {
+      "say": "And it gets better.",
+      "scene": "character",
+      "text": "It gets better 👀",
+      "mood": "excited"
+    },
+    {
+      "say": "Screenshot anything on your screen, and it translates the text inside.",
+      "scene": "app",
+      "image": "assets/ocr.png",
+      "text": "Screenshot translate",
+      "mood": "smug",
+      "select": "inside"
+    },
+    {
+      "say": "It puts Google, DeepL and Apple Translate side by side.",
+      "scene": "list",
+      "text": "All at once",
+      "items": [
+        {
+          "label": "Google",
+          "anchor": "google"
+        },
+        {
+          "label": "DeepL",
+          "anchor": "deepl"
+        },
+        {
+          "label": "Apple Translate",
+          "anchor": "apple"
+        }
+      ],
+      "accent": "side"
+    },
+    {
+      "say": "It's DeepL Pro, minus the subscription, forever.",
+      "scene": "slam",
+      "text": "Subscription: €0",
+      "accent": "€0",
+      "mood": "smug",
+      "select": "forever"
+    },
+    {
+      "say": "Comment Translate, and I'll send you the link.",
+      "scene": "cta",
+      "mood": "point"
+    }
+  ],
+  "hook_style": "story",
+  "window": "evening",
+  "publish": {
+    "date": "2026-11-24",
+    "time": "18:12"
+  }
+}

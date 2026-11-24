@@ -1,0 +1,107 @@
+{
+  "repo": "timoncool/YuE2-Studio",
+  "name": "YuE2 Studio",
+  "name_line": "It's called Yue Two Studio.",
+  "title": "YuE2 Studio: free Suno alternative",
+  "slot": 0,
+  "keyword": "SONG",
+  "topic_arm": "hobby",
+  "paid": {
+    "name": "Suno",
+    "price": "$10",
+    "per": "/month",
+    "anchor": "ten",
+    "source": "https://suno.com/pricing"
+  },
+  "icon": "https://raw.githubusercontent.com/timoncool/YuE2-Studio/main/docs/logo.png",
+  "hook": "Suno charges you ten bucks a month to make songs with vocals. This app does it for free.",
+  "job": "Makes full songs from lyrics",
+  "platforms": [
+    "Windows"
+  ],
+  "demo": {
+    "images": [
+      "https://raw.githubusercontent.com/timoncool/YuE2-Studio/main/docs/screenshots/en-01-create.png",
+      "https://raw.githubusercontent.com/timoncool/YuE2-Studio/main/docs/screenshots/en-02-score.png"
+    ]
+  },
+  "features": [
+    {
+      "say": "Write lyrics, pick a style, and it sings a full song on your own computer.",
+      "images": [
+        "https://raw.githubusercontent.com/timoncool/YuE2-Studio/main/docs/screenshots/en-01-create.png",
+        "https://raw.githubusercontent.com/timoncool/YuE2-Studio/main/docs/screenshots/en-13-listen.png"
+      ],
+      "swap_anchor": "computer",
+      "chips": [
+        {
+          "label": "✍️ Your lyrics",
+          "anchor": "lyrics"
+        },
+        {
+          "label": "🖥 On your computer",
+          "anchor": "computer"
+        }
+      ]
+    },
+    {
+      "say": "It writes sheet music too, so you can edit the notes and make it again.",
+      "images": [
+        "https://raw.githubusercontent.com/timoncool/YuE2-Studio/main/docs/screenshots/en-02-score.png",
+        "https://raw.githubusercontent.com/timoncool/YuE2-Studio/main/docs/screenshots/en-16-midi-editor.png"
+      ],
+      "swap_anchor": "notes",
+      "chips": [
+        {
+          "label": "🎼 Sheet music",
+          "anchor": "sheet"
+        },
+        {
+          "label": "✏️ Editable",
+          "anchor": "edit"
+        }
+      ]
+    },
+    {
+      "say": "Pick a recording, and it sings a cover of the melody in a new style.",
+      "images": [
+        "https://raw.githubusercontent.com/timoncool/YuE2-Studio/main/docs/screenshots/en-04-cover.png"
+      ],
+      "chips": [
+        {
+          "label": "🎤 Covers",
+          "anchor": "cover"
+        }
+      ]
+    }
+  ],
+  "nolist": [
+    {
+      "say": "No subscription.",
+      "label": "Subscription"
+    },
+    {
+      "say": "No credits.",
+      "label": "Credits"
+    },
+    {
+      "say": "No cloud.",
+      "label": "Cloud"
+    }
+  ],
+  "install": "Download from GitHub Releases",
+  "install_url": "https://timoncool.github.io/YuE2-Studio/",
+  "caption": "Suno charges $10/month to make songs with vocals. YuE2 Studio does it for free 🎵\n\n✅ Write lyrics, pick a style, get a full song with vocals made on your own computer\n✅ Editable sheet music: change the notes, tempo or key and render another take\n✅ Covers: pick a recording and it sings the melody in a new style\n✅ No subscription, no credits, 100% free\n\n💻 Windows\nℹ️ It needs a Windows 10/11 PC with a GPU with 6 GB of VRAM or more (NVIDIA recommended; AMD and Intel are experimental), and a few GB of model downloads on first run. Suno's $10/month is the Pro plan billed monthly\n\nComment \"SONG\" and I'll DM you the link 🔗\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #suno #aimusic #songwriting #musicproduction #freeapps #techtips",
+  "dm_pitch": "YuE2 Studio, the free open-source Suno alternative 🎵",
+  "thumb": {
+    "big": "FREE",
+    "line1": "Suno",
+    "line2": "alternative"
+  },
+  "hook_style": "demo",
+  "window": "midday",
+  "publish": {
+    "date": "2026-11-24",
+    "time": "12:06"
+  }
+}

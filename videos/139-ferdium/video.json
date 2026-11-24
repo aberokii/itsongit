@@ -1,0 +1,113 @@
+{
+  "repo": "ferdium/ferdium-app",
+  "name": "Ferdium",
+  "title": "Ferdium: free Franz alternative",
+  "slot": 2,
+  "keyword": "CHATS",
+  "paid": {
+    "name": "Franz Pro",
+    "price": "$60",
+    "per": "/year",
+    "anchor": "sixty",
+    "source": "https://www.meetfranz.com/pricing"
+  },
+  "icon": "https://raw.githubusercontent.com/ferdium/ferdium-app/develop/build-helpers/images/icon.png",
+  "hook": "Franz Pro charges you sixty bucks a year to put all your chats in one app. This app does it for free.",
+  "job": "Puts all your chats in one app",
+  "platforms": [
+    "Mac",
+    "Windows",
+    "Linux"
+  ],
+  "features": [
+    {
+      "say": "Add WhatsApp, Telegram, Discord or Gmail from one list.",
+      "images": [
+        "https://raw.githubusercontent.com/ferdium/ferdium-app/develop/branding/screenshots/service-store.png"
+      ],
+      "chips": [
+        {
+          "label": "WhatsApp",
+          "anchor": "whatsapp"
+        },
+        {
+          "label": "Telegram",
+          "anchor": "telegram"
+        },
+        {
+          "label": "Discord",
+          "anchor": "discord"
+        },
+        {
+          "label": "Gmail",
+          "anchor": "gmail"
+        }
+      ]
+    },
+    {
+      "say": "Add one service twice to use two accounts.",
+      "images": [
+        "https://raw.githubusercontent.com/ferdium/ferdium-app/develop/branding/screenshots/application.png"
+      ],
+      "chips": [
+        {
+          "label": "👥 Two accounts",
+          "anchor": "accounts"
+        }
+      ]
+    },
+    {
+      "say": "Workspaces split work from home, and a Todo list stays open beside your chats.",
+      "images": [
+        "https://raw.githubusercontent.com/ferdium/ferdium-app/develop/branding/screenshots/workspaces.png",
+        "https://raw.githubusercontent.com/ferdium/ferdium-app/develop/branding/screenshots/todos.png"
+      ],
+      "swap_anchor": "todo",
+      "chips": [
+        {
+          "label": "🗂 Workspaces",
+          "anchor": "workspaces"
+        },
+        {
+          "label": "✅ Todo list",
+          "anchor": "todo"
+        }
+      ]
+    }
+  ],
+  "nolist": [
+    {
+      "say": "No subscription.",
+      "label": "Subscription"
+    },
+    {
+      "say": "No account.",
+      "label": "Account"
+    },
+    {
+      "say": "No tab hunting.",
+      "label": "Tab hunting"
+    }
+  ],
+  "install": "brew install --cask ferdium",
+  "caption": "Franz Pro charges $60/year to put all your chats in one app. Ferdium does it for free 💬\n\n✅ Add WhatsApp, Telegram, Discord, Gmail and more from one list\n✅ Add the same service twice to log into two accounts\n✅ Workspaces split work from home\n✅ A Todo list that stays open beside your chats\n\n💻 Mac · Windows · Linux\nℹ️ Ferdium is free with no service limit. Franz's free plan stops at 3 services, and its paid plans add extras like AI tools that Ferdium doesn't list\n\nComment \"CHATS\" and I'll DM you the link 🔗\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #productivity #whatsapp #freeapps #techtips #apps",
+  "dm_pitch": "Ferdium, the free open-source Franz alternative 💬",
+  "thumb": {
+    "big": "FREE",
+    "line1": "Franz",
+    "line2": "alternative"
+  },
+  "topic_arm": "utility",
+  "demo": {
+    "images": [
+      "https://raw.githubusercontent.com/ferdium/ferdium-app/develop/branding/screenshots/service-store.png",
+      "https://raw.githubusercontent.com/ferdium/ferdium-app/develop/branding/screenshots/workspaces.png"
+    ]
+  },
+  "hook_style": "price",
+  "window": "night",
+  "publish": {
+    "date": "2026-11-24",
+    "time": "22:29"
+  }
+}

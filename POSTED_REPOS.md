@@ -36,9 +36,9 @@ The scout (`pipeline/scout.py`) skips these automatically via `data/posted.json`
 | 29 | [flectar/mail](https://github.com/flectar/mail) | 029-flectar | MAIL | scheduled | 2026-10-24T09:52 |  |
 | 30 | [ace-step/ACE-Step-1.5](https://github.com/ace-step/ACE-Step-1.5) | 030-acestep | SONG | scheduled | 2026-10-24T11:17 |  |
 | 31 | [duongductrong/Snapzy](https://github.com/duongductrong/Snapzy) | 031-snapzy | SHOT | scheduled | 2026-10-24T12:41 |  |
-| 32 | [plainhub/plain-app](https://github.com/plainhub/plain-app) | 032-plainapp | PHONE | published | 2026-10-24T16:24 | https://www.instagram.com/reel/De4jaB7gfu0/ |
-| 33 | [excalidraw/excalidraw](https://github.com/excalidraw/excalidraw) | 033-excalidraw | DRAW | published | 2026-10-24T18:39 | https://www.instagram.com/reel/De4y6dhjusR/ |
-| 34 | [ONLYOFFICE/DesktopEditors](https://github.com/ONLYOFFICE/DesktopEditors) | 034-onlyoffice | OFFICE | published | 2026-10-25T10:20 | https://www.instagram.com/reel/De6elyzFF74/ |
+| 32 | [plainhub/plain-app](https://github.com/plainhub/plain-app) | 032-plainapp | PHONE | scheduled | 2026-10-24T16:22 |  |
+| 33 | [excalidraw/excalidraw](https://github.com/excalidraw/excalidraw) | 033-excalidraw | DRAW | scheduled | 2026-10-24T18:38 |  |
+| 34 | [ONLYOFFICE/DesktopEditors](https://github.com/ONLYOFFICE/DesktopEditors) | 034-onlyoffice | OFFICE | scheduled | 2026-10-25T10:19 |  |
 | 35 | [upscayl/upscayl](https://github.com/upscayl/upscayl) | 035-upscayl | UPSCALE | published | 2026-10-25T11:53 | https://www.instagram.com/reel/De6pPX0kZ-t/ |
 | 36 | [audacity/audacity](https://github.com/audacity/audacity) | 036-audacity | AUDIO | published | 2026-10-25T13:18 | https://www.instagram.com/reel/De6y96wkQje/ |
 | 37 | [Automattic/harper](https://github.com/Automattic/harper) | 037-harper | GRAMMAR | published | 2026-10-25T17:28 | https://www.instagram.com/reel/De7PpXUjqNn/ |
@@ -135,6 +135,9 @@ The scout (`pipeline/scout.py`) skips these automatically via `data/posted.json`
 | 128 | [anomalyco/hex](https://github.com/anomalyco/hex) | 131-hex | VOICE | published | 2026-11-22T10:38 | https://www.instagram.com/reel/DgCm4n-GXxz/ |
 | 129 | [anefzaoui/misterdownloadmanager](https://github.com/anefzaoui/misterdownloadmanager) | 132-misterdm | SPEED | published | 2026-11-22T18:30 | https://www.instagram.com/reel/DgDc60AAJtf/ |
 | 130 | [yairm210/Unciv](https://github.com/yairm210/Unciv) | 133-unciv | EMPIRE | published | 2026-11-22T21:00 | https://www.instagram.com/reel/DgDuFuzkhf9/ |
-| 131 | [iDescriptor/iDescriptor](https://github.com/iDescriptor/iDescriptor) | 134-idescriptor | IPHONE | scheduled | 2026-11-23T11:33 |  |
-| 132 | [CyberTimon/RapidRAW](https://github.com/CyberTimon/RapidRAW) | 135-rapidraw | RAW | scheduled | 2026-11-23T17:11 |  |
-| 133 | [toeverything/AFFiNE](https://github.com/toeverything/AFFiNE) | 136-affine | BOARD | scheduled | 2026-11-23T20:09 |  |
+| 131 | [iDescriptor/iDescriptor](https://github.com/iDescriptor/iDescriptor) | 134-idescriptor | IPHONE | published | 2026-11-23T11:34 | https://www.instagram.com/reel/DgFSG5oFdUt/ |
+| 132 | [CyberTimon/RapidRAW](https://github.com/CyberTimon/RapidRAW) | 135-rapidraw | RAW | published | 2026-11-23T17:12 | https://www.instagram.com/reel/DgF4zI-lDZY/ |
+| 133 | [toeverything/AFFiNE](https://github.com/toeverything/AFFiNE) | 136-affine | BOARD | published | 2026-11-23T20:10 | https://www.instagram.com/reel/DgGNK_Bkgr5/ |
+| 134 | [timoncool/YuE2-Studio](https://github.com/timoncool/YuE2-Studio) | 137-yue2studio | SONG | scheduled | 2026-11-24T11:06 |  |
+| 135 | [tisfeng/Easydict](https://github.com/tisfeng/Easydict) | 138-easydict | TRANSLATE | scheduled | 2026-11-24T17:12 |  |
+| 136 | [ferdium/ferdium-app](https://github.com/ferdium/ferdium-app) | 139-ferdium | CHATS | scheduled | 2026-11-24T21:29 |  |

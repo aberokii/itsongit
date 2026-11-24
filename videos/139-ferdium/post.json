@@ -1,0 +1,29 @@
+{
+  "title": "Ferdium: free Franz alternative",
+  "video": "FINAL.mp4",
+  "thumbnail": "FINAL_thumbnail.png",
+  "repo_url": "https://github.com/ferdium/ferdium-app",
+  "keyword": "CHATS",
+  "caption": "Franz Pro charges $60/year to put all your chats in one app. Ferdium does it for free \ud83d\udcac\n\n\u2705 Add WhatsApp, Telegram, Discord, Gmail and more from one list\n\u2705 Add the same service twice to log into two accounts\n\u2705 Workspaces split work from home\n\u2705 A Todo list that stays open beside your chats\n\n\ud83d\udcbb Mac \u00b7 Windows \u00b7 Linux\n\u2139\ufe0f Ferdium is free with no service limit. Franz's free plan stops at 3 services, and its paid plans add extras like AI tools that Ferdium doesn't list\n\nComment \"CHATS\" and I'll DM you the link \ud83d\udd17\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #productivity #whatsapp #freeapps #techtips #apps",
+  "dm_pitch": "Ferdium, the free open-source Franz alternative \ud83d\udcac",
+  "install": "brew install --cask ferdium",
+  "dm_on_any_comment": true,
+  "follow_gate": true,
+  "slot": 2,
+  "price_source": "https://www.meetfranz.com/pricing",
+  "experiment": {
+    "format": "classic",
+    "hook": "price",
+    "topic": "utility",
+    "window": "night"
+  },
+  "idempotencyKey": "24db8096-a1f6-4595-803a-51e4cd8b9f7d",
+  "zernio": {
+    "postId": "6b0557455bc94d1f239151dc",
+    "status": "scheduled",
+    "scheduledFor": "2026-11-24T21:29:00.000Z",
+    "url": null,
+    "automationId": "6b0557473f45e15f23a03302",
+    "slot": 2
+  }
+}
