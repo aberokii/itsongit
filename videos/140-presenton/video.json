@@ -1,0 +1,116 @@
+{
+  "repo": "presenton/presenton",
+  "name": "Presenton",
+  "title": "Presenton: free Gamma alternative",
+  "slot": 0,
+  "keyword": "DECK",
+  "paid": {
+    "name": "Gamma",
+    "price": "$9",
+    "per": "/month",
+    "anchor": "nine",
+    "source": "https://gamma.app/pricing"
+  },
+  "icon": "https://raw.githubusercontent.com/presenton/presenton/main/electron/build/icon-1024.png",
+  "job": "Turns any topic into slides",
+  "platforms": [
+    "Mac",
+    "Windows",
+    "Linux"
+  ],
+  "install": "Download from GitHub Releases",
+  "install_url": "https://presenton.ai/download",
+  "caption": "Gamma charges $9/month to make AI slide decks. Presenton does it for free on your computer 📊\n\n✅ Make a deck from a prompt or an uploaded document\n✅ Drag-and-drop editing, then export to PowerPoint (PPTX) or PDF\n✅ Built-in templates for pitch decks, reports and more\n✅ Works with Ollama, OpenAI, Gemini, Anthropic and more\n\n💻 Mac · Windows · Linux\nℹ️ It's in beta and the newest builds are Mac and Linux (Windows is on an older version). The app is free, but the AI that writes your slides isn't built in. You sign in with a ChatGPT account, add your own API key, or run a local model with Ollama. Gamma's $9/month is the Plus plan billed yearly ($12 if billed monthly)\n\nComment \"DECK\" and I'll DM you the link 🔗\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #presentations #powerpoint #ai #productivity #freeapps #students",
+  "dm_pitch": "Presenton, the free open-source Gamma alternative for AI slide decks 📊",
+  "thumb": {
+    "big": "FREE",
+    "line1": "Gamma",
+    "line2": "alternative"
+  },
+  "topic_arm": "subscription",
+  "format": "story",
+  "demo": {
+    "url": "https://raw.githubusercontent.com/presenton/presenton/main/readme_assets/images/drag-and-edit.gif",
+    "start": 0
+  },
+  "beats": [
+    {
+      "say": "If you pay Gamma a hundred and eight dollars a year for slides, stop scrolling.",
+      "scene": "slam",
+      "text": "$108 a year",
+      "sub": "for slides",
+      "accent": "stop",
+      "tone": "neg",
+      "mood": "shock"
+    },
+    {
+      "say": "Wait, slides cost that much?",
+      "scene": "character",
+      "text": "For SLIDES?! 😳",
+      "mood": "shock"
+    },
+    {
+      "say": "Gamma charges nine bucks a month. Presenton costs nothing.",
+      "scene": "versus",
+      "mood": "point",
+      "select": "nothing"
+    },
+    {
+      "say": "Type a topic or drop in a document, and it writes the whole deck for you.",
+      "scene": "app",
+      "image": "assets/create.png",
+      "text": "Topic → full deck",
+      "mood": "excited",
+      "accent": "whole",
+      "select": "document"
+    },
+    {
+      "say": "And it gets better.",
+      "scene": "character",
+      "text": "It gets better 👀",
+      "mood": "excited"
+    },
+    {
+      "say": "You get real templates, charts and layouts you can drag around.",
+      "scene": "app",
+      "image": "assets/deck.png",
+      "text": "Ready-made templates",
+      "mood": "smug",
+      "select": "drag"
+    },
+    {
+      "say": "Then export it straight to PowerPoint or PDF.",
+      "scene": "list",
+      "text": "Export anywhere",
+      "items": [
+        {
+          "label": "PowerPoint",
+          "anchor": "powerpoint"
+        },
+        {
+          "label": "PDF",
+          "anchor": "pdf"
+        }
+      ]
+    },
+    {
+      "say": "It's Gamma, minus the subscription, forever.",
+      "scene": "slam",
+      "text": "Subscription: $0",
+      "accent": "$0",
+      "mood": "smug",
+      "select": "forever"
+    },
+    {
+      "say": "Comment Deck, and I'll send you the link.",
+      "scene": "cta",
+      "mood": "point"
+    }
+  ],
+  "hook_style": "story",
+  "window": "midday",
+  "publish": {
+    "date": "2026-11-25",
+    "time": "11:31"
+  }
+}

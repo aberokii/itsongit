@@ -39,9 +39,9 @@ The scout (`pipeline/scout.py`) skips these automatically via `data/posted.json`
 | 32 | [plainhub/plain-app](https://github.com/plainhub/plain-app) | 032-plainapp | PHONE | scheduled | 2026-10-24T16:22 |  |
 | 33 | [excalidraw/excalidraw](https://github.com/excalidraw/excalidraw) | 033-excalidraw | DRAW | scheduled | 2026-10-24T18:38 |  |
 | 34 | [ONLYOFFICE/DesktopEditors](https://github.com/ONLYOFFICE/DesktopEditors) | 034-onlyoffice | OFFICE | scheduled | 2026-10-25T10:19 |  |
-| 35 | [upscayl/upscayl](https://github.com/upscayl/upscayl) | 035-upscayl | UPSCALE | published | 2026-10-25T11:53 | https://www.instagram.com/reel/De6pPX0kZ-t/ |
-| 36 | [audacity/audacity](https://github.com/audacity/audacity) | 036-audacity | AUDIO | published | 2026-10-25T13:18 | https://www.instagram.com/reel/De6y96wkQje/ |
-| 37 | [Automattic/harper](https://github.com/Automattic/harper) | 037-harper | GRAMMAR | published | 2026-10-25T17:28 | https://www.instagram.com/reel/De7PpXUjqNn/ |
+| 35 | [upscayl/upscayl](https://github.com/upscayl/upscayl) | 035-upscayl | UPSCALE | scheduled | 2026-10-25T11:52 |  |
+| 36 | [audacity/audacity](https://github.com/audacity/audacity) | 036-audacity | AUDIO | scheduled | 2026-10-25T13:17 |  |
+| 37 | [Automattic/harper](https://github.com/Automattic/harper) | 037-harper | GRAMMAR | scheduled | 2026-10-25T17:27 |  |
 | 38 | [p0deje/Maccy](https://github.com/p0deje/Maccy) | 038-maccy | COPY | published | 2026-10-25T21:06 | https://www.instagram.com/reel/De7oiN0AkOS/ |
 | 39 | [deskflow/deskflow](https://github.com/deskflow/deskflow) | 039-deskflow | MOUSE | published | 2026-10-26T11:25 | https://www.instagram.com/reel/De9K091H62r/ |
 | 40 | [amir1376/ab-download-manager](https://github.com/amir1376/ab-download-manager) | 040-abdm | FILES | published | 2026-10-26T12:35 | https://www.instagram.com/reel/De9S1lsjgFN/ |
@@ -138,6 +138,9 @@ The scout (`pipeline/scout.py`) skips these automatically via `data/posted.json`
 | 131 | [iDescriptor/iDescriptor](https://github.com/iDescriptor/iDescriptor) | 134-idescriptor | IPHONE | published | 2026-11-23T11:34 | https://www.instagram.com/reel/DgFSG5oFdUt/ |
 | 132 | [CyberTimon/RapidRAW](https://github.com/CyberTimon/RapidRAW) | 135-rapidraw | RAW | published | 2026-11-23T17:12 | https://www.instagram.com/reel/DgF4zI-lDZY/ |
 | 133 | [toeverything/AFFiNE](https://github.com/toeverything/AFFiNE) | 136-affine | BOARD | published | 2026-11-23T20:10 | https://www.instagram.com/reel/DgGNK_Bkgr5/ |
-| 134 | [timoncool/YuE2-Studio](https://github.com/timoncool/YuE2-Studio) | 137-yue2studio | SONG | scheduled | 2026-11-24T11:06 |  |
-| 135 | [tisfeng/Easydict](https://github.com/tisfeng/Easydict) | 138-easydict | TRANSLATE | scheduled | 2026-11-24T17:12 |  |
-| 136 | [ferdium/ferdium-app](https://github.com/ferdium/ferdium-app) | 139-ferdium | CHATS | scheduled | 2026-11-24T21:29 |  |
+| 134 | [timoncool/YuE2-Studio](https://github.com/timoncool/YuE2-Studio) | 137-yue2studio | SONG | published | 2026-11-24T11:07 | https://www.instagram.com/reel/DgHz2YVHKiq/ |
+| 135 | [tisfeng/Easydict](https://github.com/tisfeng/Easydict) | 138-easydict | TRANSLATE | published | 2026-11-24T17:13 | https://www.instagram.com/reel/DgIdtLyDrnG/ |
+| 136 | [ferdium/ferdium-app](https://github.com/ferdium/ferdium-app) | 139-ferdium | CHATS | published | 2026-11-24T21:30 | https://www.instagram.com/reel/DgI7HATgARf/ |
+| 137 | [presenton/presenton](https://github.com/presenton/presenton) | 140-presenton | DECK | scheduled | 2026-11-25T10:31 |  |
+| 138 | [QL-Win/QuickLook](https://github.com/QL-Win/QuickLook) | 141-quicklook | PEEK | scheduled | 2026-11-25T18:44 |  |
+| 139 | [openutau/OpenUtau](https://github.com/openutau/OpenUtau) | 142-openutau | SING | scheduled | 2026-11-25T20:08 |  |

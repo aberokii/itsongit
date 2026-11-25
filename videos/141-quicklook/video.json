@@ -1,0 +1,114 @@
+{
+  "repo": "QL-Win/QuickLook",
+  "name": "QuickLook",
+  "title": "QuickLook: free Seer alternative",
+  "slot": 1,
+  "keyword": "PEEK",
+  "paid": {
+    "name": "Seer",
+    "price": "$15.99",
+    "per": "",
+    "anchor": "sixteen",
+    "source": "https://1218.io/seer/order/"
+  },
+  "icon": "https://raw.githubusercontent.com/QL-Win/QuickLook/master/Build/Assets/Square44x44Logo.targetsize-256.png",
+  "hook": "Seer charges you sixteen bucks to preview any file with the spacebar. This app does it for free.",
+  "job": "Previews any file with Space",
+  "platforms": [
+    "Windows"
+  ],
+  "features": [
+    {
+      "intro": "Select a file. Tap Space.",
+      "say": "Photos and videos pop up instantly.",
+      "images": [
+        "https://raw.githubusercontent.com/QL-Win/QuickLook/master/Build/Assets/Branding/02.png",
+        "https://raw.githubusercontent.com/QL-Win/QuickLook/master/Build/Assets/Branding/03.png"
+      ],
+      "swap_anchor": "videos",
+      "chips": [
+        {
+          "label": "🖼 Photos",
+          "anchor": "photos"
+        },
+        {
+          "label": "🎬 Videos",
+          "anchor": "videos"
+        }
+      ]
+    },
+    {
+      "say": "Zip archives, code and music open too.",
+      "images": [
+        "https://raw.githubusercontent.com/QL-Win/QuickLook/master/Build/Assets/Branding/06.png",
+        "https://raw.githubusercontent.com/QL-Win/QuickLook/master/Build/Assets/Branding/07.png"
+      ],
+      "swap_anchor": "code",
+      "chips": [
+        {
+          "label": "📦 Zip archives",
+          "anchor": "zip"
+        },
+        {
+          "label": "Code",
+          "anchor": "code"
+        },
+        {
+          "label": "🎵 Music",
+          "anchor": "music"
+        }
+      ]
+    },
+    {
+      "say": "It reads PDFs, and plugins add Office files.",
+      "images": [
+        "https://raw.githubusercontent.com/QL-Win/QuickLook/master/Build/Assets/Branding/05.png"
+      ],
+      "chips": [
+        {
+          "label": "📄 PDFs",
+          "anchor": "pdfs"
+        },
+        {
+          "label": "🧩 Plugins",
+          "anchor": "plugins"
+        }
+      ]
+    }
+  ],
+  "nolist": [
+    {
+      "say": "No price tag.",
+      "label": "Price tag"
+    },
+    {
+      "say": "No license key.",
+      "label": "License key"
+    },
+    {
+      "say": "No ads.",
+      "label": "Ads"
+    }
+  ],
+  "install": "winget install QL-Win.QuickLook",
+  "caption": "Seer charges $15.99 to preview any file with the spacebar. QuickLook does it for free 👀\n\n✅ Select a file, press Space, and photos and videos pop up instantly\n✅ Opens zip archives, code files and music too\n✅ Reads PDFs, and plugins add Office files and more\n✅ No price tag, no license key, no ads\n\n💻 Windows\nℹ️ Seer is a one-time purchase, not a subscription. Some formats, like Office files, need a free plugin\n\nComment \"PEEK\" and I'll DM you the link 🔗\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #windows #windows11 #productivity #freeapps #techtips",
+  "dm_pitch": "QuickLook, the free open-source Seer alternative for Windows 👀",
+  "thumb": {
+    "big": "FREE",
+    "line1": "Seer",
+    "line2": "alternative"
+  },
+  "topic_arm": "utility",
+  "demo": {
+    "images": [
+      "https://raw.githubusercontent.com/QL-Win/QuickLook/master/Build/Assets/Branding/02.png",
+      "https://raw.githubusercontent.com/QL-Win/QuickLook/master/Build/Assets/Branding/05.png"
+    ]
+  },
+  "hook_style": "demo",
+  "window": "evening",
+  "publish": {
+    "date": "2026-11-25",
+    "time": "19:44"
+  }
+}

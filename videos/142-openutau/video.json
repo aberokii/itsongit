@@ -1,0 +1,119 @@
+{
+  "repo": "openutau/OpenUtau",
+  "name": "OpenUtau",
+  "title": "OpenUtau: free VOCALOID alternative",
+  "slot": 2,
+  "keyword": "SING",
+  "paid": {
+    "name": "VOCALOID7 Editor",
+    "price": "$129",
+    "per": "",
+    "anchor": "hundred",
+    "source": "https://www.vocaloid.com/en/vocaloid7/buy"
+  },
+  "icon": "https://raw.githubusercontent.com/openutau/OpenUtau/master/OpenUtau/Assets/OpenUtau.png",
+  "job": "Makes a virtual singer sing",
+  "platforms": [
+    "Windows",
+    "Mac",
+    "Linux"
+  ],
+  "install": "Download from GitHub Releases",
+  "install_url": "https://openutau.com",
+  "caption": "VOCALOID7 Editor costs $129. OpenUtau lets you make a virtual singer sing your song for free 🎤\n\n✅ Type notes and lyrics in a piano roll and a virtual singer sings them\n✅ Draw pitch curves and vibrato to make the voice sound real\n✅ Auto-converts lyrics for English, Japanese, Chinese, Korean, Russian and more\n✅ Opens UST, VSQX and MIDI projects, exports your vocals as audio\n\n💻 Windows · Mac · Linux\nℹ️ OpenUtau doesn't come with a voice: you install a singer (voicebank) yourself, made by the community, so check each one's terms. The newest builds are tagged alpha, and the Mac build is Apple Silicon only. VOCALOID7's $129 is the Editor with one included voice, before tax\n\nComment \"SING\" and I'll DM you the link 🔗\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #vocaloid #utau #music #musicproduction #hatsunemiku #freeapps",
+  "dm_pitch": "OpenUtau, the free open-source VOCALOID-style singing editor 🎤",
+  "thumb": {
+    "big": "FREE",
+    "line1": "VOCALOID",
+    "line2": "alternative"
+  },
+  "topic_arm": "hobby",
+  "format": "story",
+  "demo": {
+    "url": "https://raw.githubusercontent.com/openutau/OpenUtau/master/Misc/GIFs/editor2.gif",
+    "start": 3
+  },
+  "beats": [
+    {
+      "say": "Why is anyone still paying a hundred and twenty nine dollars for Vocaloid?",
+      "scene": "slam",
+      "text": "$129 for a voice?",
+      "accent": "still",
+      "tone": "neg",
+      "mood": "shock"
+    },
+    {
+      "say": "Seriously, why?",
+      "scene": "character",
+      "text": "Seriously, why?! 😤",
+      "mood": "shock"
+    },
+    {
+      "say": "Vocaloid costs a hundred and twenty nine. OpenUtau costs nothing.",
+      "scene": "versus",
+      "mood": "point",
+      "select": "nothing"
+    },
+    {
+      "say": "Type your notes and lyrics, and a virtual singer sings them back.",
+      "scene": "app",
+      "image": "assets/pianoroll.png",
+      "text": "Notes → singing",
+      "mood": "excited",
+      "accent": "sings",
+      "select": "lyrics"
+    },
+    {
+      "say": "But here's the crazy part.",
+      "scene": "character",
+      "text": "Wait for it 👀",
+      "mood": "excited"
+    },
+    {
+      "say": "Drag the pitch line, add vibrato, and shape every note.",
+      "scene": "app",
+      "image": "assets/pitch.png",
+      "text": "Draw the pitch",
+      "mood": "smug",
+      "select": "vibrato"
+    },
+    {
+      "say": "It sings in English, Japanese, Chinese and Korean.",
+      "scene": "list",
+      "text": "Any language",
+      "items": [
+        {
+          "label": "English",
+          "anchor": "english"
+        },
+        {
+          "label": "Japanese",
+          "anchor": "japanese"
+        },
+        {
+          "label": "Korean",
+          "anchor": "korean"
+        }
+      ]
+    },
+    {
+      "say": "It's Vocaloid, minus the price tag.",
+      "scene": "slam",
+      "text": "Price tag: $0",
+      "accent": "$0",
+      "mood": "smug",
+      "select": "price"
+    },
+    {
+      "say": "Comment Sing, and I'll send you the link.",
+      "scene": "cta",
+      "mood": "point"
+    }
+  ],
+  "hook_style": "story",
+  "window": "night",
+  "publish": {
+    "date": "2026-11-25",
+    "time": "21:08"
+  }
+}

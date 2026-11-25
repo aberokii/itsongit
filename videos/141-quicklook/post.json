@@ -1,0 +1,29 @@
+{
+  "title": "QuickLook: free Seer alternative",
+  "video": "FINAL.mp4",
+  "thumbnail": "FINAL_thumbnail.png",
+  "repo_url": "https://github.com/QL-Win/QuickLook",
+  "keyword": "PEEK",
+  "caption": "Seer charges $15.99 to preview any file with the spacebar. QuickLook does it for free \ud83d\udc40\n\n\u2705 Select a file, press Space, and photos and videos pop up instantly\n\u2705 Opens zip archives, code files and music too\n\u2705 Reads PDFs, and plugins add Office files and more\n\u2705 No price tag, no license key, no ads\n\n\ud83d\udcbb Windows\n\u2139\ufe0f Seer is a one-time purchase, not a subscription. Some formats, like Office files, need a free plugin\n\nComment \"PEEK\" and I'll DM you the link \ud83d\udd17\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #windows #windows11 #productivity #freeapps #techtips",
+  "dm_pitch": "QuickLook, the free open-source Seer alternative for Windows \ud83d\udc40",
+  "install": "winget install QL-Win.QuickLook",
+  "dm_on_any_comment": true,
+  "follow_gate": true,
+  "slot": 1,
+  "price_source": "https://1218.io/seer/order/",
+  "experiment": {
+    "format": "classic",
+    "hook": "demo",
+    "topic": "utility",
+    "window": "evening"
+  },
+  "idempotencyKey": "3b026c16-5f80-4606-8c02-9466815bd3c1",
+  "zernio": {
+    "postId": "6b06a57c75e1fe1d29eb92da",
+    "status": "scheduled",
+    "scheduledFor": "2026-11-25T18:44:00.000Z",
+    "url": null,
+    "automationId": "6b06a57ee20f1d1639b07dcd",
+    "slot": 1
+  }
+}

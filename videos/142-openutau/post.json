@@ -1,0 +1,29 @@
+{
+  "title": "OpenUtau: free VOCALOID alternative",
+  "video": "FINAL.mp4",
+  "thumbnail": "FINAL_thumbnail.png",
+  "repo_url": "https://github.com/openutau/OpenUtau",
+  "keyword": "SING",
+  "caption": "VOCALOID7 Editor costs $129. OpenUtau lets you make a virtual singer sing your song for free \ud83c\udfa4\n\n\u2705 Type notes and lyrics in a piano roll and a virtual singer sings them\n\u2705 Draw pitch curves and vibrato to make the voice sound real\n\u2705 Auto-converts lyrics for English, Japanese, Chinese, Korean, Russian and more\n\u2705 Opens UST, VSQX and MIDI projects, exports your vocals as audio\n\n\ud83d\udcbb Windows \u00b7 Mac \u00b7 Linux\n\u2139\ufe0f OpenUtau doesn't come with a voice: you install a singer (voicebank) yourself, made by the community, so check each one's terms. The newest builds are tagged alpha, and the Mac build is Apple Silicon only. VOCALOID7's $129 is the Editor with one included voice, before tax\n\nComment \"SING\" and I'll DM you the link \ud83d\udd17\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #vocaloid #utau #music #musicproduction #hatsunemiku #freeapps",
+  "dm_pitch": "OpenUtau, the free open-source VOCALOID-style singing editor \ud83c\udfa4",
+  "install": "Download from GitHub Releases",
+  "dm_on_any_comment": true,
+  "follow_gate": true,
+  "slot": 2,
+  "price_source": "https://www.vocaloid.com/en/vocaloid7/buy",
+  "experiment": {
+    "format": "story",
+    "hook": "story",
+    "topic": "hobby",
+    "window": "night"
+  },
+  "idempotencyKey": "14733a27-a96c-4e66-8f61-a07ca816f4c2",
+  "zernio": {
+    "postId": "6b06a58275e1fe1d29eb931b",
+    "status": "scheduled",
+    "scheduledFor": "2026-11-25T20:08:00.000Z",
+    "url": null,
+    "automationId": "6b06a584ebc6898ae7bc042c",
+    "slot": 2
+  }
+}

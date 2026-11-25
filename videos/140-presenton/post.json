@@ -1,0 +1,29 @@
+{
+  "title": "Presenton: free Gamma alternative",
+  "video": "FINAL.mp4",
+  "thumbnail": "FINAL_thumbnail.png",
+  "repo_url": "https://github.com/presenton/presenton",
+  "keyword": "DECK",
+  "caption": "Gamma charges $9/month to make AI slide decks. Presenton does it for free on your computer \ud83d\udcca\n\n\u2705 Make a deck from a prompt or an uploaded document\n\u2705 Drag-and-drop editing, then export to PowerPoint (PPTX) or PDF\n\u2705 Built-in templates for pitch decks, reports and more\n\u2705 Works with Ollama, OpenAI, Gemini, Anthropic and more\n\n\ud83d\udcbb Mac \u00b7 Windows \u00b7 Linux\n\u2139\ufe0f It's in beta and the newest builds are Mac and Linux (Windows is on an older version). The app is free, but the AI that writes your slides isn't built in. You sign in with a ChatGPT account, add your own API key, or run a local model with Ollama. Gamma's $9/month is the Plus plan billed yearly ($12 if billed monthly)\n\nComment \"DECK\" and I'll DM you the link \ud83d\udd17\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #presentations #powerpoint #ai #productivity #freeapps #students",
+  "dm_pitch": "Presenton, the free open-source Gamma alternative for AI slide decks \ud83d\udcca",
+  "install": "Download from GitHub Releases",
+  "dm_on_any_comment": true,
+  "follow_gate": true,
+  "slot": 0,
+  "price_source": "https://gamma.app/pricing",
+  "experiment": {
+    "format": "story",
+    "hook": "story",
+    "topic": "subscription",
+    "window": "midday"
+  },
+  "idempotencyKey": "68a996cf-bef9-47e6-9175-8f4587919849",
+  "zernio": {
+    "postId": "6b06a5755c5fb9e77f60d5e6",
+    "status": "scheduled",
+    "scheduledFor": "2026-11-25T10:31:00.000Z",
+    "url": null,
+    "automationId": "6b06a57700ddf1f43bdc5990",
+    "slot": 0
+  }
+}
