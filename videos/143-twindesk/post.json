@@ -1,0 +1,29 @@
+{
+  "title": "TwinDesk: free Synergy alternative",
+  "video": "FINAL.mp4",
+  "thumbnail": "FINAL_thumbnail.png",
+  "repo_url": "https://github.com/InukaAsith/TwinDesk",
+  "keyword": "DESK",
+  "caption": "Synergy charges $49 to share one mouse between computers. TwinDesk does it for free \ud83d\uddb1\ufe0f\n\n\u2705 One mouse and keyboard across your Mac, PC and Linux box\n\u2705 Shared clipboard, plus drag files between computers\n\u2705 Android calls, texts and notifications on your computer\n\u2705 iPhone joins through the browser, no app needed. No account, no cloud\n\n\ud83d\udcbb Mac \u00b7 Windows \u00b7 Linux \u00b7 Android \u00b7 iPhone\n\u2139\ufe0f The apps aren't code-signed, so macOS and Windows ask you to allow it on first launch. iPhone works through a web page, or a sideloaded app via AltStore. Synergy's $49 is the one-time Lite licence for up to 3 computers\n\nComment \"DESK\" and I'll DM you the link \ud83d\udd17\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #macos #windows #linux #productivity #freeapps #techtips",
+  "dm_pitch": "TwinDesk, the free open-source way to run all your devices as one desk \ud83d\uddb1\ufe0f",
+  "install": "Download from GitHub Releases",
+  "dm_on_any_comment": true,
+  "follow_gate": true,
+  "slot": 0,
+  "price_source": "https://symless.com/synergy/purchase",
+  "experiment": {
+    "format": "classic",
+    "hook": "price",
+    "topic": "utility",
+    "window": "midday"
+  },
+  "idempotencyKey": "f4a4887a-e919-4446-b77b-66f661b12dca",
+  "zernio": {
+    "postId": "6b07f534b704b626883c9bf7",
+    "status": "scheduled",
+    "scheduledFor": "2026-11-26T10:20:00.000Z",
+    "url": null,
+    "automationId": "6b07f5377e9f9a1b76bf4918",
+    "slot": 0
+  }
+}

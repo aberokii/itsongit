@@ -42,9 +42,9 @@ The scout (`pipeline/scout.py`) skips these automatically via `data/posted.json`
 | 35 | [upscayl/upscayl](https://github.com/upscayl/upscayl) | 035-upscayl | UPSCALE | scheduled | 2026-10-25T11:52 |  |
 | 36 | [audacity/audacity](https://github.com/audacity/audacity) | 036-audacity | AUDIO | scheduled | 2026-10-25T13:17 |  |
 | 37 | [Automattic/harper](https://github.com/Automattic/harper) | 037-harper | GRAMMAR | scheduled | 2026-10-25T17:27 |  |
-| 38 | [p0deje/Maccy](https://github.com/p0deje/Maccy) | 038-maccy | COPY | published | 2026-10-25T21:06 | https://www.instagram.com/reel/De7oiN0AkOS/ |
-| 39 | [deskflow/deskflow](https://github.com/deskflow/deskflow) | 039-deskflow | MOUSE | published | 2026-10-26T11:25 | https://www.instagram.com/reel/De9K091H62r/ |
-| 40 | [amir1376/ab-download-manager](https://github.com/amir1376/ab-download-manager) | 040-abdm | FILES | published | 2026-10-26T12:35 | https://www.instagram.com/reel/De9S1lsjgFN/ |
+| 38 | [p0deje/Maccy](https://github.com/p0deje/Maccy) | 038-maccy | COPY | scheduled | 2026-10-25T21:05 |  |
+| 39 | [deskflow/deskflow](https://github.com/deskflow/deskflow) | 039-deskflow | MOUSE | scheduled | 2026-10-26T11:24 |  |
+| 40 | [amir1376/ab-download-manager](https://github.com/amir1376/ab-download-manager) | 040-abdm | FILES | scheduled | 2026-10-26T12:34 |  |
 | 41 | [JerryZLiu/Dayflow](https://github.com/JerryZLiu/Dayflow) | 041-dayflow | TIME | published | 2026-10-26T13:44 | https://www.instagram.com/reel/De9aukSiVay/ |
 | 42 | [jellyfin/jellyfin](https://github.com/jellyfin/jellyfin) | 042-jellyfin | MOVIES | published | 2026-10-26T18:52 | https://www.instagram.com/reel/De99-nUjJQ3/ |
 | 43 | [lively-community/lively](https://github.com/lively-community/lively) | 043-lively | LIVELY | published | 2026-10-26T20:15 | https://www.instagram.com/reel/De-HhH_jeE8/ |
@@ -141,6 +141,9 @@ The scout (`pipeline/scout.py`) skips these automatically via `data/posted.json`
 | 134 | [timoncool/YuE2-Studio](https://github.com/timoncool/YuE2-Studio) | 137-yue2studio | SONG | published | 2026-11-24T11:07 | https://www.instagram.com/reel/DgHz2YVHKiq/ |
 | 135 | [tisfeng/Easydict](https://github.com/tisfeng/Easydict) | 138-easydict | TRANSLATE | published | 2026-11-24T17:13 | https://www.instagram.com/reel/DgIdtLyDrnG/ |
 | 136 | [ferdium/ferdium-app](https://github.com/ferdium/ferdium-app) | 139-ferdium | CHATS | published | 2026-11-24T21:30 | https://www.instagram.com/reel/DgI7HATgARf/ |
-| 137 | [presenton/presenton](https://github.com/presenton/presenton) | 140-presenton | DECK | scheduled | 2026-11-25T10:31 |  |
-| 138 | [QL-Win/QuickLook](https://github.com/QL-Win/QuickLook) | 141-quicklook | PEEK | scheduled | 2026-11-25T18:44 |  |
-| 139 | [openutau/OpenUtau](https://github.com/openutau/OpenUtau) | 142-openutau | SING | scheduled | 2026-11-25T20:08 |  |
+| 137 | [presenton/presenton](https://github.com/presenton/presenton) | 140-presenton | DECK | published | 2026-11-25T10:32 | https://www.instagram.com/reel/DgKUms9hmUA/ |
+| 138 | [QL-Win/QuickLook](https://github.com/QL-Win/QuickLook) | 141-quicklook | PEEK | published | 2026-11-25T18:46 | https://www.instagram.com/reel/DgLNHYMh6_k/ |
+| 139 | [openutau/OpenUtau](https://github.com/openutau/OpenUtau) | 142-openutau | SING | published | 2026-11-25T20:09 | https://www.instagram.com/reel/DgLWpWAhHiQ/ |
+| 140 | [InukaAsith/TwinDesk](https://github.com/InukaAsith/TwinDesk) | 143-twindesk | DESK | scheduled | 2026-11-26T10:20 |  |
+| 141 | [Anuken/Mindustry](https://github.com/Anuken/Mindustry) | 144-mindustry | FACTORY | scheduled | 2026-11-26T17:42 |  |
+| 142 | [FrigadeHQ/yogurt](https://github.com/FrigadeHQ/yogurt) | 145-yogurt | NOTES | scheduled | 2026-11-26T21:09 |  |

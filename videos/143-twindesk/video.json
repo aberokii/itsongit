@@ -1,0 +1,118 @@
+{
+  "repo": "InukaAsith/TwinDesk",
+  "name": "TwinDesk",
+  "title": "TwinDesk: free Synergy alternative",
+  "slot": 0,
+  "keyword": "DESK",
+  "topic_arm": "utility",
+  "paid": {
+    "name": "Synergy",
+    "price": "$49",
+    "per": " once",
+    "anchor": "forty",
+    "source": "https://symless.com/synergy/purchase"
+  },
+  "icon": "https://raw.githubusercontent.com/InukaAsith/TwinDesk/main/.github/assets/icon.png",
+  "hook": "Synergy charges you forty nine dollars to share one mouse between computers. This app does it for free.",
+  "job": "Shares one mouse and keyboard",
+  "platforms": [
+    "Mac",
+    "Windows",
+    "Linux",
+    "Android",
+    "iPhone"
+  ],
+  "demo": {
+    "images": [
+      "https://raw.githubusercontent.com/InukaAsith/TwinDesk/main/.github/assets/v30-hero-desks.jpg",
+      "https://raw.githubusercontent.com/InukaAsith/TwinDesk/main/.github/assets/mouse-keyboard.jpg"
+    ]
+  },
+  "features": [
+    {
+      "say": "Push the mouse off the edge and it moves, keyboard and all, to your other computer.",
+      "images": [
+        "https://raw.githubusercontent.com/InukaAsith/TwinDesk/main/.github/assets/mouse-keyboard.jpg"
+      ],
+      "chips": [
+        {
+          "label": "🖱 Mouse",
+          "anchor": "mouse"
+        },
+        {
+          "label": "⌨️ Keyboard",
+          "anchor": "keyboard"
+        }
+      ]
+    },
+    {
+      "say": "Copy here, paste there, drag files.",
+      "images": [
+        "https://raw.githubusercontent.com/InukaAsith/TwinDesk/main/.github/assets/computers-clipboard.jpg",
+        "https://raw.githubusercontent.com/InukaAsith/TwinDesk/main/.github/assets/computers-files.jpg"
+      ],
+      "swap_anchor": "files",
+      "chips": [
+        {
+          "label": "📋 Clipboard",
+          "anchor": "copy"
+        },
+        {
+          "label": "📁 Files",
+          "anchor": "files"
+        }
+      ]
+    },
+    {
+      "say": "Android calls and texts show up on your computer. iPhone just needs a browser.",
+      "images": [
+        "https://raw.githubusercontent.com/InukaAsith/TwinDesk/main/.github/assets/phone-on-mac.jpg",
+        "https://raw.githubusercontent.com/InukaAsith/TwinDesk/main/.github/assets/v30-hero-desks.jpg"
+      ],
+      "swap_anchor": "iphone",
+      "chips": [
+        {
+          "label": "📞 Calls",
+          "anchor": "calls"
+        },
+        {
+          "label": "💬 Texts",
+          "anchor": "texts"
+        },
+        {
+          "label": "🌐 Browser",
+          "anchor": "browser"
+        }
+      ]
+    }
+  ],
+  "nolist": [
+    {
+      "say": "No account.",
+      "label": "Account"
+    },
+    {
+      "say": "No cloud.",
+      "label": "Cloud"
+    },
+    {
+      "say": "No subscription.",
+      "label": "Subscription"
+    }
+  ],
+  "install": "Download from GitHub Releases",
+  "install_url": "https://twin-desk.vercel.app",
+  "caption": "Synergy charges $49 to share one mouse between computers. TwinDesk does it for free 🖱️\n\n✅ One mouse and keyboard across your Mac, PC and Linux box\n✅ Shared clipboard, plus drag files between computers\n✅ Android calls, texts and notifications on your computer\n✅ iPhone joins through the browser, no app needed. No account, no cloud\n\n💻 Mac · Windows · Linux · Android · iPhone\nℹ️ The apps aren't code-signed, so macOS and Windows ask you to allow it on first launch. iPhone works through a web page, or a sideloaded app via AltStore. Synergy's $49 is the one-time Lite licence for up to 3 computers\n\nComment \"DESK\" and I'll DM you the link 🔗\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #macos #windows #linux #productivity #freeapps #techtips",
+  "dm_pitch": "TwinDesk, the free open-source way to run all your devices as one desk 🖱️",
+  "thumb": {
+    "big": "FREE",
+    "line1": "Synergy",
+    "line2": "alternative"
+  },
+  "hook_style": "price",
+  "window": "midday",
+  "publish": {
+    "date": "2026-11-26",
+    "time": "11:20"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "title": "Yogurt: free Otter alternative",
+  "video": "FINAL.mp4",
+  "thumbnail": "FINAL_thumbnail.png",
+  "repo_url": "https://github.com/FrigadeHQ/yogurt",
+  "keyword": "NOTES",
+  "caption": "Otter charges $8.33/month (billed yearly) to write your meeting notes. Yogurt does it for free \ud83d\udcdd\n\n\u2705 Records your mic + call audio, no bot joins the call\n\u2705 Writes a summary with next steps\n\u2705 Ask questions across all your meetings\n\u2705 No subscription, no account, runs on your computer\n\n\ud83d\udcbb Mac \u00b7 Windows \u00b7 Linux\n\u2139\ufe0f First launch downloads the AI models. Mac needs Apple silicon, and you need 8 GB of memory. Tell people on the call you're recording.\n\nComment \"NOTES\" and I'll DM you the link \ud83d\udd17\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #productivity #meetings #ai #freeapps #techtips #privacy",
+  "dm_pitch": "Yogurt, the free open-source Otter alternative for private meeting notes \ud83d\udcdd",
+  "install": "Download from GitHub Releases",
+  "dm_on_any_comment": true,
+  "follow_gate": true,
+  "slot": 2,
+  "price_source": "https://otter.ai/pricing",
+  "experiment": {
+    "format": "classic",
+    "hook": "demo",
+    "topic": "subscription",
+    "window": "night"
+  },
+  "idempotencyKey": "b8613ea6-0a1e-47c6-901c-6938fd34ba45",
+  "zernio": {
+    "postId": "6b07f7d7d7368b0fea49d1cc",
+    "status": "scheduled",
+    "scheduledFor": "2026-11-26T21:09:00.000Z",
+    "url": null,
+    "automationId": "6b07f7d92c46cd889f7c4b07",
+    "slot": 2
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "repo": "Anuken/Mindustry",
+  "name": "Mindustry",
+  "title": "Mindustry: free Factorio alternative",
+  "slot": 1,
+  "keyword": "FACTORY",
+  "topic_arm": "hobby",
+  "paid": {
+    "name": "Factorio",
+    "price": "$35",
+    "per": "",
+    "anchor": "thirty",
+    "source": "https://store.steampowered.com/app/427520/Factorio/"
+  },
+  "icon": "https://raw.githubusercontent.com/Anuken/Mindustry/master/android/ic_launcher-web.png",
+  "job": "Build factories, defend them",
+  "platforms": [
+    "Windows",
+    "Mac",
+    "Linux",
+    "Android",
+    "iPhone"
+  ],
+  "install": "Free download on itch.io",
+  "install_url": "https://anuke.itch.io/mindustry",
+  "caption": "Factorio costs $35. Mindustry is a factory + tower defense game you can play for free 🏭\n\n✅ Build factories out of conveyor belts and supply chains\n✅ Defend your core from waves of enemies\n✅ Co-op, PvP and a map editor, cross-platform multiplayer\n✅ Two planet campaigns with 250+ tech blocks\n\n💻 Windows · Mac · Linux · Android · iPhone\nℹ️ The Steam version costs $9.99; it's the same game, and the itch.io download is pay-what-you-want, so $0 works. Google Play is free; the App Store version costs $1.99\n\nComment \"FACTORY\" and I'll DM you the link 🔗\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #gaming #indiegames #factorio #towerdefense #freeapps",
+  "dm_pitch": "Mindustry, the free open-source Factorio-style factory game 🏭",
+  "thumb": {
+    "big": "FREE",
+    "line1": "Factorio",
+    "line2": "alternative"
+  },
+  "demo": {
+    "images": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1127400/ss_19dbb62a615fc63788cf499ab948947fe365a9d2.1920x1080.jpg?t=1784823019",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1127400/ss_d332d08a91caa2a8fe9504c3e11f15ec220d521c.1920x1080.jpg?t=1784823019"
+    ]
+  },
+  "format": "story",
+  "beats": [
+    {
+      "say": "Factorio costs thirty five bucks. This game costs zero.",
+      "scene": "slam",
+      "text": "$35 vs $0",
+      "accent": "zero",
+      "tone": "neg",
+      "mood": "shock"
+    },
+    {
+      "say": "Wait, the whole game?",
+      "scene": "character",
+      "text": "The WHOLE game?! 🤯",
+      "mood": "shock"
+    },
+    {
+      "say": "Factorio is thirty five dollars on Steam. Mindustry? Free to download.",
+      "scene": "versus",
+      "mood": "point",
+      "select": "free"
+    },
+    {
+      "say": "You build a whole factory out of conveyor belts.",
+      "scene": "app",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1127400/ss_19dbb62a615fc63788cf499ab948947fe365a9d2.1920x1080.jpg?t=1784823019",
+      "text": "Belts → factory",
+      "mood": "excited",
+      "accent": "whole",
+      "select": "belts"
+    },
+    {
+      "say": "But here's the crazy part.",
+      "scene": "character",
+      "text": "Here's the twist 👀",
+      "mood": "excited"
+    },
+    {
+      "say": "Then waves of enemies attack, and your belts feed ammo to the turrets.",
+      "scene": "app",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1127400/ss_d332d08a91caa2a8fe9504c3e11f15ec220d521c.1920x1080.jpg?t=1784823019",
+      "text": "Defend your core",
+      "mood": "worried",
+      "accent": "enemies",
+      "select": "turrets"
+    },
+    {
+      "say": "Play solo, with friends, or PvP, on your phone or your PC.",
+      "scene": "list",
+      "text": "Play your way",
+      "items": [
+        {
+          "label": "Solo",
+          "anchor": "solo"
+        },
+        {
+          "label": "👥 Co-op",
+          "anchor": "friends"
+        },
+        {
+          "label": "⚔️ PvP",
+          "anchor": "pvp"
+        }
+      ],
+      "accent": "phone"
+    },
+    {
+      "say": "It's Factorio plus tower defense, minus the price tag.",
+      "scene": "slam",
+      "text": "Price tag: $0",
+      "accent": "$0",
+      "mood": "smug",
+      "select": "defense"
+    },
+    {
+      "say": "Comment Factory, and I'll send you the link.",
+      "scene": "cta",
+      "mood": "point"
+    }
+  ],
+  "hook_style": "story",
+  "window": "evening",
+  "publish": {
+    "date": "2026-11-26",
+    "time": "18:42"
+  }
+}

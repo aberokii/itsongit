@@ -1,0 +1,29 @@
+{
+  "title": "Mindustry: free Factorio alternative",
+  "video": "FINAL.mp4",
+  "thumbnail": "FINAL_thumbnail.png",
+  "repo_url": "https://github.com/Anuken/Mindustry",
+  "keyword": "FACTORY",
+  "caption": "Factorio costs $35. Mindustry is a factory + tower defense game you can play for free \ud83c\udfed\n\n\u2705 Build factories out of conveyor belts and supply chains\n\u2705 Defend your core from waves of enemies\n\u2705 Co-op, PvP and a map editor, cross-platform multiplayer\n\u2705 Two planet campaigns with 250+ tech blocks\n\n\ud83d\udcbb Windows \u00b7 Mac \u00b7 Linux \u00b7 Android \u00b7 iPhone\n\u2139\ufe0f The Steam version costs $9.99; it's the same game, and the itch.io download is pay-what-you-want, so $0 works. Google Play is free; the App Store version costs $1.99\n\nComment \"FACTORY\" and I'll DM you the link \ud83d\udd17\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #gaming #indiegames #factorio #towerdefense #freeapps",
+  "dm_pitch": "Mindustry, the free open-source Factorio-style factory game \ud83c\udfed",
+  "install": "Free download on itch.io",
+  "dm_on_any_comment": true,
+  "follow_gate": true,
+  "slot": 1,
+  "price_source": "https://store.steampowered.com/app/427520/Factorio/",
+  "experiment": {
+    "format": "story",
+    "hook": "story",
+    "topic": "hobby",
+    "window": "evening"
+  },
+  "idempotencyKey": "c4885d2c-f51d-4987-b6a8-d6f423926037",
+  "zernio": {
+    "postId": "6b07f5c87565f0860a7a1575",
+    "status": "scheduled",
+    "scheduledFor": "2026-11-26T17:42:00.000Z",
+    "url": null,
+    "automationId": "6b07f5c9779e9c37aac6480d",
+    "slot": 1
+  }
+}

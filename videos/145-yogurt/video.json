@@ -1,0 +1,93 @@
+{
+ "repo": "FrigadeHQ/yogurt",
+ "name": "Yogurt",
+ "title": "Yogurt: free Otter alternative",
+ "slot": 2,
+ "keyword": "NOTES",
+ "topic_arm": "subscription",
+ "paid": {
+  "name": "Otter Pro",
+  "price": "$8.33",
+  "per": "/month",
+  "anchor": "eight",
+  "source": "https://otter.ai/pricing"
+ },
+ "icon": "assets/icon.png",
+ "hook": "Otter charges you eight bucks a month to write your meeting notes. This app does it for free.",
+ "job": "Writes your meeting notes",
+ "platforms": [
+  "Mac",
+  "Windows",
+  "Linux"
+ ],
+ "demo": {
+  "images": [
+   "assets/summary.png",
+   "assets/ask.png"
+  ]
+ },
+ "features": [
+  {
+   "intro": "No bot joins your call.",
+   "say": "It records your mic and call audio, then turns it into notes with next steps.",
+   "images": [
+    "assets/summary.png"
+   ],
+   "chips": [
+    {
+     "label": "🎙 Mic + call audio",
+     "anchor": "audio"
+    },
+    {
+     "label": "✅ Next steps",
+     "anchor": "steps"
+    }
+   ]
+  },
+  {
+   "say": "Then ask it questions across all your meetings, and it links the source. Everything runs on your computer.",
+   "images": [
+    "assets/ask.png"
+   ],
+   "chips": [
+    {
+     "label": "💬 Ask anything",
+     "anchor": "questions"
+    },
+    {
+     "label": "🔒 Stays local",
+     "anchor": "computer"
+    }
+   ]
+  }
+ ],
+ "nolist": [
+  {
+   "say": "No subscription.",
+   "label": "Subscription"
+  },
+  {
+   "say": "No account.",
+   "label": "Account"
+  },
+  {
+   "say": "No cloud.",
+   "label": "Cloud"
+  }
+ ],
+ "install": "Download from GitHub Releases",
+ "install_url": "https://yogurt.so",
+ "caption": "Otter charges $8.33/month (billed yearly) to write your meeting notes. Yogurt does it for free 📝\n\n✅ Records your mic + call audio, no bot joins the call\n✅ Writes a summary with next steps\n✅ Ask questions across all your meetings\n✅ No subscription, no account, runs on your computer\n\n💻 Mac · Windows · Linux\nℹ️ First launch downloads the AI models. Mac needs Apple silicon, and you need 8 GB of memory. Tell people on the call you're recording.\n\nComment \"NOTES\" and I'll DM you the link 🔗\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #productivity #meetings #ai #freeapps #techtips #privacy",
+ "dm_pitch": "Yogurt, the free open-source Otter alternative for private meeting notes 📝",
+ "thumb": {
+  "big": "FREE",
+  "line1": "Otter",
+  "line2": "alternative"
+ },
+ "hook_style": "demo",
+ "window": "night",
+ "publish": {
+  "date": "2026-11-26",
+  "time": "22:09"
+ }
+}
