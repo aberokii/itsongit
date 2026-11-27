@@ -1,0 +1,119 @@
+{
+  "repo": "ejbills/DockDoor",
+  "name": "DockDoor",
+  "title": "DockDoor: free HyperDock alternative",
+  "slot": 2,
+  "keyword": "DOCK",
+  "topic_arm": "utility",
+  "format": "story",
+  "paid": {
+    "name": "HyperDock",
+    "price": "$9.95",
+    "per": "",
+    "anchor": "nine",
+    "source": "https://bahoom.com/hyperdock/buy"
+  },
+  "icon": "https://raw.githubusercontent.com/ejbills/DockDoor/HEAD/Assets/Assets.xcassets/AppIcon.appiconset/AppIcon-iOS-Default-512x512@1x.png",
+  "job": "Preview windows from your Dock",
+  "platforms": [
+    "Mac"
+  ],
+  "install": "brew install --cask dockdoor",
+  "install_url": "https://dockdoor.net",
+  "demo": {
+    "images": [
+      "assets/large-previews.png",
+      "assets/layout-default.png"
+    ]
+  },
+  "caption": "HyperDock costs $9.95. DockDoor gives your Mac Dock window previews for free 🪟\n\n✅ Hover any Dock icon to see all its windows as live previews\n✅ Close, minimize or quit right from the preview\n✅ Alt+Tab switcher that shows every window, with search\n✅ No analytics, no tracking, nothing leaves your Mac\n\n💻 Mac · macOS 13 or later · Apple silicon + Intel\nℹ️ Needs Accessibility and Screen Recording permission to see your windows. The free app has no paywall\n\nComment \"DOCK\" and I'll DM you the link 🔗\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #macos #macbook #productivity #mactips #freeapps",
+  "dm_pitch": "DockDoor, the free open-source Dock window previews for Mac 🪟",
+  "thumb": {
+    "big": "FREE",
+    "line1": "HyperDock",
+    "line2": "alternative"
+  },
+  "beats": [
+    {
+      "say": "Windows has had window previews for years. Mac users pay ten bucks for them.",
+      "scene": "slam",
+      "text": "$10 for previews?",
+      "accent": "previews",
+      "tone": "neg",
+      "mood": "shock"
+    },
+    {
+      "say": "Hold on, that's not fair.",
+      "scene": "character",
+      "text": "We PAY for that?! 😾",
+      "mood": "worried"
+    },
+    {
+      "say": "HyperDock charges nine ninety five. DockDoor costs nothing.",
+      "scene": "versus",
+      "mood": "point",
+      "select": "nothing"
+    },
+    {
+      "say": "Hover any app in your Dock, and you see all its windows, live.",
+      "scene": "app",
+      "image": "assets/large-previews.png",
+      "text": "Hover = every window",
+      "mood": "excited",
+      "accent": "live",
+      "select": "Hover"
+    },
+    {
+      "say": "And it gets better.",
+      "scene": "character",
+      "text": "It gets better 👀",
+      "mood": "excited"
+    },
+    {
+      "say": "Hold Option Tab, and it switches between every window, not just apps.",
+      "scene": "app",
+      "image": "assets/switcher.png",
+      "text": "Option + Tab",
+      "mood": "point",
+      "accent": "every"
+    },
+    {
+      "say": "Close, minimize, or quit, right from the preview.",
+      "scene": "list",
+      "text": "Right from the preview",
+      "items": [
+        {
+          "label": "Close",
+          "anchor": "close"
+        },
+        {
+          "label": "Minimize",
+          "anchor": "minimize"
+        },
+        {
+          "label": "Quit",
+          "anchor": "quit"
+        }
+      ],
+      "select": "preview"
+    },
+    {
+      "say": "It's the Windows taskbar trick, built into your Mac, for free.",
+      "scene": "slam",
+      "text": "Price: $0",
+      "accent": "free",
+      "mood": "smug"
+    },
+    {
+      "say": "Comment Dock, and I'll send you the link.",
+      "scene": "cta",
+      "mood": "point"
+    }
+  ],
+  "hook_style": "story",
+  "window": "night",
+  "publish": {
+    "date": "2026-11-27",
+    "time": "21:09"
+  }
+}

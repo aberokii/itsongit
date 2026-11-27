@@ -1,0 +1,29 @@
+{
+  "title": "Cap: free Loom alternative",
+  "video": "FINAL.mp4",
+  "thumbnail": "FINAL_thumbnail.png",
+  "repo_url": "https://github.com/CapSoftware/Cap",
+  "keyword": "RECORD",
+  "caption": "Loom charges $18/month to record your screen. Cap does it for free \ud83c\udfa5\n\n\u2705 Record your screen, a window or an area, with camera + mic\n\u2705 Built-in editor with backgrounds, auto zooms and trimming\n\u2705 Export in 4K\n\u2705 No subscription, runs on your computer\n\n\ud83d\udcbb Mac \u00b7 Windows \u00b7 Linux\n\u2139\ufe0f The free version is for personal use: local recordings have no time limit, and you get 25 share links a month (up to 5 min each). Work use needs a paid license\n\nComment \"RECORD\" and I'll DM you the link \ud83d\udd17\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #screenrecorder #loom #productivity #freeapps #techtips #creator",
+  "dm_pitch": "Cap, the free open-source Loom alternative for screen recording \ud83c\udfa5",
+  "install": "Download free at cap.so",
+  "dm_on_any_comment": true,
+  "follow_gate": true,
+  "slot": 1,
+  "price_source": "https://www.loom.com/pricing",
+  "experiment": {
+    "format": "classic",
+    "hook": "price",
+    "topic": "subscription",
+    "window": "evening"
+  },
+  "idempotencyKey": "a896266c-81a9-441f-90b5-04075d98be96",
+  "zernio": {
+    "postId": "6b0948515e932e08f64b7301",
+    "status": "scheduled",
+    "scheduledFor": "2026-11-27T17:18:00.000Z",
+    "url": null,
+    "automationId": "6b09485383c825854a5fc7cc",
+    "slot": 1
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "title": "DockDoor: free HyperDock alternative",
+  "video": "FINAL.mp4",
+  "thumbnail": "FINAL_thumbnail.png",
+  "repo_url": "https://github.com/ejbills/DockDoor",
+  "keyword": "DOCK",
+  "caption": "HyperDock costs $9.95. DockDoor gives your Mac Dock window previews for free \ud83e\ude9f\n\n\u2705 Hover any Dock icon to see all its windows as live previews\n\u2705 Close, minimize or quit right from the preview\n\u2705 Alt+Tab switcher that shows every window, with search\n\u2705 No analytics, no tracking, nothing leaves your Mac\n\n\ud83d\udcbb Mac \u00b7 macOS 13 or later \u00b7 Apple silicon + Intel\n\u2139\ufe0f Needs Accessibility and Screen Recording permission to see your windows. The free app has no paywall\n\nComment \"DOCK\" and I'll DM you the link \ud83d\udd17\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #macos #macbook #productivity #mactips #freeapps",
+  "dm_pitch": "DockDoor, the free open-source Dock window previews for Mac \ud83e\ude9f",
+  "install": "brew install --cask dockdoor",
+  "dm_on_any_comment": true,
+  "follow_gate": true,
+  "slot": 2,
+  "price_source": "https://bahoom.com/hyperdock/buy",
+  "experiment": {
+    "format": "story",
+    "hook": "story",
+    "topic": "utility",
+    "window": "night"
+  },
+  "idempotencyKey": "8f150d95-3809-403e-b006-2fa8e07c21b0",
+  "zernio": {
+    "postId": "6b094857a5bd6fadefd51c03",
+    "status": "scheduled",
+    "scheduledFor": "2026-11-27T20:09:00.000Z",
+    "url": null,
+    "automationId": "6b0948594d75cd7b43f003d1",
+    "slot": 2
+  }
+}

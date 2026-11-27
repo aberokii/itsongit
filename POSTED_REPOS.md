@@ -45,9 +45,9 @@ The scout (`pipeline/scout.py`) skips these automatically via `data/posted.json`
 | 38 | [p0deje/Maccy](https://github.com/p0deje/Maccy) | 038-maccy | COPY | scheduled | 2026-10-25T21:05 |  |
 | 39 | [deskflow/deskflow](https://github.com/deskflow/deskflow) | 039-deskflow | MOUSE | scheduled | 2026-10-26T11:24 |  |
 | 40 | [amir1376/ab-download-manager](https://github.com/amir1376/ab-download-manager) | 040-abdm | FILES | scheduled | 2026-10-26T12:34 |  |
-| 41 | [JerryZLiu/Dayflow](https://github.com/JerryZLiu/Dayflow) | 041-dayflow | TIME | published | 2026-10-26T13:44 | https://www.instagram.com/reel/De9aukSiVay/ |
-| 42 | [jellyfin/jellyfin](https://github.com/jellyfin/jellyfin) | 042-jellyfin | MOVIES | published | 2026-10-26T18:52 | https://www.instagram.com/reel/De99-nUjJQ3/ |
-| 43 | [lively-community/lively](https://github.com/lively-community/lively) | 043-lively | LIVELY | published | 2026-10-26T20:15 | https://www.instagram.com/reel/De-HhH_jeE8/ |
+| 41 | [JerryZLiu/Dayflow](https://github.com/JerryZLiu/Dayflow) | 041-dayflow | TIME | scheduled | 2026-10-26T13:43 |  |
+| 42 | [jellyfin/jellyfin](https://github.com/jellyfin/jellyfin) | 042-jellyfin | MOVIES | scheduled | 2026-10-26T18:51 |  |
+| 43 | [lively-community/lively](https://github.com/lively-community/lively) | 043-lively | LIVELY | scheduled | 2026-10-26T20:14 |  |
 | 44 | [ankitects/anki](https://github.com/ankitects/anki) | 044-anki | STUDY | published | 2026-10-27T10:40 | https://www.instagram.com/reel/De_qe2eFUBt/ |
 | 45 | [KDE/krita](https://github.com/KDE/krita) | 045-krita | PAINT | published | 2026-10-27T12:06 | https://www.instagram.com/reel/De_0URkESnj/ |
 | 46 | [exelban/stats](https://github.com/exelban/stats) | 046-stats | STATS | published | 2026-10-27T13:32 | https://www.instagram.com/reel/De_-JtkgGNE/ |
@@ -144,6 +144,9 @@ The scout (`pipeline/scout.py`) skips these automatically via `data/posted.json`
 | 137 | [presenton/presenton](https://github.com/presenton/presenton) | 140-presenton | DECK | published | 2026-11-25T10:32 | https://www.instagram.com/reel/DgKUms9hmUA/ |
 | 138 | [QL-Win/QuickLook](https://github.com/QL-Win/QuickLook) | 141-quicklook | PEEK | published | 2026-11-25T18:46 | https://www.instagram.com/reel/DgLNHYMh6_k/ |
 | 139 | [openutau/OpenUtau](https://github.com/openutau/OpenUtau) | 142-openutau | SING | published | 2026-11-25T20:09 | https://www.instagram.com/reel/DgLWpWAhHiQ/ |
-| 140 | [InukaAsith/TwinDesk](https://github.com/InukaAsith/TwinDesk) | 143-twindesk | DESK | scheduled | 2026-11-26T10:20 |  |
-| 141 | [Anuken/Mindustry](https://github.com/Anuken/Mindustry) | 144-mindustry | FACTORY | scheduled | 2026-11-26T17:42 |  |
-| 142 | [FrigadeHQ/yogurt](https://github.com/FrigadeHQ/yogurt) | 145-yogurt | NOTES | scheduled | 2026-11-26T21:09 |  |
+| 140 | [InukaAsith/TwinDesk](https://github.com/InukaAsith/TwinDesk) | 143-twindesk | DESK | published | 2026-11-26T10:21 | https://www.instagram.com/reel/DgM4LGeCsAD/ |
+| 141 | [Anuken/Mindustry](https://github.com/Anuken/Mindustry) | 144-mindustry | FACTORY | published | 2026-11-26T17:43 | https://www.instagram.com/reel/DgNquxZBTmw/ |
+| 142 | [FrigadeHQ/yogurt](https://github.com/FrigadeHQ/yogurt) | 145-yogurt | NOTES | published | 2026-11-26T21:10 | https://www.instagram.com/reel/DgOCaQpwDlX/ |
+| 143 | [simpsoka/zigzag](https://github.com/simpsoka/zigzag) | 146-zigzag | STITCH | scheduled | 2026-11-27T11:22 |  |
+| 144 | [CapSoftware/Cap](https://github.com/CapSoftware/Cap) | 147-cap | RECORD | scheduled | 2026-11-27T17:18 |  |
+| 145 | [ejbills/DockDoor](https://github.com/ejbills/DockDoor) | 148-dockdoor | DOCK | scheduled | 2026-11-27T20:09 |  |

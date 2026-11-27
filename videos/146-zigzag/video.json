@@ -1,0 +1,121 @@
+{
+  "repo": "simpsoka/zigzag",
+  "name": "ZigZag",
+  "title": "ZigZag: free Hatch alternative",
+  "slot": 0,
+  "keyword": "STITCH",
+  "topic_arm": "hobby",
+  "format": "story",
+  "paid": {
+    "name": "Hatch Composer",
+    "price": "$699",
+    "per": "",
+    "anchor": "six",
+    "source": "https://hatchembroidery.com/products/hatch-embroidery/composer"
+  },
+  "icon": "https://raw.githubusercontent.com/simpsoka/zigzag/main/packaging/macos/AppIcon.png",
+  "job": "Turn artwork into embroidery",
+  "platforms": [
+    "Mac",
+    "Windows",
+    "Linux"
+  ],
+  "install": "brew install --cask simpsoka/zigzag/zigzag",
+  "install_url": "https://zigzag.diy/",
+  "demo": {
+    "images": [
+      "https://raw.githubusercontent.com/simpsoka/zigzag/main/examples/studio.png",
+      "https://raw.githubusercontent.com/simpsoka/zigzag/main/examples/agent-badge-preview.png"
+    ]
+  },
+  "caption": "Hatch Composer costs $699. ZigZag turns your artwork into embroidery for free 🧵\n\n✅ Turns logos and drawings into stitches\n✅ Fill, satin and run stitches, edited visually with a live preview\n✅ Exports PES, DST, EXP, JEF and VP3 for your machine\n✅ Sends designs straight to a Brother Skitch over Bluetooth\n\n💻 Mac · Windows · Linux\nℹ️ It's version 0.1, so expect rough edges, and its built-in AI helper needs Claude Code, Codex or Antigravity. Hatch has more, like built-in embroidery fonts and monogramming\n\nComment \"STITCH\" and I'll DM you the link 🔗\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #embroidery #machineembroidery #sewing #crafts #freeapps",
+  "dm_pitch": "ZigZag, the free open-source embroidery software 🧵",
+  "thumb": {
+    "big": "FREE",
+    "line1": "Hatch",
+    "line2": "alternative"
+  },
+  "beats": [
+    {
+      "say": "Embroidery software costs seven hundred dollars. This one turns your art into stitches for free.",
+      "scene": "slam",
+      "text": "$699?!",
+      "sub": "for embroidery software",
+      "accent": "free",
+      "tone": "neg",
+      "mood": "shock"
+    },
+    {
+      "say": "Wait, seven hundred?",
+      "scene": "character",
+      "text": "$699 for STITCHES? 😿",
+      "mood": "shock"
+    },
+    {
+      "say": "Hatch Composer is six ninety nine. ZigZag is zero.",
+      "scene": "versus",
+      "mood": "point",
+      "select": "zero"
+    },
+    {
+      "say": "Drop in a logo or a drawing, and it plans every stitch for you.",
+      "scene": "app",
+      "image": "https://raw.githubusercontent.com/simpsoka/zigzag/main/examples/studio.png",
+      "text": "Art → stitches",
+      "mood": "excited",
+      "accent": "every",
+      "select": "logo"
+    },
+    {
+      "say": "But here's the crazy part.",
+      "scene": "character",
+      "text": "Here's the twist 👀",
+      "mood": "excited"
+    },
+    {
+      "say": "Press play, and it shows how your machine will sew it, stitch by stitch.",
+      "scene": "app",
+      "image": "https://raw.githubusercontent.com/simpsoka/zigzag/main/examples/agent-badge-preview.png",
+      "text": "Preview the sewing",
+      "mood": "point",
+      "select": "play"
+    },
+    {
+      "say": "It saves designs for Brother, Janome and Husqvarna machines.",
+      "scene": "list",
+      "text": "Works with your machine",
+      "items": [
+        {
+          "label": "Brother",
+          "anchor": "brother"
+        },
+        {
+          "label": "Janome",
+          "anchor": "janome"
+        },
+        {
+          "label": "Husqvarna",
+          "anchor": "husqvarna"
+        }
+      ]
+    },
+    {
+      "say": "It's Hatch, minus the seven hundred dollar price tag.",
+      "scene": "slam",
+      "text": "Price tag: $0",
+      "accent": "price",
+      "mood": "smug"
+    },
+    {
+      "say": "Comment Stitch, and I'll send you the link.",
+      "scene": "cta",
+      "mood": "point"
+    }
+  ],
+  "hook_style": "story",
+  "window": "midday",
+  "publish": {
+    "date": "2026-11-27",
+    "time": "12:22"
+  }
+}

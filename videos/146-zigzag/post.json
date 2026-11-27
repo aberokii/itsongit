@@ -1,0 +1,29 @@
+{
+  "title": "ZigZag: free Hatch alternative",
+  "video": "FINAL.mp4",
+  "thumbnail": "FINAL_thumbnail.png",
+  "repo_url": "https://github.com/simpsoka/zigzag",
+  "keyword": "STITCH",
+  "caption": "Hatch Composer costs $699. ZigZag turns your artwork into embroidery for free \ud83e\uddf5\n\n\u2705 Turns logos and drawings into stitches\n\u2705 Fill, satin and run stitches, edited visually with a live preview\n\u2705 Exports PES, DST, EXP, JEF and VP3 for your machine\n\u2705 Sends designs straight to a Brother Skitch over Bluetooth\n\n\ud83d\udcbb Mac \u00b7 Windows \u00b7 Linux\n\u2139\ufe0f It's version 0.1, so expect rough edges, and its built-in AI helper needs Claude Code, Codex or Antigravity. Hatch has more, like built-in embroidery fonts and monogramming\n\nComment \"STITCH\" and I'll DM you the link \ud83d\udd17\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #embroidery #machineembroidery #sewing #crafts #freeapps",
+  "dm_pitch": "ZigZag, the free open-source embroidery software \ud83e\uddf5",
+  "install": "brew install --cask simpsoka/zigzag/zigzag",
+  "dm_on_any_comment": true,
+  "follow_gate": true,
+  "slot": 0,
+  "price_source": "https://hatchembroidery.com/products/hatch-embroidery/composer",
+  "experiment": {
+    "format": "story",
+    "hook": "story",
+    "topic": "hobby",
+    "window": "midday"
+  },
+  "idempotencyKey": "bf7f48bf-dbf4-478d-8f2f-95f7bc7acb7a",
+  "zernio": {
+    "postId": "6b09484cfe9aaa336df76af9",
+    "status": "scheduled",
+    "scheduledFor": "2026-11-27T11:22:00.000Z",
+    "url": null,
+    "automationId": "6b09484dbe3504e47e0734cd",
+    "slot": 0
+  }
+}

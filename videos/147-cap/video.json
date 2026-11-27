@@ -1,0 +1,103 @@
+{
+ "repo": "CapSoftware/Cap",
+ "name": "Cap",
+ "title": "Cap: free Loom alternative",
+ "slot": 1,
+ "keyword": "RECORD",
+ "topic_arm": "subscription",
+ "paid": {
+  "name": "Loom Business",
+  "price": "$18",
+  "per": "/month",
+  "anchor": "eighteen",
+  "source": "https://www.loom.com/pricing"
+ },
+ "icon": "https://raw.githubusercontent.com/CapSoftware/Cap/main/apps/desktop-gpui/icons/icon.png",
+ "hook": "Loom charges you eighteen bucks a month to record your screen. This app does it for free.",
+ "job": "Records and edits your screen",
+ "platforms": [
+  "Mac",
+  "Windows",
+  "Linux"
+ ],
+ "demo": {
+  "images": [
+   "assets/editor-preview.png",
+   "assets/recorder.png"
+  ]
+ },
+ "features": [
+  {
+   "say": "Record your whole screen, one window, or just an area, with your camera and mic on top.",
+   "images": [
+    "assets/recorder.png"
+   ],
+   "chips": [
+    {
+     "label": "🖥 Any window",
+     "anchor": "window"
+    },
+    {
+     "label": "📷 Camera",
+     "anchor": "camera"
+    },
+    {
+     "label": "🎙 Mic",
+     "anchor": "mic"
+    }
+   ]
+  },
+  {
+   "intro": "Then make it look pro.",
+   "say": "Add backgrounds, auto zooms and trims, then export it in 4K.",
+   "images": [
+    "assets/editor-preview.png",
+    "assets/editor.png"
+   ],
+   "chips": [
+    {
+     "label": "🎨 Backgrounds",
+     "anchor": "backgrounds"
+    },
+    {
+     "label": "🔍 Auto zoom",
+     "anchor": "zooms"
+    },
+    {
+     "label": "4K export",
+     "anchor": "4K"
+    }
+   ],
+   "swap_anchor": "zooms"
+  }
+ ],
+ "nolist": [
+  {
+   "say": "No subscription.",
+   "label": "Subscription"
+  },
+  {
+   "say": "No cloud needed.",
+   "label": "Cloud"
+  },
+  {
+   "say": "No Loom bill.",
+   "label": "Loom bill"
+  }
+ ],
+ "install": "Download free at cap.so",
+ "install_url": "https://cap.so/download",
+ "caption": "Loom charges $18/month to record your screen. Cap does it for free 🎥\n\n✅ Record your screen, a window or an area, with camera + mic\n✅ Built-in editor with backgrounds, auto zooms and trimming\n✅ Export in 4K\n✅ No subscription, runs on your computer\n\n💻 Mac · Windows · Linux\nℹ️ The free version is for personal use: local recordings have no time limit, and you get 25 share links a month (up to 5 min each). Work use needs a paid license\n\nComment \"RECORD\" and I'll DM you the link 🔗\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #screenrecorder #loom #productivity #freeapps #techtips #creator",
+ "dm_pitch": "Cap, the free open-source Loom alternative for screen recording 🎥",
+ "thumb": {
+  "big": "FREE",
+  "line1": "Loom",
+  "line2": "alternative"
+ },
+ "hook_style": "price",
+ "window": "evening",
+ "publish": {
+  "date": "2026-11-27",
+  "time": "18:18"
+ }
+}
