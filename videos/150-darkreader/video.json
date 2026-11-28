@@ -1,0 +1,117 @@
+{
+  "repo": "darkreader/darkreader",
+  "name": "Dark Reader",
+  "title": "Dark Reader: free Night Eye alternative",
+  "slot": 1,
+  "keyword": "DARK",
+  "topic_arm": "utility",
+  "paid": {
+    "name": "Night Eye Pro",
+    "price": "$9",
+    "per": "/year",
+    "anchor": "nine",
+    "source": "https://nighteye.app/plans-and-pricing/"
+  },
+  "icon": "https://raw.githubusercontent.com/darkreader/darkreader/main/src/ui/assets/images/darkreader-icon-256x256.png",
+  "job": "Turns every website dark",
+  "platforms": [
+    "Chrome",
+    "Firefox",
+    "Edge"
+  ],
+  "install": "Download from your browser's add-on store",
+  "install_url": "https://darkreader.org/",
+  "demo": {
+    "images": [
+      "https://addons.mozilla.org/user-media/previews/full/201/201069.png?modified=1638883247",
+      "https://addons.mozilla.org/user-media/previews/full/201/201070.png?modified=1638883247"
+    ]
+  },
+  "caption": "Night Eye Pro charges $9/year to put every website in dark mode. Dark Reader does it for free 🌙\n\n✅ Turns any website dark with one click\n✅ Brightness, contrast and sepia sliders\n✅ On for every site, or only the ones you pick\n✅ Doesn't send your data anywhere\n\n💻 Chrome · Firefox · Edge\nℹ️ Free on Chrome, Edge and Firefox. The Safari version is a paid App Store app, and the team asks for an optional donation\n\nComment \"DARK\" and I'll DM you the link 🔗\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #darkmode #chrome #firefox #freeapps #techtips #productivity",
+  "dm_pitch": "Dark Reader, the free open-source dark mode for every website 🌙",
+  "thumb": {
+    "big": "FREE",
+    "line1": "Night Eye",
+    "line2": "alternative"
+  },
+  "format": "story",
+  "beats": [
+    {
+      "say": "Why is anyone still paying for dark mode on websites?",
+      "scene": "slam",
+      "text": "Paying for dark mode?!",
+      "accent": "dark",
+      "tone": "neg",
+      "mood": "shock"
+    },
+    {
+      "say": "My eyes at midnight, honestly.",
+      "scene": "character",
+      "text": "My eyes!! 😵",
+      "mood": "worried"
+    },
+    {
+      "say": "Night Eye Pro charges nine bucks a year. Dark Reader costs nothing.",
+      "scene": "versus",
+      "mood": "point",
+      "select": "nothing"
+    },
+    {
+      "say": "Click once, and any website goes dark, even the blinding white ones.",
+      "scene": "app",
+      "image": "https://addons.mozilla.org/user-media/previews/full/201/201070.png?modified=1638883247",
+      "text": "Any site → dark",
+      "mood": "excited",
+      "accent": "blinding",
+      "select": "once"
+    },
+    {
+      "say": "And it gets better.",
+      "scene": "character",
+      "text": "It gets better 👀",
+      "mood": "excited"
+    },
+    {
+      "say": "Brightness, contrast and sepia all get sliders, so it looks exactly how you like.",
+      "scene": "app",
+      "image": "https://darkreader.org/images/darkreader-screenshot-v5-preview.png",
+      "text": "Your own sliders",
+      "mood": "point",
+      "accent": "exactly"
+    },
+    {
+      "say": "Turn it on everywhere, or only on the sites you pick.",
+      "scene": "list",
+      "text": "Your rules",
+      "items": [
+        {
+          "label": "🌍 Everywhere",
+          "anchor": "everywhere"
+        },
+        {
+          "label": "Only sites you pick",
+          "anchor": "only"
+        }
+      ],
+      "select": "sites"
+    },
+    {
+      "say": "It's night mode for the whole internet, for free.",
+      "scene": "slam",
+      "text": "Price: $0",
+      "accent": "free",
+      "mood": "smug"
+    },
+    {
+      "say": "Comment Dark, and I'll send you the link.",
+      "scene": "cta",
+      "mood": "point"
+    }
+  ],
+  "hook_style": "story",
+  "window": "evening",
+  "publish": {
+    "date": "2026-11-28",
+    "time": "18:05"
+  }
+}

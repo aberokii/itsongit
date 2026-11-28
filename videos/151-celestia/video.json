@@ -1,0 +1,100 @@
+{
+ "repo": "CelestiaProject/Celestia",
+ "name": "Celestia",
+ "title": "Celestia: free SpaceEngine alternative",
+ "slot": 2,
+ "keyword": "GALAXY",
+ "topic_arm": "hobby",
+ "paid": {
+  "name": "SpaceEngine",
+  "price": "$29.99",
+  "per": " one-time",
+  "anchor": "thirty",
+  "source": "https://store.steampowered.com/app/314650/SpaceEngine/"
+ },
+ "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/cd/62/d6/cd62d6b5-84c1-c0ed-eb29-567ded5c4f04/Celestia-0-0-1x_U007epad-0-0-0-1-0-0-0-85-220.png/512x512bb.png",
+ "hook": "SpaceEngine charges you thirty bucks to fly around the universe on your computer. This app does it for free.",
+ "job": "Flies you to any planet",
+ "platforms": [
+  "Windows",
+  "Mac",
+  "Linux"
+ ],
+ "demo": {
+  "images": [
+   "assets/cassini.png",
+   "assets/m33.png"
+  ]
+ },
+ "features": [
+  {
+   "say": "Fly to any planet, moon or spacecraft, or visit any of over a hundred thousand stars.",
+   "images": [
+    "assets/cassini.png",
+    "assets/neptune-voyager.png"
+   ],
+   "swap_anchor": "spacecraft",
+   "chips": [
+    {
+     "label": "🪐 Planets",
+     "anchor": "planet"
+    },
+    {
+     "label": "🛰 Spacecraft",
+     "anchor": "spacecraft"
+    },
+    {
+     "label": "⭐ 100,000+ stars",
+     "anchor": "stars"
+    }
+   ]
+  },
+  {
+   "intro": "Then keep going.",
+   "say": "Zoom out all the way to galaxies, and speed up time while you watch.",
+   "images": [
+    "assets/m33.png",
+    "assets/black-hole.png"
+   ],
+   "swap_anchor": "time",
+   "chips": [
+    {
+     "label": "🌌 Galaxies",
+     "anchor": "galaxies"
+    },
+    {
+     "label": "⏩ Speed up time",
+     "anchor": "time"
+    }
+   ]
+  }
+ ],
+ "nolist": [
+  {
+   "say": "No subscription.",
+   "label": "Subscription"
+  },
+  {
+   "say": "No account.",
+   "label": "Account"
+  },
+  {
+   "say": "No Steam purchase.",
+   "label": "Steam purchase"
+  }
+ ],
+ "install": "Download from GitHub Releases",
+ "caption": "SpaceEngine charges $29.99 to fly around the universe. Celestia does it for free 🌌\n\n✅ Fly to any planet, moon, spacecraft or one of 100,000+ stars\n✅ Zoom from a tiny spacecraft out to galaxy clusters\n✅ Speed up time and watch the planets move\n✅ Expandable with free add-ons, no purchase needed\n\n💻 Windows · Mac · Linux\nℹ️ The desktop app is completely free. The Celestia mobile apps for iPhone and Android are free to download but offer an optional paid Celestia PLUS subscription\n\nComment \"GALAXY\" and I'll DM you the link 🔗\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #space #astronomy #celestia #spaceengine #freeapps #techtips",
+ "dm_pitch": "Celestia, the free open-source SpaceEngine alternative for exploring the universe 🌌",
+ "thumb": {
+  "big": "FREE",
+  "line1": "SpaceEngine",
+  "line2": "alternative"
+ },
+ "hook_style": "price",
+ "window": "night",
+ "publish": {
+  "date": "2026-11-28",
+  "time": "21:44"
+ }
+}

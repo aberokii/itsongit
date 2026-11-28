@@ -1,0 +1,29 @@
+{
+  "title": "Celestia: free SpaceEngine alternative",
+  "video": "FINAL.mp4",
+  "thumbnail": "FINAL_thumbnail.png",
+  "repo_url": "https://github.com/CelestiaProject/Celestia",
+  "keyword": "GALAXY",
+  "caption": "SpaceEngine charges $29.99 to fly around the universe. Celestia does it for free \ud83c\udf0c\n\n\u2705 Fly to any planet, moon, spacecraft or one of 100,000+ stars\n\u2705 Zoom from a tiny spacecraft out to galaxy clusters\n\u2705 Speed up time and watch the planets move\n\u2705 Expandable with free add-ons, no purchase needed\n\n\ud83d\udcbb Windows \u00b7 Mac \u00b7 Linux\n\u2139\ufe0f The desktop app is completely free. The Celestia mobile apps for iPhone and Android are free to download but offer an optional paid Celestia PLUS subscription\n\nComment \"GALAXY\" and I'll DM you the link \ud83d\udd17\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #space #astronomy #celestia #spaceengine #freeapps #techtips",
+  "dm_pitch": "Celestia, the free open-source SpaceEngine alternative for exploring the universe \ud83c\udf0c",
+  "install": "Download from GitHub Releases",
+  "dm_on_any_comment": true,
+  "follow_gate": true,
+  "slot": 2,
+  "price_source": "https://store.steampowered.com/app/314650/SpaceEngine/",
+  "experiment": {
+    "format": "classic",
+    "hook": "price",
+    "topic": "hobby",
+    "window": "night"
+  },
+  "idempotencyKey": "f972ffdc-8604-418a-b54d-9de14b175a42",
+  "zernio": {
+    "postId": "6b0a9a0ad17239f5523e7968",
+    "status": "scheduled",
+    "scheduledFor": "2026-11-28T20:44:00.000Z",
+    "url": null,
+    "automationId": "6b0a9a0b049d0be69559b07f",
+    "slot": 2
+  }
+}

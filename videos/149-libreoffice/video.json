@@ -1,0 +1,95 @@
+{
+  "repo": "LibreOffice/core",
+  "name": "LibreOffice",
+  "title": "LibreOffice: free Microsoft Office alternative",
+  "slot": 0,
+  "keyword": "OFFICE",
+  "topic_arm": "subscription",
+  "paid": {
+    "name": "Microsoft 365 Personal",
+    "price": "$99.99",
+    "per": "/year",
+    "anchor": "hundred",
+    "source": "https://www.microsoft.com/en-us/microsoft-365/buy/compare-all-microsoft-365-products"
+  },
+  "icon": "https://raw.githubusercontent.com/LibreOffice/core/master/android/app/ic_launcher-web.png",
+  "hook": "Microsoft 365 charges you a hundred bucks a year to write documents and spreadsheets. This app does it for free.",
+  "job": "Edits docs, sheets and slides",
+  "platforms": [
+    "Mac",
+    "Windows",
+    "Linux"
+  ],
+  "demo": {
+    "images": [
+      "https://www.libreoffice.org/media/screenshot_writer.png",
+      "https://www.libreoffice.org/media/screenshot_impress.png"
+    ]
+  },
+  "features": [
+    {
+      "say": "Writer handles your documents, and Calc crunches numbers in spreadsheets.",
+      "images": [
+        "https://www.libreoffice.org/media/screenshot_writer.png",
+        "https://www.libreoffice.org/media/screenshot_calc.png"
+      ],
+      "swap_anchor": "Calc",
+      "chips": [
+        {
+          "label": "📝 Documents",
+          "anchor": "documents"
+        },
+        {
+          "label": "📊 Spreadsheets",
+          "anchor": "spreadsheets"
+        }
+      ],
+      "intro": "Three apps. Zero dollars."
+    },
+    {
+      "say": "Impress builds your slideshows, and it works with most document formats.",
+      "images": [
+        "https://www.libreoffice.org/media/screenshot_impress.png"
+      ],
+      "chips": [
+        {
+          "label": "🎞 Slideshows",
+          "anchor": "slideshows"
+        },
+        {
+          "label": "Most formats",
+          "anchor": "formats"
+        }
+      ]
+    }
+  ],
+  "nolist": [
+    {
+      "say": "No subscription.",
+      "label": "Subscription"
+    },
+    {
+      "say": "No forced AI.",
+      "label": "Forced AI"
+    },
+    {
+      "say": "No Microsoft bill.",
+      "label": "Microsoft bill"
+    }
+  ],
+  "install": "brew install --cask libreoffice",
+  "install_url": "https://www.libreoffice.org/download/download-libreoffice/",
+  "caption": "Microsoft 365 charges $99.99/year. LibreOffice does it for free 📄\n\n✅ Writer for documents, Calc for spreadsheets, Impress for presentations\n✅ Compatible with most document formats\n✅ No subscription, no forced AI\n✅ Free to download, use and share\n\n💻 Mac · Windows · Linux\n\nComment \"OFFICE\" and I'll DM you the link 🔗\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #libreoffice #microsoftoffice #productivity #freeapps #techtips #office",
+  "dm_pitch": "LibreOffice, the free open-source Microsoft Office alternative 📄",
+  "thumb": {
+    "big": "FREE",
+    "line1": "Microsoft Office",
+    "line2": "alternative"
+  },
+  "hook_style": "demo",
+  "window": "midday",
+  "publish": {
+    "date": "2026-11-28",
+    "time": "11:40"
+  }
+}

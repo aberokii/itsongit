@@ -48,9 +48,9 @@ The scout (`pipeline/scout.py`) skips these automatically via `data/posted.json`
 | 41 | [JerryZLiu/Dayflow](https://github.com/JerryZLiu/Dayflow) | 041-dayflow | TIME | scheduled | 2026-10-26T13:43 |  |
 | 42 | [jellyfin/jellyfin](https://github.com/jellyfin/jellyfin) | 042-jellyfin | MOVIES | scheduled | 2026-10-26T18:51 |  |
 | 43 | [lively-community/lively](https://github.com/lively-community/lively) | 043-lively | LIVELY | scheduled | 2026-10-26T20:14 |  |
-| 44 | [ankitects/anki](https://github.com/ankitects/anki) | 044-anki | STUDY | published | 2026-10-27T10:40 | https://www.instagram.com/reel/De_qe2eFUBt/ |
-| 45 | [KDE/krita](https://github.com/KDE/krita) | 045-krita | PAINT | published | 2026-10-27T12:06 | https://www.instagram.com/reel/De_0URkESnj/ |
-| 46 | [exelban/stats](https://github.com/exelban/stats) | 046-stats | STATS | published | 2026-10-27T13:32 | https://www.instagram.com/reel/De_-JtkgGNE/ |
+| 44 | [ankitects/anki](https://github.com/ankitects/anki) | 044-anki | STUDY | scheduled | 2026-10-27T10:38 |  |
+| 45 | [KDE/krita](https://github.com/KDE/krita) | 045-krita | PAINT | scheduled | 2026-10-27T12:04 |  |
+| 46 | [exelban/stats](https://github.com/exelban/stats) | 046-stats | STATS | scheduled | 2026-10-27T13:31 |  |
 | 47 | [espanso/espanso](https://github.com/espanso/espanso) | 047-espanso | SNIPPET | published | 2026-10-27T20:29 | https://www.instagram.com/reel/DfAt1_nCZBf/ |
 | 48 | [musescore/MuseScore](https://github.com/musescore/MuseScore) | 048-musescore | MUSIC | published | 2026-10-27T21:48 | https://www.instagram.com/reel/DfA26jgGmoI/ |
 | 49 | [xevrion/hatchzip](https://github.com/xevrion/hatchzip) | 049-hatchzip | UNZIP | published | 2026-10-28T11:23 | https://www.instagram.com/reel/DfCUK8tgiEF/ |
@@ -147,6 +147,9 @@ The scout (`pipeline/scout.py`) skips these automatically via `data/posted.json`
 | 140 | [InukaAsith/TwinDesk](https://github.com/InukaAsith/TwinDesk) | 143-twindesk | DESK | published | 2026-11-26T10:21 | https://www.instagram.com/reel/DgM4LGeCsAD/ |
 | 141 | [Anuken/Mindustry](https://github.com/Anuken/Mindustry) | 144-mindustry | FACTORY | published | 2026-11-26T17:43 | https://www.instagram.com/reel/DgNquxZBTmw/ |
 | 142 | [FrigadeHQ/yogurt](https://github.com/FrigadeHQ/yogurt) | 145-yogurt | NOTES | published | 2026-11-26T21:10 | https://www.instagram.com/reel/DgOCaQpwDlX/ |
-| 143 | [simpsoka/zigzag](https://github.com/simpsoka/zigzag) | 146-zigzag | STITCH | scheduled | 2026-11-27T11:22 |  |
-| 144 | [CapSoftware/Cap](https://github.com/CapSoftware/Cap) | 147-cap | RECORD | scheduled | 2026-11-27T17:18 |  |
-| 145 | [ejbills/DockDoor](https://github.com/ejbills/DockDoor) | 148-dockdoor | DOCK | scheduled | 2026-11-27T20:09 |  |
+| 143 | [simpsoka/zigzag](https://github.com/simpsoka/zigzag) | 146-zigzag | STITCH | published | 2026-11-27T11:23 | https://www.instagram.com/reel/DgPkB1thM14/ |
+| 144 | [CapSoftware/Cap](https://github.com/CapSoftware/Cap) | 147-cap | RECORD | published | 2026-11-27T17:19 | https://www.instagram.com/reel/DgQMxkTBSf1/ |
+| 145 | [ejbills/DockDoor](https://github.com/ejbills/DockDoor) | 148-dockdoor | DOCK | published | 2026-11-27T20:10 | https://www.instagram.com/reel/DgQgVicx0_h/ |
+| 146 | [LibreOffice/core](https://github.com/LibreOffice/core) | 149-libreoffice | OFFICE | scheduled | 2026-11-28T10:40 |  |
+| 147 | [darkreader/darkreader](https://github.com/darkreader/darkreader) | 150-darkreader | DARK | scheduled | 2026-11-28T17:05 |  |
+| 148 | [CelestiaProject/Celestia](https://github.com/CelestiaProject/Celestia) | 151-celestia | GALAXY | scheduled | 2026-11-28T20:44 |  |

@@ -1,0 +1,29 @@
+{
+  "title": "Dark Reader: free Night Eye alternative",
+  "video": "FINAL.mp4",
+  "thumbnail": "FINAL_thumbnail.png",
+  "repo_url": "https://github.com/darkreader/darkreader",
+  "keyword": "DARK",
+  "caption": "Night Eye Pro charges $9/year to put every website in dark mode. Dark Reader does it for free \ud83c\udf19\n\n\u2705 Turns any website dark with one click\n\u2705 Brightness, contrast and sepia sliders\n\u2705 On for every site, or only the ones you pick\n\u2705 Doesn't send your data anywhere\n\n\ud83d\udcbb Chrome \u00b7 Firefox \u00b7 Edge\n\u2139\ufe0f Free on Chrome, Edge and Firefox. The Safari version is a paid App Store app, and the team asks for an optional donation\n\nComment \"DARK\" and I'll DM you the link \ud83d\udd17\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #darkmode #chrome #firefox #freeapps #techtips #productivity",
+  "dm_pitch": "Dark Reader, the free open-source dark mode for every website \ud83c\udf19",
+  "install": "Download from your browser's add-on store",
+  "dm_on_any_comment": true,
+  "follow_gate": true,
+  "slot": 1,
+  "price_source": "https://nighteye.app/plans-and-pricing/",
+  "experiment": {
+    "format": "story",
+    "hook": "story",
+    "topic": "utility",
+    "window": "evening"
+  },
+  "idempotencyKey": "eab62092-4df7-461a-b180-674176f71959",
+  "zernio": {
+    "postId": "6b0a98e6c343e8db7649dca7",
+    "status": "scheduled",
+    "scheduledFor": "2026-11-28T17:05:00.000Z",
+    "url": null,
+    "automationId": "6b0a98e71a7184659a2c5ed2",
+    "slot": 1
+  }
+}

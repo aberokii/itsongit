@@ -1,0 +1,29 @@
+{
+  "title": "LibreOffice: free Microsoft Office alternative",
+  "video": "FINAL.mp4",
+  "thumbnail": "FINAL_thumbnail.png",
+  "repo_url": "https://github.com/LibreOffice/core",
+  "keyword": "OFFICE",
+  "caption": "Microsoft 365 charges $99.99/year. LibreOffice does it for free \ud83d\udcc4\n\n\u2705 Writer for documents, Calc for spreadsheets, Impress for presentations\n\u2705 Compatible with most document formats\n\u2705 No subscription, no forced AI\n\u2705 Free to download, use and share\n\n\ud83d\udcbb Mac \u00b7 Windows \u00b7 Linux\n\nComment \"OFFICE\" and I'll DM you the link \ud83d\udd17\n\nFollow @itsongit for a new free open-source find every day\n\n#opensource #github #libreoffice #microsoftoffice #productivity #freeapps #techtips #office",
+  "dm_pitch": "LibreOffice, the free open-source Microsoft Office alternative \ud83d\udcc4",
+  "install": "brew install --cask libreoffice",
+  "dm_on_any_comment": true,
+  "follow_gate": true,
+  "slot": 0,
+  "price_source": "https://www.microsoft.com/en-us/microsoft-365/buy/compare-all-microsoft-365-products",
+  "experiment": {
+    "format": "classic",
+    "hook": "demo",
+    "topic": "subscription",
+    "window": "midday"
+  },
+  "idempotencyKey": "cccbdf3f-9385-4b74-b5f8-0a122b5da86a",
+  "zernio": {
+    "postId": "6b0a97c79ddcca7abc3e526f",
+    "status": "scheduled",
+    "scheduledFor": "2026-11-28T10:40:00.000Z",
+    "url": null,
+    "automationId": "6b0a97c847bc78f7304e7ced",
+    "slot": 0
+  }
+}
